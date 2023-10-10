@@ -14,13 +14,13 @@
 .env.development.local
 .env.test.local
 .env.production.local
-.nyc
 .env
 
 # npm
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.npm
 
 # yarn v2
 .yarn/cache
