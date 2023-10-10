@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[2943],{1966:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/openbld.net/blog/tags/docusaurus","allTagsPath":"/openbld.net/blog/tags","count":4}')}}]);
