@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// Depended on from tailwindcss postcss autoprefixer
 module.exports = {
   content: [
       // "./src/components/**/*.{js,jsx,ts,tsx}",
