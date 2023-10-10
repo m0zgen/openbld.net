@@ -1,0 +1,108 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/*Add Tailwind*/
+/*@tailwind base;*/
+@tailwind components;
+@tailwind utilities;
+
+a svg {
+  fill: currentColor;
+  display: inline;
+  vertical-align: middle;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ul-cloud-p-border: 1px solid #ececec;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-background-color: #070a11;
+  --ul-cloud-p-border: 1px solid #343e52;
+}
+
+/*Logos cloud*/
+.logotypes {
+  /*max-width: 700px;*/
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logotypes img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: auto;
+  max-width: 230px;
+  max-height: 85px;
+  border: var(--ul-cloud-p-border);
+}
+
+img.imagessmaller.logo-bg-white {
+  background: white;
+}
+
+/*Users Cloud*/
+ul.cloud {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /*line-height: 2.5rem;*/
+}
+
+ul.cloud li {
+  margin-right: 1rem;
+}
+
+ul.cloud a {
+  /*color: #a33;*/
+  display: block;
+  /*font-size: 1.5rem;*/
+  text-decoration: none;
+  position: relative;
+}
+
+ul.cloud p {
+  display: block;
+  border-radius: 3px;
+  border: var(--ul-cloud-p-border);
+  padding: 0.125rem 1.25rem 0.125rem;
+  text-decoration: none;
+  position: relative;
+  margin-bottom: 1rem;
+  /*margin-right: 3px;*/
+  /*padding-right: 1.125rem;*/
+}
+
+/*[data-theme='dark'] {*/
+/*  */
+/*}*/
