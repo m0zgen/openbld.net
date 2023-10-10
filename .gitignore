@@ -17,6 +17,11 @@
 *~
 trash
 
+# IDEs
+.vscode
+.vscode-test
+.idea
+
 # Envs
 .env.local
 .env.development.local
