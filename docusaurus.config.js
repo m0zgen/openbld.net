@@ -20,7 +20,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'm0zgen', // Usually your GitHub org/user name.
   projectName: 'openbld.net', // Usually your repo name.
-  // deploymentBranch: 'gh-pages',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: true,
 
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
@@ -95,7 +96,7 @@ const config = {
       navbar: {
         title: 'OpenBLD.net DNS',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'OpenBLD.net Logo',
           src: 'img/openbld-navbar-logo.png',
         },
         items: [
@@ -124,12 +125,12 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Tutorial',
-                to: '/docs/tutorial',
+                label: 'Get Started',
+                to: '/docs/category/get-started',
               },
               {
                 label: 'Disclaimer',
-                to: '/docs/changelog',
+                to: '/docs/disclaimer',
               }
             ],
           },
