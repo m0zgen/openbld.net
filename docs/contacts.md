@@ -1,7 +1,9 @@
 ---
-sidebar_position: 98
+sidebar_position: 100
 ---
 
-# Donations
+# Contacts
 
-TODO: Update this page
+You can contact to me, follow the OpenBLD notes and news through the following channels:
+* Official channel - [Sys-Admin & InfoSec Channel](https://t.me/sysadm_in_channel)
+* Forum - https://forum.sys-adm.in
