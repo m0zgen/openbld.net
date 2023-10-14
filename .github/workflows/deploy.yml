@@ -28,9 +28,10 @@ jobs:
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to gh-pages
+        if: github.ref == 'refs/heads/master'
+        uses: JamesIves/github-pages-deploy-action@4.1.8
         with:
-          # Build output to publish to the `gh-pages` branch:
-          publish_dir: ./openbld.net/build
+          branch: gh-pages
+          folder: build
 
