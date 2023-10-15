@@ -143,11 +143,11 @@ const config = {
               },
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/yevgeniy-goncharov/',
+                href: 'https://www.linkedin.com/company/openbld',
               },
               {
                 label: 'Telegram',
-                href: 'https://t.me/sysadm_in_channel',
+                href: 'https://t.me/openbld',
               },
             ],
           },
