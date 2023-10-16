@@ -16,7 +16,7 @@ You can help to OpenBLD DNS Project with few activities - testing, using and giv
 
 ## How testing
 
-[Setup](/docs/get-started) ADA or RIC ([Diff ADA and RIC](/docs/overwiew/3.diff-ada-and-ric.md)) in your environment and enjoy. 
+[Setup](/docs/category/get-started) ADA or RIC ([ADA and RIC Differences](/docs/overwiew/how-it-works#ada-vs-ric)) in your environment and enjoy. 
 If you catch some issues please contact me though [Contact](/docs/contacts.md) page.
 
 ## How contribute
