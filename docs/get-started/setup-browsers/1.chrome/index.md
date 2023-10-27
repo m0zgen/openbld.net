@@ -20,3 +20,4 @@ Just copy and paste this link to your browser settings:
 
 ```shell
 https://ada.openbld.net/dns-query
+```
