@@ -4,4 +4,6 @@ sidebar_position: 1
 
 # MacOS
 
-TODO: Update this page
+Setup OpenBLD.net on macOS
+
+
