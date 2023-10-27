@@ -13,4 +13,3 @@ Setup OpenBLD.net on Linux Distros
 5. Change DNS settings:
     - Preferred DNS `46.151.29.15`
     - Alternate DNS `88.210.11.120`
-
