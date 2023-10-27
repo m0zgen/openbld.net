@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-## OpenBLD.net Docs
+## OpenBLD.net Service Project
 
 OpenBLD.net service is designed to minimize Internet noise in the form of advertising, tracking, etc. 
 This allows you to be yourself, to be in focus while Internet surfing.

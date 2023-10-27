@@ -27,7 +27,7 @@ function HomepageHeader() {
             {/*Header buttons*/}
             <Link
                 className="inline-flex px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 hover:text-green-200 focus:ring-blue-200 rounded-full"
-                to="/docs/intro"
+                to="/docs/category/get-started"
             >
                 How to setup - 5min ⏱️
             </Link>
@@ -36,7 +36,7 @@ function HomepageHeader() {
                 className="mt-3 md:mt-0 lg:mt-0 inline-flex items-center ml-3 px-8 py-3.5 text-lg text-center text-green-100 font-bold transition-colors duration-150 bg-amber-600 dark:bg-green-700 focus:shadow-outline hover:bg-green-800 hover:text-gray-200 rounded-full"
                 to="/docs/intro"
             >
-                <span>How to Help us</span>
+                <span>Introduction</span>
                 <svg className="w-4 h-4 ml-3 fill-current" viewBox="0 0 20 20">
                     <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" fill-rule="evenodd"></path>
                 </svg>
