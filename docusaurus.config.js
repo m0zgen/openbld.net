@@ -4,6 +4,9 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const url = process.env.URL || 'https://m0zgen.github.io';
+const baseUrl = process.env.BASE_URL || '/openbld.net/';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free',
@@ -11,10 +14,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://m0zgen.github.io',
+  url: url,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/openbld.net/',
+  baseUrl: baseUrl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
