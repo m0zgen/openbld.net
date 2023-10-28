@@ -36,11 +36,22 @@ function HomepageHeader() {
                 className="mt-3 md:mt-0 lg:mt-0 inline-flex items-center ml-3 px-8 py-3.5 text-lg text-center text-green-100 font-bold transition-colors duration-150 bg-amber-600 dark:bg-green-700 focus:shadow-outline hover:bg-green-800 hover:text-gray-200 rounded-full"
                 to="/docs/intro"
             >
-                <span>Introduction</span>
+                <span>OpenBLD.net Intro</span>
                 <svg className="w-4 h-4 ml-3 fill-current" viewBox="0 0 20 20">
                     <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" fill-rule="evenodd"></path>
                 </svg>
             </Link>
+
+            <div className='flex justify-center max-w-lg flex-col mx-auto mt-8'>
+                <h2 className="text-3xl font-semibold tracking-tight text-center dark:text-gray-200">
+                    Be yourself, be focused
+                </h2>
+                <p className="mt-1 text-sm text-center text-white dark:text-gray-400">
+                    OpenBLD.net service is designed to minimize Internet noise in the form of advertising, tracking, etc. This allows you to be yourself, to be in focus while Internet surfing. <a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                    Help Us
+                </a>
+                </p>
+            </div>
 
             {/*<div className={styles.buttons}>*/}
             {/*  <Link*/}
@@ -102,27 +113,12 @@ function FeaturesListHeading() {
                                             Unlimited access with 100k+ queries per day
                                         </li>
                                         <li class="flex items-center">
-                                            <svg class="w-3.5 h-3.5 mr-2 text-red-500 dark:text-red-500 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                            <svg class="w-3.5 h-3.5 mr-2 mb-3 text-red-500 dark:text-red-500 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" fill-rule="evenodd"></path>
                                             </svg>
-                                            Service lives thanks to your help. Help us to improve this advantages
+                                            <p>Service lives thanks to your help. Help us to improve this advantages. <a className="text-blue-600 dark:text-blue-500" href="/docs/overwiew/openbld-plus">Get benefits from Donations</a></p>
                                         </li>
                                     </ul>
-
-                                    {/*Bottom list link*/}
-                                    <div className="flex flex-wrap">
-                                        <div className="w-full md:w-auto p-2">
-
-                                            <div className="ml-3">
-                                                {/*<a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">*/}
-                                                {/*    Read more*/}
-                                                {/*</a>*/}
-                                                <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
-                                                    Get benefits from Donations
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
 
@@ -135,15 +131,19 @@ function FeaturesListHeading() {
                                     <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                                         Browser quick setup
                                     </h5>
-                                    <p className="font-normal text-gray-700 dark:text-gray-400">
-                                        Adapted (ADA): for most users:
+                                    <p className="font-normal text-gray-700 dark:text-gray-400 m-0">
+                                        Adapted (ADA). For most users:
                                     </p>
-                                    <code>https://ada.openbld.net/dns-query</code>
-
-                                    <p className="font-normal text-gray-700 dark:text-gray-400">
-                                        Strict (RIC): more strictly policies:
+                                    <code className="text-green-800 dark:text-green-400">https://ada.openbld.net/dns-query</code>
+                                    <p className="m-0">
+                                        Get Started for: <a href="/docs/category/setup-browsers" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                            Browsers
+                                        </a>, <a href="/docs/category/setup-mobile-devices" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                            Mobile
+                                        </a>, and <a href="/docs/get-started/where-to-start" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                             more...
+                                        </a>
                                     </p>
-                                    <code>https://ric.openbld.net/dns-query</code>
 
                                 </div>
 
