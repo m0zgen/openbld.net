@@ -2,7 +2,7 @@
 slug: welcome
 title: Welcome
 authors: [sysadminkz]
-tags: [hello, OpenBLD.net, welcome]
+tags: [hello, openbld, welcome]
 ---
 
 Few time ago I decided move OpenBLD.net content from Nuxt3 to Docusaurus blogging system.
