@@ -204,7 +204,7 @@ export default function HomepageThanks() {
                 </div>
 
                 <div className="flex flex-col items-center justify-center w-full">
-                    <a href="#" className="justify-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                    <a href="/docs/donation" className="justify-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
                         How you can assist to project?
                     </a>
                 </div>
