@@ -29,7 +29,7 @@ export default function HomepageThanks() {
               <div class="bg-white dark:bg-[#070a11]">
 
                   <div id="clientlogosrow" className="logotypes">
-
+                      {/*For styling see custom.css stylesheet*/}
                       {logos.map((logo, i) => {
                               return (
 
