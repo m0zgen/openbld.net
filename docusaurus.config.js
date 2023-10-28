@@ -110,8 +110,13 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'https://github.com/0xERR0R/blocky',
+            label: 'Based on Blocky',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/m0zgen',
-            label: 'GitHub',
+            label: 'My GitHub',
             position: 'right',
           },
         ],
