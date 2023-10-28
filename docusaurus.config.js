@@ -94,7 +94,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/open-bld-og-logo-1200.jpg',
       navbar: {
         title: 'OpenBLD.net DNS',
         logo: {
