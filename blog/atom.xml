@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://m0zgen.github.io/openbld.net/blog</id>
+    <id>https://openbld.net/blog</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
     <updated>2023-10-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://m0zgen.github.io/openbld.net/blog"/>
+    <link rel="alternate" href="https://openbld.net/blog"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
-    <icon>https://m0zgen.github.io/openbld.net/img/favicon.ico</icon>
+    <icon>https://openbld.net/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://m0zgen.github.io/openbld.net/blog/welcome</id>
-        <link href="https://m0zgen.github.io/openbld.net/blog/welcome"/>
+        <id>https://openbld.net/blog/welcome</id>
+        <link href="https://openbld.net/blog/welcome"/>
         <updated>2023-10-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Few time ago I decided move OpenBLD.net content from Nuxt3 to Docusaurus blogging system.]]></summary>
         <content type="html"><![CDATA[<p>Few time ago I decided move OpenBLD.net content from Nuxt3 to Docusaurus blogging system.</p><p>Docusaurus it is a best choose for OpenBLD.net Service Project. With <a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>,
-we can use markdown files (or folders) in to the <code>blog</code> directory.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/openbld.net/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>Thanks, Docusaurus, for this functionality and flexible content management system!</p>]]></content>
+we can use markdown files (or folders) in to the <code>blog</code> directory.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>Thanks, Docusaurus, for this functionality and flexible content management system!</p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>
@@ -25,11 +25,11 @@ we can use markdown files (or folders) in to the <code>blog</code> directory.</p
     </entry>
     <entry>
         <title type="html"><![CDATA[OpenBLD.net and ClouDNS]]></title>
-        <id>https://m0zgen.github.io/openbld.net/blog/openbld-and-cloudns</id>
-        <link href="https://m0zgen.github.io/openbld.net/blog/openbld-and-cloudns"/>
+        <id>https://openbld.net/blog/openbld-and-cloudns</id>
+        <link href="https://openbld.net/blog/openbld-and-cloudns"/>
         <updated>2023-05-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net — Next Stage to Growth with ClouDNS]]></summary>
-        <content type="html"><![CDATA[<p>OpenBLD.net — Next Stage to Growth with <a href="https://www.cloudns.net/aff/id/751533/" target="_blank" rel="noopener noreferrer">ClouDNS</a></p><p>GeoDNS and Global Anycast DNS features from ClouDNS - it as a brilliant opportunity for additional OpenBLD Performance and Availability</p><p>Today ClouDNS supported OpenBLD DNS and provided own features for free:</p><ul><li>Anycast DNS service and Anycast GeoDNS servers</li><li>DDoS Protection</li><li>DNS Failover checks</li><li>EDNS-client-subnet support</li><li>and more...</li></ul><p>ClouDNS providing flexible tools for managements services and very affordable pricing plans and it is I like it very much.</p><p>This can be a key milestone in the development phase of the OpenBLD project, it is a next stage for growth. I have special domain name for OpenBLD DNS project, may be it is a "that very moment"...</p><ul><li>All ClouDNS features you can found on <a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS Site</a></li><li>How to protect for your self and family with OpenBLD.net <a href="/openbld.net/docs/category/get-started">here</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<p>OpenBLD.net — Next Stage to Growth with <a href="https://www.cloudns.net/aff/id/751533/" target="_blank" rel="noopener noreferrer">ClouDNS</a></p><p>GeoDNS and Global Anycast DNS features from ClouDNS - it as a brilliant opportunity for additional OpenBLD Performance and Availability</p><p>Today ClouDNS supported OpenBLD DNS and provided own features for free:</p><ul><li>Anycast DNS service and Anycast GeoDNS servers</li><li>DDoS Protection</li><li>DNS Failover checks</li><li>EDNS-client-subnet support</li><li>and more...</li></ul><p>ClouDNS providing flexible tools for managements services and very affordable pricing plans and it is I like it very much.</p><p>This can be a key milestone in the development phase of the OpenBLD project, it is a next stage for growth. I have special domain name for OpenBLD DNS project, may be it is a "that very moment"...</p><ul><li>All ClouDNS features you can found on <a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS Site</a></li><li>How to protect for your self and family with OpenBLD.net <a href="/docs/category/get-started">here</a></li></ul>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>

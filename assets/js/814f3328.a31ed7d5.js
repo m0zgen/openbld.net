@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/openbld.net/blog/welcome"},{"title":"OpenBLD.net and ClouDNS","permalink":"/openbld.net/blog/openbld-and-cloudns"}]}')}}]);
