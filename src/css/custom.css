@@ -42,7 +42,7 @@ a svg {
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-navbar-background-color: #070a11;
-  --ul-cloud-p-border: 1px solid #343e52;
+  --ul-cloud-p-border: 1px solid #121724;
 }
 
 /*Logos cloud*/
@@ -56,11 +56,11 @@ a svg {
 }
 
 .logotypes img {
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
   width: auto;
-  max-width: 230px;
-  max-height: 85px;
+  max-width: 260px;
+  max-height: 115px;
   border: var(--ul-cloud-p-border);
 }
 
