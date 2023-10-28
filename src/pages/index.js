@@ -10,6 +10,7 @@ import HomepageCompareAdaAndRic from '@site/src/components/HomepageCompareAdaAnd
 
 import styles from './index.module.css';
 
+// Header Component
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -42,12 +43,13 @@ function HomepageHeader() {
                 </svg>
             </Link>
 
+            {/*Subheader*/}
             <div className='flex justify-center max-w-lg flex-col mx-auto mt-8'>
                 <h2 className="text-3xl font-semibold tracking-tight text-center dark:text-gray-200">
                     Be yourself, be focused
                 </h2>
                 <p className="mt-1 text-sm text-center text-white dark:text-gray-400">
-                    OpenBLD.net service is designed to minimize Internet noise in the form of advertising, tracking, etc. This allows you to be yourself, to be in focus while Internet surfing. <a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                    OpenBLD.net is a service designed to minimize Internet noise such as advertising and tracking, allowing you to be yourself and stay focused while surfing the Internet. And of course you can <a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
                     Help Us
                 </a>
                 </p>
@@ -61,6 +63,7 @@ function HomepageHeader() {
   );
 }
 
+// Get in a better way to work online
 function FeaturesListHeading() {
 
     return (
@@ -224,6 +227,7 @@ function FeaturesListHeading() {
 
 }
 
+// Components construct for Homepage
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
