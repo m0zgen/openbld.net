@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free',
-  tagline: 'for free - with GeoDNS, DNSSEC, DoT, DoH',
+  tagline: 'Free DNS - with DNSSEC, DoT, DoH',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
