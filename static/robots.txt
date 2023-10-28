@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://m0zgen.github.io/openbld.net
+
+# Sitemaps
+Sitemap: https://m0zgen.github.io/openbld.net/sitemap.xml
