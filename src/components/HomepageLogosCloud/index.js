@@ -16,7 +16,7 @@ const logos = [
 
 export default function HomepageThanks() {
   return (
-      <section class="py-10 bg-gray-50 overflow-hidden dark:bg-[#070a11]">
+      <section id="company-logos" className="py-10 bg-gray-50 overflow-hidden dark:bg-[#070a11]">
           <div class="container mx-auto px-4">
 
               <div className="flex flex-col items-center justify-center w-full mb-10">
