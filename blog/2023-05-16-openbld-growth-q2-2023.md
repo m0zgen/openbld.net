@@ -31,6 +31,6 @@ All of this growth and development would not have been possible without the incr
 Special thanks to the Kazakhstan-based hosting providers [Unihost.kz](https://unihost.kz/) and [GOhost.kz](https://gohost.kz/) for their support and collaboration 🤜️️️️️️🤛️️️️️️
 
 ## Join Us
-You, too, can contribute to this open service aimed at filtering malicious content. Reach out to us with [Contacts](/docs/contacts.md) page to be part of our mission.
+You, too, can contribute to this open service aimed at filtering malicious content. Reach out to us with [Contacts](/docs/contacts) page to be part of our mission.
 
 OpenBLD.net is growing, evolving, and making the Internet a better place for everyone. Join us in this exciting journey! 🚀
