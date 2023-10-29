@@ -110,8 +110,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/0xERR0R/blocky',
-            label: 'Based on Blocky',
+            href: '/docs/overwiew/how-it-works',
+            label: 'How it works',
             position: 'right',
           },
           {
