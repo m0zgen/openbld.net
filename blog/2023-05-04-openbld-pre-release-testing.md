@@ -1,11 +1,7 @@
 ---
 slug: openbld-pre-release-testing
 title: GeoDNS Pre-release Testing
-authors:
-  name: Yevgeniy Goncharov
-  title: OpenBLD.net Team
-  url: https://github.com/m0zgen
-  image_url: https://github.com/m0zgen.png
+authors: [sysadminkz]
 tags: [openbld, dns, cloudns, testing]
 ---
 

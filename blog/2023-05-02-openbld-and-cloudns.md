@@ -1,11 +1,7 @@
 ---
 slug: openbld-and-cloudns
 title: OpenBLD.net and ClouDNS
-authors:
-  name: Yevgeniy Goncharov
-  title: OpenBLD.net Team
-  url: https://github.com/m0zgen
-  image_url: https://github.com/m0zgen.png
+authors: [sysadminkz]
 tags: [openbld, dns, cloudns]
 ---
 

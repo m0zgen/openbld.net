@@ -1,11 +1,7 @@
 ---
 slug: fake-update-drops-aurora-stealer
-title: Blocking Aurora Stealer 
-authors:
-  name: Yevgeniy Goncharov
-  title: OpenBLD.net Team
-  url: https://github.com/m0zgen
-  image_url: https://github.com/m0zgen.png
+title: Blocking Aurora Stealer
+authors: [sysadminkz]
 tags: [openbld, protection]
 ---
 
