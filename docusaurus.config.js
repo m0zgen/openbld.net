@@ -23,7 +23,7 @@ const config = {
   organizationName: 'm0zgen', // Usually your GitHub org/user name.
   projectName: 'openbld.net', // Usually your repo name.
   deploymentBranch: 'gh-pages',
-  trailingSlash: false,
+  trailingSlash: true,
 
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
