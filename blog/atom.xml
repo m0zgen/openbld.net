@@ -24,6 +24,22 @@ we can use markdown files (or folders) in to the <code>blog</code> directory.</p
         <category label="welcome" term="welcome"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Blocking Google Ads Spreads]]></title>
+        <id>https://openbld.net/blog/openbld-prevent-google-ads-malware</id>
+        <link href="https://openbld.net/blog/openbld-prevent-google-ads-malware"/>
+        <updated>2023-05-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today I discovered a new malicious company that spreads through of Google Ads side...]]></summary>
+        <content type="html"><![CDATA[<p>Today I discovered a new malicious company that spreads through of Google Ads side...</p><p><img loading="lazy" alt="Google Ads Spreads" src="/assets/images/google-ads-sponsored-malware-9d44f1708270f83b304652921e0dad09.jpg" width="1050" height="1422" class="img_ev3q"></p><p>In short - "Sponsored" link redirects to malicious site, and boom 💥 I felt "OpenBLD" effect!</p><p>OpenBLD.net DNS blocked for me browser-hijacking app which was distributed with Google Ads which named as<code>xg4ken</code>...
+Wow 💣, very unexpected and nice as I usually try to be more careful when surfing the internet.</p><p>What is <code>xg4ken</code> and how to <a href="https://malwaretips.com/blogs/remove-xg4ken-com/" target="_blank" rel="noopener noreferrer">removal</a></p><p>Be safe with free and OpenBLD.net DNS 🤜🤛️️️️️️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="protection" term="protection"/>
+        <category label="blocking" term="blocking"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[OpenBLD.net Growth in Q2 2023]]></title>
         <id>https://openbld.net/blog/openbld-growth-q2-2023</id>
         <link href="https://openbld.net/blog/openbld-growth-q2-2023"/>
@@ -52,6 +68,7 @@ we can use markdown files (or folders) in to the <code>blog</code> directory.</p
         </author>
         <category label="openbld" term="openbld"/>
         <category label="protection" term="protection"/>
+        <category label="blocking" term="blocking"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[GeoDNS Pre-release Testing]]></title>
