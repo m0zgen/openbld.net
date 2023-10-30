@@ -21,6 +21,19 @@ we can use markdown files (or folders) in to the <code>blog</code> directory.</p
             <category>welcome</category>
         </item>
         <item>
+            <title><![CDATA[Blocking SMiShing in Kazakhstan]]></title>
+            <link>https://openbld.net/blog/openbld-prevent-post-kz-smishing</link>
+            <guid>https://openbld.net/blog/openbld-prevent-post-kz-smishing</guid>
+            <pubDate>Tue, 23 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2><p>The rise of phishing activities has taken the top spot in attacks targeting end-users and organizations. Among the various forms of phishing attacks, there's one known as "SMiShing" attacks, which target users through SMS messages.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="smishing-attacks">SMiShing Attacks<a href="#smishing-attacks" class="hash-link" aria-label="Direct link to SMiShing Attacks" title="Direct link to SMiShing Attacks">​</a></h2><p>Today, we've noticed a SMiShing campaign in Kazakhstan, where a seemingly innocent link leads to a fake website that mimics the KazPost website, the official postal service of Kazakhstan. Several indicators set this apart:</p><ul><li>The sender's country code</li><li>The target website</li><li>The fact that the package was never ordered</li></ul><p><img loading="lazy" alt="SMiShing Attacks" src="/assets/images/post-kz-smishing-f1862d714a78f9f058c9feace3f9409d.jpg" width="1170" height="1211" class="img_ev3q"></p><p>The provided link directs users to a phishing page designed to imitate post.kz, the official website of the postal service in Kazakhstan.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="recommendation">Recommendation<a href="#recommendation" class="hash-link" aria-label="Direct link to Recommendation" title="Direct link to Recommendation">​</a></h2><p>We strongly advise against responding to such SMS messages. If you have any doubts or concerns, it's best to contact your nearest post office to clarify the details, especially if you did not order a package that coincides with the SMS.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="taking-action">Taking Action<a href="#taking-action" class="hash-link" aria-label="Direct link to Taking Action" title="Direct link to Taking Action">​</a></h2><p>Rest assured that we've promptly added this resource to our shared blocklists and locked it within the OpenBLD DNS system. Your online safety is our top priority.</p><p><strong>Conclusion:</strong>
+In these times of increasing digital threats, let's remain vigilant and protect ourselves and our online experiences.
+Together with OpenBLD.net DNS, we can strive for a safer online environment. Peace ✌️</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>protection</category>
+            <category>blocking</category>
+        </item>
+        <item>
             <title><![CDATA[Blocking Google Ads Spreads]]></title>
             <link>https://openbld.net/blog/openbld-prevent-google-ads-malware</link>
             <guid>https://openbld.net/blog/openbld-prevent-google-ads-malware</guid>
