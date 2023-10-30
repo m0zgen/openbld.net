@@ -2,7 +2,7 @@
 slug: fake-update-drops-aurora-stealer
 title: Blocking Aurora Stealer
 authors: [sysadminkz]
-tags: [openbld, protection]
+tags: [openbld, protection, blocking]
 ---
 
 # Fake system update drops Aurora stealer via Invalid Printer loader
