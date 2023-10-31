@@ -15,7 +15,7 @@ Today, we've noticed a SMiShing campaign in Kazakhstan, where a seemingly innoce
 - The target website
 - The fact that the package was never ordered
 
-![SMiShing Attacks](./post-kz-smishing.jpg)
+![SMiShing Attacks](post-kz-smishing.jpg)
 
 The provided link directs users to a phishing page designed to imitate post.kz, the official website of the postal service in Kazakhstan.
 
