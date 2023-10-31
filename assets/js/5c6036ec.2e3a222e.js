@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[1342],{7528:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/adguard","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"OpenBLD.net news and updates","blogTitle":"OpenBLD.net Blog"}')}}]);
