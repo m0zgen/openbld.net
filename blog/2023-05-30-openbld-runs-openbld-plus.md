@@ -1,6 +1,6 @@
 ---
 slug: openbld-runs-openbld-plus
-title: OpenBLD Plus Additions
+title: Benefits of donating from OpenBLD
 authors: [sysadminkz]
 tags: [openbld, benefits, donation, openbldplus]
 ---
