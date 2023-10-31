@@ -2,7 +2,7 @@
 slug: openbld-runs-openbld-plus
 title: Benefits of donating from OpenBLD
 authors: [sysadminkz]
-tags: [openbld, benefits, donation, openbldplus]
+tags: [openbld, benefits, donation, openbldplus, updates]
 ---
 
 ## Introduction

@@ -2,7 +2,7 @@
 slug: openbld-supported-by-do
 title: OpenBLD supported by Digital Ocean
 authors: [sysadminkz]
-tags: [openbld, benefits, donation, openbldplus]
+tags: [openbld, updates, news, digital ocean]
 ---
 
 Today Digital Ocean supported OpenBLD.net DNS

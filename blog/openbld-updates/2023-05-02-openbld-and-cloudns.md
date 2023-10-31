@@ -2,7 +2,7 @@
 slug: openbld-and-cloudns
 title: OpenBLD.net and ClouDNS
 authors: [sysadminkz]
-tags: [openbld, dns, cloudns]
+tags: [openbld, dns, cloudns, updates, news, cloudns]
 ---
 
 OpenBLD.net — Next Stage to Growth with [ClouDNS](https://www.cloudns.net/aff/id/751533/)
