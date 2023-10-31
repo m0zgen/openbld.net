@@ -24,6 +24,21 @@ we can use markdown files (or folders) in to the <code>blog</code> directory.</p
         <category label="welcome" term="welcome"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Prevent MS Encrypted Phishing]]></title>
+        <id>https://openbld.net/blog/prevent-ms-encrypted-message-deliver-phishing</id>
+        <link href="https://openbld.net/blog/prevent-ms-encrypted-message-deliver-phishing"/>
+        <updated>2023-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net DNS Mitigated Influence from new Microsoft Encrypted Restricted Permission Messages Deliver Phishing]]></summary>
+        <content type="html"><![CDATA[<p>OpenBLD.net DNS Mitigated Influence from new Microsoft Encrypted Restricted Permission Messages Deliver Phishing</p><p><img loading="lazy" alt="Prevent MS Encrypted Phishing" src="/assets/images/prevent-ms-encrypted-message-deliver-phishing-557abf5773eda2bacff1ce0d793c9617.png" width="479" height="441" class="img_ev3q"></p><p>New phishing company described from <a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/microsoft-encrypted-restricted-permission-messages-deliver-phishing/" target="_blank" rel="noopener noreferrer">Trustwave</a></p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="protection" term="protection"/>
+        <category label="blocking" term="blocking"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Blocking SMiShing in Kazakhstan]]></title>
         <id>https://openbld.net/blog/openbld-prevent-post-kz-smishing</id>
         <link href="https://openbld.net/blog/openbld-prevent-post-kz-smishing"/>

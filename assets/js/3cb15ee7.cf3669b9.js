@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[5636],{9132:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/cloudns","page":1,"postsPerPage":2,"totalPages":1,"totalCount":2,"blogDescription":"OpenBLD.net news and updates","blogTitle":"OpenBLD.net Blog"}')}}]);
