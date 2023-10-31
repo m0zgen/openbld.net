@@ -48,6 +48,13 @@ const config = {
           editUrl:
             'https://github.com/m0zgen/openbld.net/edit/master/',
         },
+        blog: {
+          blogTitle: 'OpenBLD.net Blog',
+          blogDescription: 'OpenBLD.net news and updates',
+          postsPerPage: 'ALL',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
