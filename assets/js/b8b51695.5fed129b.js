@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[6280],{45:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/blocking","page":1,"postsPerPage":6,"totalPages":2,"totalCount":9,"nextPage":"/blog/tags/blocking/page/2","blogDescription":"OpenBLD.net news and updates","blogTitle":"OpenBLD.net Blog"}')}}]);

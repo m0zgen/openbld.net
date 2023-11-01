@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[6732],{3924:e=>{e.exports=JSON.parse('{"label":"report","permalink":"/blog/tags/report","allTagsPath":"/blog/tags","count":1}')}}]);
