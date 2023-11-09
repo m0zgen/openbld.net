@@ -10,6 +10,8 @@ Setup OpenBLD.net on macOS
 2. Open Network
 3. Select you network > Advanced
 4. Open DNS tab
-5. Add servers:
-    - DNS `46.151.29.15`
-    - DNS `88.210.11.120`
+5. Add servers
+
+## Misc
+
+* Connectivity and Limitation info you can find in [Connectives](/docs/overwiew/how-it-works/#connectives) section.
