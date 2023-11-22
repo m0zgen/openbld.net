@@ -6,7 +6,7 @@ tags: [openbld, dns, updates, news, report]
 ---
 
 ## Introduction
-In the ever-evolving OpenBLD ecosystem, the second quarter of 2023 has witnessed remarkable growth and some exciting changes. OpenBLD.net, the service committed to minimizing the internet noise caused by advertising and tracking, has evolved to introduce cutting-edge features like Anycast/GeoDNS, DNSSEC, DNS-over-HTTPS, and DNS-over-TLS.
+In the ever-evolving OpenBLD ecosystem, the second quarter of 2023 has witnessed remarkable growth and some exciting changes. OpenBLD.net, the service committed to minimizing the internet noise caused by advertising and tracking, has evolved to introduce cutting-edge features like Anycast/GeoDNS, DNS-over-HTTPS, and DNS-over-TLS.
 
 ## New Features
 This evolution has brought forth two new services: Adaptive (ADA) and Strict (RIC), which are set to replace A-BLD and BLD. But what sets them apart? It's time to find out.

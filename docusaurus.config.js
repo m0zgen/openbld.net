@@ -11,7 +11,7 @@ const darkTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free',
-  tagline: 'Free DNS - with DNSSEC, DoT, DoH',
+  tagline: 'Free DNS - with DoT, DoH',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -89,7 +89,7 @@ const config = {
 
   customFields: {
     // HTML header
-    titleHeader: 'free DNS with Anycast, GeoDNS, DNSSEC, DoH, DoT',
+    titleHeader: 'free DNS with Anycast, GeoDNS, DoH, DoT',
     // Hero, Header title
     titleHomeHeader: 'Block advertising, tracking, telemetry, malicious domains and more...',
   },
