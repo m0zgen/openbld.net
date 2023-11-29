@@ -21,3 +21,11 @@ Just copy and paste this link to your browser settings:
 ```shell
 https://ada.openbld.net/dns-query
 ```
+
+## Chrome Extension
+
+As an additional option, you can use a browser extension for Google Chrome:
+
+* Setup [OpenBLD.net Blocker](/docs/get-started/setup-browsers/extensions/) extension for Google Chrome and Brave Browser.
+
+

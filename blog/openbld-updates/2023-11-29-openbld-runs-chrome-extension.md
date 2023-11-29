@@ -32,7 +32,7 @@ OpenBLD.net Blocker Extension - utilizes URL filtering routines to identify and 
 * Open OpenBLD.net Blocker extension page from Google Chrome [Store](https://chrome.google.com/webstore/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea)
 * In install it
 
-After install ypu will can see OpenBLD.net Blocker icon in your browser toolbar.
+After installation, you can see OpenBLD.net Blocker icon in your browser extension `chrome://extensions/` section.
 
 ![OpenBLD.net Blocker](./images/openbldnet-blocker-chrome-extension-icon.jpg)
 * Done ✅

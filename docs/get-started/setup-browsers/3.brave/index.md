@@ -22,3 +22,9 @@ Just copy and paste this link to your browser settings:
 ```shell
 https://ada.openbld.net/dns-query
 ```
+
+## Brave Extension
+
+As an additional option, you can use a browser extension for Brave Browser:
+
+* Setup [OpenBLD.net Blocker](/docs/get-started/setup-browsers/extensions/) extension for Brave Browser.
