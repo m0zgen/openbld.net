@@ -11,6 +11,7 @@ const logos = [
         { name: "PowerDMARC", url: "https://powerdmarc.com/", src: 'img/logos/powerdmarc-logo.png', style: "logo-bg-white"},
         { name: "DigitalOcean", url: "https://m.do.co/c/42011b938fe6", src: 'img/logos/digitalocean-logo.png', style: ""},
         { name: "Netdata", url: "https://www.netdata.cloud/?utm_campaign=technical&utm_source=content&utm_medium=website&utm_content=openbld-dns", src: 'img/logos/netdata-logo.jpeg', style: ""},
+        { name: "Veesp Hosting Service", url: "https://secure.veesp.com/?affid=954", src: 'img/logos/veesp-logo.png', style: "logo-bg-white"},
         { name: "Help to growth to OpenBLD.net", url: "#", src: 'img/logos/splash-logo.jpg', style: ""},
     ];
 
