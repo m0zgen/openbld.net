@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2023-11-29T00:00:00.000Z</updated>
+    <updated>2023-12-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[📢 OpenBLD.net IPv6 Pre-Release]]></title>
+        <id>https://openbld.net/blog/openbld-ipv6-pre-release</id>
+        <link href="https://openbld.net/blog/openbld-ipv6-pre-release"/>
+        <updated>2023-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net IPv6 Pre-Release]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="OpenBLD.net IPv6 Pre-Release" src="https://openbld.net/assets/images/openbld-ipv6-pre-release-f32bde5cf3690075db6e38c2aa6b3161.png" width="1250" height="460" class="img_ev3q"></p>
+<p>Last week, last month, this year... I've been meeting and talking to different people, and they all echoed the same sentiment - <strong>IPv6 is needed</strong> 💯</p>
+<p>A few days ago, I got acquainted with <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer"><strong><em>VEESP.com</em></strong></a>, a company that generously provided OpenBLD.net with an incredibly fast server featuring a high-speed Ethernet connection 🛞</p>
+<p><strong>Abstract</strong>: Usually, I spend some time testing servers, then assign them a secondary role before introducing them to the production environment. However, this time was different...</p>
+<p>I was so impressed 😱 with the <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">veesp.com</a> server's speed that it practically flew into production almost immediately... )</p>
+<p>I believe this is a great opportunity to start exploring the IPv6 space. In this month or early 2024, I hope we can begin experimenting with IPv6!</p>
+<p>If you're ready to participate in the preliminary testing, please let me know through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1uHCuDcvhYeP9HCQtJySQByoPhc0koa_rCjk6UP_rxBZtNw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">OpenBLD.net Pre-Release Testing Form</a>. I will reach out to you directly when the time comes, and together we can strive to make this world even better.</p>
+<p>P.S. Thanks to veesp.com and everyone who gives incentive to take a step forward 🤝</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="ipv6" term="ipv6"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[OpenBLD.net in Google Chrome Extension]]></title>
         <id>https://openbld.net/blog/openbld-runs-chrome-extension</id>
@@ -83,7 +104,7 @@ bypassing domain-based blocking methods.</p>
         <link href="https://openbld.net/blog/openbld-october-2023-updates"/>
         <updated>2023-10-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-exciting-october23-upgrades-at-openbldnet-">🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀<a href="https://openbld.net/blog/openbld-october-2023-updates#-exciting-october23-upgrades-at-openbldnet-" class="hash-link" aria-label="Direct link to 🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀" title="Direct link to 🚀 Exciting October'23 Upgrades at OpenBLD.net! ���🚀">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-exciting-october23-upgrades-at-openbldnet-">🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀<a href="https://openbld.net/blog/openbld-october-2023-updates#-exciting-october23-upgrades-at-openbldnet-" class="hash-link" aria-label="Direct link to 🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀" title="Direct link to 🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀">​</a></h2>
 <p>We're thrilled to unveil the latest enhancements in our OpenBLD.net ecosystem. Here's what's new:</p>
 <ul>
 <li><strong>New Filtering Routine Server</strong>: Strengthening the core of OpenBLD.net with a brand new filtering routine server.</li>
@@ -468,52 +489,5 @@ Wow 💣, very unexpected and nice as I usually try to be more careful when surf
         <category label="openbld" term="openbld"/>
         <category label="protection" term="protection"/>
         <category label="blocking" term="blocking"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenBLD.net Growth in Q2 2023]]></title>
-        <id>https://openbld.net/blog/openbld-growth-q2-2023</id>
-        <link href="https://openbld.net/blog/openbld-growth-q2-2023"/>
-        <updated>2023-05-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introduction]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://openbld.net/blog/openbld-growth-q2-2023#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>In the ever-evolving OpenBLD ecosystem, the second quarter of 2023 has witnessed remarkable growth and some exciting changes. OpenBLD.net, the service committed to minimizing the internet noise caused by advertising and tracking, has evolved to introduce cutting-edge features like Anycast/GeoDNS, DNS-over-HTTPS, and DNS-over-TLS.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-features">New Features<a href="https://openbld.net/blog/openbld-growth-q2-2023#new-features" class="hash-link" aria-label="Direct link to New Features" title="Direct link to New Features">​</a></h2>
-<p>This evolution has brought forth two new services: Adaptive (ADA) and Strict (RIC), which are set to replace A-BLD and BLD. But what sets them apart? It's time to find out.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="testing-phase">Testing Phase<a href="https://openbld.net/blog/openbld-growth-q2-2023#testing-phase" class="hash-link" aria-label="Direct link to Testing Phase" title="Direct link to Testing Phase">​</a></h2>
-<p>I've been testing these new services for over two weeks now, and I must say, they are impressive. For all OpenBLD users, I encourage you to give them a try. Here's how you can make the switch:</p>
-<ul>
-<li>
-<p>For DNS-over-HTTPS (DoH), replace <code>https://a-bld.sys-adm.in/dns-query</code> with <code>https://ada.openbld.net/dns-query</code></p>
-</li>
-<li>
-<p>For DNS-over-TLS (DoT), switch from <code>a-bld.sys-adm.in</code> to <code>ada.openbld.net</code></p>
-</li>
-<li>
-<p>For DNS-over-HTTPS (DoH), replace <code>https://bld.sys-adm.in/dns-query</code> with <code>https://ric.openbld.net/dns-query</code></p>
-</li>
-<li>
-<p>For DNS-over-TLS (DoT), switch from <code>bld.sys-adm.in</code> to <code>ric.openbld.net</code></p>
-</li>
-</ul>
-<p>In a week or two, A-BLD will be fully merged with ADA, ceasing to exist as we know it. One server (109.234.39.72) will be replaced by another (46.151.29.15) for faster and more efficient service. Don't wait; start your testing today!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="acknowledgments">Acknowledgments<a href="https://openbld.net/blog/openbld-growth-q2-2023#acknowledgments" class="hash-link" aria-label="Direct link to Acknowledgments" title="Direct link to Acknowledgments">​</a></h2>
-<p>All of this growth and development would not have been possible without the incredible support we've received this year. OpenBLD is grateful for the backing from the following organizations:</p>
-<ul>
-<li><strong>Service Providers:</strong> <a href="https://www.cloudns.net/aff/id/751533/" target="_blank" rel="noopener noreferrer">ClouDNS</a>, <a href="https://gcorelabs.com/" target="_blank" rel="noopener noreferrer">Gcore</a>, <a href="https://jb.gg/OpenSourceSupport" target="_blank" rel="noopener noreferrer">JetBrains</a>, <a href="https://uptimerobot.com/?rid=78534763f4713b_" target="_blank" rel="noopener noreferrer">UptimeRobot</a></li>
-<li><strong>Information Partners:</strong> <a href="https://astlab.kz/" target="_blank" rel="noopener noreferrer">AST Cyber Lab</a>, <a href="https://core247.io/" target="_blank" rel="noopener noreferrer">Core24/7</a>, <a href="https://qcloudy.io/" target="_blank" rel="noopener noreferrer">qCloudy</a></li>
-</ul>
-<p>Special thanks to the Kazakhstan-based hosting providers <a href="https://unihost.kz/" target="_blank" rel="noopener noreferrer">Unihost.kz</a> and <a href="https://gohost.kz/" target="_blank" rel="noopener noreferrer">GOhost.kz</a> for their support and collaboration 🤜️️️️️️🤛️️️️️️</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="join-us">Join Us<a href="https://openbld.net/blog/openbld-growth-q2-2023#join-us" class="hash-link" aria-label="Direct link to Join Us" title="Direct link to Join Us">​</a></h2>
-<p>You, too, can contribute to this open service aimed at filtering malicious content. Reach out to us with <a href="https://openbld.net/docs/contacts/">Contacts</a> page to be part of our mission.</p>
-<p>OpenBLD.net is growing, evolving, and making the Internet a better place for everyone. Join us in this exciting journey! 🚀</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="dns" term="dns"/>
-        <category label="updates" term="updates"/>
-        <category label="news" term="news"/>
-        <category label="report" term="report"/>
     </entry>
 </feed>
