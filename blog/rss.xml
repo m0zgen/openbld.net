@@ -4,10 +4,45 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Mon, 11 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🎯 OpenBLD.net and ZDNS Blackhole Server]]></title>
+            <link>https://openbld.net/blog/openbld-zdns-blackhole-server</link>
+            <guid>https://openbld.net/blog/openbld-zdns-blackhole-server</guid>
+            <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net and zDNS Blackhole Server]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/zDNS_as_blackhole-9c396379d5560ee267edfdc862996ca9.gif" width="1278" height="660" class="img_ev3q"></p>
+<p><strong>Abstract</strong>: I'm happy to announce 🎉 that <a href="https://github.com/m0zgen/zdns/tree/dev" target="_blank" rel="noopener noreferrer">zDNS</a> is now a part of the
+<a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> project. It is a DNS server that can be used as a blackhole for
+malicious domains. It is a great addition to the <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> project,
+and I'm excited to see how it will evolve in the future 🚀</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="befor-begin">Befor begin<a href="https://openbld.net/blog/openbld-zdns-blackhole-server#befor-begin" class="hash-link" aria-label="Direct link to Befor begin" title="Direct link to Befor begin">​</a></h2>
+<p>Following Zero Trust <a href="https://en.wikipedia.org/wiki/Zero_trust_security_model" target="_blank" rel="noopener noreferrer">model</a> practices,
+I recently wrote and am slowly beginning to introduce new “blackhole” functionality into the
+OpenBLD.net DNS ecosystem.</p>
+<p>zDNS is a DNS server that puts security and control over DNS queries at the center.
+With new functionality, zDNS now supports regular expressions in hosts.txt files, allowing more
+flexibility in configuring allowed queries. Now you can use the power of regular expressions to
+precisely control permissions, including subdomains and patterns.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="main-zdns-features">Main zDNS features<a href="https://openbld.net/blog/openbld-zdns-blackhole-server#main-zdns-features" class="hash-link" aria-label="Direct link to Main zDNS features" title="Direct link to Main zDNS features">​</a></h2>
+<ul>
+<li>Denies all DNS queries by default</li>
+<li>Allows you to configure allowed requests through the hosts.txt file</li>
+<li>Uses balancing strategies to ensure reliable operation with DNS servers</li>
+<li>🛠 Easily customizable via YAML configuration</li>
+<li>🔜 Prometheus metrics coming soon..</li>
+</ul>
+<p>Additional protection of your infrastructure or testing requests with zDNS is possible and may be useful to you! Download the latest version here and start using a DNS server with powerful customization options:</p>
+<ul>
+<li><a href="https://github.com/m0zgen/zdns/tree/dev" target="_blank" rel="noopener noreferrer">https://github.com/m0zgen/zdns/tree/dev</a></li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>zdns</category>
+            <category>blackhole</category>
+        </item>
         <item>
             <title><![CDATA[📢 OpenBLD.net IPv6 Pre-Release]]></title>
             <link>https://openbld.net/blog/openbld-ipv6-pre-release</link>
@@ -390,23 +425,6 @@ Today you have the opportunity to <a href="https://openbld.net/docs/donation/">s
 <p><strong>Conclusion:</strong>
 In these times of increasing digital threats, let's remain vigilant and protect ourselves and our online experiences.
 Together with OpenBLD.net DNS, we can strive for a safer online environment. Peace ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>protection</category>
-            <category>blocking</category>
-        </item>
-        <item>
-            <title><![CDATA[Blocking Google Ads Spreads]]></title>
-            <link>https://openbld.net/blog/openbld-prevent-google-ads-malware</link>
-            <guid>https://openbld.net/blog/openbld-prevent-google-ads-malware</guid>
-            <pubDate>Fri, 19 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Today I discovered a new malicious company that spreads through of Google Ads side...]]></description>
-            <content:encoded><![CDATA[<p>Today I discovered a new malicious company that spreads through of Google Ads side...</p>
-<p><img loading="lazy" alt="Google Ads Spreads" src="https://openbld.net/assets/images/google-ads-sponsored-malware-9d44f1708270f83b304652921e0dad09.jpg" width="1050" height="1422" class="img_ev3q"></p>
-<p>In short - "Sponsored" link redirects to malicious site, and boom 💥 I felt "OpenBLD" effect!</p>
-<p>OpenBLD.net DNS blocked for me browser-hijacking app which was distributed with Google Ads which named as<code>xg4ken</code>...
-Wow 💣, very unexpected and nice as I usually try to be more careful when surfing the internet.</p>
-<p>What is <code>xg4ken</code> and how to <a href="https://malwaretips.com/blogs/remove-xg4ken-com/" target="_blank" rel="noopener noreferrer">removal</a></p>
-<p>Be safe with free and OpenBLD.net DNS 🤜🤛️️️️️️</p>]]></content:encoded>
             <category>openbld</category>
             <category>protection</category>
             <category>blocking</category>
