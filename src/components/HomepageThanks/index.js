@@ -155,7 +155,7 @@ const thanks = [
 
 export default function HomepageThanks() {
   return (
-    <section className="overflow-hidden py-10 px-10 dark:bg-[#070a11]">
+    <section id="thanks-section"  className="overflow-hidden py-10 px-10 dark:bg-[#070a11]">
 
         <div className="container mx-auto px-4 mb-10">
             <div className="flex flex-wrap -m-4">
