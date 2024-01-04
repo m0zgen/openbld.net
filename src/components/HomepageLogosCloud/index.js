@@ -12,7 +12,7 @@ const logos = [
         { name: "DigitalOcean", url: "https://m.do.co/c/42011b938fe6", src: 'img/logos/digitalocean-logo.png', style: ""},
         { name: "Netdata", url: "https://www.netdata.cloud/?utm_campaign=technical&utm_source=content&utm_medium=website&utm_content=openbld-dns", src: 'img/logos/netdata-logo.jpeg', style: ""},
         { name: "Veesp Hosting Service", url: "https://secure.veesp.com/?affid=954", src: 'img/logos/veesp-logo.png', style: "logo-bg-white"},
-        { name: "AlphaVPS Hosting Service", url: "https://alphavps.com/", src: 'img/logos/alpha-vps-logo.png', style: "logo-bg-white"},
+        { name: "AlphaVPS Hosting Service", url: "https://alphavps.com/clients/aff.php?aff=657", src: 'img/logos/alpha-vps-logo.png', style: "logo-bg-white"},
         { name: "Help to growth to OpenBLD.net", url: "#", src: 'img/logos/splash-logo.jpg', style: ""},
     ];
 
