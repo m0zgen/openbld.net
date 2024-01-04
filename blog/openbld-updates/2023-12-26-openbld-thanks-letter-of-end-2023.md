@@ -11,7 +11,7 @@ Dear friends and partners of [OpenBLD.net](https://openbld.net/),
 
 With great enthusiasm and pride, I address you with this open letter of gratitude. My project, OpenBLD.net, could not have reached such heights without your invaluable support and contribution.
 
-Together, we have created something extraordinary – a platform that unites, inspires and making uour live is safer, and I would like to extend sincere thanks to each and every one of you.
+Together, we have created something extraordinary – a platform that unites, inspires and making your live is safer, and I would like to extend sincere thanks to each and every one of you.
 
 ## To Companies
 
