@@ -108,7 +108,7 @@ const thanks = [
         },
         {
             "name": "Alexandr Bespoyasko (contribute) \u26a1",
-            "url": "",
+            "url": "https://alexandr.bespoyasko.kz/",
             "style": ""
         },
         {
