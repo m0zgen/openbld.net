@@ -1,6 +1,6 @@
 ---
 slug: openbld-thanks-letter-of-end-2023
-title: 🤝 OpenBLD.net Open Thanks Letter 2023
+title: 🖖 OpenBLD.net Open Thanks Letter 2023
 authors: [sysadminkz]
 tags: [openbld, 2023, letter, thanks]
 ---
