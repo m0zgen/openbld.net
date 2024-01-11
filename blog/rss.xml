@@ -4,12 +4,31 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 26 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[🤝 OpenBLD.net Open Thanks Letter 2023]]></title>
+            <title><![CDATA[🤝 OpenBLD.net growth with AlphaVPS]]></title>
+            <link>https://openbld.net/blog/openbld-and-alphavps-cooperation</link>
+            <guid>https://openbld.net/blog/openbld-and-alphavps-cooperation</guid>
+            <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net and zDNS Blackhole Server]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/openbld-and-alphavps-cooperation-53a744dcae54c04e67e9e99ecaad450e.png" width="1250" height="460" class="img_ev3q"></p>
+<p>New <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> points of presence have been added in the world thanks to <a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a>!</p>
+<p><a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a> - Fast &amp; Cheap VPS, Cloud Servers and few servers from AlphaVPS
+stay which located in <strong>Bulgaria</strong> and <strong>Germany</strong> joined in to OpenBLD.net ecosystem.</p>
+<p>As you know one of the our prioritites - fast DoH/DoT responses and <em>1GBit/s</em> from AlphaVPS it is good base for this requirements.</p>
+<p>One server already available for users (see <a href="https://bld-status.sys-adm.in/" target="_blank" rel="noopener noreferrer">status</a> of Ada-h4),
+second server will be available in the next few days. Enjoy it 🚀</p>
+<p>P.S. Few times ago I posted OpenBLD.net <a href="https://openbld.net/blog/openbld-ipv6-pre-release/">IPv6 Pre-Release</a> notice, in few near weeks I'll plan implement
+DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>AlphaVPS</category>
+            <category>growth</category>
+        </item>
+        <item>
+            <title><![CDATA[🖖 OpenBLD.net Open Thanks Letter 2023]]></title>
             <link>https://openbld.net/blog/openbld-thanks-letter-of-end-2023</link>
             <guid>https://openbld.net/blog/openbld-thanks-letter-of-end-2023</guid>
             <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
@@ -441,19 +460,6 @@ Today you have the opportunity to <a href="https://openbld.net/docs/donation/">s
             <category>donation</category>
             <category>openbldplus</category>
             <category>updates</category>
-        </item>
-        <item>
-            <title><![CDATA[Prevent MS Encrypted Phishing]]></title>
-            <link>https://openbld.net/blog/prevent-ms-encrypted-message-deliver-phishing</link>
-            <guid>https://openbld.net/blog/prevent-ms-encrypted-message-deliver-phishing</guid>
-            <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net DNS Mitigated Influence from new Microsoft Encrypted Restricted Permission Messages Deliver Phishing]]></description>
-            <content:encoded><![CDATA[<p>OpenBLD.net DNS Mitigated Influence from new Microsoft Encrypted Restricted Permission Messages Deliver Phishing</p>
-<p><img loading="lazy" alt="Prevent MS Encrypted Phishing" src="https://openbld.net/assets/images/prevent-ms-encrypted-message-deliver-phishing-557abf5773eda2bacff1ce0d793c9617.png" width="479" height="441" class="img_ev3q"></p>
-<p>New phishing company described from <a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/microsoft-encrypted-restricted-permission-messages-deliver-phishing/" target="_blank" rel="noopener noreferrer">Trustwave</a></p>]]></content:encoded>
-            <category>openbld</category>
-            <category>protection</category>
-            <category>blocking</category>
         </item>
     </channel>
 </rss>
