@@ -5,7 +5,7 @@ authors: [sysadminkz]
 tags: [openbld, AlphaVPS, growth]
 ---
 
-![OpenBLD.net and zDNS Blackhole Server](./images/openbld-and-alphavps-cooperation.png)
+![OpenBLD.net and zDNS Blackhole Server](images/openbld-and-alphavps-cooperation.png)
 
 New [OpenBLD.net](https://openbld.net/) points of presence have been added in the world thanks to [AlphaVPS.com](https://alphavps.com/clients/aff.php?aff=657)!
 
@@ -17,5 +17,5 @@ As you know one of the our prioritites - fast DoH/DoT responses and _1GBit/s_ fr
 One server already available for users (see [status](https://bld-status.sys-adm.in/) of Ada-h4), 
 second server will be available in the next few days. Enjoy it 🚀 
 
-P.S. Few times ago I posted OpenBLD.net [IPv6 Pre-Release](./2023-12-11-openbld-ipv6-pre-re;ease.md) notice, in few near weeks I'll plan implement 
+P.S. Few times ago I posted OpenBLD.net [IPv6 Pre-Release](../2023/2023-12-11-openbld-ipv6-pre-re;ease.md) notice, in few near weeks I'll plan implement 
 DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...

@@ -5,7 +5,7 @@ authors: [sysadminkz]
 tags: [openbld, 2023, letter, thanks]
 ---
 
-![OpenBLD.net Thanks Letter of End 2023](./images/openbld-thanks-for-all-2023.jpeg)
+![OpenBLD.net Thanks Letter of End 2023](images/openbld-thanks-for-all-2023.jpeg)
 
 Dear friends and partners of [OpenBLD.net](https://openbld.net/),
 

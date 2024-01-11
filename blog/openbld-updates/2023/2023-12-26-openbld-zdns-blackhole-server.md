@@ -5,7 +5,7 @@ authors: [sysadminkz]
 tags: [openbld, zdns, blackhole]
 ---
 
-![OpenBLD.net and zDNS Blackhole Server](./images/zDNS_as_blackhole.gif)
+![OpenBLD.net and zDNS Blackhole Server](images/zDNS_as_blackhole.gif)
 
 **Abstract**: I'm happy to announce 🎉 that [zDNS](https://github.com/m0zgen/zdns/tree/dev) is now a part of the 
 [OpenBLD.net](https://openbld.net/) project. It is a DNS server that can be used as a blackhole for 

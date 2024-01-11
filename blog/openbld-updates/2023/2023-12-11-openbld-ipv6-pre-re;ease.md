@@ -5,7 +5,7 @@ authors: [sysadminkz]
 tags: [openbld, ipv6]
 ---
 
-![OpenBLD.net IPv6 Pre-Release](./images/openbld-ipv6-pre-release.png)
+![OpenBLD.net IPv6 Pre-Release](images/openbld-ipv6-pre-release.png)
 
 Last week, last month, this year... I've been meeting and talking to different people, and they all echoed the same sentiment - **IPv6 is needed** 💯
 
