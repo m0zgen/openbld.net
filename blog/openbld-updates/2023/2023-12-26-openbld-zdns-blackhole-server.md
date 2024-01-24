@@ -1,6 +1,6 @@
 ---
 slug: openbld-zdns-blackhole-server
-title: 🎯 OpenBLD.net and ZDNS Blackhole Server
+title: 🎯 OpenBLD.net and zDNS Blackhole Server
 authors: [sysadminkz]
 tags: [openbld, zdns, blackhole]
 ---
