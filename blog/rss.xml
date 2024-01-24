@@ -4,10 +4,50 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Thu, 11 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🚀 New zDNS Big Updates and Features]]></title>
+            <link>https://openbld.net/blog/zdns-big-updates-and-features</link>
+            <guid>https://openbld.net/blog/zdns-big-updates-and-features</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[zDNS v0.2.5 Release with Big Updates and Features]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="zDNS v0.2.5 Release with Big Updates and Features" src="https://openbld.net/assets/images/zDNS_new_Release-f65a125bd457509cdf7ba99b3f4b10b0.jpeg" width="1250" height="460" class="img_ev3q"></p>
+<p>Few month ago I stared develop from scratch <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> service,
+and now I hope, it is ready for production usage...</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="https://openbld.net/blog/zdns-big-updates-and-features#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h2>
+<ul>
+<li>Restrict DNS queries by type like as A, AAAA, HTTPS, CNAME, MX, PTR</li>
+<li>Balancing DNS traffic between upstream servers</li>
+<li>Providing Prometheus metrics</li>
+<li>DNS responses caching by custom TTL</li>
+<li>Has few working modes - Zero Trust, Allow/Blocking domain names</li>
+<li>Has separated "Permanent" mode with additional custom upstream DNS servers</li>
+<li>Can load allow/block lists from local and remote through HTTP(S)</li>
+<li>Create/Delete custom users with different configs and hosts files</li>
+<li>Can run as separated instance for each different users</li>
+<li>Has TCP/UDP DNS interfaces</li>
+<li>Can run as daemon or one-shot mode</li>
+<li>Can parse DNS names with regular expressions...</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-forward">Looking Forward<a href="https://openbld.net/blog/zdns-big-updates-and-features#looking-forward" class="hash-link" aria-label="Direct link to Looking Forward" title="Direct link to Looking Forward">​</a></h2>
+<p>I am looking forward to the future of the OpenBLD.net project and hope that it will continue to grow and develop.</p>
+<p>Now I'm testing exclusive option - unique DoH links with unique allow/block domain lists...</p>
+<p>In the near future, I hope everyone will be able to use their own unique opportunity of OpenBLD.net usage in personal browsers and phones, where they will be able to independently manage their personal own white and black lists
+(for example, via Git)..</p>
+<p>Be the first to try it, leave your contacts in this form and I will contact you as soon as the service is ready:</p>
+<ul>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register for OpenBLD.net Personal Usage Testing</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use">How to Use<a href="https://openbld.net/blog/zdns-big-updates-and-features#how-to-use" class="hash-link" aria-label="Direct link to How to Use" title="Direct link to How to Use">​</a></h2>
+<p>All related content about zDNS you can find on the <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> GitHub repository.</p>
+<p>Feedback is welcome! <a href="https://openbld.net/docs/contacts/">Contacts</a>.</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>AlphaVPS</category>
+            <category>growth</category>
+        </item>
         <item>
             <title><![CDATA[🤝 OpenBLD.net growth with AlphaVPS]]></title>
             <link>https://openbld.net/blog/openbld-and-alphavps-cooperation</link>
@@ -82,7 +122,7 @@ knowledge and experience has made me stronger, and our project more valuable to 
             <category>thanks</category>
         </item>
         <item>
-            <title><![CDATA[🎯 OpenBLD.net and ZDNS Blackhole Server]]></title>
+            <title><![CDATA[🎯 OpenBLD.net and zDNS Blackhole Server]]></title>
             <link>https://openbld.net/blog/openbld-zdns-blackhole-server</link>
             <guid>https://openbld.net/blog/openbld-zdns-blackhole-server</guid>
             <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
@@ -434,32 +474,6 @@ Take care of yourself. Peace out! ✌️</p>]]></content:encoded>
             <category>updates</category>
             <category>news</category>
             <category>digital ocean</category>
-        </item>
-        <item>
-            <title><![CDATA[Benefits of donating from OpenBLD]]></title>
-            <link>https://openbld.net/blog/openbld-runs-openbld-plus</link>
-            <guid>https://openbld.net/blog/openbld-runs-openbld-plus</guid>
-            <pubDate>Tue, 30 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Introduction]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://openbld.net/blog/openbld-runs-openbld-plus#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>In the realm of OpenBLD.net DNS, we're excited to introduce <a href="https://openbld.net/docs/overwiew/openbld-plus/">OpenBLD+ mode</a>, a feature designed to take our and your experience to the next level.</p>
-<p><strong>Powered by Your Support:</strong>
-Our project thrives thanks to the support of users like you.
-Today you have the opportunity to <a href="https://openbld.net/docs/donation/">subscribe</a> for just $3+ and, in return, gain access to a host of exclusive benefits:</p>
-<ul>
-<li><strong>Enhanced Website Delivery Speed:</strong> Enjoy faster website/domain delivery to OpenBLD.net DNS users.</li>
-<li><strong>Company Logo or Nickname on Project Site:</strong> Showcase your company's logo or your nickname on our project site with a link to your website or social profile.</li>
-<li><strong>Unlimited Access for Dedicated IPs:</strong> Benefit from unlimited access for dedicated IPs.</li>
-<li><strong>Personal Support:</strong> Receive assistance in investigating cybersecurity incidents.</li>
-<li><strong>Have Questions or Suggestions?</strong> We're all ears. Feel free to reach out to us <a href="https://openbld.net/docs/contacts/">Contacts</a> with any questions or suggestions you may have.</li>
-</ul>
-<p>Unlock a World of Benefits with OpenBLD+ and elevate our and your online experience.</p>
-<p>Join us today!</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>benefits</category>
-            <category>donation</category>
-            <category>openbldplus</category>
-            <category>updates</category>
         </item>
     </channel>
 </rss>
