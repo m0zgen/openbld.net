@@ -13,16 +13,15 @@
         <link href="https://openbld.net/blog/2024-01-29-openbld--blocker-chrome-extension-released"/>
         <updated>2024-01-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net Chrome Extension v1.1 Released]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="OpenBLD.net Chrome Extension v1.1 Released" src="https://openbld.net/assets/images/openbld-chrome-extension-v1.1-released-adc03e8d48327b80a1b3c1447a0d1833.jpeg" width="1250" height="633" class="img_ev3q"></p>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Chrome Extension v1.1 Released" src="https://openbld.net/assets/images/openbld-chrome-extension-v1.1-released-adc03e8d48327b80a1b3c1447a0d1833.jpeg" width="1250" height="633" class="img_ev3q"></p>
 <p>OpenBLD.net Blocker extension released on official Google Extension Store today 💪</p>
-<p>This is OpenBLD.net add-on which can block some ADS services (such as Yandex advertising) on some web resources which has HTMLembedded ads...</p>
+<p>This is OpenBLD.net add-on which can block some ADS services (such as Yad advertising) on some
+web resources that has HTML embedded ads...</p>
 <p>OpenBLD.net service+Extension Blocker - Perfect combination for reducing Internet noise 🧘‍♂️</p>
-<p>Try or Update OpenBLD.net Blocker from Official Chrome Internet Store:
-<a href="https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea" target="_blank" rel="noopener noreferrer">https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea</a></p>
-<p>Note: OpenBLD.net setup is required before using the Browser extension</p>
-<p>Feedback is welcome! Contacts.</p>
+<p>Try or Update OpenBLD.net Blocker from the Official Chrome Internet <a href="https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea" target="_blank" rel="noopener noreferrer">Store</a>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p><strong>Note</strong>: OpenBLD.net setup is required before using the Browser extension</p></div></div>
 <p>Feedback is welcome! <a href="https://openbld.net/docs/contacts/">Contacts</a>.</p>
-<p>P.S. After an extension will update, re-enable extension is required</p>]]></content>
+<p>P.S. After an extension will update, re-enable extension is required.</p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>
@@ -37,7 +36,7 @@
         <link href="https://openbld.net/blog/zdns-big-updates-and-features"/>
         <updated>2024-01-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[zDNS v0.2.5 Release with Big Updates and Features]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="zDNS v0.2.5 Release with Big Updates and Features" src="https://openbld.net/assets/images/zDNS_new_Release-f65a125bd457509cdf7ba99b3f4b10b0.jpeg" width="1250" height="460" class="img_ev3q"></p>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="zDNS v0.2.5 Release with Big Updates and Features" src="https://openbld.net/assets/images/zDNS_new_Release-f65a125bd457509cdf7ba99b3f4b10b0.jpeg" width="1250" height="460" class="img_ev3q"></p>
 <p>Few month ago I stared develop from scratch <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> service,
 and now I hope, it is ready for production usage...</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="https://openbld.net/blog/zdns-big-updates-and-features#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h2>
@@ -81,7 +80,7 @@ and now I hope, it is ready for production usage...</p>
         <link href="https://openbld.net/blog/openbld-and-alphavps-cooperation"/>
         <updated>2024-01-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net and zDNS Blackhole Server]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/openbld-and-alphavps-cooperation-53a744dcae54c04e67e9e99ecaad450e.png" width="1250" height="460" class="img_ev3q"></p>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/openbld-and-alphavps-cooperation-53a744dcae54c04e67e9e99ecaad450e.png" width="1250" height="460" class="img_ev3q"></p>
 <p>New <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> points of presence have been added in the world thanks to <a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a>!</p>
 <p><a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a> - Fast &amp; Cheap VPS, Cloud Servers and few servers from AlphaVPS
 stay which located in <strong>Bulgaria</strong> and <strong>Germany</strong> joined in to OpenBLD.net ecosystem.</p>
@@ -104,7 +103,7 @@ DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...</p>]]></con
         <link href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023"/>
         <updated>2023-12-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net Thanks Letter of End 2023]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="OpenBLD.net Thanks Letter of End 2023" src="https://openbld.net/assets/images/openbld-thanks-for-all-2023-157f546840ca8c4250d78f54f0da7303.jpeg" width="3840" height="2160" class="img_ev3q"></p>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Thanks Letter of End 2023" src="https://openbld.net/assets/images/openbld-thanks-for-all-2023-157f546840ca8c4250d78f54f0da7303.jpeg" width="3840" height="2160" class="img_ev3q"></p>
 <p>Dear friends and partners of <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a>,</p>
 <p>With great enthusiasm and pride, I address you with this open letter of gratitude. My project, OpenBLD.net, could not have reached such heights without your invaluable support and contribution.</p>
 <p>Together, we have created something extraordinary – a platform that unites, inspires and making your live is safer, and I would like to extend sincere thanks to each and every one of you.</p>
@@ -162,7 +161,7 @@ knowledge and experience has made me stronger, and our project more valuable to 
         <link href="https://openbld.net/blog/openbld-zdns-blackhole-server"/>
         <updated>2023-12-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net and zDNS Blackhole Server]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/zDNS_as_blackhole-9c396379d5560ee267edfdc862996ca9.gif" width="1278" height="660" class="img_ev3q"></p>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/zDNS_as_blackhole-9c396379d5560ee267edfdc862996ca9.gif" width="1278" height="660" class="img_ev3q"></p>
 <p><strong>Abstract</strong>: I'm happy to announce 🎉 that <a href="https://github.com/m0zgen/zdns/tree/dev" target="_blank" rel="noopener noreferrer">zDNS</a> is now a part of the
 <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> project. It is a DNS server that can be used as a blackhole for
 malicious domains. It is a great addition to the <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> project,
@@ -201,7 +200,7 @@ precisely control permissions, including subdomains and patterns.</p>
         <link href="https://openbld.net/blog/openbld-ipv6-pre-release"/>
         <updated>2023-12-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net IPv6 Pre-Release]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" alt="OpenBLD.net IPv6 Pre-Release" src="https://openbld.net/assets/images/openbld-ipv6-pre-release-f32bde5cf3690075db6e38c2aa6b3161.png" width="1250" height="460" class="img_ev3q"></p>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net IPv6 Pre-Release" src="https://openbld.net/assets/images/openbld-ipv6-pre-release-f32bde5cf3690075db6e38c2aa6b3161.png" width="1250" height="460" class="img_ev3q"></p>
 <p>Last week, last month, this year... I've been meeting and talking to different people, and they all echoed the same sentiment - <strong>IPv6 is needed</strong> 💯</p>
 <p>A few days ago, I got acquainted with <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer"><strong><em>VEESP.com</em></strong></a>, a company that generously provided OpenBLD.net with an incredibly fast server featuring a high-speed Ethernet connection 🛞</p>
 <p><strong>Abstract</strong>: Usually, I spend some time testing servers, then assign them a secondary role before introducing them to the production environment. However, this time was different...</p>
@@ -224,7 +223,7 @@ precisely control permissions, including subdomains and patterns.</p>
         <summary type="html"><![CDATA[OpenBLD.net — Next Stage to Growth with Google Chrome Extension as a part of OpenBLD.net ecosystem.]]></summary>
         <content type="html"><![CDATA[<p>OpenBLD.net — Next Stage to Growth with Google Chrome Extension as a part of OpenBLD.net ecosystem.</p>
 <p>I named it as <a href="https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea" target="_blank" rel="noopener noreferrer">OpenBLD.net Blocker</a>, and it is available for Google Chrome and Brave browsers (or any Chrome based browsers)</p>
-<p><img loading="lazy" alt="OpenBLD.net Blocker" src="https://openbld.net/assets/images/openbldnet-blocker-chrome-extension-0cc407028eb77ab3a3854ebec43d5247.jpg" width="1112" height="604" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="OpenBLD.net Blocker" src="https://openbld.net/assets/images/openbldnet-blocker-chrome-extension-0cc407028eb77ab3a3854ebec43d5247.jpg" width="1112" height="604" class="img_ev3q"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="dns-protection-with-a-twist">DNS Protection with a Twist<a href="https://openbld.net/blog/openbld-runs-chrome-extension#dns-protection-with-a-twist" class="hash-link" aria-label="Direct link to DNS Protection with a Twist" title="Direct link to DNS Protection with a Twist">​</a></h2>
 <p>OpenBLD.net's DNS service blocks ads, trackers, and malware through domain name filtering routines.
 However, some marketing services use JavaScript code embedded in URLs to deliver their content,
@@ -244,7 +243,7 @@ bypassing domain-based blocking methods.</p>
 <li>In install it</li>
 </ul>
 <p>After installation, you can see OpenBLD.net Blocker icon in your browser extension <code>chrome://extensions/</code> section.</p>
-<p><img loading="lazy" alt="OpenBLD.net Blocker" src="https://openbld.net/assets/images/openbldnet-blocker-chrome-extension-icon-0d0f2ca3c79a22f87a6b2da0c8bd9b81.jpg" width="387" height="217" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="OpenBLD.net Blocker" src="https://openbld.net/assets/images/openbldnet-blocker-chrome-extension-icon-0d0f2ca3c79a22f87a6b2da0c8bd9b81.jpg" width="387" height="217" class="img_ev3q"></p>
 <ul>
 <li>Done ✅</li>
 </ul>
@@ -327,7 +326,7 @@ bypassing domain-based blocking methods.</p>
 <p>iPhone owners can be hacked through iMessage with Operation Triangulation infection chain and you can reduce thich chain attack together with OpenBLD.net.</p>
 <p>In short. Operation Triangulation infection chain: a device receives a malicious iMessage attachment that launches a chain of exploits, and their execution ultimately results in the launch of the TriangleDB implant. In more detail, the infection chain can be summarized with the following <a href="https://securelist.com/triangulation-validators-modules/110847/" target="_blank" rel="noopener noreferrer">article</a>.</p>
 <p>Infection chain:
-<img loading="lazy" alt="Operation Triangulation infection chain" src="https://openbld.net/assets/images/figure-spying-ipfones-ce059e4a16052ce6d8dcac4b0d852531.jpg" width="1280" height="759" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" alt="Operation Triangulation infection chain" src="https://openbld.net/assets/images/figure-spying-ipfones-ce059e4a16052ce6d8dcac4b0d852531.jpg" width="1280" height="759" class="img_ev3q"></p>
 <p>Now all chained domains added to OpenBLD.net ecosystem, and of course - be careful about what and from whom you receive in your iMessage 😎</p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
@@ -425,7 +424,7 @@ bypassing domain-based blocking methods.</p>
 <li>🚫 <strong>Ric</strong> - Strict DNS: Blocks many marketing and tracking resources, which may affect access to certain internet content</li>
 </ul>
 <p>I recommend <strong>Ada</strong> for most OpenBLD.net DNS users. <a href="https://openbld.net/docs/category/get-started/">Get-Started</a>.</p>
-<p><img loading="lazy" alt="OpenBLD ADA &amp;amp; RIC differences" src="https://openbld.net/assets/images/ada-vs-ric-testing-results-be9cb36c4be9d8bb183dee9e573a3b27.jpg" width="1018" height="678" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="OpenBLD ADA &amp;amp; RIC differences" src="https://openbld.net/assets/images/ada-vs-ric-testing-results-be9cb36c4be9d8bb183dee9e573a3b27.jpg" width="1018" height="678" class="img_ev3q"></p>
 <p>Curious to learn more? Dive into the details <a href="https://openbld.net/docs/overwiew/how-it-works/#ada-vs-ric">here</a>
 Take care of yourself. Peace out! ✌️</p>]]></content>
         <author>
@@ -508,9 +507,9 @@ Take care of yourself. Peace out! ✌️</p>]]></content>
         <summary type="html"><![CDATA[Advertising platforms like Google Ads enable businesses to display advertisements to target audiences to boost traffic and increase sales. Malware distributors abuse the same functionality in a technique known as malvertising, where chosen keywords are hijacked to display malicious ads that lure unsuspecting search engine users into downloading certain types of malware.]]></summary>
         <content type="html"><![CDATA[<p>Advertising platforms like Google Ads enable businesses to display advertisements to target audiences to boost traffic and increase sales. Malware distributors abuse the same functionality in a technique known as malvertising, where chosen keywords are hijacked to display malicious ads that lure unsuspecting search engine users into downloading certain types of malware.</p>
 <p>The following chart represents how the infection starts:</p>
-<p><img loading="lazy" alt="Infection chain" src="https://openbld.net/assets/images/figure-winscp-infections-starts-210a4be811f68b51305410441dcdca97.jpeg" width="1377" height="1749" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Infection chain" src="https://openbld.net/assets/images/figure-winscp-infections-starts-210a4be811f68b51305410441dcdca97.jpeg" width="1377" height="1749" class="img_ev3q"></p>
 <p>The infection starts once the user searches for “WinSCP Download” on the Bing search engine. A malicious ad for the WinSCP application is displayed above the organic search results. The ad leads to a suspicious website containing a tutorial on how to use WinSCP for automating file transfer:</p>
-<p><img loading="lazy" alt="Donwload WinSCP" src="https://openbld.net/assets/images/figure-winscp-chain-5bc39adeaccbd93f680bb95438153a55.png" width="1426" height="933" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Donwload WinSCP" src="https://openbld.net/assets/images/figure-winscp-chain-5bc39adeaccbd93f680bb95438153a55.png" width="1426" height="933" class="img_ev3q"></p>
 <p>See more details on <a href="https://www.trendmicro.com/en_us/research/23/f/malvertising-used-as-entry-vector-for-blackcat-actors-also-lever.html" target="_blank" rel="noopener noreferrer">Trendmicro blog</a></p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
@@ -527,7 +526,7 @@ Take care of yourself. Peace out! ✌️</p>]]></content>
         <updated>2023-06-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[FortiGuard Labs recently came across files that look suspicious, even during a cursory review. Our subsequent investigation confirmed that the files are malicious and revealed there is more to them than meets the eye: they are a previously unseen infostealer we have named “ThirdEye”. While this malware is not considered sophisticated, it’s designed to steal various information from compromised machines that can be used as stepping-stones for future attacks.]]></summary>
         <content type="html"><![CDATA[<p>FortiGuard Labs recently came across files that look suspicious, even during a cursory review. Our subsequent investigation confirmed that the files are malicious and revealed there is more to them than meets the eye: they are a previously unseen infostealer we have named “ThirdEye”. While this malware is not considered sophisticated, it’s designed to steal various information from compromised machines that can be used as stepping-stones for future attacks.</p>
-<p><img loading="lazy" alt="Prevent ThirdEye Infostealer" src="https://openbld.net/assets/images/figure-thirdtye-Infostealer-c6b0498037946c06cf02a0051beac1ad.png" width="836" height="162" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Prevent ThirdEye Infostealer" src="https://openbld.net/assets/images/figure-thirdtye-Infostealer-c6b0498037946c06cf02a0051beac1ad.png" width="836" height="162" class="img_ev3q"></p>
 <p>The ThirdEye infostealer has relatively simple functionality. It harvests various system information from compromised machines, such as BIOS and hardware data. It also enumerates files and folders, running processes, and network information. Once the malware is executed, it gathers all this data and sends it to its command-and-control (C2) server hosted at (hxxp://shlalala[.]ru/general/ch3ckState). And unlike most other malware, it does nothing else.</p>
 <p>One interesting string unique to the ThirdEye infostealer family (from which we derived its name) is "3rd_eye", which it decrypts and uses with another hash value to identify itself to the C2.</p>
 <p>See more details on <a href="https://www.fortinet.com/blog/threat-research/new-fast-developing-thirdeye-infostealer-pries-open-system-information" target="_blank" rel="noopener noreferrer">FortiGuard Labs</a></p>]]></content>
@@ -546,7 +545,7 @@ Take care of yourself. Peace out! ✌️</p>]]></content>
         <updated>2023-06-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Trojanized Super Mario Game Installer Spreads SupremeBot Malware]]></summary>
         <content type="html"><![CDATA[<p>Trojanized Super Mario Game Installer Spreads SupremeBot Malware</p>
-<p><img loading="lazy" alt="Prevent Trojanized Super Mario" src="https://openbld.net/assets/images/figure-super-mario-Infection-chain-5460433f43c0f9aa0261d1363911961e.jpeg" width="917" height="415" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Prevent Trojanized Super Mario" src="https://openbld.net/assets/images/figure-super-mario-Infection-chain-5460433f43c0f9aa0261d1363911961e.jpeg" width="917" height="415" class="img_ev3q"></p>
 <p>According to <a href="https://blog.cyble.com/2023/06/23/trojanized-super-mario-game-installer-spreads-supremebot-malware/" target="_blank" rel="noopener noreferrer">Cyble</a> blog post, the malware is distributed through <code>java.exe</code> is an XMR (Monero) miner which operates stealthily in the background without the user’s knowledge or consent, leading to unauthorized and potentially harmful utilization of computing resources for mining the cryptocurrency Monero (XMR).</p>
 <p>When “java.exe” is executed, the malware establishes a connection with a mining server <code>gulf[.]moneroocean[.]stream</code> to carry out cryptocurrency mining activities.</p>
 <p>Concurrently, the malware gathers valuable data from the victim’s system, including computer name, username, GPU, CPU, and other relevant details. This sensitive information is then transferred to a Command and Control (C&amp;C) server via the following URL API:</p>
