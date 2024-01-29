@@ -4,10 +4,30 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Wed, 24 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🎉 OpenBLD.net Chrome Extension v1.1 Released]]></title>
+            <link>https://openbld.net/blog/2024-01-29-openbld--blocker-chrome-extension-released</link>
+            <guid>https://openbld.net/blog/2024-01-29-openbld--blocker-chrome-extension-released</guid>
+            <pubDate>Mon, 29 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net Chrome Extension v1.1 Released]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="OpenBLD.net Chrome Extension v1.1 Released" src="https://openbld.net/assets/images/openbld-chrome-extension-v1.1-released-adc03e8d48327b80a1b3c1447a0d1833.jpeg" width="1250" height="633" class="img_ev3q"></p>
+<p>OpenBLD.net Blocker extension released on official Google Extension Store today 💪</p>
+<p>This is OpenBLD.net add-on which can block some ADS services (such as Yandex advertising) on some web resources which has HTMLembedded ads...</p>
+<p>OpenBLD.net service+Extension Blocker - Perfect combination for reducing Internet noise 🧘‍♂️</p>
+<p>Try or Update OpenBLD.net Blocker from Official Chrome Internet Store:
+<a href="https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea" target="_blank" rel="noopener noreferrer">https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea</a></p>
+<p>Note: OpenBLD.net setup is required before using the Browser extension</p>
+<p>Feedback is welcome! Contacts.</p>
+<p>Feedback is welcome! <a href="https://openbld.net/docs/contacts/">Contacts</a>.</p>
+<p>P.S. After an extension will update, re-enable extension is required</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>AlphaVPS</category>
+            <category>growth</category>
+        </item>
         <item>
             <title><![CDATA[🚀 New zDNS Big Updates and Features]]></title>
             <link>https://openbld.net/blog/zdns-big-updates-and-features</link>
@@ -460,20 +480,6 @@ Take care of yourself. Peace out! ✌️</p>]]></content:encoded>
             <category>openbld</category>
             <category>prevention</category>
             <category>blocking</category>
-        </item>
-        <item>
-            <title><![CDATA[OpenBLD supported by Digital Ocean]]></title>
-            <link>https://openbld.net/blog/openbld-supported-by-do</link>
-            <guid>https://openbld.net/blog/openbld-supported-by-do</guid>
-            <pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Today Digital Ocean supported OpenBLD.net DNS]]></description>
-            <content:encoded><![CDATA[<p>Today Digital Ocean supported OpenBLD.net DNS</p>
-<p><img loading="lazy" alt="Digital Ocean Support" src="https://openbld.net/assets/images/digital-ocean-support-openbld-c7fde117735c12ebe9f5d54616aa67b2.jpg" width="1170" height="952" class="img_ev3q"></p>
-<p>.. step forward in a joyful mood 🥳</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>news</category>
-            <category>digital ocean</category>
         </item>
     </channel>
 </rss>
