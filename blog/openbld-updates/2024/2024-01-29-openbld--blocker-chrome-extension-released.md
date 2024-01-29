@@ -9,17 +9,17 @@ tags: [openbld, AlphaVPS, growth]
 
 OpenBLD.net Blocker extension released on official Google Extension Store today 💪
 
-This is OpenBLD.net add-on which can block some ADS services (such as Yandex advertising) on some web resources which has HTMLembedded ads...
+This is OpenBLD.net add-on which can block some ADS services (such as Yad advertising) on some 
+web resources that has HTML embedded ads...
 
 OpenBLD.net service+Extension Blocker - Perfect combination for reducing Internet noise 🧘‍♂️
 
-Try or Update OpenBLD.net Blocker from Official Chrome Internet Store:
-https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea
+Try or Update OpenBLD.net Blocker from the Official Chrome Internet [Store](https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea).
 
-Note: OpenBLD.net setup is required before using the Browser extension
-
-Feedback is welcome! Contacts.
+:::tip
+**Note**: OpenBLD.net setup is required before using the Browser extension
+:::
 
 Feedback is welcome! [Contacts](/docs/contacts/).
 
-P.S. After an extension will update, re-enable extension is required
+P.S. After an extension will update, re-enable extension is required.
