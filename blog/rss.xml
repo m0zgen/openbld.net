@@ -4,10 +4,52 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Mon, 29 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[1️⃣ Take Control of Your Privacy! Join the OpenBLD.net PDP Beta]]></title>
+            <link>https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join</link>
+            <guid>https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join</guid>
+            <pubDate>Mon, 19 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Take Control of Your Privacy! Join the OpenBLD.net PDP Beta]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Take Control of Your Privacy! Join the OpenBLD.net PDP Beta" src="https://openbld.net/assets/images/join-beta-openbld-pdp-7bcf222e919a3ac280839a7aef81dc65.jpeg" width="1200" height="630" class="img_ev3q"></p>
+<p>Do you want to protect your online privacy and the privacy of your family? Join the beta for
+OpenBLD.net <strong>Personal <em>DoH</em> Profiling</strong> (PDP), a new service that provides:</p>
+<ul>
+<li><strong>Complete isolation</strong> of your DNS requests, ensuring that no one can track your online activity.</li>
+<li><strong>Personalized DNS settings</strong>, so you can block ads, malicious websites, and other unwanted content.</li>
+<li><strong>Robust security</strong> with DNSSEC, TLSv1.2, and TLSv1.3.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="benefits-of-pdp">Benefits of PDP<a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join#benefits-of-pdp" class="hash-link" aria-label="Direct link to Benefits of PDP" title="Direct link to Benefits of PDP">​</a></h2>
+<ul>
+<li><strong>Enhanced privacy</strong>: Your DNS requests will not be accessible to third parties, ensuring the confidentiality of your online activity.</li>
+<li><strong>Security</strong>: Protection from malicious websites, phishing attacks, and other online threats.</li>
+<li><strong>Control</strong>: Block ads, trackers, and other unwanted content.</li>
+<li><strong>Ease of use</strong>: Easy to set up and use.</li>
+<li><strong>Stability</strong>: All OpenBLD.net experiences under the hood.</li>
+<li><strong>Support</strong>: Access to a personal support.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-join-the-beta">How to Join the Beta<a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join#how-to-join-the-beta" class="hash-link" aria-label="Direct link to How to Join the Beta" title="Direct link to How to Join the Beta">​</a></h2>
+<p><strong>Be among the first to test OpenBLD.net PDP</strong>! Fill out the form below to get access to all features which will available in March 2024.</p>
+<ul>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Join to PDP Beta</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?">​</a></h2>
+<ol>
+<li>After you fill out the form, I will contact you to confirm your participation in the beta.</li>
+<li>In March-April 2024, you will receive a message from me with instructions (or it can be updated form) with additional
+fields (like as you own Allow/Block lists, personal DoH links, etc.)</li>
+<li>After all needed data is collected, you will receive a link to the service.</li>
+<li>Next, you will be able to use the service and provide <a href="https://openbld.net/docs/contacts/">feedback</a>.</li>
+</ol>]]></content:encoded>
+            <category>openbld</category>
+            <category>pdp</category>
+            <category>testing</category>
+            <category>beta</category>
+            <category>privacy</category>
+        </item>
         <item>
             <title><![CDATA[🎉 OpenBLD.net Chrome Extension v1.1 Released]]></title>
             <link>https://openbld.net/blog/2024-01-29-openbld--blocker-chrome-extension-released</link>
@@ -459,23 +501,6 @@ Take care of yourself. Peace out! ✌️</p>]]></content:encoded>
 <p>The ThirdEye infostealer has relatively simple functionality. It harvests various system information from compromised machines, such as BIOS and hardware data. It also enumerates files and folders, running processes, and network information. Once the malware is executed, it gathers all this data and sends it to its command-and-control (C2) server hosted at (hxxp://shlalala[.]ru/general/ch3ckState). And unlike most other malware, it does nothing else.</p>
 <p>One interesting string unique to the ThirdEye infostealer family (from which we derived its name) is "3rd_eye", which it decrypts and uses with another hash value to identify itself to the C2.</p>
 <p>See more details on <a href="https://www.fortinet.com/blog/threat-research/new-fast-developing-thirdeye-infostealer-pries-open-system-information" target="_blank" rel="noopener noreferrer">FortiGuard Labs</a></p>]]></content:encoded>
-            <category>openbld</category>
-            <category>prevention</category>
-            <category>blocking</category>
-        </item>
-        <item>
-            <title><![CDATA[Prevent Trojanized Super Mario]]></title>
-            <link>https://openbld.net/blog/prevent-trojanized-super-mario</link>
-            <guid>https://openbld.net/blog/prevent-trojanized-super-mario</guid>
-            <pubDate>Thu, 08 Jun 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Trojanized Super Mario Game Installer Spreads SupremeBot Malware]]></description>
-            <content:encoded><![CDATA[<p>Trojanized Super Mario Game Installer Spreads SupremeBot Malware</p>
-<p><img decoding="async" loading="lazy" alt="Prevent Trojanized Super Mario" src="https://openbld.net/assets/images/figure-super-mario-Infection-chain-5460433f43c0f9aa0261d1363911961e.jpeg" width="917" height="415" class="img_ev3q"></p>
-<p>According to <a href="https://blog.cyble.com/2023/06/23/trojanized-super-mario-game-installer-spreads-supremebot-malware/" target="_blank" rel="noopener noreferrer">Cyble</a> blog post, the malware is distributed through <code>java.exe</code> is an XMR (Monero) miner which operates stealthily in the background without the user’s knowledge or consent, leading to unauthorized and potentially harmful utilization of computing resources for mining the cryptocurrency Monero (XMR).</p>
-<p>When “java.exe” is executed, the malware establishes a connection with a mining server <code>gulf[.]moneroocean[.]stream</code> to carry out cryptocurrency mining activities.</p>
-<p>Concurrently, the malware gathers valuable data from the victim’s system, including computer name, username, GPU, CPU, and other relevant details. This sensitive information is then transferred to a Command and Control (C&amp;C) server via the following URL API:</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">hxxp://shadowlegion[.]duckdns[.]org/nam/api/endpoint[.]php</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>Be careful and watch what your children play and what applications they install 🧩 on their devices 📲</p>]]></content:encoded>
             <category>openbld</category>
             <category>prevention</category>
             <category>blocking</category>
