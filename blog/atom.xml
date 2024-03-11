@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-02-19T00:00:00.000Z</updated>
+    <updated>2024-03-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🛡 Integration of OpenBLD.net with URLhaus by abuse.ch]]></title>
+        <id>https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration</id>
+        <link href="https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration"/>
+        <updated>2024-03-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Integration of OpenBLD.net with URLhaus by abuse.ch]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Integration of OpenBLD.net with URLhaus by abuse.ch" src="https://openbld.net/assets/images/openbld_and_abuse_ch-302649946d1ebc17bf2802adbc3393ae.png" width="1250" height="460" class="img_ev3q"></p>
+<p><a href="https://urlhaus.abuse.ch/" target="_blank" rel="noopener noreferrer">URLhaus</a> is a project operated by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a>. Its purpose is to collect, track, and share malware URLs, aiding network
+administrators and security analysts in safeguarding their networks and customers from cyber threats.</p>
+<p>Now, you can check the malicious domain ownership with OpenBLD.net alongside Quad9, AdGuard, Cloudflare, ProtonDNS on
+<a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a>.</p>
+<p>In addition, you can incorporate abuse.ch lists into your security solutions, just as OpenBLD.net does.</p>
+<p>You can check this as example on:</p>
+<ul>
+<li><a href="https://urlhaus.abuse.ch/host/licocojambamarketplace.com" target="_blank" rel="noopener noreferrer">https://urlhaus.abuse.ch/host/licocojambamarketplace.com</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-links">Additional Links<a href="https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration#additional-links" class="hash-link" aria-label="Direct link to Additional Links" title="Direct link to Additional Links">​</a></h2>
+<p>You can easy setup OpenBLD.net on your favourite device(s):</p>
+<ul>
+<li><a href="https://openbld.net/docs/category/setup-mobile-devices/">Mobile Devices</a></li>
+<li><a href="https://openbld.net/docs/category/setup-browsers/">Browsers</a></li>
+<li>Or you can start from here - <a href="https://openbld.net/docs/category/get-started/">Get Started</a></li>
+</ul>
+<p>Here's to security for us all. Cheers!)</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="pdp" term="pdp"/>
+        <category label="testing" term="testing"/>
+        <category label="beta" term="beta"/>
+        <category label="privacy" term="privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1️⃣ Take Control of Your Privacy! Join the OpenBLD.net PDP Beta]]></title>
         <id>https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join</id>
@@ -557,25 +591,6 @@ Take care of yourself. Peace out! ✌️</p>]]></content>
 <p>The infection starts once the user searches for “WinSCP Download” on the Bing search engine. A malicious ad for the WinSCP application is displayed above the organic search results. The ad leads to a suspicious website containing a tutorial on how to use WinSCP for automating file transfer:</p>
 <p><img decoding="async" loading="lazy" alt="Donwload WinSCP" src="https://openbld.net/assets/images/figure-winscp-chain-5bc39adeaccbd93f680bb95438153a55.png" width="1426" height="933" class="img_ev3q"></p>
 <p>See more details on <a href="https://www.trendmicro.com/en_us/research/23/f/malvertising-used-as-entry-vector-for-blackcat-actors-also-lever.html" target="_blank" rel="noopener noreferrer">Trendmicro blog</a></p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="prevention" term="prevention"/>
-        <category label="blocking" term="blocking"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prevent ThirdEye Infostealer]]></title>
-        <id>https://openbld.net/blog/prevent-thirdtye-Infostealer</id>
-        <link href="https://openbld.net/blog/prevent-thirdtye-Infostealer"/>
-        <updated>2023-06-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[FortiGuard Labs recently came across files that look suspicious, even during a cursory review. Our subsequent investigation confirmed that the files are malicious and revealed there is more to them than meets the eye: they are a previously unseen infostealer we have named “ThirdEye”. While this malware is not considered sophisticated, it’s designed to steal various information from compromised machines that can be used as stepping-stones for future attacks.]]></summary>
-        <content type="html"><![CDATA[<p>FortiGuard Labs recently came across files that look suspicious, even during a cursory review. Our subsequent investigation confirmed that the files are malicious and revealed there is more to them than meets the eye: they are a previously unseen infostealer we have named “ThirdEye”. While this malware is not considered sophisticated, it’s designed to steal various information from compromised machines that can be used as stepping-stones for future attacks.</p>
-<p><img decoding="async" loading="lazy" alt="Prevent ThirdEye Infostealer" src="https://openbld.net/assets/images/figure-thirdtye-Infostealer-c6b0498037946c06cf02a0051beac1ad.png" width="836" height="162" class="img_ev3q"></p>
-<p>The ThirdEye infostealer has relatively simple functionality. It harvests various system information from compromised machines, such as BIOS and hardware data. It also enumerates files and folders, running processes, and network information. Once the malware is executed, it gathers all this data and sends it to its command-and-control (C2) server hosted at (hxxp://shlalala[.]ru/general/ch3ckState). And unlike most other malware, it does nothing else.</p>
-<p>One interesting string unique to the ThirdEye infostealer family (from which we derived its name) is "3rd_eye", which it decrypts and uses with another hash value to identify itself to the C2.</p>
-<p>See more details on <a href="https://www.fortinet.com/blog/threat-research/new-fast-developing-thirdeye-infostealer-pries-open-system-information" target="_blank" rel="noopener noreferrer">FortiGuard Labs</a></p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>
