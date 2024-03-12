@@ -18,61 +18,60 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
 <p>What is PDP and how to use it? This article will help you to understand the basics of OpenBLD.net
 <strong>Personal <em>DoH</em> Profiling</strong> (PDP) and how to use it.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>More details about of PDP you can see <a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/">here</a>.</p></div></div>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>More details about PDP you can find <a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/">here</a>.</p></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-started">Get Started<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#get-started" class="hash-link" aria-label="Direct link to Get Started" title="Direct link to Get Started">​</a></h2>
-<p>After <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Joining to PDP Beta</a>,
-you received a welcome message from me to provided contacts.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Doesn't receive? <a href="https://openbld.net/docs/contacts/">Contacts</a> to me please</p></div></div>
+<p>After <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Joining PDP Beta</a>,
+you will receive a welcome message from me to a provided contact.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Haven't received? <a href="https://openbld.net/docs/contacts/">Contact</a> me please</p></div></div>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="initial-usage">Initial usage<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#initial-usage" class="hash-link" aria-label="Direct link to Initial usage" title="Direct link to Initial usage">​</a></h3>
-<p>After receiving a unique PDP DoH link from me, you can start to use the service:</p>
+<p>After receiving a unique PDP DoH link from me, you can start using the service:</p>
 <ul>
 <li><strong>Step 1</strong>: Setup your device(s) with OpenBLD.net PDP with provided DNS-over-HTTPS (DoH) links.</li>
 <li><strong>Step 2</strong>: DoH link should be formatted as <code>https://&lt;service name&gt;/dns-query/&lt;your_id&gt;</code> (where <code>&lt;service name&gt;</code>
 ADA or RIC platform address, <code>&lt;your_id&gt;</code> is your unique identifier).</li>
 <li><strong>Step 3</strong>: After setup, you can check the service on <a href="https://www.dnsleaktest.com/" target="_blank" rel="noopener noreferrer">DNS Leak Test</a> and <a href="https://dnscheck.tools/" target="_blank" rel="noopener noreferrer">Dnscheck.tools</a></li>
 </ul>
-<p>🎉🎉🎉 Now you can relax and use the service in own vacuum with personalized settings.</p>
+<p>🎉🎉🎉 Now you can relax and use the service based on your own personalized settings.</p>
 <p>Enjoy the service and provide <a href="https://openbld.net/docs/contacts/">feedback</a>!</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="customization-optional">Customization (Optional)<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#customization-optional" class="hash-link" aria-label="Direct link to Customization (Optional)" title="Direct link to Customization (Optional)">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="personalized-settings">Personalized settings<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#personalized-settings" class="hash-link" aria-label="Direct link to Personalized settings" title="Direct link to Personalized settings">​</a></h3>
 <p>Free available settings for customization are:</p>
 <ul>
-<li>Personal Allow/Block lists (Default: <a href="https://github.com/m0zgen/my-zbld" target="_blank" rel="noopener noreferrer">my-zbld</a> (you can provide for needed domains to block or allow)</li>
+<li>Personal Allow/Block lists (Default: <a href="https://github.com/m0zgen/my-zbld" target="_blank" rel="noopener noreferrer">my-zbld</a></li>
 <li>Change reload list interval (Default: 24 hours (Minimal allowed 3 hours))</li>
 <li>Disable/Enable troubleshooting logs (Default: Enabled. Storing: 2 days)</li>
 <li>Switch OpenBLD.net mode to Zero Trust (Default: Blackhole mode (more details <a href="https://openbld.net/blog/openbld-zdns-blackhole-server/">here</a>))</li>
 <li>Create additional PDP DoH links for your family members or different devices (Default: 2 links)</li>
 </ul>
-<p>For applying customization, at the current time, you can fill OpenBLD.net PDP Personal Settings <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkeYLec0THvITXj3foesRU3NnHbJQZ-x8VT91yCXRWx2V4Kg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Form</a>
-and notify <a href="https://openbld.net/docs/contacts/">me</a> about it.</p>
+<p>To apply customization you can fill OpenBLD.net PDP Personal Settings <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkeYLec0THvITXj3foesRU3NnHbJQZ-x8VT91yCXRWx2V4Kg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Form</a>
+and notify <a href="https://openbld.net/docs/contacts/">me</a>.</p>
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><ul>
-<li>Allowlists are still <strong>prioritized</strong> over blocklists.</li>
-<li>You can provide static hosts file if needed</li>
+<li>Allow lists are still <strong>prioritized</strong> over blocklists.</li>
+<li>You can provide static hosts file if needed.</li>
 </ul></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="usage-conditions">Usage Conditions<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#usage-conditions" class="hash-link" aria-label="Direct link to Usage Conditions" title="Direct link to Usage Conditions">​</a></h2>
 <ul>
 <li>Lists or static hosts file should not be more than 100 records.</li>
 <li>The number of requests should not exceed 100k per day.</li>
-<li>Shall comply with the terms of use of the service (See <a href="https://openbld.net/docs/overwiew/how-it-works/#limitations">Limitations</a> section).</li>
+<li>Shall comply with the terms of the service use (See <a href="https://openbld.net/docs/overwiew/how-it-works/#limitations">Limitations</a> section).</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="profile-deletion">Profile deletion<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#profile-deletion" class="hash-link" aria-label="Direct link to Profile deletion" title="Direct link to Profile deletion">​</a></h3>
 <ul>
-<li><strong>Scenario 1</strong>: Notify <a href="https://openbld.net/docs/contacts/">me</a> about the need to delete the profile.</li>
+<li><strong>Scenario 1</strong>: Notify <a href="https://openbld.net/docs/contacts/">me</a> if you need to delete the profile.</li>
 <li><strong>Scenario 2</strong>: After 30 days of inactivity, the profile will be automatically deleted.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback">Feedback<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#feedback" class="hash-link" aria-label="Direct link to Feedback" title="Direct link to Feedback">​</a></h3>
 <ul>
-<li>You can provide feedback for me in any way possible (directly, via <a href="https://openbld.net/docs/contacts/">contacts</a>, etc.)</li>
-<li>After some time I will contact you and ask you to fill out the feedback form</li>
+<li>You can provide feedback in any way possible (directly, via <a href="https://openbld.net/docs/contacts/">contacts</a>, etc.)</li>
+<li>Later on, I will contact you and ask to fill out the feedback form.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="automation">Automation<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#automation" class="hash-link" aria-label="Direct link to Automation" title="Direct link to Automation">​</a></h3>
-<p>In the future, I plan to automate the process of providing personalized settings and the ability to change them on the fly, with:</p>
+<p>Next step is to automate the process of providing personalized settings and the ability to change them on the go, with:</p>
 <ul>
 <li>Telegram bot</li>
 <li>Web UI</li>
 </ul>
-<p>I'm not sure if I can do it quickly, but I hope. 😎</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-links">Additional Links<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#additional-links" class="hash-link" aria-label="Direct link to Additional Links" title="Direct link to Additional Links">​</a></h2>
 <p>How to setup OpenBLD.net on your favourite device(s):</p>
 <ul>
@@ -80,7 +79,8 @@ and notify <a href="https://openbld.net/docs/contacts/">me</a> about it.</p>
 <li><a href="https://openbld.net/docs/category/setup-browsers/">Browsers</a></li>
 <li>Or you can start from here - <a href="https://openbld.net/docs/category/get-started/">Get Started</a></li>
 <li><a href="https://openbld.net/docs/contacts/">Contacts</a></li>
-</ul>]]></content:encoded>
+</ul>
+<p>Stay tuned in for more updates and features in Telegram OpenBLD.net <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">Channel</a>! 🚀</p>]]></content:encoded>
             <category>openbld</category>
             <category>pdp</category>
             <category>testing</category>
