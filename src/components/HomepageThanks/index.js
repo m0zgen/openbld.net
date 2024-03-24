@@ -127,6 +127,11 @@ const thanks = [
             "style": ""
         },
         {
+            "name": "G0IEA 🚴‍",
+            "url": "",
+            "style": ""
+        },
+        {
             "name": "TeaqariaWTF 🚴‍",
             "url": "",
             "style": ""
