@@ -11,11 +11,10 @@ You can support the OpenBLD DNS Project through various activities:
 
 ## Donating
 
-* [PayPal](https://www.paypal.com/paypalme/m0zgen)
+* [PayPal](https://www.paypal.com/paypalme/m0zgen), [Donorbox](https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=30) (with PayPal / Cards)
 * KZ Card (Kaspi) - `4400430274737391`
 * YooMoney - `41001928837376`
 * Mir - `2204 1201 0804 5747`
-* [Donorbox](https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=30) with PayPal / Cards
 
 ## Using / Testing and providing Feedback
 
@@ -51,3 +50,24 @@ You can support the OpenBLD DNS Project through various activities:
 ## Benefits
 
 If you make donating or contribute, you can get of part [OpenBLD Plus](/docs/overwiew/4.openbld-plus.md) benefits.
+
+## Contribute Log
+
+### 2021 - 2023
+
+PilgrimZero (testing), Pak_DV (testing), George.K (testing), Slava.V (testing),
+Sergey.M (testing), V B (testing), Alibek.B (testing), Dmitry (testing), Oleg (testing) ⚡
+Simon.W (testing) 💪, Anatoly (testing) 💪⚡, Thatskriptkid (contribute), Gregory Z (contribute) 💪⚡
+
+### 2024
+Alexandr Bespoyasko (contribute) ⚡, Bessmertnyi_poni ⚡☀️, Клён 🌳 (ArtloopTeam) 🚜 ☀️, Alexander G ☀️, El (testing) 💪⚡, 
+Roman G. ☀️, TeaqariaWTF 🚴‍, Green Duck 🚴‍ 
+
+### Always on touch
+Елизавета.К (design) ☀️, Ruzmat (contribute) ⚡, VadimML24 (contribute) ⚡, Greg (contribute, testing), Egor.Y (testing) 🚴, Stanislav (aka clevergod) Istyagin 💪 ⚡, 
+Not Saint (testing, hosting) 💪 🚴, Aslan-Im (contribute, testing) 🚴, Andrei (werlock) ☀️ 🚴, Seke t.me/asbisKZ ⚡ 🚜 ☀️ 🚴
+
+
+
+
+Legend: 2021> Contributor Name |2022> Testing: 💪 Contribute: ⚡ |2023> Feedback: 🚜 Contribute: ☀️ |2024> Test. Feedback. Help: 🚴.

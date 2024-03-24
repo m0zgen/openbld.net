@@ -2,22 +2,7 @@ import React from 'react';
 
 const thanks = [
         {
-            "name": "PilgrimZero (testing)",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Pak_DV (testing)",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Greg (testing)",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "George.K (testing)",
+            "name": "Greg (testing) 🚴",
             "url": "",
             "style": ""
         },
@@ -57,22 +42,17 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Egor.Y (testing)",
+            "name": "Egor.Y (testing) 🚴",
             "url": "",
             "style": ""
         },
         {
-            "name": "Stanislav (aka clevergod) Istyagin \ud83d\udcaa \u26a1",
+            "name": "Stanislav (aka clevergod) Istyagin \ud83d\udcaa \u26a1 🚴",
             "url": "https://www.linkedin.com/in/stanislav-istyagin/",
             "style": ""
         },
         {
-            "name": "Oleg (testing) \u26a1",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Not Saint (testing, hosting) \ud83d\udcaa",
+            "name": "Not Saint (testing, hosting) \ud83d\udcaa 🚴",
             "url": "",
             "style": ""
         },
@@ -82,7 +62,7 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Aslan-Im (contribute)",
+            "name": "Aslan-Im (contribute) 🚴",
             "url": "https://forum.sys-adm.in/u/crowley/summary",
             "style": ""
         },
@@ -107,7 +87,7 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Alexandr Bespoyasko (contribute) \u26a1",
+            "name": "Alexandr Bespoyasko (contribute) \u26a1 🚴",
             "url": "https://alexandr.bespoyasko.kz/",
             "style": ""
         },
@@ -127,27 +107,32 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Roman G. \u2600\ufe0f",
+            "name": "SysRoman \u2600\ufe0f",
             "url": "",
             "style": ""
         },
         {
-            "name": "Andrei (werlock) \u2600\ufe0f",
+            "name": "Andrei (werlock) \u2600\ufe0f 🚴",
             "url": "",
             "style": ""
         },
         {
-            "name": "\u041a\u043b\u0451\u043d \ud83c\udf33 (ArtloopTeam) \ud83d\ude9c \u2600\ufe0f",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Seke t.me/asbisKZ \u26a1 \uD83D\uDE9C ☀\uFE0F",
+            "name": "Seke t.me/asbisKZ \u26a1 \uD83D\uDE9C ☀\uFE0F 🚴",
             "url": "",
             "style": ""
         },
         {
             "name": "Alexander G ☀\uFE0F",
+            "url": "",
+            "style": ""
+        },
+        {
+            "name": "TeaqariaWTF 🚴‍",
+            "url": "",
+            "style": ""
+        },
+        {
+            "name": "Green Duck 🚴‍",
             "url": "",
             "style": ""
         }
@@ -190,16 +175,14 @@ export default function HomepageThanks() {
                 </div>
 
                 <div className="flex flex-col items-center justify-center w-full">
-                    <p><strong>Legend: </strong>
-                        2021> <strong className="has-text-success">
-                        Contributor Name
+                    <p>2021-2022>
+                        <strong> See <a href="/docs/donation/#contribute-log" className="justify-center font-medium text-blue-600 dark:text-blue-500 hover:underline">Contribute Log</a>
+                    </strong><br/>
+                        2023-2024> <strong className="has-text-warning">
+                        Test. Feedback. Help: 🚴
+                            {/*Rank: ⭐️🚀*/}
                     </strong>.
-                        2022> <strong className="has-text-info">
-                        Testing: 💪 Contribute: ⚡
-                    </strong>.
-                        2023> <strong className="has-text-warning">
-                        Feedback: 🚜 Contribute: ☀️
-                        </strong></p>
+                    </p>
 
                 </div>
 
