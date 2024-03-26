@@ -4,10 +4,25 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 12 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[OpenBLD.net and Veesp.com Cooperation]]></title>
+            <link>https://openbld.net/blog/2024-03-26-openbld-and-veesp-cooperation</link>
+            <guid>https://openbld.net/blog/2024-03-26-openbld-and-veesp-cooperation</guid>
+            <pubDate>Tue, 26 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net and Veesp.com]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and Veesp.com" src="https://openbld.net/assets/images/openbld_and_veesp-d9bcb208dc7b0b584abf5a899bdc6582.png" width="1250" height="460" class="img_ev3q"></p>
+<p>Now it's can unload existing servers for - Estonia, Latvia, Lithuania, Moldova, Poland..! 🎉</p>
+<p>Fast server in Europe with - NVME SSD, 8Gb RAM, 4 vCores, 500Mbps Bandwidth!</p>
+<p>Really fast KVM-Based VPS at current time from <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">Veesp.com</a> I think it will help relieve the overall load)</p>
+<p>let's move on!.. 🚀</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>veesp</category>
+            <category>growth</category>
+        </item>
         <item>
             <title><![CDATA[👻 OpenBLD.net PDP Testing Usage Manual]]></title>
             <link>https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage</link>
@@ -568,20 +583,6 @@ Take care of yourself. Peace out! ✌️</p>]]></content:encoded>
             <category>openbld</category>
             <category>prevention</category>
             <category>blocking</category>
-        </item>
-        <item>
-            <title><![CDATA[OpenBLD added to AdGuard DNS KB]]></title>
-            <link>https://openbld.net/blog/openbld-added-to-adguard-dns-kb</link>
-            <guid>https://openbld.net/blog/openbld-added-to-adguard-dns-kb</guid>
-            <pubDate>Fri, 07 Jul 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Today info about of OpenBLD.net DNS added to AdGuard Wiki KnowledgeBaseDNS repo:]]></description>
-            <content:encoded><![CDATA[<p>Today info about of OpenBLD.net DNS added to AdGuard Wiki KnowledgeBaseDNS repo:</p>
-<p><a href="https://adguard-dns.io/kb/general/dns-providers/#openbldnet-dns" target="_blank" rel="noopener noreferrer">https://adguard-dns.io/kb/general/dns-providers/#openbldnet-dns</a></p>
-<p>I am very happy about this event, thank you very much everyone for your support and help! 🤜🤛</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>news</category>
-            <category>adguard</category>
         </item>
     </channel>
 </rss>

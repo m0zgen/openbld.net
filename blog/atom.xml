@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-03-12T00:00:00.000Z</updated>
+    <updated>2024-03-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[OpenBLD.net and Veesp.com Cooperation]]></title>
+        <id>https://openbld.net/blog/2024-03-26-openbld-and-veesp-cooperation</id>
+        <link href="https://openbld.net/blog/2024-03-26-openbld-and-veesp-cooperation"/>
+        <updated>2024-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net and Veesp.com]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and Veesp.com" src="https://openbld.net/assets/images/openbld_and_veesp-d9bcb208dc7b0b584abf5a899bdc6582.png" width="1250" height="460" class="img_ev3q"></p>
+<p>Now it's can unload existing servers for - Estonia, Latvia, Lithuania, Moldova, Poland..! 🎉</p>
+<p>Fast server in Europe with - NVME SSD, 8Gb RAM, 4 vCores, 500Mbps Bandwidth!</p>
+<p>Really fast KVM-Based VPS at current time from <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">Veesp.com</a> I think it will help relieve the overall load)</p>
+<p>let's move on!.. 🚀</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="veesp" term="veesp"/>
+        <category label="growth" term="growth"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[👻 OpenBLD.net PDP Testing Usage Manual]]></title>
         <id>https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage</id>
@@ -643,23 +662,5 @@ Take care of yourself. Peace out! ✌️</p>]]></content>
         <category label="openbld" term="openbld"/>
         <category label="prevention" term="prevention"/>
         <category label="blocking" term="blocking"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenBLD added to AdGuard DNS KB]]></title>
-        <id>https://openbld.net/blog/openbld-added-to-adguard-dns-kb</id>
-        <link href="https://openbld.net/blog/openbld-added-to-adguard-dns-kb"/>
-        <updated>2023-07-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today info about of OpenBLD.net DNS added to AdGuard Wiki KnowledgeBaseDNS repo:]]></summary>
-        <content type="html"><![CDATA[<p>Today info about of OpenBLD.net DNS added to AdGuard Wiki KnowledgeBaseDNS repo:</p>
-<p><a href="https://adguard-dns.io/kb/general/dns-providers/#openbldnet-dns" target="_blank" rel="noopener noreferrer">https://adguard-dns.io/kb/general/dns-providers/#openbldnet-dns</a></p>
-<p>I am very happy about this event, thank you very much everyone for your support and help! 🤜🤛</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="news" term="news"/>
-        <category label="adguard" term="adguard"/>
     </entry>
 </feed>
