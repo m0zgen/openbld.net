@@ -17,5 +17,5 @@ As you know one of the our prioritites - fast DoH/DoT responses and _1GBit/s_ fr
 One server already available for users (see [status](https://bld-status.sys-adm.in/) of Ada-h4), 
 second server will be available in the next few days. Enjoy it 🚀 
 
-P.S. Few times ago I posted OpenBLD.net [IPv6 Pre-Release](../2023/2023-12-11-openbld-ipv6-pre-re;ease.md) notice, in few near weeks I'll plan implement 
+P.S. Few times ago I posted OpenBLD.net [IPv6 Pre-Release](../2023/2023-12-11-openbld-ipv6-pre-release.md) notice, in few near weeks I'll plan implement 
 DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...
