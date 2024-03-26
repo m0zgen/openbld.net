@@ -1,6 +1,6 @@
 ---
 slug: prevent-trojanized-super-mario
-title: Prevent Trojanized Super Mario
+title: ↘ Prevent Trojanized Super Mario
 authors: [sysadminkz]
 tags: [openbld, prevention, blocking]
 ---

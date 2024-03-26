@@ -1,6 +1,6 @@
 ---
 slug: openbld-ada-ric-differences
-title: OpenBLD ADA & RIC differences
+title: ↘ OpenBLD ADA & RIC differences
 authors: [sysadminkz]
 tags: [openbld, updates, news]
 ---

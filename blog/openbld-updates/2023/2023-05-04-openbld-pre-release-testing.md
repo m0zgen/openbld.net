@@ -1,6 +1,6 @@
 ---
 slug: openbld-pre-release-testing
-title: GeoDNS Pre-release Testing
+title: ↘ GeoDNS Pre-release Testing
 authors: [sysadminkz]
 tags: [openbld, dns, cloudns, testing, updates, news]
 ---

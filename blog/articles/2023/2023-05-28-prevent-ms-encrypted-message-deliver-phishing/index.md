@@ -1,6 +1,6 @@
 ---
 slug: prevent-ms-encrypted-message-deliver-phishing
-title: Prevent MS Encrypted Phishing
+title: ↘ Prevent MS Encrypted Phishing
 authors: [sysadminkz]
 tags: [openbld, protection, blocking]
 ---

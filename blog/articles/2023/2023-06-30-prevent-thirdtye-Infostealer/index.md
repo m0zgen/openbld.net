@@ -1,6 +1,6 @@
 ---
 slug: prevent-thirdtye-Infostealer
-title: Prevent ThirdEye Infostealer
+title: ↘ Prevent ThirdEye Infostealer
 authors: [sysadminkz]
 tags: [openbld, prevention, blocking]
 ---

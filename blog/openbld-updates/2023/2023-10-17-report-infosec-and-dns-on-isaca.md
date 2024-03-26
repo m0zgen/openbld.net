@@ -1,6 +1,6 @@
 ---
 slug: report-infosec-and-dns-on-isaca
-title: Open Report on "Security and DNS"
+title: ↘ Open Report on "Security and DNS"
 authors: [sysadminkz]
 tags: [openbld, updates, news]
 ---

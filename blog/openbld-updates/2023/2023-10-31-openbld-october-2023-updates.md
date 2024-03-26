@@ -1,6 +1,6 @@
 ---
 slug: openbld-october-2023-updates
-title: OpenBLD October'23 Upgrades
+title: ↘ OpenBLD October'23 Upgrades
 authors: [sysadminkz]
 tags: [openbld, updates, news]
 ---

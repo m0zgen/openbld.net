@@ -1,6 +1,6 @@
 ---
 slug: 2024-03-26-openbld-and-veesp-cooperation
-title: OpenBLD.net and Veesp.com Cooperation
+title: 🤝 OpenBLD.net and Veesp.com Cooperation
 authors: [sysadminkz]
 tags: [openbld, veesp, growth]
 ---

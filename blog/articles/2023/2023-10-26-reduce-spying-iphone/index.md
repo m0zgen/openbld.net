@@ -1,6 +1,6 @@
 ---
 slug: reduce-spying-iphone
-title: Reduce Spying iPhone
+title: ↘ Reduce Spying iPhone
 authors: [sysadminkz]
 tags: [openbld, prevention, blocking]
 ---

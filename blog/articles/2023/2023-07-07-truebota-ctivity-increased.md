@@ -1,6 +1,6 @@
 ---
 slug: truebot-ctivity-increased
-title: Truebot Activity Increased
+title: ↘ Truebot Activity Increased
 authors: [sysadminkz]
 tags: [openbld, prevention, blocking]
 ---

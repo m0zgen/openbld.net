@@ -1,6 +1,6 @@
 ---
 slug: fake-update-drops-aurora-stealer
-title: Blocking Aurora Stealer
+title: ↘ Blocking Aurora Stealer
 authors: [sysadminkz]
 tags: [openbld, protection, blocking]
 ---

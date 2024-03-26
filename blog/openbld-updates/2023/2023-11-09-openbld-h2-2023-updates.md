@@ -1,6 +1,6 @@
 ---
 slug: openbld-h2-2023-updates
-title: OpenBLD H2'23 Upgrades
+title: ↘ OpenBLD H2'23 Upgrades
 authors: [sysadminkz]
 tags: [openbld, updates, news]
 ---

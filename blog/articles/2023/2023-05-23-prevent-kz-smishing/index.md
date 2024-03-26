@@ -1,6 +1,6 @@
 ---
 slug: openbld-prevent-post-kz-smishing
-title: Blocking SMiShing in Kazakhstan
+title: ↘ Blocking SMiShing in Kazakhstan
 authors: [sysadminkz]
 tags: [openbld, protection, blocking]
 ---

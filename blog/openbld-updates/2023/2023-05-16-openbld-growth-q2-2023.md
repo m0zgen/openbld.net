@@ -1,6 +1,6 @@
 ---
 slug: openbld-growth-q2-2023
-title: OpenBLD.net Growth in Q2 2023
+title: ↘ OpenBLD.net Growth in Q2 2023
 authors: [sysadminkz]
 tags: [openbld, dns, updates, news, report]
 ---

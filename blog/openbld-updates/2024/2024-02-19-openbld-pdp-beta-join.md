@@ -1,6 +1,6 @@
 ---
 slug: 2024-02-19-openbld-pdp-beta-join
-title: 1️⃣ Take Control of Your Privacy! Join the OpenBLD.net PDP Beta
+title: ↘ Take Control of Your Privacy! Join the OpenBLD.net PDP Beta
 authors: [sysadminkz]
 tags: [openbld, pdp, testing, beta, privacy]
 ---

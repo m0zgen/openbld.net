@@ -1,6 +1,6 @@
 ---
 slug: report-update-https-certs
-title: OpenBLD Update HTTPS Certificates
+title: ↘ OpenBLD Update HTTPS Certificates
 authors: [sysadminkz]
 tags: [openbld, updates, news]
 ---

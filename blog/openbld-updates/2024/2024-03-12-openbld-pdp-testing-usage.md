@@ -1,6 +1,6 @@
 ---
 slug: 2024-03-12-openbld-pdp-testing-usage
-title: 👻 OpenBLD.net PDP Testing Usage Manual
+title: ↘ OpenBLD.net PDP Testing Usage Manual
 authors: [sysadminkz]
 tags: [openbld, pdp, testing, beta, privacy]
 ---

@@ -1,6 +1,6 @@
 ---
 slug: prevent-winscp-malicious
-title: Prevent Malicious WinSCP
+title: ↘ Prevent Malicious WinSCP
 authors: [sysadminkz]
 tags: [openbld, prevention, blocking]
 ---
