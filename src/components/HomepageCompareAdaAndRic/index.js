@@ -7,14 +7,14 @@ export default function HomepageCompareAdaAndRic() {
           <div className="container mx-auto px-4">
               <div className="py-16 px-8 md:px-16 bg-white dark:bg-[#070a11] rounded-3xl">
                   <div className="flex flex-wrap -m-8">
-                      <div className="w-full md:w-1/2 p-8">
-                          <img className="mx-auto md:ml-0 rounded-3xl" src="img/openbld-ada-ric-adminforge-test.jpg" alt=""/></div>
+                      <div className="w-full md:w-1/2 p-8 bg-gray-100">
+                          <img className="mx-auto md:ml-0" src="img/openbld-ada-ric-adminforge-test.jpg" alt=""/></div>
                       <div className="w-full md:w-1/2 p-8">
                           <div className="md:max-w-md">
                               <span className="inline-block mb-5 text-sm text-blue-500 dark:text-green-300 font-bold uppercase tracking-widest">
                                   Feature</span>
                               <h2 className="font-heading mb-4 text-4xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
-                                  <span>Let’s to </span><span className="text-blue-500 dark:text-blue-500">reduce</span> your traffic!</h2>
+                                  <span></span>Reduce your <span className="text-blue-500 dark:text-gray-400">traffic</span></h2>
                               <p className="mb-16 font-bold dark:text-gray-900">
                                   Increased battery life and reduced CPU load. With:</p>
                               <div className="flex flex-wrap -m-2">

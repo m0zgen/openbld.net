@@ -6,6 +6,8 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageThanks from '@site/src/components/HomepageThanks';
 import HomepageLogosCloud from '@site/src/components/HomepageLogosCloud';
+import HomepageChromeExtension from '@site/src/components/HomepageChromeExtension';
+import HomepageVideoPresentation from '@site/src/components/HomepageVideoPresentation';
 import HomepageCompareAdaAndRic from '@site/src/components/HomepageCompareAdaAndRic';
 
 import styles from './index.module.css';
@@ -71,11 +73,11 @@ function FeaturesListHeading() {
 
             <div className="container mx-auto px-4">
                 <div className="py-16 px-8 bg-white rounded-3xl dark:bg-[#070a11]">
-                    <div className="max-w-7xl mx-auto">
+                    <div className="flex flex-wrap -m-8">
                         <div className="flex flex-wrap -m-8 mb-10">
+                            {/*Features list heading*/}
                             <div className="w-full md:w-1/2 p-8">
                                 <div className="md:max-w-lg">
-                                    {/*Features list heading*/}
                                     <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
                                         Get in a better way to work online.
                                     </h2>
@@ -119,7 +121,7 @@ function FeaturesListHeading() {
                                             <svg class="w-3.5 h-3.5 mr-2 mb-3 text-red-500 dark:text-red-500 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" fill-rule="evenodd"></path>
                                             </svg>
-                                            <p>Service lives thanks to your help. Help us to improve this advantages. <a className="text-blue-600 dark:text-blue-500" href="/docs/overwiew/openbld-plus">Get benefits from Donations</a></p>
+                                            <p><a className="text-blue-600 dark:text-blue-500" href="/docs/overwiew/openbld-plus">Get benefits from Donations</a></p>
                                         </li>
                                     </ul>
                                 </div>
@@ -127,10 +129,10 @@ function FeaturesListHeading() {
 
                             {/*OpenBLD logo*/}
                             <div className="w-full md:w-1/2 p-8">
-                                <img className="mx-auto md:mr-0 rounded-3xl" src="img/site-cover-open-bld-dark.png" alt="OpenBLD.net DNS Site Logo"/>
+                                <img className="mx-auto md:mr-0" src="img/site-cover-open-bld-dark.png" alt="OpenBLD.net DNS Site Logo"/>
 
                                 {/*Quick setup*/}
-                                <div className="mt-3 block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                                <div className="mt-3 block max-w-xl p-6 bg-white border border-gray-200 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                                     <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                                         Browser quick setup
                                     </h5>
@@ -153,8 +155,8 @@ function FeaturesListHeading() {
                             </div>
                         </div>
 
-                        {/*Three slogans*/}
-                        <div className="p-8 md:p-12 bg-gray-100 rounded-3xl">
+                        {/*Three columns with slogans*/}
+                        <div className="p-8 md:p-12 bg-gray-100">
                             <div className="flex flex-wrap -m-8">
                                 <div className="w-full md:w-1/3 p-8">
                                     <div className="flex flex-wrap -m-3">
@@ -171,8 +173,7 @@ function FeaturesListHeading() {
                                             <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                                                 Adaptive DNS</h3>
                                             <p className="text-sm text-gray-700 font-bold">
-                                                ADA - Adaptive DNS: Fast and Flexible Internet surfing with Social Networks, Google, Microsoft, Yandex and etc. services
-
+                                                ADA - Adaptive DNS: Fast and Flexible Internet surfing with Social Networks, Google, Microsoft, Yandex and etc.
                                             </p>
                                         </div>
                                     </div>
@@ -212,7 +213,8 @@ function FeaturesListHeading() {
                                             <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
                                                 Mobile Devices</h3>
                                             <p class="text-sm text-gray-700 font-bold">
-                                                Android, iOS, iPad devices. Just setup "Private DNS" on Android <code>ada.openbld.net</code> or download profile for Apple devices.</p>
+                                                Android, iOS, iPad devices. Setup "Private DNS" on Android <code>ada.openbld.net</code> or <a
+                                                href="/docs/get-started/setup-mobile-devices/apple/">download</a> profile for Apple devices.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -237,6 +239,8 @@ export default function Home() {
       <HomepageHeader />
       <main>
           <FeaturesListHeading />
+          <HomepageChromeExtension />
+          <HomepageVideoPresentation />
           <HomepageCompareAdaAndRic />
           {/*<HomepageFeatures />*/}
           <HomepageLogosCloud />

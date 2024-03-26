@@ -106,3 +106,18 @@ ul.cloud p {
 /*[data-theme='dark'] {*/
 /*  */
 /*}*/
+/*YouTube Video*/
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 63.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
