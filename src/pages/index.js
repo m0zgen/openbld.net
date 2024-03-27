@@ -16,7 +16,7 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary dark:bg-[#070a11]', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary dark:bg-[#070a11] bg-[#070a11]', styles.heroBanner)}>
         <div className="container mx-auto text-center py-24">
 
             {/*Header title*/}
@@ -129,7 +129,7 @@ function FeaturesListHeading() {
 
                             {/*OpenBLD logo*/}
                             <div className="w-full md:w-1/2 p-8">
-                                <img className="mx-auto md:mr-0" src="img/site-cover-open-bld-dark.png" alt="OpenBLD.net DNS Site Logo"/>
+                                <img className="mx-auto md:mr-0" src="img/site-cover-openbld-net-dark.png" alt="OpenBLD.net DNS Site Logo"/>
 
                                 {/*Quick setup*/}
                                 <div className="mt-3 block max-w-xl p-6 bg-white border border-gray-200 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
