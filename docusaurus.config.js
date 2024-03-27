@@ -187,7 +187,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} OpenBLD.net, Built with Docusaurus.`,
+        copyright: `© 2021-${new Date().getFullYear()} OpenBLD.net, Built with Docusaurus.`,
       },
       prism: {
         theme: lightTheme,
