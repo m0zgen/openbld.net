@@ -213,7 +213,7 @@ function FeaturesListHeading() {
                                             <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
                                                 Mobile Devices</h3>
                                             <p class="text-sm text-gray-700 font-bold">
-                                                Android, iOS, iPad devices. Setup "Private DNS" on Android <code>ada.openbld.net</code> or <a
+                                                Android, iOS, iPad devices. <a href="/docs/get-started/setup-mobile-devices/android/">Setup</a> "Private DNS" on Android or <a
                                                 href="/docs/get-started/setup-mobile-devices/apple/">download</a> profile for Apple devices.</p>
                                         </div>
                                     </div>
