@@ -12,7 +12,7 @@ export default function HomepageCompareAdaAndRic() {
                       <div className="w-full md:w-1/2 p-8">
                           <div className="md:max-w-md">
                               <span className="inline-block mb-5 text-sm text-blue-500 dark:text-green-300 font-bold uppercase tracking-widest">
-                                  Feature</span>
+                                  Extension</span>
                               <h2 className="font-heading mb-4 text-4xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
                                   OpenBLD.net in your <span className="text-blue-500 dark:text-gray-400">Browser</span>
                               </h2>

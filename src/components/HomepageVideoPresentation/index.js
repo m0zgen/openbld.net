@@ -14,7 +14,7 @@ export default function HomepageCompareAdaAndRic() {
                         <div className="w-full md:w-1/2 p-8">
                             <div className="md:max-w-md">
                               <span className="inline-block mb-5 text-sm text-blue-500 dark:text-green-300 font-bold uppercase tracking-widest">
-                                  Feature</span>
+                                  Demonstration</span>
                                 <h2 className="font-heading mb-4 text-4xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
                                     OpenBLD.net <span className="text-blue-500 dark:text-gray-400">Effect</span></h2>
                                 <p className="mb-16 font-bold dark:text-gray-900">
