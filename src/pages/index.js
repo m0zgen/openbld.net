@@ -51,9 +51,13 @@ function HomepageHeader() {
                     Be yourself, be focused
                 </h2>
                 <p className="mt-1 text-sm text-center text-white dark:text-gray-400">
-                    OpenBLD.net is a service designed to minimize Internet noise such as advertising and tracking, allowing you to be yourself and stay focused while surfing the Internet. And of course you can <a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
-                    Help Us
-                </a>
+                    OpenBLD.net is a service designed to minimize Internet noise such as advertising and tracking,
+                    allowing you to be yourself and stay focused while surfing the Internet. And of course you can help us
+                    with <a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                     Donations
+                    </a> or <a href="/docs/funding-and-sponsorship" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                        Funding and Sponsorship
+                    </a>.
                 </p>
             </div>
 
