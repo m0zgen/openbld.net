@@ -53,10 +53,10 @@ function HomepageHeader() {
                 <p className="mt-1 text-sm text-center text-white dark:text-gray-400">
                     OpenBLD.net is a service designed to minimize Internet noise such as advertising and tracking,
                     allowing you to be yourself and stay focused while surfing the Internet. And of course you can help us
-                    with <a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                    with <br/><a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
                      Donations
-                    </a> or <a href="/docs/funding-and-sponsorship" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
-                        Funding and Sponsorship
+                    </a> or <a href="/docs/sponsorship" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                        Sponsorship
                     </a>.
                 </p>
             </div>

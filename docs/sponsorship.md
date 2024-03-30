@@ -2,11 +2,10 @@
 sidebar_position: 91
 ---
 
-# Funding, Payment and Sponsorship
+# Sponsorship
 
 For the growth and development of the project and its roadmap, 
 the service needs funding and sponsorship support:
-- [x] Funding
 - [x] Sponsorship
 - [x] Pay OpenBLD.net Services (OpenBLD+ [Homelab](/docs/overwiew/openbld-plus/#openbld-homelab), [Worklab](/docs/overwiew/openbld-plus/#openbld-worklab), 
 [Business](/docs/overwiew/openbld-plus/#openbld-business), [Enterprise](/docs/overwiew/openbld-plus/#enterprise-support) 
