@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[3679],{9e3:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/prevention","page":1,"postsPerPage":6,"totalPages":1,"totalCount":5,"blogDescription":"OpenBLD.net news and updates","blogTitle":"OpenBLD.net Blog"}')}}]);

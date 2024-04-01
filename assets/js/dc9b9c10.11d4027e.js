@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[8666],{2408:e=>{e.exports=JSON.parse('{"label":"ipv6","permalink":"/blog/tags/ipv-6","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

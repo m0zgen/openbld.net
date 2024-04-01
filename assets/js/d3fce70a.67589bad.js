@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[8012],{9516:e=>{e.exports=JSON.parse('{"label":"apple","permalink":"/blog/tags/apple","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);
