@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[6473],{3742:e=>{e.exports=JSON.parse('{"label":"prevention","permalink":"/blog/tags/prevention","allTagsPath":"/blog/tags","count":5,"unlisted":false}')}}]);

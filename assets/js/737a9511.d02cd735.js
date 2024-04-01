@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[3601],{1264:e=>{e.exports=JSON.parse('{"label":"cloudns","permalink":"/blog/tags/cloudns","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);
