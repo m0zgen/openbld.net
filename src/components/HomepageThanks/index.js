@@ -102,11 +102,6 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Bessmertnyi_poni \u26a1\u2600\ufe0f",
-            "url": "",
-            "style": ""
-        },
-        {
             "name": "SysRoman \u2600\ufe0f",
             "url": "",
             "style": ""
@@ -138,6 +133,11 @@ const thanks = [
         },
         {
             "name": "Green Duck 🚴‍",
+            "url": "",
+            "style": ""
+        },
+        {
+            "name": "Bessmertnyi_poni \u26a1\u2600\ufe0f 🚴",
             "url": "",
             "style": ""
         }
