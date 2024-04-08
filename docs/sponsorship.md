@@ -7,9 +7,7 @@ sidebar_position: 91
 For the growth and development of the project and its roadmap, 
 the service needs funding and sponsorship support:
 - [x] Sponsorship
-- [x] Pay OpenBLD.net Services (OpenBLD+ [Homelab](/docs/overwiew/openbld-plus/#openbld-homelab), [Worklab](/docs/overwiew/openbld-plus/#openbld-worklab), 
-[Business](/docs/overwiew/openbld-plus/#openbld-business), [Enterprise](/docs/overwiew/openbld-plus/#enterprise-support) 
-or [Individual](/docs/overwiew/openbld-plus/#individual-plan) plans.)
+- [x] Extend OpenBLD.net Services as [OpenBLD+](/docs/overwiew/openbld-plus/#openbld-benefits)
 - [x] Resources provisioning (servers, services, licenses, etc.)
 - [x] Providing human resources (specialists from - programming, marketing, engineering, etc.)
 - [x] Have any ideas? Please contact me though [Contact](/docs/contacts.md) page.
