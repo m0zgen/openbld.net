@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[1918],{3253:e=>{e.exports=JSON.parse('{"label":"ric","permalink":"/blog/tags/ric","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
