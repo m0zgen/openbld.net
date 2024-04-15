@@ -3,9 +3,9 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const posts = [
-    { id: 1, src: 'img/logos/splash-logo.jpg', title: 'Powered by React', description: 'Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.' },
-    { id: 2, src: 'img/logos/splash-logo.jpg', title: 'Powered by React', description: 'Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.' },
-    { id: 3, src: 'img/logos/splash-logo.jpg', title: 'Powered by React', description: 'Extend or customize your website layout by reusing React. Docusaurus can be extended while reusing the same header and footer.' },
+    { id: 1, src: 'img/logos/splash-logo.jpg', title: 'Powered by OpenBLD.net', description: 'Get in a better way to work online with OpenBLD.net' },
+    { id: 2, src: 'img/logos/splash-logo.jpg', title: 'Powered by OpenBLD.net', description: 'Get in a better way to work online with OpenBLD.net' },
+    { id: 3, src: 'img/logos/splash-logo.jpg', title: 'Powered by OpenBLD.net', description: 'Get in a better way to work online with OpenBLD.net' },
 ];
 
 

@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Overwiew": {
+    "message": "Overwiew",
+    "description": "The label for category Overwiew in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Overwiew.link.generated-index.description": {
+    "message": "Overview OpenBLD.net Service",
+    "description": "The generated-index page description for category Overwiew in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Get Started": {
+    "message": "Get Started",
+    "description": "The label for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Get Started.link.generated-index.description": {
+    "message": "5 minutes to learn the most important OpenBLD.net concepts.",
+    "description": "The generated-index page description for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Browsers": {
+    "message": "Setup Browsers",
+    "description": "The label for category Setup Browsers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Browsers.link.generated-index.description": {
+    "message": "Setup OpenBLD.net in your browser",
+    "description": "The generated-index page description for category Setup Browsers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Mobile Devices": {
+    "message": "Setup Mobile Devices",
+    "description": "The label for category Setup Mobile Devices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Mobile Devices.link.generated-index.description": {
+    "message": "Setup OpenBLD.net in your mobile devices",
+    "description": "The generated-index page description for category Setup Mobile Devices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Operating Systems": {
+    "message": "Setup Operating Systems",
+    "description": "The label for category Setup Operating Systems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Operating Systems.link.generated-index.description": {
+    "message": "Setup OpenBLD.net in your operation system or distributive.",
+    "description": "The generated-index page description for category Setup Operating Systems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Routers": {
+    "message": "Setup Routers",
+    "description": "The label for category Setup Routers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Routers.link.generated-index.description": {
+    "message": "Setup OpenBLD.net in your routers",
+    "description": "The generated-index page description for category Setup Routers in sidebar tutorialSidebar"
+  }
+}

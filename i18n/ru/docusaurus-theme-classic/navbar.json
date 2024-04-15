@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "OpenBLD.net DNS",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "OpenBLD.net Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.How it works": {
+    "message": "How it works",
+    "description": "Navbar item with label How it works"
+  },
+  "item.label.My GitHub": {
+    "message": "My GitHub",
+    "description": "Navbar item with label My GitHub"
+  }
+}

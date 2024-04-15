@@ -1,4 +1,5 @@
 import React from 'react';
+import Translate from '@docusaurus/Translate';
 
 const logos = [
         { name: "JetBrains", url: "https://jb.gg/OpenSourceSupport", src: 'img/logos/jetbrains.png', style: ""},
@@ -23,7 +24,10 @@ export default function HomepageThanks() {
 
               <div className="flex flex-col items-center justify-center w-full mb-10">
                   <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
+                      <Translate
+                          id="homepage.LogosCloud.Title">
                       + who helps to the growth 🚀
+                      </Translate>
                   </h2>
                   <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">~~~</h2>
               </div>

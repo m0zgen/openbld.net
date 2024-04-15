@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from '@docusaurus/Link';
+import Translate from "@docusaurus/Translate";
 
 const thanks = [
         {
@@ -152,7 +154,10 @@ export default function HomepageThanks() {
 
                 <div className="flex flex-col items-center justify-center w-full mb-10">
                     <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
+                        <Translate
+                            id="homepage.Thanks.Title">
                         Thanks for Support and Donations! 🌟
+                            </Translate>
                     </h2>
                     <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">~~~</h2>
                 </div>
@@ -192,69 +197,21 @@ export default function HomepageThanks() {
                 </div>
 
                 <div className="flex flex-col items-center justify-center w-full">
-                    <a href="/docs/donation" className="justify-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
-                        How you can assist to project?
-                    </a>
+
+
+                    <Link
+                        className="justify-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                        to="/docs/donation"
+                    >
+                      <span>
+                          <Translate
+                              id="homepage.Thanks.AssistLink">
+                          How you can assist to project?
+                          </Translate>
+                      </span>
+                    </Link>
+
                 </div>
-
-
-
-                {/*        <div className=" flex items-center justify-center">*/}
-
-                {/*            /!*Horizontal list*!/*/}
-                {/*            <ul className="justify-center flex flex-row flex-wrap divide-x divide-border gap-4 cursor-pointer">*/}
-                {/*                /!*<li className="px-2 hover:text-green-500">Mastercard</li>*!/*/}
-
-                {/*                {thanks.map((user, i) => {*/}
-                {/*                        return (*/}
-                {/*                            <li className="px-2 hover:text-green-500s" key={i}>*/}
-                {/*                                    {user.url*/}
-                {/*                                        ?*/}
-                {/*                                            <a className={`object-cover w-1/3 underline ${user.style}`} href={user.url} target="_blank">{user.name}</a>*/}
-                {/*                                        : user.url === "" ?*/}
-                {/*                                            <p className={user.style}> {user.name} </p>*/}
-                {/*                                        : null}*/}
-                {/*                            </li>*/}
-                {/*                        )*/}
-                {/*                    }*/}
-                {/*                )}*/}
-
-                {/*            </ul>*/}
-                {/*</div>*/}
-
-            {/*<div className="flex flex-col items-center justify-center w-full mt-5">*/}
-            {/*    <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">*/}
-            {/*        Legend:*/}
-            {/*    </h5>*/}
-            {/*    <ul className="flex flex-col justify-center items-center">*/}
-            {/*        <li>*/}
-            {/*            <p>2021: <strong class="has-text-success">*/}
-            {/*                Contributor Name*/}
-            {/*            </strong></p>*/}
-            {/*        </li>*/}
-            {/*        <li>*/}
-            {/*            <p>2022: <strong class="has-text-info">*/}
-            {/*                Testing: 💪 Contribute: ⚡*/}
-            {/*            </strong></p>*/}
-            {/*        </li>*/}
-            {/*        <li>*/}
-            {/*            <p>2023: <strong class="has-text-warning">*/}
-            {/*                Feedback: 🚜 Contribute: ☀️*/}
-            {/*            </strong></p>*/}
-            {/*        </li>*/}
-            {/*    </ul>*/}
-            {/*    /!*Bottom list link*!/*/}
-            {/*    <div className="flex flex-wrap">*/}
-            {/*        <div className="w-full md:w-auto p-2">*/}
-
-            {/*            <div className="ml-3">*/}
-            {/*                <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">*/}
-            {/*                    How you can assist to project?*/}
-            {/*                </a>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
 
             </div>
         </div>
