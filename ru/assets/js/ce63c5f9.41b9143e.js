@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[2452],{4662:e=>{e.exports=JSON.parse('{"label":"blackhole","permalink":"/ru/blog/tags/blackhole","allTagsPath":"/ru/blog/tags","count":1,"unlisted":false}')}}]);

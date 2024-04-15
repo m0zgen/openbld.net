@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://openbld.net/ru/blog</id>
+    <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
+    <updated>2024-04-09T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://openbld.net/ru/blog"/>
+    <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
+    <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD IPv6 RIC Started Today]]></title>
+        <id>https://openbld.net/ru/blog/2024-04-09-openbld-ipv-ric-started-today</id>
+        <link href="https://openbld.net/ru/blog/2024-04-09-openbld-ipv-ric-started-today"/>
+        <updated>2024-04-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net OpenBLD IPv6 RIC Started Today]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net OpenBLD IPv6 RIC Started Today" src="https://openbld.net/ru/assets/images/openbld-ric-ipv6-started-today-2cf9f58b8724c86f4e32cfe3e9b71c3e.png" width="1200" height="600" class="img_ev3q"></p>
+<p>Starting today, IPv6 support has been added to the RIC OpenBLD.net ecosystem!</p>
+<p>What does this mean for you? Now you can enjoy all the benefits of IPv6 in our network, including faster and more efficient data transmission, enhanced security, and flexibility when working with modern networks.</p>
+<p>We are constantly striving to improve the OpenBLD.net service to provide you with the best experience possible. With the addition of IPv6 support, we are taking another step forward in ensuring you have access to the most modern technologies and capabilities.</p>
+<p>Simply use RIC DoH or PDP DoH, and if your network supports IPv6, everything will start working automatically! 🚀</p>
+<p>Happy browsing! 🌐</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="ipv6" term="ipv6"/>
+        <category label="ric" term="ric"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘  Prevent Android Vultur Malware]]></title>
+        <id>https://openbld.net/ru/blog/prevent-android-vultur-malware</id>
+        <link href="https://openbld.net/ru/blog/prevent-android-vultur-malware"/>
+        <updated>2024-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net Prevent Vultur Malware]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Prevent Vultur Malware " src="https://openbld.net/ru/assets/images/openbld_vultr_malware-10d3a4b4938e893d7f0405cd3500b0e3.png" width="1250" height="460" class="img_ev3q"></p>
+<p>Android banking malware Vultur have been spotted adding new technical features, which allow the malware operator to further remotely interact with the victim’s mobile device.</p>
+<p>Vultur has also started masquerading more of its malicious activity by encrypting its C2 communication, using multiple encrypted payloads that are decrypted on the fly, and using the guise of legitimate applications to carry out its malicious actions...</p>
+<p>Full technical analysis on:</p>
+<ul>
+<li><a href="https://blog.fox-it.com/2024/03/28/android-malware-vultur-expands-its-wingspan/" target="_blank" rel="noopener noreferrer">Fox-IT Blog</a></li>
+</ul>
+<p>Take care of yourself 🔐</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="apple" term="apple"/>
+        <category label="profile" term="profile"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📢 Optimized Profile for Apple Devices]]></title>
+        <id>https://openbld.net/ru/blog/2024-04-01-openbld-updated-apple-profile</id>
+        <link href="https://openbld.net/ru/blog/2024-04-01-openbld-updated-apple-profile"/>
+        <updated>2024-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net Update Profile for Apple Devices]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Update Profile for Apple Devices" src="https://openbld.net/ru/assets/images/openbld_apple_profile_update-85f9120fb44b822941a105e5b204c126.png" width="1250" height="460" class="img_ev3q"></p>
+<p>Following recent attacks on one of the hosting providers within OpenBLD.net, I have updated the server topology to optimize content delivery, especially for Apple users.</p>
+<p>Download the optimized profile from the project website and simply install it over your existing one:</p>
+<ul>
+<li>Setup Mobile Devices &gt; <a href="https://openbld.net/ru/docs/get-started/setup-mobile-devices/apple/">Apple</a></li>
+</ul>
+<p>If your system is functioning normally, updating is not mandatory. Just remember that the option is available. Peace! ✌️</p>
+<p>P.S. If you have any questions regarding the update - <a href="https://openbld.net/ru/docs/contacts/">Welcome</a> 😎</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="apple" term="apple"/>
+        <category label="profile" term="profile"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤝 OpenBLD.net and Veesp.com Cooperation]]></title>
+        <id>https://openbld.net/ru/blog/2024-03-26-openbld-and-veesp-cooperation</id>
+        <link href="https://openbld.net/ru/blog/2024-03-26-openbld-and-veesp-cooperation"/>
+        <updated>2024-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net and Veesp.com]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and Veesp.com" src="https://openbld.net/ru/assets/images/openbld_and_veesp-d9bcb208dc7b0b584abf5a899bdc6582.png" width="1250" height="460" class="img_ev3q"></p>
+<p>Now it's can unload existing servers for - Estonia, Latvia, Lithuania, Moldova, Poland..! 🎉</p>
+<p>Fast server in Europe with - NVME SSD, 8Gb RAM, 4 vCores, 500Mbps Bandwidth!</p>
+<p>Really fast KVM-Based VPS at current time from <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">Veesp.com</a> I think it will help relieve the overall load)</p>
+<p>let's move on!.. 🚀</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="veesp" term="veesp"/>
+        <category label="growth" term="growth"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ OpenBLD.net PDP Testing Usage Manual]]></title>
+        <id>https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage</id>
+        <link href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage"/>
+        <updated>2024-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net Personal DoH Profile]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Personal DoH Profile" src="https://openbld.net/ru/assets/images/openbld_pdp_testing_usage-8f8934bd2e3dec9775d23c99057e4476.jpeg" width="1250" height="460" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#introduction" class="hash-link" aria-label="Прямая ссылка на Introduction" title="Прямая ссылка на Introduction">​</a></h2>
+<p>What is PDP and how to use it? This article will help you to understand the basics of OpenBLD.net
+<strong>Personal <em>DoH</em> Profiling</strong> (PDP) and how to use it.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p>More details about PDP you can find <a href="https://openbld.net/ru/blog/2024-02-19-openbld-pdp-beta-join/">here</a>.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-started">Get Started<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#get-started" class="hash-link" aria-label="Прямая ссылка на Get Started" title="Прямая ссылка на Get Started">​</a></h2>
+<p>After <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Joining PDP Beta</a>,
+you will receive a welcome message from me to a provided contact.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p>Haven't received? <a href="https://openbld.net/ru/docs/contacts/">Contact</a> me please</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="initial-usage">Initial usage<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#initial-usage" class="hash-link" aria-label="Прямая ссылка на Initial usage" title="Прямая ссылка на Initial usage">​</a></h3>
+<p>After receiving a unique PDP DoH link from me, you can start using the service:</p>
+<ul>
+<li><strong>Step 1</strong>: Setup your device(s) with OpenBLD.net PDP with provided DNS-over-HTTPS (DoH) links.</li>
+<li><strong>Step 2</strong>: DoH link should be formatted as <code>https://&lt;service name&gt;/dns-query/&lt;your_id&gt;</code> (where <code>&lt;service name&gt;</code>
+ADA or RIC platform address, <code>&lt;your_id&gt;</code> is your unique identifier).</li>
+<li><strong>Step 3</strong>: After setup, you can check the service on <a href="https://www.dnsleaktest.com/" target="_blank" rel="noopener noreferrer">DNS Leak Test</a> and <a href="https://dnscheck.tools/" target="_blank" rel="noopener noreferrer">Dnscheck.tools</a></li>
+</ul>
+<p>🎉🎉🎉 Now you can relax and use the service based on your own personalized settings.</p>
+<p>Enjoy the service and provide <a href="https://openbld.net/ru/docs/contacts/">feedback</a>!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="customization-optional">Customization (Optional)<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#customization-optional" class="hash-link" aria-label="Прямая ссылка на Customization (Optional)" title="Прямая ссылка на Customization (Optional)">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="personalized-settings">Personalized settings<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#personalized-settings" class="hash-link" aria-label="Прямая ссылка на Personalized settings" title="Прямая ссылка на Personalized settings">​</a></h3>
+<p>Free available settings for customization are:</p>
+<ul>
+<li>Personal Allow/Block lists (Default: <a href="https://github.com/m0zgen/my-zbld" target="_blank" rel="noopener noreferrer">my-zbld</a></li>
+<li>Change reload list interval (Default: 24 hours (Minimal allowed 3 hours))</li>
+<li>Disable/Enable troubleshooting logs (Default: Enabled. Storing: 2 days)</li>
+<li>Switch OpenBLD.net mode to Zero Trust (Default: Blackhole mode (more details <a href="https://openbld.net/ru/blog/openbld-zdns-blackhole-server/">here</a>))</li>
+<li>Create additional PDP DoH links for your family members or different devices (Default: 2 links)</li>
+</ul>
+<p>To apply customization you can fill OpenBLD.net PDP Personal Settings <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkeYLec0THvITXj3foesRU3NnHbJQZ-x8VT91yCXRWx2V4Kg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Form</a>
+and notify <a href="https://openbld.net/ru/docs/contacts/">me</a>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><ul>
+<li>Allow lists are still <strong>prioritized</strong> over blocklists.</li>
+<li>You can provide static hosts file if needed.</li>
+</ul></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="usage-conditions">Usage Conditions<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#usage-conditions" class="hash-link" aria-label="Прямая ссылка на Usage Conditions" title="Прямая ссылка на Usage Conditions">​</a></h2>
+<ul>
+<li>Lists or static hosts file should not be more than 100 records.</li>
+<li>The number of requests should not exceed 100k per day.</li>
+<li>Shall comply with the terms of the service use (See <a href="https://openbld.net/ru/docs/overwiew/how-it-works/#limitations">Limitations</a> section).</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="profile-deletion">Profile deletion<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#profile-deletion" class="hash-link" aria-label="Прямая ссылка на Profile deletion" title="Прямая ссылка на Profile deletion">​</a></h3>
+<ul>
+<li><strong>Scenario 1</strong>: Notify <a href="https://openbld.net/ru/docs/contacts/">me</a> if you need to delete the profile.</li>
+<li><strong>Scenario 2</strong>: After 30 days of inactivity, the profile will be automatically deleted.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#whats-next" class="hash-link" aria-label="Прямая ссылка на What's Next?" title="Прямая ссылка на What's Next?">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback">Feedback<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#feedback" class="hash-link" aria-label="Прямая ссылка на Feedback" title="Прямая ссылка на Feedback">​</a></h3>
+<ul>
+<li>You can provide feedback in any way possible (directly, via <a href="https://openbld.net/ru/docs/contacts/">contacts</a>, etc.)</li>
+<li>Later on, I will contact you and ask to fill out the feedback form.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="automation">Automation<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#automation" class="hash-link" aria-label="П�рямая ссылка на Automation" title="Прямая ссылка на Automation">​</a></h3>
+<p>Next step is to automate the process of providing personalized settings and the ability to change them on the go, with:</p>
+<ul>
+<li>Telegram bot</li>
+<li>Web UI</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-links">Additional Links<a href="https://openbld.net/ru/blog/2024-03-12-openbld-pdp-testing-usage#additional-links" class="hash-link" aria-label="Прямая ссылка на Additional Links" title="Прямая ссылка на Additional Links">​</a></h2>
+<p>How to setup OpenBLD.net on your favourite device(s):</p>
+<ul>
+<li><a href="https://openbld.net/ru/docs/category/setup-mobile-devices/">Mobile Devices</a></li>
+<li><a href="https://openbld.net/ru/docs/category/setup-browsers/">Browsers</a></li>
+<li>Or you can start from here - <a href="https://openbld.net/ru/docs/category/get-started/">Get Started</a></li>
+<li><a href="https://openbld.net/ru/docs/contacts/">Contacts</a></li>
+</ul>
+<p>Stay tuned in for more updates and features in Telegram OpenBLD.net <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">Channel</a>! 🚀</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="pdp" term="pdp"/>
+        <category label="testing" term="testing"/>
+        <category label="beta" term="beta"/>
+        <category label="privacy" term="privacy"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🛡 Integration of OpenBLD.net with URLhaus by abuse.ch]]></title>
+        <id>https://openbld.net/ru/blog/2024-03-11-openbld-abuse-ch-integration</id>
+        <link href="https://openbld.net/ru/blog/2024-03-11-openbld-abuse-ch-integration"/>
+        <updated>2024-03-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Integration of OpenBLD.net with URLhaus by abuse.ch]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Integration of OpenBLD.net with URLhaus by abuse.ch" src="https://openbld.net/ru/assets/images/openbld_and_abuse_ch-302649946d1ebc17bf2802adbc3393ae.png" width="1250" height="460" class="img_ev3q"></p>
+<p><a href="https://urlhaus.abuse.ch/" target="_blank" rel="noopener noreferrer">URLhaus</a> is a project operated by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a>. Its purpose is to collect, track, and share malware URLs, aiding network
+administrators and security analysts in safeguarding their networks and customers from cyber threats.</p>
+<p>Now, you can check the malicious domain ownership with OpenBLD.net alongside Quad9, AdGuard, Cloudflare, ProtonDNS on
+<a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a>.</p>
+<p>In addition, you can incorporate abuse.ch lists into your security solutions, just as OpenBLD.net does.</p>
+<p>You can check this as example on:</p>
+<ul>
+<li><a href="https://urlhaus.abuse.ch/host/licocojambamarketplace.com" target="_blank" rel="noopener noreferrer">https://urlhaus.abuse.ch/host/licocojambamarketplace.com</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-links">Additional Links<a href="https://openbld.net/ru/blog/2024-03-11-openbld-abuse-ch-integration#additional-links" class="hash-link" aria-label="Прямая ссылка на Additional Links" title="Прямая ссылка на Additional Links">​</a></h2>
+<p>You can easy setup OpenBLD.net on your favourite device(s):</p>
+<ul>
+<li><a href="https://openbld.net/ru/docs/category/setup-mobile-devices/">Mobile Devices</a></li>
+<li><a href="https://openbld.net/ru/docs/category/setup-browsers/">Browsers</a></li>
+<li>Or you can start from here - <a href="https://openbld.net/ru/docs/category/get-started/">Get Started</a></li>
+</ul>
+<p>Here's to security for us all. Cheers!)</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="pdp" term="pdp"/>
+        <category label="testing" term="testing"/>
+        <category label="beta" term="beta"/>
+        <category label="privacy" term="privacy"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ Take Control of Your Privacy! Join the OpenBLD.net PDP Beta]]></title>
+        <id>https://openbld.net/ru/blog/2024-02-19-openbld-pdp-beta-join</id>
+        <link href="https://openbld.net/ru/blog/2024-02-19-openbld-pdp-beta-join"/>
+        <updated>2024-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Take Control of Your Privacy! Join the OpenBLD.net PDP Beta]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Take Control of Your Privacy! Join the OpenBLD.net PDP Beta" src="https://openbld.net/ru/assets/images/join-beta-openbld-pdp-7bcf222e919a3ac280839a7aef81dc65.jpeg" width="1200" height="630" class="img_ev3q"></p>
+<p>Do you want to protect your online privacy and the privacy of your family? Join the beta for
+OpenBLD.net <strong>Personal <em>DoH</em> Profiling</strong> (PDP), a new service that provides:</p>
+<ul>
+<li><strong>Complete isolation</strong> of your DNS requests, ensuring that no one can track your online activity.</li>
+<li><strong>Personalized DNS settings</strong>, so you can block ads, malicious websites, and other unwanted content.</li>
+<li><strong>Robust security</strong> with DNSSEC, TLSv1.2, and TLSv1.3.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="benefits-of-pdp">Benefits of PDP<a href="https://openbld.net/ru/blog/2024-02-19-openbld-pdp-beta-join#benefits-of-pdp" class="hash-link" aria-label="Прямая ссылка на Benefits of PDP" title="Прямая ссылка на Benefits of PDP">​</a></h2>
+<ul>
+<li><strong>Enhanced privacy</strong>: Your DNS requests will not be accessible to third parties, ensuring the confidentiality of your online activity.</li>
+<li><strong>Security</strong>: Protection from malicious websites, phishing attacks, and other online threats.</li>
+<li><strong>Control</strong>: Block ads, trackers, and other unwanted content.</li>
+<li><strong>Ease of use</strong>: Easy to set up and use.</li>
+<li><strong>Stability</strong>: All OpenBLD.net experiences under the hood.</li>
+<li><strong>Support</strong>: Access to a personal support.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-join-the-beta">How to Join the Beta<a href="https://openbld.net/ru/blog/2024-02-19-openbld-pdp-beta-join#how-to-join-the-beta" class="hash-link" aria-label="Прямая ссылка на How to Join the Beta" title="Прямая ссылка на How to Join the Beta">​</a></h2>
+<p><strong>Be among the first to test OpenBLD.net PDP</strong>! Fill out the form below to get access to all features which will available in March 2024.</p>
+<ul>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Join to PDP Beta</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://openbld.net/ru/blog/2024-02-19-openbld-pdp-beta-join#whats-next" class="hash-link" aria-label="Прямая ссылка на What's Next?" title="Прямая ссылка на What's Next?">​</a></h2>
+<ol>
+<li>After you fill out the form, I will contact you to confirm your participation in the beta.</li>
+<li>In March-April 2024, you will receive a message from me with instructions (or it can be updated form) with additional
+fields (like as you own Allow/Block lists, personal DoH links, etc.)</li>
+<li>After all needed data is collected, you will receive a link to the service.</li>
+<li>Next, you will be able to use the service and provide <a href="https://openbld.net/ru/docs/contacts/">feedback</a>.</li>
+</ol>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="pdp" term="pdp"/>
+        <category label="testing" term="testing"/>
+        <category label="beta" term="beta"/>
+        <category label="privacy" term="privacy"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🎉 OpenBLD.net Chrome Extension v1.1 Released]]></title>
+        <id>https://openbld.net/ru/blog/2024-01-29-openbld--blocker-chrome-extension-released</id>
+        <link href="https://openbld.net/ru/blog/2024-01-29-openbld--blocker-chrome-extension-released"/>
+        <updated>2024-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net Chrome Extension v1.1 Released]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Chrome Extension v1.1 Released" src="https://openbld.net/ru/assets/images/openbld-chrome-extension-v1.1-released-adc03e8d48327b80a1b3c1447a0d1833.jpeg" width="1250" height="633" class="img_ev3q"></p>
+<p>OpenBLD.net Blocker extension released on official Google Extension Store today 💪</p>
+<p>This is OpenBLD.net add-on which can block some ADS services (such as Yad advertising) on some
+web resources that has HTML embedded ads...</p>
+<p>OpenBLD.net service+Extension Blocker - Perfect combination for reducing Internet noise 🧘‍♂️</p>
+<p>Try or Update OpenBLD.net Blocker from the Official Chrome Internet <a href="https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea" target="_blank" rel="noopener noreferrer">Store</a>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p><strong>Note</strong>: OpenBLD.net setup is required before using the Browser extension</p></div></div>
+<p>Feedback is welcome! <a href="https://openbld.net/ru/docs/contacts/">Contacts</a>.</p>
+<p>P.S. After an extension will update, re-enable extension is required.</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="AlphaVPS" term="AlphaVPS"/>
+        <category label="growth" term="growth"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀 New zDNS Big Updates and Features]]></title>
+        <id>https://openbld.net/ru/blog/zdns-big-updates-and-features</id>
+        <link href="https://openbld.net/ru/blog/zdns-big-updates-and-features"/>
+        <updated>2024-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[zDNS v0.2.5 Release with Big Updates and Features]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="zDNS v0.2.5 Release with Big Updates and Features" src="https://openbld.net/ru/assets/images/zDNS_new_Release-f65a125bd457509cdf7ba99b3f4b10b0.jpeg" width="1250" height="460" class="img_ev3q"></p>
+<p>Few month ago I stared develop from scratch <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> service,
+and now I hope, it is ready for production usage...</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="https://openbld.net/ru/blog/zdns-big-updates-and-features#features" class="hash-link" aria-label="Прямая ссылка на Features" title="Прямая ссылка на Features">​</a></h2>
+<ul>
+<li>Restrict DNS queries by type like as A, AAAA, HTTPS, CNAME, MX, PTR</li>
+<li>Balancing DNS traffic between upstream servers</li>
+<li>Providing Prometheus metrics</li>
+<li>DNS responses caching by custom TTL</li>
+<li>Has few working modes - Zero Trust, Allow/Blocking domain names</li>
+<li>Has separated "Permanent" mode with additional custom upstream DNS servers</li>
+<li>Can load allow/block lists from local and remote through HTTP(S)</li>
+<li>Create/Delete custom users with different configs and hosts files</li>
+<li>Can run as separated instance for each different users</li>
+<li>Has TCP/UDP DNS interfaces</li>
+<li>Can run as daemon or one-shot mode</li>
+<li>Can parse DNS names with regular expressions...</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-forward">Looking Forward<a href="https://openbld.net/ru/blog/zdns-big-updates-and-features#looking-forward" class="hash-link" aria-label="Прямая ссылка на Looking Forward" title="Прямая ссылка на Looking Forward">​</a></h2>
+<p>I am looking forward to the future of the OpenBLD.net project and hope that it will continue to grow and develop.</p>
+<p>Now I'm testing exclusive option - unique DoH links with unique allow/block domain lists...</p>
+<p>In the near future, I hope everyone will be able to use their own unique opportunity of OpenBLD.net usage in personal browsers and phones, where they will be able to independently manage their personal own white and black lists
+(for example, via Git)..</p>
+<p>Be the first to try it, leave your contacts in this form and I will contact you as soon as the service is ready:</p>
+<ul>
+<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register for OpenBLD.net Personal Usage Testing</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use">How to Use<a href="https://openbld.net/ru/blog/zdns-big-updates-and-features#how-to-use" class="hash-link" aria-label="Прямая ссылка на How to Use" title="Прямая ссылка на How to Use">​</a></h2>
+<p>All related content about zDNS you can find on the <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> GitHub repository.</p>
+<p>Feedback is welcome! <a href="https://openbld.net/ru/docs/contacts/">Contacts</a>.</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="AlphaVPS" term="AlphaVPS"/>
+        <category label="growth" term="growth"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤝 OpenBLD.net growth with AlphaVPS]]></title>
+        <id>https://openbld.net/ru/blog/openbld-and-alphavps-cooperation</id>
+        <link href="https://openbld.net/ru/blog/openbld-and-alphavps-cooperation"/>
+        <updated>2024-01-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net and zDNS Blackhole Server]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/ru/assets/images/openbld-and-alphavps-cooperation-53a744dcae54c04e67e9e99ecaad450e.png" width="1250" height="460" class="img_ev3q"></p>
+<p>New <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> points of presence have been added in the world thanks to <a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a>!</p>
+<p><a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a> - Fast &amp; Cheap VPS, Cloud Servers and few servers from AlphaVPS
+stay which located in <strong>Bulgaria</strong> and <strong>Germany</strong> joined in to OpenBLD.net ecosystem.</p>
+<p>As you know one of the our prioritites - fast DoH/DoT responses and <em>1GBit/s</em> from AlphaVPS it is good base for this requirements.</p>
+<p>One server already available for users (see <a href="https://bld-status.sys-adm.in/" target="_blank" rel="noopener noreferrer">status</a> of Ada-h4),
+second server will be available in the next few days. Enjoy it 🚀</p>
+<p>P.S. Few times ago I posted OpenBLD.net <a href="https://openbld.net/ru/blog/openbld-ipv6-pre-release/">IPv6 Pre-Release</a> notice, in few near weeks I'll plan implement
+DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="AlphaVPS" term="AlphaVPS"/>
+        <category label="growth" term="growth"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🖖 OpenBLD.net Open Thanks Letter 2023]]></title>
+        <id>https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023</id>
+        <link href="https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023"/>
+        <updated>2023-12-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net Thanks Letter of End 2023]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Thanks Letter of End 2023" src="https://openbld.net/ru/assets/images/openbld-thanks-for-all-2023-157f546840ca8c4250d78f54f0da7303.jpeg" width="3840" height="2160" class="img_ev3q"></p>
+<p>Dear friends and partners of <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a>,</p>
+<p>With great enthusiasm and pride, I address you with this open letter of gratitude. My project, OpenBLD.net, could not have reached such heights without your invaluable support and contribution.</p>
+<p>Together, we have created something extraordinary – a platform that unites, inspires and making your live is safer, and I would like to extend sincere thanks to each and every one of you.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="to-companies">To Companies<a href="https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023#to-companies" class="hash-link" aria-label="Прямая ссылка на To Companies" title="Прямая ссылка на To Companies">​</a></h2>
+<p>Thanks to the companies that provided us with resources, solutions, funding and expertise, I were able to significantly enhance the functionality of OpenBLD.net. Your contribution has enriched the experience of OpenBLD.net users and made our platform more accessible and effective.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dns-cloud-providers">DNS Cloud Providers<a href="https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023#dns-cloud-providers" class="hash-link" aria-label="Прямая ссылка на DNS Cloud Providers" title="Прямая ссылка на DNS Cloud Providers">​</a></h3>
+<ul>
+<li><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - for providing us with a best DNS hosting solution and free GeoDNS Plan for the OpenBLD.net project</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vps-servers">VPS Servers<a href="https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023#vps-servers" class="hash-link" aria-label="Прямая ссылка на VPS Servers" title="Прямая ссылка на VPS Servers">​</a></h3>
+<ul>
+<li><a href="https://m.do.co/c/42011b938fe6" target="_blank" rel="noopener noreferrer">DigitalOcean.com</a> - for providing us with a free credits for VPS servers for the OpenBLD.net project</li>
+<li><a href="https://gcore.com/" target="_blank" rel="noopener noreferrer">GCore Labs</a> - for providing us with a free VPS servers for the <strong>ADA</strong> OpenBLD.net project in Japan, Tokyo</li>
+<li><a href="https://gohost.kz/" target="_blank" rel="noopener noreferrer">GoHost.kz</a> - for providing us with a free VPS servers for the <strong>RIC</strong> OpenBLD.net project in Kazakhstan, Karaganda</li>
+<li><a href="https://unihost.kz/" target="_blank" rel="noopener noreferrer">Unihost.kz</a> - for providing us with a free VPS servers for the <strong>ADA</strong> OpenBLD.net project in Kazakhstan, Almaty</li>
+<li><a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">VEESP.com</a> - for providing us with a free VPS servers for the <strong>ADA</strong> OpenBLD.net project in Latvia, Riga</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="monitoring-solutions">Monitoring Solutions<a href="https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023#monitoring-solutions" class="hash-link" aria-label="Прямая ссылка на Monitoring Solutions" title="Прямая ссылка на Monitoring Solutions">​</a></h3>
+<ul>
+<li><a href="https://www.netdata.cloud/?utm_campaign=technical&amp;utm_source=content&amp;utm_medium=website&amp;utm_content=openbld-dns" target="_blank" rel="noopener noreferrer">Netdata</a> - for providing us with a free Business Plan for the OpenBLD.net</li>
+<li><a href="https://uptimerobot.com/?rid=78534763f4713b" target="_blank" rel="noopener noreferrer">UptimeRobot</a> - for providing us with a free Pro Plan for the OpenBLD.net</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="coding-solutions">Coding Solutions<a href="https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023#coding-solutions" class="hash-link" aria-label="Прямая ссылка на Coding Solutions" title="Прямая ссылка на Coding Solutions">​</a></h3>
+<ul>
+<li><a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">JetBrains</a> - for providing us with a free OSS license for the <a href="https://jb.gg/OpenSourceSupport" target="_blank" rel="noopener noreferrer">IntelliJ IDEA</a> IDE.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="contrubutors">Contrubutors<a href="https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023#contrubutors" class="hash-link" aria-label="Прямая ссылка на Contrubutors" title="Прямая ссылка на Contrubutors">​</a></h3>
+<ul>
+<li><a href="https://powerdmarc.com/" target="_blank" rel="noopener noreferrer">PowerDMARC</a> - supported OpenBLD.net with a funding for the OpenBLD.net project</li>
+</ul>
+<p>I am grateful for your support and look forward to continuing our collaboration in the future 🔮</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p>All company logos and links contains on the who helps to the growth 🚀 <a href="https://openbld.net/#company-logos" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> section.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="to-individuals">To Individuals<a href="https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023#to-individuals" class="hash-link" aria-label="Прямая ссылка на To Individuals" title="Прямая ссылка на To Individuals">​</a></h2>
+<p>To individuals who contributed their skills and time, I want to express deep gratitude. Your willingness to share
+knowledge and experience has made me stronger, and our project more valuable to society.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p>Each who has contributed to the OpenBLD.net project has name in special Thanks section on the <a href="https://openbld.net/#thanks-section" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> website.</p></div></div>
+<p>With each new member of our team, we expand the horizons of possibilities.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks-to-all-of-you">Thanks to all of you<a href="https://openbld.net/ru/blog/openbld-thanks-letter-of-end-2023#thanks-to-all-of-you" class="hash-link" aria-label="Прямая ссылка на Thanks to all of you" title="Прямая ссылка на Thanks to all of you">​</a></h2>
+<p>Thank you for your involvement, inspiration, and hard work. Together, we can achieve even greater heights and create something truly amazing.</p>
+<p>Let's continue our journey together and make OpenBLD.net even better. Thank you for your excellence and belief in our shared success.</p>
+<p>Best regards,
+<a href="https://github.com/m0zgen" target="_blank" rel="noopener noreferrer">Yevgeniy Goncharov</a>, <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> Founder</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="2023" term="2023"/>
+        <category label="letter" term="letter"/>
+        <category label="thanks" term="thanks"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ OpenBLD.net and zDNS Blackhole Server]]></title>
+        <id>https://openbld.net/ru/blog/openbld-zdns-blackhole-server</id>
+        <link href="https://openbld.net/ru/blog/openbld-zdns-blackhole-server"/>
+        <updated>2023-12-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net and zDNS Blackhole Server]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/ru/assets/images/zDNS_as_blackhole-9c396379d5560ee267edfdc862996ca9.gif" width="1278" height="660" class="img_ev3q"></p>
+<p><strong>Abstract</strong>: I'm happy to announce 🎉 that <a href="https://github.com/m0zgen/zdns/tree/dev" target="_blank" rel="noopener noreferrer">zDNS</a> is now a part of the
+<a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> project. It is a DNS server that can be used as a blackhole for
+malicious domains. It is a great addition to the <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> project,
+and I'm excited to see how it will evolve in the future 🚀</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="befor-begin">Befor begin<a href="https://openbld.net/ru/blog/openbld-zdns-blackhole-server#befor-begin" class="hash-link" aria-label="Прямая ссылка на Befor begin" title="Прямая ссылка на Befor begin">​</a></h2>
+<p>Following Zero Trust <a href="https://en.wikipedia.org/wiki/Zero_trust_security_model" target="_blank" rel="noopener noreferrer">model</a> practices,
+I recently wrote and am slowly beginning to introduce new “blackhole” functionality into the
+OpenBLD.net DNS ecosystem.</p>
+<p>zDNS is a DNS server that puts security and control over DNS queries at the center.
+With new functionality, zDNS now supports regular expressions in hosts.txt files, allowing more
+flexibility in configuring allowed queries. Now you can use the power of regular expressions to
+precisely control permissions, including subdomains and patterns.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="main-zdns-features">Main zDNS features<a href="https://openbld.net/ru/blog/openbld-zdns-blackhole-server#main-zdns-features" class="hash-link" aria-label="Прямая ссылка на Main zDNS features" title="Прямая ссылка на Main zDNS features">​</a></h2>
+<ul>
+<li>Denies all DNS queries by default</li>
+<li>Allows you to configure allowed requests through the hosts.txt file</li>
+<li>Uses balancing strategies to ensure reliable operation with DNS servers</li>
+<li>🛠 Easily customizable via YAML configuration</li>
+<li>🔜 Prometheus metrics coming soon..</li>
+</ul>
+<p>Additional protection of your infrastructure or testing requests with zDNS is possible and may be useful to you! Download the latest version here and start using a DNS server with powerful customization options:</p>
+<ul>
+<li><a href="https://github.com/m0zgen/zdns/tree/dev" target="_blank" rel="noopener noreferrer">https://github.com/m0zgen/zdns/tree/dev</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="zdns" term="zdns"/>
+        <category label="blackhole" term="blackhole"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📢 OpenBLD.net IPv6 Pre-Release]]></title>
+        <id>https://openbld.net/ru/blog/openbld-ipv6-pre-release</id>
+        <link href="https://openbld.net/ru/blog/openbld-ipv6-pre-release"/>
+        <updated>2023-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net IPv6 Pre-Release]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net IPv6 Pre-Release" src="https://openbld.net/ru/assets/images/openbld-ipv6-pre-release-f32bde5cf3690075db6e38c2aa6b3161.png" width="1250" height="460" class="img_ev3q"></p>
+<p>Last week, last month, this year... I've been meeting and talking to different people, and they all echoed the same sentiment - <strong>IPv6 is needed</strong> 💯</p>
+<p>A few days ago, I got acquainted with <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer"><strong><em>VEESP.com</em></strong></a>, a company that generously provided OpenBLD.net with an incredibly fast server featuring a high-speed Ethernet connection 🛞</p>
+<p><strong>Abstract</strong>: Usually, I spend some time testing servers, then assign them a secondary role before introducing them to the production environment. However, this time was different...</p>
+<p>I was so impressed 😱 with the <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">veesp.com</a> server's speed that it practically flew into production almost immediately... )</p>
+<p>I believe this is a great opportunity to start exploring the IPv6 space. In this month or early 2024, I hope we can begin experimenting with IPv6!</p>
+<p>If you're ready to participate in the preliminary testing, please let me know through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1uHCuDcvhYeP9HCQtJySQByoPhc0koa_rCjk6UP_rxBZtNw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">OpenBLD.net Pre-Release Testing Form</a>. I will reach out to you directly when the time comes, and together we can strive to make this world even better.</p>
+<p>P.S. Thanks to veesp.com and everyone who gives incentive to take a step forward 🤝</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="ipv6" term="ipv6"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ OpenBLD.net in Google Chrome Extension]]></title>
+        <id>https://openbld.net/ru/blog/openbld-runs-chrome-extension</id>
+        <link href="https://openbld.net/ru/blog/openbld-runs-chrome-extension"/>
+        <updated>2023-11-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net — Next Stage to Growth with Google Chrome Extension as a part of OpenBLD.net ecosystem.]]></summary>
+        <content type="html"><![CDATA[<p>OpenBLD.net — Next Stage to Growth with Google Chrome Extension as a part of OpenBLD.net ecosystem.</p>
+<p>I named it as <a href="https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea" target="_blank" rel="noopener noreferrer">OpenBLD.net Blocker</a>, and it is available for Google Chrome and Brave browsers (or any Chrome based browsers)</p>
+<p><img decoding="async" loading="lazy" alt="OpenBLD.net Blocker" src="https://openbld.net/ru/assets/images/openbldnet-blocker-chrome-extension-0cc407028eb77ab3a3854ebec43d5247.jpg" width="1112" height="604" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="dns-protection-with-a-twist">DNS Protection with a Twist<a href="https://openbld.net/ru/blog/openbld-runs-chrome-extension#dns-protection-with-a-twist" class="hash-link" aria-label="Прямая ссылка на DNS Protection with a Twist" title="Прямая ссылка на DNS Protection with a Twist">​</a></h2>
+<p>OpenBLD.net's DNS service blocks ads, trackers, and malware through domain name filtering routines.
+However, some marketing services use JavaScript code embedded in URLs to deliver their content,
+bypassing domain-based blocking methods.</p>
+<p>OpenBLD.net Blocker Extension - utilizes URL filtering routines to identify and block these evasive ads and trackers.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="https://openbld.net/ru/blog/openbld-runs-chrome-extension#key-features" class="hash-link" aria-label="Прямая ссылка на Key Features" title="Прямая ссылка на Key Features">​</a></h2>
+<ul>
+<li>Lightweight and efficient extension</li>
+<li>Complements OpenBLD.net service</li>
+<li>Adheres to Google <a href="https://developer.chrome.com/docs/extensions/mv3/intro/" target="_blank" rel="noopener noreferrer">Manifest V3</a> standards</li>
+<li>Operates without relying on third-party servers or data collection</li>
+<li>Free from any <em>malicious</em> or <em>harmful</em> activities</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-install">How to Install<a href="https://openbld.net/ru/blog/openbld-runs-chrome-extension#how-to-install" class="hash-link" aria-label="Прямая ссылка на How to Install" title="Прямая ссылка на How to Install">​</a></h2>
+<ul>
+<li>Open OpenBLD.net Blocker extension page from Google Chrome <a href="https://chrome.google.com/webstore/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea" target="_blank" rel="noopener noreferrer">Store</a></li>
+<li>In install it</li>
+</ul>
+<p>After installation, you can see OpenBLD.net Blocker icon in your browser extension <code>chrome://extensions/</code> section.</p>
+<p><img decoding="async" loading="lazy" alt="OpenBLD.net Blocker" src="https://openbld.net/ru/assets/images/openbldnet-blocker-chrome-extension-icon-0d0f2ca3c79a22f87a6b2da0c8bd9b81.jpg" width="387" height="217" class="img_ev3q"></p>
+<ul>
+<li>Done ✅</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="embrace-enhanced-security">Embrace Enhanced Security<a href="https://openbld.net/ru/blog/openbld-runs-chrome-extension#embrace-enhanced-security" class="hash-link" aria-label="Прямая ссылка на Embrace Enhanced Security" title="Прямая ссылка на Embrace Enhanced Security">​</a></h2>
+<p>With the OpenBLD.net, you can enjoy a safer and more secure online experience.
+<a href="https://openbld.net/ru/docs/category/get-started/">Setup</a> OpenBLD.net in your <a href="https://openbld.net/ru/docs/category/setup-browsers/">browser</a> today and experience the difference!</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="browser" term="browser"/>
+        <category label="chrome" term="chrome"/>
+        <category label="brave" term="brave"/>
+        <category label="extension" term="extension"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ OpenBLD H2'23 Upgrades]]></title>
+        <id>https://openbld.net/ru/blog/openbld-h2-2023-updates</id>
+        <link href="https://openbld.net/ru/blog/openbld-h2-2023-updates"/>
+        <updated>2023-11-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Upcoming Changes in OpenBLD.net]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="upcoming-changes-in-openbldnet">Upcoming Changes in OpenBLD.net<a href="https://openbld.net/ru/blog/openbld-h2-2023-updates#upcoming-changes-in-openbldnet" class="hash-link" aria-label="Прямая ссылка на Upcoming Changes in OpenBLD.net" title="Прямая ссылка на Upcoming Changes in OpenBLD.net">​</a></h2>
+<p>As time progresses and the user base grows, server capacities are expanding, necessitating more servers and funds. However, the budget is already allocated and distributed.</p>
+<p>In light of the above, some changes are planned for the architecture of OpenBLD.net:</p>
+<ul>
+<li><strong>ADA (DNS 53):</strong> Disable everywhere except for the main two or three servers</li>
+<li><strong>RIC (DNS 53):</strong> Eliminate DNS 53 on all RIC servers, leaving only - DoT, DoH.</li>
+</ul>
+<p>In summary: DNS 53 will remain only in the ADA infrastructure.</p>
+<p><strong>Important:</strong> Please let me know if this may break something for you; we will think together about what can be done.</p>
+<p>Anyone who can contribute to the OpenBLD.net project, please don't hesitate. You can find information on how to do this and the benefits you can expect <a href="https://openbld.net/ru/docs/donation/">here</a>.</p>
+<p>🤝 Thanks to everyone who has helped and continues to help. Blessings to you all!</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="news" term="news"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ OpenBLD October'23 Upgrades]]></title>
+        <id>https://openbld.net/ru/blog/openbld-october-2023-updates</id>
+        <link href="https://openbld.net/ru/blog/openbld-october-2023-updates"/>
+        <updated>2023-10-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-exciting-october23-upgrades-at-openbldnet-">🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀<a href="https://openbld.net/ru/blog/openbld-october-2023-updates#-exciting-october23-upgrades-at-openbldnet-" class="hash-link" aria-label="Прямая ссылка на 🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀" title="Прямая ссылка на 🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀">​</a></h2>
+<p>We're thrilled to unveil the latest enhancements in our OpenBLD.net ecosystem. Here's what's new:</p>
+<ul>
+<li><strong>New Filtering Routine Server</strong>: Strengthening the core of OpenBLD.net with a brand new filtering routine server.</li>
+<li><strong>Enhanced Performance</strong>: Boosted RAM and CPU power on select servers for even smoother operation.</li>
+<li><strong>German Server Addition</strong>: Testing out a new server in Germany for ada.openbld.net frontend scoping.</li>
+<li><strong>Rule Tweaks</strong>: Updated blocking rules to better combat abused IPs and CIDRs.</li>
+<li><strong>Improved Resource Handling</strong>: Optimized performance for web resources like <code>Krisha</code>, <code>IvI</code>, and <code>Yandex Maps</code>.</li>
+</ul>
+<p>🚫 <strong>Reducing Threats</strong>: We've successfully blocked Kazakhstan-associated YoroTrooper attacks and the threat of spying on your iPhone. Plus, we've thwarted Keepass faked malware.</p>
+<p>📣 Stay Connected:</p>
+<ul>
+<li>Join our official Telegram channel: <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">Link</a></li>
+<li>Follow us on LinkedIn: <a href="https://www.linkedin.com/company/openbld" target="_blank" rel="noopener noreferrer">Link</a></li>
+</ul>
+<p>OpenBLD.net is your go-to service for a cleaner, distraction-free online experience.</p>
+<p><a href="https://openbld.net/ru/docs/donation/">Help us</a> make the internet a better place for all! 💪</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="news" term="news"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ Reduce Spying iPhone]]></title>
+        <id>https://openbld.net/ru/blog/reduce-spying-iphone</id>
+        <link href="https://openbld.net/ru/blog/reduce-spying-iphone"/>
+        <updated>2023-10-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How can you reduce the threat of spying on your iPhone?]]></summary>
+        <content type="html"><![CDATA[<p>How can you reduce the threat of spying on your iPhone?</p>
+<p>iPhone owners can be hacked through iMessage with Operation Triangulation infection chain and you can reduce thich chain attack together with OpenBLD.net.</p>
+<p>In short. Operation Triangulation infection chain: a device receives a malicious iMessage attachment that launches a chain of exploits, and their execution ultimately results in the launch of the TriangleDB implant. In more detail, the infection chain can be summarized with the following <a href="https://securelist.com/triangulation-validators-modules/110847/" target="_blank" rel="noopener noreferrer">article</a>.</p>
+<p>Infection chain:
+<img decoding="async" loading="lazy" alt="Operation Triangulation infection chain" src="https://openbld.net/ru/assets/images/figure-spying-ipfones-ce059e4a16052ce6d8dcac4b0d852531.jpg" width="1280" height="759" class="img_ev3q"></p>
+<p>Now all chained domains added to OpenBLD.net ecosystem, and of course - be careful about what and from whom you receive in your iMessage 😎</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="prevention" term="prevention"/>
+        <category label="blocking" term="blocking"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ OpenBLD Update HTTPS Certificates]]></title>
+        <id>https://openbld.net/ru/blog/report-update-https-certs</id>
+        <link href="https://openbld.net/ru/blog/report-update-https-certs"/>
+        <updated>2023-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Update HTTPS certificates will progress tonight]]></summary>
+        <content type="html"><![CDATA[<p>Update HTTPS certificates will progress tonight</p>
+<ul>
+<li>ADA - Issue and Update certificates</li>
+<li>RIC - Issue and Update certificates</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p>This action will not affect your connectivity.</p></div></div>
+<p>This message is to let you know that this is a legitimate, planned procedure.</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="news" term="news"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ Open Report on "Security and DNS"]]></title>
+        <id>https://openbld.net/ru/blog/report-infosec-and-dns-on-isaca</id>
+        <link href="https://openbld.net/ru/blog/report-infosec-and-dns-on-isaca"/>
+        <updated>2023-10-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://openbld.net/ru/blog/report-infosec-and-dns-on-isaca#introduction" class="hash-link" aria-label="Прямая ссылка на Introduction" title="Прямая ссылка на Introduction">​</a></h2>
+<p>In Almaty, this Thursday, October 19, at 7:00 PM in SmartPoint, I'll be presenting an open report on the topic of "Security and DNS."</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-importance-of-dns">The Importance of DNS<a href="https://openbld.net/ru/blog/report-infosec-and-dns-on-isaca#the-importance-of-dns" class="hash-link" aria-label="Прямая ссылка на The Importance of DNS" title="Прямая ссылка на The Importance of DNS">​</a></h2>
+<p>We all recognize that DNS is the backbone of the internet; without it, nothing would function properly. It's everywhere, yet its significance in cybersecurity often goes unnoticed.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-expect">What to Expect<a href="https://openbld.net/ru/blog/report-infosec-and-dns-on-isaca#what-to-expect" class="hash-link" aria-label="Прямая ссылка на What to Expect" title="Прямая ссылка на What to Expect">​</a></h2>
+<p>While the document is still a work in progress, I plan to cover the following key areas:</p>
+<ul>
+<li>Why DNS is crucial and how it operates</li>
+<li>Its impact on security</li>
+<li>How it affects users</li>
+<li>DNS and Threat Intelligence</li>
+<li>The origins of OpenBLD.net DNS 😡</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="event-details">Event Details<a href="https://openbld.net/ru/blog/report-infosec-and-dns-on-isaca#event-details" class="hash-link" aria-label="Прямая ссылка на Event Details" title="Прямая ссылка на Event Details">​</a></h2>
+<p>Admission is free. Unfortunately, the link to the event is only available on <a href="https://www.linkedin.com/posts/isaca-astana-chapter_isaca-astana-chapter-%D0%BF%D1%80%D0%B8%D0%B3%D0%BB%D0%B0%D1%88%D0%B0%D0%B5%D1%82-%D0%B2%D0%B0%D1%81-%D0%BD%D0%B0-%D0%B4%D1%80%D1%83%D0%B6%D0%B5%D1%81%D0%BA%D1%83%D1%8E-activity-7115571005124689920-3_n_/?originalSubdomain=ru" target="_blank" rel="noopener noreferrer">LinkedIn</a>, where you can find the full agenda.</p>
+<p>For those attending, see you at the event! ✌️))</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="news" term="news"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ OpenBLD Q3 2023 Updates & News]]></title>
+        <id>https://openbld.net/ru/blog/openbld-q3-2023-news</id>
+        <link href="https://openbld.net/ru/blog/openbld-q3-2023-news"/>
+        <updated>2023-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In first - Big Thanks to the DNS Blocklists project for their significant contribution to "Keep the internet clean" ideology]]></summary>
+        <content type="html"><![CDATA[<p>In first - <strong>Big Thanks</strong> to the <a href="https://github.com/hagezi/dns-blocklists" target="_blank" rel="noopener noreferrer">DNS Blocklists</a> project for their significant contribution to "Keep the internet clean" ideology</p>
+<p>In this quarter of 2023, I've introduced various enhancements to the OpenBLD.net ecosystem.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="heres-the-scoop">🔻Here's the scoop<a href="https://openbld.net/ru/blog/openbld-q3-2023-news#heres-the-scoop" class="hash-link" aria-label="Прямая ссылка на 🔻Here's the scoop" title="Прямая ссылка на 🔻Here's the scoop">​</a></h2>
+<ul>
+<li>1️⃣ OpenBLD.net now incorporates the DNS Blocklists project into its own DNS filtering mechanisms, ensuring a cleaner internet experience.</li>
+<li>2️⃣ Successfully resolved major Apple content delivery issues for Eastern Europe, enhancing DNS delivery experience.</li>
+<li>3️⃣ Experience a boost in DNS response speed by approximately 5%. The General pool is now around ~111ms, while Local pools are at ~70ms.</li>
+<li>4️⃣ According to Alternativeto, OpenBLD.net stands out as an alternative to Quad9, NextDNS, AdGuard DNS, AhaDNS, and BlahDNS.</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p>✨ And most importantly, OpenBLD.net is your go-to solution for a clean Internet – free from Ads, Tracking, Metrics, Telemetry, Phishing, Malware and all that other "Crap.” without agent installations and add-ins in your browsers.</p></div></div>
+<p>Embrace yourself and stay focused with the power of clean Internet with OpenBLD.net DNS 😎</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="news" term="news"/>
+    </entry>
+</feed>
