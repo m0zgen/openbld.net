@@ -26,8 +26,7 @@ export default function HomepageCompareAdaAndRic() {
                                   </Translate>
                                   <span className="text-blue-500 dark:text-gray-400">
                                       <Translate
-                                      id="homepage.ChromeExtension.HeaderTitleGrayed">
-                                      Browser
+                                      id="homepage.ChromeExtension.HeaderTitleGrayed"> Browser
                                       </Translate>
                                   </span>
                               </h2>

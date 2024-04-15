@@ -28,8 +28,7 @@ export default function HomepageCompareAdaAndRic() {
                                   </Translate>
                                       <span className="text-blue-500 dark:text-gray-400">
                                           <Translate
-                                              id="homepage.CompareAdaAndRic.HeaderTitleGrayed">
-                                          traffic
+                                              id="homepage.CompareAdaAndRic.HeaderTitleGrayed"> traffic
                                           </Translate>
                                       </span></h2>
                               <p className="mb-16 font-bold dark:text-gray-900">
