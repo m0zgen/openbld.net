@@ -1,4 +1,31 @@
 {
+  "homepage.Header.Title": {
+    "message": "Блокировка рекламы, телеметрии, вредоносных доменов"
+  },
+  "homepage.Header.Subtitle": {
+    "message": "Бесплатный DNS - с DoT, DoH"
+  },
+  "homepage.Header.Button1": {
+    "message": "Как настроить за 5 минут"
+  },
+  "homepage.Header.Button2": {
+    "message": "О проекте OpenBLD.net"
+  },
+  "homepage.Header.Slogan": {
+    "message": "Буль собой, будь в фокусе"
+  },
+  "homepage.Header.Brief": {
+    "message": "OpenBLD.net — это сервис, предназначенный для минимизации интернет-шума, такого как реклама и отслеживание, позволяющий вам оставаться самим собой и оставаться сосредоточенным во время работы в Интернете. И конечно вы можете "
+  },
+  "homepage.Header.BriefLink1": {
+    "message": " Пожертвовать"
+  },
+  "homepage.Header.BriefLink2": {
+    "message": " Спонсировать проект"
+  },
+  "homepage.Header.BriefOr": {
+    "message": " или"
+  },
   "homepage.ChromeExtension.TypeTile": {
     "message": "Расширение",
     "description": "The label of type of the Chrome Extension (Extension)"
