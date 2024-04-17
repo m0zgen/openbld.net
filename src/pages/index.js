@@ -9,6 +9,7 @@ import HomepageLogosCloud from '@site/src/components/HomepageLogosCloud';
 import HomepageChromeExtension from '@site/src/components/HomepageChromeExtension';
 import HomepageVideoPresentation from '@site/src/components/HomepageVideoPresentation';
 import HomepageCompareAdaAndRic from '@site/src/components/HomepageCompareAdaAndRic';
+import Translate from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
@@ -21,25 +22,41 @@ function HomepageHeader() {
 
             {/*Header title*/}
             <h1 className="font-heading mb-6 text-4xl md:text-5xl text-gray-200 dark:text-gray-200 font-black tracking-tight">
+                <Translate
+                    id="homepage.Header.Title">
                 {siteConfig.customFields.titleHomeHeader}
+                </Translate>
             </h1>
 
             {/*Header subtitle*/}
-            <p className="text-xl py-6 text-white">{siteConfig.tagline}</p>
+            <p className="text-xl py-6 text-white">
+                <Translate
+                    id="homepage.Header.Subtitle">
+                {siteConfig.tagline}
+                </Translate>
+            </p>
 
             {/*Header buttons*/}
             <Link
                 className="inline-flex px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 hover:text-green-200 focus:ring-blue-200 rounded-full"
                 to="/docs/category/get-started"
             >
+                <Translate
+                    id="homepage.Header.Button1">
                 How to setup - 5min ⏱️
+                </Translate>
             </Link>
 
             <Link
                 className="mt-3 md:mt-0 lg:mt-0 inline-flex items-center ml-3 px-8 py-3.5 text-lg text-center text-green-100 font-bold transition-colors duration-150 bg-amber-600 dark:bg-green-700 focus:shadow-outline hover:bg-green-800 hover:text-gray-200 rounded-full"
                 to="/docs/intro"
             >
-                <span>OpenBLD.net Intro</span>
+                <span>
+                <Translate
+                    id="homepage.Header.Button2">
+                    OpenBLD.net Intro
+                </Translate>
+                </span>
                 <svg className="w-4 h-4 ml-3 fill-current" viewBox="0 0 20 20">
                     <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" fill-rule="evenodd"></path>
                 </svg>
@@ -48,22 +65,39 @@ function HomepageHeader() {
             {/*Subheader*/}
             <div className='flex justify-center max-w-lg flex-col mx-auto mt-8'>
                 <h2 className="text-3xl font-semibold tracking-tight text-center dark:text-gray-200">
+                    <Translate
+                        id="homepage.Header.Slogan">
                     Be yourself, be focused
+                    </Translate>
                 </h2>
                 <p className="mt-1 text-sm text-center text-white dark:text-gray-400">
+                    <Translate
+                        id="homepage.Header.Brief">
                     OpenBLD.net is a service designed to minimize Internet noise such as advertising and tracking,
                     allowing you to be yourself and stay focused while surfing the Internet. And of course you can help us
-                    with <br/><a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
-                     Donations
-                    </a> or <a href="/docs/sponsorship" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
-                        Sponsorship
+                    with
+                    </Translate>
+                    <br/>
+
+                    <a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                        <Translate
+                            id="homepage.Header.BriefLink1">
+                        Donations
+                        </Translate>
+                    </a>
+                    <Translate
+                        id="homepage.Header.BriefOr">
+                    or
+                    </Translate>
+
+                    <a href="/docs/sponsorship" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                        <Translate
+                            id="homepage.Header.BriefLink2"> Sponsorship
+                        </Translate>
                     </a>.
                 </p>
             </div>
 
-            {/*<div className={styles.buttons}>*/}
-            {/*  <Link*/}
-            {/*</div>*/}
         </div>
     </header>
   );

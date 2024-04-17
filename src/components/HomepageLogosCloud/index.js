@@ -14,6 +14,8 @@ const logos = [
         // { name: "Netdata", url: "https://www.netdata.cloud/?utm_campaign=technical&utm_source=content&utm_medium=website&utm_content=openbld-dns", src: 'img/logos/netdata-logo.jpeg', style: ""},
         { name: "Veesp Hosting Service", url: "https://secure.veesp.com/?affid=954", src: 'img/logos/veesp-logo.png', style: "logo-bg-white"},
         { name: "AlphaVPS Hosting Service", url: "https://alphavps.com/clients/aff.php?aff=657", src: 'img/logos/alpha-vps-logo.png', style: "logo-bg-white"},
+        { name: "AST Cyber Lab", url: "https://astlab.kz/", src: 'img/logos/ast-cyber-lab-logo.png', style: "logo-bg-white"},
+        { name: "AppSecFest Almaty", url: "https://appsecfest.kz/", src: 'img/logos/app-sec-fest-logo.png', style: ""},
         { name: "Help to growth to OpenBLD.net", url: "#", src: 'img/logos/splash-logo.jpg', style: ""},
     ];
 

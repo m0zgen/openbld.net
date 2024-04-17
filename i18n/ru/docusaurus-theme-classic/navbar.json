@@ -8,19 +8,19 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "Документация",
     "description": "Navbar item with label Docs"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "Блог",
     "description": "Navbar item with label Blog"
   },
   "item.label.How it works": {
-    "message": "How it works",
+    "message": "Как это работает",
     "description": "Navbar item with label How it works"
   },
   "item.label.My GitHub": {
-    "message": "My GitHub",
+    "message": "Мой GitHub",
     "description": "Navbar item with label My GitHub"
   }
 }
