@@ -90,25 +90,6 @@
   "homepage.ChromeExtension.LinkToStore": {
     "message": "Магазин Chrome веб-приложений"
   },
-  "homepage.CompareAdaAndRic.TypeTile": {
-    "message": "Оптимизация",
-    "description": "The label of type of the ADA and RIC"
-  },
-  "homepage.CompareAdaAndRic.HeaderTitleMain": {
-    "message": "Уменьшите свой"
-  },
-  "homepage.CompareAdaAndRic.HeaderTitleGrayed": {
-    "message": " трафик"
-  },
-  "homepage.CompareAdaAndRic.HeaderSubTitle": {
-    "message": "Выйдите из \"пузыря фильтров\", будьте собой"
-  },
-  "homepage.CompareAdaAndRic.Description": {
-    "message": "Снизьте отслеживание и телеметрию с помощью сервиса OpenBLD.net. Наслаждайтесь более плавной работой в Интернете без навязчивого сбора данных."
-  },
-  "homepage.CompareAdaAndRic.LinkToSetup": {
-    "message": "Как работает OpenBLD.net"
-  },
   "homepage.VideoPresentation.TypeTile": {
     "message": "Демонстрация",
     "description": "The label of Video Presentation type"
@@ -127,6 +108,25 @@
   },
   "homepage.VideoPresentation.LinkToSetup": {
     "message": "Настроить свой браузер"
+  },
+  "homepage.CompareAdaAndRic.TypeTile": {
+    "message": "Оптимизация",
+    "description": "The label of type of the ADA and RIC"
+  },
+  "homepage.CompareAdaAndRic.HeaderTitleMain": {
+    "message": "Уменьшите свой"
+  },
+  "homepage.CompareAdaAndRic.HeaderTitleGrayed": {
+    "message": " трафик"
+  },
+  "homepage.CompareAdaAndRic.HeaderSubTitle": {
+    "message": "Выйдите из \"пузыря фильтров\", будьте собой"
+  },
+  "homepage.CompareAdaAndRic.Description": {
+    "message": "Снизьте отслеживание и телеметрию с помощью сервиса OpenBLD.net. Наслаждайтесь более плавной работой в Интернете без навязчивого сбора данных."
+  },
+  "homepage.CompareAdaAndRic.LinkToSetup": {
+    "message": "Как работает OpenBLD.net"
   },
   "homepage.LogosCloud.Title": {
     "message": "+ кто поддержал проект \uD83D\uDE80"
