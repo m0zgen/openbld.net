@@ -117,10 +117,16 @@ function FeaturesListHeading() {
                             <div className="w-full md:w-1/2 p-8">
                                 <div className="md:max-w-lg">
                                     <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
+                                        <Translate
+                                            id="homepage.FeatureList.Title">
                                         Get in a better way to work online.
+                                        </Translate>
                                     </h2>
                                     <p className="mb-8 text-xl font-bold">
+                                        <Translate
+                                            id="homepage.FeatureList.Subtitle">
                                         Without agents and without software installs.
+                                        </Translate>
                                     </p>
 
                                     {/*<h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Features:</h2>*/}
@@ -129,31 +135,46 @@ function FeaturesListHeading() {
                                             <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                                             </svg>
+                                            <Translate
+                                                id="homepage.FeatureList.Item1">
                                             Works on mobile devices and browsers
+                                            </Translate>
                                         </li>
                                         <li className="flex items-center">
                                             <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                                             </svg>
+                                            <Translate
+                                                id="homepage.FeatureList.Item2">
                                             For personal usage, home and small business
+                                            </Translate>
                                         </li>
                                         <li className="flex items-center">
                                             <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                                             </svg>
+                                            <Translate
+                                                id="homepage.FeatureList.Item3">
                                             Reduce browsers memory and CPU usage
+                                            </Translate>
                                         </li>
                                         <li className="flex items-center">
                                             <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                                             </svg>
+                                            <Translate
+                                                id="homepage.FeatureList.Item4">
                                             Reduce potentially Information Security Risks
+                                            </Translate>
                                         </li>
                                         <li className="flex items-center">
                                             <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                                                 <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                                             </svg>
+                                            <Translate
+                                                id="homepage.FeatureList.Item5">
                                             Unlimited access with 100k+ queries per day
+                                            </Translate>
                                         </li>
                                         <li class="flex items-center">
                                             <svg class="w-3.5 h-3.5 mr-2 mb-3 text-red-500 dark:text-red-500 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -161,7 +182,10 @@ function FeaturesListHeading() {
                                             </svg>
                                             <p>
                                                 <a className="text-blue-600 dark:text-blue-500" href="/docs/overwiew/openbld-plus">
+                                                    <Translate
+                                                        id="homepage.FeatureList.Item6">
                                                     Get benefits from Donations / Sponsorship
+                                                    </Translate>
                                                 </a>
                                             </p>
                                         </li>
@@ -176,19 +200,39 @@ function FeaturesListHeading() {
                                 {/*Quick setup*/}
                                 <div className="mt-3 block max-w-xl p-6 bg-white border border-gray-200 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                                     <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                        <Translate
+                                            id="homepage.FeatureList.QuickSetup">
                                         Browser quick setup
+                                        </Translate>
                                     </h5>
                                     <p className="font-normal text-gray-700 dark:text-gray-400 m-0">
+                                        <Translate
+                                            id="homepage.FeatureList.QuickSetupType">
                                         Adapted (ADA). For most users:
+                                        </Translate>
                                     </p>
                                     <code className="text-green-800 dark:text-green-400">https://ada.openbld.net/dns-query</code>
                                     <p className="m-0">
-                                        Get Started for: <a href="/docs/category/setup-browsers" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                        <Translate
+                                            id="homepage.FeatureList.GetStartedFor">
+                                        Get Started for:
+                                        </Translate>
+                                        <a href="/docs/category/setup-browsers" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                            <Translate
+                                                id="homepage.FeatureList.GetStartedForBrowsers">
                                             Browsers
+                                            </Translate>
                                         </a>, <a href="/docs/category/setup-mobile-devices" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                        <Translate
+                                            id="homepage.FeatureList.GetStartedForMobile">
                                             Mobile
-                                        </a>, and <a href="/docs/get-started/where-to-start" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
-                                             more...
+                                        </Translate>
+                                        </a>,
+                                        <a href="/docs/get-started/where-to-start" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                        <Translate
+                                            id="homepage.FeatureList.GetStartedForMore">
+                                            more...
+                                        </Translate>
                                         </a>
                                     </p>
 

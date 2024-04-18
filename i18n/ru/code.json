@@ -26,6 +26,48 @@
   "homepage.Header.BriefOr": {
     "message": " или"
   },
+  "homepage.FeatureList.Title": {
+    "message": "Лучший путь для работы в Интернете"
+  },
+  "homepage.FeatureList.Subtitle": {
+    "message": "Без агентов и дополнительного ПО"
+  },
+  "homepage.FeatureList.Item1": {
+    "message": "Работает в мобильный устройствах и браузерах"
+  },
+  "homepage.FeatureList.Item2": {
+    "message": "Для персонального использования и в корпоративных сетях"
+  },
+  "homepage.FeatureList.Item3": {
+    "message": "Уменьшает использование памяти и процессора"
+  },
+  "homepage.FeatureList.Item4": {
+    "message": "Уменьшает потенциальные угрозы безопасности"
+  },
+  "homepage.FeatureList.Item5": {
+    "message": "Безлимитное количество запросов до 100к в день"
+  },
+  "homepage.FeatureList.Item6": {
+    "message": "Получайте выгоду от пожертвований и спонсорства"
+  },
+  "homepage.FeatureList.QuickSetup": {
+    "message": "Быстрая настройка браузера"
+  },
+  "homepage.FeatureList.QuickSetupType": {
+    "message": "Адаптивный DNS (ADA). Подходит всем:"
+  },
+  "homepage.FeatureList.GetStartedFor": {
+    "message": "Как настроить: "
+  },
+  "homepage.FeatureList.GetStartedForBrowsers": {
+    "message": "Браузеры"
+  },
+  "homepage.FeatureList.GetStartedForMobile": {
+    "message": "Мобильные"
+  },
+  "homepage.FeatureList.GetStartedForMore": {
+    "message": " другое..."
+  },
   "homepage.ChromeExtension.TypeTile": {
     "message": "Расширение",
     "description": "The label of type of the Chrome Extension (Extension)"
