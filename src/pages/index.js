@@ -219,19 +219,16 @@ function FeaturesListHeading() {
                                         </Translate>
                                         <a href="/docs/category/setup-browsers" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
                                             <Translate
-                                                id="homepage.FeatureList.GetStartedForBrowsers">
-                                            Browsers
+                                                id="homepage.FeatureList.GetStartedForBrowsers"> Browsers
                                             </Translate>
                                         </a>, <a href="/docs/category/setup-mobile-devices" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
                                         <Translate
-                                            id="homepage.FeatureList.GetStartedForMobile">
-                                            Mobile
+                                            id="homepage.FeatureList.GetStartedForMobile"> Mobile
                                         </Translate>
                                         </a>,
                                         <a href="/docs/get-started/where-to-start" className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
                                         <Translate
-                                            id="homepage.FeatureList.GetStartedForMore">
-                                            more...
+                                            id="homepage.FeatureList.GetStartedForMore"> more...
                                         </Translate>
                                         </a>
                                     </p>
@@ -257,9 +254,16 @@ function FeaturesListHeading() {
                                         </div>
                                         <div className="flex-1 p-3">
                                             <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
-                                                Adaptive DNS</h3>
+                                                <Translate
+                                                    id="homepage.ThreeColums.Column1Title">
+                                                Adaptive DNS
+                                                </Translate>
+                                            </h3>
                                             <p className="text-sm text-gray-700 font-bold">
+                                                <Translate
+                                                    id="homepage.ThreeColums.Column1Body">
                                                 ADA - Adaptive DNS: Fast and Flexible Internet surfing with Social Networks, Google, Microsoft, Yandex and etc.
+                                                </Translate>
                                             </p>
                                         </div>
                                     </div>
@@ -277,9 +281,16 @@ function FeaturesListHeading() {
                                         </div>
                                         <div className="flex-1 p-3">
                                             <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
-                                                Restricted DNS</h3>
+                                                <Translate
+                                                    id="homepage.ThreeColums.Column2Title">
+                                                Restricted DNS
+                                                </Translate>
+                                            </h3>
                                             <p className="text-sm text-gray-700 font-bold">
+                                                <Translate
+                                                    id="homepage.ThreeColums.Column2Body">
                                                 RIC - Strict DNS: Blocks many marketing and tracking resources, which may affect access to certain internet content
+                                                </Translate>
                                             </p>
                                         </div>
                                     </div>
@@ -297,9 +308,19 @@ function FeaturesListHeading() {
                                         </div>
                                         <div class="flex-1 p-3">
                                             <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
-                                                Mobile Devices</h3>
+                                                <Translate
+                                                    id="homepage.ThreeColums.Column3Title">
+                                                Mobile Devices
+                                                </Translate>
+                                            </h3>
                                             <p class="text-sm text-gray-700 font-bold">
-                                                Android, iOS, iPad devices. <a href="/docs/get-started/setup-mobile-devices/android/">Setup</a> "Private DNS" on Android or <a
+                                                <Translate
+                                                    id="homepage.ThreeColums.Column3Body">
+                                                Android, iOS, iPad devices.
+                                                </Translate>
+                                                    <a href="/docs/get-started/setup-mobile-devices/android/">
+                                                        Setup
+                                                    </a> "Private DNS" on Android or <a
                                                 href="/docs/get-started/setup-mobile-devices/apple/">download</a> profile for Apple devices.</p>
                                         </div>
                                     </div>
