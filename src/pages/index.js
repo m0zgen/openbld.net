@@ -319,9 +319,22 @@ function FeaturesListHeading() {
                                                 Android, iOS, iPad devices.
                                                 </Translate>
                                                     <a href="/docs/get-started/setup-mobile-devices/android/">
-                                                        Setup
-                                                    </a> "Private DNS" on Android or <a
-                                                href="/docs/get-started/setup-mobile-devices/apple/">download</a> profile for Apple devices.</p>
+                                                        <Translate
+                                                            id="homepage.ThreeColums.Column3BodyLink1"> Setup
+                                                        </Translate>
+                                                    </a>
+                                                <Translate
+                                                    id="homepage.ThreeColums.Column3Body2"> "Private DNS" on Android or
+                                                    </Translate>
+                                                <a href="/docs/get-started/setup-mobile-devices/apple/">
+                                                    <Translate
+                                                        id="homepage.ThreeColums.Column3BodyLink2"> download
+                                                    </Translate>
+                                                </a>
+                                                <Translate
+                                                    id="homepage.ThreeColums.Column3Body3"> profile for Apple devices.
+                                                </Translate>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

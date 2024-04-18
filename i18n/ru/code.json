@@ -68,6 +68,36 @@
   "homepage.FeatureList.GetStartedForMore": {
     "message": " другое..."
   },
+  "homepage.ThreeColums.Column1Title": {
+    "message": "Адаптивный DNS"
+  },
+  "homepage.ThreeColums.Column1Body": {
+    "message": "ADA - Быстрый и гибкий серфинг в Интернете с помощью социальных сетей, Google, Microsoft, Яндекс и т. д."
+  },
+  "homepage.ThreeColums.Column2Title": {
+    "message": "Строгий DNS"
+  },
+  "homepage.ThreeColums.Column2Body": {
+    "message": "RIC — Блокирует многие маркетинговые и отслеживающие ресурсы (соц. сайты могут не работать)"
+  },
+  "homepage.ThreeColums.Column3Title": {
+    "message": "Мобильные"
+  },
+  "homepage.ThreeColums.Column3Body": {
+    "message": "Устройства Android, iOS, iPad."
+  },
+  "homepage.ThreeColums.Column3BodyLink1": {
+    "message": " Настройте "
+  },
+  "homepage.ThreeColums.Column3Body2": {
+    "message": "\"Приватный DNS\" в Android или"
+  },
+  "homepage.ThreeColums.Column3BodyLink2": {
+    "message": " загрузите "
+  },
+  "homepage.ThreeColums.Column3Body3": {
+    "message": "профиль для Apple"
+  },
   "homepage.ChromeExtension.TypeTile": {
     "message": "Расширение",
     "description": "The label of type of the Chrome Extension (Extension)"
