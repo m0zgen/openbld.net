@@ -25,7 +25,7 @@ You can support the OpenBLD DNS Project through various activities:
 
 ## Volunteering
 
-- Write articles or manuals about the OpenBLD DNS Project and publish them on this, your blog, or your site.
+- Write articles or manuals about the OpenBLD.net DNS Project and publish them on this, your blog, or your site.
 - Review content, find misspells, etc. in the [documentation](/docs/intro), [blog](/blog) and report them.
 - Translate content on this site into your language.
 - Assist with technical issues.

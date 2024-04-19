@@ -16,5 +16,3 @@ sidebar_position: 100
 ## More
 * InfoSec Channel - [Sys-Admin & InfoSec](https://t.me/sysadm_in_channel) (InfoSec news, hacks and more from Sys-Admin Community)
 * Sys-Admin Up - [Sys-Admin Up](https://t.me/sysadm_in_up) (Courses, Exploits, Vulnerabilities news and more)
-* Forum - https://forum.sys-adm.in
-
