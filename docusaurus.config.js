@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/m0zgen/openbld.net/edit/master/',
+            'https://github.com/m0zgen/openbld.net/edit/dev/',
         },
         blog: {
           blogTitle: 'OpenBLD.net Blog',

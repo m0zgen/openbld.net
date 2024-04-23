@@ -30,7 +30,6 @@ _**Profile Downloaded. Review the profile in the Settings app if you want to ins
 6. Done
 
 :::tip
-## RIC Profile
-You can use RIC iOS/macOS [profile](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD-Stricted-Profile.mobileconfig),
-however, you should be sure that Strict (RIC) mode really suits you. See more details in ADA vs RIC [differences](/docs/overwiew/how-it-works/#ada-vs-ric).
+### RIC Profile
+If you want to use RIC, you need to download [RIC profile](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-RIC-v24-2.mobileconfig) and install it in the same way as the ADA profile.
 :::
