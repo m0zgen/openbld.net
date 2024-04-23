@@ -19,7 +19,7 @@ sidebar_position: 91
 ## Providing Feedback
 
 - [Setup](/docs/category/get-started) ADA or RIC ([ADA and RIC Differences](/docs/overwiew/how-it-works#ada-vs-ric)) in your environment and enjoy it and provide feedback:
-- Если у вас возникнут какие-либо проблемы, ложные срабатывания - свяжитесь через [Контакты](/ru/docs/contacts) с автором проекта.
+- Если у вас возникнут какие-либо проблемы, ложные срабатывания - свяжитесь через [Контакты](/docs/contacts) с автором проекта.
 
 ## Volunteering
 
