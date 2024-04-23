@@ -12,22 +12,22 @@
             <key>ServerAddresses</key>
             <array>
               <string>116.203.84.65</string>
-<string>188.130.234.184</string>
+<string>213.199.49.11</string>
 
             </array>
             <key>ServerURL</key>
             <string>https://ric.openbld.net/dns-query</string>
           </dict>
           <key>PayloadDescription</key>
-          <string>Configures device to use OpenBLD - Stricted (RIC) Encrypted DNS over HTTPS</string>
+          <string>Configures device to use OpenBLD.net RIC v24-2 Encrypted DNS over HTTPS</string>
           <key>PayloadDisplayName</key>
-          <string>OpenBLD - Stricted (RIC) DNS over HTTPS</string>
+          <string>OpenBLD.net RIC v24-2 DNS over HTTPS</string>
           <key>PayloadIdentifier</key>
-          <string>com.apple.dnsSettings.managed.1422436f-2ed3-4757-bfa1-c3c970b569ef</string>
+          <string>com.apple.dnsSettings.managed.5ef88d2d-6695-4035-a0e4-6e3719d7c237</string>
           <key>PayloadType</key>
           <string>com.apple.dnsSettings.managed</string>
           <key>PayloadUUID</key>
-          <string>96279bcb-bf3e-4fe7-a79f-94daad74c38d</string>
+          <string>4d736bfb-af24-44fc-a6b3-572754452da6</string>
           <key>PayloadVersion</key>
           <integer>1</integer>
           <key>ProhibitDisablement</key>
@@ -35,9 +35,9 @@
         </dict>
       </array>
       <key>PayloadDescription</key>
-      <string>Adds the OpenBLD - Stricted (RIC) DNS to Big Sur and iOS 14 based systems</string>
+      <string>Adds the OpenBLD.net RIC v24-2 DNS to Big Sur and iOS 14 based systems</string>
       <key>PayloadDisplayName</key>
-      <string>OpenBLD - Stricted (RIC) DNS over HTTPS</string>
+      <string>OpenBLD.net RIC v24-2 DNS over HTTPS</string>
       <key>PayloadIdentifier</key>
       <string>plus.simpledns.apple-dns</string>
       <key>PayloadRemovalDisallowed</key>
@@ -45,7 +45,7 @@
       <key>PayloadType</key>
       <string>Configuration</string>
       <key>PayloadUUID</key>
-      <string>dd354db1-eb52-43bf-b1e2-25d1ecba777b</string>
+      <string>f311d470-39fe-43e0-a8f8-b96f2acfcd20</string>
       <key>PayloadVersion</key>
       <integer>1</integer>
 </dict>

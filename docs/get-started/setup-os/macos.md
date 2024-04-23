@@ -4,14 +4,8 @@ sidebar_position: 1
 
 # MacOS
 
-Setup OpenBLD.net on macOS
+Setup OpenBLD.net in macOS
 
-1. Open System Preferences
-2. Open Network
-3. Select you network > Advanced
-4. Open DNS tab
-5. Add servers
-
-## Misc
-
-* Connectivity and Limitation info you can find in [Connectives](/docs/overwiew/how-it-works/#connectives) section.
+1. Open Safari
+2. Download the profile from the [Apple devices settings](/docs/get-started/setup-mobile-devices/apple)
+3. Install the profile similar to [iOS setup](/docs/get-started/setup-mobile-devices/apple)

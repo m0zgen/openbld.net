@@ -2,18 +2,15 @@
 sidebar_position: 1
 ---
 
-# Routers
+# Network Devices
 
-You can use OpenBLD as DNS server for DHCP clients or preferred DNS server in the router DNS settings. 
-See actual DNS IP addresses list with `nslookup` command.
-
-If your router support DoH/DoT, you can use OpenBLD as `https` with `dns-query` link:
+If your router support DoH/DoT, you can use OpenBLD.net as `https` with `dns-query` link:
 
 ```shell
 https://ada.openbld.net/dns-query
 ```
 
-Or as `tls` address:
+Or as `tls`:
 
 ```shell
 ada.openbld.net

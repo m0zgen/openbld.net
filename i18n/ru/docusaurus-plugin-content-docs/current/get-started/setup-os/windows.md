@@ -4,17 +4,18 @@ sidebar_position: 1
 
 # Windows
 
-Setup OpenBLD.net on Windows Network Settings
+Настройка OpenBLD.net в настройках сети Windows
 
-1. Open Start menu, select gear icon
-2. On the Settings windows click to Network & Internet
-3. Click to Ethernet > Network
-4. Click to edit IP settings
-5. Change DNS settings
+1. Откройте меню "Пуск", выберите значок шестеренки.
+2. В окне "Настройки" выберите "Сеть и Интернет".
+3. Нажмите Ethernet > Сеть.
+4. Нажмите, чтобы изменить настройки IP.
+5. Измените настройки DNS
 
-## Additional Links
-* How to [Enable DNS over HTTPS](https://www.howtogeek.com/765940/how-to-enable-dns-over-https-on-windows-11/) on Windows 11
+## Дополнительные ссылки
 
-## Misc
+* Как [включить DNS через HTTPS](https://www.howtogeek.com/765940/how-to-enable-dns-over-https-on-windows-11/) в Windows 11.
 
-* Connectivity and Limitation info you can find in [Connectives](/docs/overwiew/how-it-works/#connectives) section.
+## Еще
+
+* Информацию о возможностях подключения и ограничениях можно найти в разделе [Подключение](/ru/docs/overwiew/how-it-works/#подключение).
