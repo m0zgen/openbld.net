@@ -24,4 +24,4 @@ sidebar_position: 91
 
 ## Преимущества
 
-После оказания спонсорской поддержки Вы можете запросить расширенный [OpenBLD Plus](/docs/overwiew/4.openbld-plus.md) функционал.
+После оказания спонсорской поддержки Вы можете запросить расширенный [OpenBLD Plus](/ru/docs/overwiew/openbld-plus) функционал.

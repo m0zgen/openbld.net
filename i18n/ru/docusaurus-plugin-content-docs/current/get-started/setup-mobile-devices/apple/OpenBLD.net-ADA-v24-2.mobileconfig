@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+      <key>PayloadContent</key>
+      <array>
+        <dict>
+          <key>DNSSettings</key>
+          <dict>
+            <key>DNSProtocol</key>
+            <string>HTTPS</string>
+            <key>ServerAddresses</key>
+            <array>
+              <string>185.192.97.172</string>
+<string>109.199.97.154</string>
+<string>104.152.49.71</string>
+<string>88.210.11.120</string>
+<string>46.151.29.15</string>
+
+            </array>
+            <key>ServerURL</key>
+            <string>https://ada.openbld.net/dns-query</string>
+          </dict>
+          <key>PayloadDescription</key>
+          <string>Configures device to use OpenBLD.net ADA v24-2 Encrypted DNS over HTTPS</string>
+          <key>PayloadDisplayName</key>
+          <string>OpenBLD.net ADA v24-2 DNS over HTTPS</string>
+          <key>PayloadIdentifier</key>
+          <string>com.apple.dnsSettings.managed.2ed6a1c9-e1b8-418a-a4f6-b9a03558ede0</string>
+          <key>PayloadType</key>
+          <string>com.apple.dnsSettings.managed</string>
+          <key>PayloadUUID</key>
+          <string>d263a2a7-aafa-402c-93f9-69078cead88a</string>
+          <key>PayloadVersion</key>
+          <integer>1</integer>
+          <key>ProhibitDisablement</key>
+          <false/>
+        </dict>
+      </array>
+      <key>PayloadDescription</key>
+      <string>Adds the OpenBLD.net ADA v24-2 DNS to Big Sur and iOS 14 based systems</string>
+      <key>PayloadDisplayName</key>
+      <string>OpenBLD.net ADA v24-2 DNS over HTTPS</string>
+      <key>PayloadIdentifier</key>
+      <string>plus.simpledns.apple-dns</string>
+      <key>PayloadRemovalDisallowed</key>
+      <false/>
+      <key>PayloadType</key>
+      <string>Configuration</string>
+      <key>PayloadUUID</key>
+      <string>f4386b0b-7aa6-405a-a584-32444cdeabb3</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+</dict>
+</plist>
