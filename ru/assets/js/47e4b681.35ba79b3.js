@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[7154],{8432:e=>{e.exports=JSON.parse('{"label":"testing","permalink":"/ru/blog/tags/testing","allTagsPath":"/ru/blog/tags","count":4,"unlisted":false}')}}]);

@@ -32,8 +32,7 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
         </author>
         <category label="openbld" term="openbld"/>
         <category label="updates" term="updates"/>
-        <category label="apple" term="apple"/>
-        <category label="profile" term="profile"/>
+        <category label="urlhaus" term="urlhaus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[🤝JetBrains OSS OpenBLD.net support'24]]></title>
@@ -255,10 +254,8 @@ administrators and security analysts in safeguarding their networks and customer
             <uri>https://github.com/m0zgen</uri>
         </author>
         <category label="openbld" term="openbld"/>
-        <category label="pdp" term="pdp"/>
-        <category label="testing" term="testing"/>
-        <category label="beta" term="beta"/>
-        <category label="privacy" term="privacy"/>
+        <category label="updates" term="updates"/>
+        <category label="urlhaus" term="urlhaus"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[↘ Take Control of Your Privacy! Join the OpenBLD.net PDP Beta]]></title>
