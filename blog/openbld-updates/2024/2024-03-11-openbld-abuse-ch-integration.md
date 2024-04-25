@@ -2,7 +2,7 @@
 slug: 2024-03-11-openbld-abuse-ch-integration
 title: 🛡 Integration of OpenBLD.net with URLhaus by abuse.ch
 authors: [sysadminkz]
-tags: [openbld, pdp, testing, beta, privacy]
+tags: [openbld, updates, urlhaus]
 ---
 
 ![Integration of OpenBLD.net with URLhaus by abuse.ch](images/openbld_and_abuse_ch.png)
