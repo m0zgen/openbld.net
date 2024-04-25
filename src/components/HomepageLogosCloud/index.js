@@ -16,6 +16,7 @@ const logos = [
         { name: "AlphaVPS Hosting Service", url: "https://alphavps.com/clients/aff.php?aff=657", src: 'img/logos/alpha-vps-logo.png', style: "logo-bg-white"},
         { name: "AST Cyber Lab", url: "https://astlab.kz/", src: 'img/logos/ast-cyber-lab-logo.png', style: "logo-bg-white"},
         { name: "AppSecFest Almaty", url: "https://appsecfest.kz/", src: 'img/logos/app-sec-fest-logo.png', style: ""},
+        { name: "SmartApps Almaty", url: "https://smartapps.kz/", src: 'img/logos/smartapps-kz-logo.png', style: "logo-bg-white"},
         { name: "Help to growth to OpenBLD.net", url: "#", src: 'img/logos/splash-logo.jpg', style: ""},
     ];
 
