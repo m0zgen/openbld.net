@@ -11,7 +11,7 @@ sidebar_position: 91
 
 ## Пожертвование
 
-* [PayPal](https://www.paypal.com/paypalme/m0zgen), [Donorbox](https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=30) (поддерживает PayPal / Cards)
+* [PayPal](https://www.paypal.com/paypalme/m0zgen), [Donorbox](https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=30) (поддерживает PayPal / Cards), [Ko-Fi.com](https://ko-fi.com/sysadminkz)
 * Казахстан (Kaspi) - `4400430274737391`
 * YooMoney - `41001928837376`
 * Mir - `2204 1201 0804 5747`
