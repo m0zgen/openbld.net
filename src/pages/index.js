@@ -86,8 +86,7 @@ function HomepageHeader() {
                         </Translate>
                     </a>
                     <Translate
-                        id="homepage.Header.BriefOr">
-                    or
+                        id="homepage.Header.BriefOr"> or
                     </Translate>
 
                     <a href="/docs/sponsorship" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
