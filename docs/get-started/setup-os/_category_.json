@@ -1,6 +1,6 @@
 {
   "label": "Setup Operating Systems",
-  "position": 1,
+  "position": 3,
   "link": {
     "type": "generated-index",
     "description": "Setup OpenBLD.net in your operation system or distributive.",
