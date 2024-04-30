@@ -124,8 +124,8 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "G0IEA 🚴‍",
-            "url": "",
+            "name": "Dmitry Tolkachev 🚴‍",
+            "url": "https://www.linkedin.com/in/dmitry-tolkachev",
             "style": ""
         },
         {
