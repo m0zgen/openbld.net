@@ -50,5 +50,9 @@
   "sidebar.tutorialSidebar.category.Setup Routers.link.generated-index.description": {
     "message": "Настройка OpenBLD.net в роутерах",
     "description": "The generated-index page description for category Setup Routers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Third Party Filters": {
+    "message": "Сторонние фильтры",
+    "description": "The label for category Setup Routers in sidebar tutorialSidebar"
   }
 }

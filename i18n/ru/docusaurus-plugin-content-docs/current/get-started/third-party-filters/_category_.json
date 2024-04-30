@@ -1,0 +1,8 @@
+{
+  "label": "Сторонние фильтры",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Настройка OpenBLD.net с помощью сторонних фильтров",
+  }
+}
