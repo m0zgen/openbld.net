@@ -1,6 +1,7 @@
 ---
 slug: openbld.net-urlhaus-statistics-h1-2024
 title: 🛡OpenBLD.net Outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains
+description: OpenBLD.net outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains!
 authors: [sysadminkz]
 tags: [openbld, updates, urlhaus]
 ---
