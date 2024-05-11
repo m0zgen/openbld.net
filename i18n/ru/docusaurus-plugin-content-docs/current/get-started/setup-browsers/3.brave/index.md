@@ -27,4 +27,4 @@ https://ada.openbld.net/dns-query
 
 В качестве дополнительной опции вы можете использовать браузерное расширение Brave Browser:
 
-* Установите расширение [OpenBLD.net Blocker](/ry/docs/get-started/setup-browsers/extensions/) для браузера Brave.
+* Установите расширение [OpenBLD.net Blocker](/docs/get-started/setup-browsers/extensions/) для браузера Brave.
