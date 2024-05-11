@@ -9,7 +9,7 @@ import HomepageLogosCloud from '@site/src/components/HomepageLogosCloud';
 import HomepageChromeExtension from '@site/src/components/HomepageChromeExtension';
 import HomepageVideoPresentation from '@site/src/components/HomepageVideoPresentation';
 import HomepageCompareAdaAndRic from '@site/src/components/HomepageCompareAdaAndRic';
-import Translate from '@docusaurus/Translate';
+import Translate, {translate} from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
@@ -353,8 +353,11 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.customFields.titleHeader}`}
-      description="OpenBLD.net DNS - Focus on information with adblocking and implicit cybersecurity threat prevention.">
+      // title={`Hello from ${siteConfig.customFields.titleHeader}`}
+      title={translate({id: 'index.layout.title', description: 'The title displayed in the website head.', message: 'Hello from {title}{subtitle}'}, {title: siteConfig.customFields.serviceName, subtitle: siteConfig.customFields.serviceDescription})}
+      // description="OpenBLD.net DNS - Focus on information with adblocking and implicit cybersecurity threat prevention."
+      description={translate({id: 'index.layout.description', description: 'The description displayed in the website head.', message: '{description}'}, {description: siteConfig.customFields.siteDescription})}
+    >
       <HomepageHeader />
       <main>
           <FeaturesListHeading />

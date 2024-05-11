@@ -453,5 +453,13 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Развернуть сайдбар",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "index.layout.title": {
+    "message": "{title}способ как блокировать рекламу, отслеживание, трекинг, телеметрию, малварь, вредоносные домены.",
+    "description": "The title displayed in the website head."
+  },
+  "index.layout.description": {
+    "message": "OpenBLD.net — сосредоточьтесь на информации с помощью блокировки рекламы и скрытого предотвращения угроз кибербезопасности.",
+    "description": "The description displayed in the website head."
   }
 }

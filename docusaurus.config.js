@@ -88,8 +88,9 @@ const config = {
   ],
 
   customFields: {
-    // HTML header
-    titleHeader: 'free DNS with Anycast, GeoDNS, DoH, DoT',
+    serviceName: 'OpenBLD.net - ',
+    serviceDescription: 'free DNS with Anycast, GeoDNS, DoH, DoT',
+    siteDescription: 'OpenBLD.net - Focus on information with adblocking and implicit cybersecurity threat prevention.',
     // Hero, Header title
     titleHomeHeader: 'Block advertising, tracking, telemetry, malicious domains and more...',
   },
