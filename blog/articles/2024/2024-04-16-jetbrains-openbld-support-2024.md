@@ -1,8 +1,9 @@
 ---
 slug: jetbrains-openbld-support-2024
 title: 🤝JetBrains OSS OpenBLD.net support'24
+description: JetBrains - Best IDE. Supported OpenBLD.net in 2024 year.
 authors: [sysadminkz]
-tags: [openbld, updates, apple, profile]
+tags: [openbld, jetbrains, support, 2024]
 ---
 
 ![JetBrains OSS OpenBLD.net support](images/jetbrains-openbls-support-2024.png)
