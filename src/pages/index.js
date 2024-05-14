@@ -113,8 +113,7 @@ function HomepageHeader() {
 
 // Get in a better way to work online
 function FeaturesListHeading() {
-    const [bool, setBool] = useState(false);
-    const [hide, setHide] = useState(false);
+    const [bool, setBool] = useState(true);
 
     const [isCheckedAda, setIsCheckedAda] = useState(true);
     const [isCheckedRic, setIsCheckedRic] = useState(false);
@@ -124,6 +123,7 @@ function FeaturesListHeading() {
         setIsCheckedAda(!isCheckedAda);
         if (isCheckedRic) {
             setIsCheckedRic(!isCheckedRic);
+            setBool(bool)
         }
     }
 
@@ -131,6 +131,7 @@ function FeaturesListHeading() {
         setIsCheckedRic(!isCheckedRic);
         if (isCheckedAda) {
             setIsCheckedAda(!isCheckedAda);
+            setBool(bool)
         }
     }
 
@@ -229,10 +230,18 @@ function FeaturesListHeading() {
                                 {/*<div className="mt-3 block max-w-xl pl-6 pr-6 p-2 bg-white border border-gray-200 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">*/}
                                 <div className="mt-3 block max-w-xl pl-6 pr-6 p-2 border border-gray-200 shadow hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700">
                                     <h5 className="mb-2 text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
-                                        <Translate
-                                            id="homepage.FeatureList.QuickSetup">
-                                        Browser quick setup
-                                        </Translate>
+
+                                        {bool ? <div>
+                                            <Translate
+                                                id="homepage.FeatureList.QuickSetup">
+                                            Browser quick setup
+                                            </Translate>
+                                        </div> : null}
+
+                                        {/*<Translate*/}
+                                        {/*    id="homepage.FeatureList.QuickSetup">*/}
+                                        {/*Browser quick setup*/}
+                                        {/*</Translate>*/}
                                     </h5>
                                     {/*<p className="font-normal text-gray-700 dark:text-gray-400 m-0">*/}
                                     {/*    <Translate*/}
@@ -309,7 +318,7 @@ function FeaturesListHeading() {
                                             <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                                                 <Translate
                                                     id="homepage.ThreeColums.Column1Title">
-                                                Adaptive DNS
+                                                ADA DNS
                                                 </Translate>
                                                 <label
                                                     className="inline-flex items-center ps-[0.15rem] hover:cursor-pointer"
@@ -321,7 +330,7 @@ function FeaturesListHeading() {
                                                         id="checkerAda"
                                                         checked={isCheckedAda}
                                                         onChange={handleChangeAda}
-                                                        onClick={() => setHide((h) => !h)}
+                                                        onClick={() => setBool((b) => !b)}
                                                     />
                                                     {/*On*/}
                                                 </label>
@@ -350,7 +359,7 @@ function FeaturesListHeading() {
                                             <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                                                 <Translate
                                                     id="homepage.ThreeColums.Column2Title">
-                                                Restricted DNS
+                                                RIC DNS
                                                 </Translate>
                                                 <label
                                                     className="inline-flex items-center ps-[0.15rem] hover:cursor-pointer"
@@ -423,7 +432,6 @@ function FeaturesListHeading() {
 
                             {/*<div className="flex flex-col items-center justify-center w-full">*/}
                             {/*    <p className="justify-center font-medium text-gray-600">*/}
-
                             {/*        Centered Text*/}
                             {/*    </p>*/}
 
