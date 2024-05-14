@@ -379,7 +379,7 @@ function FeaturesListHeading() {
                                             <p className="text-sm text-gray-700 font-bold">
                                                 <Translate
                                                     id="homepage.ThreeColums.Column2Body">
-                                                RIC - Strict DNS: Blocks many marketing and tracking resources, which may affect access to certain internet content
+                                                RIC - Strict DNS: Blocks many marketing and tracking resources, which may affect access to certain internet content!
                                                 </Translate>
                                             </p>
                                         </div>
