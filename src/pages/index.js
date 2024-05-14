@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -113,6 +113,26 @@ function HomepageHeader() {
 
 // Get in a better way to work online
 function FeaturesListHeading() {
+    const [bool, setBool] = useState(false);
+    const [hide, setHide] = useState(false);
+
+    const [isCheckedAda, setIsCheckedAda] = useState(true);
+    const [isCheckedRic, setIsCheckedRic] = useState(false);
+
+
+    const handleChangeAda = () => {
+        setIsCheckedAda(!isCheckedAda);
+        if (isCheckedRic) {
+            setIsCheckedRic(!isCheckedRic);
+        }
+    }
+
+    const handleChangeRic = () => {
+        setIsCheckedRic(!isCheckedRic);
+        if (isCheckedAda) {
+            setIsCheckedAda(!isCheckedAda);
+        }
+    }
 
     return (
         <section className="py-10 overflow-hidden dark:bg-[#070a11]">
@@ -224,9 +244,26 @@ function FeaturesListHeading() {
                                     {/*    https://ada.openbld.net/dns-query*/}
                                     {/*</code>*/}
                                     <span className="font-semibold tracking-tight text-center text-green-800 dark:text-green-400">
-                                        <CodeBlock>
-                                            https://ada.openbld.net/dns-query
-                                        </CodeBlock>
+                                        {/*<CodeBlock>*/}
+                                        {/*    https://ada.openbld.net/dns-query*/}
+                                        {/*</CodeBlock>*/}
+
+
+                                        {isCheckedAda ? <div>
+                                            <span className="font-semibold tracking-tight text-center text-green-800 dark:text-green-400">
+                                            <CodeBlock>
+                                                https://ada.openbld.net/dns-query
+                                            </CodeBlock>
+                                        </span>
+                                            </div> : null}
+
+                                            {isCheckedRic ? <div>
+                                            <span className="font-semibold tracking-tight text-center text-green-800 dark:text-green-400">
+                                            <CodeBlock>
+                                                https://ric.openbld.net/dns-query
+                                            </CodeBlock>
+                                        </span>
+                                            </div> : null}
                                     </span>
                                     <p className="m-0 xl:hidden">
                                         <Translate
@@ -255,7 +292,7 @@ function FeaturesListHeading() {
                         </div>
 
                         {/*Three columns with slogans*/}
-                        <div className="p-8 md:p-12 bg-gray-100">
+                        <div className="p-2 md:p-9 bg-gray-100">
                             <div className="flex flex-wrap -m-8">
                                 <div className="w-full md:w-1/3 p-8">
                                     <div className="flex flex-wrap -m-3">
@@ -274,6 +311,20 @@ function FeaturesListHeading() {
                                                     id="homepage.ThreeColums.Column1Title">
                                                 Adaptive DNS
                                                 </Translate>
+                                                <label
+                                                    className="inline-flex items-center ps-[0.15rem] hover:cursor-pointer"
+                                                    htmlFor="checkerAda">
+                                                    <input
+                                                        className="me-2 mt-[0.3rem] h-3.5 w-8 appearance-none rounded-[0.4375rem] bg-gray-400 before:pointer-events-none before:absolute before:h-3.5 before:w-3.5 before:rounded-full before:bg-transparent before:content-[''] after:absolute after:z-[2] after:-mt-[0.1875rem] after:h-5 after:w-5 after:rounded-full after:border-none after:bg-blue-400 after:shadow-switch-2 after:transition-[background-color_0.2s,transform_0.2s] after:content-[''] checked:bg-green-500 checked:after:absolute checked:after:z-[2] checked:after:-mt-[3px] checked:after:ms-[1.0625rem] checked:after:h-5 checked:after:w-5 checked:after:rounded-full checked:after:border-none checked:after:bg-green-700 checked:after:shadow-switch-1 checked:after:transition-[background-color_0.2s,transform_0.2s] checked:after:content-[''] hover:cursor-pointer focus:outline-none focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-switch-3 focus:before:shadow-black/60 focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-5 focus:after:w-5 focus:after:rounded-full focus:after:content-[''] checked:focus:border-primary checked:focus:bg-primary checked:focus:before:ms-[1.0625rem] checked:focus:before:scale-100 checked:focus:before:shadow-switch-3 checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] dark:bg-gray-400 dark:after:bg-surface-dark dark:checked:bg-green-400 dark:checked:after:bg-primary"
+                                                        type="checkbox"
+                                                        role="switch"
+                                                        id="checkerAda"
+                                                        checked={isCheckedAda}
+                                                        onChange={handleChangeAda}
+                                                        onClick={() => setHide((h) => !h)}
+                                                    />
+                                                    {/*On*/}
+                                                </label>
                                             </h3>
                                             <p className="text-sm text-gray-700 font-bold">
                                                 <Translate
@@ -301,6 +352,20 @@ function FeaturesListHeading() {
                                                     id="homepage.ThreeColums.Column2Title">
                                                 Restricted DNS
                                                 </Translate>
+                                                <label
+                                                    className="inline-flex items-center ps-[0.15rem] hover:cursor-pointer"
+                                                    htmlFor="checkerRic">
+                                                    <input
+                                                        className="me-2 mt-[0.3rem] h-3.5 w-8 appearance-none rounded-[0.4375rem] bg-gray-400 before:pointer-events-none before:absolute before:h-3.5 before:w-3.5 before:rounded-full before:bg-transparent before:content-[''] after:absolute after:z-[2] after:-mt-[0.1875rem] after:h-5 after:w-5 after:rounded-full after:border-none after:bg-blue-400 after:shadow-switch-2 after:transition-[background-color_0.2s,transform_0.2s] after:content-[''] checked:bg-green-500 checked:after:absolute checked:after:z-[2] checked:after:-mt-[3px] checked:after:ms-[1.0625rem] checked:after:h-5 checked:after:w-5 checked:after:rounded-full checked:after:border-none checked:after:bg-green-700 checked:after:shadow-switch-1 checked:after:transition-[background-color_0.2s,transform_0.2s] checked:after:content-[''] hover:cursor-pointer focus:outline-none focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-switch-3 focus:before:shadow-black/60 focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-5 focus:after:w-5 focus:after:rounded-full focus:after:content-[''] checked:focus:border-primary checked:focus:bg-primary checked:focus:before:ms-[1.0625rem] checked:focus:before:scale-100 checked:focus:before:shadow-switch-3 checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] dark:bg-gray-400 dark:after:bg-surface-dark dark:checked:bg-green-400 dark:checked:after:bg-primary"
+                                                        type="checkbox"
+                                                        role="switch"
+                                                        id="checkerRic"
+                                                        checked={isCheckedRic}
+                                                        onChange={handleChangeRic}
+                                                        onClick={() => setBool((b) => !b)}
+                                                    />
+                                                    {/*RIC*/}
+                                                </label>
                                             </h3>
                                             <p className="text-sm text-gray-700 font-bold">
                                                 <Translate
@@ -355,7 +420,17 @@ function FeaturesListHeading() {
                                     </div>
                                 </div>
                             </div>
+
+                            {/*<div className="flex flex-col items-center justify-center w-full">*/}
+                            {/*    <p className="justify-center font-medium text-gray-600">*/}
+
+                            {/*        Centered Text*/}
+                            {/*    </p>*/}
+
+                            {/*</div>*/}
+
                         </div>
+
                     </div>
                 </div>
             </div>
