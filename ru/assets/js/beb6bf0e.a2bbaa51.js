@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[8065],{4152:e=>{e.exports=JSON.parse('{"label":"wifi","permalink":"/ru/blog/tags/wifi","allTagsPath":"/ru/blog/tags","count":1,"unlisted":false}')}}]);

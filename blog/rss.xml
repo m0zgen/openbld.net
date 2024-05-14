@@ -4,10 +4,123 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Mon, 13 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[↘  Secure WiFi Recommendations]]></title>
+            <link>https://openbld.net/blog/secure-wifi-recommendations</link>
+            <guid>https://openbld.net/blog/secure-wifi-recommendations</guid>
+            <pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Free public WiFi can be a security risk. Here are some tips to help you stay safe when using public WiFi networks.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Secure WiFi Recommendations" src="https://openbld.net/assets/images/openbld-public-wifi-recommendations-58a7db81b05631bd08aacf7bd2159a5b.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="intro">Intro<a href="https://openbld.net/blog/secure-wifi-recommendations#intro" class="hash-link" aria-label="Direct link to Intro" title="Direct link to Intro">​</a></h2>
+<p>Wi-Fi is a wireless communication technology that allows devices to connect to the internet and exchange
+data without using wired connections. Public Wi-Fi networks, available everywhere in public places such as
+cafes, airports, hotels, and shopping malls, provide users with a convenient way to access the internet
+anytime. However, such networks can pose a security threat as they are typically not password-protected and
+can be easily compromised by attackers to intercept data or launch attacks on users' devices.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="public-wi-fi-safety-tips">Public Wi-Fi Safety Tips<a href="https://openbld.net/blog/secure-wifi-recommendations#public-wi-fi-safety-tips" class="hash-link" aria-label="Direct link to Public Wi-Fi Safety Tips" title="Direct link to Public Wi-Fi Safety Tips">​</a></h2>
+<p><strong>1. Be vigilant:</strong></p>
+<ul>
+<li><strong>Don't trust public Wi-Fi networks.</strong></li>
+<li><strong>Verify the network name.</strong>
+<ul>
+<li>Scammers can create fake Wi-Fi networks with similar names to steal your data.</li>
+</ul>
+</li>
+<li><strong>Disable automatic network connection.</strong>
+<ul>
+<li>Your device will not connect to unknown networks without your knowledge.</li>
+</ul>
+</li>
+<li><strong>Avoid using public Wi-Fi for sensitive matters.</strong>
+<ul>
+<li>Do not use online banking, shop, or enter passwords on websites that do not use HTTPS.</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. Use additional security measures:</strong></p>
+<ul>
+<li><strong>Turn on a VPN.</strong>
+<ul>
+<li>A VPN encrypts your traffic, making it unreadable to others.</li>
+<li>Use only trusted and reputable VPN services.</li>
+</ul>
+</li>
+<li><strong>Install antivirus and firewall.</strong>
+<ul>
+<li>This will help protect your device from malware and network attacks.</li>
+</ul>
+</li>
+<li><strong>Update your software.</strong>
+<ul>
+<li>Make sure your device has the latest operating system and application updates installed.</li>
+</ul>
+</li>
+<li><strong>Use two-factor authentication.</strong>
+<ul>
+<li>This will add an extra layer of security to your accounts.</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. Be careful what you do:</strong></p>
+<ul>
+<li><strong>Do not download files from unknown websites.</strong></li>
+<li><strong>Do not open suspicious links.</strong></li>
+<li><strong>Do not use online games and torrent clients.</strong></li>
+</ul>
+<p><strong>4. Use mobile internet:</strong></p>
+<ul>
+<li><strong>If possible, use mobile internet instead of Wi-Fi.</strong>
+<ul>
+<li>Mobile networks are generally more secure than public Wi-Fi networks.</li>
+</ul>
+</li>
+</ul>
+<p><strong>5. Additional tips:</strong></p>
+<ul>
+<li><strong>Use HTTPS websites.</strong>
+<ul>
+<li>HTTPS provides a secure connection between your device and the website.</li>
+</ul>
+</li>
+<li><strong>Disable file sharing.</strong>
+<ul>
+<li>This will prevent other users from accessing your files.</li>
+</ul>
+</li>
+<li><strong>Set a password for your Wi-Fi router.</strong>
+<ul>
+<li>If you are using a mobile Wi-Fi router, be sure to set a password for it.</li>
+</ul>
+</li>
+<li><strong>Forget the network after use.</strong>
+<ul>
+<li>Remove the network from your device's list of known networks to prevent automatic connection.</li>
+</ul>
+</li>
+<li><strong>Turn off Wi-Fi when not in use.</strong>
+<ul>
+<li>This will prevent your device from connecting to unknown networks.</li>
+</ul>
+</li>
+<li><strong>Use a secure DNS service.</strong>
+<ul>
+<li>A secure DNS service, like Cloudflare, <a href="https://openbld.net/">OpenBLD.net</a> etc., can help protect you from phishing attacks and malware.</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://openbld.net/blog/secure-wifi-recommendations#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>Following these simple tips will help you protect your data and devices when using public Wi-Fi.
+At least be careful and vigilant when using public Wi-Fi networks.</p>
+<p>Remember that your security is in your hands. Take care of yourself 🔐</p>]]></content:encoded>
+            <category>security</category>
+            <category>wifi</category>
+            <category>recommendations</category>
+            <category>openbld</category>
+        </item>
         <item>
             <title><![CDATA[🤝 ClouDNS OpenBLD.net support'24]]></title>
             <link>https://openbld.net/blog/cloudns-openbld-supports-2024</link>
@@ -569,22 +682,6 @@ bypassing domain-based blocking methods.</p>
             <category>openbld</category>
             <category>updates</category>
             <category>news</category>
-        </item>
-        <item>
-            <title><![CDATA[↘ Reduce Spying iPhone]]></title>
-            <link>https://openbld.net/blog/reduce-spying-iphone</link>
-            <guid>https://openbld.net/blog/reduce-spying-iphone</guid>
-            <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[How can you reduce the threat of spying on your iPhone?]]></description>
-            <content:encoded><![CDATA[<p>How can you reduce the threat of spying on your iPhone?</p>
-<p>iPhone owners can be hacked through iMessage with Operation Triangulation infection chain and you can reduce thich chain attack together with OpenBLD.net.</p>
-<p>In short. Operation Triangulation infection chain: a device receives a malicious iMessage attachment that launches a chain of exploits, and their execution ultimately results in the launch of the TriangleDB implant. In more detail, the infection chain can be summarized with the following <a href="https://securelist.com/triangulation-validators-modules/110847/" target="_blank" rel="noopener noreferrer">article</a>.</p>
-<p>Infection chain:
-<img decoding="async" loading="lazy" alt="Operation Triangulation infection chain" src="https://openbld.net/assets/images/figure-spying-ipfones-ce059e4a16052ce6d8dcac4b0d852531.jpg" width="1280" height="759" class="img_ev3q"></p>
-<p>Now all chained domains added to OpenBLD.net ecosystem, and of course - be careful about what and from whom you receive in your iMessage 😎</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>prevention</category>
-            <category>blocking</category>
         </item>
     </channel>
 </rss>
