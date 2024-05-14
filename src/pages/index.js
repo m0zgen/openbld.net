@@ -10,6 +10,7 @@ import HomepageChromeExtension from '@site/src/components/HomepageChromeExtensio
 import HomepageVideoPresentation from '@site/src/components/HomepageVideoPresentation';
 import HomepageCompareAdaAndRic from '@site/src/components/HomepageCompareAdaAndRic';
 import Translate, {translate} from '@docusaurus/Translate';
+import CodeBlock from '@theme/CodeBlock';
 
 import styles from './index.module.css';
 
@@ -94,7 +95,15 @@ function HomepageHeader() {
                             id="homepage.Header.BriefLink2"> Sponsorship
                         </Translate>
                     </a>.
+
                 </p>
+                {/*<p>*/}
+                {/*    <span className="mt-5 font-semibold tracking-tight text-center text-green-800 dark:text-green-400">*/}
+                {/*        <CodeBlock>*/}
+                {/*            https://ada.openbld.net/dns-query*/}
+                {/*        </CodeBlock>*/}
+                {/*    </span>*/}
+                {/*</p>*/}
             </div>
 
         </div>
@@ -197,21 +206,29 @@ function FeaturesListHeading() {
                                 <img className="mx-auto md:mr-0" src="img/site-cover-openbld-net-dark.png" alt="OpenBLD.net DNS Site Logo"/>
 
                                 {/*Quick setup*/}
-                                <div className="mt-3 block max-w-xl p-6 bg-white border border-gray-200 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                                    <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                {/*<div className="mt-3 block max-w-xl pl-6 pr-6 p-2 bg-white border border-gray-200 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">*/}
+                                <div className="mt-3 block max-w-xl pl-6 pr-6 p-2 border border-gray-200 shadow hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700">
+                                    <h5 className="mb-2 text-xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
                                         <Translate
                                             id="homepage.FeatureList.QuickSetup">
                                         Browser quick setup
                                         </Translate>
                                     </h5>
-                                    <p className="font-normal text-gray-700 dark:text-gray-400 m-0">
-                                        <Translate
-                                            id="homepage.FeatureList.QuickSetupType">
-                                        Adapted (ADA). For most users:
-                                        </Translate>
-                                    </p>
-                                    <code className="text-green-800 dark:text-green-400">https://ada.openbld.net/dns-query</code>
-                                    <p className="m-0">
+                                    {/*<p className="font-normal text-gray-700 dark:text-gray-400 m-0">*/}
+                                    {/*    <Translate*/}
+                                    {/*        id="homepage.FeatureList.QuickSetupType">*/}
+                                    {/*    Adapted (ADA). For most users:*/}
+                                    {/*    </Translate>*/}
+                                    {/*</p>*/}
+                                    {/*<code className="text-green-800 dark:text-green-400">*/}
+                                    {/*    https://ada.openbld.net/dns-query*/}
+                                    {/*</code>*/}
+                                    <span className="font-semibold tracking-tight text-center text-green-800 dark:text-green-400">
+                                        <CodeBlock>
+                                            https://ada.openbld.net/dns-query
+                                        </CodeBlock>
+                                    </span>
+                                    <p className="m-0 xl:hidden">
                                         <Translate
                                             id="homepage.FeatureList.GetStartedFor">
                                         Get Started for:
