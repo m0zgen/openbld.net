@@ -142,6 +142,11 @@ const thanks = [
             "name": "Bessmertnyi_poni \u26a1\u2600\ufe0f 🚴",
             "url": "",
             "style": ""
+        },
+        {
+            "name": "LexterS999 🚴‍",
+            "url": "",
+            "style": ""
         }
     ];
 
