@@ -4,10 +4,30 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 14 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[↘  OpenBLD.net Implemented OISD Blocklist]]></title>
+            <link>https://openbld.net/blog/openbld-integration-oisd-blocklist</link>
+            <guid>https://openbld.net/blog/openbld-integration-oisd-blocklist</guid>
+            <pubDate>Mon, 20 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net has implemented the OISD blocklist to provide users with an additional layer of protection against malicious websites.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - OISD Integrate" src="https://openbld.net/assets/images/openbld-oisd-implementation-15db13700b02a3972c0a139d952399b3.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p><a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD</a> it is one of better projects aimed to reduce internet noise. You can use OISD for own purposes,
+in your DNS server, or you can <a href="https://openbld.net/docs/get-started/third-party-filters/oisd/">use</a> it in OpenBLD.net as a ready-made solution.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-this-oisd-blocklist">What is this <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">oisd</a> blocklist?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist#what-is-this-oisd-blocklist" class="hash-link" aria-label="Direct link to what-is-this-oisd-blocklist" title="Direct link to what-is-this-oisd-blocklist">​</a></h2>
+<p>The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads,
+decreases the risk of malware, and enhances privacy. You can see FAQ and other details on the official <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD website</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use-oisd-in-openbldnet">How to use OISD in OpenBLD.net?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist#how-to-use-oisd-in-openbldnet" class="hash-link" aria-label="Direct link to How to use OISD in OpenBLD.net?" title="Direct link to How to use OISD in OpenBLD.net?">​</a></h2>
+<p>You can use OISD without exclusions, without additional blocklist - just only OISD in OpenBLD.net as DoH
+link in <code>RIC</code> mode.</p>
+<p>See details in <a href="https://openbld.net/docs/get-started/third-party-filters/oisd/">Docs</a>. Happy Internet surfing! ✌️</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>oisd</category>
+            <category>2024</category>
+        </item>
         <item>
             <title><![CDATA[↘  Secure WiFi Recommendations]]></title>
             <link>https://openbld.net/blog/secure-wifi-recommendations</link>
@@ -652,33 +672,6 @@ bypassing domain-based blocking methods.</p>
 <p><strong>Important:</strong> Please let me know if this may break something for you; we will think together about what can be done.</p>
 <p>Anyone who can contribute to the OpenBLD.net project, please don't hesitate. You can find information on how to do this and the benefits you can expect <a href="https://openbld.net/docs/donation/">here</a>.</p>
 <p>🤝 Thanks to everyone who has helped and continues to help. Blessings to you all!</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>news</category>
-        </item>
-        <item>
-            <title><![CDATA[↘ OpenBLD October'23 Upgrades]]></title>
-            <link>https://openbld.net/blog/openbld-october-2023-updates</link>
-            <guid>https://openbld.net/blog/openbld-october-2023-updates</guid>
-            <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-exciting-october23-upgrades-at-openbldnet-">🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀<a href="https://openbld.net/blog/openbld-october-2023-updates#-exciting-october23-upgrades-at-openbldnet-" class="hash-link" aria-label="Direct link to 🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀" title="Direct link to 🚀 Exciting October'23 Upgrades at OpenBLD.net! 🚀">​</a></h2>
-<p>We're thrilled to unveil the latest enhancements in our OpenBLD.net ecosystem. Here's what's new:</p>
-<ul>
-<li><strong>New Filtering Routine Server</strong>: Strengthening the core of OpenBLD.net with a brand new filtering routine server.</li>
-<li><strong>Enhanced Performance</strong>: Boosted RAM and CPU power on select servers for even smoother operation.</li>
-<li><strong>German Server Addition</strong>: Testing out a new server in Germany for ada.openbld.net frontend scoping.</li>
-<li><strong>Rule Tweaks</strong>: Updated blocking rules to better combat abused IPs and CIDRs.</li>
-<li><strong>Improved Resource Handling</strong>: Optimized performance for web resources like <code>Krisha</code>, <code>IvI</code>, and <code>Yandex Maps</code>.</li>
-</ul>
-<p>🚫 <strong>Reducing Threats</strong>: We've successfully blocked Kazakhstan-associated YoroTrooper attacks and the threat of spying on your iPhone. Plus, we've thwarted Keepass faked malware.</p>
-<p>📣 Stay Connected:</p>
-<ul>
-<li>Join our official Telegram channel: <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">Link</a></li>
-<li>Follow us on LinkedIn: <a href="https://www.linkedin.com/company/openbld" target="_blank" rel="noopener noreferrer">Link</a></li>
-</ul>
-<p>OpenBLD.net is your go-to service for a cleaner, distraction-free online experience.</p>
-<p><a href="https://openbld.net/docs/donation/">Help us</a> make the internet a better place for all! 💪</p>]]></content:encoded>
             <category>openbld</category>
             <category>updates</category>
             <category>news</category>
