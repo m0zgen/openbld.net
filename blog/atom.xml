@@ -235,7 +235,7 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
         <id>https://openbld.net/blog/2024-04-09-openbld-ipv-ric-started-today</id>
         <link href="https://openbld.net/blog/2024-04-09-openbld-ipv-ric-started-today"/>
         <updated>2024-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net OpenBLD IPv6 RIC Started Today]]></summary>
+        <summary type="html"><![CDATA[Starting today, IPv6 support has been added to the RIC OpenBLD.net ecosystem!]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net OpenBLD IPv6 RIC Started Today" src="https://openbld.net/assets/images/openbld-ric-ipv6-started-today-2cf9f58b8724c86f4e32cfe3e9b71c3e.png" width="1200" height="600" class="img_ev3q"></p>
 <p>Starting today, IPv6 support has been added to the RIC OpenBLD.net ecosystem!</p>
 <p>What does this mean for you? Now you can enjoy all the benefits of IPv6 in our network, including faster and more efficient data transmission, enhanced security, and flexibility when working with modern networks.</p>
@@ -256,7 +256,7 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
         <id>https://openbld.net/blog/prevent-android-vultur-malware</id>
         <link href="https://openbld.net/blog/prevent-android-vultur-malware"/>
         <updated>2024-04-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net Prevent Vultur Malware]]></summary>
+        <summary type="html"><![CDATA[OpenBLD.net - Android banking malware Vultur have been spotted adding new technical features, which allow the malware operator to further remotely interact with the victim’s mobile device.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Prevent Vultur Malware " src="https://openbld.net/assets/images/openbld_vultr_malware-10d3a4b4938e893d7f0405cd3500b0e3.png" width="1250" height="460" class="img_ev3q"></p>
 <p>Android banking malware Vultur have been spotted adding new technical features, which allow the malware operator to further remotely interact with the victim’s mobile device.</p>
 <p>Vultur has also started masquerading more of its malicious activity by encrypting its C2 communication, using multiple encrypted payloads that are decrypted on the fly, and using the guise of legitimate applications to carry out its malicious actions...</p>
@@ -279,7 +279,7 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
         <id>https://openbld.net/blog/2024-04-01-openbld-updated-apple-profile</id>
         <link href="https://openbld.net/blog/2024-04-01-openbld-updated-apple-profile"/>
         <updated>2024-04-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net Update Profile for Apple Devices]]></summary>
+        <summary type="html"><![CDATA[OpenBLD.net new iOS, iPadOS, macOS profiles, optimized for content delivery, especially for Apple users.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Update Profile for Apple Devices" src="https://openbld.net/assets/images/openbld_apple_profile_update-85f9120fb44b822941a105e5b204c126.png" width="1250" height="460" class="img_ev3q"></p>
 <p>Following recent attacks on one of the hosting providers within OpenBLD.net, I have updated the server topology to optimize content delivery, especially for Apple users.</p>
 <p>Download the optimized profile from the project website and simply install it over your existing one:</p>
@@ -302,7 +302,7 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
         <id>https://openbld.net/blog/2024-03-26-openbld-and-veesp-cooperation</id>
         <link href="https://openbld.net/blog/2024-03-26-openbld-and-veesp-cooperation"/>
         <updated>2024-03-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net and Veesp.com]]></summary>
+        <summary type="html"><![CDATA[New OpenBLD.net points in Europe of presence have been added in the world with Veesp.com!]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and Veesp.com" src="https://openbld.net/assets/images/openbld_and_veesp-d9bcb208dc7b0b584abf5a899bdc6582.png" width="1250" height="460" class="img_ev3q"></p>
 <p>Now it's can unload existing servers for - Estonia, Latvia, Lithuania, Moldova, Poland..! 🎉</p>
 <p>Fast server in Europe with - NVME SSD, 8Gb RAM, 4 vCores, 500Mbps Bandwidth!</p>
@@ -321,7 +321,7 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
         <id>https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage</id>
         <link href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage"/>
         <updated>2024-03-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net Personal DoH Profile]]></summary>
+        <summary type="html"><![CDATA[What is PDP and how to use it? Understand the basics of OpenBLD.net Personal DoH Profiling (PDP) and how to use it.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Personal DoH Profile" src="https://openbld.net/assets/images/openbld_pdp_testing_usage-8f8934bd2e3dec9775d23c99057e4476.jpeg" width="1250" height="460" class="img_ev3q"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
 <p>What is PDP and how to use it? This article will help you to understand the basics of OpenBLD.net
@@ -404,7 +404,7 @@ and notify <a href="https://openbld.net/docs/contacts/">me</a>.</p>
         <id>https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration</id>
         <link href="https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration"/>
         <updated>2024-03-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Integration of OpenBLD.net with URLhaus by abuse.ch]]></summary>
+        <summary type="html"><![CDATA[OpenBLD.net is now integrated in to URLhaus by abuse.ch]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Integration of OpenBLD.net with URLhaus by abuse.ch" src="https://openbld.net/assets/images/openbld_and_abuse_ch-302649946d1ebc17bf2802adbc3393ae.png" width="1250" height="460" class="img_ev3q"></p>
 <p><a href="https://urlhaus.abuse.ch/" target="_blank" rel="noopener noreferrer">URLhaus</a> is a project operated by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a>. Its purpose is to collect, track, and share malware URLs, aiding network
 administrators and security analysts in safeguarding their networks and customers from cyber threats.</p>
@@ -436,7 +436,7 @@ administrators and security analysts in safeguarding their networks and customer
         <id>https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join</id>
         <link href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join"/>
         <updated>2024-02-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Take Control of Your Privacy! Join the OpenBLD.net PDP Beta]]></summary>
+        <summary type="html"><![CDATA[How to protect your online privacy and the privacy of your family? OpenBLD.net Personal DoH Profiling (PDP), can resolve this issue.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Take Control of Your Privacy! Join the OpenBLD.net PDP Beta" src="https://openbld.net/assets/images/join-beta-openbld-pdp-7bcf222e919a3ac280839a7aef81dc65.jpeg" width="1200" height="630" class="img_ev3q"></p>
 <p>Do you want to protect your online privacy and the privacy of your family? Join the beta for
 OpenBLD.net <strong>Personal <em>DoH</em> Profiling</strong> (PDP), a new service that provides:</p>
@@ -482,7 +482,7 @@ fields (like as you own Allow/Block lists, personal DoH links, etc.)</li>
         <id>https://openbld.net/blog/2024-01-29-openbld--blocker-chrome-extension-released</id>
         <link href="https://openbld.net/blog/2024-01-29-openbld--blocker-chrome-extension-released"/>
         <updated>2024-01-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net Chrome Extension v1.1 Released]]></summary>
+        <summary type="html"><![CDATA[OpenBLD.net Blocker browser extension released on official Google Extension Store today 💪]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Chrome Extension v1.1 Released" src="https://openbld.net/assets/images/openbld-chrome-extension-v1.1-released-adc03e8d48327b80a1b3c1447a0d1833.jpeg" width="1250" height="633" class="img_ev3q"></p>
 <p>OpenBLD.net Blocker extension released on official Google Extension Store today 💪</p>
 <p>This is OpenBLD.net add-on which can block some ADS services (such as Yad advertising) on some
@@ -505,7 +505,7 @@ web resources that has HTML embedded ads...</p>
         <id>https://openbld.net/blog/zdns-big-updates-and-features</id>
         <link href="https://openbld.net/blog/zdns-big-updates-and-features"/>
         <updated>2024-01-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[zDNS v0.2.5 Release with Big Updates and Features]]></summary>
+        <summary type="html"><![CDATA[OpenBLD.net - zDNS v0.2.5 Release with Big Updates and Features]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="zDNS v0.2.5 Release with Big Updates and Features" src="https://openbld.net/assets/images/zDNS_new_Release-f65a125bd457509cdf7ba99b3f4b10b0.jpeg" width="1250" height="460" class="img_ev3q"></p>
 <p>Few month ago I stared develop from scratch <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> service,
 and now I hope, it is ready for production usage...</p>
@@ -549,7 +549,7 @@ and now I hope, it is ready for production usage...</p>
         <id>https://openbld.net/blog/openbld-and-alphavps-cooperation</id>
         <link href="https://openbld.net/blog/openbld-and-alphavps-cooperation"/>
         <updated>2024-01-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net and zDNS Blackhole Server]]></summary>
+        <summary type="html"><![CDATA[New OpenBLD.net points in Bulgaria, Germany of presence have been added in the world with AlphaVPS.com!]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/openbld-and-alphavps-cooperation-53a744dcae54c04e67e9e99ecaad450e.png" width="1250" height="460" class="img_ev3q"></p>
 <p>New <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> points of presence have been added in the world thanks to <a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a>!</p>
 <p><a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a> - Fast &amp; Cheap VPS, Cloud Servers and few servers from AlphaVPS
@@ -572,7 +572,7 @@ DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...</p>]]></con
         <id>https://openbld.net/blog/openbld-thanks-letter-of-end-2023</id>
         <link href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023"/>
         <updated>2023-12-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net Thanks Letter of End 2023]]></summary>
+        <summary type="html"><![CDATA[OpenBLD.net Thanks Letter of End 2023 year.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Thanks Letter of End 2023" src="https://openbld.net/assets/images/openbld-thanks-for-all-2023-157f546840ca8c4250d78f54f0da7303.jpeg" width="3840" height="2160" class="img_ev3q"></p>
 <p>Dear friends and partners of <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a>,</p>
 <p>With great enthusiasm and pride, I address you with this open letter of gratitude. My project, OpenBLD.net, could not have reached such heights without your invaluable support and contribution.</p>
@@ -630,7 +630,7 @@ knowledge and experience has made me stronger, and our project more valuable to 
         <id>https://openbld.net/blog/openbld-zdns-blackhole-server</id>
         <link href="https://openbld.net/blog/openbld-zdns-blackhole-server"/>
         <updated>2023-12-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net and zDNS Blackhole Server]]></summary>
+        <summary type="html"><![CDATA[zDNS is now a part of the OpenBLD.net project. It is a DNS server that can be used as a blackhole for malicious domains.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/zDNS_as_blackhole-9c396379d5560ee267edfdc862996ca9.gif" width="1278" height="660" class="img_ev3q"></p>
 <p><strong>Abstract</strong>: I'm happy to announce 🎉 that <a href="https://github.com/m0zgen/zdns/tree/dev" target="_blank" rel="noopener noreferrer">zDNS</a> is now a part of the
 <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> project. It is a DNS server that can be used as a blackhole for
@@ -669,7 +669,7 @@ precisely control permissions, including subdomains and patterns.</p>
         <id>https://openbld.net/blog/openbld-ipv6-pre-release</id>
         <link href="https://openbld.net/blog/openbld-ipv6-pre-release"/>
         <updated>2023-12-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net IPv6 Pre-Release]]></summary>
+        <summary type="html"><![CDATA[OpenBLD.net is preparing for the IPv6 Pre-Release]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net IPv6 Pre-Release" src="https://openbld.net/assets/images/openbld-ipv6-pre-release-f32bde5cf3690075db6e38c2aa6b3161.png" width="1250" height="460" class="img_ev3q"></p>
 <p>Last week, last month, this year... I've been meeting and talking to different people, and they all echoed the same sentiment - <strong>IPv6 is needed</strong> 💯</p>
 <p>A few days ago, I got acquainted with <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer"><strong><em>VEESP.com</em></strong></a>, a company that generously provided OpenBLD.net with an incredibly fast server featuring a high-speed Ethernet connection 🛞</p>
@@ -690,7 +690,7 @@ precisely control permissions, including subdomains and patterns.</p>
         <id>https://openbld.net/blog/openbld-runs-chrome-extension</id>
         <link href="https://openbld.net/blog/openbld-runs-chrome-extension"/>
         <updated>2023-11-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net — Next Stage to Growth with Google Chrome Extension as a part of OpenBLD.net ecosystem.]]></summary>
+        <summary type="html"><![CDATA[OpenBLD.net — Google Chrome Extension as a part of OpenBLD.net ecosystem.]]></summary>
         <content type="html"><![CDATA[<p>OpenBLD.net — Next Stage to Growth with Google Chrome Extension as a part of OpenBLD.net ecosystem.</p>
 <p>I named it as <a href="https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea" target="_blank" rel="noopener noreferrer">OpenBLD.net Blocker</a>, and it is available for Google Chrome and Brave browsers (or any Chrome based browsers)</p>
 <p><img decoding="async" loading="lazy" alt="OpenBLD.net Blocker" src="https://openbld.net/assets/images/openbldnet-blocker-chrome-extension-0cc407028eb77ab3a3854ebec43d5247.jpg" width="1112" height="604" class="img_ev3q"></p>
@@ -735,7 +735,7 @@ bypassing domain-based blocking methods.</p>
         <id>https://openbld.net/blog/openbld-h2-2023-updates</id>
         <link href="https://openbld.net/blog/openbld-h2-2023-updates"/>
         <updated>2023-11-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Upcoming Changes in OpenBLD.net]]></summary>
+        <summary type="html"><![CDATA[Upcoming Changes in OpenBLD.net in H2 2023]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="upcoming-changes-in-openbldnet">Upcoming Changes in OpenBLD.net<a href="https://openbld.net/blog/openbld-h2-2023-updates#upcoming-changes-in-openbldnet" class="hash-link" aria-label="Direct link to Upcoming Changes in OpenBLD.net" title="Direct link to Upcoming Changes in OpenBLD.net">​</a></h2>
 <p>As time progresses and the user base grows, server capacities are expanding, necessitating more servers and funds. However, the budget is already allocated and distributed.</p>
 <p>In light of the above, some changes are planned for the architecture of OpenBLD.net:</p>
