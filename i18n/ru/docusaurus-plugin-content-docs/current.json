@@ -7,6 +7,10 @@
     "message": "Обзор проекта",
     "description": "The label for category Overwiew in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Gears": {
+    "message": "Шестерни",
+    "description": "The label for category Gears in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Overwiew.link.generated-index.description": {
     "message": "Обзор Сервиса OpenBLD.net",
     "description": "The generated-index page description for category Overwiew in sidebar tutorialSidebar"
