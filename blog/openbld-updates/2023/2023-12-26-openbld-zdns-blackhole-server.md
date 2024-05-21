@@ -1,6 +1,7 @@
 ---
 slug: openbld-zdns-blackhole-server
 title: ↘ OpenBLD.net and zDNS Blackhole Server
+description: zDNS is now a part of the OpenBLD.net project. It is a DNS server that can be used as a blackhole for malicious domains.
 authors: [sysadminkz]
 tags: [openbld, zdns, blackhole]
 ---

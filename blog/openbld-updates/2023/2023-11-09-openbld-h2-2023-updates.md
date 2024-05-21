@@ -1,6 +1,7 @@
 ---
 slug: openbld-h2-2023-updates
 title: ↘ OpenBLD H2'23 Upgrades
+description: Upcoming Changes in OpenBLD.net in H2 2023
 authors: [sysadminkz]
 tags: [openbld, updates, news]
 ---

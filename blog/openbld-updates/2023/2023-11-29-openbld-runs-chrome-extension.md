@@ -1,6 +1,7 @@
 ---
 slug: openbld-runs-chrome-extension
 title: ↘ OpenBLD.net in Google Chrome Extension
+description: OpenBLD.net — Google Chrome Extension as a part of OpenBLD.net ecosystem.
 authors: [sysadminkz]
 tags: [openbld, browser, chrome, brave, extension]
 ---

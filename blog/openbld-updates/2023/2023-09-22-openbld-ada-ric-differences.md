@@ -1,6 +1,7 @@
 ---
 slug: openbld-ada-ric-differences
 title: ↘ OpenBLD ADA & RIC differences
+description: What's the Difference Between Ada and Ric modes in OpenBLD.net?
 authors: [sysadminkz]
 tags: [openbld, updates, news]
 ---

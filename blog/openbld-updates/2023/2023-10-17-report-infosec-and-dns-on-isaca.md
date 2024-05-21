@@ -1,6 +1,7 @@
 ---
 slug: report-infosec-and-dns-on-isaca
 title: ↘ Open Report on "Security and DNS"
+description: In Almaty, OpenBLD.net presented an open report on the topic of "Security and DNS."
 authors: [sysadminkz]
 tags: [openbld, updates, news]
 ---

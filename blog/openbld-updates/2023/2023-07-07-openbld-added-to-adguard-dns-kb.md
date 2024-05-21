@@ -1,6 +1,7 @@
 ---
 slug: openbld-added-to-adguard-dns-kb
 title: ↘ OpenBLD added to AdGuard DNS KB
+description: Today info about of OpenBLD.net DNS added to AdGuard Wiki KnowledgeBaseDNS repo
 authors: [sysadminkz]
 tags: [openbld, updates, news, adguard]
 ---

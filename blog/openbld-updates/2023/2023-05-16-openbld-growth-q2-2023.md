@@ -1,6 +1,7 @@
 ---
 slug: openbld-growth-q2-2023
 title: ↘ OpenBLD.net Growth in Q2 2023
+description: OpenBLD.net has evolved to introduce cutting-edge features like Anycast/GeoDNS, DNS-over-HTTPS, and DNS-over-TLS.
 authors: [sysadminkz]
 tags: [openbld, dns, updates, news, report]
 ---

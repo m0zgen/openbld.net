@@ -1,6 +1,7 @@
 ---
 slug: openbld-pre-release-testing
 title: ↘ GeoDNS Pre-release Testing
+description: I'm working on new OpenBLD DoH/DoT release with Anycast DNS, GeoDNS (Europe, Asia locations) functionality.
 authors: [sysadminkz]
 tags: [openbld, dns, cloudns, testing, updates, news]
 ---

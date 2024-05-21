@@ -1,6 +1,7 @@
 ---
 slug: openbld-h1-20223-updates-news
 title: ↘ OpenBLD H1 2023 Updates & News
+description: What new we have in OpenBLD.net in H1 2023
 authors: [sysadminkz]
 tags: [openbld, updates, news]
 ---

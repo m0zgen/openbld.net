@@ -1,6 +1,7 @@
 ---
 slug: openbld-and-cloudns
 title: ↘ OpenBLD.net and ClouDNS
+description: GeoDNS and Global Anycast DNS features from ClouDNS - it as a brilliant opportunity for additional OpenBLD Performance and Availability
 authors: [sysadminkz]
 tags: [openbld, dns, cloudns, updates, news, cloudns]
 ---

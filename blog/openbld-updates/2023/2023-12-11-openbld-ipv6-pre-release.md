@@ -1,6 +1,7 @@
 ---
 slug: openbld-ipv6-pre-release
 title: 📢 OpenBLD.net IPv6 Pre-Release
+description: OpenBLD.net is preparing for the IPv6 Pre-Release
 authors: [sysadminkz]
 tags: [openbld, ipv6]
 ---

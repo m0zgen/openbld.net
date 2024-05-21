@@ -1,6 +1,7 @@
 ---
 slug: openbld-runs-openbld-plus
 title: ↘ Benefits of donating from OpenBLD
+description: OpenBLD+ mode, a feature designed to take our and your experience to the next level.
 authors: [sysadminkz]
 tags: [openbld, benefits, donation, openbldplus, updates]
 ---
