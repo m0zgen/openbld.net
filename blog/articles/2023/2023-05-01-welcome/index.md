@@ -1,6 +1,7 @@
 ---
 slug: welcome
 title: Welcome on OpenBLD.net
+description: Welcome on OpenBLD.net! Few time ago I decided to move OpenBLD.net content from Nuxt3 to a Docusaurus blogging system.
 authors: [sysadminkz]
 tags: [hello, openbld, welcome]
 ---
