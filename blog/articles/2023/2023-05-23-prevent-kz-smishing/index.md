@@ -1,6 +1,7 @@
 ---
 slug: openbld-prevent-post-kz-smishing
 title: ↘ Blocking SMiShing in Kazakhstan
+description: OpenBLD.net - A SMiShing campaign in Kazakhstan, where a seemingly innocent link leads to a fake website that mimics the KazPost website.
 authors: [sysadminkz]
 tags: [openbld, protection, blocking]
 ---

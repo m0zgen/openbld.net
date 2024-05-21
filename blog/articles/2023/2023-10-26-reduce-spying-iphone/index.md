@@ -1,6 +1,7 @@
 ---
 slug: reduce-spying-iphone
 title: ↘ Reduce Spying iPhone
+description: iPhone owners can be hacked through iMessage with Operation Triangulation infection chain and you can reduce thich chain attack together with OpenBLD.net.
 authors: [sysadminkz]
 tags: [openbld, prevention, blocking]
 ---

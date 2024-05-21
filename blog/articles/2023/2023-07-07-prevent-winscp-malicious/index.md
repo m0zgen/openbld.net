@@ -1,6 +1,7 @@
 ---
 slug: prevent-winscp-malicious
 title: ↘ Prevent Malicious WinSCP
+description: OpenBLD.net - Malvertising Used as Entry Vector for BlackCat Actors
 authors: [sysadminkz]
 tags: [openbld, prevention, blocking]
 ---

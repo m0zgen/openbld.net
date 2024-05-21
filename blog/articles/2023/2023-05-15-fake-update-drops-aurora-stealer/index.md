@@ -1,6 +1,7 @@
 ---
 slug: fake-update-drops-aurora-stealer
 title: ↘ Blocking Aurora Stealer
+description: OpenBLD.net - A threat actor is using malicious ads to redirect users to what looks like a Windows security update.
 authors: [sysadminkz]
 tags: [openbld, protection, blocking]
 ---

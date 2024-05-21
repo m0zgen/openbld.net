@@ -1,6 +1,7 @@
 ---
 slug: prevent-trojanized-super-mario
 title: ↘ Prevent Trojanized Super Mario
+description: OpenBLD.net - Trojanized Super Mario Game Installer Spreads SupremeBot Malware
 authors: [sysadminkz]
 tags: [openbld, prevention, blocking]
 ---

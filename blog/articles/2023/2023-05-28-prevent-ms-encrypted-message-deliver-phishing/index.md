@@ -1,6 +1,7 @@
 ---
 slug: prevent-ms-encrypted-message-deliver-phishing
 title: ↘ Prevent MS Encrypted Phishing
+description: OpenBLD.net DNS Mitigated Influence from new Microsoft Encrypted Restricted Permission Messages Deliver Phishing
 authors: [sysadminkz]
 tags: [openbld, protection, blocking]
 ---
