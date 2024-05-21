@@ -1,6 +1,7 @@
 ---
 slug: 2024-04-01-openbld-updated-apple-profile
 title: 📢 Optimized Profile for Apple Devices
+description: OpenBLD.net new iOS, iPadOS, macOS profiles, optimized for content delivery, especially for Apple users.
 authors: [sysadminkz]
 tags: [openbld, updates, apple, profile]
 ---

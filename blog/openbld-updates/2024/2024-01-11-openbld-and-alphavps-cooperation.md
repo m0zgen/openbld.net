@@ -1,6 +1,7 @@
 ---
 slug: openbld-and-alphavps-cooperation
 title: 🤝 OpenBLD.net growth with AlphaVPS
+description: New OpenBLD.net points in Bulgaria, Germany of presence have been added in the world with AlphaVPS.com!
 authors: [sysadminkz]
 tags: [openbld, AlphaVPS, growth]
 ---

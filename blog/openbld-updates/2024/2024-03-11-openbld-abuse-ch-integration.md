@@ -1,6 +1,7 @@
 ---
 slug: 2024-03-11-openbld-abuse-ch-integration
 title: 🛡 Integration of OpenBLD.net with URLhaus by abuse.ch
+description: OpenBLD.net is now integrated in to URLhaus by abuse.ch
 authors: [sysadminkz]
 tags: [openbld, updates, urlhaus]
 ---

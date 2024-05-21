@@ -1,6 +1,7 @@
 ---
 slug: 2024-03-12-openbld-pdp-testing-usage
 title: ↘ OpenBLD.net PDP Testing Usage Manual
+description: What is PDP and how to use it? Understand the basics of OpenBLD.net Personal DoH Profiling (PDP) and how to use it.
 authors: [sysadminkz]
 tags: [openbld, pdp, testing, beta, privacy]
 ---

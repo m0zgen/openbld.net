@@ -1,6 +1,7 @@
 ---
 slug: zdns-big-updates-and-features
 title: 🚀 New zDNS Big Updates and Features
+description: OpenBLD.net - zDNS v0.2.5 Release with Big Updates and Features
 authors: [sysadminkz]
 tags: [openbld, AlphaVPS, growth]
 ---

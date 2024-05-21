@@ -1,12 +1,12 @@
 ---
 slug: 2024-04-09-openbld-ipv-ric-started-today
 title: 🚀 OpenBLD IPv6 RIC Started Today
+description: Starting today, IPv6 support has been added to the RIC OpenBLD.net ecosystem!
 authors: [sysadminkz]
 tags: [openbld, updates, ipv6, ric]
 ---
 
 ![OpenBLD.net OpenBLD IPv6 RIC Started Today](images/openbld-ric-ipv6-started-today.png)
-
 
 Starting today, IPv6 support has been added to the RIC OpenBLD.net ecosystem!
 

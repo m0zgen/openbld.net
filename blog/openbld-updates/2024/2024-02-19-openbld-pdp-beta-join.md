@@ -1,6 +1,7 @@
 ---
 slug: 2024-02-19-openbld-pdp-beta-join
 title: ↘ Take Control of Your Privacy! Join the OpenBLD.net PDP Beta
+description: How to protect your online privacy and the privacy of your family? OpenBLD.net Personal DoH Profiling (PDP), can resolve this issue.
 authors: [sysadminkz]
 tags: [openbld, pdp, testing, beta, privacy]
 ---

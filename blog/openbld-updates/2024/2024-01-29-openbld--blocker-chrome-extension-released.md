@@ -1,6 +1,7 @@
 ---
 slug: 2024-01-29-openbld--blocker-chrome-extension-released
 title: 🎉 OpenBLD.net Chrome Extension v1.1 Released
+description: OpenBLD.net Blocker browser extension released on official Google Extension Store today 💪
 authors: [sysadminkz]
 tags: [openbld, AlphaVPS, growth]
 ---
