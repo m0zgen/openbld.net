@@ -121,3 +121,147 @@ ul.cloud p {
   width: 100%;
   position: absolute;
 }
+
+/*Map*/
+
+.map__image {
+  /*background: url(https://lh5.ggpht.com/RPZEPRAtdW4lSTE0v1vXe8z9GEmgMSp84ZCEmdb8SJ5-acTtcnvgFjwjWsK7hiejzjQ=w300) no-repeat;*/
+  background: url("/img/openbld-world-map_o20.png") no-repeat;
+  width: 947px;
+  height: 475px;
+  position: relative;
+  /*opacity: 0.3;*/
+}
+
+
+
+.map__link {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #61d674;
+}
+
+#japan {
+  top: 202px;
+  left: 810px;
+}
+
+#kazakhstan_almaty {
+  top: 190px;
+  left: 670px;
+}
+
+#kazakhstan_karagandy_1 {
+  top: 160px;
+  left: 650px;
+}
+
+#kazakhstan_karagandy_2 {
+  top: 150px;
+  left: 640px;
+}
+
+#singapore {
+  top: 293px;
+  left: 720px;
+}
+
+#bulgaria {
+  top: 180px;
+  left: 500px;
+}
+
+#latvia {
+  top: 130px;
+  left: 500px;
+}
+
+#germany_1 {
+  top: 150px;
+  left: 476px;
+}
+
+#germany_2 {
+  top: 140px;
+  left: 470px;
+}
+
+#germany_3 {
+  top: 144px;
+  left: 471px;
+}
+
+#germany_4 {
+  top: 148px;
+  left: 472px;
+}
+
+#germany_5 {
+  top: 152px;
+  left: 473px;
+}
+
+#netherlands {
+  top: 150px;
+  left: 460px;
+}
+
+/* Dot v1 */
+
+.pulsatingDot {
+  animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+  background-color: var(--pulsating-dot, #00BEFF);
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+}
+
+.pulsatingDot:before {
+  animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  background-color: var(--pulsating-dot, #00BEFF);
+  border-radius: 45px;
+  content: '';
+  display: block;
+  height: 300%;
+  left: -100%;
+  position: relative;
+  top: -100%;
+  width: 300%;
+}
+
+@keyframes pulseRing {
+  0% { transform: scale(.5); }
+  80%, 100% { opacity: 0; }
+}
+
+@keyframes pulseDot {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+/* Dot v2 */
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border: 1px solid rgb(97, 214, 116);
+  background-color: rgba(22, 152, 7, 0.5);
+  border-radius: 100%;
+  animation: pulsate 1.5s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0.5;
+}
+@keyframes pulsate {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

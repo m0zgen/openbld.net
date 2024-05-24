@@ -13,6 +13,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 import CodeBlock from '@theme/CodeBlock';
 
 import styles from './index.module.css';
+import HomepageMap from "../components/HomepageMap";
 
 // Header Component
 function HomepageHeader() {
@@ -465,8 +466,11 @@ export default function Home() {
           <HomepageVideoPresentation />
           <HomepageCompareAdaAndRic />
           {/*<HomepageFeatures />*/}
+
           <HomepageLogosCloud />
+          <HomepageMap/>
           <HomepageThanks />
+
 
       </main>
     </Layout>
