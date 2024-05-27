@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Modal from "../ComponentModal";
+import Link from "@docusaurus/Link";
 
 const servers = [
     {
@@ -48,7 +49,7 @@ const servers = [
         "name": "Aalphavps.com (Germany)",
         "url": "https://aalphavps.com/",
         "id": "germany_1",
-        "top": "150",
+        "top": "140",
         "left": "476"
     },
     {
@@ -82,9 +83,23 @@ const servers = [
     {
         "name": "Sys-Adm.in Lab (Netherlands)",
         "url": "https://lab.sys-adm.in/",
-        "id": "netherlands",
+        "id": "netherlands_1",
         "top": "160",
-        "left": "450"
+        "left": "448"
+    },
+    {
+        "name": "Sys-Adm.in Lab (Netherlands)",
+        "url": "https://lab.sys-adm.in/",
+        "id": "netherlands_2",
+        "top": "161",
+        "left": "451"
+    },
+    {
+        "name": "Sys-Adm.in Lab (Netherlands)",
+        "url": "https://lab.sys-adm.in/",
+        "id": "netherlands_3",
+        "top": "162",
+        "left": "455"
     },
     {
         "name": "Sys-Adm.in Lab (Singapore)",
@@ -120,9 +135,7 @@ export default function HomepageMap() {
 
                 <div className="flex flex-col items-center justify-center w-full">
 
-
                     <div class="map__image">
-
 
                         {servers.map((server, i) => {
                                 return (
@@ -148,36 +161,18 @@ export default function HomepageMap() {
                                             }}
                                         ></button>
                                     </div>
-
-
                                 )
                             }
                         )}
 
+                    </div>
 
-                        {/*<button id="japan" class="map__link dot text-white"*/}
-                        {/*    onClick={() => {setModalOpen(true);*/}
-                        {/*        setContentModal("Gcore.com");*/}
-                        {/*        setUrlModal("https://gcore.com/")*/}
-                        {/*    }}*/}
-                        {/*></button>*/}
-                        {/*<a href="#" id="kazakhstan_almaty_1" class="map__link dot"*/}
-                        {/*   onClick={() => {setModalOpen(true);*/}
-                        {/*       setContentModal("Unihost.kz");*/}
-                        {/*       setUrlModal("https://unihost.kz/")*/}
-                        {/*   }}*/}
-                        {/*></a>*/}
-                        {/*<a href="#" id="kazakhstan_karagandy_1" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="kazakhstan_karagandy_2" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="singapore" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="bulgaria" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="latvia" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="germany_1" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="germany_2" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="germany_3" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="germany_4" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="germany_5" class="map__link dot"></a>*/}
-                        {/*<a href="#" id="netherlands" class="map__link dot"></a>*/}
+                    <div className="flex flex-wrap -m-2">
+
+                        <Link to="https://bld-status.sys-adm.in/">
+                            UptimeRobot Dashboard
+                        </Link>
+
                     </div>
 
                 </div>
