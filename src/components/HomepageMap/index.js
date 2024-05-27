@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Modal from "../ComponentModal";
 import Link from "@docusaurus/Link";
+import Translate from "@docusaurus/Translate";
 
 const servers = [
     {
@@ -16,6 +17,13 @@ const servers = [
         "id": "kazakhstan_almaty_1",
         "top": "190",
         "left": "670"
+    },
+    {
+        "name": "Unihost.kz (Kazakhstan)",
+        "url": "https://unihost.kz/",
+        "id": "kazakhstan_almaty_2",
+        "top": "191",
+        "left": "673"
     },
     {
         "name": "GoHost.kz (Kazakhstan)",
@@ -170,7 +178,12 @@ export default function HomepageMap() {
                     <div className="flex flex-wrap -m-2">
 
                         <Link to="https://bld-status.sys-adm.in/">
-                            UptimeRobot Dashboard
+
+                             <Translate
+                                id="homepage.Map.DashboardHeader">
+                                 Statistics for 90 days on
+                            </Translate> UptimeRobot
+
                         </Link>
 
                     </div>
@@ -182,11 +195,15 @@ export default function HomepageMap() {
                     {isModalOpen && (
 
                         <Modal onClose={() => setModalOpen(false)} content={contentModal} url={urlModal}>
-                            <p>Server Info</p>
+                            <p>
+                                <Translate
+                                    id="homepage.Map.ModalHeader">
+                                    Platform Info
+                                </Translate>
+                            </p>
                             {/*<p>This is modal content.</p>*/}
 
                         </Modal>
-
                     )}
                 </div>
 

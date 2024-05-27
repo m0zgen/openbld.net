@@ -161,8 +161,14 @@
   "homepage.LogosCloud.Title": {
     "message": "+ кто поддержал проект \uD83D\uDE80"
   },
+  "homepage.Map.ModalHeader": {
+    "message": "Платформа"
+  },
+  "homepage.Map.DashboardHeader": {
+    "message": "Статистика за 90 дней на "
+  },
   "homepage.Thanks.Title": {
-    "message": "+ кто сделал вклад"
+    "message": "+ кто сделал вклад \uD83C\uDF1F"
   },
   "homepage.Thanks.AssistLink": {
     "message": "Как ты можешь поддержать проект?"
