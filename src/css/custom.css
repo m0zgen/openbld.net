@@ -130,123 +130,104 @@ ul.cloud p {
   width: 947px;
   height: 475px;
   position: relative;
+  /*z-index: 10;*/
   /*opacity: 0.3;*/
 }
 
-
-
 .map__link {
   position: absolute;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background: #61d674;
+  border-radius: 50% ;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:6px;
+  height:6px;
+  /*font-size: 2vw;*/
+  outline:none;
+  border: none;
 }
 
-#japan {
-  top: 202px;
-  left: 810px;
-}
-
-#kazakhstan_almaty {
-  top: 190px;
-  left: 670px;
-}
-
-#kazakhstan_karagandy_1 {
-  top: 160px;
-  left: 650px;
-}
-
-#kazakhstan_karagandy_2 {
-  top: 150px;
-  left: 640px;
-}
-
-#singapore {
-  top: 293px;
-  left: 720px;
-}
-
-#bulgaria {
-  top: 180px;
-  left: 500px;
-}
-
-#latvia {
-  top: 130px;
-  left: 500px;
-}
-
-#germany_1 {
-  top: 150px;
-  left: 476px;
-}
-
-#germany_2 {
-  top: 140px;
-  left: 470px;
-}
-
-#germany_3 {
-  top: 144px;
-  left: 471px;
-}
-
-#germany_4 {
-  top: 148px;
-  left: 472px;
-}
-
-#germany_5 {
-  top: 152px;
-  left: 473px;
-}
-
-#netherlands {
-  top: 150px;
-  left: 460px;
-}
-
-/* Dot v1 */
-
-.pulsatingDot {
-  animation: pulseDot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
-  background-color: var(--pulsating-dot, #00BEFF);
-  border-radius: 50%;
-  box-sizing: border-box;
+.map__link:hover:before {
+  position: absolute;
+  top: -15px;
+  background: green;
+  width: 180px;
   height: 15px;
-  width: 15px;
+  left:calc(50% - 90px);
+  text-align: center;
 }
 
-.pulsatingDot:before {
-  animation: pulseRing 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
-  background-color: var(--pulsating-dot, #00BEFF);
-  border-radius: 45px;
-  content: '';
-  display: block;
-  height: 300%;
-  left: -100%;
-  position: relative;
-  top: -100%;
-  width: 300%;
-}
+/*#japan {*/
+/*  top: 202px;*/
+/*  left: 810px;*/
+/*}*/
 
-@keyframes pulseRing {
-  0% { transform: scale(.5); }
-  80%, 100% { opacity: 0; }
-}
+/*#kazakhstan_almaty_1 {*/
+/*  top: 190px;*/
+/*  left: 670px;*/
+/*}*/
 
-@keyframes pulseDot {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-}
+/*#kazakhstan_karagandy_1 {*/
+/*  top: 160px;*/
+/*  left: 650px;*/
+/*}*/
 
-/* Dot v2 */
+/*#kazakhstan_karagandy_2 {*/
+/*  top: 150px;*/
+/*  left: 640px;*/
+/*}*/
+
+/*#singapore {*/
+/*  top: 293px;*/
+/*  left: 720px;*/
+/*}*/
+
+/*#bulgaria {*/
+/*  top: 180px;*/
+/*  left: 500px;*/
+/*}*/
+
+/*#latvia {*/
+/*  top: 130px;*/
+/*  left: 500px;*/
+/*}*/
+
+/*#germany_1 {*/
+/*  top: 150px;*/
+/*  left: 476px;*/
+/*}*/
+
+/*#germany_2 {*/
+/*  top: 140px;*/
+/*  left: 470px;*/
+/*}*/
+
+/*#germany_3 {*/
+/*  top: 144px;*/
+/*  left: 471px;*/
+/*}*/
+
+/*#germany_4 {*/
+/*  top: 148px;*/
+/*  left: 472px;*/
+/*}*/
+
+/*#germany_5 {*/
+/*  top: 152px;*/
+/*  left: 473px;*/
+/*}*/
+
+/*#netherlands {*/
+/*  top: 150px;*/
+/*  left: 460px;*/
+/*}*/
+
+/* Map */
 
 .dot {
-  width: 6px;
-  height: 6px;
+  width: 9px;
+  height: 9px;
   border: 1px solid rgb(97, 214, 116);
   background-color: rgba(22, 152, 7, 0.5);
   border-radius: 100%;
@@ -265,3 +246,83 @@ ul.cloud p {
     opacity: 0.5;
   }
 }
+
+/*!*Popup*!*/
+/*.overlay {*/
+/*  position: relative;*/
+/*  top: 0;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  background: rgba(0, 0, 0, 0.7);*/
+/*  transition: opacity 500ms;*/
+/*  visibility: hidden;*/
+/*  opacity: 0;*/
+/*}*/
+/*.overlay:target {*/
+/*  visibility: visible;*/
+/*  opacity: 1;*/
+/*}*/
+
+/*.popup {*/
+/*  margin: 70px auto;*/
+/*  padding: 20px;*/
+/*  background: #fff;*/
+/*  border-radius: 5px;*/
+/*  width: 30%;*/
+/*  position: relative;*/
+/*  transition: all 5s ease-in-out;*/
+/*}*/
+
+/*.popup h2 {*/
+/*  margin-top: 0;*/
+/*  color: #333;*/
+/*  font-family: Tahoma, Arial, sans-serif;*/
+/*}*/
+/*.popup .close {*/
+/*  position: absolute;*/
+/*  top: 20px;*/
+/*  right: 30px;*/
+/*  transition: all 200ms;*/
+/*  font-size: 30px;*/
+/*  font-weight: bold;*/
+/*  text-decoration: none;*/
+/*  color: #333;*/
+/*}*/
+/*.popup .close:hover {*/
+/*  color: orange;*/
+/*}*/
+/*.popup .content {*/
+/*  max-height: 30%;*/
+/*  overflow: auto;*/
+/*}*/
+
+/*!*Modal*!*/
+/*#modal {*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  height: 100%;*/
+/*  width: 100%;*/
+/*  background-color: rgba(0,0,0,.5);*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.modal__window {*/
+/*  position: relative;*/
+/*  background-color: white;*/
+/*  padding: 4em 2em;*/
+/*}*/
+
+/*.modal__close {*/
+/*  position: absolute;*/
+/*  top: -30px;*/
+/*  right: 0;*/
+/*}*/
+
+/*#modal:not(:target) {*/
+/*  visibility: hidden;*/
+/*  !*opacity: 0;*!*/
+/*}*/
