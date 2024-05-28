@@ -133,12 +133,12 @@ export default function HomepageMap() {
             <div className="flex flex-wrap -m-4">
 
                 <div className="flex flex-col items-center justify-center w-full mb-10">
-                    {/*<h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">*/}
-                    {/*    <Translate*/}
-                    {/*        id="homepage.Map.Title">*/}
-                    {/*    Points of Presence*/}
-                    {/*        </Translate>*/}
-                    {/*</h2>*/}
+                    <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
+                        <Translate
+                            id="homepage.Map.Title">
+                            OpenBLD.net PoP Map
+                            </Translate>
+                    </h2>
                 </div>
 
                 <div className="flex flex-col items-center justify-center w-full">

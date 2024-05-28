@@ -161,6 +161,9 @@
   "homepage.LogosCloud.Title": {
     "message": "+ кто поддержал проект \uD83D\uDE80"
   },
+  "homepage.Map.Title": {
+    "message": "Точки присутствия OpenBLD.net"
+  },
   "homepage.Map.ModalHeader": {
     "message": "Платформа"
   },
