@@ -4,10 +4,30 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Mon, 20 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[↘  OpenBLD.net Implemented OISD Blocklist]]></title>
+            <link>https://openbld.net/blog/openbld-integration-oisd-blocklist</link>
+            <guid>https://openbld.net/blog/openbld-integration-oisd-blocklist</guid>
+            <pubDate>Fri, 31 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net has implemented the OISD blocklist to provide users with an additional layer of protection against malicious websites.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - OISD Integrate" src="https://openbld.net/assets/images/openbld-oisd-implementation-15db13700b02a3972c0a139d952399b3.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p><a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD</a> it is one of better projects aimed to reduce internet noise. You can use OISD for own purposes,
+in your DNS server, or you can <a href="https://openbld.net/docs/get-started/third-party-filters/oisd/">use</a> it in OpenBLD.net as a ready-made solution.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-this-oisd-blocklist">What is this <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">oisd</a> blocklist?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist#what-is-this-oisd-blocklist" class="hash-link" aria-label="Direct link to what-is-this-oisd-blocklist" title="Direct link to what-is-this-oisd-blocklist">​</a></h2>
+<p>The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads,
+decreases the risk of malware, and enhances privacy. You can see FAQ and other details on the official <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD website</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use-oisd-in-openbldnet">How to use OISD in OpenBLD.net?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist#how-to-use-oisd-in-openbldnet" class="hash-link" aria-label="Direct link to How to use OISD in OpenBLD.net?" title="Direct link to How to use OISD in OpenBLD.net?">​</a></h2>
+<p>You can use OISD without exclusions, without additional blocklist - just only OISD in OpenBLD.net as DoH
+link in <code>RIC</code> mode.</p>
+<p>See details in <a href="https://openbld.net/docs/get-started/third-party-filters/oisd/">Docs</a>. Happy Internet surfing! ✌️</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>oisd</category>
+            <category>2024</category>
+        </item>
         <item>
             <title><![CDATA[↘  OpenBLD.net Implemented OISD Blocklist]]></title>
             <link>https://openbld.net/blog/openbld-integration-oisd-blocklist</link>
@@ -654,27 +674,6 @@ bypassing domain-based blocking methods.</p>
             <category>chrome</category>
             <category>brave</category>
             <category>extension</category>
-        </item>
-        <item>
-            <title><![CDATA[↘ OpenBLD H2'23 Upgrades]]></title>
-            <link>https://openbld.net/blog/openbld-h2-2023-updates</link>
-            <guid>https://openbld.net/blog/openbld-h2-2023-updates</guid>
-            <pubDate>Thu, 09 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Upcoming Changes in OpenBLD.net in H2 2023]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="upcoming-changes-in-openbldnet">Upcoming Changes in OpenBLD.net<a href="https://openbld.net/blog/openbld-h2-2023-updates#upcoming-changes-in-openbldnet" class="hash-link" aria-label="Direct link to Upcoming Changes in OpenBLD.net" title="Direct link to Upcoming Changes in OpenBLD.net">​</a></h2>
-<p>As time progresses and the user base grows, server capacities are expanding, necessitating more servers and funds. However, the budget is already allocated and distributed.</p>
-<p>In light of the above, some changes are planned for the architecture of OpenBLD.net:</p>
-<ul>
-<li><strong>ADA (DNS 53):</strong> Disable everywhere except for the main two or three servers</li>
-<li><strong>RIC (DNS 53):</strong> Eliminate DNS 53 on all RIC servers, leaving only - DoT, DoH.</li>
-</ul>
-<p>In summary: DNS 53 will remain only in the ADA infrastructure.</p>
-<p><strong>Important:</strong> Please let me know if this may break something for you; we will think together about what can be done.</p>
-<p>Anyone who can contribute to the OpenBLD.net project, please don't hesitate. You can find information on how to do this and the benefits you can expect <a href="https://openbld.net/docs/donation/">here</a>.</p>
-<p>🤝 Thanks to everyone who has helped and continues to help. Blessings to you all!</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>news</category>
         </item>
     </channel>
 </rss>

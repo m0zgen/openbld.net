@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[4642],{9581:e=>{e.exports=JSON.parse('{"label":"oisd","permalink":"/ru/blog/tags/oisd","allTagsPath":"/ru/blog/tags","count":2,"unlisted":false}')}}]);
