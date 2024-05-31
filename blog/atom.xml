@@ -8,21 +8,28 @@
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[↘  OpenBLD.net Implemented OISD Blocklist]]></title>
-        <id>https://openbld.net/blog/openbld-integration-oisd-blocklist</id>
-        <link href="https://openbld.net/blog/openbld-integration-oisd-blocklist"/>
+        <title type="html"><![CDATA[↘  OpenBLD.net - Caring for Children]]></title>
+        <id>https://openbld.net/blog/openbld-kid-protection-testing-mode</id>
+        <link href="https://openbld.net/blog/openbld-kid-protection-testing-mode"/>
         <updated>2024-05-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net has implemented the OISD blocklist to provide users with an additional layer of protection against malicious websites.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - OISD Integrate" src="https://openbld.net/assets/images/openbld-oisd-implementation-15db13700b02a3972c0a139d952399b3.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p><a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD</a> it is one of better projects aimed to reduce internet noise. You can use OISD for own purposes,
-in your DNS server, or you can <a href="https://openbld.net/docs/get-started/third-party-filters/oisd/">use</a> it in OpenBLD.net as a ready-made solution.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-this-oisd-blocklist">What is this <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">oisd</a> blocklist?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist#what-is-this-oisd-blocklist" class="hash-link" aria-label="Direct link to what-is-this-oisd-blocklist" title="Direct link to what-is-this-oisd-blocklist">​</a></h2>
-<p>The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads,
-decreases the risk of malware, and enhances privacy. You can see FAQ and other details on the official <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD website</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use-oisd-in-openbldnet">How to use OISD in OpenBLD.net?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist#how-to-use-oisd-in-openbldnet" class="hash-link" aria-label="Direct link to How to use OISD in OpenBLD.net?" title="Direct link to How to use OISD in OpenBLD.net?">​</a></h2>
-<p>You can use OISD without exclusions, without additional blocklist - just only OISD in OpenBLD.net as DoH
-link in <code>RIC</code> mode.</p>
-<p>See details in <a href="https://openbld.net/docs/get-started/third-party-filters/oisd/">Docs</a>. Happy Internet surfing! ✌️</p>]]></content>
+        <summary type="html"><![CDATA[Advertisements and adult content are junk information for a child's brain this needs to be blocked. OpenBLD.net provides a special mode for children's protection.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Kid Protection Test Mode" src="https://openbld.net/assets/images/openbld-kid-protection-testing-mode-f75331614d5fede5a5bcde3e063e5734.png" width="1250" height="680" class="img_ev3q"></p>
+<p>👨‍👩‍👧‍👦 OpenBLD.net - Caring for Children</p>
+<p>Understanding that advertisements are junk information for a child's brain, I also recognize that "adult content" is even more unacceptable for minors.</p>
+<p>This includes:</p>
+<ul>
+<li>Pornography</li>
+<li>Escort services</li>
+<li>Gambling</li>
+</ul>
+<p>Starting today, I'm launching a new server in test mode with filtering for this type of content.</p>
+<ul>
+<li>DoT settings: <code>kid.openbld.net</code></li>
+<li>DoH settings: <code>https://kid.openbld.net/dns-query</code></li>
+</ul>
+<p>If the testing is successful, the service will be integrated into the overall OpenBLD.net ecosystem.</p>
+<p>Protect your younger generation. And of course, stay <a href="https://openbld.net/docs/contacts/">connected</a>.</p>
+<p>Peace to everyone ✌️</p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>
