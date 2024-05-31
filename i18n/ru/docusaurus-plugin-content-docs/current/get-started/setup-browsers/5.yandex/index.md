@@ -2,32 +2,32 @@
 sidebar_position: 5
 ---
 
-# Yandex Browser
+# Яндекс Браузер
 
-To block ads and tracking in the Yandex browser, you need to configure secure DNS server.
+Для блокировки рекламы и отслеживания в Яндекс браузере необходимо настроить безопасный DNS-сервер.
 
-Setup OpenBLD.net on Yandex Browser
+Настройка OpenBLD.net в Яндекс Браузере
 
-1. Click on the three-line menu in your browser window (Settings Menu)
-2. Select Settings
-3. Select Security tab
-4. Scroll down and enable Use secure DNS server option
-5. Select from dropdown menu "other address"
-6. Set address `https://ada.openbld.net/dns-query`
+1. Кликните на иконку меню в правом верхнем углу окна браузера (Меню Настроек)
+2. Выберите Настройки
+3. Выберите раздел Безопасность
+4. Прокрутите вниз и включите использование безопасного DNS
+5. В раскрывающемся меню выберите "Другой адрес"
+6. Укажите адрес `https://ada.openbld.net/dns-query`
 
-## Example
+## Пример
 ![Setup OpenBLD.net - Google Chrome](./setup-openbld-dns-yandex-browser.jpg)
 
-Just copy and paste this link to your browser settings:
+Просто скопируйте и вставьте эту ссылку в настройки вашего браузера:
 
 ```shell
 https://ada.openbld.net/dns-query
 ```
 
-## OpenBLD.net Extension for Yandex Browser
+## OpenBLD.net расширение для Яндекс Браузера
 
-As an additional option, you can use a browser extension for Yandex Browser:
+В качестве дополнительной опции вы можете использовать расширение для Яндекс Браузера:
 
-* Setup [OpenBLD.net Blocker](/docs/get-started/setup-browsers/extensions/) extension for Yandex Browser.
+* Настройка [OpenBLD.net Blocker](/docs/get-started/setup-browsers/extensions/) расширения для Яндекс Браузера.
 
 

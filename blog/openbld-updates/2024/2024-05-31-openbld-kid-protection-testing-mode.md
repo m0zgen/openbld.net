@@ -1,24 +1,30 @@
 ---
-slug: openbld-integration-oisd-blocklist
-title: ↘  OpenBLD.net Implemented OISD Blocklist
-description: OpenBLD.net has implemented the OISD blocklist to provide users with an additional layer of protection against malicious websites.
+slug: openbld-kid-protection-testing-mode
+title: ↘  OpenBLD.net - Caring for Children
+description: Advertisements and adult content are junk information for a child's brain this needs to be blocked. OpenBLD.net provides a special mode for children's protection.
 authors: [sysadminkz]
 tags: [openbld, oisd, 2024]
 ---
 
-![OpenBLD.net - OISD Integrate](images/openbld-oisd-implementation.jpeg)
+![OpenBLD.net - Kid Protection Test Mode](images/openbld-kid-protection-testing-mode.png)
 
-[OISD](https://oisd.nl/) it is one of better projects aimed to reduce internet noise. You can use OISD for own purposes, 
-in your DNS server, or you can [use](/docs/get-started/third-party-filters/oisd/) it in OpenBLD.net as a ready-made solution.
+👨‍👩‍👧‍👦 OpenBLD.net - Caring for Children
 
-## What is this [oisd](https://oisd.nl/) blocklist?
+Understanding that advertisements are junk information for a child's brain, I also recognize that "adult content" is even more unacceptable for minors.
 
-The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads, 
-decreases the risk of malware, and enhances privacy. You can see FAQ and other details on the official [OISD website](https://oisd.nl/).
+This includes:
 
-## How to use OISD in OpenBLD.net?
+- Pornography
+- Escort services
+- Gambling
 
-You can use OISD without exclusions, without additional blocklist - just only OISD in OpenBLD.net as DoH 
-link in `RIC` mode.
+Starting today, I'm launching a new server in test mode with filtering for this type of content.
 
-See details in [Docs](/docs/get-started/third-party-filters/oisd/). Happy Internet surfing! ✌️
+- DoT settings: `kid.openbld.net`
+- DoH settings: `https://kid.openbld.net/dns-query`
+
+If the testing is successful, the service will be integrated into the overall OpenBLD.net ecosystem.
+
+Protect your younger generation. And of course, stay [connected](/docs/contacts).
+
+Peace to everyone ✌️

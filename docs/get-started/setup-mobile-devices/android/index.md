@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Android Devices
 
+To block ads and tracking on Android devices, you need to configure a Private DNS server.
+
 Setup OpenBLD.net on Android Devices
 
 1. Open Settings. In the Search settings enter DNS. In search result find Private DNS

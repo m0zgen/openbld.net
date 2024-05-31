@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Google Chrome
 
+To block ads and tracking in the Google Chrome browser, you need to configure secure DNS over HTTPS.
+
 Setup OpenBLD.net on Google Chrome
 
 1. Click on the three-dot menu in your browser window (Settings Menu)

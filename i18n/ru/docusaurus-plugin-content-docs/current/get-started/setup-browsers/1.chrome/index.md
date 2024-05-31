@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Google Chrome
 
+Для блокировки рекламы и отслеживания в браузере Google Chrome, нужно настроить безопасный DNS over HTTPS.
+
 Настройка OpenBLD.net в Google Chrome
 
 1. Кликнуть меню из трех точек в окне браузера (Меню Настроек)

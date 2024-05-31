@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Apple Devices
 
+To block ads and tracking on Apple devices, you need to install a DNS profile.
+
 Setup OpenBLD.net on iOS, iPadOS
 
 1. Open `Safari` and **Allow** download ADA iOS/macOS [profile](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v24-2.mobileconfig)

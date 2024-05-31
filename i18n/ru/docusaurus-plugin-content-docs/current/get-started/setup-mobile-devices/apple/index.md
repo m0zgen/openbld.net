@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Apple Устройства
 
+Для блокировки рекламы и отслеживания на устройствах Apple, нужно установить DNS профиль.
+
 Настройка OpenBLD.net на iOS, iPadOS и macOS
 
 1. Откройте `Safari` и **Разрешите** скачать ADA iOS/macOS [профиль](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v24-2.mobileconfig)
