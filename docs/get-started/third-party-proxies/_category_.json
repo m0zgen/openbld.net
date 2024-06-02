@@ -1,0 +1,8 @@
+{
+  "label": "Setup Third Party Proxies",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Setup OpenBLD.net with 3rd Party Filters",
+  }
+}
