@@ -9,6 +9,8 @@ sidebar_position: 1
 The blocklist prevents your devices from connecting to unwanted or harmful domains.
 It reduces ads, decreases the risk of malware, and enhances privacy.
 
+## Use OISD on OpenBLD.net (RIC)
+
 You can use [OISD](https://oisd.nl/) in OpenBLD.net as `DoH` link in `RIC` mode:
 
 ```shell
