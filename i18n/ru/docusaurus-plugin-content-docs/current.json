@@ -57,6 +57,10 @@
   },
   "sidebar.tutorialSidebar.category.Setup Third Party Filters": {
     "message": "Сторонние фильтры",
-    "description": "The label for category Setup Routers in sidebar tutorialSidebar"
+    "description": "The label for category Setup 3d filters in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Third Party Proxies": {
+    "message": "Сторонние прокси",
+    "description": "The label for category Setup 3d proxies in sidebar tutorialSidebar"
   }
 }
