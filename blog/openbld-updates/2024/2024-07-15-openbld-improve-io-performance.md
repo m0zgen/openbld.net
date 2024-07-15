@@ -1,30 +1,23 @@
 ---
-slug: openbld-kid-protection-testing-mode
-title: ↘  OpenBLD.net - Caring for Children
-description: Advertisements and adult content are junk information for a child's brain this needs to be blocked. OpenBLD.net provides a special mode for children's protection.
+slug: openbld-improved-io-performance
+title: ↘  OpenBLD.net - Improved Performance
+description: OpenBLD.net - Improve Input/Output performance to ~10 percent speed up
 authors: [sysadminkz]
-tags: [openbld, oisd, 2024]
+tags: [openbld, updates, performance, 2024]
 ---
 
-![OpenBLD.net - Kid Protection Test Mode](images/openbld-kid-protection-testing-mode.png)
+![OpenBLD.net - Boost performance](images/openbld-improve-io-performance.jpeg)
 
-👨‍👩‍👧‍👦 OpenBLD.net - Caring for Children
+## Why speed is important
 
-Understanding that advertisements are junk information for a child's brain, I also recognize that "adult content" is even more unacceptable for minors.
+Speed directly affects our time; the faster the service works, the faster your Internet works, thus saving your time and the time of consuming server resources.
 
-This includes:
+Time is life, time is money, time is the most important resource in the world, which we must treat with care.
 
-- Pornography
-- Escort services
-- Gambling
+## What has been done
 
-Starting today, I'm launching a new server in test mode with filtering for this type of content.
+I have optimized the input/output operations of the OpenBLD.net servers, updated code, and optimized the servers configuration, which has led to a speed increase of about ~10 percent.
 
-- DoT settings: `kid.openbld.net`
-- DoH settings: `https://kid.openbld.net/dns-query`
+Now the server works even faster, and you can enjoy the benefits of the OpenBLD.net service even more.
 
-If the testing is successful, the service will be integrated into the overall OpenBLD.net ecosystem.
-
-Protect your younger generation. And of course, stay [connected](/docs/contacts).
-
-Peace to everyone ✌️
+I hope it works for you as quickly as it does for me. Peace to everyone ✌️
