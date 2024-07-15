@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[8870],{5427:e=>{e.exports=JSON.parse('{"label":"zdns","permalink":"/ru/blog/tags/zdns","allTagsPath":"/ru/blog/tags","count":1,"unlisted":false}')}}]);

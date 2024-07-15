@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[1663],{4923:e=>{e.exports=JSON.parse('{"label":"veesp","permalink":"/blog/tags/veesp","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

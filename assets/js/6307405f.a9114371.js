@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[922],{3048:e=>{e.exports=JSON.parse('{"label":"urlhaus","permalink":"/blog/tags/urlhaus","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

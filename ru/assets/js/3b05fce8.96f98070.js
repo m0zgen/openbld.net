@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[8451],{7761:e=>{e.exports=JSON.parse('{"permalink":"/ru/blog/tags/privacy","page":1,"postsPerPage":6,"totalPages":1,"totalCount":2,"blogDescription":"OpenBLD.net news and updates","blogTitle":"OpenBLD.net Blog"}')}}]);

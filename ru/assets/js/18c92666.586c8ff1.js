@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[4420],{6285:e=>{e.exports=JSON.parse('{"label":"jetbrains","permalink":"/ru/blog/tags/jetbrains","allTagsPath":"/ru/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[4563],{6430:e=>{e.exports=JSON.parse('{"label":"blocking","permalink":"/ru/blog/tags/blocking","allTagsPath":"/ru/blog/tags","count":9,"unlisted":false}')}}]);

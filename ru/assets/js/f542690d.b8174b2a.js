@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[5649],{9320:e=>{e.exports=JSON.parse('{"label":"AlphaVPS","permalink":"/ru/blog/tags/alpha-vps","allTagsPath":"/ru/blog/tags","count":3,"unlisted":false}')}}]);
