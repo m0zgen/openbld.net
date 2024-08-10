@@ -4,10 +4,54 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Mon, 15 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🟢️️️️️️ OpenBLD.net New server in Kazakhstan]]></title>
+            <link>https://openbld.net/blog/openbld-update-notice-2024-08-07/</link>
+            <guid>https://openbld.net/blog/openbld-update-notice-2024-08-07/</guid>
+            <pubDate>Wed, 07 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net - Update Notice 2024-08-04 with major performance improvements.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New Server in Kazakhstan" src="https://openbld.net/assets/images/openbld-new-server-in-kazakhstan-5b8935ae8e4dec829a9f20833cc90131.jpg" width="1250" height="680" class="img_ev3q"></p>
+<p>I hear a lot of good reviews from people about the new Yandex cloud in Kazakhstan 🇰🇿. And so, having saved up some money and received a small deposit from Yandex, I decided to try the cloud.</p>
+<p>Starting today, a new server has appeared in Karaganda, which will enter the general OpenBLD.net ecosystem in the next 24 hours.</p>
+<p>I really hope that this step will help improve the service, speed up the work of DoH and DoT clients of the capital of the Kazakhstan region and Central Kazakhstan as a whole.</p>
+<p>Let's go further in a good mood and faith in success 💪</p>
+<p>You can find out how to connect to the service on the project <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">homepage</a>.</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>performance</category>
+            <category>2024</category>
+        </item>
+        <item>
+            <title><![CDATA[↘  OpenBLD.net - Update Notice Aug 2024]]></title>
+            <link>https://openbld.net/blog/openbld-update-notice-2024-08-04/</link>
+            <guid>https://openbld.net/blog/openbld-update-notice-2024-08-04/</guid>
+            <pubDate>Sun, 04 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net - Update Notice 2024-08-04 with major performance improvements.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Update Notice, Aug 2024" src="https://openbld.net/assets/images/openbld_update_notice_aug_2024-c5a9b5893f5ccaa909c6927524cae9e1.jpg" width="1250" height="680" class="img_ev3q"></p>
+<p>Today wll deploy new <code>zBLD</code> backend release in to production environment.</p>
+<p>Major updates:</p>
+<ul>
+<li>Adding Rsyslog log forwarder</li>
+<li>Blocking log enricher - additional (domain category) into to rsyslog</li>
+<li>Guarantee DNS response mechanisms</li>
+<li>Reduce some log messages</li>
+<li>Update local log rotation mechanisms</li>
+<li>Fix global DNS queries counter for Prometheus exporter exporter</li>
+</ul>
+<p>Impact:</p>
+<ul>
+<li>There won't be an impact, but if you get a timeout today, it should be as short as possible</li>
+</ul>
+<p>In any case, I'm always in <a href="https://openbld.net/docs/contacts/">touch</a>) Peace!  😎</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>performance</category>
+            <category>2024</category>
+        </item>
         <item>
             <title><![CDATA[↘  OpenBLD.net - Improved Performance]]></title>
             <link>https://openbld.net/blog/openbld-improved-io-performance/</link>
@@ -15,10 +59,10 @@
             <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[OpenBLD.net - Improve Input/Output performance to ~10 percent speed up]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Boost performance" src="https://openbld.net/assets/images/openbld-improve-io-performance-b221561abd521722d9caada7c79cb713.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-speed-is-important">Why speed is important<a class="hash-link" aria-label="Direct link to Why speed is important" title="Direct link to Why speed is important" href="https://openbld.net/blog/openbld-improved-io-performance/#why-speed-is-important">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-speed-is-important">Why speed is important<a href="https://openbld.net/blog/openbld-improved-io-performance/#why-speed-is-important" class="hash-link" aria-label="Direct link to Why speed is important" title="Direct link to Why speed is important">​</a></h2>
 <p>Speed directly affects our time; the faster the service works, the faster your Internet works, thus saving your time and the time of consuming server resources.</p>
 <p>Time is life, time is money, time is the most important resource in the world, which we must treat with care.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-has-been-done">What has been done<a class="hash-link" aria-label="Direct link to What has been done" title="Direct link to What has been done" href="https://openbld.net/blog/openbld-improved-io-performance/#what-has-been-done">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-has-been-done">What has been done<a href="https://openbld.net/blog/openbld-improved-io-performance/#what-has-been-done" class="hash-link" aria-label="Direct link to What has been done" title="Direct link to What has been done">​</a></h2>
 <p>I have optimized the input/output operations of the OpenBLD.net servers, updated code, and optimized the servers configuration, which has led to a speed increase of about ~10 percent.</p>
 <p>Now the server works even faster, and you can enjoy the benefits of the OpenBLD.net service even more.</p>
 <p>I hope it works for you as quickly as it does for me. Peace to everyone ✌️</p>]]></content:encoded>
@@ -63,10 +107,10 @@
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - OISD Integrate" src="https://openbld.net/assets/images/openbld-oisd-implementation-15db13700b02a3972c0a139d952399b3.jpeg" width="1250" height="680" class="img_ev3q"></p>
 <p><a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD</a> it is one of better projects aimed to reduce internet noise. You can use OISD for own purposes,
 in your DNS server, or you can <a href="https://openbld.net/docs/get-started/third-party-filters/oisd/">use</a> it in OpenBLD.net as a ready-made solution.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-this-oisd-blocklist">What is this <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">oisd</a> blocklist?<a class="hash-link" aria-label="Direct link to what-is-this-oisd-blocklist" title="Direct link to what-is-this-oisd-blocklist" href="https://openbld.net/blog/openbld-integration-oisd-blocklist/#what-is-this-oisd-blocklist">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-this-oisd-blocklist">What is this <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">oisd</a> blocklist?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist/#what-is-this-oisd-blocklist" class="hash-link" aria-label="Direct link to what-is-this-oisd-blocklist" title="Direct link to what-is-this-oisd-blocklist">​</a></h2>
 <p>The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads,
 decreases the risk of malware, and enhances privacy. You can see FAQ and other details on the official <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD website</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use-oisd-in-openbldnet">How to use OISD in OpenBLD.net?<a class="hash-link" aria-label="Direct link to How to use OISD in OpenBLD.net?" title="Direct link to How to use OISD in OpenBLD.net?" href="https://openbld.net/blog/openbld-integration-oisd-blocklist/#how-to-use-oisd-in-openbldnet">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use-oisd-in-openbldnet">How to use OISD in OpenBLD.net?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist/#how-to-use-oisd-in-openbldnet" class="hash-link" aria-label="Direct link to How to use OISD in OpenBLD.net?" title="Direct link to How to use OISD in OpenBLD.net?">​</a></h2>
 <p>You can use OISD without exclusions, without additional blocklist - just only OISD in OpenBLD.net as DoH
 link in <code>RIC</code> mode.</p>
 <p>See details in <a href="https://openbld.net/docs/get-started/third-party-filters/oisd/">Docs</a>. Happy Internet surfing! ✌️</p>]]></content:encoded>
@@ -81,13 +125,13 @@ link in <code>RIC</code> mode.</p>
             <pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Free public WiFi can be a security risk. Here are some tips to help you stay safe when using public WiFi networks.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Secure WiFi Recommendations" src="https://openbld.net/assets/images/openbld-public-wifi-recommendations-58a7db81b05631bd08aacf7bd2159a5b.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="intro">Intro<a class="hash-link" aria-label="Direct link to Intro" title="Direct link to Intro" href="https://openbld.net/blog/secure-wifi-recommendations/#intro">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="intro">Intro<a href="https://openbld.net/blog/secure-wifi-recommendations/#intro" class="hash-link" aria-label="Direct link to Intro" title="Direct link to Intro">​</a></h2>
 <p>Wi-Fi is a wireless communication technology that allows devices to connect to the internet and exchange
 data without using wired connections. Public Wi-Fi networks, available everywhere in public places such as
 cafes, airports, hotels, and shopping malls, provide users with a convenient way to access the internet
 anytime. However, such networks can pose a security threat as they are typically not password-protected and
 can be easily compromised by attackers to intercept data or launch attacks on users' devices.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="public-wi-fi-safety-tips">Public Wi-Fi Safety Tips<a class="hash-link" aria-label="Direct link to Public Wi-Fi Safety Tips" title="Direct link to Public Wi-Fi Safety Tips" href="https://openbld.net/blog/secure-wifi-recommendations/#public-wi-fi-safety-tips">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="public-wi-fi-safety-tips">Public Wi-Fi Safety Tips<a href="https://openbld.net/blog/secure-wifi-recommendations/#public-wi-fi-safety-tips" class="hash-link" aria-label="Direct link to Public Wi-Fi Safety Tips" title="Direct link to Public Wi-Fi Safety Tips">​</a></h2>
 <p><strong>1. Be vigilant:</strong></p>
 <ul>
 <li><strong>Don't trust public Wi-Fi networks.</strong></li>
@@ -178,7 +222,7 @@ can be easily compromised by attackers to intercept data or launch attacks on us
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion" href="https://openbld.net/blog/secure-wifi-recommendations/#conclusion">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://openbld.net/blog/secure-wifi-recommendations/#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>Following these simple tips will help you protect your data and devices when using public Wi-Fi.
 At least be careful and vigilant when using public Wi-Fi networks.</p>
 <p>Remember that your security is in your hands. Take care of yourself 🔐</p>]]></content:encoded>
@@ -195,11 +239,11 @@ At least be careful and vigilant when using public Wi-Fi networks.</p>
             <description><![CDATA[ClouDNS - Best DNS service. Supported OpenBLD.net in 2024 year.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="ClouDNS OpenBLD.net support" src="https://openbld.net/assets/images/openbld-and-cloudns-2024-a5e7d6ba8f542e0de206914f4aea0200.jpeg" width="1250" height="680" class="img_ev3q"></p>
 <p><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - fast and secure DNS Hosting service, supported OpenBLD.net in the year 2024! 🤝</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudnsnet-experience">ClouDNS.net Experience<a class="hash-link" aria-label="Direct link to ClouDNS.net Experience" title="Direct link to ClouDNS.net Experience" href="https://openbld.net/blog/cloudns-openbld-supports-2024/#cloudnsnet-experience">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudnsnet-experience">ClouDNS.net Experience<a href="https://openbld.net/blog/cloudns-openbld-supports-2024/#cloudnsnet-experience" class="hash-link" aria-label="Direct link to ClouDNS.net Experience" title="Direct link to ClouDNS.net Experience">​</a></h3>
 <p>I've been using ClouDNS.net for the OpenBLD.net project for several years now. Prior to this, I've tried all the popular
 and well-known DNS services worldwide, and with 100% confidence, I want to say:
 ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features" href="https://openbld.net/blog/cloudns-openbld-supports-2024/#key-features">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="https://openbld.net/blog/cloudns-openbld-supports-2024/#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features">​</a></h3>
 <ul>
 <li>Fast</li>
 <li>Reliable</li>
@@ -207,7 +251,7 @@ ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
 <li>Includes built-in <a href="https://www.cloudns.net/monitoring/" target="_blank" rel="noopener noreferrer">monitoring</a></li>
 <li><a href="https://www.cloudns.net/wiki/article/441/" target="_blank" rel="noopener noreferrer">Free SSL</a> certificates</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stability">Stability<a class="hash-link" aria-label="Direct link to Stability" title="Direct link to Stability" href="https://openbld.net/blog/cloudns-openbld-supports-2024/#stability">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stability">Stability<a href="https://openbld.net/blog/cloudns-openbld-supports-2024/#stability" class="hash-link" aria-label="Direct link to Stability" title="Direct link to Stability">​</a></h3>
 <p>I especially want to highlight the stability of ClouDNS. Throughout the entire period of usage, there hasn't been a single outage, making ClouDNS the perfect choice for OpenBLD.</p>
 <p>I highly recommend ClouDNS to anyone looking for a high-quality DNS service.</p>
 <p>ClouDNS.net — Thank you for your work! ✌️</p>]]></content:encoded>
@@ -224,15 +268,15 @@ ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
             <description><![CDATA[OpenBLD.net outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains!]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="JetBrains OSS OpenBLD.net support" src="https://openbld.net/assets/images/openbld.net-urlhaus-statistics-h1-2024-ea51e6806346934e93f699bd1facfac9.jpeg" width="1046" height="965" class="img_ev3q"></p>
 <p>OpenBLD.net outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains!</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a class="hash-link" aria-label="Direct link to Background" title="Direct link to Background" href="https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/#background">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h3>
 <p>Some time ago, OpenBLD.net was <a href="https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration/">added</a> to the <a href="https://urlhaus.abuse.ch/" target="_blank" rel="noopener noreferrer">URLhaus</a> project. URLhaus is a project operated
 by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a> with the goal of sharing and preventing malicious URLs that are being used for malware distribution.</p>
 <p>The ecosystem of the service, based on the <a href="https://openbld.net/docs/intro/#philosophy">philosophy</a> of blocking internet noise, has demonstrated excellent protection against malicious domains and intrusive ads. 💪</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-now">What now<a class="hash-link" aria-label="Direct link to What now" title="Direct link to What now" href="https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/#what-now">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-now">What now<a href="https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/#what-now" class="hash-link" aria-label="Direct link to What now" title="Direct link to What now">​</a></h3>
 <p>According to URLhaus statistics, OpenBLD.net surpasses giants like AdGuard, Cloudflare, and Quad9 in blocking malware and unwanted domains. 🛡️</p>
 <p>OpenBLD.net doesn't just offer protection - it creates a sense of security for your online space.</p>
 <p>Your <a href="https://openbld.net/docs/donation/">donations</a> and <a href="https://openbld.net/docs/sponsorship/">sponsorship</a> can help us become even better and ensure the stable development of the service.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's next?<a class="hash-link" aria-label="Direct link to What's next?" title="Direct link to What's next?" href="https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/#whats-next">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's next?<a href="https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/#whats-next" class="hash-link" aria-label="Direct link to What's next?" title="Direct link to What's next?">​</a></h3>
 <p>Join OpenBLD.net today, and together we'll make the internet safer and quieter!</p>
 <p>Peace ✌️</p>]]></content:encoded>
             <category>openbld</category>
@@ -334,15 +378,15 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
             <pubDate>Tue, 12 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[What is PDP and how to use it? Understand the basics of OpenBLD.net Personal DoH Profiling (PDP) and how to use it.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Personal DoH Profile" src="https://openbld.net/assets/images/openbld_pdp_testing_usage-8f8934bd2e3dec9775d23c99057e4476.jpeg" width="1250" height="460" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#introduction">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
 <p>What is PDP and how to use it? This article will help you to understand the basics of OpenBLD.net
 <strong>Personal <em>DoH</em> Profiling</strong> (PDP) and how to use it.</p>
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>More details about PDP you can find <a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/">here</a>.</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-started">Get Started<a class="hash-link" aria-label="Direct link to Get Started" title="Direct link to Get Started" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#get-started">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-started">Get Started<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#get-started" class="hash-link" aria-label="Direct link to Get Started" title="Direct link to Get Started">​</a></h2>
 <p>After <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Joining PDP Beta</a>,
 you will receive a welcome message from me to a provided contact.</p>
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Haven't received? <a href="https://openbld.net/docs/contacts/">Contact</a> me please</p></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="initial-usage">Initial usage<a class="hash-link" aria-label="Direct link to Initial usage" title="Direct link to Initial usage" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#initial-usage">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="initial-usage">Initial usage<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#initial-usage" class="hash-link" aria-label="Direct link to Initial usage" title="Direct link to Initial usage">​</a></h3>
 <p>After receiving a unique PDP DoH link from me, you can start using the service:</p>
 <ul>
 <li><strong>Step 1</strong>: Setup your device(s) with OpenBLD.net PDP with provided DNS-over-HTTPS (DoH) links.</li>
@@ -352,8 +396,8 @@ ADA or RIC platform address, <code>&lt;your_id&gt;</code> is your unique identif
 </ul>
 <p>🎉🎉🎉 Now you can relax and use the service based on your own personalized settings.</p>
 <p>Enjoy the service and provide <a href="https://openbld.net/docs/contacts/">feedback</a>!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="customization-optional">Customization (Optional)<a class="hash-link" aria-label="Direct link to Customization (Optional)" title="Direct link to Customization (Optional)" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#customization-optional">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="personalized-settings">Personalized settings<a class="hash-link" aria-label="Direct link to Personalized settings" title="Direct link to Personalized settings" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#personalized-settings">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="customization-optional">Customization (Optional)<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#customization-optional" class="hash-link" aria-label="Direct link to Customization (Optional)" title="Direct link to Customization (Optional)">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="personalized-settings">Personalized settings<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#personalized-settings" class="hash-link" aria-label="Direct link to Personalized settings" title="Direct link to Personalized settings">​</a></h3>
 <p>Free available settings for customization are:</p>
 <ul>
 <li>Personal Allow/Block lists (Default: <a href="https://github.com/m0zgen/my-zbld" target="_blank" rel="noopener noreferrer">my-zbld</a></li>
@@ -368,30 +412,30 @@ and notify <a href="https://openbld.net/docs/contacts/">me</a>.</p>
 <li>Allow lists are still <strong>prioritized</strong> over blocklists.</li>
 <li>You can provide static hosts file if needed.</li>
 </ul></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="usage-conditions">Usage Conditions<a class="hash-link" aria-label="Direct link to Usage Conditions" title="Direct link to Usage Conditions" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#usage-conditions">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="usage-conditions">Usage Conditions<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#usage-conditions" class="hash-link" aria-label="Direct link to Usage Conditions" title="Direct link to Usage Conditions">​</a></h2>
 <ul>
 <li>Lists or static hosts file should not be more than 100 records.</li>
 <li>The number of requests should not exceed 100k per day.</li>
 <li>Shall comply with the terms of the service use (See <a href="https://openbld.net/docs/overwiew/how-it-works/#limitations">Limitations</a> section).</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="profile-deletion">Profile deletion<a class="hash-link" aria-label="Direct link to Profile deletion" title="Direct link to Profile deletion" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#profile-deletion">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="profile-deletion">Profile deletion<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#profile-deletion" class="hash-link" aria-label="Direct link to Profile deletion" title="Direct link to Profile deletion">​</a></h3>
 <ul>
 <li><strong>Scenario 1</strong>: Notify <a href="https://openbld.net/docs/contacts/">me</a> if you need to delete the profile.</li>
 <li><strong>Scenario 2</strong>: After 30 days of inactivity, the profile will be automatically deleted.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#whats-next">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback">Feedback<a class="hash-link" aria-label="Direct link to Feedback" title="Direct link to Feedback" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#feedback">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback">Feedback<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#feedback" class="hash-link" aria-label="Direct link to Feedback" title="Direct link to Feedback">​</a></h3>
 <ul>
 <li>You can provide feedback in any way possible (directly, via <a href="https://openbld.net/docs/contacts/">contacts</a>, etc.)</li>
 <li>Later on, I will contact you and ask to fill out the feedback form.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="automation">Automation<a class="hash-link" aria-label="Direct link to Automation" title="Direct link to Automation" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#automation">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="automation">Automation<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#automation" class="hash-link" aria-label="Direct link to Automation" title="Direct link to Automation">​</a></h3>
 <p>Next step is to automate the process of providing personalized settings and the ability to change them on the go, with:</p>
 <ul>
 <li>Telegram bot</li>
 <li>Web UI</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-links">Additional Links<a class="hash-link" aria-label="Direct link to Additional Links" title="Direct link to Additional Links" href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#additional-links">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-links">Additional Links<a href="https://openbld.net/blog/2024-03-12-openbld-pdp-testing-usage/#additional-links" class="hash-link" aria-label="Direct link to Additional Links" title="Direct link to Additional Links">​</a></h2>
 <p>How to setup OpenBLD.net on your favourite device(s):</p>
 <ul>
 <li><a href="https://openbld.net/docs/category/setup-mobile-devices/">Mobile Devices</a></li>
@@ -422,7 +466,7 @@ administrators and security analysts in safeguarding their networks and customer
 <ul>
 <li><a href="https://urlhaus.abuse.ch/host/licocojambamarketplace.com" target="_blank" rel="noopener noreferrer">https://urlhaus.abuse.ch/host/licocojambamarketplace.com</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-links">Additional Links<a class="hash-link" aria-label="Direct link to Additional Links" title="Direct link to Additional Links" href="https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration/#additional-links">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-links">Additional Links<a href="https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration/#additional-links" class="hash-link" aria-label="Direct link to Additional Links" title="Direct link to Additional Links">​</a></h2>
 <p>You can easy setup OpenBLD.net on your favourite device(s):</p>
 <ul>
 <li><a href="https://openbld.net/docs/category/setup-mobile-devices/">Mobile Devices</a></li>
@@ -448,7 +492,7 @@ OpenBLD.net <strong>Personal <em>DoH</em> Profiling</strong> (PDP), a new servic
 <li><strong>Personalized DNS settings</strong>, so you can block ads, malicious websites, and other unwanted content.</li>
 <li><strong>Robust security</strong> with DNSSEC, TLSv1.2, and TLSv1.3.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="benefits-of-pdp">Benefits of PDP<a class="hash-link" aria-label="Direct link to Benefits of PDP" title="Direct link to Benefits of PDP" href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/#benefits-of-pdp">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="benefits-of-pdp">Benefits of PDP<a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/#benefits-of-pdp" class="hash-link" aria-label="Direct link to Benefits of PDP" title="Direct link to Benefits of PDP">​</a></h2>
 <ul>
 <li><strong>Enhanced privacy</strong>: Your DNS requests will not be accessible to third parties, ensuring the confidentiality of your online activity.</li>
 <li><strong>Security</strong>: Protection from malicious websites, phishing attacks, and other online threats.</li>
@@ -457,12 +501,12 @@ OpenBLD.net <strong>Personal <em>DoH</em> Profiling</strong> (PDP), a new servic
 <li><strong>Stability</strong>: All OpenBLD.net experiences under the hood.</li>
 <li><strong>Support</strong>: Access to a personal support.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-join-the-beta">How to Join the Beta<a class="hash-link" aria-label="Direct link to How to Join the Beta" title="Direct link to How to Join the Beta" href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/#how-to-join-the-beta">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-join-the-beta">How to Join the Beta<a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/#how-to-join-the-beta" class="hash-link" aria-label="Direct link to How to Join the Beta" title="Direct link to How to Join the Beta">​</a></h2>
 <p><strong>Be among the first to test OpenBLD.net PDP</strong>! Fill out the form below to get access to all features which will available in March 2024.</p>
 <ul>
 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Join to PDP Beta</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?" href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/#whats-next">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?">​</a></h2>
 <ol>
 <li>After you fill out the form, I will contact you to confirm your participation in the beta.</li>
 <li>In March-April 2024, you will receive a message from me with instructions (or it can be updated form) with additional
@@ -504,7 +548,7 @@ web resources that has HTML embedded ads...</p>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="zDNS v0.2.5 Release with Big Updates and Features" src="https://openbld.net/assets/images/zDNS_new_Release-f65a125bd457509cdf7ba99b3f4b10b0.jpeg" width="1250" height="460" class="img_ev3q"></p>
 <p>Few month ago I stared develop from scratch <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> service,
 and now I hope, it is ready for production usage...</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a class="hash-link" aria-label="Direct link to Features" title="Direct link to Features" href="https://openbld.net/blog/zdns-big-updates-and-features/#features">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="https://openbld.net/blog/zdns-big-updates-and-features/#features" class="hash-link" aria-label="Direct link to Features" title="Direct link to Features">​</a></h2>
 <ul>
 <li>Restrict DNS queries by type like as A, AAAA, HTTPS, CNAME, MX, PTR</li>
 <li>Balancing DNS traffic between upstream servers</li>
@@ -519,7 +563,7 @@ and now I hope, it is ready for production usage...</p>
 <li>Can run as daemon or one-shot mode</li>
 <li>Can parse DNS names with regular expressions...</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-forward">Looking Forward<a class="hash-link" aria-label="Direct link to Looking Forward" title="Direct link to Looking Forward" href="https://openbld.net/blog/zdns-big-updates-and-features/#looking-forward">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-forward">Looking Forward<a href="https://openbld.net/blog/zdns-big-updates-and-features/#looking-forward" class="hash-link" aria-label="Direct link to Looking Forward" title="Direct link to Looking Forward">​</a></h2>
 <p>I am looking forward to the future of the OpenBLD.net project and hope that it will continue to grow and develop.</p>
 <p>Now I'm testing exclusive option - unique DoH links with unique allow/block domain lists...</p>
 <p>In the near future, I hope everyone will be able to use their own unique opportunity of OpenBLD.net usage in personal browsers and phones, where they will be able to independently manage their personal own white and black lists
@@ -528,7 +572,7 @@ and now I hope, it is ready for production usage...</p>
 <ul>
 <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register for OpenBLD.net Personal Usage Testing</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use">How to Use<a class="hash-link" aria-label="Direct link to How to Use" title="Direct link to How to Use" href="https://openbld.net/blog/zdns-big-updates-and-features/#how-to-use">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use">How to Use<a href="https://openbld.net/blog/zdns-big-updates-and-features/#how-to-use" class="hash-link" aria-label="Direct link to How to Use" title="Direct link to How to Use">​</a></h2>
 <p>All related content about zDNS you can find on the <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> GitHub repository.</p>
 <p>Feedback is welcome! <a href="https://openbld.net/docs/contacts/">Contacts</a>.</p>]]></content:encoded>
             <category>openbld</category>
@@ -564,13 +608,13 @@ DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...</p>]]></con
 <p>Dear friends and partners of <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a>,</p>
 <p>With great enthusiasm and pride, I address you with this open letter of gratitude. My project, OpenBLD.net, could not have reached such heights without your invaluable support and contribution.</p>
 <p>Together, we have created something extraordinary – a platform that unites, inspires and making your live is safer, and I would like to extend sincere thanks to each and every one of you.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="to-companies">To Companies<a class="hash-link" aria-label="Direct link to To Companies" title="Direct link to To Companies" href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#to-companies">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="to-companies">To Companies<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#to-companies" class="hash-link" aria-label="Direct link to To Companies" title="Direct link to To Companies">​</a></h2>
 <p>Thanks to the companies that provided us with resources, solutions, funding and expertise, I were able to significantly enhance the functionality of OpenBLD.net. Your contribution has enriched the experience of OpenBLD.net users and made our platform more accessible and effective.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dns-cloud-providers">DNS Cloud Providers<a class="hash-link" aria-label="Direct link to DNS Cloud Providers" title="Direct link to DNS Cloud Providers" href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#dns-cloud-providers">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dns-cloud-providers">DNS Cloud Providers<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#dns-cloud-providers" class="hash-link" aria-label="Direct link to DNS Cloud Providers" title="Direct link to DNS Cloud Providers">​</a></h3>
 <ul>
 <li><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - for providing us with a best DNS hosting solution and free GeoDNS Plan for the OpenBLD.net project</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vps-servers">VPS Servers<a class="hash-link" aria-label="Direct link to VPS Servers" title="Direct link to VPS Servers" href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#vps-servers">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vps-servers">VPS Servers<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#vps-servers" class="hash-link" aria-label="Direct link to VPS Servers" title="Direct link to VPS Servers">​</a></h3>
 <ul>
 <li><a href="https://m.do.co/c/42011b938fe6" target="_blank" rel="noopener noreferrer">DigitalOcean.com</a> - for providing us with a free credits for VPS servers for the OpenBLD.net project</li>
 <li><a href="https://gcore.com/" target="_blank" rel="noopener noreferrer">GCore Labs</a> - for providing us with a free VPS servers for the <strong>ADA</strong> OpenBLD.net project in Japan, Tokyo</li>
@@ -578,27 +622,27 @@ DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...</p>]]></con
 <li><a href="https://unihost.kz/" target="_blank" rel="noopener noreferrer">Unihost.kz</a> - for providing us with a free VPS servers for the <strong>ADA</strong> OpenBLD.net project in Kazakhstan, Almaty</li>
 <li><a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">VEESP.com</a> - for providing us with a free VPS servers for the <strong>ADA</strong> OpenBLD.net project in Latvia, Riga</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="monitoring-solutions">Monitoring Solutions<a class="hash-link" aria-label="Direct link to Monitoring Solutions" title="Direct link to Monitoring Solutions" href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#monitoring-solutions">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="monitoring-solutions">Monitoring Solutions<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#monitoring-solutions" class="hash-link" aria-label="Direct link to Monitoring Solutions" title="Direct link to Monitoring Solutions">​</a></h3>
 <ul>
 <li><a href="https://www.netdata.cloud/?utm_campaign=technical&amp;utm_source=content&amp;utm_medium=website&amp;utm_content=openbld-dns" target="_blank" rel="noopener noreferrer">Netdata</a> - for providing us with a free Business Plan for the OpenBLD.net</li>
 <li><a href="https://uptimerobot.com/?rid=78534763f4713b" target="_blank" rel="noopener noreferrer">UptimeRobot</a> - for providing us with a free Pro Plan for the OpenBLD.net</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="coding-solutions">Coding Solutions<a class="hash-link" aria-label="Direct link to Coding Solutions" title="Direct link to Coding Solutions" href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#coding-solutions">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="coding-solutions">Coding Solutions<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#coding-solutions" class="hash-link" aria-label="Direct link to Coding Solutions" title="Direct link to Coding Solutions">​</a></h3>
 <ul>
 <li><a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">JetBrains</a> - for providing us with a free OSS license for the <a href="https://jb.gg/OpenSourceSupport" target="_blank" rel="noopener noreferrer">IntelliJ IDEA</a> IDE.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="contrubutors">Contrubutors<a class="hash-link" aria-label="Direct link to Contrubutors" title="Direct link to Contrubutors" href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#contrubutors">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="contrubutors">Contrubutors<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#contrubutors" class="hash-link" aria-label="Direct link to Contrubutors" title="Direct link to Contrubutors">​</a></h3>
 <ul>
 <li><a href="https://powerdmarc.com/" target="_blank" rel="noopener noreferrer">PowerDMARC</a> - supported OpenBLD.net with a funding for the OpenBLD.net project</li>
 </ul>
 <p>I am grateful for your support and look forward to continuing our collaboration in the future 🔮</p>
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>All company logos and links contains on the who helps to the growth 🚀 <a href="https://openbld.net/#company-logos" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> section.</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="to-individuals">To Individuals<a class="hash-link" aria-label="Direct link to To Individuals" title="Direct link to To Individuals" href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#to-individuals">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="to-individuals">To Individuals<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#to-individuals" class="hash-link" aria-label="Direct link to To Individuals" title="Direct link to To Individuals">​</a></h2>
 <p>To individuals who contributed their skills and time, I want to express deep gratitude. Your willingness to share
 knowledge and experience has made me stronger, and our project more valuable to society.</p>
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Each who has contributed to the OpenBLD.net project has name in special Thanks section on the <a href="https://openbld.net/#thanks-section" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> website.</p></div></div>
 <p>With each new member of our team, we expand the horizons of possibilities.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks-to-all-of-you">Thanks to all of you<a class="hash-link" aria-label="Direct link to Thanks to all of you" title="Direct link to Thanks to all of you" href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#thanks-to-all-of-you">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks-to-all-of-you">Thanks to all of you<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#thanks-to-all-of-you" class="hash-link" aria-label="Direct link to Thanks to all of you" title="Direct link to Thanks to all of you">​</a></h2>
 <p>Thank you for your involvement, inspiration, and hard work. Together, we can achieve even greater heights and create something truly amazing.</p>
 <p>Let's continue our journey together and make OpenBLD.net even better. Thank you for your excellence and belief in our shared success.</p>
 <p>Best regards,
@@ -607,58 +651,6 @@ knowledge and experience has made me stronger, and our project more valuable to 
             <category>2023</category>
             <category>letter</category>
             <category>thanks</category>
-        </item>
-        <item>
-            <title><![CDATA[↘ OpenBLD.net and zDNS Blackhole Server]]></title>
-            <link>https://openbld.net/blog/openbld-zdns-blackhole-server/</link>
-            <guid>https://openbld.net/blog/openbld-zdns-blackhole-server/</guid>
-            <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[zDNS is now a part of the OpenBLD.net project. It is a DNS server that can be used as a blackhole for malicious domains.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/zDNS_as_blackhole-9c396379d5560ee267edfdc862996ca9.gif" width="1278" height="660" class="img_ev3q"></p>
-<p><strong>Abstract</strong>: I'm happy to announce 🎉 that <a href="https://github.com/m0zgen/zdns/tree/dev" target="_blank" rel="noopener noreferrer">zDNS</a> is now a part of the
-<a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> project. It is a DNS server that can be used as a blackhole for
-malicious domains. It is a great addition to the <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> project,
-and I'm excited to see how it will evolve in the future 🚀</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="befor-begin">Befor begin<a class="hash-link" aria-label="Direct link to Befor begin" title="Direct link to Befor begin" href="https://openbld.net/blog/openbld-zdns-blackhole-server/#befor-begin">​</a></h2>
-<p>Following Zero Trust <a href="https://en.wikipedia.org/wiki/Zero_trust_security_model" target="_blank" rel="noopener noreferrer">model</a> practices,
-I recently wrote and am slowly beginning to introduce new “blackhole” functionality into the
-OpenBLD.net DNS ecosystem.</p>
-<p>zDNS is a DNS server that puts security and control over DNS queries at the center.
-With new functionality, zDNS now supports regular expressions in hosts.txt files, allowing more
-flexibility in configuring allowed queries. Now you can use the power of regular expressions to
-precisely control permissions, including subdomains and patterns.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="main-zdns-features">Main zDNS features<a class="hash-link" aria-label="Direct link to Main zDNS features" title="Direct link to Main zDNS features" href="https://openbld.net/blog/openbld-zdns-blackhole-server/#main-zdns-features">​</a></h2>
-<ul>
-<li>Denies all DNS queries by default</li>
-<li>Allows you to configure allowed requests through the hosts.txt file</li>
-<li>Uses balancing strategies to ensure reliable operation with DNS servers</li>
-<li>🛠 Easily customizable via YAML configuration</li>
-<li>🔜 Prometheus metrics coming soon..</li>
-</ul>
-<p>Additional protection of your infrastructure or testing requests with zDNS is possible and may be useful to you! Download the latest version here and start using a DNS server with powerful customization options:</p>
-<ul>
-<li><a href="https://github.com/m0zgen/zdns/tree/dev" target="_blank" rel="noopener noreferrer">https://github.com/m0zgen/zdns/tree/dev</a></li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>zdns</category>
-            <category>blackhole</category>
-        </item>
-        <item>
-            <title><![CDATA[📢 OpenBLD.net IPv6 Pre-Release]]></title>
-            <link>https://openbld.net/blog/openbld-ipv6-pre-release/</link>
-            <guid>https://openbld.net/blog/openbld-ipv6-pre-release/</guid>
-            <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net is preparing for the IPv6 Pre-Release]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net IPv6 Pre-Release" src="https://openbld.net/assets/images/openbld-ipv6-pre-release-f32bde5cf3690075db6e38c2aa6b3161.png" width="1250" height="460" class="img_ev3q"></p>
-<p>Last week, last month, this year... I've been meeting and talking to different people, and they all echoed the same sentiment - <strong>IPv6 is needed</strong> 💯</p>
-<p>A few days ago, I got acquainted with <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer"><strong><em>VEESP.com</em></strong></a>, a company that generously provided OpenBLD.net with an incredibly fast server featuring a high-speed Ethernet connection 🛞</p>
-<p><strong>Abstract</strong>: Usually, I spend some time testing servers, then assign them a secondary role before introducing them to the production environment. However, this time was different...</p>
-<p>I was so impressed 😱 with the <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">veesp.com</a> server's speed that it practically flew into production almost immediately... )</p>
-<p>I believe this is a great opportunity to start exploring the IPv6 space. In this month or early 2024, I hope we can begin experimenting with IPv6!</p>
-<p>If you're ready to participate in the preliminary testing, please let me know through this <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1uHCuDcvhYeP9HCQtJySQByoPhc0koa_rCjk6UP_rxBZtNw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">OpenBLD.net Pre-Release Testing Form</a>. I will reach out to you directly when the time comes, and together we can strive to make this world even better.</p>
-<p>P.S. Thanks to veesp.com and everyone who gives incentive to take a step forward 🤝</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>ipv6</category>
         </item>
     </channel>
 </rss>
