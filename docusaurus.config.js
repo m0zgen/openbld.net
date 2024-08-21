@@ -11,7 +11,7 @@ const darkTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free',
-  tagline: 'Free DNS - with DoT, DoH',
+  tagline: 'Free DNS - with DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

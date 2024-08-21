@@ -3,7 +3,7 @@
     "message": "Блокировка рекламы, телеметрии, вредоносных доменов"
   },
   "homepage.Header.Subtitle": {
-    "message": "Бесплатный DNS - с DoT, DoH"
+    "message": "Бесплатный DNS - с DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS"
   },
   "homepage.Header.Button1": {
     "message": "Как настроить за 5 минут"
