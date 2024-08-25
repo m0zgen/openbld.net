@@ -2,26 +2,39 @@
 sidebar_position: 1
 ---
 
-# dnscrypt-proxy
+# unbound
 
-## What is [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)?
+## Setup DoT (DNS-over-TLS) on unbound
 
-A flexible DNS proxy, with support for modern encrypted DNS protocols such as DNSCrypt v2, DNS-over-HTTPS, 
-Anonymized DNSCrypt and ODoH (Oblivious DoH).
+Use Unbound as an upstream DNS-over-TLS forwarder you can with the `forward-addr` parameter in the `unbound.conf` file.
 
-## Setup OpenBLD.net (ADA) on dnscrypt-proxy
+### Find the nearest DoT server
 
-Add in to `[static]` section of `dnscrypt-proxy.toml`:
+You can try to check the nearest server for you, as example with `nslookup` or `dig` commands:
 
-```toml
-
-[static]
-
-    [static.'ada.openbld.net']
-    stamp = 'sdns://AgAAAAAAAAAAAAAPYWRhLm9wZW5ibGQubmV0Ci9kbnMtcXVlcnk'
+```bash
+nslookup -port=53 ada.openbld.net 1.1.1.1
 ```
 
-:::tip
-As default `dnscrypt-proxy` uses `[sources]` list for multiple resolvers.
-If you want to use only OpenBLD.net, you can remove or comment all other resolvers from `[sources]` section.
-:::
+Output:
+
+```bash
+Server:		1.1.1.1
+Address:	1.1.1.1#53
+
+Non-authoritative answer:
+Name:	ada.openbld.net
+Address: 104.152.xx.xx
+Name:	ada.openbld.net
+Address: 109.199.xx.xx
+```
+
+Make sure, the service is working, try to connect any server to 853 port:
+
+```shell
+telnet 104.152.xx.xx 853 
+Trying 104.152.xx.xx...
+Connected to 104.152.xx.xx.
+```
+
+Next step — take any IP and try to setup your server.
