@@ -59,8 +59,16 @@
     "message": "Сторонние фильтры",
     "description": "The label for category Setup 3d filters in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Setup Third Party Filters.link.generated-index.description": {
+    "message": "Настойка OpenBLD.net с фильтрами сторонних производителей",
+    "description": "The generated-index page description for category Setup Routers in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Setup Third Party Proxies": {
-    "message": "Сторонние прокси",
+    "message": "Сторонние прокси и ПО",
     "description": "The label for category Setup 3d proxies in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Third Party Proxies.link.generated-index.description": {
+    "message": "Настойка OpenBLD.net в различном ПО и прокси",
+    "description": "The generated-index page description for category Setup Routers in sidebar tutorialSidebar"
   }
 }

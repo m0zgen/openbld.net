@@ -1,8 +1,8 @@
 {
-  "label": "Сторонние прокси",
+  "label": "Сторонние прокси и ПО",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Setup OpenBLD.net with 3rd Party DNS proxies",
+    "description": "Настойка OpenBLD.net в различном ПО и прокси"
   }
 }
