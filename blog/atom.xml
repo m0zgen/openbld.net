@@ -8,35 +8,36 @@
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[🤝 ClouDNS OpenBLD.net support'24]]></title>
-        <id>https://openbld.net/blog/cloudns-openbld-supports-2024/</id>
-        <link href="https://openbld.net/blog/cloudns-openbld-supports-2024/"/>
+        <title type="html"><![CDATA[🤝 UptimeRobot OpenBLD.net support'24]]></title>
+        <id>https://openbld.net/blog/uptimerobot-openbld-supports-2024/</id>
+        <link href="https://openbld.net/blog/uptimerobot-openbld-supports-2024/"/>
         <updated>2024-08-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ClouDNS - Best DNS service. Supported OpenBLD.net in 2024 year.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="ClouDNS OpenBLD.net support" src="https://openbld.net/assets/images/openbld-and-cloudns-2024-a5e7d6ba8f542e0de206914f4aea0200.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - fast and secure DNS Hosting service, supported OpenBLD.net in the year 2024! 🤝</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudnsnet-experience">ClouDNS.net Experience<a href="https://openbld.net/blog/cloudns-openbld-supports-2024/#cloudnsnet-experience" class="hash-link" aria-label="Direct link to ClouDNS.net Experience" title="Direct link to ClouDNS.net Experience">​</a></h3>
-<p>I've been using ClouDNS.net for the OpenBLD.net project for several years now. Prior to this, I've tried all the popular
-and well-known DNS services worldwide, and with 100% confidence, I want to say:
-ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="https://openbld.net/blog/cloudns-openbld-supports-2024/#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features">​</a></h3>
+        <summary type="html"><![CDATA[UptimeRobot - Best monitoring service. Supported OpenBLD.net in 2024 year.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="UptimeRobot OpenBLD.net support" src="https://openbld.net/assets/images/openbld-uptime-robot-supports-2024-7ad290265ed923c190c5c008611c8862.png" width="1250" height="680" class="img_ev3q"></p>
+<p><a href="https://uptimerobot.com/?rid=78534763f4713b" target="_blank" rel="noopener noreferrer">UptimeRobot.com</a> - The world's leading uptime monitoring service, supported OpenBLD.net in the year 2024! 🤝</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="uptimerobot-experience">UptimeRobot Experience<a href="https://openbld.net/blog/uptimerobot-openbld-supports-2024/#uptimerobot-experience" class="hash-link" aria-label="Direct link to UptimeRobot Experience" title="Direct link to UptimeRobot Experience">​</a></h3>
+<p>UptimeRobot is the best monitoring solution for OpenBLD.net and exactly what I need:</p>
 <ul>
-<li>Fast</li>
-<li>Reliable</li>
-<li>Geographically distributed</li>
-<li>Includes built-in <a href="https://www.cloudns.net/monitoring/" target="_blank" rel="noopener noreferrer">monitoring</a></li>
-<li><a href="https://www.cloudns.net/wiki/article/441/" target="_blank" rel="noopener noreferrer">Free SSL</a> certificates</li>
+<li>Multiple UptimeRobot monitoring PoPs</li>
+<li>Various locations worldwide</li>
+<li>Different monitor types (ports, protocols, etc.)</li>
+<li>Notifications via Telegram, Email</li>
+<li>One feature I especially value is the status page that displays the health of all servers in my project: bld-status.sys-adm.in</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stability">Stability<a href="https://openbld.net/blog/cloudns-openbld-supports-2024/#stability" class="hash-link" aria-label="Direct link to Stability" title="Direct link to Stability">​</a></h3>
-<p>I especially want to highlight the stability of ClouDNS. Throughout the entire period of usage, there hasn't been a single outage, making ClouDNS the perfect choice for OpenBLD.</p>
-<p>I highly recommend ClouDNS to anyone looking for a high-quality DNS service.</p>
-<p>ClouDNS.net — Thank you for your work! ✌️</p>]]></content>
+<p>I've been using UptimeRobot for many years and have never experienced any issues with their service. Of course:</p>
+<ul>
+<li>I highly recommend UptimeRobot to anyone looking for a reliable online monitoring service.</li>
+</ul>
+<p>The free plan includes 50 monitors with 5-minute checks totally free:</p>
+<ul>
+<li>Go to <a href="https://uptimerobot.com/?rid=78534763f4713b" target="_blank" rel="noopener noreferrer">UptimeRobot.com</a>.</li>
+</ul>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>
         </author>
         <category label="openbld" term="openbld"/>
-        <category label="cloudns" term="cloudns"/>
+        <category label="uptimerobot" term="uptimerobot"/>
         <category label="support" term="support"/>
         <category label="2024" term="2024"/>
     </entry>
