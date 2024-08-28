@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-08-07T00:00:00.000Z</updated>
+    <updated>2024-08-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🤝 ClouDNS OpenBLD.net support'24]]></title>
+        <id>https://openbld.net/blog/cloudns-openbld-supports-2024/</id>
+        <link href="https://openbld.net/blog/cloudns-openbld-supports-2024/"/>
+        <updated>2024-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ClouDNS - Best DNS service. Supported OpenBLD.net in 2024 year.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="ClouDNS OpenBLD.net support" src="https://openbld.net/assets/images/openbld-and-cloudns-2024-a5e7d6ba8f542e0de206914f4aea0200.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - fast and secure DNS Hosting service, supported OpenBLD.net in the year 2024! 🤝</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudnsnet-experience">ClouDNS.net Experience<a href="https://openbld.net/blog/cloudns-openbld-supports-2024/#cloudnsnet-experience" class="hash-link" aria-label="Direct link to ClouDNS.net Experience" title="Direct link to ClouDNS.net Experience">​</a></h3>
+<p>I've been using ClouDNS.net for the OpenBLD.net project for several years now. Prior to this, I've tried all the popular
+and well-known DNS services worldwide, and with 100% confidence, I want to say:
+ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="https://openbld.net/blog/cloudns-openbld-supports-2024/#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features">​</a></h3>
+<ul>
+<li>Fast</li>
+<li>Reliable</li>
+<li>Geographically distributed</li>
+<li>Includes built-in <a href="https://www.cloudns.net/monitoring/" target="_blank" rel="noopener noreferrer">monitoring</a></li>
+<li><a href="https://www.cloudns.net/wiki/article/441/" target="_blank" rel="noopener noreferrer">Free SSL</a> certificates</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stability">Stability<a href="https://openbld.net/blog/cloudns-openbld-supports-2024/#stability" class="hash-link" aria-label="Direct link to Stability" title="Direct link to Stability">​</a></h3>
+<p>I especially want to highlight the stability of ClouDNS. Throughout the entire period of usage, there hasn't been a single outage, making ClouDNS the perfect choice for OpenBLD.</p>
+<p>I highly recommend ClouDNS to anyone looking for a high-quality DNS service.</p>
+<p>ClouDNS.net — Thank you for your work! ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="cloudns" term="cloudns"/>
+        <category label="support" term="support"/>
+        <category label="2024" term="2024"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🟢️️️️️️ OpenBLD.net New server in Kazakhstan]]></title>
         <id>https://openbld.net/blog/openbld-update-notice-2024-08-07/</id>
@@ -672,63 +705,5 @@ DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...</p>]]></con
         <category label="openbld" term="openbld"/>
         <category label="AlphaVPS" term="AlphaVPS"/>
         <category label="growth" term="growth"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🖖 OpenBLD.net Open Thanks Letter 2023]]></title>
-        <id>https://openbld.net/blog/openbld-thanks-letter-of-end-2023/</id>
-        <link href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/"/>
-        <updated>2023-12-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net Thanks Letter of End 2023 year.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Thanks Letter of End 2023" src="https://openbld.net/assets/images/openbld-thanks-for-all-2023-157f546840ca8c4250d78f54f0da7303.jpeg" width="3840" height="2160" class="img_ev3q"></p>
-<p>Dear friends and partners of <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a>,</p>
-<p>With great enthusiasm and pride, I address you with this open letter of gratitude. My project, OpenBLD.net, could not have reached such heights without your invaluable support and contribution.</p>
-<p>Together, we have created something extraordinary – a platform that unites, inspires and making your live is safer, and I would like to extend sincere thanks to each and every one of you.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="to-companies">To Companies<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#to-companies" class="hash-link" aria-label="Direct link to To Companies" title="Direct link to To Companies">​</a></h2>
-<p>Thanks to the companies that provided us with resources, solutions, funding and expertise, I were able to significantly enhance the functionality of OpenBLD.net. Your contribution has enriched the experience of OpenBLD.net users and made our platform more accessible and effective.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dns-cloud-providers">DNS Cloud Providers<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#dns-cloud-providers" class="hash-link" aria-label="Direct link to DNS Cloud Providers" title="Direct link to DNS Cloud Providers">​</a></h3>
-<ul>
-<li><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - for providing us with a best DNS hosting solution and free GeoDNS Plan for the OpenBLD.net project</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vps-servers">VPS Servers<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#vps-servers" class="hash-link" aria-label="Direct link to VPS Servers" title="Direct link to VPS Servers">​</a></h3>
-<ul>
-<li><a href="https://m.do.co/c/42011b938fe6" target="_blank" rel="noopener noreferrer">DigitalOcean.com</a> - for providing us with a free credits for VPS servers for the OpenBLD.net project</li>
-<li><a href="https://gcore.com/" target="_blank" rel="noopener noreferrer">GCore Labs</a> - for providing us with a free VPS servers for the <strong>ADA</strong> OpenBLD.net project in Japan, Tokyo</li>
-<li><a href="https://gohost.kz/" target="_blank" rel="noopener noreferrer">GoHost.kz</a> - for providing us with a free VPS servers for the <strong>RIC</strong> OpenBLD.net project in Kazakhstan, Karaganda</li>
-<li><a href="https://unihost.kz/" target="_blank" rel="noopener noreferrer">Unihost.kz</a> - for providing us with a free VPS servers for the <strong>ADA</strong> OpenBLD.net project in Kazakhstan, Almaty</li>
-<li><a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">VEESP.com</a> - for providing us with a free VPS servers for the <strong>ADA</strong> OpenBLD.net project in Latvia, Riga</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="monitoring-solutions">Monitoring Solutions<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#monitoring-solutions" class="hash-link" aria-label="Direct link to Monitoring Solutions" title="Direct link to Monitoring Solutions">​</a></h3>
-<ul>
-<li><a href="https://www.netdata.cloud/?utm_campaign=technical&amp;utm_source=content&amp;utm_medium=website&amp;utm_content=openbld-dns" target="_blank" rel="noopener noreferrer">Netdata</a> - for providing us with a free Business Plan for the OpenBLD.net</li>
-<li><a href="https://uptimerobot.com/?rid=78534763f4713b" target="_blank" rel="noopener noreferrer">UptimeRobot</a> - for providing us with a free Pro Plan for the OpenBLD.net</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="coding-solutions">Coding Solutions<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#coding-solutions" class="hash-link" aria-label="Direct link to Coding Solutions" title="Direct link to Coding Solutions">​</a></h3>
-<ul>
-<li><a href="https://www.jetbrains.com/" target="_blank" rel="noopener noreferrer">JetBrains</a> - for providing us with a free OSS license for the <a href="https://jb.gg/OpenSourceSupport" target="_blank" rel="noopener noreferrer">IntelliJ IDEA</a> IDE.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="contrubutors">Contrubutors<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#contrubutors" class="hash-link" aria-label="Direct link to Contrubutors" title="Direct link to Contrubutors">​</a></h3>
-<ul>
-<li><a href="https://powerdmarc.com/" target="_blank" rel="noopener noreferrer">PowerDMARC</a> - supported OpenBLD.net with a funding for the OpenBLD.net project</li>
-</ul>
-<p>I am grateful for your support and look forward to continuing our collaboration in the future 🔮</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>All company logos and links contains on the who helps to the growth 🚀 <a href="https://openbld.net/#company-logos" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> section.</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="to-individuals">To Individuals<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#to-individuals" class="hash-link" aria-label="Direct link to To Individuals" title="Direct link to To Individuals">​</a></h2>
-<p>To individuals who contributed their skills and time, I want to express deep gratitude. Your willingness to share
-knowledge and experience has made me stronger, and our project more valuable to society.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Each who has contributed to the OpenBLD.net project has name in special Thanks section on the <a href="https://openbld.net/#thanks-section" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> website.</p></div></div>
-<p>With each new member of our team, we expand the horizons of possibilities.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks-to-all-of-you">Thanks to all of you<a href="https://openbld.net/blog/openbld-thanks-letter-of-end-2023/#thanks-to-all-of-you" class="hash-link" aria-label="Direct link to Thanks to all of you" title="Direct link to Thanks to all of you">​</a></h2>
-<p>Thank you for your involvement, inspiration, and hard work. Together, we can achieve even greater heights and create something truly amazing.</p>
-<p>Let's continue our journey together and make OpenBLD.net even better. Thank you for your excellence and belief in our shared success.</p>
-<p>Best regards,
-<a href="https://github.com/m0zgen" target="_blank" rel="noopener noreferrer">Yevgeniy Goncharov</a>, <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> Founder</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="2023" term="2023"/>
-        <category label="letter" term="letter"/>
-        <category label="thanks" term="thanks"/>
     </entry>
 </feed>
