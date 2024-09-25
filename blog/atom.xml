@@ -2,11 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-08-28T00:00:00.000Z</updated>
+    <updated>2024-09-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🟢️️️️️️ OpenBLD.net New server from 3hcloud in Almaty]]></title>
+        <id>https://openbld.net/blog/openbld-new-server-from-3hcloud-in-almaty-2024-09-24/</id>
+        <link href="https://openbld.net/blog/openbld-new-server-from-3hcloud-in-almaty-2024-09-24/"/>
+        <updated>2024-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - New server in 3hcloud.kz, 3hcloud.com Almaty Kazakhstan]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New Server in 3hcloud.com Almaty Kazakhstan" src="https://openbld.net/assets/images/openbld-net-new-server-almaty-3hcloud-ec4c1fe731a0f0aad9f04434d58ad826.jpg" width="1250" height="680" class="img_ev3q"></p>
+<p>🚀 OpenBLD.net new DNS server in Kazakhstan 🇰🇿 Almaty</p>
+<p>Recently learned about 3hcloud.kz. Went, tried it and was pleasantly surprised:</p>
+<ul>
+<li>speed (connectivity and instances are super)</li>
+<li>liked the firewall</li>
+<li>prices were pleasantly surprising</li>
+</ul>
+<p>After several weeks of testing, I can firmly say - compatibility with OpenBLD.net is present.</p>
+<p>Configure Chrome as described here:</p>
+<ul>
+<li>How-to set up your favorite <a href="https://openbld.net/docs/get-started/setup-browsers/chrome/">Browser</a></li>
+</ul>
+<p>And then open the site that got you with ads and be surprised yourself.</p>
+<p>P.S. There is a case or something does not work - welcome at any time (contacts)</p>
+<p>P.P.S. Yandex Cloud unfortunately turned out to be incompatible with OpenBLD.net quality requirements, all servers based on this cloud will be abolished in the near future ⚰️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="performance" term="performance"/>
+        <category label="2024" term="2024"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🤝 UptimeRobot OpenBLD.net support'24]]></title>
         <id>https://openbld.net/blog/uptimerobot-openbld-supports-2024/</id>
@@ -676,29 +707,6 @@ and now I hope, it is ready for production usage...</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use">How to Use<a href="https://openbld.net/blog/zdns-big-updates-and-features/#how-to-use" class="hash-link" aria-label="Direct link to How to Use" title="Direct link to How to Use">​</a></h2>
 <p>All related content about zDNS you can find on the <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> GitHub repository.</p>
 <p>Feedback is welcome! <a href="https://openbld.net/docs/contacts/">Contacts</a>.</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="AlphaVPS" term="AlphaVPS"/>
-        <category label="growth" term="growth"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🤝 OpenBLD.net growth with AlphaVPS]]></title>
-        <id>https://openbld.net/blog/openbld-and-alphavps-cooperation/</id>
-        <link href="https://openbld.net/blog/openbld-and-alphavps-cooperation/"/>
-        <updated>2024-01-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New OpenBLD.net points in Bulgaria, Germany of presence have been added in the world with AlphaVPS.com!]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and zDNS Blackhole Server" src="https://openbld.net/assets/images/openbld-and-alphavps-cooperation-53a744dcae54c04e67e9e99ecaad450e.png" width="1250" height="460" class="img_ev3q"></p>
-<p>New <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> points of presence have been added in the world thanks to <a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a>!</p>
-<p><a href="https://alphavps.com/clients/aff.php?aff=657" target="_blank" rel="noopener noreferrer">AlphaVPS.com</a> - Fast &amp; Cheap VPS, Cloud Servers and few servers from AlphaVPS
-stay which located in <strong>Bulgaria</strong> and <strong>Germany</strong> joined in to OpenBLD.net ecosystem.</p>
-<p>As you know one of the our prioritites - fast DoH/DoT responses and <em>1GBit/s</em> from AlphaVPS it is good base for this requirements.</p>
-<p>One server already available for users (see <a href="https://bld-status.sys-adm.in/" target="_blank" rel="noopener noreferrer">status</a> of Ada-h4),
-second server will be available in the next few days. Enjoy it 🚀</p>
-<p>P.S. Few times ago I posted OpenBLD.net <a href="https://openbld.net/blog/openbld-ipv6-pre-release/">IPv6 Pre-Release</a> notice, in few near weeks I'll plan implement
-DoH/DoT IPv6 for users in Europe, I'll tell about this later 😎...</p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>
