@@ -6,11 +6,11 @@ authors: [sysadminkz]
 tags: [openbld, updates, performance, 2024]
 ---
 
-![OpenBLD.net - New Server in 3hcloud.com Almaty Kazakhstan](images/openbld-net-new-server-almaty-3hcloud.jpg)
+![OpenBLD.net - New Server in 3hcloud.kz Almaty Kazakhstan](images/openbld-net-new-server-almaty-3hcloud.jpg)
 
 🚀 OpenBLD.net new DNS server in Kazakhstan 🇰🇿 Almaty
 
-Recently learned about 3hcloud.kz. Went, tried it and was pleasantly surprised:
+Recently learned about [3hcloud.kz](https://3hcloud.kz/). Went, tried it and was pleasantly surprised:
 
 - speed (connectivity and instances are super)
 - liked the firewall
