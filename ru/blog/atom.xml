@@ -2,11 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-09-25T00:00:00.000Z</updated>
+    <updated>2024-09-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[↘  How to disable systemd-resolved through resolved.conf settings]]></title>
+        <id>https://openbld.net/ru/blog/disable-systemd-resolved-throught-embed-settings/</id>
+        <link href="https://openbld.net/ru/blog/disable-systemd-resolved-throught-embed-settings/"/>
+        <updated>2024-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How to disable systemd-resolved through resolved.conf settings]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - How to disable systemd-resolved" src="https://openbld.net/ru/assets/images/disable-systemd-resolved-throught-embed-settings-86f2a11ccb61cb5ce6a9a42d3052165f.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="intro">Intro<a href="https://openbld.net/ru/blog/disable-systemd-resolved-throught-embed-settings/#intro" class="hash-link" aria-label="Прямая ссылка на Intro" title="Прямая ссылка на Intro">​</a></h2>
+<p>In short, the <code>systemd-resolved</code> service is a system service that provides network name resolution to local applications. It implements a caching DNS stub resolver and an LLMNR resolver and responder.</p>
+<p>See the <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.service.html#:~:text=systemd%2Dresolved%20is%20a%20system,and%20MulticastDNS%20resolver%20and%20responder." target="_blank" rel="noopener noreferrer">official documentation</a> for more information.</p>
+<p>In some cases, you may need to disable this service. For example, if you are using a custom DNS server or if you are using a VPN service that provides its own DNS servers.
+You can disable Systemd-resolved using your own settings in the <code>resolved.conf</code> file.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-disable-systemd-resolved">How to disable systemd-resolved<a href="https://openbld.net/ru/blog/disable-systemd-resolved-throught-embed-settings/#how-to-disable-systemd-resolved" class="hash-link" aria-label="Прямая ссылка на How to disable systemd-resolved" title="Прямая ссылка на How to disable systemd-resolved">​</a></h2>
+<ol>
+<li>Open <code>/etc/systemd/resolved.conf</code> in your favorite text editor.</li>
+<li>Find <code>DNSStubListener</code> setting and set it to <code>no</code>.</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">[Resolve]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">...</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">#Cache=no-negative</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">DNSStubListener=no</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">...</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p>You can create additional config in the <code>/etc/systemd/resolved.conf.d/</code> directory. For example, you can create a file <code>/etc/systemd/resolved.conf.d/00-disable-stub.conf</code> with the following content:</p><div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">[Resolve]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">DNSStubListener=no</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></div></div>
+<p>Then you need to set <code>/etc/resolv.conf</code> as symlink to <code>/run/systemd/resolve/resolv.conf</code>:</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>After that, restart the <code>systemd-resolved</code> service:</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">systemctl restart systemd-resolved</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="system" term="system"/>
+        <category label="recommendations" term="recommendations"/>
+        <category label="openbld" term="openbld"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net - Switched to in-touch release model]]></title>
+        <id>https://openbld.net/ru/blog/openbld-switched-to-in-touch-release-model-2024/</id>
+        <link href="https://openbld.net/ru/blog/openbld-switched-to-in-touch-release-model-2024/"/>
+        <updated>2024-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net in-touch release model - trunk-based model, rolling release, canary > production deployment]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - In-Touch Release Model" src="https://openbld.net/ru/assets/images/openbld-in-touch-release-model-2024-f808f430eacc57cb4eb7c9cc89c82dd3.png" width="1250" height="680" class="img_ev3q"></p>
+<p>🚀 OpenBLD.net - Switched to in-touch release model</p>
+<p>A few weeks ago I announced Canary release, now I decided switch to "in-touch" deployment stages.</p>
+<p>To start with, I'm using my "<a href="https://flex-doc.pages.dev/" target="_blank" rel="noopener noreferrer">Flex App Additions Methodology</a>" in my projects. Often some bugs have to be fixed quickly, we all want these bugs to be fixed quickly..)</p>
+<p>My "in-touch" release model includes:</p>
+<ol>
+<li>Trunk-based development model</li>
+<li>Rolling release</li>
+<li>Canary &gt; Production deployment</li>
+</ol>
+<p>This model can includes unnotified maintenance window ~3 minutes or 3 iteration maximum in a day, this does not mean that the service will be unavailable at this time, you just need to keep in mind that if suddenly something goes wrong for you, you immediately let me know about it, that's all)</p>
+<p>Be patient while running, only forward!</p>
+<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> is always with you ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="performance" term="performance"/>
+        <category label="2024" term="2024"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🟢️️️️️️ OpenBLD.net New server from 3hcloud in Almaty]]></title>
         <id>https://openbld.net/ru/blog/openbld-new-server-from-3hcloud-in-almaty-2024-09-24/</id>
@@ -647,72 +707,5 @@ fields (like as you own Allow/Block lists, personal DoH links, etc.)</li>
         <category label="testing" term="testing"/>
         <category label="beta" term="beta"/>
         <category label="privacy" term="privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🎉 OpenBLD.net Chrome Extension v1.1 Released]]></title>
-        <id>https://openbld.net/ru/blog/2024-01-29-openbld--blocker-chrome-extension-released/</id>
-        <link href="https://openbld.net/ru/blog/2024-01-29-openbld--blocker-chrome-extension-released/"/>
-        <updated>2024-01-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net Blocker browser extension released on official Google Extension Store today 💪]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Chrome Extension v1.1 Released" src="https://openbld.net/ru/assets/images/openbld-chrome-extension-v1.1-released-adc03e8d48327b80a1b3c1447a0d1833.jpeg" width="1250" height="633" class="img_ev3q"></p>
-<p>OpenBLD.net Blocker extension released on official Google Extension Store today 💪</p>
-<p>This is OpenBLD.net add-on which can block some ADS services (such as Yad advertising) on some
-web resources that has HTML embedded ads...</p>
-<p>OpenBLD.net service+Extension Blocker - Perfect combination for reducing Internet noise 🧘‍♂️</p>
-<p>Try or Update OpenBLD.net Blocker from the Official Chrome Internet <a href="https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea" target="_blank" rel="noopener noreferrer">Store</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p><strong>Note</strong>: OpenBLD.net setup is required before using the Browser extension</p></div></div>
-<p>Feedback is welcome! <a href="https://openbld.net/ru/docs/contacts/">Contacts</a>.</p>
-<p>P.S. After an extension will update, re-enable extension is required.</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="AlphaVPS" term="AlphaVPS"/>
-        <category label="growth" term="growth"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 New zDNS Big Updates and Features]]></title>
-        <id>https://openbld.net/ru/blog/zdns-big-updates-and-features/</id>
-        <link href="https://openbld.net/ru/blog/zdns-big-updates-and-features/"/>
-        <updated>2024-01-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net - zDNS v0.2.5 Release with Big Updates and Features]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="zDNS v0.2.5 Release with Big Updates and Features" src="https://openbld.net/ru/assets/images/zDNS_new_Release-f65a125bd457509cdf7ba99b3f4b10b0.jpeg" width="1250" height="460" class="img_ev3q"></p>
-<p>Few month ago I stared develop from scratch <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> service,
-and now I hope, it is ready for production usage...</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="features">Features<a href="https://openbld.net/ru/blog/zdns-big-updates-and-features/#features" class="hash-link" aria-label="Прямая ссылка на Features" title="Прямая ссылка на Features">​</a></h2>
-<ul>
-<li>Restrict DNS queries by type like as A, AAAA, HTTPS, CNAME, MX, PTR</li>
-<li>Balancing DNS traffic between upstream servers</li>
-<li>Providing Prometheus metrics</li>
-<li>DNS responses caching by custom TTL</li>
-<li>Has few working modes - Zero Trust, Allow/Blocking domain names</li>
-<li>Has separated "Permanent" mode with additional custom upstream DNS servers</li>
-<li>Can load allow/block lists from local and remote through HTTP(S)</li>
-<li>Create/Delete custom users with different configs and hosts files</li>
-<li>Can run as separated instance for each different users</li>
-<li>Has TCP/UDP DNS interfaces</li>
-<li>Can run as daemon or one-shot mode</li>
-<li>Can parse DNS names with regular expressions...</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-forward">Looking Forward<a href="https://openbld.net/ru/blog/zdns-big-updates-and-features/#looking-forward" class="hash-link" aria-label="Прямая ссылка на Looking Forward" title="Прямая ссылка на Looking Forward">​</a></h2>
-<p>I am looking forward to the future of the OpenBLD.net project and hope that it will continue to grow and develop.</p>
-<p>Now I'm testing exclusive option - unique DoH links with unique allow/block domain lists...</p>
-<p>In the near future, I hope everyone will be able to use their own unique opportunity of OpenBLD.net usage in personal browsers and phones, where they will be able to independently manage their personal own white and black lists
-(for example, via Git)..</p>
-<p>Be the first to try it, leave your contacts in this form and I will contact you as soon as the service is ready:</p>
-<ul>
-<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Register for OpenBLD.net Personal Usage Testing</a></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use">How to Use<a href="https://openbld.net/ru/blog/zdns-big-updates-and-features/#how-to-use" class="hash-link" aria-label="Прямая ссылка на How to Use" title="Прямая ссылка на How to Use">​</a></h2>
-<p>All related content about zDNS you can find on the <a href="https://github.com/m0zgen/zdns" target="_blank" rel="noopener noreferrer">zDNS</a> GitHub repository.</p>
-<p>Feedback is welcome! <a href="https://openbld.net/ru/docs/contacts/">Contacts</a>.</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="AlphaVPS" term="AlphaVPS"/>
-        <category label="growth" term="growth"/>
     </entry>
 </feed>
