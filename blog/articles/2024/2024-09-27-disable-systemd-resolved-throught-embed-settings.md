@@ -3,7 +3,7 @@ slug: disable-systemd-resolved-throught-embed-settings
 title: ↘  How to disable systemd-resolved through resolved.conf settings
 description: How to disable systemd-resolved through resolved.conf settings 
 authors: [sysadminkz]
-tags: [linux, system, recommendations, openbld]
+tags: [linux, system, notes, openbld]
 ---
 
 ![OpenBLD.net - How to disable systemd-resolved](images/disable-systemd-resolved-throught-embed-settings.jpeg)
