@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-09-27T00:00:00.000Z</updated>
+    <updated>2024-10-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🤝 Growth of OpenBLD.net with REGXA in Canada]]></title>
+        <id>https://openbld.net/blog/openbld-growth-to-canada-with-regxa-2024/</id>
+        <link href="https://openbld.net/blog/openbld-growth-to-canada-with-regxa-2024/"/>
+        <updated>2024-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - New PoP in Canada with REGXA Hosting]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Growth to Canada with REGXA" src="https://openbld.net/assets/images/openbld-growth-to-canada-with-regxa-1-2024-fdade652172325357118e0b55ebbc01f.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p>We're excited to announce that OpenBLD.net has launched a new Point of Presence (PoP) in Canada, hosted by
+<a href="https://regxa.com/" target="_blank" rel="noopener noreferrer">REGXA</a>!</p>
+<p>In collaboration with <a href="https://regxa.com/" target="_blank" rel="noopener noreferrer">REGXA</a>, we also plan to establish
+two more PoPs in France and India in the next six months. I truly believe this partnership will bring
+significant benefits to everyone—enhancing the security of OpenBLD.net for our users and expanding our reach. REGXA has proven to be a reliable hosting provider, successfully handling the current load of OpenBLD.net.</p>
+<p>Moreover, our tests indicate that the new server in Canada responds significantly faster than others.
+So, we're moving forward!</p>
+<p>Take care, everyone! ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="REGXA" term="REGXA"/>
+        <category label="2024" term="2024"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[↘  How to disable systemd-resolved through resolved.conf settings]]></title>
         <id>https://openbld.net/blog/disable-systemd-resolved-throught-embed-settings/</id>
@@ -36,7 +60,7 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
         </author>
         <category label="linux" term="linux"/>
         <category label="system" term="system"/>
-        <category label="recommendations" term="recommendations"/>
+        <category label="notes" term="notes"/>
         <category label="openbld" term="openbld"/>
     </entry>
     <entry>
@@ -661,51 +685,5 @@ administrators and security analysts in safeguarding their networks and customer
         <category label="openbld" term="openbld"/>
         <category label="updates" term="updates"/>
         <category label="urlhaus" term="urlhaus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[↘ Take Control of Your Privacy! Join the OpenBLD.net PDP Beta]]></title>
-        <id>https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/</id>
-        <link href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/"/>
-        <updated>2024-02-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How to protect your online privacy and the privacy of your family? OpenBLD.net Personal DoH Profiling (PDP), can resolve this issue.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Take Control of Your Privacy! Join the OpenBLD.net PDP Beta" src="https://openbld.net/assets/images/join-beta-openbld-pdp-7bcf222e919a3ac280839a7aef81dc65.jpeg" width="1200" height="630" class="img_ev3q"></p>
-<p>Do you want to protect your online privacy and the privacy of your family? Join the beta for
-OpenBLD.net <strong>Personal <em>DoH</em> Profiling</strong> (PDP), a new service that provides:</p>
-<ul>
-<li><strong>Complete isolation</strong> of your DNS requests, ensuring that no one can track your online activity.</li>
-<li><strong>Personalized DNS settings</strong>, so you can block ads, malicious websites, and other unwanted content.</li>
-<li><strong>Robust security</strong> with DNSSEC, TLSv1.2, and TLSv1.3.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="benefits-of-pdp">Benefits of PDP<a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/#benefits-of-pdp" class="hash-link" aria-label="Direct link to Benefits of PDP" title="Direct link to Benefits of PDP">​</a></h2>
-<ul>
-<li><strong>Enhanced privacy</strong>: Your DNS requests will not be accessible to third parties, ensuring the confidentiality of your online activity.</li>
-<li><strong>Security</strong>: Protection from malicious websites, phishing attacks, and other online threats.</li>
-<li><strong>Control</strong>: Block ads, trackers, and other unwanted content.</li>
-<li><strong>Ease of use</strong>: Easy to set up and use.</li>
-<li><strong>Stability</strong>: All OpenBLD.net experiences under the hood.</li>
-<li><strong>Support</strong>: Access to a personal support.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-join-the-beta">How to Join the Beta<a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/#how-to-join-the-beta" class="hash-link" aria-label="Direct link to How to Join the Beta" title="Direct link to How to Join the Beta">​</a></h2>
-<p><strong>Be among the first to test OpenBLD.net PDP</strong>! Fill out the form below to get access to all features which will available in March 2024.</p>
-<ul>
-<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIEVFueE1XWHPGy2uL-NVv1ID3jIq3O_kp-q7WFmOS2lUTzw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Join to PDP Beta</a></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://openbld.net/blog/2024-02-19-openbld-pdp-beta-join/#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?">​</a></h2>
-<ol>
-<li>After you fill out the form, I will contact you to confirm your participation in the beta.</li>
-<li>In March-April 2024, you will receive a message from me with instructions (or it can be updated form) with additional
-fields (like as you own Allow/Block lists, personal DoH links, etc.)</li>
-<li>After all needed data is collected, you will receive a link to the service.</li>
-<li>Next, you will be able to use the service and provide <a href="https://openbld.net/docs/contacts/">feedback</a>.</li>
-</ol>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="pdp" term="pdp"/>
-        <category label="testing" term="testing"/>
-        <category label="beta" term="beta"/>
-        <category label="privacy" term="privacy"/>
     </entry>
 </feed>
