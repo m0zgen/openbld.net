@@ -32,34 +32,6 @@ So, we're moving forward!</p>
         <category label="2024" term="2024"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[🚀 OpenBLD.net - Switched to in-touch release model]]></title>
-        <id>https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/</id>
-        <link href="https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/"/>
-        <updated>2024-09-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net in-touch release model - trunk-based model, rolling release, canary > production deployment]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - In-Touch Release Model" src="https://openbld.net/assets/images/openbld-in-touch-release-model-2024-f808f430eacc57cb4eb7c9cc89c82dd3.png" width="1250" height="680" class="img_ev3q"></p>
-<p>🚀 OpenBLD.net - Switched to in-touch release model</p>
-<p>A few weeks ago I announced Canary release, now I decided switch to "in-touch" deployment stages.</p>
-<p>To start with, I'm using my "<a href="https://flex-doc.pages.dev/" target="_blank" rel="noopener noreferrer">Flex App Additions Methodology</a>" in my projects. Often some bugs have to be fixed quickly, we all want these bugs to be fixed quickly..)</p>
-<p>My "in-touch" release model includes:</p>
-<ol>
-<li>Trunk-based development model</li>
-<li>Rolling release</li>
-<li>Canary &gt; Production deployment</li>
-</ol>
-<p>This model can includes unnotified maintenance window ~3 minutes or 3 iteration maximum in a day, this does not mean that the service will be unavailable at this time, you just need to keep in mind that if suddenly something goes wrong for you, you immediately let me know about it, that's all)</p>
-<p>Be patient while running, only forward!</p>
-<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> is always with you ✌️</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="performance" term="performance"/>
-        <category label="2024" term="2024"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[↘  How to disable systemd-resolved through resolved.conf settings]]></title>
         <id>https://openbld.net/blog/disable-systemd-resolved-throught-embed-settings/</id>
         <link href="https://openbld.net/blog/disable-systemd-resolved-throught-embed-settings/"/>
@@ -90,6 +62,34 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
         <category label="system" term="system"/>
         <category label="notes" term="notes"/>
         <category label="openbld" term="openbld"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net - Switched to in-touch release model]]></title>
+        <id>https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/</id>
+        <link href="https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/"/>
+        <updated>2024-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net in-touch release model - trunk-based model, rolling release, canary > production deployment]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - In-Touch Release Model" src="https://openbld.net/assets/images/openbld-in-touch-release-model-2024-f808f430eacc57cb4eb7c9cc89c82dd3.png" width="1250" height="680" class="img_ev3q"></p>
+<p>🚀 OpenBLD.net - Switched to in-touch release model</p>
+<p>A few weeks ago I announced Canary release, now I decided switch to "in-touch" deployment stages.</p>
+<p>To start with, I'm using my "<a href="https://flex-doc.pages.dev/" target="_blank" rel="noopener noreferrer">Flex App Additions Methodology</a>" in my projects. Often some bugs have to be fixed quickly, we all want these bugs to be fixed quickly..)</p>
+<p>My "in-touch" release model includes:</p>
+<ol>
+<li>Trunk-based development model</li>
+<li>Rolling release</li>
+<li>Canary &gt; Production deployment</li>
+</ol>
+<p>This model can includes unnotified maintenance window ~3 minutes or 3 iteration maximum in a day, this does not mean that the service will be unavailable at this time, you just need to keep in mind that if suddenly something goes wrong for you, you immediately let me know about it, that's all)</p>
+<p>Be patient while running, only forward!</p>
+<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> is always with you ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="performance" term="performance"/>
+        <category label="2024" term="2024"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[🟢️️️️️️ OpenBLD.net New server from 3hcloud in Almaty]]></title>
@@ -507,29 +507,6 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
         <category label="ric" term="ric"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[📢 Optimized Profile for Apple Devices]]></title>
-        <id>https://openbld.net/blog/2024-04-01-openbld-updated-apple-profile/</id>
-        <link href="https://openbld.net/blog/2024-04-01-openbld-updated-apple-profile/"/>
-        <updated>2024-04-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net new iOS, iPadOS, macOS profiles, optimized for content delivery, especially for Apple users.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Update Profile for Apple Devices" src="https://openbld.net/assets/images/openbld_apple_profile_update-85f9120fb44b822941a105e5b204c126.png" width="1250" height="460" class="img_ev3q"></p>
-<p>Following recent attacks on one of the hosting providers within OpenBLD.net, I have updated the server topology to optimize content delivery, especially for Apple users.</p>
-<p>Download the optimized profile from the project website and simply install it over your existing one:</p>
-<ul>
-<li>Setup Mobile Devices &gt; <a href="https://openbld.net/docs/get-started/setup-mobile-devices/apple/">Apple</a></li>
-</ul>
-<p>If your system is functioning normally, updating is not mandatory. Just remember that the option is available. Peace! ✌️</p>
-<p>P.S. If you have any questions regarding the update - <a href="https://openbld.net/docs/contacts/">Welcome</a> 😎</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="apple" term="apple"/>
-        <category label="profile" term="profile"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[↘  Prevent Android Vultur Malware]]></title>
         <id>https://openbld.net/blog/prevent-android-vultur-malware/</id>
         <link href="https://openbld.net/blog/prevent-android-vultur-malware/"/>
@@ -543,6 +520,29 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
 <li><a href="https://blog.fox-it.com/2024/03/28/android-malware-vultur-expands-its-wingspan/" target="_blank" rel="noopener noreferrer">Fox-IT Blog</a></li>
 </ul>
 <p>Take care of yourself 🔐</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="apple" term="apple"/>
+        <category label="profile" term="profile"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📢 Optimized Profile for Apple Devices]]></title>
+        <id>https://openbld.net/blog/2024-04-01-openbld-updated-apple-profile/</id>
+        <link href="https://openbld.net/blog/2024-04-01-openbld-updated-apple-profile/"/>
+        <updated>2024-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net new iOS, iPadOS, macOS profiles, optimized for content delivery, especially for Apple users.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Update Profile for Apple Devices" src="https://openbld.net/assets/images/openbld_apple_profile_update-85f9120fb44b822941a105e5b204c126.png" width="1250" height="460" class="img_ev3q"></p>
+<p>Following recent attacks on one of the hosting providers within OpenBLD.net, I have updated the server topology to optimize content delivery, especially for Apple users.</p>
+<p>Download the optimized profile from the project website and simply install it over your existing one:</p>
+<ul>
+<li>Setup Mobile Devices &gt; <a href="https://openbld.net/docs/get-started/setup-mobile-devices/apple/">Apple</a></li>
+</ul>
+<p>If your system is functioning normally, updating is not mandatory. Just remember that the option is available. Peace! ✌️</p>
+<p>P.S. If you have any questions regarding the update - <a href="https://openbld.net/docs/contacts/">Welcome</a> 😎</p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>
