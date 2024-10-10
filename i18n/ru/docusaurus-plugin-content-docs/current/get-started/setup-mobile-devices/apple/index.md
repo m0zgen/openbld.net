@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Настройка OpenBLD.net на iOS, iPadOS и macOS
 
-1. Откройте `Safari` и **Разрешите** скачать ADA iOS/macOS [профиль](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v24-2.mobileconfig)
+1. Откройте `Safari` и **Разрешите** скачать ADA iOS/macOS [профиль](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v5-21.mobileconfig)
 
 ![Download OpenBLD Network iOS, iPad, macOS profile](./figure1-download-openbld-profile.jpg)
 
