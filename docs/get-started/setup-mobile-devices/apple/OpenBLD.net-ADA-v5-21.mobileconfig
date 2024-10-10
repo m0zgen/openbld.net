@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+      <key>PayloadContent</key>
+      <array>
+        <dict>
+          <key>DNSSettings</key>
+          <dict>
+            <key>DNSProtocol</key>
+            <string>HTTPS</string>
+            <key>ServerAddresses</key>
+            <array>
+              <string>49.13.231.3</string>
+<string>212.19.134.52</string>
+<string>185.192.97.172</string>
+
+            </array>
+            <key>ServerURL</key>
+            <string>https://ada.openbld.net/dns-query</string>
+          </dict>
+          <key>PayloadDescription</key>
+          <string>Configures device to use OpenBLD.net ADA 5-21 Encrypted DNS over HTTPS</string>
+          <key>PayloadDisplayName</key>
+          <string>OpenBLD.net ADA 5-21 DNS over HTTPS</string>
+          <key>PayloadIdentifier</key>
+          <string>com.apple.dnsSettings.managed.351762e7-5b23-413c-857f-c558ce6cd5a3</string>
+          <key>PayloadType</key>
+          <string>com.apple.dnsSettings.managed</string>
+          <key>PayloadUUID</key>
+          <string>6776c9f6-cd21-4426-a924-9583783a1d44</string>
+          <key>PayloadVersion</key>
+          <integer>1</integer>
+          <key>ProhibitDisablement</key>
+          <false/>
+        </dict>
+      </array>
+      <key>PayloadDescription</key>
+      <string>Adds the OpenBLD.net ADA 5-21 DNS to Big Sur and iOS 14 based systems</string>
+      <key>PayloadDisplayName</key>
+      <string>OpenBLD.net ADA 5-21 DNS over HTTPS</string>
+      <key>PayloadIdentifier</key>
+      <string>plus.simpledns.apple-dns</string>
+      <key>PayloadRemovalDisallowed</key>
+      <false/>
+      <key>PayloadType</key>
+      <string>Configuration</string>
+      <key>PayloadUUID</key>
+      <string>3ca59ef5-8214-41db-8ac2-ed6e75a4b2c6</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+</dict>
+</plist>
