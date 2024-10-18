@@ -2,11 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-10-02T00:00:00.000Z</updated>
+    <updated>2024-10-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[↘  OpenBLD.net - Updated Response System]]></title>
+        <id>https://openbld.net/blog/openbld-updated-response-system-2024/</id>
+        <link href="https://openbld.net/blog/openbld-updated-response-system-2024/"/>
+        <updated>2024-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - New PoP in Canada with REGXA Hosting]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net presents: New Guaranteed Response System" src="https://openbld.net/assets/images/openbld-updated-response-system-2fad50295d7ef7f974a761860def7d2b.png" width="1250" height="680" class="img_ev3q"></p>
+<p>Have you ever faced issues with receiving responses from servers? Timeouts, errors, or empty replies can significantly disrupt some workflows. But I tried, and I think I found a solution!</p>
+<p>🟩 The new OpenBLD.net feature includes a guaranteed response system that activates in cases where the standard resolution process fails. If you receive a Servfail status or other errors, we employ additional logic, and the service takes a:</p>
+<ul>
+<li>Internal pool of servers.</li>
+<li>External pool of servers.</li>
+</ul>
+<p>By mixing  both, we ensure unique servers without upstreams that returned a fail status or are busy.</p>
+<p>This means that even if the initial response was unsuccessful, we continue the search for the correct answer, ensuring reliability and accuracy for you.</p>
+<p>Don’t let response issues slow down your life or business!</p>
+<p>Be yourself, be focused! ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2024" term="2024"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🤝 Growth of OpenBLD.net with REGXA in Canada]]></title>
         <id>https://openbld.net/blog/openbld-growth-to-canada-with-regxa-2024/</id>
@@ -653,37 +678,5 @@ and notify <a href="https://openbld.net/docs/contacts/">me</a>.</p>
         <category label="testing" term="testing"/>
         <category label="beta" term="beta"/>
         <category label="privacy" term="privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🛡 Integration of OpenBLD.net with URLhaus by abuse.ch]]></title>
-        <id>https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration/</id>
-        <link href="https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration/"/>
-        <updated>2024-03-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net is now integrated in to URLhaus by abuse.ch]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Integration of OpenBLD.net with URLhaus by abuse.ch" src="https://openbld.net/assets/images/openbld_and_abuse_ch-302649946d1ebc17bf2802adbc3393ae.png" width="1250" height="460" class="img_ev3q"></p>
-<p><a href="https://urlhaus.abuse.ch/" target="_blank" rel="noopener noreferrer">URLhaus</a> is a project operated by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a>. Its purpose is to collect, track, and share malware URLs, aiding network
-administrators and security analysts in safeguarding their networks and customers from cyber threats.</p>
-<p>Now, you can check the malicious domain ownership with OpenBLD.net alongside Quad9, AdGuard, Cloudflare, ProtonDNS on
-<a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a>.</p>
-<p>In addition, you can incorporate abuse.ch lists into your security solutions, just as OpenBLD.net does.</p>
-<p>You can check this as example on:</p>
-<ul>
-<li><a href="https://urlhaus.abuse.ch/host/licocojambamarketplace.com" target="_blank" rel="noopener noreferrer">https://urlhaus.abuse.ch/host/licocojambamarketplace.com</a></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-links">Additional Links<a href="https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration/#additional-links" class="hash-link" aria-label="Direct link to Additional Links" title="Direct link to Additional Links">​</a></h2>
-<p>You can easy setup OpenBLD.net on your favourite device(s):</p>
-<ul>
-<li><a href="https://openbld.net/docs/category/setup-mobile-devices/">Mobile Devices</a></li>
-<li><a href="https://openbld.net/docs/category/setup-browsers/">Browsers</a></li>
-<li>Or you can start from here - <a href="https://openbld.net/docs/category/get-started/">Get Started</a></li>
-</ul>
-<p>Here's to security for us all. Cheers!)</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="urlhaus" term="urlhaus"/>
     </entry>
 </feed>
