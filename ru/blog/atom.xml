@@ -2,11 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-10-23T00:00:00.000Z</updated>
+    <updated>2024-11-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net - New PoP from Veesp.com in Netherlands]]></title>
+        <id>https://openbld.net/ru/blog/openbld-new-veesp-pop-in-netherlands-2024/</id>
+        <link href="https://openbld.net/ru/blog/openbld-new-veesp-pop-in-netherlands-2024/"/>
+        <updated>2024-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net -A New Point of Presence from Veesp.com in the Netherlands]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New PoP from Veesp.com in Netherlands" src="https://openbld.net/ru/assets/images/openbld-veesp-nl-2024-4cdbc201b984c05100ee0c00ed1c7211.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet-and-veespcom---a-new-pop-in-the-netherlands">OpenBLD.net and Veesp.com - A New PoP in the Netherlands<a href="https://openbld.net/ru/blog/openbld-new-veesp-pop-in-netherlands-2024/#openbldnet-and-veespcom---a-new-pop-in-the-netherlands" class="hash-link" aria-label="Прямая ссылка на OpenBLD.net and Veesp.com - A New PoP in the Netherlands" title="Прямая ссылка на OpenBLD.net and Veesp.com - A New PoP in the Netherlands">​</a></h3>
+<p>The open service OpenBLD.net has been collaborating with Veesp.com for two years now. As a one-stop hosting provider, Veesp.com provided a server in Latvia with 100% uptime  and fast response times 💪, and now there’s an additional server in the Netherlands!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="making-the-world-a-better-place">Making the World a Better Place<a href="https://openbld.net/ru/blog/openbld-new-veesp-pop-in-netherlands-2024/#making-the-world-a-better-place" class="hash-link" aria-label="Прямая ссылка на Making the World a Better Place" title="Прямая ссылка на Making the World a Better Place">​</a></h3>
+<p>I'm truly grateful for the people and companies that are willing to support open services like OpenBLD.net. By helping each other, we make this world a better place — I firmly believe 💯 that</p>
+<p>Thank you, Veesp.com, for delivering quality service across Europe!</p>
+<p>Wishing everyone peace and good fortune.</p>
+<p>Peace ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="cooperation" term="cooperation"/>
+        <category label="veesp" term="veesp"/>
+        <category label="2024" term="2024"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🤝 OpenBLD.net - 3HCLOUD Cooperation]]></title>
         <id>https://openbld.net/ru/blog/openbld-3hcloud-cooperation-2024/</id>
@@ -91,7 +114,7 @@ So, we're moving forward!</p>
 <p>See the <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.service.html#:~:text=systemd%2Dresolved%20is%20a%20system,and%20MulticastDNS%20resolver%20and%20responder." target="_blank" rel="noopener noreferrer">official documentation</a> for more information.</p>
 <p>In some cases, you may need to disable this service. For example, if you are using a custom DNS server or if you are using a VPN service that provides its own DNS servers.
 You can disable Systemd-resolved using your own settings in the <code>resolved.conf</code> file.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-disable-systemd-resolved">How to disable systemd-resolved<a href="https://openbld.net/ru/blog/disable-systemd-resolved-throught-embed-settings/#how-to-disable-systemd-resolved" class="hash-link" aria-label="Прямая ссылка н�а How to disable systemd-resolved" title="Прямая ссылка на How to disable systemd-resolved">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-disable-systemd-resolved">How to disable systemd-resolved<a href="https://openbld.net/ru/blog/disable-systemd-resolved-throught-embed-settings/#how-to-disable-systemd-resolved" class="hash-link" aria-label="Прямая ссылка на How to disable systemd-resolved" title="Прямая ссылка на How to disable systemd-resolved">​</a></h2>
 <ol>
 <li>Open <code>/etc/systemd/resolved.conf</code> in your favorite text editor.</li>
 <li>Find <code>DNSStubListener</code> setting and set it to <code>no</code>.</li>
@@ -599,24 +622,5 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
         <category label="updates" term="updates"/>
         <category label="apple" term="apple"/>
         <category label="profile" term="profile"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🤝 OpenBLD.net and Veesp.com Cooperation]]></title>
-        <id>https://openbld.net/ru/blog/2024-03-26-openbld-and-veesp-cooperation/</id>
-        <link href="https://openbld.net/ru/blog/2024-03-26-openbld-and-veesp-cooperation/"/>
-        <updated>2024-03-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New OpenBLD.net points in Europe of presence have been added in the world with Veesp.com!]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and Veesp.com" src="https://openbld.net/ru/assets/images/openbld_and_veesp-d9bcb208dc7b0b584abf5a899bdc6582.png" width="1250" height="460" class="img_ev3q"></p>
-<p>Now it's can unload existing servers for - Estonia, Latvia, Lithuania, Moldova, Poland..! 🎉</p>
-<p>Fast server in Europe with - NVME SSD, 8Gb RAM, 4 vCores, 500Mbps Bandwidth!</p>
-<p>Really fast KVM-Based VPS at current time from <a href="https://veesp.com/" target="_blank" rel="noopener noreferrer">Veesp.com</a> I think it will help relieve the overall load)</p>
-<p>let's move on!.. 🚀</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="veesp" term="veesp"/>
-        <category label="growth" term="growth"/>
     </entry>
 </feed>
