@@ -6,9 +6,9 @@ sidebar_position: 1
 
 ## What is this [hagezi](https://github.com/hagezi/dns-blocklists) blocklist?
 
-⚡ DNS Blocklists - Made with 💓 for a safer and cleaner internet! It always seems impossible until it’s done.
+⚡ DNS Blocklists - Made with 💓 for a safer and cleaner internet.
 
-Privacy is not a crime, protect yourself. Privacy matters. Privacy is what allows us to determine who we are and who we want to be ‼️
+Privacy is not a crime. Privacy matters. Privacy is what allows us to determine who we are and who we want to be ‼️
 
 ## Use OISD on OpenBLD.net (RIC)
 
