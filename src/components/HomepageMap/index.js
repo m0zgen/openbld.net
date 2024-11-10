@@ -26,6 +26,20 @@ const servers = [
         "left": "673"
     },
     {
+        "name": "3hcloud.kz (Kazakhstan)",
+        "url": "https://3hcloud.kz/",
+        "id": "kazakhstan_almaty_3",
+        "top": "192",
+        "left": "669"
+    },
+    {
+        "name": "3hcloud.kz (Kazakhstan)",
+        "url": "https://3hcloud.kz/",
+        "id": "kazakhstan_almaty_4",
+        "top": "192",
+        "left": "662"
+    },
+    {
         "name": "GoHost.kz (Kazakhstan)",
         "url": "https://gohost.kz/",
         "id": "kazakhstan_karagandy_1",
@@ -45,6 +59,13 @@ const servers = [
         "id": "latvia",
         "top": "130",
         "left": "500"
+    },
+    {
+        "name": "Veesp.com (Netherlands)",
+        "url": "https://veesp.com/",
+        "id": "veesp_netherlands_1",
+        "top": "161",
+        "left": "447"
     },
     {
         "name": "Aalphavps.com (Bulgaria)",
@@ -115,6 +136,13 @@ const servers = [
         "id": "singapore",
         "top": "293",
         "left": "720"
+    },
+    {
+        "name": "Sys-Adm.in Lab (Silicon Valley)",
+        "url": "https://lab.sys-adm.in/",
+        "id": "usa_1",
+        "top": "241",
+        "left": "170"
     }
 ];
 
