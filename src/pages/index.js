@@ -541,7 +541,9 @@ function FeaturesListHeading() {
             <div className="p-2">
                 <div className="p-2 m-4">
                     <h3 className='font-heading mb-2 text-xl font-black'>
-                        Third Party Filters
+                        <Translate
+                            id="homepage.Submodules.Header"> Submodules
+                        </Translate>
                     </h3>
                     {accordions.map((accordion) => (
                         <Accordion

@@ -98,6 +98,9 @@
   "homepage.ThreeColums.Column3Body3": {
     "message": "профиль для Apple"
   },
+  "homepage.Submodules.Header": {
+      "message": "Подмодули"
+  },
   "homepage.ChromeExtension.TypeTile": {
     "message": "Расширение",
     "description": "The label of type of the Chrome Extension (Extension)"
