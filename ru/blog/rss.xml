@@ -4,10 +4,26 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/ru/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 05 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[↘ OpenBLD.net Submodule - Hagezi DNS Blocklists]]></title>
+            <link>https://openbld.net/ru/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/</link>
+            <guid>https://openbld.net/ru/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/</guid>
+            <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net - use Hagezi without any additional blocklists — simply use Hagezi in OpenBLD.net as a DoH link in RIC mode]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New PoP from Veesp.com in Netherlands" src="https://openbld.net/ru/assets/images/openbld-hagezi-dns-blocklists-as-separated-service-868b06b11b582d47bb69c62ec98ec4a9.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hagezi-dns-blocklists-as-a-separated-service-in-openbldnet">Hagezi DNS Blocklists as a Separated Service in OpenBLD.net<a href="https://openbld.net/ru/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/#hagezi-dns-blocklists-as-a-separated-service-in-openbldnet" class="hash-link" aria-label="Прямая ссылка на Hagezi DNS Blocklists as a Separated Service in OpenBLD.net" title="Прямая ссылка на Hagezi DNS Blocklists as a Separated Service in OpenBLD.net">​</a></h3>
+<p>Hagezi ⚡ DNS Blocklists - Made with 💓 for a safer and cleaner internet.  Privacy is not a crime. Privacy matters. Privacy is what allows us to determine who we are and who we want to be.</p>
+<p>You can use Hagezi without any additional blocklists — simply use Hagezi in OpenBLD.net as a DoH link in RIC mode.</p>
+<p>For additional information see <a href="https://openbld.net/ru/docs/get-started/third-party-filters/hagezi/">Documentation</a> section.</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>submodule</category>
+            <category>hagezi</category>
+            <category>2024</category>
+        </item>
         <item>
             <title><![CDATA[🚀 OpenBLD.net - New PoP from Veesp.com in Netherlands]]></title>
             <link>https://openbld.net/ru/blog/openbld-new-veesp-pop-in-netherlands-2024/</link>
@@ -520,25 +536,6 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
 <li><a href="https://blog.fox-it.com/2024/03/28/android-malware-vultur-expands-its-wingspan/" target="_blank" rel="noopener noreferrer">Fox-IT Blog</a></li>
 </ul>
 <p>Take care of yourself 🔐</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>apple</category>
-            <category>profile</category>
-        </item>
-        <item>
-            <title><![CDATA[📢 Optimized Profile for Apple Devices]]></title>
-            <link>https://openbld.net/ru/blog/2024-04-01-openbld-updated-apple-profile/</link>
-            <guid>https://openbld.net/ru/blog/2024-04-01-openbld-updated-apple-profile/</guid>
-            <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net new iOS, iPadOS, macOS profiles, optimized for content delivery, especially for Apple users.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net Update Profile for Apple Devices" src="https://openbld.net/ru/assets/images/openbld_apple_profile_update-85f9120fb44b822941a105e5b204c126.png" width="1250" height="460" class="img_ev3q"></p>
-<p>Following recent attacks on one of the hosting providers within OpenBLD.net, I have updated the server topology to optimize content delivery, especially for Apple users.</p>
-<p>Download the optimized profile from the project website and simply install it over your existing one:</p>
-<ul>
-<li>Setup Mobile Devices &gt; <a href="https://openbld.net/ru/docs/get-started/setup-mobile-devices/apple/">Apple</a></li>
-</ul>
-<p>If your system is functioning normally, updating is not mandatory. Just remember that the option is available. Peace! ✌️</p>
-<p>P.S. If you have any questions regarding the update - <a href="https://openbld.net/ru/docs/contacts/">Welcome</a> 😎</p>]]></content:encoded>
             <category>openbld</category>
             <category>updates</category>
             <category>apple</category>
