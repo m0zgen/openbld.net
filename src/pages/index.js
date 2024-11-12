@@ -143,7 +143,7 @@ function FeaturesListHeading() {
             title: 'Hagezi',
             data: ``,
             setupUrl: '/docs/get-started/third-party-filters/hagezi',
-            setupLink: 'DNS-over-HTTPS (DoH) ⚙️',
+            setupLink: 'DNS over HTTPS (DoH) ⚙️',
             isOpen: false
         },
         {
@@ -151,7 +151,7 @@ function FeaturesListHeading() {
             title: 'OISD',
             data: ``,
             setupUrl: '/docs/get-started/third-party-filters/oisd',
-            setupLink: 'DNS-over-HTTPS (DoH) ⚙️',
+            setupLink: 'DNS over HTTPS (DoH) ⚙️',
             isOpen: false
         },
     ]);
