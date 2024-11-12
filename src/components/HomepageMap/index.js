@@ -40,6 +40,13 @@ const servers = [
         "left": "662"
     },
     {
+        "name": "3hcloud.kz (Warsaw)",
+        "url": "https://3hcloud.kz/",
+        "id": "poland_1",
+        "top": "148",
+        "left": "457"
+    },
+    {
         "name": "GoHost.kz (Kazakhstan)",
         "url": "https://gohost.kz/",
         "id": "kazakhstan_karagandy_1",
@@ -143,6 +150,13 @@ const servers = [
         "id": "usa_1",
         "top": "241",
         "left": "170"
+    },
+    {
+        "name": "Sys-Adm.in Lab (Toronto)",
+        "url": "https://lab.sys-adm.in/",
+        "id": "canada",
+        "top": "170",
+        "left": "230"
     }
 ];
 
