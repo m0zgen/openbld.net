@@ -21,6 +21,6 @@ https://ric.openbld.net/dns-query/hagezi
 
 :::tip
 - [hagezi](https://github.com/hagezi/dns-blocklists) используется как есть - без дополнительных блок-листов и т. д.
-- OpenBLD.net использует "multi" список hagezi
+- OpenBLD.net использует Pro с TIF-списками
 - Обновления - каждый час
 :::

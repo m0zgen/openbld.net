@@ -20,6 +20,6 @@ https://ric.openbld.net/dns-query/hagezi
 
 :::tip
 - [hagezi](https://github.com/hagezi/dns-blocklists) is used as is - without additional blocklist, etc.
-- OpenBLD.net uses a "multi" list of hagezi
+- OpenBLD.net uses a Pro with TIF lists
 - Updates - every 1 hour
 :::
