@@ -76,9 +76,8 @@ function HomepageHeader() {
                 <p className="mt-1 text-sm text-center text-white dark:text-gray-400">
                     <Translate
                         id="homepage.Header.Brief">
-                    OpenBLD.net is a service designed to minimize Internet noise such as advertising and tracking,
-                    allowing you to be yourself and stay focused while surfing the Internet. And of course you can help us
-                    with
+                    OpenBLD.net is a service designed to minimize Internet noise such as advertising 🦠, tracking 🕵️‍♂️, DNS leaks ✅ with
+                    allowing you to be yourself and stay focused while surfing the Internet.
                     </Translate>
                     <br/>
 
@@ -119,24 +118,6 @@ function FeaturesListHeading() {
 
     const [isCheckedAda, setIsCheckedAda] = useState(true);
     const [isCheckedRic, setIsCheckedRic] = useState(false);
-
-
-    const handleChangeAda = () => {
-        setIsCheckedAda(!isCheckedAda);
-        if (isCheckedRic) {
-            setIsCheckedRic(!isCheckedRic);
-            setBool(bool)
-        }
-    }
-
-    const handleChangeRic = () => {
-        setIsCheckedRic(!isCheckedRic);
-        if (isCheckedAda) {
-            setIsCheckedAda(!isCheckedAda);
-            setBool(bool)
-        }
-    }
-
     const [accordions, setAccordion] = useState([
         {
             key: 1,
@@ -155,6 +136,24 @@ function FeaturesListHeading() {
             isOpen: false
         },
     ]);
+
+
+
+    const handleChangeAda = () => {
+        setIsCheckedAda(!isCheckedAda);
+        if (isCheckedRic) {
+            setIsCheckedRic(!isCheckedRic);
+            setBool(bool)
+        }
+    }
+
+    const handleChangeRic = () => {
+        setIsCheckedRic(!isCheckedRic);
+        if (isCheckedAda) {
+            setIsCheckedAda(!isCheckedAda);
+            setBool(bool)
+        }
+    }
 
     const toggleAccordion = (accordionkey) => {
         const updatedAccordions = accordions.map((accord) => {
@@ -203,7 +202,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item1">
-                                                Works on mobile devices and browsers
+                                                For personal usage, home, small business
                                             </Translate>
                                         </li>
                                         <li className="flex items-center">
@@ -216,7 +215,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item2">
-                                                For personal usage, home and small business
+                                                Works on mobile devices, browsers, computers
                                             </Translate>
                                         </li>
                                         <li className="flex items-center">
@@ -229,7 +228,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item3">
-                                                Reduce browsers memory and CPU usage
+                                                Reduce browsers memory, CPU usage, battery usage
                                             </Translate>
                                         </li>
                                         <li className="flex items-center">
