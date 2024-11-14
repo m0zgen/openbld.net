@@ -530,33 +530,33 @@ function FeaturesListHeading() {
 
                             {/*</div>*/}
 
+                            {/* Accordion */}
+                            <div className="p-2 bg-white">
+                                <div className="p-2 m-4">
+                                    <h3 className='font-heading mb-2 text-xl font-black text-gray-900'>
+                                        <Translate
+                                            id="homepage.Submodules.Header"> Submodules
+                                        </Translate>
+                                    </h3>
+                                    {accordions.map((accordion) => (
+                                        <Accordion
+                                            key={accordion.key}
+                                            title={accordion.title}
+                                            data={accordion.data}
+                                            setupUrl={accordion.setupUrl}
+                                            setupLink={accordion.setupLink}
+                                            isOpen={accordion.isOpen}
+                                            toggleAccordion={() => toggleAccordion(accordion.key)}
+                                        />
+                                    ))}
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>
                 </div>
 
-            </div>
-
-            {/* Accordion */}
-            <div className="p-2">
-                <div className="p-2 m-4">
-                    <h3 className='font-heading mb-2 text-xl font-black'>
-                        <Translate
-                            id="homepage.Submodules.Header"> Submodules
-                        </Translate>
-                    </h3>
-                    {accordions.map((accordion) => (
-                        <Accordion
-                            key={accordion.key}
-                            title={accordion.title}
-                            data={accordion.data}
-                            setupUrl={accordion.setupUrl}
-                            setupLink={accordion.setupLink}
-                            isOpen={accordion.isOpen}
-                            toggleAccordion={() => toggleAccordion(accordion.key)}
-                        />
-                    ))}
-                </div>
             </div>
 
         </section>
