@@ -586,9 +586,8 @@ export default function Home() {
           <HomepageVideoPresentation />
           <HomepageCompareAdaAndRic />
           {/*<HomepageFeatures />*/}
-
-          <HomepageLogosCloud />
           <HomepageMap/>
+          <HomepageLogosCloud />
           <HomepageThanks />
 
 

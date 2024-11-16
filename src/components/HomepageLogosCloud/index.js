@@ -49,7 +49,7 @@ export default function HomepageThanks() {
                                   <div key={i}>
                                       <a href={logo.url} target="_blank" rel="noreferrer">
                                           {/*<img className={`mx-auto bg-gray-50 ${logo.style}`} src={logo.src} alt={logo.name}/>*/}
-                                          <img src={logo.src} className={`imagessmaller ${logo.style}`}/>
+                                          <img loading="lazy" src={logo.src} className={`imagessmaller ${logo.style}`}/>
                                       </a>
                                   </div>
 
