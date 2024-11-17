@@ -164,6 +164,21 @@
   "homepage.LogosCloud.Title": {
     "message": "+ кто поддержал проект \uD83D\uDE80"
   },
+  "homepage.FeatureList.URLhaus.Title": {
+    "message": "Статистика URLhaus"
+  },
+  "homepage.FeatureList.URLhaus.Subtitle": {
+      "message": "сервис для обнаружения и блокировки вредоносных доменов от "
+  },
+  "homepage.FeatureList.URLhaus.Subtitle2": {
+    "message": "содержащий сведения о вредоносных URL, которые используются для распространения вредоносного ПО."
+  },
+  "homepage.FeatureList.URLhaus.Subtitle3": {
+      "message": "Используя эти данные, можно получить представление о поведении вредоносного ПО, его идентификации, и нейтрализации связанных с вредоносным ПО и ботнетами киберугроз."
+  },
+  "homepage.FeatureList.URLhaus.Subtitle4": {
+    "message": "OpenBLD.net блокирует вредоносные домены наряду с другими сервисами, стремясь всегда быть полезным."
+  },
   "homepage.Map.Title": {
     "message": "Точки присутствия OpenBLD.net"
   },

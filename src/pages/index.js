@@ -9,6 +9,7 @@ import HomepageLogosCloud from '@site/src/components/HomepageLogosCloud';
 import HomepageChromeExtension from '@site/src/components/HomepageChromeExtension';
 import HomepageVideoPresentation from '@site/src/components/HomepageVideoPresentation';
 import HomepageCompareAdaAndRic from '@site/src/components/HomepageCompareAdaAndRic';
+import HomepageURLhaus from '@site/src/components/HomepageURLhaus';
 import Translate, {translate} from '@docusaurus/Translate';
 import CodeBlock from '@theme/CodeBlock';
 
@@ -259,7 +260,7 @@ function FeaturesListHeading() {
                                         </li>
                                         <li class="flex items-center">
                                             <svg
-                                                class="w-3.5 h-3.5 mr-2 mb-3 text-red-500 dark:text-red-500 flex-shrink-0"
+                                                className="w-3.5 h-3.5 mr-2 mb-3 text-red-500 dark:text-red-500 flex-shrink-0"
                                                 aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                                 fill="currentColor" viewBox="0 0 20 20">
                                                 <path
@@ -488,14 +489,14 @@ function FeaturesListHeading() {
                                                 </svg>
                                             </div>
                                         </div>
-                                        <div class="flex-1 p-3">
-                                            <h3 class="font-heading mb-2 text-xl text-gray-900 font-black">
+                                        <div className="flex-1 p-3">
+                                            <h3 className="font-heading mb-2 text-xl text-gray-900 font-black">
                                                 <Translate
                                                     id="homepage.ThreeColums.Column3Title">
                                                     Mobile Devices
                                                 </Translate>
                                             </h3>
-                                            <p class="text-sm text-gray-700 font-bold">
+                                            <p className="text-sm text-gray-700 font-bold">
                                                 <Translate
                                                     id="homepage.ThreeColums.Column3Body">
                                                     Android, iOS, iPad devices.
@@ -577,21 +578,26 @@ export default function Home() {
                 message: 'Hello from {title}{subtitle}'
             }, {title: siteConfig.customFields.serviceName, subtitle: siteConfig.customFields.serviceDescription})}
             // description="OpenBLD.net DNS - Focus on information with adblocking and implicit cybersecurity threat prevention."
-      description={translate({id: 'index.layout.description', description: 'The description displayed in the website head.', message: '{description}'}, {description: siteConfig.customFields.siteDescription})}
-    >
-      <HomepageHeader />
-      <main>
-          <FeaturesListHeading />
-          <HomepageChromeExtension />
-          <HomepageVideoPresentation />
-          <HomepageCompareAdaAndRic />
-          {/*<HomepageFeatures />*/}
-          <HomepageMap/>
-          <HomepageLogosCloud />
-          <HomepageThanks />
+            description={translate({
+                id: 'index.layout.description',
+                description: 'The description displayed in the website head.',
+                message: '{description}'
+            }, {description: siteConfig.customFields.siteDescription})}
+        >
+            <HomepageHeader/>
+            <main>
+                <FeaturesListHeading/>
+                <HomepageChromeExtension/>
+                <HomepageVideoPresentation/>
+                <HomepageCompareAdaAndRic/>
+                {/*<HomepageFeatures />*/}
+                <HomepageURLhaus/>
+                <HomepageMap/>
+                <HomepageLogosCloud/>
+                <HomepageThanks/>
 
 
-      </main>
-    </Layout>
-  );
+            </main>
+        </Layout>
+    );
 }
