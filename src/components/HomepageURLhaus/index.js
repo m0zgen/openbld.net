@@ -49,7 +49,7 @@ export default function HomepageCompareAdaAndRic() {
                       </div>
                       <div className="w-full md:w-1/2 p-8">
                           <div className="w-full p-8 bg-gray-100">
-                              <img loading="lazy" className="mx-auto md:mr-0" src="img/openbld-site-cover-urlhaus.png"
+                              <img loading="lazy" className="mx-auto md:mr-0" src="img/openbld-site-cover-urlhaus.jpeg"
                                    alt="URLhaus - Malware and Phishing Domain OpenBLD.net Blocklist Statistics"/>
                           </div>
                           </div>
