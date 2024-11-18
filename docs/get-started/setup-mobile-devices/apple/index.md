@@ -17,6 +17,20 @@ _**Profile Downloaded. Review the profile in the Settings app if you want to ins
 
 ![Profile downloaded](./figure2-downloaded-openbld-profile.jpg)
 
+:::note
+
+In some ceases profile can be opened as **plain text** file in `xml` format:
+
+![Open OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile-as-text.jpg)
+
+Don't worry, just **download** it:
+
+![Download OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile.jpg)
+
+and then **open** from _Files_ app or _Downloads_ folder.
+
+:::
+
 3. Open Settings > search new **Profile Downloaded** settings item
 
 ![Profile downloaded](./figure3-open-downloaded-openbld-profile.jpeg)

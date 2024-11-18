@@ -17,6 +17,20 @@ _**Профиль скачан. Проверьте профиль в прило�
 
 ![Profile downloaded](./figure2-downloaded-openbld-profile.jpg)
 
+:::note
+
+В некоторых случаях профиль может быть открыт как **текстовый** файл в формате `xml`:
+
+![Open OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile-as-text.jpg)
+
+Не волнуйтесь, просто **скачайте** его:
+
+![Download OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile.jpg)
+
+и затем **откройте** из приложения _Файлы_ или папки _Загрузки_.
+
+:::
+
 3. Откройте «Настройки» > найдите новый элемент настроек **Профиль загружен**.
 
 ![Profile downloaded](./figure3-open-downloaded-openbld-profile.jpeg)
