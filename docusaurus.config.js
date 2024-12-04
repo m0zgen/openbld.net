@@ -105,8 +105,19 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ru'],
+    locales: ['en', 'ru', 'kz'],
     path: 'i18n',
+    localeConfigs: {
+        en: {
+            label: 'English',
+        },
+        ru: {
+            label: 'Русский',
+        },
+        kz: {
+            label: 'Қазақша',
+        },
+    }
   },
 
   themeConfig:

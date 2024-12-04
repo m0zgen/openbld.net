@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "OpenBLD.net Blog",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "OpenBLD.net news and updates",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "All posts",
+    "description": "The label for the left sidebar"
+  }
+}

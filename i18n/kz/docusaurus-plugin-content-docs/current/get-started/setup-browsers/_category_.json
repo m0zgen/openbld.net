@@ -1,0 +1,8 @@
+{
+  "label": "Настройки Браузеров",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Setup OpenBLD.net in your browser",
+  }
+}

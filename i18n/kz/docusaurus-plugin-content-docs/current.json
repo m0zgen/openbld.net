@@ -1,0 +1,74 @@
+{
+  "version.label": {
+    "message": "Далее",
+    "description": "Метка текущей версии"
+  },
+  "sidebar.tutorialSidebar.category.Overwiew": {
+    "message": "Обзор проекта",
+    "description": "The label for category Overwiew in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Gears": {
+    "message": "Шестерни",
+    "description": "The label for category Gears in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Overwiew.link.generated-index.description": {
+    "message": "Обзор Сервиса OpenBLD.net",
+    "description": "The generated-index page description for category Overwiew in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Get Started": {
+    "message": "Настройки",
+    "description": "The label for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Get Started.link.generated-index.description": {
+    "message": "5 минут, чтобы изучить самые важные концепции OpenBLD.net.",
+    "description": "The generated-index page description for category Get Started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Browsers": {
+    "message": "Браузеры",
+    "description": "The label for category Setup Browsers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Browsers.link.generated-index.description": {
+    "message": "Настройка OpenBLD.net в браузере",
+    "description": "The generated-index page description for category Setup Browsers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Mobile Devices": {
+    "message": "Мобильные устройства",
+    "description": "The label for category Setup Mobile Devices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Mobile Devices.link.generated-index.description": {
+    "message": "Настройка OpenBLD.net в мобильных устройствах",
+    "description": "The generated-index page description for category Setup Mobile Devices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Operating Systems": {
+    "message": "Операционные системы",
+    "description": "The label for category Setup Operating Systems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Operating Systems.link.generated-index.description": {
+    "message": "Настройка OpenBLD.net в операционных системах и дистрибутивах",
+    "description": "The generated-index page description for category Setup Operating Systems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Routers": {
+    "message": "Роутеры",
+    "description": "The label for category Setup Routers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Routers.link.generated-index.description": {
+    "message": "Настройка OpenBLD.net в роутерах",
+    "description": "The generated-index page description for category Setup Routers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Third Party Filters": {
+    "message": "Сторонние фильтры",
+    "description": "The label for category Setup 3d filters in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Third Party Filters.link.generated-index.description": {
+    "message": "Настойка OpenBLD.net с фильтрами сторонних производителей",
+    "description": "The generated-index page description for category Setup Routers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Third Party Proxies": {
+    "message": "Сторонние прокси и ПО",
+    "description": "The label for category Setup 3d proxies in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup Third Party Proxies.link.generated-index.description": {
+    "message": "Настойка OpenBLD.net в различном ПО и прокси",
+    "description": "The generated-index page description for category Setup Routers in sidebar tutorialSidebar"
+  }
+}
