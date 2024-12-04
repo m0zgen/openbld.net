@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://openbld.net/kz/blog/</id>
+    <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
+    <updated>2024-12-03T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://openbld.net/kz/blog/"/>
+    <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
+    <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net in Silicon Valley]]></title>
+        <id>https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/"/>
+        <updated>2024-12-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net – Engine for a Faster Internet now in Silicon Valley]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – in in Silicon Valley" src="https://openbld.net/kz/assets/images/openbld-in-silicon-valley-9187b7f3afc229c7cecaaff79fa2b032.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--new-pop-in-silicon-valley">OpenBLD.net – new PoP in Silicon Valley<a href="https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/#openbldnet--new-pop-in-silicon-valley" class="hash-link" aria-label="Прямая ссылка на OpenBLD.net – new PoP in Silicon Valley" title="Прямая ссылка на OpenBLD.net – new PoP in Silicon Valley">​</a></h3>
+<p>This is the new and first standalone OpenBLD server in the US, right in Silicon Valley 👽</p>
+<p>10 GBPS allows to use the full bandwidth potential of the OpenBLD service 🚀</p>
+<p>Thanks to everyone who supports and uses OpenBLD.net, let's move on!</p>
+<p>Next step - North America... 🌎</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates">Feedback and Updates<a href="https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/#feedback-and-updates" class="hash-link" aria-label="Прямая ссылка на Feedback and Updates" title="Прямая ссылка на Feedback and Updates">​</a></h3>
+<ul>
+<li>You can always send me feedback about the service from the contact page <a href="https://openbld.net/kz/docs/contacts/">feedback</a>.</li>
+<li>For updates, follow the <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net in Telegram</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🏎 OpenBLD.net – Increased Throughput]]></title>
+        <id>https://openbld.net/kz/blog/openbld-throughput-boosting-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld-throughput-boosting-2024/"/>
+        <updated>2024-11-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - These are the new "gears" in the racing engine of OpenBLD.net. Some have been rewritten or built from scratch, and some have been optimized for better performance.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – Increased Throughput" src="https://openbld.net/kz/assets/images/openbld-throughput-boosting-2024-3c1158f8a30d0a4dd2174d9ca78c010a.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--engine-for-a-faster-internet">OpenBLD.net – Engine for a Faster Internet<a href="https://openbld.net/kz/blog/openbld-throughput-boosting-2024/#openbldnet--engine-for-a-faster-internet" class="hash-link" aria-label="Прямая ссылка на OpenBLD.net – Engine for a Faster Internet" title="Прямая ссылка на OpenBLD.net – Engine for a Faster Internet">​</a></h3>
+<p>These are the new "gears" in the racing engine of OpenBLD.net. Some have been rewritten or built from scratch:</p>
+<ul>
+<li>Synchronous processing of block lists</li>
+<li>Caching of blocking events</li>
+<li>Updated caching system — the log enricher now has its own cache</li>
+<li>Enhanced request processing system</li>
+<li>New health-checking system for upstream servers, with response time detection</li>
+<li>Improved load balancing, routing requests to servers with the lowest response time</li>
+<li>Optimized parallel DNS request handling, delivering the fastest response</li>
+</ul>
+<p>I hope these features will help us save valuable time online while the OpenBLD.net system's gears run smoothly under the hood.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-gears">What's Gears?<a href="https://openbld.net/kz/blog/openbld-throughput-boosting-2024/#whats-gears" class="hash-link" aria-label="Прямая ссылка на What's Gears?" title="Прямая ссылка на What's Gears?">​</a></h3>
+<p>Gears are the components of the OpenBLD.net system that help to customize online experiences.</p>
+<ul>
+<li><a href="https://openbld.net/kz/docs/overview/gears/gears-intro/">About of Gears</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback">Feedback<a href="https://openbld.net/kz/blog/openbld-throughput-boosting-2024/#feedback" class="hash-link" aria-label="Прямая ссылка на Feedback" title="Прямая ссылка на Feedback">​</a></h3>
+<p>If you notice any “engine misfires,” please let me know. I’m always open to constructive <a href="https://openbld.net/kz/docs/contacts/">feedback</a>.</p>
+<p>Wishing everyone a safe journey across the internet! ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="submodule" term="submodule"/>
+        <category label="hagezi" term="hagezi"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘ OpenBLD.net Submodule - Hagezi DNS Blocklists]]></title>
+        <id>https://openbld.net/kz/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/"/>
+        <updated>2024-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - use Hagezi without any additional blocklists — simply use Hagezi in OpenBLD.net as a DoH link in RIC mode]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New PoP from Veesp.com in Netherlands" src="https://openbld.net/kz/assets/images/openbld-hagezi-dns-blocklists-as-separated-service-868b06b11b582d47bb69c62ec98ec4a9.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hagezi-dns-blocklists-as-a-separated-service-in-openbldnet">Hagezi DNS Blocklists as a Separated Service in OpenBLD.net<a href="https://openbld.net/kz/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/#hagezi-dns-blocklists-as-a-separated-service-in-openbldnet" class="hash-link" aria-label="Прямая ссылка на Hagezi DNS Blocklists as a Separated Service in OpenBLD.net" title="Прямая ссылка на Hagezi DNS Blocklists as a Separated Service in OpenBLD.net">​</a></h3>
+<p>Hagezi ⚡ DNS Blocklists - Made with 💓 for a safer and cleaner internet.  Privacy is not a crime. Privacy matters. Privacy is what allows us to determine who we are and who we want to be.</p>
+<p>You can use Hagezi without any additional blocklists — simply use Hagezi in OpenBLD.net as a DoH link in RIC mode.</p>
+<p>For additional information see <a href="https://openbld.net/kz/docs/get-started/third-party-filters/hagezi/">Documentation</a> section.</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="submodule" term="submodule"/>
+        <category label="hagezi" term="hagezi"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net - New PoP from Veesp.com in Netherlands]]></title>
+        <id>https://openbld.net/kz/blog/openbld-new-veesp-pop-in-netherlands-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld-new-veesp-pop-in-netherlands-2024/"/>
+        <updated>2024-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net -A New Point of Presence from Veesp.com in the Netherlands]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New PoP from Veesp.com in Netherlands" src="https://openbld.net/kz/assets/images/openbld-veesp-nl-2024-4cdbc201b984c05100ee0c00ed1c7211.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet-and-veespcom---a-new-pop-in-the-netherlands">OpenBLD.net and Veesp.com - A New PoP in the Netherlands<a href="https://openbld.net/kz/blog/openbld-new-veesp-pop-in-netherlands-2024/#openbldnet-and-veespcom---a-new-pop-in-the-netherlands" class="hash-link" aria-label="Прямая ссылка на OpenBLD.net and Veesp.com - A New PoP in the Netherlands" title="Прямая ссылка на OpenBLD.net and Veesp.com - A New PoP in the Netherlands">​</a></h3>
+<p>The open service OpenBLD.net has been collaborating with Veesp.com for two years now. As a one-stop hosting provider, Veesp.com provided a server in Latvia with 100% uptime  and fast response times 💪, and now there’s an additional server in the Netherlands!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="making-the-world-a-better-place">Making the World a Better Place<a href="https://openbld.net/kz/blog/openbld-new-veesp-pop-in-netherlands-2024/#making-the-world-a-better-place" class="hash-link" aria-label="Прямая ссылка на Making the World a Better Place" title="Прямая ссылка на Making the World a Better Place">​</a></h3>
+<p>I'm truly grateful for the people and companies that are willing to support open services like OpenBLD.net. By helping each other, we make this world a better place — I firmly believe 💯 that</p>
+<p>Thank you, Veesp.com, for delivering quality service across Europe!</p>
+<p>Wishing everyone peace and good fortune.</p>
+<p>Peace ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="cooperation" term="cooperation"/>
+        <category label="veesp" term="veesp"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤝 OpenBLD.net - 3HCLOUD Cooperation]]></title>
+        <id>https://openbld.net/kz/blog/openbld-3hcloud-cooperation-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld-3hcloud-cooperation-2024/"/>
+        <updated>2024-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - New DNS, Cache servers in Almaty, Kazakhstan]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net presents: New Guaranteed Response System" src="https://openbld.net/kz/assets/images/openbld-3h-cooperation-2024-6cb539d673c5633d7b360d2974e179c8.png" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3hcloudkz--supports-openbldnet"><a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3HCLOUD.kz</a>- Supports OpenBLD.net<a href="https://openbld.net/kz/blog/openbld-3hcloud-cooperation-2024/#3hcloudkz--supports-openbldnet" class="hash-link" aria-label="Прямая ссылка на 3hcloudkz--supports-openbldnet" title="Прямая ссылка на 3hcloudkz--supports-openbldnet">​</a></h3>
+<p>I’m happy to announce that thanks to <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3hcloud.kz</a>, new DNS and Cache servers have been launched in Almaty!</p>
+<p>The cloud impressed us with its speeds, hardware, and eagerness to meet the needs of clients and potential partners.</p>
+<p>Servers are currently being prepared in Europe (Poland), with plans for the Philippines and the USA to follow.</p>
+<p>These ambitious plans will be realized one way or another, but with <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3HCLOUD</a>, I’m confident they will happen faster 🚀</p>
+<p>Thank you to all the loyal cloud and hosting companies supporting the OpenBLD.net project. Together, we can make this world more cyber hygienic and secure. 🛡️</p>
+<p>Wishing everyone well! ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="cooperation" term="cooperation"/>
+        <category label="3hcloud" term="3hcloud"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘  OpenBLD.net - Updated Response System]]></title>
+        <id>https://openbld.net/kz/blog/openbld-updated-response-system-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld-updated-response-system-2024/"/>
+        <updated>2024-10-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - New PoP in Canada with REGXA Hosting]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net presents: New Guaranteed Response System" src="https://openbld.net/kz/assets/images/openbld-updated-response-system-2fad50295d7ef7f974a761860def7d2b.png" width="1250" height="680" class="img_ev3q"></p>
+<p>Have you ever faced issues with receiving responses from servers? Timeouts, errors, or empty replies can significantly disrupt some workflows. But I tried, and I think I found a solution!</p>
+<p>🟩 The new OpenBLD.net feature includes a guaranteed response system that activates in cases where the standard resolution process fails. If you receive a Servfail status or other errors, we employ additional logic, and the service takes a:</p>
+<ul>
+<li>Internal pool of servers.</li>
+<li>External pool of servers.</li>
+</ul>
+<p>By mixing  both, we ensure unique servers without upstreams that returned a fail status or are busy.</p>
+<p>This means that even if the initial response was unsuccessful, we continue the search for the correct answer, ensuring reliability and accuracy for you.</p>
+<p>Don’t let response issues slow down your life or business!</p>
+<p>Be yourself, be focused! ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤝 Growth of OpenBLD.net with REGXA in Canada]]></title>
+        <id>https://openbld.net/kz/blog/openbld-growth-to-canada-with-regxa-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld-growth-to-canada-with-regxa-2024/"/>
+        <updated>2024-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - New PoP in Canada with REGXA Hosting]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Growth to Canada with REGXA" src="https://openbld.net/kz/assets/images/openbld-growth-to-canada-with-regxa-1-2024-fdade652172325357118e0b55ebbc01f.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p>We're excited to announce that OpenBLD.net has launched a new Point of Presence (PoP) in Canada, hosted by
+<a href="https://regxa.com/" target="_blank" rel="noopener noreferrer">REGXA</a>!</p>
+<p>In collaboration with <a href="https://regxa.com/" target="_blank" rel="noopener noreferrer">REGXA</a>, we also plan to establish
+two more PoPs in France and India in the next six months. I truly believe this partnership will bring
+significant benefits to everyone—enhancing the security of OpenBLD.net for our users and expanding our reach. REGXA has proven to be a reliable hosting provider, successfully handling the current load of OpenBLD.net.</p>
+<p>Moreover, our tests indicate that the new server in Canada responds significantly faster than others.
+So, we're moving forward!</p>
+<p>Take care, everyone! ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="REGXA" term="REGXA"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘  How to disable systemd-resolved through resolved.conf settings]]></title>
+        <id>https://openbld.net/kz/blog/disable-systemd-resolved-throught-embed-settings/</id>
+        <link href="https://openbld.net/kz/blog/disable-systemd-resolved-throught-embed-settings/"/>
+        <updated>2024-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How to disable systemd-resolved through resolved.conf settings]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - How to disable systemd-resolved" src="https://openbld.net/kz/assets/images/disable-systemd-resolved-throught-embed-settings-86f2a11ccb61cb5ce6a9a42d3052165f.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="intro">Intro<a href="https://openbld.net/kz/blog/disable-systemd-resolved-throught-embed-settings/#intro" class="hash-link" aria-label="Прямая ссылка на Intro" title="Прямая ссылка на Intro">​</a></h2>
+<p>In short, the <code>systemd-resolved</code> service is a system service that provides network name resolution to local applications. It implements a caching DNS stub resolver and an LLMNR resolver and responder.</p>
+<p>See the <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.service.html#:~:text=systemd%2Dresolved%20is%20a%20system,and%20MulticastDNS%20resolver%20and%20responder." target="_blank" rel="noopener noreferrer">official documentation</a> for more information.</p>
+<p>In some cases, you may need to disable this service. For example, if you are using a custom DNS server or if you are using a VPN service that provides its own DNS servers.
+You can disable Systemd-resolved using your own settings in the <code>resolved.conf</code> file.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-disable-systemd-resolved">How to disable systemd-resolved<a href="https://openbld.net/kz/blog/disable-systemd-resolved-throught-embed-settings/#how-to-disable-systemd-resolved" class="hash-link" aria-label="Прямая ссылка на How to disable systemd-resolved" title="Прямая ссылка на How to disable systemd-resolved">​</a></h2>
+<ol>
+<li>Open <code>/etc/systemd/resolved.conf</code> in your favorite text editor.</li>
+<li>Find <code>DNSStubListener</code> setting and set it to <code>no</code>.</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">[Resolve]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">...</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">#Cache=no-negative</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">DNSStubListener=no</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">...</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>подсказка</div><div class="admonitionContent_BuS1"><p>You can create additional config in the <code>/etc/systemd/resolved.conf.d/</code> directory. For example, you can create a file <code>/etc/systemd/resolved.conf.d/00-disable-stub.conf</code> with the following content:</p><div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">[Resolve]</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">DNSStubListener=no</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></div></div>
+<p>Then you need to set <code>/etc/resolv.conf</code> as symlink to <code>/run/systemd/resolve/resolv.conf</code>:</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>After that, restart the <code>systemd-resolved</code> service:</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">systemctl restart systemd-resolved</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="system" term="system"/>
+        <category label="notes" term="notes"/>
+        <category label="openbld" term="openbld"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net - Switched to in-touch release model]]></title>
+        <id>https://openbld.net/kz/blog/openbld-switched-to-in-touch-release-model-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld-switched-to-in-touch-release-model-2024/"/>
+        <updated>2024-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net in-touch release model - trunk-based model, rolling release, canary > production deployment]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - In-Touch Release Model" src="https://openbld.net/kz/assets/images/openbld-in-touch-release-model-2024-f808f430eacc57cb4eb7c9cc89c82dd3.png" width="1250" height="680" class="img_ev3q"></p>
+<p>🚀 OpenBLD.net - Switched to in-touch release model</p>
+<p>A few weeks ago I announced Canary release, now I decided switch to "in-touch" deployment stages.</p>
+<p>To start with, I'm using my "<a href="https://flex-doc.pages.dev/" target="_blank" rel="noopener noreferrer">Flex App Additions Methodology</a>" in my projects. Often some bugs have to be fixed quickly, we all want these bugs to be fixed quickly..)</p>
+<p>My "in-touch" release model includes:</p>
+<ol>
+<li>Trunk-based development model</li>
+<li>Rolling release</li>
+<li>Canary &gt; Production deployment</li>
+</ol>
+<p>This model can includes unnotified maintenance window ~3 minutes or 3 iteration maximum in a day, this does not mean that the service will be unavailable at this time, you just need to keep in mind that if suddenly something goes wrong for you, you immediately let me know about it, that's all)</p>
+<p>Be patient while running, only forward!</p>
+<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> is always with you ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="performance" term="performance"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🟢️️️️️️ OpenBLD.net New server from 3hcloud in Almaty]]></title>
+        <id>https://openbld.net/kz/blog/openbld-new-server-from-3hcloud-in-almaty-2024-09-24/</id>
+        <link href="https://openbld.net/kz/blog/openbld-new-server-from-3hcloud-in-almaty-2024-09-24/"/>
+        <updated>2024-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - New server in 3hcloud.kz, 3hcloud.com Almaty Kazakhstan]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New Server in 3hcloud.kz Almaty Kazakhstan" src="https://openbld.net/kz/assets/images/openbld-net-new-server-almaty-3hcloud-ec4c1fe731a0f0aad9f04434d58ad826.jpg" width="1250" height="680" class="img_ev3q"></p>
+<p>🚀 OpenBLD.net new DNS server in Kazakhstan 🇰🇿 Almaty</p>
+<p>Recently learned about <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3hcloud.kz</a>. Went, tried it and was pleasantly surprised:</p>
+<ul>
+<li>speed (connectivity and instances are super)</li>
+<li>liked the firewall</li>
+<li>prices were pleasantly surprising</li>
+</ul>
+<p>After several weeks of testing, I can firmly say - compatibility with OpenBLD.net is present.</p>
+<p>Configure Chrome as described here:</p>
+<ul>
+<li>How-to set up your favorite <a href="https://openbld.net/kz/docs/get-started/setup-browsers/chrome/">Browser</a></li>
+</ul>
+<p>And then open the site that got you with ads and be surprised yourself.</p>
+<p>P.S. There is a case or something does not work - welcome at any time (contacts)</p>
+<p>P.P.S. Yandex Cloud unfortunately turned out to be incompatible with OpenBLD.net quality requirements, all servers based on this cloud will be abolished in the near future ⚰️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="performance" term="performance"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤝 UptimeRobot OpenBLD.net support'24]]></title>
+        <id>https://openbld.net/kz/blog/uptimerobot-openbld-supports-2024/</id>
+        <link href="https://openbld.net/kz/blog/uptimerobot-openbld-supports-2024/"/>
+        <updated>2024-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[UptimeRobot - Best monitoring service. Supported OpenBLD.net in 2024 year.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="UptimeRobot OpenBLD.net support" src="https://openbld.net/kz/assets/images/openbld-uptime-robot-supports-2024-7ad290265ed923c190c5c008611c8862.png" width="1250" height="680" class="img_ev3q"></p>
+<p><a href="https://uptimerobot.com/?rid=78534763f4713b" target="_blank" rel="noopener noreferrer">UptimeRobot.com</a> - The world's leading uptime monitoring service, supported OpenBLD.net in the year 2024! 🤝</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="uptimerobot-experience">UptimeRobot Experience<a href="https://openbld.net/kz/blog/uptimerobot-openbld-supports-2024/#uptimerobot-experience" class="hash-link" aria-label="Прямая ссылка на UptimeRobot Experience" title="Прямая ссылка на UptimeRobot Experience">​</a></h3>
+<p>UptimeRobot is the best monitoring solution for OpenBLD.net and exactly what I need:</p>
+<ul>
+<li>Multiple UptimeRobot monitoring PoPs</li>
+<li>Various locations worldwide</li>
+<li>Different monitor types (ports, protocols, etc.)</li>
+<li>Notifications via Telegram, Email</li>
+<li>One feature I especially value is the status page that displays the health of all servers in my project: bld-status.sys-adm.in</li>
+</ul>
+<p>I've been using UptimeRobot for many years and have never experienced any issues with their service. Of course:</p>
+<ul>
+<li>I highly recommend UptimeRobot to anyone looking for a reliable online monitoring service.</li>
+</ul>
+<p>The free plan includes 50 monitors with 5-minute checks totally free:</p>
+<ul>
+<li>Go to <a href="https://uptimerobot.com/?rid=78534763f4713b" target="_blank" rel="noopener noreferrer">UptimeRobot.com</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="uptimerobot" term="uptimerobot"/>
+        <category label="support" term="support"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🟢️️️️️️ OpenBLD.net New server in Kazakhstan]]></title>
+        <id>https://openbld.net/kz/blog/openbld-update-notice-2024-08-07/</id>
+        <link href="https://openbld.net/kz/blog/openbld-update-notice-2024-08-07/"/>
+        <updated>2024-08-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - Update Notice 2024-08-04 with major performance improvements.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New Server in Kazakhstan" src="https://openbld.net/kz/assets/images/openbld-new-server-in-kazakhstan-5b8935ae8e4dec829a9f20833cc90131.jpg" width="1250" height="680" class="img_ev3q"></p>
+<p>I hear a lot of good reviews from people about the new Yandex cloud in Kazakhstan 🇰🇿. And so, having saved up some money and received a small deposit from Yandex, I decided to try the cloud.</p>
+<p>Starting today, a new server has appeared in Karaganda, which will enter the general OpenBLD.net ecosystem in the next 24 hours.</p>
+<p>I really hope that this step will help improve the service, speed up the work of DoH and DoT clients of the capital of the Kazakhstan region and Central Kazakhstan as a whole.</p>
+<p>Let's go further in a good mood and faith in success 💪</p>
+<p>You can find out how to connect to the service on the project <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">homepage</a>.</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="performance" term="performance"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘  OpenBLD.net - Update Notice Aug 2024]]></title>
+        <id>https://openbld.net/kz/blog/openbld-update-notice-2024-08-04/</id>
+        <link href="https://openbld.net/kz/blog/openbld-update-notice-2024-08-04/"/>
+        <updated>2024-08-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - Update Notice 2024-08-04 with major performance improvements.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Update Notice, Aug 2024" src="https://openbld.net/kz/assets/images/openbld_update_notice_aug_2024-c5a9b5893f5ccaa909c6927524cae9e1.jpg" width="1250" height="680" class="img_ev3q"></p>
+<p>Today wll deploy new <code>zBLD</code> backend release in to production environment.</p>
+<p>Major updates:</p>
+<ul>
+<li>Adding Rsyslog log forwarder</li>
+<li>Blocking log enricher - additional (domain category) into to rsyslog</li>
+<li>Guarantee DNS response mechanisms</li>
+<li>Reduce some log messages</li>
+<li>Update local log rotation mechanisms</li>
+<li>Fix global DNS queries counter for Prometheus exporter exporter</li>
+</ul>
+<p>Impact:</p>
+<ul>
+<li>There won't be an impact, but if you get a timeout today, it should be as short as possible</li>
+</ul>
+<p>In any case, I'm always in <a href="https://openbld.net/kz/docs/contacts/">touch</a>) Peace!  😎</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="performance" term="performance"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘  OpenBLD.net - Improved Performance]]></title>
+        <id>https://openbld.net/kz/blog/openbld-improved-io-performance/</id>
+        <link href="https://openbld.net/kz/blog/openbld-improved-io-performance/"/>
+        <updated>2024-07-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - Improve Input/Output performance to ~10 percent speed up]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Boost performance" src="https://openbld.net/kz/assets/images/openbld-improve-io-performance-b221561abd521722d9caada7c79cb713.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-speed-is-important">Why speed is important<a href="https://openbld.net/kz/blog/openbld-improved-io-performance/#why-speed-is-important" class="hash-link" aria-label="Прямая ссылка на Why speed is important" title="Прямая ссылка на Why speed is important">​</a></h2>
+<p>Speed directly affects our time; the faster the service works, the faster your Internet works, thus saving your time and the time of consuming server resources.</p>
+<p>Time is life, time is money, time is the most important resource in the world, which we must treat with care.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-has-been-done">What has been done<a href="https://openbld.net/kz/blog/openbld-improved-io-performance/#what-has-been-done" class="hash-link" aria-label="Прямая ссылка на What has been done" title="Прямая ссылка на What has been done">​</a></h2>
+<p>I have optimized the input/output operations of the OpenBLD.net servers, updated code, and optimized the servers configuration, which has led to a speed increase of about ~10 percent.</p>
+<p>Now the server works even faster, and you can enjoy the benefits of the OpenBLD.net service even more.</p>
+<p>I hope it works for you as quickly as it does for me. Peace to everyone ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="performance" term="performance"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘  OpenBLD.net - Caring for Children]]></title>
+        <id>https://openbld.net/kz/blog/openbld-kid-protection-testing-mode/</id>
+        <link href="https://openbld.net/kz/blog/openbld-kid-protection-testing-mode/"/>
+        <updated>2024-05-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Advertisements and adult content are junk information for a child's brain this needs to be blocked. OpenBLD.net provides a special mode for children's protection.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Kid Protection Test Mode" src="https://openbld.net/kz/assets/images/openbld-kid-protection-testing-mode-f75331614d5fede5a5bcde3e063e5734.png" width="1250" height="680" class="img_ev3q"></p>
+<p>👨‍👩‍👧‍👦 OpenBLD.net - Caring for Children</p>
+<p>Understanding that advertisements are junk information for a child's brain, I also recognize that "adult content" is even more unacceptable for minors.</p>
+<p>This includes:</p>
+<ul>
+<li>Pornography</li>
+<li>Escort services</li>
+<li>Gambling</li>
+</ul>
+<p>Starting today, I'm launching a new server in test mode with filtering for this type of content.</p>
+<ul>
+<li>DoT settings: <code>kid.openbld.net</code></li>
+<li>DoH settings: <code>https://kid.openbld.net/dns-query</code></li>
+</ul>
+<p>If the testing is successful, the service will be integrated into the overall OpenBLD.net ecosystem.</p>
+<p>Protect your younger generation. And of course, stay <a href="https://openbld.net/kz/docs/contacts/">connected</a>.</p>
+<p>Peace to everyone ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="oisd" term="oisd"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘  OpenBLD.net Implemented OISD Blocklist]]></title>
+        <id>https://openbld.net/kz/blog/openbld-integration-oisd-blocklist/</id>
+        <link href="https://openbld.net/kz/blog/openbld-integration-oisd-blocklist/"/>
+        <updated>2024-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net has implemented the OISD blocklist to provide users with an additional layer of protection against malicious websites.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - OISD Integrate" src="https://openbld.net/kz/assets/images/openbld-oisd-implementation-15db13700b02a3972c0a139d952399b3.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p><a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD</a> it is one of better projects aimed to reduce internet noise. You can use OISD for own purposes,
+in your DNS server, or you can <a href="https://openbld.net/kz/docs/get-started/third-party-filters/oisd/">use</a> it in OpenBLD.net as a ready-made solution.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-this-oisd-blocklist">What is this <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">oisd</a> blocklist?<a href="https://openbld.net/kz/blog/openbld-integration-oisd-blocklist/#what-is-this-oisd-blocklist" class="hash-link" aria-label="Прямая ссылка на what-is-this-oisd-blocklist" title="Прямая ссылка на what-is-this-oisd-blocklist">​</a></h2>
+<p>The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads,
+decreases the risk of malware, and enhances privacy. You can see FAQ and other details on the official <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD website</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use-oisd-in-openbldnet">How to use OISD in OpenBLD.net?<a href="https://openbld.net/kz/blog/openbld-integration-oisd-blocklist/#how-to-use-oisd-in-openbldnet" class="hash-link" aria-label="Прямая ссылка на How to use OISD in OpenBLD.net?" title="Прямая ссылка на How to use OISD in OpenBLD.net?">​</a></h2>
+<p>You can use OISD without exclusions, without additional blocklist - just only OISD in OpenBLD.net as DoH
+link in <code>RIC</code> mode.</p>
+<p>See details in <a href="https://openbld.net/kz/docs/get-started/third-party-filters/oisd/">Docs</a>. Happy Internet surfing! ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="oisd" term="oisd"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↘  Secure WiFi Recommendations]]></title>
+        <id>https://openbld.net/kz/blog/secure-wifi-recommendations/</id>
+        <link href="https://openbld.net/kz/blog/secure-wifi-recommendations/"/>
+        <updated>2024-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Free public WiFi can be a security risk. Here are some tips to help you stay safe when using public WiFi networks.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Secure WiFi Recommendations" src="https://openbld.net/kz/assets/images/openbld-public-wifi-recommendations-58a7db81b05631bd08aacf7bd2159a5b.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="intro">Intro<a href="https://openbld.net/kz/blog/secure-wifi-recommendations/#intro" class="hash-link" aria-label="Прямая ссылка на Intro" title="Прямая ссылка на Intro">​</a></h2>
+<p>Wi-Fi is a wireless communication technology that allows devices to connect to the internet and exchange
+data without using wired connections. Public Wi-Fi networks, available everywhere in public places such as
+cafes, airports, hotels, and shopping malls, provide users with a convenient way to access the internet
+anytime. However, such networks can pose a security threat as they are typically not password-protected and
+can be easily compromised by attackers to intercept data or launch attacks on users' devices.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="public-wi-fi-safety-tips">Public Wi-Fi Safety Tips<a href="https://openbld.net/kz/blog/secure-wifi-recommendations/#public-wi-fi-safety-tips" class="hash-link" aria-label="Прямая ссылка на Public Wi-Fi Safety Tips" title="Прямая ссылка на Public Wi-Fi Safety Tips">​</a></h2>
+<p><strong>1. Be vigilant:</strong></p>
+<ul>
+<li><strong>Don't trust public Wi-Fi networks.</strong></li>
+<li><strong>Verify the network name.</strong>
+<ul>
+<li>Scammers can create fake Wi-Fi networks with similar names to steal your data.</li>
+</ul>
+</li>
+<li><strong>Disable automatic network connection.</strong>
+<ul>
+<li>Your device will not connect to unknown networks without your knowledge.</li>
+</ul>
+</li>
+<li><strong>Avoid using public Wi-Fi for sensitive matters.</strong>
+<ul>
+<li>Do not use online banking, shop, or enter passwords on websites that do not use HTTPS.</li>
+</ul>
+</li>
+</ul>
+<p><strong>2. Use additional security measures:</strong></p>
+<ul>
+<li><strong>Turn on a VPN.</strong>
+<ul>
+<li>A VPN encrypts your traffic, making it unreadable to others.</li>
+<li>Use only trusted and reputable VPN services.</li>
+</ul>
+</li>
+<li><strong>Install antivirus and firewall.</strong>
+<ul>
+<li>This will help protect your device from malware and network attacks.</li>
+</ul>
+</li>
+<li><strong>Update your software.</strong>
+<ul>
+<li>Make sure your device has the latest operating system and application updates installed.</li>
+</ul>
+</li>
+<li><strong>Use two-factor authentication.</strong>
+<ul>
+<li>This will add an extra layer of security to your accounts.</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. Be careful what you do:</strong></p>
+<ul>
+<li><strong>Do not download files from unknown websites.</strong></li>
+<li><strong>Do not open suspicious links.</strong></li>
+<li><strong>Do not use online games and torrent clients.</strong></li>
+</ul>
+<p><strong>4. Use mobile internet:</strong></p>
+<ul>
+<li><strong>If possible, use mobile internet instead of Wi-Fi.</strong>
+<ul>
+<li>Mobile networks are generally more secure than public Wi-Fi networks.</li>
+</ul>
+</li>
+</ul>
+<p><strong>5. Additional tips:</strong></p>
+<ul>
+<li><strong>Use HTTPS websites.</strong>
+<ul>
+<li>HTTPS provides a secure connection between your device and the website.</li>
+</ul>
+</li>
+<li><strong>Disable file sharing.</strong>
+<ul>
+<li>This will prevent other users from accessing your files.</li>
+</ul>
+</li>
+<li><strong>Set a password for your Wi-Fi router.</strong>
+<ul>
+<li>If you are using a mobile Wi-Fi router, be sure to set a password for it.</li>
+</ul>
+</li>
+<li><strong>Forget the network after use.</strong>
+<ul>
+<li>Remove the network from your device's list of known networks to prevent automatic connection.</li>
+</ul>
+</li>
+<li><strong>Turn off Wi-Fi when not in use.</strong>
+<ul>
+<li>This will prevent your device from connecting to unknown networks.</li>
+</ul>
+</li>
+<li><strong>Use a secure DNS service.</strong>
+<ul>
+<li>A secure DNS service, like Cloudflare, <a href="https://openbld.net/kz/">OpenBLD.net</a> etc., can help protect you from phishing attacks and malware.</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://openbld.net/kz/blog/secure-wifi-recommendations/#conclusion" class="hash-link" aria-label="Прямая ссылка на Conclusion" title="Прямая ссылка на Conclusion">​</a></h2>
+<p>Following these simple tips will help you protect your data and devices when using public Wi-Fi.
+At least be careful and vigilant when using public Wi-Fi networks.</p>
+<p>Remember that your security is in your hands. Take care of yourself 🔐</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="security" term="security"/>
+        <category label="wifi" term="wifi"/>
+        <category label="recommendations" term="recommendations"/>
+        <category label="openbld" term="openbld"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤝 ClouDNS OpenBLD.net support'24]]></title>
+        <id>https://openbld.net/kz/blog/cloudns-openbld-supports-2024/</id>
+        <link href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/"/>
+        <updated>2024-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ClouDNS - Best DNS service. Supported OpenBLD.net in 2024 year.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="ClouDNS OpenBLD.net support" src="https://openbld.net/kz/assets/images/openbld-and-cloudns-2024-a5e7d6ba8f542e0de206914f4aea0200.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - fast and secure DNS Hosting service, supported OpenBLD.net in the year 2024! 🤝</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudnsnet-experience">ClouDNS.net Experience<a href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/#cloudnsnet-experience" class="hash-link" aria-label="Прямая ссылка на ClouDNS.net Experience" title="Прямая ссылка на ClouDNS.net Experience">​</a></h3>
+<p>I've been using ClouDNS.net for the OpenBLD.net project for several years now. Prior to this, I've tried all the popular
+and well-known DNS services worldwide, and with 100% confidence, I want to say:
+ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/#key-features" class="hash-link" aria-label="Прямая ссылка на Key Features" title="Прямая ссылка на Key Features">​</a></h3>
+<ul>
+<li>Fast</li>
+<li>Reliable</li>
+<li>Geographically distributed</li>
+<li>Includes built-in <a href="https://www.cloudns.net/monitoring/" target="_blank" rel="noopener noreferrer">monitoring</a></li>
+<li><a href="https://www.cloudns.net/wiki/article/441/" target="_blank" rel="noopener noreferrer">Free SSL</a> certificates</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stability">Stability<a href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/#stability" class="hash-link" aria-label="Прямая ссылка на Stability" title="Прямая ссылка на Stability">​</a></h3>
+<p>I especially want to highlight the stability of ClouDNS. Throughout the entire period of usage, there hasn't been a single outage, making ClouDNS the perfect choice for OpenBLD.</p>
+<p>I highly recommend ClouDNS to anyone looking for a high-quality DNS service.</p>
+<p>ClouDNS.net — Thank you for your work! ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="cloudns" term="cloudns"/>
+        <category label="support" term="support"/>
+        <category label="2024" term="2024"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🛡OpenBLD.net Outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains]]></title>
+        <id>https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/"/>
+        <updated>2024-04-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains!]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="JetBrains OSS OpenBLD.net support" src="https://openbld.net/kz/assets/images/openbld.net-urlhaus-statistics-h1-2024-ea51e6806346934e93f699bd1facfac9.jpeg" width="1046" height="965" class="img_ev3q"></p>
+<p>OpenBLD.net outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/#background" class="hash-link" aria-label="Прямая ссылка на Background" title="Прямая ссылка на Background">​</a></h3>
+<p>Some time ago, OpenBLD.net was <a href="https://openbld.net/kz/blog/2024-03-11-openbld-abuse-ch-integration/">added</a> to the <a href="https://urlhaus.abuse.ch/" target="_blank" rel="noopener noreferrer">URLhaus</a> project. URLhaus is a project operated
+by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a> with the goal of sharing and preventing malicious URLs that are being used for malware distribution.</p>
+<p>The ecosystem of the service, based on the <a href="https://openbld.net/kz/docs/intro/#philosophy">philosophy</a> of blocking internet noise, has demonstrated excellent protection against malicious domains and intrusive ads. 💪</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-now">What now<a href="https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/#what-now" class="hash-link" aria-label="Прямая ссылка на What now" title="Прямая ссылка на What now">​</a></h3>
+<p>According to URLhaus statistics, OpenBLD.net surpasses giants like AdGuard, Cloudflare, and Quad9 in blocking malware and unwanted domains. 🛡️</p>
+<p>OpenBLD.net doesn't just offer protection - it creates a sense of security for your online space.</p>
+<p>Your <a href="https://openbld.net/kz/docs/donation/">donations</a> and <a href="https://openbld.net/kz/docs/sponsorship/">sponsorship</a> can help us become even better and ensure the stable development of the service.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's next?<a href="https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/#whats-next" class="hash-link" aria-label="Прямая ссылка на What's next?" title="Прямая ссылка на What's next?">​</a></h3>
+<p>Join OpenBLD.net today, and together we'll make the internet safer and quieter!</p>
+<p>Peace ✌️</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="urlhaus" term="urlhaus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤝JetBrains OSS OpenBLD.net support'24]]></title>
+        <id>https://openbld.net/kz/blog/jetbrains-openbld-support-2024/</id>
+        <link href="https://openbld.net/kz/blog/jetbrains-openbld-support-2024/"/>
+        <updated>2024-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JetBrains - Best IDE. Supported OpenBLD.net in 2024 year.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="JetBrains OSS OpenBLD.net support" src="https://openbld.net/kz/assets/images/jetbrains-openbls-support-2024-de149da9d36d053d2255a2d78fa9f8ab.png" width="1387" height="608" class="img_ev3q"></p>
+<p>JetBrains, following <a href="https://www.jetbrains.com/opensource/" target="_blank" rel="noopener noreferrer">open source support</a> practices, has supported OpenBLD.net and me this year with a new license.</p>
+<p>JetBrains was the first company to support my initiative in creating my open projects. Such support has been significant for me, my motivation, and moving forward. Thanks to such activities, you understand that you're not wasting time, that you're not pulling it all alone, there are those who understand you, who support you and your ideas, and this makes you even stronger and closer to achieving your goals and realizing your ideas.</p>
+<p>It's cool, it's nice, and it gives the opportunity to move even further than you are today.</p>
+<p>To everyone who has the opportunity to help people and projects in their development and support and does so - this is dedicated. Success to all of us! Peace</p>
+<p>JetBrains OSS - <a href="https://www.jetbrains.com/opensource/" target="_blank" rel="noopener noreferrer">https://www.jetbrains.com/opensource/</a></p>
+<p>P.S. This post written in JetBrains WebStorm 💪</p>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="jetbrains" term="jetbrains"/>
+        <category label="support" term="support"/>
+        <category label="2024" term="2024"/>
+    </entry>
+</feed>
