@@ -6,10 +6,10 @@
     "message": "Бесплатный DNS - с DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS"
   },
   "homepage.Header.Button1": {
-    "message": "Как настроить за 5 минут"
+    "message": "О проекте OpenBLD.net"
   },
   "homepage.Header.Button2": {
-    "message": "О проекте OpenBLD.net"
+    "message": "Настроить за 5 минут"
   },
   "homepage.Header.Slogan": {
     "message": "Будь собой, будь в фокусе"
