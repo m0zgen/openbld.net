@@ -10,7 +10,11 @@ Setup OpenBLD.net on Android Devices
 
 1. Open Settings. In the Search settings enter DNS. In search result find Private DNS
 2. Open Private DNS settings and select **Private DNS provider hostname **
-3. Add `ada.openbld.net` and save
+3. Add and save address:
+
+```shell
+ada.openbld.net
+```
 
 ## Example
 

@@ -10,9 +10,13 @@ sidebar_position: 2
 2. В меню левой панели выберите Конфиденциальность и безопасность.
 3. Прокрутите вниз до пункта Включить безопасный DNS > Максимальная защита.
 4. Выберите поставщика > Пользовательский.
-5. Укажите адрес: `https://ada.openbld.net/dns-query`
+5. Укажите адрес:
 
-## Example
+```shell
+https://ada.openbld.net/dns-query
+```
+
+## Пример
 
 ![Setup OpenBLD.net - Mozilla Firefox](./setup-openbld-dns-gmozilla-firefox.jpg)
 

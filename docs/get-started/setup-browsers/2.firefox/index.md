@@ -10,7 +10,11 @@ Setup OpenBLD.net on Mozilla Firefox
 2. In the left pane menu, select Privacy & Security
 3. Scroll down to the Enable secure DNS using > Max Protection
 4. Choose provider > Custom
-5. Set address `https://ada.openbld.net/dns-query`
+5. Set address:
+
+```shell
+https://ada.openbld.net/dns-query
+```
 
 ## Example
 

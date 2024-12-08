@@ -11,7 +11,11 @@ Setup OpenBLD.net on Brave Browser
 3. On the left side menu, select Privacy and Security
 4. Select Privacy and security > Security
 5. Select from dropdown menu Customised in Use secure DNS section
-6. Set address `https://ada.openbld.net/dns-query`
+6. Set address:
+
+```shell
+https://ada.openbld.net/dns-query
+```
 
 ## Example
 

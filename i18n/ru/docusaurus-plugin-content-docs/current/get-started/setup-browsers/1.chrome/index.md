@@ -13,9 +13,13 @@ sidebar_position: 1
 3. Прокрутить до Конфиденциальность и Безопасность > Безопасность
 4. Прокрутить ниже и включить использование безопасного DNS
 5. Выбрать в выпадающем меню Пользовательский
-6. Указать адрес: `https://ada.openbld.net/dns-query`
+6. Указать адрес:
 
-## Example
+```shell
+https://ada.openbld.net/dns-query
+```
+
+## Пример
 ![Setup OpenBLD.net - Google Chrome](./setup-openbld-dns-google-chrome.jpg)
 
 Просто скопируйте и вставьте эту ссылку в настройки вашего браузера:
@@ -24,9 +28,9 @@ sidebar_position: 1
 https://ada.openbld.net/dns-query
 ```
 
-## Расширение OpenBLE.net для Chrome
+## Расширение OpenBLD.net для Google Chrome
 
-В качестве дополнительной опции вы можете использовать расширение для браузера Google Chrome:
+В качестве дополнительной опции можно использовать расширение для браузера Google Chrome:
 
 * Установите расширение [OpenBLD.net Blocker](/docs/get-started/setup-browsers/extensions/) для Google Chrome и браузера Brave.
 

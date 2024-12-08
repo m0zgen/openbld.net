@@ -13,7 +13,11 @@ Setup OpenBLD.net on Google Chrome
 3. Scroll down to Privacy and security > Security
 4. Scroll down and enable the Use secure DNS switch
 5. Select from dropdown menu Customised in Use secure DNS section
-6. Set address `https://ada.openbld.net/dns-query`
+6. Set address:
+
+```shell
+https://ada.openbld.net/dns-query
+```
 
 ## Example
 ![Setup OpenBLD.net - Google Chrome](./setup-openbld-dns-google-chrome.jpg)

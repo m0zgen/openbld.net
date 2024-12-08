@@ -13,7 +13,11 @@ Setup OpenBLD.net on Yandex Browser
 3. Select Security tab
 4. Scroll down and enable Use secure DNS server option
 5. Select from dropdown menu "other address"
-6. Set address `https://ada.openbld.net/dns-query`
+6. Set address:
+
+```shell
+https://ada.openbld.net/dns-query
+```
 
 ## Example
 ![Setup OpenBLD.net - Google Chrome](./setup-openbld-dns-yandex-browser.jpg)

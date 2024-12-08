@@ -13,7 +13,11 @@ sidebar_position: 5
 3. Выберите раздел Безопасность
 4. Прокрутите вниз и включите использование безопасного DNS
 5. В раскрывающемся меню выберите "Другой адрес"
-6. Укажите адрес `https://ada.openbld.net/dns-query`
+6. Укажите адрес:
+
+```shell
+https://ada.openbld.net/dns-query
+```
 
 ## Пример
 ![Setup OpenBLD.net - Google Chrome](./setup-openbld-dns-yandex-browser.jpg)

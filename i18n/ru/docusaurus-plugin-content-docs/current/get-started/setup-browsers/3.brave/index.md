@@ -11,9 +11,13 @@ sidebar_position: 3
 3. В меню слева выберите Конфиденциальность и безопасность.
 4. Выберите Конфиденциальность и безопасность > Безопасность.
 5. Выберите из раскрывающегося меню «Настроить» в разделе «Использовать безопасный DNS».
-6. Укажите адрес: `https://ada.openbld.net/dns-query`
+6. Укажите адрес:
 
-## Example
+```shell
+https://ada.openbld.net/dns-query
+```
+
+## Пример
 
 ![Setup OpenBLD.net - Brave Browser](./setup-openbld-dns-brave-browser.jpg)
 
