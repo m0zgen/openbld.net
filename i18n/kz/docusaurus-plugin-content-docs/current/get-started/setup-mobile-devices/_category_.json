@@ -1,8 +1,8 @@
 {
-  "label": "Setup Mobile Devices",
+  "label": "Мобильді Құрылғыларды баптау",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Setup OpenBLD.net in your mobile devices",
+    "description": "SМобильді құрылғыларда OpenBLD.net баптау"
   }
 }

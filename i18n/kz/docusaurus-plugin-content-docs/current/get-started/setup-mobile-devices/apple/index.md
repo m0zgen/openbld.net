@@ -2,50 +2,50 @@
 sidebar_position: 2
 ---
 
-# Apple Устройства
+# Apple Құрылғылар
 
-Для блокировки рекламы и отслеживания на устройствах Apple, нужно установить DNS профиль.
+Apple құралдарында жарнаманы және бақылауды бұғаттау үшін DNS профильді баптау қажет.
 
-Настройка OpenBLD.net на iOS, iPadOS и macOS
+iOS, iPadOS және macOS-та OpenBLD.net баптау
 
-1. Откройте `Safari` и **Разрешите** скачать ADA iOS/macOS [профиль](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v5-21.mobileconfig)
+1. `Safari` ашыңыз және ADA iOS/macOS [профиль](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v5-21.mobileconfig)
 
 ![Download OpenBLD Network iOS, iPad, macOS profile](./figure1-download-openbld-profile.jpg)
 
-2. После загрузки профиля вы увидите сообщение: 
-_**Профиль скачан. Проверьте профиль в приложении «Настройки», если хотите его установить.**_:
+2. Профильді жүктеп алғаннан кейін сіз мынадай хабарламаны көресіз:
+_**Профиль көшірілді. Егер оны орнатуды қалайтын болсаңыз, профильді «Баптаулар» қосымшасында тексеріңіз.**_:
 
 ![Profile downloaded](./figure2-downloaded-openbld-profile.jpg)
 
 :::note
 
-В некоторых случаях профиль может быть открыт как **текстовый** файл в формате `xml`:
+Кейбір жағдайларда профиль `xml` форматындағы **мәтіндік** файл ретінде болуы мүмкін:
 
 ![Open OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile-as-text.jpg)
 
-Не волнуйтесь, просто **скачайте** его:
+Уайымдамаңыз, жәй ғана оны **жүктеп алыңыз**:
 
 ![Download OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile.jpg)
 
-и затем **откройте** из приложения _Файлы_ или папки _Загрузки_.
+содан кейін _Файлдар_ немесе папкалар _Жүктеулер_ қосымшасынан **ашыңыз**.
 
 :::
 
-3. Откройте «Настройки» > найдите новый элемент настроек **Профиль загружен**.
+3. «Баптауларды» ашыңыз > **Профиль жүктелді** баптаулардың жаңа элементін табыңыз.
 
 ![Profile downloaded](./figure3-open-downloaded-openbld-profile.jpeg)
 
-4. **Установить** профиль:
+4. Профильді **орнату**:
 
 ![Install OpenBLD profile](./figure4-install-downloaded-openbld-profile.jpg)
 
-5. **Установить** Настройки DNS:
+5. DNS баптауларын **орнату**:
 
 ![Install OpenBLD DNS Settings](figure4-install2-downloaded-openbld-profile.jpg)
 
-6. Готово!
+6. Дайын!
 
 :::tip
 ### RIC Профиль
-Если вы хотите использовать RIC, вам нужно скачать [профиль RIC](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-RIC-v24-2.mobileconfig) и установить его так же, как и ADA профиль.
+Егер сіз RIC пайдалануды қалайтын болсаңыз, сіз [профиль RIC](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-RIC-v24-2.mobileconfig) жүктеп алуыңыз және оны ADA профиль секілді орнатуыңыз қажет.
 :::

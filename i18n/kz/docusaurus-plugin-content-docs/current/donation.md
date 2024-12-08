@@ -30,7 +30,6 @@ sidebar_position: 91
 ## Кім көмектеседі
 
 ### 2021 - 2023
-
 PilgrimZero (testing), Pak_DV (testing), George.K (testing), Slava.V (testing),
 Sergey.M (testing), V B (testing), Alibek.B (testing), Dmitry (testing), Oleg (testing) ⚡
 Simon.W (testing) 💪, Anatoly (testing) 💪⚡, Thatskriptkid (contribute), Gregory Z (contribute) 💪⚡
@@ -39,7 +38,7 @@ Simon.W (testing) 💪, Anatoly (testing) 💪⚡, Thatskriptkid (contribute), G
 Alexandr Bespoyasko (contribute) ⚡, Клён 🌳 (ArtloopTeam) 🚜 ☀️, Alexander G ☀️, El (testing) 💪⚡, 
 Roman G. ☀️, TeaqariaWTF 🚴‍, Green Duck 🚴‍, Bessmertnyi_poni ⚡☀️ 🚴 
 
-### Кто всегда на связи
+### Кім әрқашан байланыста
 Елизавета.К (design) ☀️, Ruzmat (contribute) ⚡, VadimML24 (contribute) ⚡, Greg (contribute, testing), Egor.Y (testing) 🚴, Stanislav (aka clevergod) Istyagin 💪 ⚡, 
 Not Saint (testing, hosting) 💪 🚴, Aslan-Im (contribute, testing) 🚴, Andrei (werlock) ☀️ 🚴, Seke t.me/asbisKZ ⚡ 🚜 ☀️ 🚴,
 Bessmertnyi_poni ⚡☀️ 🚴

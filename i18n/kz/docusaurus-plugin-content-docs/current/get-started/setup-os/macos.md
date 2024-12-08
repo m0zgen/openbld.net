@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # MacOS
 
-Настройка OpenBLD.net в macOS:
+МacOS-та OpenBLD.net баптау:
 
-1. Откройте Safari
-2. Загрузите профиль со страницы настроек [Apple устройств](/docs/get-started/setup-mobile-devices/apple)
-3. Установите профиль по аналогии с [настройкой iOS](/docs/get-started/setup-mobile-devices/apple)
+1. Safari ашыңыз
+2. Баптаулар парақшасынан профильді жүктеп алыңыз [Apple устройств](/docs/get-started/setup-mobile-devices/apple)
+3. Профильді [iOS баптау](/docs/get-started/setup-mobile-devices/apple) секілді орнатыңыз.
 
 

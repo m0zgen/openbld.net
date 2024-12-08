@@ -1,8 +1,8 @@
 {
-  "label": "Настройки",
+  "label": "Баптаулар",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "5 минут, чтобы изучить самые важные концепции OpenBLD.net."
+    "description": "\"OpenBLD.net ең маңызды тұжырымдамаларын зерделеу үшін 5 минут."
   }
 }

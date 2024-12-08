@@ -4,9 +4,9 @@ sidebar_position: 5
 
 # Microsoft Edge
 
-Настройка OpenBLD.net в Microsoft Edge
+Microsoft Edge-те OpenBLD.net баптау
 
-1. Перейдите в `edge://settings/privacy`.
-2. Прокрутите вниз до раздела «Безопасность».
-3. Убедитесь, что опция «Использовать безопасный DNS» включена.
-4. Выберите «Выбрать поставщика услуг» > `https://ada.openbld.net/dns-query`
+1. `edge://settings/privacy` өтіңіз.
+2. «Қауіпсіздік» бөліміне дейін төмен қарай айналдырыңыз.
+3. «Қауіпсіз DNS опциясының» қосылғанына көз жеткізіңіз.
+4. «Қызметтер жеткізушісін таңдау» > `https://ada.openbld.net/dns-query` таңдаңыз

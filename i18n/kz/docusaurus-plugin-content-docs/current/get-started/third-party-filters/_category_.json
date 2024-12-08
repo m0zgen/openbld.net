@@ -1,8 +1,8 @@
 {
-  "label": "Сторонние фильтры",
+  "label": "Бөгде сүзгілер",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Настройка OpenBLD.net с помощью сторонних фильтров",
+    "description": "Бөгде сүлгілердің көмегімен OpenBLD.net баптау"
   }
 }

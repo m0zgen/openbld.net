@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # dnscrypt-proxy
 
-## Что такое [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)?
+## [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) дегеніміз не?
 
-Гибкий DNS-прокси с поддержкой современных зашифрованных протоколов DNS, таких как DNSCrypt v2, DNS-over-HTTPS и т.д.
+DNSCrypt v2, DNS-over-HTTPS және т.б. секілді заманауи шифрланған DNS хаттамаларын қолданатын икемді DNS-прокси.
 
-## Нвстройка OpenBLD.net (ADA) в dnscrypt-proxy
+## dnscrypt-proxy-де OpenBLD.net (ADA)  баптау
 
-Добавьте в секцию `[static]` конфига `dnscrypt-proxy.toml`:
+`[static]` секциясына `dnscrypt-proxy.toml` конфигін қосыңыз:
 
 ```toml
 
@@ -21,6 +21,6 @@ sidebar_position: 1
 ```
 
 :::tip
-По умолчанию `dnscrypt-proxy` использует `[sources]` лист со множеством серверов.
-Если Вы хотите использовать только OpenBLD.net, то можно удалить или закомментировать параметры секции `[sources]`.
+Әдепкі қалпы бойынша `dnscrypt-proxy` көптеген серверлермен `[sources]` парақты пайдаланады.
+Егер Сіз тек OpenBLD.net пайдалануды қалайтын болсаңыз, онда `[sources]` секциясының параметрлерін алып тастауға немесе пікірге айналдыруға болады.
 :::

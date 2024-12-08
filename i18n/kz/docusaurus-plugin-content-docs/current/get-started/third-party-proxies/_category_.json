@@ -1,8 +1,8 @@
 {
-  "label": "Сторонние прокси и ПО",
+  "label": "Бөгде проксилер мен БЖ",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Настойка OpenBLD.net в различном ПО и прокси"
+    "description": "Әртүрді БЖ мен проксилерде OpenBLD.net баптау"
   }
 }

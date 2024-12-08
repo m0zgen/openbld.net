@@ -1,8 +1,8 @@
 {
-  "label": "Обзор проекта",
+  "label": "Жобаға шолу",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Обзор OpenBLD.net проекта"
+    "description": "OpenBLD.net жобасына шолу"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "label": "Setup Routers",
+  "label": "Роутерлерді баптау",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Setup OpenBLD.net in your routers",
+    "description": "Роутерлерде, маршрутизаторларда және кіру нүктелерінде OpenBLD.net баптау"
   }
 }

@@ -2,24 +2,23 @@
 sidebar_position: 99
 ---
 
-# Расширение OpenBLD.net
+# OpenBLD.net кеңейту
 
-Использование расширения браузера в качестве дополнительной опции OpenBLD.net.
+OpenBLD.net қосымша опциясы ретінде браузерді кеңейтуді пайдалану.
 
-На данный момент расширение доступно для браузеров Google Chrome и Brave.
+Қазіргі сәтте кеңейту Google Chrome және Brave браузерлері үшін қолжетімді.
 
-Расширение доступно в магазине Chrome расширений - [OpenBLD.net Blocker](https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea)
+Кеңейту Chrome кеңейтулер дүкенінде қолжетімді - [OpenBLD.net Blocker](https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea)
 
 ![OpenBLD.net Blocker](./openbldnet-blocker-chrome-extension.jpg)
 
-## Установка расширения
+## Кеңейтуді орнату
 
-* Откройте страницу расширения OpenBLD.net Blocker в Google Chrome [Store](https://chrome.google.com/webstore/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea).
-* Установите его
+* Google Chrome-да OpenBLD.net Blocker кеңейту парақшасын ашыңыз  [Store](https://chrome.google.com/webstore/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea).
+* Оны орнатыңыз
 
-После установки вы увидите значок OpenBLD.net Blocker на панели инструментов браузера или можете открыть его из раздела расширения браузера `chrome://extensions/`.
-в браузере.
+Орнатудан кейін сіз браузердің құралдар панелінде OpenBLD.net Blocker белгішесін көресіз немесе оны браузерде `chrome://extensions/` браузерін кеңейту бөлімінен аша аласыз.
 
 ![OpenBLD.net Blocker](./openbldnet-blocker-chrome-extension-icon.jpg)
 
-* Готово ✅
+* Дайын ✅

@@ -4,23 +4,22 @@ sidebar_position: 1
 
 # Hagezi
 
-## Что такое блоклист [hagezi](https://github.com/hagezi/dns-blocklists)?
+## Блоклист дегеніміз не [hagezi](https://github.com/hagezi/dns-blocklists)?
 
-⚡ DNS Блоклисты - Созданы с 💓 для безопасного и чистого интернета.
+⚡ DNS Блоклисттер – Қауіпсіз және таза интернет үшін 💓-пен жасалған.
 
-Приватность не является преступлением. Приватность имеет значение. Приватность позволяет нам определить, кто мы есть и кем мы хотим быть ‼️
+Жекешелік қылмыс емес. Жекешелік маңызды емес. Жекешелік бізге біздің кім екенімізді және кім болғымыз келетінін анықтауға мүмкіндік береді‼️
 
-## Использование hagezi в OpenBLD.net (RIC)
+## OpenBLD.net-те (RIC) hagezi пайдалану
 
-You can use [hagezi](https://github.com/hagezi/dns-blocklists) in OpenBLD.net as `DoH` link in `RIC` mode:
-Можно использовать [hagezi](https://github.com/hagezi/dns-blocklists) в OpenBLD.net как ссылку `DoH` в режиме `RIC`:
+OpenBLD.net-те [hagezi](https://github.com/hagezi/dns-blocklists) `RIC` режиміндегі `DoH` сілтеме ретінде пайдалануға болады:
 
 ```shell
 https://ric.openbld.net/dns-query/hagezi
 ```
 
 :::tip
-- [hagezi](https://github.com/hagezi/dns-blocklists) используется как есть - без дополнительных блок-листов и т. д.
-- OpenBLD.net использует Pro с TIF-списками
-- Обновления - каждый час
+- [hagezi](https://github.com/hagezi/dns-blocklists) қалай бар сол күйінде – қосымша блок-парақтарсыз және т.б. пайдаланылады.
+- OpenBLD.net Pro-ны TIF-тізімдермен пайдаланады
+- Жаңартулар – әр сағат сайын
 :::
