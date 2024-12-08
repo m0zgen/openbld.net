@@ -24,9 +24,9 @@ sidebar_position: 1
 Неявная превентивная мера в виде сервиса OpenBLD.net потенциально может снизить информационные и
 другие риски.
 
-* [Full Overview](/docs/category/overwiew)
+* [Обзор OpenBLD.net сервиса](/docs/category/overwiew)
 
 ## Начать использовать
 
-* [Get Started](/docs/category/get-started)
-* [How it works](/docs/overwiew/how-it-works)
+* [Настроить OpenBLD.net за 5 минут](/docs/category/get-started)
+* [Как работает сервис OpenBLD.net](/docs/overwiew/how-it-works)

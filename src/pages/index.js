@@ -595,8 +595,6 @@ export default function Home() {
                 <HomepageMap/>
                 <HomepageLogosCloud/>
                 <HomepageThanks/>
-
-
             </main>
         </Layout>
     );
