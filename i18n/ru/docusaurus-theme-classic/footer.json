@@ -48,7 +48,7 @@
     "description": "The label of footer link with label=Laboratory linking to https://lab.sys-adm.in/"
   },
   "copyright": {
-    "message": "© 2021-2024 OpenBLD.net, Сделан на Docusaurus.",
+    "message": "© 2019-2024 OpenBLD.net, Сделан на Docusaurus.",
     "description": "The footer copyright"
   }
 }
