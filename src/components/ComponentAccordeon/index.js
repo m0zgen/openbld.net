@@ -1,6 +1,8 @@
 
 // Accordion.js
 
+import Link from "@docusaurus/Link";
+
 export default function Accordion(props) {
     return (
 
@@ -12,7 +14,7 @@ export default function Accordion(props) {
             {props.isOpen && (
                 <div className="p-4 m-4">
                     {props.data}
-                    <a href={props.setupUrl}>{props.setupLink}</a>
+                    <Link href={props.setupUrl}>{props.setupLink}</Link>
                 </div>
             )}
         </div>

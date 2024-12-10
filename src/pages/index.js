@@ -82,21 +82,22 @@ function HomepageHeader() {
                     </Translate>
                     <br/>
 
-                    <a href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                    <Link
+                        href="/docs/donation" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
                         <Translate
                             id="homepage.Header.BriefLink1">
                         Donations
                         </Translate>
-                    </a>
+                    </Link>
                     <Translate
                         id="homepage.Header.BriefOr"> or
                     </Translate>
 
-                    <a href="/docs/sponsorship" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
+                    <Link href="/docs/sponsorship" className="mt-5 font-medium text-blue-200 dark:text-blue-500 hover:underline">
                         <Translate
                             id="homepage.Header.BriefLink2"> Sponsorship
                         </Translate>
-                    </a>.
+                    </Link>.
 
                 </p>
                 {/*<p>*/}
@@ -168,6 +169,7 @@ function FeaturesListHeading() {
         setAccordion(updatedAccordions);
     };
 
+    // Better way work online
     return (
         <section className="py-10 overflow-hidden dark:bg-[#070a11]">
 
@@ -268,13 +270,13 @@ function FeaturesListHeading() {
                                                     clip-rule="evenodd" fill-rule="evenodd"></path>
                                             </svg>
                                             <p>
-                                                <a className="text-blue-600 dark:text-blue-500"
+                                                <Link className="text-blue-600 dark:text-blue-500"
                                                    href="/docs/overwiew/openbld-plus">
                                                     <Translate
                                                         id="homepage.FeatureList.Item6">
                                                         Get benefits from Donations / Sponsorship
                                                     </Translate>
-                                                </a>
+                                                </Link>
                                             </p>
                                         </li>
                                     </ul>
@@ -343,23 +345,24 @@ function FeaturesListHeading() {
                                             id="homepage.FeatureList.GetStartedFor">
                                             Get Started for:
                                         </Translate>
-                                        <a href="/docs/category/setup-browsers"
+                                        <Link href="/docs/category/setup-browsers"
                                            className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
                                             <Translate
                                                 id="homepage.FeatureList.GetStartedForBrowsers"> Browsers
                                             </Translate>
-                                        </a>, <a href="/docs/category/setup-mobile-devices"
+                                        </Link>,
+                                        <Link href="/docs/category/setup-mobile-devices"
                                                  className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
                                         <Translate
                                             id="homepage.FeatureList.GetStartedForMobile"> Mobile
                                         </Translate>
-                                    </a>,
-                                        <a href="/docs/get-started/where-to-start"
+                                        </Link>,
+                                        <Link href="/docs/get-started/where-to-start"
                                            className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
                                             <Translate
                                                 id="homepage.FeatureList.GetStartedForMore"> more...
                                             </Translate>
-                                        </a>
+                                        </Link>
                                     </p>
 
                                 </div>
@@ -501,19 +504,19 @@ function FeaturesListHeading() {
                                                     id="homepage.ThreeColums.Column3Body">
                                                     Android, iOS, iPad devices.
                                                 </Translate>
-                                                <a href="/docs/get-started/setup-mobile-devices/android/">
+                                                <Link href="/docs/get-started/setup-mobile-devices/android/">
                                                     <Translate
                                                         id="homepage.ThreeColums.Column3BodyLink1"> Setup
                                                     </Translate>
-                                                </a>
+                                                </Link>
                                                 <Translate
                                                     id="homepage.ThreeColums.Column3Body2"> "Private DNS" on Android or
                                                 </Translate>
-                                                <a href="/docs/get-started/setup-mobile-devices/apple/">
+                                                <Link href="/docs/get-started/setup-mobile-devices/apple/">
                                                     <Translate
                                                         id="homepage.ThreeColums.Column3BodyLink2"> download
                                                     </Translate>
-                                                </a>
+                                                </Link>
                                                 <Translate
                                                     id="homepage.ThreeColums.Column3Body3"> profile for Apple devices.
                                                 </Translate>
