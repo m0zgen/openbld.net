@@ -1,36 +1,36 @@
 {
   "homepage.Header.Title": {
-    "message": "Блокировка рекламы, телеметрии, вредоносных доменов"
+    "message": "Жарнамаларды, телеметрияны, зиянды домендерді бұғаттау"
   },
   "homepage.Header.Subtitle": {
-    "message": "Бесплатный DNS - с DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS"
+    "message": "Тегін DNS - с DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS-пен бірге"
   },
   "homepage.Header.Button1": {
-    "message": "О проекте OpenBLD.net"
+    "message": "OpenBLD.net жобасы туралы"
   },
   "homepage.Header.Button2": {
-    "message": "Настроить за 5 минут"
+    "message": "5 минутта баптаңыз"
   },
   "homepage.Header.Slogan": {
-    "message": "Будь собой, будь в фокусе"
+    "message": "Өзің бол, назарда бол"
   },
   "homepage.Header.Brief": {
-    "message": "OpenBLD.net — это сервис, предназначенный для минимизации интернет-шума, такого как реклама \uD83E\uDDA0, трекинг \uD83D\uDD75\uFE0F\u200D♂\uFE0F, DNS утечки ✅ - позволяющий вам быть самим собой, оставаться сосредоточенным во время работы в Интернете. "
+    "message": "OpenBLD.net — бұл интернеттегі жарнама \uD83E\uDDA0, трекинг \uD83D\uDD75\uFE0F\u200D♂\uFE0F, DNS ағып кетуі ✅ сияқты қажетсіз шуды азайтуға арналған сервис, ол сізге өзіңіз болып, Интернетте жұмыс істегенде зейінді болуға мүмкіндік береді."
   },
   "homepage.Header.BriefLink1": {
-    "message": " Пожертвовать"
+    "message": " Қайырымдылық жасау"
   },
   "homepage.Header.BriefLink2": {
-    "message": " Спонсировать проект"
+    "message": " Жобаны демеушілік ету"
   },
   "homepage.Header.BriefOr": {
-    "message": " или"
+    "message": " немесе"
   },
   "homepage.FeatureList.Title": {
-    "message": "Лучший путь для работы онлайн"
+    "message": "Интернетте жұмыс істеудің ең жақсы жолы"
   },
   "homepage.FeatureList.Subtitle": {
-    "message": "Без агентов и дополнительного ПО"
+    "message": "Агенттерсіз және қосымша БЖ"
   },
   "homepage.FeatureList.Item1": {
     "message": "Для персонального / бизнес использования"
