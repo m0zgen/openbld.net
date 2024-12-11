@@ -8,7 +8,7 @@ tags: [openbld, updates, 2024]
 
 ![🏎 OpenBLD.net – in in Silicon Valley](images/openbld-in-silicon-valley.jpeg)
 
-### OpenBLD.net – new PoP in Silicon Valley
+### OpenBLD.net – new PoP in Silicon Valley 🇺🇸
 
 This is the new and first standalone OpenBLD server in the US, right in Silicon Valley 👽
 
