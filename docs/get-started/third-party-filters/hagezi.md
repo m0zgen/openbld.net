@@ -10,7 +10,7 @@ sidebar_position: 1
 
 Privacy is not a crime. Privacy matters. Privacy is what allows us to determine who we are and who we want to be ‼️
 
-## Use OISD on OpenBLD.net (RIC)
+## Use Hagezi on OpenBLD.net (RIC)
 
 You can use [hagezi](https://github.com/hagezi/dns-blocklists) in OpenBLD.net as `DoH` link in `RIC` mode:
 
