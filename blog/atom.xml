@@ -2,11 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-12-03T00:00:00.000Z</updated>
+    <updated>2024-12-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net new PoP in Canada]]></title>
+        <id>https://openbld.net/blog/openbld-new-pop-location-in-canada-2024/</id>
+        <link href="https://openbld.net/blog/openbld-new-pop-location-in-canada-2024/"/>
+        <updated>2024-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net – Response times for users in Canada have significantly improved — in some cases, reduced by several times or even tenfold.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – in Canada" src="https://openbld.net/assets/images/openbld-new-poplocation-in-canada-2024-8673286cef5c00c3d152daf16b56a097.png" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--a-new-point-of-presence-in-canada-">OpenBLD.net — A New Point of Presence in Canada! 🇨🇦<a href="https://openbld.net/blog/openbld-new-pop-location-in-canada-2024/#openbldnet--a-new-point-of-presence-in-canada-" class="hash-link" aria-label="Direct link to OpenBLD.net — A New Point of Presence in Canada! 🇨🇦" title="Direct link to OpenBLD.net — A New Point of Presence in Canada! 🇨🇦">​</a></h3>
+<p>Until now, our servers were closer to Europe and Asia, which could cause some inconvenience for users from Canada . Today, I’m excited to announce the launch of a new server in this amazing country!</p>
+<p>Response times for users in Canada have significantly improved — in some cases, reduced by several times or even tenfold.</p>
+<p>For DoH and DoT users, routes and geolocation are determined automatically, ensuring stable and fast connections.</p>
+<p>Learn how to set up OpenBLD.net in just 5 minutes by visiting this:</p>
+<ul>
+<li><a href="https://openbld.net/docs/category/get-started/">Get Started</a></li>
+</ul>
+<p>Enjoy fast, reliable, and secure internet — now in Canada! ✌️</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates">Feedback and Updates<a href="https://openbld.net/blog/openbld-new-pop-location-in-canada-2024/#feedback-and-updates" class="hash-link" aria-label="Direct link to Feedback and Updates" title="Direct link to Feedback and Updates">​</a></h3>
+<ul>
+<li>You can always send me feedback about the service from the contact page <a href="https://openbld.net/docs/contacts/">feedback</a>.</li>
+<li>For updates, follow the <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net in Telegram</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2024" term="2024"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🚀 OpenBLD.net in Silicon Valley]]></title>
         <id>https://openbld.net/blog/openbld-in-silicon-valley-2024/</id>
@@ -14,7 +43,7 @@
         <updated>2024-12-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net – Engine for a Faster Internet now in Silicon Valley]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – in in Silicon Valley" src="https://openbld.net/assets/images/openbld-in-silicon-valley-9187b7f3afc229c7cecaaff79fa2b032.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--new-pop-in-silicon-valley">OpenBLD.net – new PoP in Silicon Valley<a href="https://openbld.net/blog/openbld-in-silicon-valley-2024/#openbldnet--new-pop-in-silicon-valley" class="hash-link" aria-label="Direct link to OpenBLD.net – new PoP in Silicon Valley" title="Direct link to OpenBLD.net – new PoP in Silicon Valley">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--new-pop-in-silicon-valley-">OpenBLD.net – new PoP in Silicon Valley 🇺🇸<a href="https://openbld.net/blog/openbld-in-silicon-valley-2024/#openbldnet--new-pop-in-silicon-valley-" class="hash-link" aria-label="Direct link to OpenBLD.net – new PoP in Silicon Valley 🇺🇸" title="Direct link to OpenBLD.net – new PoP in Silicon Valley 🇺🇸">​</a></h3>
 <p>This is the new and first standalone OpenBLD server in the US, right in Silicon Valley 👽</p>
 <p>10 GBPS allows to use the full bandwidth potential of the OpenBLD service 🚀</p>
 <p>Thanks to everyone who supports and uses OpenBLD.net, let's move on!</p>
@@ -614,27 +643,5 @@ by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.c
         <category label="openbld" term="openbld"/>
         <category label="updates" term="updates"/>
         <category label="urlhaus" term="urlhaus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🤝JetBrains OSS OpenBLD.net support'24]]></title>
-        <id>https://openbld.net/blog/jetbrains-openbld-support-2024/</id>
-        <link href="https://openbld.net/blog/jetbrains-openbld-support-2024/"/>
-        <updated>2024-04-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JetBrains - Best IDE. Supported OpenBLD.net in 2024 year.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="JetBrains OSS OpenBLD.net support" src="https://openbld.net/assets/images/jetbrains-openbls-support-2024-de149da9d36d053d2255a2d78fa9f8ab.png" width="1387" height="608" class="img_ev3q"></p>
-<p>JetBrains, following <a href="https://www.jetbrains.com/opensource/" target="_blank" rel="noopener noreferrer">open source support</a> practices, has supported OpenBLD.net and me this year with a new license.</p>
-<p>JetBrains was the first company to support my initiative in creating my open projects. Such support has been significant for me, my motivation, and moving forward. Thanks to such activities, you understand that you're not wasting time, that you're not pulling it all alone, there are those who understand you, who support you and your ideas, and this makes you even stronger and closer to achieving your goals and realizing your ideas.</p>
-<p>It's cool, it's nice, and it gives the opportunity to move even further than you are today.</p>
-<p>To everyone who has the opportunity to help people and projects in their development and support and does so - this is dedicated. Success to all of us! Peace</p>
-<p>JetBrains OSS - <a href="https://www.jetbrains.com/opensource/" target="_blank" rel="noopener noreferrer">https://www.jetbrains.com/opensource/</a></p>
-<p>P.S. This post written in JetBrains WebStorm 💪</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="jetbrains" term="jetbrains"/>
-        <category label="support" term="support"/>
-        <category label="2024" term="2024"/>
     </entry>
 </feed>
