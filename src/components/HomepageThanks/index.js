@@ -155,7 +155,7 @@ const thanks = [
         },
         {
             "name": "Manas Kumar 🚴‍",
-            "",
+            "url": "",
             "style": ""
         }
     ];
