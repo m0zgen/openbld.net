@@ -152,6 +152,11 @@ const thanks = [
             "name": "Timur Shaikhin 🚴‍⚡",
             "url": "https://astlab.kz/",
             "style": ""
+        },
+        {
+            "name": "Manas Kumar 🚴‍",
+            "",
+            "style": ""
         }
     ];
 
