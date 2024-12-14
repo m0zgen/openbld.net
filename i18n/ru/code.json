@@ -370,11 +370,11 @@
     "description": "The title of the tag list page"
   },
   "theme.unlistedContent.title": {
-    "message": "Unlisted page",
+    "message": "Страница, не включенная в список",
     "description": "The unlisted content banner title"
   },
   "theme.unlistedContent.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "Эта страница не указана в списке. Поисковые системы не будут ее индексировать, и только пользователи, имеющие прямую ссылку, смогут получить к ней доступ.",
     "description": "The unlisted content banner message"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
@@ -406,7 +406,7 @@
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "warning",
+    "message": "внимание",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -434,11 +434,11 @@
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "Раскрыть сайдбар категорию '{label}'",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "Закрыть сайдбар категорию '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {

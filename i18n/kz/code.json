@@ -33,173 +33,173 @@
     "message": "Агенттерсіз және қосымша БЖ"
   },
   "homepage.FeatureList.Item1": {
-    "message": "Для персонального / бизнес использования"
+    "message": "Дербес / бизнес пайдалану үшін"
   },
   "homepage.FeatureList.Item2": {
-    "message": "Мобильные устройства, браузеры, компьютеры"
+    "message": "Мобильді құрылғылар, браузерлер, компьютерлер"
   },
   "homepage.FeatureList.Item3": {
-    "message": "Уменьшает использование памяти и процессора"
+    "message": "Жадыны және процессорды пайдалануды азайтады"
   },
   "homepage.FeatureList.Item4": {
-    "message": "Уменьшает потенциальные угрозы безопасности"
+    "message": "Қауіпсіздікке төнетін ықтимал қауіптерді азайтады"
   },
   "homepage.FeatureList.Item5": {
-    "message": "Безлимитное количество запросов до 100к в день"
+    "message": "Күніне 100к дейінгі сұрау салулардың шектелмеген саны"
   },
   "homepage.FeatureList.Item6": {
-    "message": "Пожертвование / Спонсорство"
+    "message": "Қайырымдылық көмек көрсету / Демеушілік"
   },
   "homepage.FeatureList.QuickSetup": {
-    "message": "Быстрая настройка браузера"
+    "message": "Браузерді жылдам баптау"
   },
   "homepage.FeatureList.QuickSetupType": {
-    "message": "Адаптивный DNS (ADA). Подходит всем:"
+    "message": "Бейімделген DNS (ADA). Барлығына сәйкес келеді:"
   },
   "homepage.FeatureList.GetStartedFor": {
-    "message": "Как настроить: "
+    "message": "Қалай баптау керек: "
   },
   "homepage.FeatureList.GetStartedForBrowsers": {
-    "message": "Браузеры"
+    "message": "Браузерлер"
   },
   "homepage.FeatureList.GetStartedForMobile": {
-    "message": "Мобильные"
+    "message": "Мобильді"
   },
   "homepage.FeatureList.GetStartedForMore": {
-    "message": " другое..."
+    "message": " басқа..."
   },
   "homepage.ThreeColums.Column1Title": {
-    "message": "Адаптивный DNS"
+    "message": "Бейімделген DNS"
   },
   "homepage.ThreeColums.Column1Body": {
-    "message": "ADA - Быстрый и гибкий серфинг в Интернете с помощью социальных сетей, Google, Microsoft, Яндекс и т. д."
+    "message": "ADA - Әлеуметтік желілер, Google, Microsoft, Яндекс және т.б. көмегімен Интернетте жылдам және икемді зерттеу"
   },
   "homepage.ThreeColums.Column2Title": {
-    "message": "Строгий DNS"
+    "message": "Қатаң DNS"
   },
   "homepage.ThreeColums.Column2Body": {
-    "message": "RIC — Блокирует многие маркетинговые и отслеживающие ресурсы (соц. сайты могут не работать)"
+    "message": "RIC — Көптеген маркетингтік және бақылау ресурстарын бұғаттайды (әлеу. сайттар жұмыс істей алмайды)"
   },
   "homepage.ThreeColums.Column3Title": {
-    "message": "Мобильные"
+    "message": "Мобильді"
   },
   "homepage.ThreeColums.Column3Body": {
-    "message": "Устройства Android, iOS, iPad."
+    "message": "Android, iOS, iPad құрылғылары."
   },
   "homepage.ThreeColums.Column3BodyLink1": {
-    "message": " Настройте "
+    "message": " Баптаңыз "
   },
   "homepage.ThreeColums.Column3Body2": {
-    "message": "\"Приватный DNS\" в Android или"
+    "message": "\"Жекеше DNS\" Android-та немесе"
   },
   "homepage.ThreeColums.Column3BodyLink2": {
-    "message": " загрузите "
+    "message": " жүктеңіз "
   },
   "homepage.ThreeColums.Column3Body3": {
-    "message": "профиль для Apple"
+    "message": "Apple арналған профиль"
   },
   "homepage.Submodules.Header": {
-      "message": "Подмодули"
+      "message": "Кіші модульдер"
   },
   "homepage.ChromeExtension.TypeTile": {
-    "message": "Расширение",
+    "message": "Кеңейту",
     "description": "The label of type of the Chrome Extension (Extension)"
   },
   "homepage.ChromeExtension.HeaderTitleMain": {
-    "message": "OpenBLD.net в вашем"
+    "message": "OpenBLD.net сіздің"
   },
   "homepage.ChromeExtension.HeaderTitleGrayed": {
-    "message": " Браузере"
+    "message": " Браузерде"
   },
   "homepage.ChromeExtension.HeaderSubTitle": {
-    "message": "Дополнительные расширения для сервиса OpenBLD.net"
+    "message": "OpenBLD.net сервисі үшін қосымша кеңейтулер"
   },
   "homepage.ChromeExtension.Setup": {
-    "message": "Настройка "
+    "message": "Баптау "
   },
   "homepage.ChromeExtension.Description": {
-    "message": " требуется перед использованием расширения браузера"
+    "message": " пайдаланудың алдында браузерді кеңейту талап етіледі"
   },
   "homepage.ChromeExtension.LinkToStore": {
-    "message": "Магазин Chrome веб-приложений"
+    "message": "Chrome веб-қосымшалар дүкені"
   },
   "homepage.VideoPresentation.TypeTile": {
-    "message": "Демонстрация",
+    "message": "Көрсету",
     "description": "The label of Video Presentation type"
   },
   "homepage.VideoPresentation.HeaderTitleMain": {
     "message": "OpenBLD.net"
   },
   "homepage.VideoPresentation.HeaderTitleGrayed": {
-    "message": " Эффект"
+    "message": " Әсер"
   },
   "homepage.VideoPresentation.HeaderSubTitle": {
-    "message": "Уменьшите потребление оперативной памяти, процессора и тепла вашего компьютера или ноутбука."
+    "message": "Өз компьютеріңіздің немесе ноутбугіңіздің операциялық жадыны, процессорды және жылуды тұтынуын азайтыңыз."
   },
   "homepage.VideoPresentation.Description": {
-    "message": "Субтитры: English, Qazaq, Russian, Spanish, Turkish, Vietnamese"
+    "message": "Субтитрлар: English, Qazaq, Russian, Spanish, Turkish, Vietnamese"
   },
   "homepage.VideoPresentation.LinkToSetup": {
-    "message": "Настроить свой браузер"
+    "message": "Өз браузеріңізді баптау"
   },
   "homepage.CompareAdaAndRic.TypeTile": {
-    "message": "Оптимизация",
+    "message": "Оңтайландыру",
     "description": "The label of type of the ADA and RIC"
   },
   "homepage.CompareAdaAndRic.HeaderTitleMain": {
-    "message": "Уменьшите свой"
+    "message": "Өзіңіздің"
   },
   "homepage.CompareAdaAndRic.HeaderTitleGrayed": {
-    "message": " трафик"
+    "message": " трафигіңізді азайтыңыз"
   },
   "homepage.CompareAdaAndRic.HeaderSubTitle": {
-    "message": "Выйдите из \"пузыря фильтров\", будьте собой"
+    "message": "\"Сүзгілер көпіршігінен шығыңыз\", өз қалпыңызда болыңыз"
   },
   "homepage.CompareAdaAndRic.Description": {
-    "message": "Снизьте отслеживание и телеметрию с помощью сервиса OpenBLD.net. Наслаждайтесь более плавной работой в Интернете без навязчивого сбора данных."
+    "message": "OpenBLD.net сервисінің көмегімен бақылау мен телеметрияны азайтыңыз. Жалықтыратын деректерді жинаусыз Интернеттегі барынша бірқалыпты жұмыстан рахат алыңыз."
   },
   "homepage.CompareAdaAndRic.LinkToSetup": {
-    "message": "Как работает OpenBLD.net"
+    "message": "OpenBLD.net қалай жұмыс істейді"
   },
   "homepage.LogosCloud.Title": {
-    "message": "+ кто поддержал проект \uD83D\uDE80"
+    "message": "+ кім жобаға қолдау көрсетті \uD83D\uDE80"
   },
   "homepage.FeatureList.URLhaus.Title": {
-    "message": "Статистика URLhaus"
+    "message": "URLhaus статистикасы"
   },
   "homepage.FeatureList.URLhaus.Subtitle": {
-      "message": "сервис для обнаружения и блокировки вредоносных доменов от "
+      "message": "зиянды домендерді анықтауға және бұғаттауға арналған сервис "
   },
   "homepage.FeatureList.URLhaus.Subtitle2": {
-    "message": "содержащий сведения о вредоносных URL, которые используются для распространения вредоносного ПО."
+    "message": "зиянды БЖ тарату үшін пайдаланылатын зиянды URL туралы мәліметтерді қатитын."
   },
   "homepage.FeatureList.URLhaus.Subtitle3": {
-      "message": "Используя эти данные, можно получить представление о поведении вредоносного ПО, его идентификации, и нейтрализации связанных с вредоносным ПО и ботнетами киберугроз."
+      "message": "Осы деректерді пайдаланып, зиянды БЖ әрекеті, оны сәйкестендіру және зиянды БЖ және ботнеттермен байланысты киберқауіптілікті бейтараптандыру."
   },
   "homepage.FeatureList.URLhaus.Subtitle4": {
-    "message": "OpenBLD.net блокирует вредоносные домены наряду с другими сервисами, стремясь всегда быть полезным."
+    "message": "OpenBLD.net әрдайым пайдалы болуға талпына отырып, басқа сервистермен бірге зиянды домендерді бұғаттайды."
   },
   "homepage.Map.Title": {
-    "message": "Точки присутствия OpenBLD.net"
+    "message": "OpenBLD.net бар нүктелер"
   },
   "homepage.Map.ModalHeader": {
     "message": "Платформа"
   },
   "homepage.Map.DashboardHeader": {
-    "message": "Статистика за 90 дней на "
+    "message": "90 күндегі статистика "
   },
   "homepage.Thanks.Title": {
-    "message": "+ кто сделал вклад \uD83C\uDF1F"
+    "message": "+ кім салым жасады\uD83C\uDF1F"
   },
   "homepage.Thanks.AssistLink": {
-    "message": "Как ты можешь поддержать проект?"
+    "message": "Сен жобаға қалай қолдау көрсете аласың?"
   },
   "theme.ErrorPageContent.title": {
-    "message": "На странице произошёл сбой.",
+    "message": "Парақшада жаңылысу орын алды.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Прокрутка к началу",
+    "message": "Басына қарай айналдыру",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
@@ -211,106 +211,106 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Навигация по странице списка блогов",
+    "message": "Блогтар тізімінің парақшасы бойынша навигация",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Следующие записи",
+    "message": "Келесі жазбалар",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Предыдущие записи",
+    "message": "Алдыңғы жазбалар",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Навигация по странице поста блога",
+    "message": "Блог постының парақшасы бойынша навигация",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Следующий пост",
+    "message": "Келесі пост",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Предыдущий пост",
+    "message": "Алдыңғы пост",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.post.plurals": {
-    "message": "{count} запись|{count} записи|{count} записей",
+    "message": "{count} жазба|{count} жазбалар|{count} жазбалардың",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} с тегом \"{tagName}\"",
+    "message": "{nPosts} тегпен\"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Посмотреть все теги",
+    "message": "Барлық тегтерді қарау",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Переключение между темным и светлым режимом (сейчас используется {mode})",
+    "message": "Күңгірт және ашық режимдердің арасында ауыстырып-қосу (қазір {mode} пайдаланылады)",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "Тёмный режим",
+    "message": "Күңгірт режим",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "Светлый режим",
+    "message": "Ашық режим",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Навигационная цепочка текущей страницы",
+    "message": "Ағымдағы парақшаның навигациялық тізбегі",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} элемент|{count} элемента|{count} элементов",
+    "message": "{count} элемент|{count} элементтің|{count} элементтердің",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Страница документа",
+    "message": "Құжат парағы",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Предыдущая страница",
+    "message": "Алдыңғы парақ",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Следующая страница",
+    "message": "Келесі парақ",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Одна страница|{count} страницы|{count} страниц",
+    "message": "Бір парақ|{count} парақтың|{count} парақтардың",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} с тегом \"{tagName}\"",
+    "message": "{nDocsTagged} тегпен\"{tagName}\"",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Версия: {versionLabel}"
+    "message": "Нұсқа: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Это документация для будущей версии {siteTitle} {versionLabel}.",
+    "message": "Бұл құжаттама болашақ нұсқа үшін {siteTitle} {versionLabel}.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Это документация {siteTitle} для версии {versionLabel}, которая уже не поддерживается.",
+    "message": "Бұл құжаттама {siteTitle} қолданылмайтын нұсқа үшін {versionLabel}.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Актуальная документация находится на странице {latestVersionLink} ({versionLabel}).",
+    "message": "Өзекті құжаттама парақшада {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "последней версии",
+    "message": "соңғы нұсқаның",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Отредактировать эту страницу",
+    "message": "Осы парақты редакциялау",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Прямая ссылка на {heading}",
+    "message": "{heading}-ға тікелей сілтеме",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -318,127 +318,127 @@
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " от {user}",
+    "message": " {user}-дан",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Последнее обновление{atDate}{byUser}",
+    "message": "Соңғы жаңарту{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.NotFound.title": {
-    "message": "Страница не найдена",
+    "message": "Парақша табылмады",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "К сожалению, мы не смогли найти запрашиваемую вами страницу.",
+    "message": "Өкінішке орай, біз сіз сұратқан парақшаны таба алмадық.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Пожалуйста, обратитесь к владельцу сайта, с которого вы перешли на эту ссылку, чтобы сообщить ему, что ссылка не работает.",
+    "message": "Сіз осы сілтемеге өткен сайттың иесіне сілтеменің жұмыс істемейтіні туралы хабарлау үшін сайт иесіне хабарласуыңызды сұраймыз.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "Содержание этой страницы",
+    "message": "Осы парақшаның мазмұны",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "{readingTime} мин. чтения",
+    "message": "{readingTime} мин. оқу",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.post.readMore": {
-    "message": "Читать дальше",
+    "message": "Әрі қарай оқу",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Подробнее о {title}",
+    "message": "{title} туралы толығырақ",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Главная страница",
+    "message": "Негізгі бет",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Попробуйте ещё раз",
+    "message": "Тағы байқап көріңіз",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Перейти к основному содержимому",
+    "message": "Негізгі мазмұнға өту",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Теги",
+    "message": "Тегтер",
     "description": "The title of the tag list page"
   },
   "theme.unlistedContent.title": {
-    "message": "Unlisted page",
+    "message": "Тізімде жоқ бет",
     "description": "The unlisted content banner title"
   },
   "theme.unlistedContent.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "Бұл бет тізімде жоқ. Іздеу жүйелері оны индекстемейді және оған тікелей сілтемесі бар пайдаланушылар ғана қол жеткізе алады.",
     "description": "The unlisted content banner message"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Версии",
+    "message": "Нұсқалар",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Теги:",
+    "message": "Тегтер:",
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
-    "message": "предупреждение",
+    "message": "ескерту",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "осторожно",
+    "message": "абай болыңыз",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "к сведению",
+    "message": "мәлімет үшін",
     "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "message": "примечание",
+    "message": "ескертпе",
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "подсказка",
+    "message": "көмексөз",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "warning",
+    "message": "ескерту",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Закрыть",
+    "message": "Жабу",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Навигация по последним постам в блоге",
+    "message": "Блогтағы соңғы пост бойынша навигация",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
-    "message": "Скопировано",
+    "message": "Көшірілді",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Скопировать в буфер обмена",
+    "message": "Айырбастау буферіне көшіру",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
-    "message": "Скопировать",
+    "message": "Көшіру",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Переключить перенос по строкам",
+    "message": "Жолдар бойынша тасымалдауды қосу",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "'{label}' бүйірлік тақта санатын жаю",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "'{label}' бүйірлік тақта санатын жию",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
@@ -446,47 +446,47 @@
     "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Языки",
+    "message": "Тілдер",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Свернуть сайдбар",
+    "message": "Сайдбарды жинау",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Свернуть сайдбар",
+    "message": "Сайдбарды жинау",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "Құжаттар бүйірлік тақтасы",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Закрыть панель навигации",
+    "message": "Навигация панелін жабу",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Перейти к главному меню",
+    "message": "← Басты мәзірге өту",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Переключить навигационную панель",
+    "message": "Навигациялық панельді қосу",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Развернуть сайдбар",
+    "message": "Сайдбарды ашу",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Развернуть сайдбар",
+    "message": "Сайдбарды ашу",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "index.layout.title": {
-    "message": "{title}способ как блокировать рекламу, отслеживание, трекинг, телеметрию, малварь, вредоносные домены.",
+    "message": "{title}жарнаманы, бақылауды, трекингті, телеметрияны, малварь, зиянды домендерді қалай бұғаттау тәсілі.",
     "description": "The title displayed in the website head."
   },
   "index.layout.description": {
-    "message": "OpenBLD.net — сосредоточьтесь на информации с помощью блокировки рекламы и скрытого предотвращения угроз кибербезопасности.",
+    "message": "OpenBLD.net — жарнаманы бұғаттау және киберқауіпсіздікке төнетін қауіпті жасырын болдырмау арқылы ақпаратқа алаңсыз көңіл бөліңіз.",
     "description": "The description displayed in the website head."
   }
 }
