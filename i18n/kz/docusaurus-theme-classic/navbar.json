@@ -8,7 +8,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Документация",
+    "message": "Құжаттама",
     "description": "Navbar item with label Docs"
   },
   "item.label.Blog": {
@@ -16,11 +16,11 @@
     "description": "Navbar item with label Blog"
   },
   "item.label.How it works": {
-    "message": "Как это работает",
+    "message": "Бұл қалай жұмыс істейді",
     "description": "Navbar item with label How it works"
   },
   "item.label.My GitHub": {
-    "message": "Мой GitHub",
+    "message": "Менің C5GitHub",
     "description": "Navbar item with label My GitHub"
   }
 }
