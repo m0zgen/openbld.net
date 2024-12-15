@@ -4,10 +4,43 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/kz/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Wed, 11 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>kz</language>
+        <item>
+            <title><![CDATA[🚀 ADA OpenBLD.net Ecosystem Updates]]></title>
+            <link>https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024.png/</link>
+            <guid>https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024.png/</guid>
+            <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net – The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – Major ADA System Updates 2024" src="https://openbld.net/kz/assets/images/openbld-major-doh-dot-updates-2024-0e0e4781243524808d659adce1433454.png" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--major-ada-system-updates-2024">OpenBLD.net — Major ADA System Updates 2024<a href="https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024.png/#openbldnet--major-ada-system-updates-2024" class="hash-link" aria-label="OpenBLD.net — Major ADA System Updates 2024-ға тікелей сілтеме" title="OpenBLD.net — Major ADA System Updates 2024-ға тікелей сілтеме">​</a></h3>
+<p>The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only</p>
+<ul>
+<li>The mechanism for blocking abusers of the service has been updated</li>
+<li>The modes of balancing and parallelization of requests have been updated</li>
+<li>The parameters of TLS and its encryption have been updated</li>
+</ul>
+<p>All changes have been checked and tested in - browsers (chrome, brave), smartphones (Apple, Android) - It works!</p>
+<p>The changes will be implemented gradually:</p>
+<ol>
+<li>Asia</li>
+<li>Europe</li>
+<li>USA</li>
+</ol>
+<p>The migration will be seamless and no one will notice it, but please pay attention to how everything will work - faster/slower, will there be errors in the service, etc.</p>
+<p>I am always in touch if possible, if anything, write to me through the contacts in this chat or through the site contacts
+(see feedback section below).</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024.png/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікелей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
+<ul>
+<li>You can always send me feedback about the service from the contact page <a href="https://openbld.net/kz/docs/contacts/">feedback</a>.</li>
+<li>For updates, follow the <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net in Telegram</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2024</category>
+        </item>
         <item>
             <title><![CDATA[🚀 OpenBLD.net new PoP in Canada]]></title>
             <link>https://openbld.net/kz/blog/openbld-new-pop-location-in-canada-2024/</link>
@@ -15,7 +48,7 @@
             <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[OpenBLD.net – Response times for users in Canada have significantly improved — in some cases, reduced by several times or even tenfold.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – in Canada" src="https://openbld.net/kz/assets/images/openbld-new-poplocation-in-canada-2024-8673286cef5c00c3d152daf16b56a097.png" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--a-new-point-of-presence-in-canada-">OpenBLD.net — A New Point of Presence in Canada! 🇨🇦<a href="https://openbld.net/kz/blog/openbld-new-pop-location-in-canada-2024/#openbldnet--a-new-point-of-presence-in-canada-" class="hash-link" aria-label="OpenBLD.net — A New Point of Presence in Canada! 🇨🇦-ға тікелей сілтеме" title="OpenBLD.net — A New Point of Presence in Canada! 🇨🇦-ға тікелей сілт�еме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--a-new-point-of-presence-in-canada-">OpenBLD.net — A New Point of Presence in Canada! 🇨🇦<a href="https://openbld.net/kz/blog/openbld-new-pop-location-in-canada-2024/#openbldnet--a-new-point-of-presence-in-canada-" class="hash-link" aria-label="OpenBLD.net — A New Point of Presence in Canada! 🇨🇦-ға тікелей сілтеме" title="OpenBLD.net — A New Point of Presence in Canada! 🇨🇦-ға тікелей сілтеме">​</a></h3>
 <p>Until now, our servers were closer to Europe and Asia, which could cause some inconvenience for users from Canada . Today, I’m excited to announce the launch of a new server in this amazing country!</p>
 <p>Response times for users in Canada have significantly improved — in some cases, reduced by several times or even tenfold.</p>
 <p>For DoH and DoT users, routes and geolocation are determined automatically, ensuring stable and fast connections.</p>
@@ -268,7 +301,7 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
             <description><![CDATA[UptimeRobot - Best monitoring service. Supported OpenBLD.net in 2024 year.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="UptimeRobot OpenBLD.net support" src="https://openbld.net/kz/assets/images/openbld-uptime-robot-supports-2024-7ad290265ed923c190c5c008611c8862.png" width="1250" height="680" class="img_ev3q"></p>
 <p><a href="https://uptimerobot.com/?rid=78534763f4713b" target="_blank" rel="noopener noreferrer">UptimeRobot.com</a> - The world's leading uptime monitoring service, supported OpenBLD.net in the year 2024! 🤝</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="uptimerobot-experience">UptimeRobot Experience<a href="https://openbld.net/kz/blog/uptimerobot-openbld-supports-2024/#uptimerobot-experience" class="hash-link" aria-label="UptimeRobot Experience-ға тікелей сіл�теме" title="UptimeRobot Experience-ға тікелей сілтеме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="uptimerobot-experience">UptimeRobot Experience<a href="https://openbld.net/kz/blog/uptimerobot-openbld-supports-2024/#uptimerobot-experience" class="hash-link" aria-label="UptimeRobot Experience-ға тікелей сілтеме" title="UptimeRobot Experience-ға тікелей сілтеме">​</a></h3>
 <p>UptimeRobot is the best monitoring solution for OpenBLD.net and exactly what I need:</p>
 <ul>
 <li>Multiple UptimeRobot monitoring PoPs</li>
@@ -341,7 +374,7 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
             <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[OpenBLD.net - Improve Input/Output performance to ~10 percent speed up]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Boost performance" src="https://openbld.net/kz/assets/images/openbld-improve-io-performance-b221561abd521722d9caada7c79cb713.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-speed-is-important">Why speed is important<a href="https://openbld.net/kz/blog/openbld-improved-io-performance/#why-speed-is-important" class="hash-link" aria-label="Why speed is important-ға тікелей сілтеме" title="Why speed is important-ға тікелей сілтеме">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-speed-is-important">Why speed is important<a href="https://openbld.net/kz/blog/openbld-improved-io-performance/#why-speed-is-important" class="hash-link" aria-label="Why speed is important-ға тікелей сілтеме" title="Why speed is important-ға тікелей сілт�еме">​</a></h2>
 <p>Speed directly affects our time; the faster the service works, the faster your Internet works, thus saving your time and the time of consuming server resources.</p>
 <p>Time is life, time is money, time is the most important resource in the world, which we must treat with care.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-has-been-done">What has been done<a href="https://openbld.net/kz/blog/openbld-improved-io-performance/#what-has-been-done" class="hash-link" aria-label="What has been done-ға тікелей сілтеме" title="What has been done-ға тікелей сілтеме">​</a></h2>
@@ -521,7 +554,7 @@ At least be careful and vigilant when using public Wi-Fi networks.</p>
             <description><![CDATA[ClouDNS - Best DNS service. Supported OpenBLD.net in 2024 year.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="ClouDNS OpenBLD.net support" src="https://openbld.net/kz/assets/images/openbld-and-cloudns-2024-a5e7d6ba8f542e0de206914f4aea0200.jpeg" width="1250" height="680" class="img_ev3q"></p>
 <p><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - fast and secure DNS Hosting service, supported OpenBLD.net in the year 2024! 🤝</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudnsnet-experience">ClouDNS.net Experience<a href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/#cloudnsnet-experience" class="hash-link" aria-label="ClouDNS.net Experience-ға тікелей сілтеме" title="ClouDNS.net Experience-ға тікелей �сілтеме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudnsnet-experience">ClouDNS.net Experience<a href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/#cloudnsnet-experience" class="hash-link" aria-label="ClouDNS.net Experience-ға тікелей сілтеме" title="ClouDNS.net Experience-ға тікелей сілтеме">​</a></h3>
 <p>I've been using ClouDNS.net for the OpenBLD.net project for several years now. Prior to this, I've tried all the popular
 and well-known DNS services worldwide, and with 100% confidence, I want to say:
 ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
@@ -541,29 +574,6 @@ ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
             <category>cloudns</category>
             <category>support</category>
             <category>2024</category>
-        </item>
-        <item>
-            <title><![CDATA[🛡OpenBLD.net Outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains]]></title>
-            <link>https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/</link>
-            <guid>https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/</guid>
-            <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains!]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="JetBrains OSS OpenBLD.net support" src="https://openbld.net/kz/assets/images/openbld.net-urlhaus-statistics-h1-2024-ea51e6806346934e93f699bd1facfac9.jpeg" width="1046" height="965" class="img_ev3q"></p>
-<p>OpenBLD.net outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains!</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/#background" class="hash-link" aria-label="Background-ға тікелей сілтеме" title="Background-ға тікелей сілтеме">​</a></h3>
-<p>Some time ago, OpenBLD.net was <a href="https://openbld.net/kz/blog/2024-03-11-openbld-abuse-ch-integration/">added</a> to the <a href="https://urlhaus.abuse.ch/" target="_blank" rel="noopener noreferrer">URLhaus</a> project. URLhaus is a project operated
-by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a> with the goal of sharing and preventing malicious URLs that are being used for malware distribution.</p>
-<p>The ecosystem of the service, based on the <a href="https://openbld.net/kz/docs/intro/#philosophy">philosophy</a> of blocking internet noise, has demonstrated excellent protection against malicious domains and intrusive ads. 💪</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-now">What now<a href="https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/#what-now" class="hash-link" aria-label="What now-ға тікелей сілтеме" title="What now-ға тікелей сілтеме">​</a></h3>
-<p>According to URLhaus statistics, OpenBLD.net surpasses giants like AdGuard, Cloudflare, and Quad9 in blocking malware and unwanted domains. 🛡️</p>
-<p>OpenBLD.net doesn't just offer protection - it creates a sense of security for your online space.</p>
-<p>Your <a href="https://openbld.net/kz/docs/donation/">donations</a> and <a href="https://openbld.net/kz/docs/sponsorship/">sponsorship</a> can help us become even better and ensure the stable development of the service.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's next?<a href="https://openbld.net/kz/blog/openbld.net-urlhaus-statistics-h1-2024/#whats-next" class="hash-link" aria-label="What's next?-ға тікелей сілтеме" title="What's next?-ға тікелей сілтеме">​</a></h3>
-<p>Join OpenBLD.net today, and together we'll make the internet safer and quieter!</p>
-<p>Peace ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>urlhaus</category>
         </item>
     </channel>
 </rss>

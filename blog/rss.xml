@@ -4,10 +4,43 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Wed, 11 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🚀 ADA OpenBLD.net Ecosystem Updates]]></title>
+            <link>https://openbld.net/blog/openbld-major-doh-dot-updates-2024.png/</link>
+            <guid>https://openbld.net/blog/openbld-major-doh-dot-updates-2024.png/</guid>
+            <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net – The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – Major ADA System Updates 2024" src="https://openbld.net/assets/images/openbld-major-doh-dot-updates-2024-0e0e4781243524808d659adce1433454.png" width="1250" height="680" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--major-ada-system-updates-2024">OpenBLD.net — Major ADA System Updates 2024<a href="https://openbld.net/blog/openbld-major-doh-dot-updates-2024.png/#openbldnet--major-ada-system-updates-2024" class="hash-link" aria-label="Direct link to OpenBLD.net — Major ADA System Updates 2024" title="Direct link to OpenBLD.net — Major ADA System Updates 2024">​</a></h3>
+<p>The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only</p>
+<ul>
+<li>The mechanism for blocking abusers of the service has been updated</li>
+<li>The modes of balancing and parallelization of requests have been updated</li>
+<li>The parameters of TLS and its encryption have been updated</li>
+</ul>
+<p>All changes have been checked and tested in - browsers (chrome, brave), smartphones (Apple, Android) - It works!</p>
+<p>The changes will be implemented gradually:</p>
+<ol>
+<li>Asia</li>
+<li>Europe</li>
+<li>USA</li>
+</ol>
+<p>The migration will be seamless and no one will notice it, but please pay attention to how everything will work - faster/slower, will there be errors in the service, etc.</p>
+<p>I am always in touch if possible, if anything, write to me through the contacts in this chat or through the site contacts
+(see feedback section below).</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/blog/openbld-major-doh-dot-updates-2024.png/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Direct link to Feedback and Updates ✌️" title="Direct link to Feedback and Updates ✌️">​</a></h3>
+<ul>
+<li>You can always send me feedback about the service from the contact page <a href="https://openbld.net/docs/contacts/">feedback</a>.</li>
+<li>For updates, follow the <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net in Telegram</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2024</category>
+        </item>
         <item>
             <title><![CDATA[🚀 OpenBLD.net new PoP in Canada]]></title>
             <link>https://openbld.net/blog/openbld-new-pop-location-in-canada-2024/</link>
@@ -541,29 +574,6 @@ ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
             <category>cloudns</category>
             <category>support</category>
             <category>2024</category>
-        </item>
-        <item>
-            <title><![CDATA[🛡OpenBLD.net Outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains]]></title>
-            <link>https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/</link>
-            <guid>https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/</guid>
-            <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains!]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="JetBrains OSS OpenBLD.net support" src="https://openbld.net/assets/images/openbld.net-urlhaus-statistics-h1-2024-ea51e6806346934e93f699bd1facfac9.jpeg" width="1046" height="965" class="img_ev3q"></p>
-<p>OpenBLD.net outperformed AdGuard, Cloudflare, Quad9 in blocking malware domains!</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h3>
-<p>Some time ago, OpenBLD.net was <a href="https://openbld.net/blog/2024-03-11-openbld-abuse-ch-integration/">added</a> to the <a href="https://urlhaus.abuse.ch/" target="_blank" rel="noopener noreferrer">URLhaus</a> project. URLhaus is a project operated
-by <a href="https://abuse.ch/" target="_blank" rel="noopener noreferrer">abuse.ch</a> with the goal of sharing and preventing malicious URLs that are being used for malware distribution.</p>
-<p>The ecosystem of the service, based on the <a href="https://openbld.net/docs/intro/#philosophy">philosophy</a> of blocking internet noise, has demonstrated excellent protection against malicious domains and intrusive ads. 💪</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-now">What now<a href="https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/#what-now" class="hash-link" aria-label="Direct link to What now" title="Direct link to What now">​</a></h3>
-<p>According to URLhaus statistics, OpenBLD.net surpasses giants like AdGuard, Cloudflare, and Quad9 in blocking malware and unwanted domains. 🛡️</p>
-<p>OpenBLD.net doesn't just offer protection - it creates a sense of security for your online space.</p>
-<p>Your <a href="https://openbld.net/docs/donation/">donations</a> and <a href="https://openbld.net/docs/sponsorship/">sponsorship</a> can help us become even better and ensure the stable development of the service.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's next?<a href="https://openbld.net/blog/openbld.net-urlhaus-statistics-h1-2024/#whats-next" class="hash-link" aria-label="Direct link to What's next?" title="Direct link to What's next?">​</a></h3>
-<p>Join OpenBLD.net today, and together we'll make the internet safer and quieter!</p>
-<p>Peace ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>urlhaus</category>
         </item>
     </channel>
 </rss>
