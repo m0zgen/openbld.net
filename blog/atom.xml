@@ -19,16 +19,17 @@
 <ul>
 <li>The mechanism for blocking abusers of the service has been updated</li>
 <li>The modes of balancing and parallelization of requests have been updated</li>
-<li>The parameters of TLS and its encryption have been updated</li>
+<li>The parameters of TLS and its encryption would be updated</li>
 </ul>
-<p>All changes have been checked and tested in - browsers (chrome, brave), smartphones (Apple, Android) - It works!</p>
-<p>The changes will be implemented gradually:</p>
+<p>All changes have been checked and tested in browsers (chrome, brave), smartphones (Apple, Android) and it works!</p>
+<p>The changes will be implemented gradually in:</p>
 <ol>
 <li>Asia</li>
 <li>Europe</li>
 <li>USA</li>
 </ol>
-<p>The migration will be seamless and no one will notice it, but please pay attention to how everything will work - faster/slower, will there be errors in the service, etc.</p>
+<p>The migration will be so fast that no body will notice the time it takes to migrate,
+however please pay attention to how everything will work - faster/slower, will there be errors in the service, etc.</p>
 <p>I am always in touch if possible, if anything, write to me through the contacts in this chat or through the site contacts
 (see feedback section below).</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/blog/openbld-major-doh-dot-updates-2024.png/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Direct link to Feedback and Updates ✌️" title="Direct link to Feedback and Updates ✌️">​</a></h3>
