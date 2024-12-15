@@ -14,16 +14,17 @@ The part concerning the algorithms of front-end balancing of requests has been u
 
 - The mechanism for blocking abusers of the service has been updated
 - The modes of balancing and parallelization of requests have been updated
-- The parameters of TLS and its encryption have been updated
+- The parameters of TLS and its encryption would be updated
 
-All changes have been checked and tested in - browsers (chrome, brave), smartphones (Apple, Android) - It works!
+All changes have been checked and tested in browsers (chrome, brave), smartphones (Apple, Android) and it works!
 
-The changes will be implemented gradually:
+The changes will be implemented gradually in:
 1. Asia
 2. Europe
 3. USA
 
-The migration will be seamless and no one will notice it, but please pay attention to how everything will work - faster/slower, will there be errors in the service, etc.
+The migration will be so fast that no body will notice the time it takes to migrate, 
+however please pay attention to how everything will work - faster/slower, will there be errors in the service, etc.
 
 I am always in touch if possible, if anything, write to me through the contacts in this chat or through the site contacts 
 (see feedback section below).
