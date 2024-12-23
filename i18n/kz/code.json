@@ -3,7 +3,7 @@
     "message": "Жарнамаларды, телеметрияны, зиянды домендерді бұғаттау"
   },
   "homepage.Header.Subtitle": {
-    "message": "Тегін DNS - с DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS-пен бірге"
+    "message": "DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS бар тегін DNS"
   },
   "homepage.Header.Button1": {
     "message": "OpenBLD.net жобасы туралы"
@@ -12,22 +12,22 @@
     "message": "5 минутта баптаңыз"
   },
   "homepage.Header.Slogan": {
-    "message": "Өзің бол, назарда бол"
+    "message": "Өзіңмен өзің бол, назарда бол"
   },
   "homepage.Header.Brief": {
-    "message": "OpenBLD.net — бұл интернеттегі жарнама \uD83E\uDDA0, трекинг \uD83D\uDD75\uFE0F\u200D♂\uFE0F, DNS ағып кетуі ✅ сияқты қажетсіз шуды азайтуға арналған сервис, ол сізге өзіңіз болып, Интернетте жұмыс істегенде зейінді болуға мүмкіндік береді."
+    "message": "OpenBLD.net — бұл интернеттегі жарнама \uD83E\uDDA0, трекинг \uD83D\uDD75\uFE0F\u200D♂\uFE0F, DNS ағып кетуі ✅ сияқты қажетсіз шуды азайтуға, Интернетте жұмыс істегенде өзіңмен өзің, зейінді болуға мүмкіндік беретін сервис"
   },
   "homepage.Header.BriefLink1": {
     "message": " Қайырымдылық жасау"
   },
   "homepage.Header.BriefLink2": {
-    "message": " Жобаны демеушілік ету"
+    "message": " Жобаға демеушілік ету"
   },
   "homepage.Header.BriefOr": {
     "message": " немесе"
   },
   "homepage.FeatureList.Title": {
-    "message": "Интернетте жұмыс істеудің ең жақсы жолы"
+    "message": "Онлайн жұмыс істеудің үздік жолы"
   },
   "homepage.FeatureList.Subtitle": {
     "message": "Агенттерсіз және қосымша БЖ"
@@ -39,7 +39,7 @@
     "message": "Мобильді құрылғылар, браузерлер, компьютерлер"
   },
   "homepage.FeatureList.Item3": {
-    "message": "Жадыны және процессорды пайдалануды азайтады"
+    "message": "Жад және процессорды пайдалануды азайтады"
   },
   "homepage.FeatureList.Item4": {
     "message": "Қауіпсіздікке төнетін ықтимал қауіптерді азайтады"
@@ -48,7 +48,7 @@
     "message": "Күніне 100к дейінгі сұрау салулардың шектелмеген саны"
   },
   "homepage.FeatureList.Item6": {
-    "message": "Қайырымдылық көмек көрсету / Демеушілік"
+    "message": "Қайырымдылық / Демеушілік"
   },
   "homepage.FeatureList.QuickSetup": {
     "message": "Браузерді жылдам баптау"
@@ -72,7 +72,7 @@
     "message": "Бейімделген DNS"
   },
   "homepage.ThreeColums.Column1Body": {
-    "message": "ADA - Әлеуметтік желілер, Google, Microsoft, Яндекс және т.б. көмегімен Интернетте жылдам және икемді зерттеу"
+    "message": "ADA - Әлеуметтік желілер, Google, Microsoft, Яндекс және т.б. көмегімен Интернетте жылдам әрі икемді серфинг"
   },
   "homepage.ThreeColums.Column2Title": {
     "message": "Қатаң DNS"
@@ -90,13 +90,13 @@
     "message": " Баптаңыз "
   },
   "homepage.ThreeColums.Column3Body2": {
-    "message": "\"Жекеше DNS\" Android-та немесе"
+    "message": "Android-та \"Жекеше DNS\""
   },
   "homepage.ThreeColums.Column3BodyLink2": {
-    "message": " жүктеңіз "
+    "message": " немесе "
   },
   "homepage.ThreeColums.Column3Body3": {
-    "message": "Apple арналған профиль"
+    "message": "Apple-ге арналған"
   },
   "homepage.Submodules.Header": {
       "message": "Кіші модульдер"
@@ -147,16 +147,16 @@
     "description": "The label of type of the ADA and RIC"
   },
   "homepage.CompareAdaAndRic.HeaderTitleMain": {
-    "message": "Өзіңіздің"
+    "message": "Өз"
   },
   "homepage.CompareAdaAndRic.HeaderTitleGrayed": {
     "message": " трафигіңізді азайтыңыз"
   },
   "homepage.CompareAdaAndRic.HeaderSubTitle": {
-    "message": "\"Сүзгілер көпіршігінен шығыңыз\", өз қалпыңызда болыңыз"
+    "message": "\"Жалған сүзгілерден\", шығыңыз, өзіңмен өзің бол"
   },
   "homepage.CompareAdaAndRic.Description": {
-    "message": "OpenBLD.net сервисінің көмегімен бақылау мен телеметрияны азайтыңыз. Жалықтыратын деректерді жинаусыз Интернеттегі барынша бірқалыпты жұмыстан рахат алыңыз."
+    "message": "OpenBLD.net сервисінің көмегімен бақылау мен телеметрияны азайтыңыз. Қажетсіз деректерді жинамай, Интернетте бірқалыпты жұмыс істеуден ләззат алыңыз."
   },
   "homepage.CompareAdaAndRic.LinkToSetup": {
     "message": "OpenBLD.net қалай жұмыс істейді"
@@ -168,13 +168,13 @@
     "message": "URLhaus статистикасы"
   },
   "homepage.FeatureList.URLhaus.Subtitle": {
-      "message": "зиянды домендерді анықтауға және бұғаттауға арналған сервис "
+      "message": "зиянды БЖ тарату үшін пайдаланылатын зиянды URL мекенжайлары туралы мәліметтерді қамтитын "
   },
   "homepage.FeatureList.URLhaus.Subtitle2": {
-    "message": "зиянды БЖ тарату үшін пайдаланылатын зиянды URL туралы мәліметтерді қатитын."
+    "message": "зиянды домендерін анықтау және бұғаттау сервис."
   },
   "homepage.FeatureList.URLhaus.Subtitle3": {
-      "message": "Осы деректерді пайдаланып, зиянды БЖ әрекеті, оны сәйкестендіру және зиянды БЖ және ботнеттермен байланысты киберқауіптілікті бейтараптандыру."
+      "message": "Осы деректерді пайдаланып, зиянды БЖ әрекеті, оны сәйкестендіру және зиянды БЖ және ботнеттермен байланысты киберқауіптілікті бейтараптандыру туралы түсінік алуға болады."
   },
   "homepage.FeatureList.URLhaus.Subtitle4": {
     "message": "OpenBLD.net әрдайым пайдалы болуға талпына отырып, басқа сервистермен бірге зиянды домендерді бұғаттайды."
