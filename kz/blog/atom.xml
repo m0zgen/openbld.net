@@ -2,19 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2024-12-15T00:00:00.000Z</updated>
+    <updated>2025-01-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[🔼 Enhanced Apple Profile for ADA]]></title>
+        <id>https://openbld.net/kz/blog/enhanced-apple-profile-for-ada-2025/</id>
+        <link href="https://openbld.net/kz/blog/enhanced-apple-profile-for-ada-2025/"/>
+        <updated>2025-01-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net – New Apple profile for ADA mode has been updated. The profile has been updated to work with the latest Apple devices and operating systems.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 Enhanced Apple Profile for ADA 2025" src="https://openbld.net/kz/assets/images/enhanced-apple-profile-for-ada-2025-6d3d812af506e5bee9b262defe62d53b.jpg" width="1280" height="978" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--enhanced-apple-profile-for-ada">OpenBLD.net — Enhanced Apple Profile for ADA<a href="https://openbld.net/kz/blog/enhanced-apple-profile-for-ada-2025/#openbldnet--enhanced-apple-profile-for-ada" class="hash-link" aria-label="OpenBLD.net — Enhanced Apple Profile for ADA-ға тікелей сілтеме" title="OpenBLD.net — Enhanced Apple Profile for ADA-ға тікелей сілтеме">​</a></h3>
+<p>If you haven’t updated your profile in the last 6–12 months, do it now.</p>
+<p>Why you should update:</p>
+<ul>
+<li>
+<p>Route optimization</p>
+</li>
+<li>
+<p>Internet issues in Kazakhstan since late 2024, causing problems with Kaspi and Alfa (store orders)</p>
+</li>
+<li>
+<p>Updated IP address infrastructure</p>
+</li>
+<li>
+<p>How to update: <a href="https://openbld.net/kz/docs/get-started/setup-mobile-devices/apple/">Get Started</a></p>
+</li>
+</ul>
+<p>P.S. Thanks to everyone reporting troubleshooting signals ✊</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/enhanced-apple-profile-for-ada-2025/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікелей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
+<ul>
+<li>You can always leave your feedback <a href="https://openbld.net/kz/docs/contacts/">here</a>.</li>
+<li>Information about service updates is available in the official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2025" term="2025"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[🚀 ADA OpenBLD.net Ecosystem Updates]]></title>
-        <id>https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024.png/</id>
-        <link href="https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024.png/"/>
+        <id>https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024/</id>
+        <link href="https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024/"/>
         <updated>2024-12-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net – The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – Major ADA System Updates 2024" src="https://openbld.net/kz/assets/images/openbld-major-doh-dot-updates-2024-0e0e4781243524808d659adce1433454.png" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--major-ada-system-updates-2024">OpenBLD.net — Major ADA System Updates 2024<a href="https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024.png/#openbldnet--major-ada-system-updates-2024" class="hash-link" aria-label="OpenBLD.net — Major ADA System Updates 2024-ға тікелей сілтеме" title="OpenBLD.net — Major ADA System Updates 2024-ға тікелей сілтеме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--major-ada-system-updates-2024">OpenBLD.net — Major ADA System Updates 2024<a href="https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024/#openbldnet--major-ada-system-updates-2024" class="hash-link" aria-label="OpenBLD.net — Major ADA System Updates 2024-ға тікелей сілтеме" title="OpenBLD.net — Major ADA System Updates 2024-ға тікелей сілтеме">​</a></h3>
 <p>The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only</p>
 <ul>
 <li>The mechanism for blocking abusers of the service has been updated</li>
@@ -32,7 +70,7 @@
 however please pay attention to how everything will work - faster/slower, will there be errors in the service, etc.</p>
 <p>I am always in touch if possible, if anything, write to me through the contacts in this chat or through the site contacts
 (see feedback section below).</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024.png/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікелей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/openbld-major-doh-dot-updates-2024/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікелей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
 <ul>
 <li>You can always send me feedback about the service from the contact page <a href="https://openbld.net/kz/docs/contacts/">feedback</a>.</li>
 <li>For updates, follow the <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net in Telegram</a>.</li>
@@ -434,7 +472,7 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
         <updated>2024-07-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net - Improve Input/Output performance to ~10 percent speed up]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Boost performance" src="https://openbld.net/kz/assets/images/openbld-improve-io-performance-b221561abd521722d9caada7c79cb713.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-speed-is-important">Why speed is important<a href="https://openbld.net/kz/blog/openbld-improved-io-performance/#why-speed-is-important" class="hash-link" aria-label="Why speed is important-ға тікелей сілтеме" title="Why speed is important-ға тікелей сілт�еме">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-speed-is-important">Why speed is important<a href="https://openbld.net/kz/blog/openbld-improved-io-performance/#why-speed-is-important" class="hash-link" aria-label="Why speed is important-ға тікелей сілтеме" title="Why speed is important-ға тікелей сілтеме">​</a></h2>
 <p>Speed directly affects our time; the faster the service works, the faster your Internet works, thus saving your time and the time of consuming server resources.</p>
 <p>Time is life, time is money, time is the most important resource in the world, which we must treat with care.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-has-been-done">What has been done<a href="https://openbld.net/kz/blog/openbld-improved-io-performance/#what-has-been-done" class="hash-link" aria-label="What has been done-ға тікелей сілтеме" title="What has been done-ға тікелей сілтеме">​</a></h2>
@@ -621,38 +659,5 @@ At least be careful and vigilant when using public Wi-Fi networks.</p>
         <category label="wifi" term="wifi"/>
         <category label="recommendations" term="recommendations"/>
         <category label="openbld" term="openbld"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🤝 ClouDNS OpenBLD.net support'24]]></title>
-        <id>https://openbld.net/kz/blog/cloudns-openbld-supports-2024/</id>
-        <link href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/"/>
-        <updated>2024-05-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ClouDNS - Best DNS service. Supported OpenBLD.net in 2024 year.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="ClouDNS OpenBLD.net support" src="https://openbld.net/kz/assets/images/openbld-and-cloudns-2024-a5e7d6ba8f542e0de206914f4aea0200.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - fast and secure DNS Hosting service, supported OpenBLD.net in the year 2024! 🤝</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudnsnet-experience">ClouDNS.net Experience<a href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/#cloudnsnet-experience" class="hash-link" aria-label="ClouDNS.net Experience-ға тікелей сілтеме" title="ClouDNS.net Experience-ға тікелей сілтеме">​</a></h3>
-<p>I've been using ClouDNS.net for the OpenBLD.net project for several years now. Prior to this, I've tried all the popular
-and well-known DNS services worldwide, and with 100% confidence, I want to say:
-ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/#key-features" class="hash-link" aria-label="Key Features-ға тікелей сілтеме" title="Key Features-ға тікелей сілтеме">​</a></h3>
-<ul>
-<li>Fast</li>
-<li>Reliable</li>
-<li>Geographically distributed</li>
-<li>Includes built-in <a href="https://www.cloudns.net/monitoring/" target="_blank" rel="noopener noreferrer">monitoring</a></li>
-<li><a href="https://www.cloudns.net/wiki/article/441/" target="_blank" rel="noopener noreferrer">Free SSL</a> certificates</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stability">Stability<a href="https://openbld.net/kz/blog/cloudns-openbld-supports-2024/#stability" class="hash-link" aria-label="Stability-ға тікелей сілтеме" title="Stability-ға тікелей сілтеме">​</a></h3>
-<p>I especially want to highlight the stability of ClouDNS. Throughout the entire period of usage, there hasn't been a single outage, making ClouDNS the perfect choice for OpenBLD.</p>
-<p>I highly recommend ClouDNS to anyone looking for a high-quality DNS service.</p>
-<p>ClouDNS.net — Thank you for your work! ✌️</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="cloudns" term="cloudns"/>
-        <category label="support" term="support"/>
-        <category label="2024" term="2024"/>
     </entry>
 </feed>

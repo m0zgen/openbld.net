@@ -4,18 +4,52 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/ru/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Sun, 15 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
         <item>
+            <title><![CDATA[🔼 Enhanced Apple Profile for ADA]]></title>
+            <link>https://openbld.net/ru/blog/enhanced-apple-profile-for-ada-2025/</link>
+            <guid>https://openbld.net/ru/blog/enhanced-apple-profile-for-ada-2025/</guid>
+            <pubDate>Sat, 11 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net – New Apple profile for ADA mode has been updated. The profile has been updated to work with the latest Apple devices and operating systems.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 Enhanced Apple Profile for ADA 2025" src="https://openbld.net/ru/assets/images/enhanced-apple-profile-for-ada-2025-6d3d812af506e5bee9b262defe62d53b.jpg" width="1280" height="978" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--enhanced-apple-profile-for-ada">OpenBLD.net — Enhanced Apple Profile for ADA<a href="https://openbld.net/ru/blog/enhanced-apple-profile-for-ada-2025/#openbldnet--enhanced-apple-profile-for-ada" class="hash-link" aria-label="Прямая ссылка на OpenBLD.net — Enhanced Apple Profile for ADA" title="Прямая ссылка на OpenBLD.net — Enhanced Apple Profile for ADA">​</a></h3>
+<p>If you haven’t updated your profile in the last 6–12 months, do it now.</p>
+<p>Why you should update:</p>
+<ul>
+<li>
+<p>Route optimization</p>
+</li>
+<li>
+<p>Internet issues in Kazakhstan since late 2024, causing problems with Kaspi and Alfa (store orders)</p>
+</li>
+<li>
+<p>Updated IP address infrastructure</p>
+</li>
+<li>
+<p>How to update: <a href="https://openbld.net/ru/docs/get-started/setup-mobile-devices/apple/">Get Started</a></p>
+</li>
+</ul>
+<p>P.S. Thanks to everyone reporting troubleshooting signals ✊</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/ru/blog/enhanced-apple-profile-for-ada-2025/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Прямая ссылка на Feedback and Updates ✌️" title="Прямая ссылка на Feedback and Updates ✌️">​</a></h3>
+<ul>
+<li>You can always leave your feedback <a href="https://openbld.net/ru/docs/contacts/">here</a>.</li>
+<li>Information about service updates is available in the official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
+        <item>
             <title><![CDATA[🚀 ADA OpenBLD.net Ecosystem Updates]]></title>
-            <link>https://openbld.net/ru/blog/openbld-major-doh-dot-updates-2024.png/</link>
-            <guid>https://openbld.net/ru/blog/openbld-major-doh-dot-updates-2024.png/</guid>
+            <link>https://openbld.net/ru/blog/openbld-major-doh-dot-updates-2024/</link>
+            <guid>https://openbld.net/ru/blog/openbld-major-doh-dot-updates-2024/</guid>
             <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[OpenBLD.net – The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – Major ADA System Updates 2024" src="https://openbld.net/ru/assets/images/openbld-major-doh-dot-updates-2024-0e0e4781243524808d659adce1433454.png" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--major-ada-system-updates-2024">OpenBLD.net — Major ADA System Updates 2024<a href="https://openbld.net/ru/blog/openbld-major-doh-dot-updates-2024.png/#openbldnet--major-ada-system-updates-2024" class="hash-link" aria-label="Прямая сс�ылка на OpenBLD.net — Major ADA System Updates 2024" title="Прямая ссылка на OpenBLD.net — Major ADA System Updates 2024">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--major-ada-system-updates-2024">OpenBLD.net — Major ADA System Updates 2024<a href="https://openbld.net/ru/blog/openbld-major-doh-dot-updates-2024/#openbldnet--major-ada-system-updates-2024" class="hash-link" aria-label="Прямая ссылка на OpenBLD.net — Major ADA System Updates 2024" title="Прямая ссылка на OpenBLD.net — Major ADA System Updates 2024">​</a></h3>
 <p>The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only</p>
 <ul>
 <li>The mechanism for blocking abusers of the service has been updated</li>
@@ -33,7 +67,7 @@
 however please pay attention to how everything will work - faster/slower, will there be errors in the service, etc.</p>
 <p>I am always in touch if possible, if anything, write to me through the contacts in this chat or through the site contacts
 (see feedback section below).</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/ru/blog/openbld-major-doh-dot-updates-2024.png/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Прямая ссылка на Feedback and Updates ✌️" title="Прямая ссылка на Feedback and Updates ✌️">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/ru/blog/openbld-major-doh-dot-updates-2024/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Прямая ссылка на Feedback and Updates ✌️" title="Прямая ссылка на Feedback and Updates ✌️">​</a></h3>
 <ul>
 <li>You can always send me feedback about the service from the contact page <a href="https://openbld.net/ru/docs/contacts/">feedback</a>.</li>
 <li>For updates, follow the <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net in Telegram</a>.</li>
@@ -49,7 +83,7 @@ however please pay attention to how everything will work - faster/slower, will t
             <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[OpenBLD.net – Response times for users in Canada have significantly improved — in some cases, reduced by several times or even tenfold.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – in Canada" src="https://openbld.net/ru/assets/images/openbld-new-poplocation-in-canada-2024-8673286cef5c00c3d152daf16b56a097.png" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--a-new-point-of-presence-in-canada-">OpenBLD.net — A New Point of Presence in Canada! 🇨🇦<a href="https://openbld.net/ru/blog/openbld-new-pop-location-in-canada-2024/#openbldnet--a-new-point-of-presence-in-canada-" class="hash-link" aria-label="Прямая �ссылка на OpenBLD.net — A New Point of Presence in Canada! 🇨🇦" title="Прямая ссылка на OpenBLD.net — A New Point of Presence in Canada! 🇨🇦">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--a-new-point-of-presence-in-canada-">OpenBLD.net — A New Point of Presence in Canada! 🇨🇦<a href="https://openbld.net/ru/blog/openbld-new-pop-location-in-canada-2024/#openbldnet--a-new-point-of-presence-in-canada-" class="hash-link" aria-label="Прямая ссылка на OpenBLD.net — A New Point of Presence in Canada! 🇨🇦" title="Прямая ссылка на OpenBLD.net — A New Point of Presence in Canada! 🇨🇦">​</a></h3>
 <p>Until now, our servers were closer to Europe and Asia, which could cause some inconvenience for users from Canada . Today, I’m excited to announce the launch of a new server in this amazing country!</p>
 <p>Response times for users in Canada have significantly improved — in some cases, reduced by several times or even tenfold.</p>
 <p>For DoH and DoT users, routes and geolocation are determined automatically, ensuring stable and fast connections.</p>
@@ -546,35 +580,6 @@ At least be careful and vigilant when using public Wi-Fi networks.</p>
             <category>wifi</category>
             <category>recommendations</category>
             <category>openbld</category>
-        </item>
-        <item>
-            <title><![CDATA[🤝 ClouDNS OpenBLD.net support'24]]></title>
-            <link>https://openbld.net/ru/blog/cloudns-openbld-supports-2024/</link>
-            <guid>https://openbld.net/ru/blog/cloudns-openbld-supports-2024/</guid>
-            <pubDate>Mon, 13 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[ClouDNS - Best DNS service. Supported OpenBLD.net in 2024 year.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="ClouDNS OpenBLD.net support" src="https://openbld.net/ru/assets/images/openbld-and-cloudns-2024-a5e7d6ba8f542e0de206914f4aea0200.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS.net</a> - fast and secure DNS Hosting service, supported OpenBLD.net in the year 2024! 🤝</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cloudnsnet-experience">ClouDNS.net Experience<a href="https://openbld.net/ru/blog/cloudns-openbld-supports-2024/#cloudnsnet-experience" class="hash-link" aria-label="Прямая ссылка на ClouDNS.net Experience" title="Прямая ссылка на ClouDNS.net Experience">​</a></h3>
-<p>I've been using ClouDNS.net for the OpenBLD.net project for several years now. Prior to this, I've tried all the popular
-and well-known DNS services worldwide, and with 100% confidence, I want to say:
-ClouDNS.net is the best DNS hosting provider I've ever encountered.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="https://openbld.net/ru/blog/cloudns-openbld-supports-2024/#key-features" class="hash-link" aria-label="Прямая ссылка на Key Features" title="Прямая ссылка на Key Features">​</a></h3>
-<ul>
-<li>Fast</li>
-<li>Reliable</li>
-<li>Geographically distributed</li>
-<li>Includes built-in <a href="https://www.cloudns.net/monitoring/" target="_blank" rel="noopener noreferrer">monitoring</a></li>
-<li><a href="https://www.cloudns.net/wiki/article/441/" target="_blank" rel="noopener noreferrer">Free SSL</a> certificates</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stability">Stability<a href="https://openbld.net/ru/blog/cloudns-openbld-supports-2024/#stability" class="hash-link" aria-label="Прямая ссылка на Stability" title="Прямая ссылка на Stability">​</a></h3>
-<p>I especially want to highlight the stability of ClouDNS. Throughout the entire period of usage, there hasn't been a single outage, making ClouDNS the perfect choice for OpenBLD.</p>
-<p>I highly recommend ClouDNS to anyone looking for a high-quality DNS service.</p>
-<p>ClouDNS.net — Thank you for your work! ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>cloudns</category>
-            <category>support</category>
-            <category>2024</category>
         </item>
     </channel>
 </rss>
