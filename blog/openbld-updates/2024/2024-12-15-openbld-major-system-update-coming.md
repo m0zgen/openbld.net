@@ -1,5 +1,5 @@
 ---
-slug: openbld-major-doh-dot-updates-2024.png
+slug: openbld-major-doh-dot-updates-2024
 title: 🚀 ADA OpenBLD.net Ecosystem Updates
 description: OpenBLD.net – The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only
 authors: [sysadminkz]
