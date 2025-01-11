@@ -17,6 +17,7 @@
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 Enhanced Apple Profile for ADA 2025" src="https://openbld.net/assets/images/enhanced-apple-profile-for-ada-2025-6d3d812af506e5bee9b262defe62d53b.jpg" width="1280" height="978" class="img_ev3q"></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--enhanced-apple-profile-for-ada">OpenBLD.net — Enhanced Apple Profile for ADA<a href="https://openbld.net/blog/enhanced-apple-profile-for-ada-2025/#openbldnet--enhanced-apple-profile-for-ada" class="hash-link" aria-label="Direct link to OpenBLD.net — Enhanced Apple Profile for ADA" title="Direct link to OpenBLD.net — Enhanced Apple Profile for ADA">​</a></h3>
 <p>If you haven’t updated your profile in the last 6–12 months, do it now.</p>
+<!-- -->
 <p>Why you should update:</p>
 <ul>
 <li>
@@ -54,7 +55,9 @@
 <ul>
 <li>The mechanism for blocking abusers of the service has been updated</li>
 <li>The modes of balancing and parallelization of requests have been updated</li>
-<li>The parameters of TLS and its encryption would be updated</li>
+<li>The parameters of TLS and its encryption would be updated<!-- -->
+<!-- -->
+</li>
 </ul>
 <p>All changes have been checked and tested in browsers (chrome, brave), smartphones (Apple, Android) and it works!</p>
 <p>The changes will be implemented gradually in:</p>
@@ -85,6 +88,7 @@ however please pay attention to how everything will work - faster/slower, will t
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – in Canada" src="https://openbld.net/assets/images/openbld-new-poplocation-in-canada-2024-8673286cef5c00c3d152daf16b56a097.png" width="1250" height="680" class="img_ev3q"></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--a-new-point-of-presence-in-canada-">OpenBLD.net — A New Point of Presence in Canada! 🇨🇦<a href="https://openbld.net/blog/openbld-new-pop-location-in-canada-2024/#openbldnet--a-new-point-of-presence-in-canada-" class="hash-link" aria-label="Direct link to OpenBLD.net — A New Point of Presence in Canada! 🇨🇦" title="Direct link to OpenBLD.net — A New Point of Presence in Canada! 🇨🇦">​</a></h3>
 <p>Until now, our servers were closer to Europe and Asia, which could cause some inconvenience for users from Canada . Today, I’m excited to announce the launch of a new server in this amazing country!</p>
+<!-- -->
 <p>Response times for users in Canada have significantly improved — in some cases, reduced by several times or even tenfold.</p>
 <p>For DoH and DoT users, routes and geolocation are determined automatically, ensuring stable and fast connections.</p>
 <p>Learn how to set up OpenBLD.net in just 5 minutes by visiting this:</p>
@@ -110,6 +114,7 @@ however please pay attention to how everything will work - faster/slower, will t
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – in in Silicon Valley" src="https://openbld.net/assets/images/openbld-in-silicon-valley-9187b7f3afc229c7cecaaff79fa2b032.jpeg" width="1250" height="680" class="img_ev3q"></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--new-pop-in-silicon-valley-">OpenBLD.net – new PoP in Silicon Valley 🇺🇸<a href="https://openbld.net/blog/openbld-in-silicon-valley-2024/#openbldnet--new-pop-in-silicon-valley-" class="hash-link" aria-label="Direct link to OpenBLD.net – new PoP in Silicon Valley 🇺🇸" title="Direct link to OpenBLD.net – new PoP in Silicon Valley 🇺🇸">​</a></h3>
 <p>This is the new and first standalone OpenBLD server in the US, right in Silicon Valley 👽</p>
+<!-- -->
 <p>10 GBPS allows to use the full bandwidth potential of the OpenBLD service 🚀</p>
 <p>Thanks to everyone who supports and uses OpenBLD.net, let's move on!</p>
 <p>Next step - North America... 🌎</p>
@@ -130,7 +135,8 @@ however please pay attention to how everything will work - faster/slower, will t
             <description><![CDATA[OpenBLD.net - These are the new "gears" in the racing engine of OpenBLD.net. Some have been rewritten or built from scratch, and some have been optimized for better performance.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – Increased Throughput" src="https://openbld.net/assets/images/openbld-throughput-boosting-2024-3c1158f8a30d0a4dd2174d9ca78c010a.jpeg" width="1250" height="680" class="img_ev3q"></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--engine-for-a-faster-internet">OpenBLD.net – Engine for a Faster Internet<a href="https://openbld.net/blog/openbld-throughput-boosting-2024/#openbldnet--engine-for-a-faster-internet" class="hash-link" aria-label="Direct link to OpenBLD.net – Engine for a Faster Internet" title="Direct link to OpenBLD.net – Engine for a Faster Internet">​</a></h3>
-<p>These are the new "gears" in the racing engine of OpenBLD.net. Some have been rewritten or built from scratch:</p>
+<p>These are the new "gears" in the racing engine of OpenBLD.net. Some have been rewritten or built from scratch.</p>
+<!-- -->
 <ul>
 <li>Synchronous processing of block lists</li>
 <li>Caching of blocking events</li>
@@ -164,6 +170,7 @@ however please pay attention to how everything will work - faster/slower, will t
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="hagezi-dns-blocklists-as-a-separated-service-in-openbldnet">Hagezi DNS Blocklists as a Separated Service in OpenBLD.net<a href="https://openbld.net/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/#hagezi-dns-blocklists-as-a-separated-service-in-openbldnet" class="hash-link" aria-label="Direct link to Hagezi DNS Blocklists as a Separated Service in OpenBLD.net" title="Direct link to Hagezi DNS Blocklists as a Separated Service in OpenBLD.net">​</a></h3>
 <p>Hagezi ⚡ DNS Blocklists - Made with 💓 for a safer and cleaner internet.  Privacy is not a crime. Privacy matters. Privacy is what allows us to determine who we are and who we want to be.</p>
 <p>You can use Hagezi without any additional blocklists — simply use Hagezi in OpenBLD.net as a DoH link in RIC mode.</p>
+<!-- -->
 <p>For additional information see <a href="https://openbld.net/docs/get-started/third-party-filters/hagezi/">Documentation</a> section.</p>]]></content:encoded>
             <category>openbld</category>
             <category>submodule</category>
@@ -179,6 +186,7 @@ however please pay attention to how everything will work - faster/slower, will t
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New PoP from Veesp.com in Netherlands" src="https://openbld.net/assets/images/openbld-veesp-nl-2024-4cdbc201b984c05100ee0c00ed1c7211.jpeg" width="1250" height="680" class="img_ev3q"></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet-and-veespcom---a-new-pop-in-the-netherlands">OpenBLD.net and Veesp.com - A New PoP in the Netherlands<a href="https://openbld.net/blog/openbld-new-veesp-pop-in-netherlands-2024/#openbldnet-and-veespcom---a-new-pop-in-the-netherlands" class="hash-link" aria-label="Direct link to OpenBLD.net and Veesp.com - A New PoP in the Netherlands" title="Direct link to OpenBLD.net and Veesp.com - A New PoP in the Netherlands">​</a></h3>
 <p>The open service OpenBLD.net has been collaborating with Veesp.com for two years now. As a one-stop hosting provider, Veesp.com provided a server in Latvia with 100% uptime  and fast response times 💪, and now there’s an additional server in the Netherlands!</p>
+<!-- -->
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="making-the-world-a-better-place">Making the World a Better Place<a href="https://openbld.net/blog/openbld-new-veesp-pop-in-netherlands-2024/#making-the-world-a-better-place" class="hash-link" aria-label="Direct link to Making the World a Better Place" title="Direct link to Making the World a Better Place">​</a></h3>
 <p>I'm truly grateful for the people and companies that are willing to support open services like OpenBLD.net. By helping each other, we make this world a better place — I firmly believe 💯 that</p>
 <p>Thank you, Veesp.com, for delivering quality service across Europe!</p>
@@ -198,6 +206,7 @@ however please pay attention to how everything will work - faster/slower, will t
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net presents: New Guaranteed Response System" src="https://openbld.net/assets/images/openbld-3h-cooperation-2024-6cb539d673c5633d7b360d2974e179c8.png" width="1250" height="680" class="img_ev3q"></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="3hcloudkz--supports-openbldnet"><a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3HCLOUD.kz</a>- Supports OpenBLD.net<a href="https://openbld.net/blog/openbld-3hcloud-cooperation-2024/#3hcloudkz--supports-openbldnet" class="hash-link" aria-label="Direct link to 3hcloudkz--supports-openbldnet" title="Direct link to 3hcloudkz--supports-openbldnet">​</a></h3>
 <p>I’m happy to announce that thanks to <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3hcloud.kz</a>, new DNS and Cache servers have been launched in Almaty!</p>
+<!-- -->
 <p>The cloud impressed us with its speeds, hardware, and eagerness to meet the needs of clients and potential partners.</p>
 <p>Servers are currently being prepared in Europe (Poland), with plans for the Philippines and the USA to follow.</p>
 <p>These ambitious plans will be realized one way or another, but with <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3HCLOUD</a>, I’m confident they will happen faster 🚀</p>
@@ -216,6 +225,7 @@ however please pay attention to how everything will work - faster/slower, will t
             <description><![CDATA[OpenBLD.net - New PoP in Canada with REGXA Hosting]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net presents: New Guaranteed Response System" src="https://openbld.net/assets/images/openbld-updated-response-system-2fad50295d7ef7f974a761860def7d2b.png" width="1250" height="680" class="img_ev3q"></p>
 <p>Have you ever faced issues with receiving responses from servers? Timeouts, errors, or empty replies can significantly disrupt some workflows. But I tried, and I think I found a solution!</p>
+<!-- -->
 <p>🟩 The new OpenBLD.net feature includes a guaranteed response system that activates in cases where the standard resolution process fails. If you receive a Servfail status or other errors, we employ additional logic, and the service takes a:</p>
 <ul>
 <li>Internal pool of servers.</li>
@@ -238,6 +248,7 @@ however please pay attention to how everything will work - faster/slower, will t
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Growth to Canada with REGXA" src="https://openbld.net/assets/images/openbld-growth-to-canada-with-regxa-1-2024-fdade652172325357118e0b55ebbc01f.jpeg" width="1250" height="680" class="img_ev3q"></p>
 <p>We're excited to announce that OpenBLD.net has launched a new Point of Presence (PoP) in Canada, hosted by
 <a href="https://regxa.com/" target="_blank" rel="noopener noreferrer">REGXA</a>!</p>
+<!-- -->
 <p>In collaboration with <a href="https://regxa.com/" target="_blank" rel="noopener noreferrer">REGXA</a>, we also plan to establish
 two more PoPs in France and India in the next six months. I truly believe this partnership will bring
 significant benefits to everyone—enhancing the security of OpenBLD.net for our users and expanding our reach. REGXA has proven to be a reliable hosting provider, successfully handling the current load of OpenBLD.net.</p>
@@ -250,6 +261,31 @@ So, we're moving forward!</p>
             <category>2024</category>
         </item>
         <item>
+            <title><![CDATA[🚀 OpenBLD.net - Switched to in-touch release model]]></title>
+            <link>https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/</link>
+            <guid>https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/</guid>
+            <pubDate>Fri, 27 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net in-touch release model - trunk-based model, rolling release, canary > production deployment]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - In-Touch Release Model" src="https://openbld.net/assets/images/openbld-in-touch-release-model-2024-f808f430eacc57cb4eb7c9cc89c82dd3.png" width="1250" height="680" class="img_ev3q"></p>
+<p>🚀 OpenBLD.net - Switched to in-touch release model</p>
+<p>A few weeks ago I announced Canary release, now I decided switch to "in-touch" deployment stages.</p>
+<p>To start with, I'm using my "<a href="https://flex-doc.pages.dev/" target="_blank" rel="noopener noreferrer">Flex App Additions Methodology</a>" in my projects. Often some bugs have to be fixed quickly, we all want these bugs to be fixed quickly..)</p>
+<!-- -->
+<p>My "in-touch" release model includes:</p>
+<ol>
+<li>Trunk-based development model</li>
+<li>Rolling release</li>
+<li>Canary &gt; Production deployment</li>
+</ol>
+<p>This model can includes unnotified maintenance window ~3 minutes or 3 iteration maximum in a day, this does not mean that the service will be unavailable at this time, you just need to keep in mind that if suddenly something goes wrong for you, you immediately let me know about it, that's all)</p>
+<p>Be patient while running, only forward!</p>
+<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> is always with you ✌️</p>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>performance</category>
+            <category>2024</category>
+        </item>
+        <item>
             <title><![CDATA[↘  How to disable systemd-resolved through resolved.conf settings]]></title>
             <link>https://openbld.net/blog/disable-systemd-resolved-throught-embed-settings/</link>
             <guid>https://openbld.net/blog/disable-systemd-resolved-throught-embed-settings/</guid>
@@ -259,6 +295,7 @@ So, we're moving forward!</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="intro">Intro<a href="https://openbld.net/blog/disable-systemd-resolved-throught-embed-settings/#intro" class="hash-link" aria-label="Direct link to Intro" title="Direct link to Intro">​</a></h2>
 <p>In short, the <code>systemd-resolved</code> service is a system service that provides network name resolution to local applications. It implements a caching DNS stub resolver and an LLMNR resolver and responder.</p>
 <p>See the <a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.service.html#:~:text=systemd%2Dresolved%20is%20a%20system,and%20MulticastDNS%20resolver%20and%20responder." target="_blank" rel="noopener noreferrer">official documentation</a> for more information.</p>
+<!-- -->
 <p>In some cases, you may need to disable this service. For example, if you are using a custom DNS server or if you are using a VPN service that provides its own DNS servers.
 You can disable Systemd-resolved using your own settings in the <code>resolved.conf</code> file.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-disable-systemd-resolved">How to disable systemd-resolved<a href="https://openbld.net/blog/disable-systemd-resolved-throught-embed-settings/#how-to-disable-systemd-resolved" class="hash-link" aria-label="Direct link to How to disable systemd-resolved" title="Direct link to How to disable systemd-resolved">​</a></h2>
@@ -278,30 +315,6 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
             <category>openbld</category>
         </item>
         <item>
-            <title><![CDATA[🚀 OpenBLD.net - Switched to in-touch release model]]></title>
-            <link>https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/</link>
-            <guid>https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/</guid>
-            <pubDate>Fri, 27 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net in-touch release model - trunk-based model, rolling release, canary > production deployment]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - In-Touch Release Model" src="https://openbld.net/assets/images/openbld-in-touch-release-model-2024-f808f430eacc57cb4eb7c9cc89c82dd3.png" width="1250" height="680" class="img_ev3q"></p>
-<p>🚀 OpenBLD.net - Switched to in-touch release model</p>
-<p>A few weeks ago I announced Canary release, now I decided switch to "in-touch" deployment stages.</p>
-<p>To start with, I'm using my "<a href="https://flex-doc.pages.dev/" target="_blank" rel="noopener noreferrer">Flex App Additions Methodology</a>" in my projects. Often some bugs have to be fixed quickly, we all want these bugs to be fixed quickly..)</p>
-<p>My "in-touch" release model includes:</p>
-<ol>
-<li>Trunk-based development model</li>
-<li>Rolling release</li>
-<li>Canary &gt; Production deployment</li>
-</ol>
-<p>This model can includes unnotified maintenance window ~3 minutes or 3 iteration maximum in a day, this does not mean that the service will be unavailable at this time, you just need to keep in mind that if suddenly something goes wrong for you, you immediately let me know about it, that's all)</p>
-<p>Be patient while running, only forward!</p>
-<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> is always with you ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>performance</category>
-            <category>2024</category>
-        </item>
-        <item>
             <title><![CDATA[🟢️️️️️️ OpenBLD.net New server from 3hcloud in Almaty]]></title>
             <link>https://openbld.net/blog/openbld-new-server-from-3hcloud-in-almaty-2024-09-24/</link>
             <guid>https://openbld.net/blog/openbld-new-server-from-3hcloud-in-almaty-2024-09-24/</guid>
@@ -313,7 +326,9 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
 <ul>
 <li>speed (connectivity and instances are super)</li>
 <li>liked the firewall</li>
-<li>prices were pleasantly surprising</li>
+<li>prices were pleasantly surprising<!-- -->
+<!-- -->
+</li>
 </ul>
 <p>After several weeks of testing, I can firmly say - compatibility with OpenBLD.net is present.</p>
 <p>Configure Chrome as described here:</p>
@@ -343,7 +358,9 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
 <li>Various locations worldwide</li>
 <li>Different monitor types (ports, protocols, etc.)</li>
 <li>Notifications via Telegram, Email</li>
-<li>One feature I especially value is the status page that displays the health of all servers in my project: bld-status.sys-adm.in</li>
+<li>One feature I especially value is the status page that displays the health of all servers in my project: bld-status.sys-adm.in<!-- -->
+<!-- -->
+</li>
 </ul>
 <p>I've been using UptimeRobot for many years and have never experienced any issues with their service. Of course:</p>
 <ul>
@@ -366,6 +383,7 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
             <description><![CDATA[OpenBLD.net - Update Notice 2024-08-04 with major performance improvements.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New Server in Kazakhstan" src="https://openbld.net/assets/images/openbld-new-server-in-kazakhstan-5b8935ae8e4dec829a9f20833cc90131.jpg" width="1250" height="680" class="img_ev3q"></p>
 <p>I hear a lot of good reviews from people about the new Yandex cloud in Kazakhstan 🇰🇿. And so, having saved up some money and received a small deposit from Yandex, I decided to try the cloud.</p>
+<!-- -->
 <p>Starting today, a new server has appeared in Karaganda, which will enter the general OpenBLD.net ecosystem in the next 24 hours.</p>
 <p>I really hope that this step will help improve the service, speed up the work of DoH and DoT clients of the capital of the Kazakhstan region and Central Kazakhstan as a whole.</p>
 <p>Let's go further in a good mood and faith in success 💪</p>
@@ -383,6 +401,7 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
             <description><![CDATA[OpenBLD.net - Update Notice 2024-08-04 with major performance improvements.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Update Notice, Aug 2024" src="https://openbld.net/assets/images/openbld_update_notice_aug_2024-c5a9b5893f5ccaa909c6927524cae9e1.jpg" width="1250" height="680" class="img_ev3q"></p>
 <p>Today wll deploy new <code>zBLD</code> backend release in to production environment.</p>
+<!-- -->
 <p>Major updates:</p>
 <ul>
 <li>Adding Rsyslog log forwarder</li>
@@ -412,6 +431,7 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-speed-is-important">Why speed is important<a href="https://openbld.net/blog/openbld-improved-io-performance/#why-speed-is-important" class="hash-link" aria-label="Direct link to Why speed is important" title="Direct link to Why speed is important">​</a></h2>
 <p>Speed directly affects our time; the faster the service works, the faster your Internet works, thus saving your time and the time of consuming server resources.</p>
 <p>Time is life, time is money, time is the most important resource in the world, which we must treat with care.</p>
+<!-- -->
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-has-been-done">What has been done<a href="https://openbld.net/blog/openbld-improved-io-performance/#what-has-been-done" class="hash-link" aria-label="Direct link to What has been done" title="Direct link to What has been done">​</a></h2>
 <p>I have optimized the input/output operations of the OpenBLD.net servers, updated code, and optimized the servers configuration, which has led to a speed increase of about ~10 percent.</p>
 <p>Now the server works even faster, and you can enjoy the benefits of the OpenBLD.net service even more.</p>
@@ -437,6 +457,7 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
 <li>Gambling</li>
 </ul>
 <p>Starting today, I'm launching a new server in test mode with filtering for this type of content.</p>
+<!-- -->
 <ul>
 <li>DoT settings: <code>kid.openbld.net</code></li>
 <li>DoH settings: <code>https://kid.openbld.net/dns-query</code></li>
@@ -460,6 +481,7 @@ in your DNS server, or you can <a href="https://openbld.net/docs/get-started/thi
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-this-oisd-blocklist">What is this <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">oisd</a> blocklist?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist/#what-is-this-oisd-blocklist" class="hash-link" aria-label="Direct link to what-is-this-oisd-blocklist" title="Direct link to what-is-this-oisd-blocklist">​</a></h2>
 <p>The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads,
 decreases the risk of malware, and enhances privacy. You can see FAQ and other details on the official <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD website</a>.</p>
+<!-- -->
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use-oisd-in-openbldnet">How to use OISD in OpenBLD.net?<a href="https://openbld.net/blog/openbld-integration-oisd-blocklist/#how-to-use-oisd-in-openbldnet" class="hash-link" aria-label="Direct link to How to use OISD in OpenBLD.net?" title="Direct link to How to use OISD in OpenBLD.net?">​</a></h2>
 <p>You can use OISD without exclusions, without additional blocklist - just only OISD in OpenBLD.net as DoH
 link in <code>RIC</code> mode.</p>
@@ -481,6 +503,7 @@ data without using wired connections. Public Wi-Fi networks, available everywher
 cafes, airports, hotels, and shopping malls, provide users with a convenient way to access the internet
 anytime. However, such networks can pose a security threat as they are typically not password-protected and
 can be easily compromised by attackers to intercept data or launch attacks on users' devices.</p>
+<!-- -->
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="public-wi-fi-safety-tips">Public Wi-Fi Safety Tips<a href="https://openbld.net/blog/secure-wifi-recommendations/#public-wi-fi-safety-tips" class="hash-link" aria-label="Direct link to Public Wi-Fi Safety Tips" title="Direct link to Public Wi-Fi Safety Tips">​</a></h2>
 <p><strong>1. Be vigilant:</strong></p>
 <ul>
