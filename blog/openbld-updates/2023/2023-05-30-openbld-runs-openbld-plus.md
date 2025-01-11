@@ -8,7 +8,7 @@ tags: [openbld, benefits, donation, openbldplus, updates]
 
 ## Introduction
 In the realm of OpenBLD.net DNS, we're excited to introduce [OpenBLD+ mode](/docs/overwiew/openbld-plus), a feature designed to take our and your experience to the next level.
-
+{/* truncate */}
 **Powered by Your Support:**
 Our project thrives thanks to the support of users like you. 
 Today you have the opportunity to [subscribe](/docs/donation) for just $3+ and, in return, gain access to a host of exclusive benefits:

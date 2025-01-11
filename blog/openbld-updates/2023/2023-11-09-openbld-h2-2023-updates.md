@@ -8,7 +8,7 @@ tags: [openbld, updates, news]
 ## Upcoming Changes in OpenBLD.net
 
 As time progresses and the user base grows, server capacities are expanding, necessitating more servers and funds. However, the budget is already allocated and distributed.
-
+{/* truncate */}
 In light of the above, some changes are planned for the architecture of OpenBLD.net:
 
 - **ADA (DNS 53):** Disable everywhere except for the main two or three servers

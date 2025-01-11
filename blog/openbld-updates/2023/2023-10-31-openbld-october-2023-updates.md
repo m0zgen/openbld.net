@@ -14,7 +14,7 @@ We're thrilled to unveil the latest enhancements in our OpenBLD.net ecosystem. H
 - **German Server Addition**: Testing out a new server in Germany for ada.openbld.net frontend scoping.
 - **Rule Tweaks**: Updated blocking rules to better combat abused IPs and CIDRs.
 - **Improved Resource Handling**: Optimized performance for web resources like `Krisha`, `IvI`, and `Yandex Maps`.
-
+  {/* truncate */}
 🚫 **Reducing Threats**: We've successfully blocked Kazakhstan-associated YoroTrooper attacks and the threat of spying on your iPhone. Plus, we've thwarted Keepass faked malware.
 
 📣 Stay Connected:

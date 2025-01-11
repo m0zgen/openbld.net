@@ -7,7 +7,7 @@ tags: [openbld, dns, cloudns, testing, updates, news]
 ---
 
 I'm working on new OpenBLD DoH/DoT release with Anycast DNS, GeoDNS (Europe, Asia locations) functionality.
-
+{/* truncate */}
 I think this or next month, I'll start the new faster DoH/DoT OpenBLD testing release with automatic identification of the closest server location continent and network route detection for OpenBLD clients.
 
 You can fill this form in, after review I'll "ping" you with testing as soon as possible:

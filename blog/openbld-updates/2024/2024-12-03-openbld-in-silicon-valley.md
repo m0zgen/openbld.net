@@ -11,7 +11,7 @@ tags: [openbld, updates, 2024]
 ### OpenBLD.net – new PoP in Silicon Valley 🇺🇸
 
 This is the new and first standalone OpenBLD server in the US, right in Silicon Valley 👽
-
+{/* truncate */}
 10 GBPS allows to use the full bandwidth potential of the OpenBLD service 🚀
 
 Thanks to everyone who supports and uses OpenBLD.net, let's move on!

@@ -11,7 +11,7 @@ In Almaty, this Thursday, October 19, at 7:00 PM in SmartPoint, I'll be presenti
 
 ## The Importance of DNS
 We all recognize that DNS is the backbone of the internet; without it, nothing would function properly. It's everywhere, yet its significance in cybersecurity often goes unnoticed.
-
+{/* truncate */}
 ## What to Expect
 While the document is still a work in progress, I plan to cover the following key areas:
 

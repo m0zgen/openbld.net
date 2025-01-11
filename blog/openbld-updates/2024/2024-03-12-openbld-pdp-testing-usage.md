@@ -12,7 +12,7 @@ tags: [openbld, pdp, testing, beta, privacy]
 
 What is PDP and how to use it? This article will help you to understand the basics of OpenBLD.net 
 **Personal _DoH_ Profiling** (PDP) and how to use it.
-
+{/* truncate */}
 :::tip
 More details about PDP you can find [here](./2024-02-19-openbld-pdp-beta-join.md).
 :::

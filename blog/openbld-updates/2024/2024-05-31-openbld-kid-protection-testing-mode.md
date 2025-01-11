@@ -19,7 +19,7 @@ This includes:
 - Gambling
 
 Starting today, I'm launching a new server in test mode with filtering for this type of content.
-
+{/* truncate */}
 - DoT settings: `kid.openbld.net`
 - DoH settings: `https://kid.openbld.net/dns-query`
 

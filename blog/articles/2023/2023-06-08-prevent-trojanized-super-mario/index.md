@@ -6,10 +6,10 @@ authors: [sysadminkz]
 tags: [openbld, prevention, blocking]
 ---
 
-Trojanized Super Mario Game Installer Spreads SupremeBot Malware
-
 ![Prevent Trojanized Super Mario](figure-super-mario-Infection-chain.jpeg)
 
+Trojanized Super Mario Game Installer Spreads SupremeBot Malware
+{/* truncate */}
 According to [Cyble](https://blog.cyble.com/2023/06/23/trojanized-super-mario-game-installer-spreads-supremebot-malware/) blog post, the malware is distributed through `java.exe` is an XMR (Monero) miner which operates stealthily in the background without the user’s knowledge or consent, leading to unauthorized and potentially harmful utilization of computing resources for mining the cryptocurrency Monero (XMR).
 
 When “java.exe” is executed, the malware establishes a connection with a mining server `gulf[.]moneroocean[.]stream` to carry out cryptocurrency mining activities.

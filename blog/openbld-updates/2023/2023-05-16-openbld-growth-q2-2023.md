@@ -11,7 +11,7 @@ In the ever-evolving OpenBLD ecosystem, the second quarter of 2023 has witnessed
 
 ## New Features
 This evolution has brought forth two new services: Adaptive (ADA) and Strict (RIC), which are set to replace A-BLD and BLD. But what sets them apart? It's time to find out.
-
+{/* truncate */}
 ## Testing Phase
 I've been testing these new services for over two weeks now, and I must say, they are impressive. For all OpenBLD users, I encourage you to give them a try. Here's how you can make the switch:
 

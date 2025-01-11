@@ -12,7 +12,7 @@ What's the Difference Between Ada and Ric OpenBLD.net?
 - 🚫 **Ric** - Strict DNS: Blocks many marketing and tracking resources, which may affect access to certain internet content
 
 I recommend **Ada** for most OpenBLD.net DNS users. [Get-Started](/docs/category/get-started).
-
+{/* truncate */}
 ![OpenBLD ADA & RIC differences](images/ada-vs-ric-testing-results.jpg)
 
 Curious to learn more? Dive into the details [here](/docs/overwiew/how-it-works/#ada-vs-ric)

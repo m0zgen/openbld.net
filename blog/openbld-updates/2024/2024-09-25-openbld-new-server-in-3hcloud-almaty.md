@@ -15,7 +15,7 @@ Recently learned about [3hcloud.kz](https://3hcloud.kz/). Went, tried it and was
 - speed (connectivity and instances are super)
 - liked the firewall
 - prices were pleasantly surprising
-
+  {/* truncate */}
 After several weeks of testing, I can firmly say - compatibility with OpenBLD.net is present.
 
 Configure Chrome as described here:

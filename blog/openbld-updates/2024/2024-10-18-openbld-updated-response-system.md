@@ -9,7 +9,7 @@ tags: [openbld, updates, 2024]
 ![OpenBLD.net presents: New Guaranteed Response System](images/openbld-updated-response-system.png)
 
 Have you ever faced issues with receiving responses from servers? Timeouts, errors, or empty replies can significantly disrupt some workflows. But I tried, and I think I found a solution!
-
+{/* truncate */}
 🟩 The new OpenBLD.net feature includes a guaranteed response system that activates in cases where the standard resolution process fails. If you receive a Servfail status or other errors, we employ additional logic, and the service takes a:
 
 - Internal pool of servers.

@@ -9,7 +9,7 @@ tags: [openbld, updates, apple, profile]
 ![OpenBLD.net Update Profile for Apple Devices](images/openbld_apple_profile_update.png)
 
 Following recent attacks on one of the hosting providers within OpenBLD.net, I have updated the server topology to optimize content delivery, especially for Apple users.
-
+{/* truncate */}
 Download the optimized profile from the project website and simply install it over your existing one:
 
 - Setup Mobile Devices > [Apple](/docs/get-started/setup-mobile-devices/apple/)

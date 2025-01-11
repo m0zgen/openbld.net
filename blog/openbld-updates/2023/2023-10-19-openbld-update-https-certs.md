@@ -10,7 +10,7 @@ Update HTTPS certificates will progress tonight
 
 - ADA - Issue and Update certificates
 - RIC - Issue and Update certificates
-
+  {/* truncate */}
 :::tip
 This action will not affect your connectivity. 
 :::

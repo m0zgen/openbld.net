@@ -9,7 +9,7 @@ tags: [openbld, updates, performance, 2024]
 ![OpenBLD.net - New Server in Kazakhstan](images/openbld-new-server-in-kazakhstan.jpg)
 
 I hear a lot of good reviews from people about the new Yandex cloud in Kazakhstan 🇰🇿. And so, having saved up some money and received a small deposit from Yandex, I decided to try the cloud.
-
+{/* truncate */}
 Starting today, a new server has appeared in Karaganda, which will enter the general OpenBLD.net ecosystem in the next 24 hours.
 
 I really hope that this step will help improve the service, speed up the work of DoH and DoT clients of the capital of the Kazakhstan region and Central Kazakhstan as a whole.

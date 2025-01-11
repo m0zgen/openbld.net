@@ -19,7 +19,7 @@ UptimeRobot is the best monitoring solution for OpenBLD.net and exactly what I n
 - Different monitor types (ports, protocols, etc.)
 - Notifications via Telegram, Email
 - One feature I especially value is the status page that displays the health of all servers in my project: bld-status.sys-adm.in
-
+  {/* truncate */}
 I've been using UptimeRobot for many years and have never experienced any issues with their service. Of course:
 
 - I highly recommend UptimeRobot to anyone looking for a reliable online monitoring service.

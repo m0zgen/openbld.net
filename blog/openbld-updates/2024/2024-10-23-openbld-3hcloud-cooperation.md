@@ -11,7 +11,7 @@ tags: [openbld, cooperation, 3hcloud, 2024]
 ### [3HCLOUD.kz](https://3hcloud.kz/)- Supports OpenBLD.net
 
 I’m happy to announce that thanks to [3hcloud.kz](https://3hcloud.kz/), new DNS and Cache servers have been launched in Almaty!
-
+{/* truncate */}
 The cloud impressed us with its speeds, hardware, and eagerness to meet the needs of clients and potential partners. 
 
 Servers are currently being prepared in Europe (Poland), with plans for the Philippines and the USA to follow.

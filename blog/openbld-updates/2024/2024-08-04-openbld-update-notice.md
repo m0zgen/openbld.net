@@ -9,7 +9,7 @@ tags: [openbld, updates, performance, 2024]
 ![OpenBLD.net - Update Notice, Aug 2024](images/openbld_update_notice_aug_2024.jpg)
 
 Today wll deploy new `zBLD` backend release in to production environment.
-
+{/* truncate */}
 Major updates:
 
 - Adding Rsyslog log forwarder

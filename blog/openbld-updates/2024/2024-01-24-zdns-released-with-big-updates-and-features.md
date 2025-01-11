@@ -10,7 +10,7 @@ tags: [openbld, AlphaVPS, growth]
 
 Few month ago I stared develop from scratch [zDNS](https://github.com/m0zgen/zdns) service, 
 and now I hope, it is ready for production usage...
-
+{/* truncate */}
 ## Features
 
 - Restrict DNS queries by type like as A, AAAA, HTTPS, CNAME, MX, PTR

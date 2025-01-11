@@ -7,7 +7,7 @@ tags: [openbld, dns, cloudns, updates, news, cloudns]
 ---
 
 OpenBLD.net — Next Stage to Growth with [ClouDNS](https://www.cloudns.net/aff/id/751533/)
-
+{/* truncate */}
 GeoDNS and Global Anycast DNS features from ClouDNS - it as a brilliant opportunity for additional OpenBLD Performance and Availability
 
 Today ClouDNS supported OpenBLD DNS and provided own features for free:

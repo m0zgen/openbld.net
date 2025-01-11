@@ -6,12 +6,12 @@ authors: [sysadminkz]
 tags: [openbld, browser, chrome, brave, extension]
 ---
 
+![OpenBLD.net Blocker](./images/openbldnet-blocker-chrome-extension.jpg)
+
 OpenBLD.net — Next Stage to Growth with Google Chrome Extension as a part of OpenBLD.net ecosystem.
 
 I named it as [OpenBLD.net Blocker](https://chromewebstore.google.com/detail/openbldnet-blocker/jjpjcmckhkcefefgbgghomdhcbfmklea), and it is available for Google Chrome and Brave browsers (or any Chrome based browsers)
-
-![OpenBLD.net Blocker](./images/openbldnet-blocker-chrome-extension.jpg)
-
+{/* truncate */}
 ## DNS Protection with a Twist
 
 OpenBLD.net's DNS service blocks ads, trackers, and malware through domain name filtering routines. 

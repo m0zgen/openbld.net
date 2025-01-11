@@ -13,7 +13,7 @@ tags: [openbld, updates, performance, 2024]
 Speed directly affects our time; the faster the service works, the faster your Internet works, thus saving your time and the time of consuming server resources.
 
 Time is life, time is money, time is the most important resource in the world, which we must treat with care.
-
+{/* truncate */}
 ## What has been done
 
 I have optimized the input/output operations of the OpenBLD.net servers, updated code, and optimized the servers configuration, which has led to a speed increase of about ~10 percent.

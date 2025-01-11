@@ -15,7 +15,7 @@ tags: [openbld, cloudns, support, 2024]
 I've been using ClouDNS.net for the OpenBLD.net project for several years now. Prior to this, I've tried all the popular 
 and well-known DNS services worldwide, and with 100% confidence, I want to say: 
 ClouDNS.net is the best DNS hosting provider I've ever encountered.
-
+{/* truncate */}
 ### Key Features
 
 - Fast

@@ -12,7 +12,7 @@ tags: [openbld, zdns, blackhole]
 [OpenBLD.net](https://openbld.net/) project. It is a DNS server that can be used as a blackhole for 
 malicious domains. It is a great addition to the [OpenBLD.net](https://openbld.net/) project, 
 and I'm excited to see how it will evolve in the future 🚀
-
+{/* truncate */}
 ## Befor begin
 
 Following Zero Trust [model](https://en.wikipedia.org/wiki/Zero_trust_security_model) practices, 

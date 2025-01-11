@@ -12,6 +12,8 @@ tags: [openbld, updates, 2025]
 
 If you haven’t updated your profile in the last 6–12 months, do it now.
 
+{/* truncate */}
+
 Why you should update:
 
 - Route optimization

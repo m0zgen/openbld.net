@@ -16,7 +16,7 @@ Some time ago, OpenBLD.net was [added](2024-03-11-openbld-abuse-ch-integration.m
 by [abuse.ch](https://abuse.ch/) with the goal of sharing and preventing malicious URLs that are being used for malware distribution.
 
 The ecosystem of the service, based on the [philosophy](/docs/intro/#philosophy) of blocking internet noise, has demonstrated excellent protection against malicious domains and intrusive ads. 💪
-
+{/* truncate */}
 ### What now
 
 According to URLhaus statistics, OpenBLD.net surpasses giants like AdGuard, Cloudflare, and Quad9 in blocking malware and unwanted domains. 🛡️

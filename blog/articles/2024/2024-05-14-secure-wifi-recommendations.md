@@ -15,7 +15,7 @@ data without using wired connections. Public Wi-Fi networks, available everywher
 cafes, airports, hotels, and shopping malls, provide users with a convenient way to access the internet 
 anytime. However, such networks can pose a security threat as they are typically not password-protected and 
 can be easily compromised by attackers to intercept data or launch attacks on users' devices.
-
+{/* truncate */}
 ## Public Wi-Fi Safety Tips
 
 **1. Be vigilant:**

@@ -8,7 +8,7 @@ tags: [openbld, protection, blocking]
 
 ## Introduction 
 The rise of phishing activities has taken the top spot in attacks targeting end-users and organizations. Among the various forms of phishing attacks, there's one known as "SMiShing" attacks, which target users through SMS messages.
-
+{/* truncate */}
 ## SMiShing Attacks
 Today, we've noticed a SMiShing campaign in Kazakhstan, where a seemingly innocent link leads to a fake website that mimics the KazPost website, the official postal service of Kazakhstan. Several indicators set this apart:
 

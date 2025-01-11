@@ -15,7 +15,7 @@ The part concerning the algorithms of front-end balancing of requests has been u
 - The mechanism for blocking abusers of the service has been updated
 - The modes of balancing and parallelization of requests have been updated
 - The parameters of TLS and its encryption would be updated
-
+  {/* truncate */}
 All changes have been checked and tested in browsers (chrome, brave), smartphones (Apple, Android) and it works!
 
 The changes will be implemented gradually in:

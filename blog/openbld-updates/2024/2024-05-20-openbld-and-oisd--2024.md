@@ -15,7 +15,7 @@ in your DNS server, or you can [use](/docs/get-started/third-party-filters/oisd/
 
 The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads, 
 decreases the risk of malware, and enhances privacy. You can see FAQ and other details on the official [OISD website](https://oisd.nl/).
-
+{/* truncate */}
 ## How to use OISD in OpenBLD.net?
 
 You can use OISD without exclusions, without additional blocklist - just only OISD in OpenBLD.net as DoH 

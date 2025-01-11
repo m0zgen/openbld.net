@@ -13,7 +13,7 @@ tags: [openbld, updates, performance, 2024]
 A few weeks ago I announced Canary release, now I decided switch to "in-touch" deployment stages.
 
 To start with, I'm using my "[Flex App Additions Methodology](https://flex-doc.pages.dev/)" in my projects. Often some bugs have to be fixed quickly, we all want these bugs to be fixed quickly..)
-
+{/* truncate */}
 My "in-touch" release model includes:
 
 1. Trunk-based development model

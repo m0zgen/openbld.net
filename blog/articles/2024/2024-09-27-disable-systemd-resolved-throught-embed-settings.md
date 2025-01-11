@@ -13,7 +13,7 @@ tags: [linux, system, notes, openbld]
 In short, the `systemd-resolved` service is a system service that provides network name resolution to local applications. It implements a caching DNS stub resolver and an LLMNR resolver and responder.
 
 See the [official documentation](https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.service.html#:~:text=systemd%2Dresolved%20is%20a%20system,and%20MulticastDNS%20resolver%20and%20responder.) for more information.
-
+{/* truncate */}
 In some cases, you may need to disable this service. For example, if you are using a custom DNS server or if you are using a VPN service that provides its own DNS servers.
 You can disable Systemd-resolved using your own settings in the `resolved.conf` file.
 

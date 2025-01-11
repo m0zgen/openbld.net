@@ -9,7 +9,7 @@ tags: [openbld, ipv6]
 ![OpenBLD.net IPv6 Pre-Release](images/openbld-ipv6-pre-release.png)
 
 Last week, last month, this year... I've been meeting and talking to different people, and they all echoed the same sentiment - **IPv6 is needed** 💯
-
+{/* truncate */}
 A few days ago, I got acquainted with [**_VEESP.com_**](https://veesp.com/), a company that generously provided OpenBLD.net with an incredibly fast server featuring a high-speed Ethernet connection 🛞
 
 **Abstract**: Usually, I spend some time testing servers, then assign them a secondary role before introducing them to the production environment. However, this time was different...

@@ -10,8 +10,8 @@ tags: [openbld, submodule, hagezi, 2024]
 
 ### OpenBLD.net – Engine for a Faster Internet
 
-These are the new "gears" in the racing engine of OpenBLD.net. Some have been rewritten or built from scratch:
-
+These are the new "gears" in the racing engine of OpenBLD.net. Some have been rewritten or built from scratch.
+{/* truncate */}
 - Synchronous processing of block lists
 - Caching of blocking events
 - Updated caching system — the log enricher now has its own cache

@@ -6,7 +6,7 @@ tags: [openbld, prevention, blocking]
 ---
 
 According to CISA newly identified Truebot malware variants against organizations in the United States and Canada.
-
+{/* truncate */}
 The authoring organizations recommend hunting for the malicious activity using the guidance outlined in this CSA...
 
 See more details on [CISA](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-187a)

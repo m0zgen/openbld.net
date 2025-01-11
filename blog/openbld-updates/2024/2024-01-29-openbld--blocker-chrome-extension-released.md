@@ -9,7 +9,7 @@ tags: [openbld, AlphaVPS, growth]
 ![OpenBLD.net Chrome Extension v1.1 Released](images/openbld-chrome-extension-v1.1-released.jpeg)
 
 OpenBLD.net Blocker extension released on official Google Extension Store today 💪
-
+{/* truncate */}
 This is OpenBLD.net add-on which can block some ADS services (such as Yad advertising) on some 
 web resources that has HTML embedded ads...
 

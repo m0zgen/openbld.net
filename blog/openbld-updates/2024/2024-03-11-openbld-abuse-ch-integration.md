@@ -10,7 +10,7 @@ tags: [openbld, updates, urlhaus]
 
 [URLhaus](https://urlhaus.abuse.ch/) is a project operated by [abuse.ch](https://abuse.ch/). Its purpose is to collect, track, and share malware URLs, aiding network 
 administrators and security analysts in safeguarding their networks and customers from cyber threats.
-
+{/* truncate */}
 Now, you can check the malicious domain ownership with OpenBLD.net alongside Quad9, AdGuard, Cloudflare, ProtonDNS on
 [abuse.ch](https://abuse.ch/).
 

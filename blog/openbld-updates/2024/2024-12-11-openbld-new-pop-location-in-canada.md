@@ -11,7 +11,7 @@ tags: [openbld, updates, 2024]
 ### OpenBLD.net — A New Point of Presence in Canada! 🇨🇦
 
 Until now, our servers were closer to Europe and Asia, which could cause some inconvenience for users from Canada . Today, I’m excited to announce the launch of a new server in this amazing country!
-
+{/* truncate */}
 Response times for users in Canada have significantly improved — in some cases, reduced by several times or even tenfold.
 
 For DoH and DoT users, routes and geolocation are determined automatically, ensuring stable and fast connections.

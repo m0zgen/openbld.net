@@ -13,5 +13,5 @@ tags: [openbld, submodule, hagezi, 2024]
 Hagezi ⚡ DNS Blocklists - Made with 💓 for a safer and cleaner internet.  Privacy is not a crime. Privacy matters. Privacy is what allows us to determine who we are and who we want to be.
 
 You can use Hagezi without any additional blocklists — simply use Hagezi in OpenBLD.net as a DoH link in RIC mode.
-
+{/* truncate */}
 For additional information see [Documentation](/docs/get-started/third-party-filters/hagezi) section.

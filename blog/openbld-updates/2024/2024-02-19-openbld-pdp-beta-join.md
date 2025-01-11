@@ -14,7 +14,7 @@ OpenBLD.net **Personal _DoH_ Profiling** (PDP), a new service that provides:
 - **Complete isolation** of your DNS requests, ensuring that no one can track your online activity.
 - **Personalized DNS settings**, so you can block ads, malicious websites, and other unwanted content.
 - **Robust security** with DNSSEC, TLSv1.2, and TLSv1.3.
-
+  {/* truncate */}
 ## Benefits of PDP
 
 - **Enhanced privacy**: Your DNS requests will not be accessible to third parties, ensuring the confidentiality of your online activity.
