@@ -12,11 +12,6 @@ Setup OpenBLD.net on iOS, iPadOS
 
 ![Download OpenBLD Network iOS, iPad, macOS profile](./figure1-download-openbld-profile.jpg)
 
-2. After profile was downloaded you'll see a message: 
-_**Profile Downloaded. Review the profile in the Settings app if you want to install it**_:
-
-![Profile downloaded](./figure2-downloaded-openbld-profile.jpg)
-
 :::note
 
 In some ceases profile can be opened as **plain text** file in `xml` format:
@@ -25,11 +20,20 @@ In some ceases profile can be opened as **plain text** file in `xml` format:
 
 Don't worry, just **download** it:
 
+- Press on the profile download link
+- Hold your finger on the screen to display the context menu
+- Select **Download**:
+
 ![Download OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile.jpg)
 
 and then **open** from _Files_ app or _Downloads_ folder.
 
 :::
+
+2. After profile was downloaded you'll see a message: 
+_**Profile Downloaded. Review the profile in the Settings app if you want to install it**_:
+
+![Profile downloaded](./figure2-downloaded-openbld-profile.jpg)
 
 3. Open Settings > search new **Profile Downloaded** settings item
 
