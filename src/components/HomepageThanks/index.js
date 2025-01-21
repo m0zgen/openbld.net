@@ -157,6 +157,16 @@ const thanks = [
             "name": "Manas Kumar 🚴‍",
             "url": "",
             "style": ""
+        },
+        {
+            "name": "Alexander Kolnik 🚴‍",
+            "url": "",
+            "style": ""
+        },
+        {
+            "name": "Almaz Elemanov ☀\uFE0F🚴‍",
+            "url": "https://edk-it.com/",
+            "style": ""
         }
     ];
 
