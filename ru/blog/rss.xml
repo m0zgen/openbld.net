@@ -4,10 +4,41 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/ru/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Wed, 15 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[🟩 OpenBLD.net v8 is here – Cache Warming, UNIX Sockets, and More! 🚀]]></title>
+            <link>https://openbld.net/ru/blog/openbld-new-release-dns-v8/</link>
+            <guid>https://openbld.net/ru/blog/openbld-new-release-dns-v8/</guid>
+            <pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net – Now in Poland (Warsaw) - Continuing the great tradition of collaboration with cloud and hosting providers, the cloud provider 3hcloud.kz has provided a server in Poland.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 openbld-new-release-dns-v8" src="https://openbld.net/ru/assets/images/openbld-new-release-dns-v8-ac4461d7935489c5956649b336b7c52a.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p>🟩 OpenBLD.net v8 is here – Cache Warming, UNIX Sockets, and More! 🚀</p>
+<p>Excited to introduce the next milestone in the evolution of the open DNS service OpenBLD.net!</p>
+<!-- -->
+<p>Here’s what’s new:</p>
+<ul>
+<li><strong>Speed</strong> – UNIX sockets + Caching + Load Balancing</li>
+<li><strong>Efficiency</strong> – Port reuse allows multiple instances to run on the same port</li>
+<li><strong>Load Balancing</strong> – Zero logs (except for errors) for maximum performance</li>
+<li><strong>Memory Optimization</strong> – The core binaries take up just 6MB, with the cache stored in binary form, totaling only 11MB</li>
+<li><strong>Buffered Disk Writes</strong> – When necessary, writes go through dedicated buffers (tested at 10 million entries in 3.3 seconds)</li>
+<li>🔥 <strong>Cache Warming</strong> – Thousands of domains are preloaded to keep the cache hot, ensuring ultra-fast DNS responses</li>
+<li>🔐 <strong>Security</strong> – Supports Prometheus, SIEM, and Syslog exports for advanced monitoring (for business usage needs)</li>
+</ul>
+<p>New mechanisms unlock new possibilities—helping you maintain cyber hygiene, save time, and protect your privacy.</p>
+<p>•  Easy setup OpenBLD.net - <a href="https://openbld.net/ru/docs/category/get-started/">Get Started</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/ru/blog/openbld-new-release-dns-v8/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Прямая ссылка на Feedback and Updates ✌️" title="Прямая ссылка на Feedback and Updates ✌️">​</a></h3>
+<ul>
+<li>Feedback <a href="https://openbld.net/ru/docs/contacts/">here</a>.</li>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🇵🇱 OpenBLD.net - Now in Poland (Warsaw)]]></title>
             <link>https://openbld.net/ru/blog/eopenbld-in-poland-2025/</link>
@@ -488,27 +519,6 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
 <p>If the testing is successful, the service will be integrated into the overall OpenBLD.net ecosystem.</p>
 <p>Protect your younger generation. And of course, stay <a href="https://openbld.net/ru/docs/contacts/">connected</a>.</p>
 <p>Peace to everyone ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>oisd</category>
-            <category>2024</category>
-        </item>
-        <item>
-            <title><![CDATA[↘  OpenBLD.net Implemented OISD Blocklist]]></title>
-            <link>https://openbld.net/ru/blog/openbld-integration-oisd-blocklist/</link>
-            <guid>https://openbld.net/ru/blog/openbld-integration-oisd-blocklist/</guid>
-            <pubDate>Mon, 20 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net has implemented the OISD blocklist to provide users with an additional layer of protection against malicious websites.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - OISD Integrate" src="https://openbld.net/ru/assets/images/openbld-oisd-implementation-15db13700b02a3972c0a139d952399b3.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p><a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD</a> it is one of better projects aimed to reduce internet noise. You can use OISD for own purposes,
-in your DNS server, or you can <a href="https://openbld.net/ru/docs/get-started/third-party-filters/oisd/">use</a> it in OpenBLD.net as a ready-made solution.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-this-oisd-blocklist">What is this <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">oisd</a> blocklist?<a href="https://openbld.net/ru/blog/openbld-integration-oisd-blocklist/#what-is-this-oisd-blocklist" class="hash-link" aria-label="Прямая ссылка на what-is-this-oisd-blocklist" title="Прямая ссылка на what-is-this-oisd-blocklist">​</a></h2>
-<p>The blocklist prevents your devices from connecting to unwanted or harmful domains. It reduces ads,
-decreases the risk of malware, and enhances privacy. You can see FAQ and other details on the official <a href="https://oisd.nl/" target="_blank" rel="noopener noreferrer">OISD website</a>.</p>
-<!-- -->
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-use-oisd-in-openbldnet">How to use OISD in OpenBLD.net?<a href="https://openbld.net/ru/blog/openbld-integration-oisd-blocklist/#how-to-use-oisd-in-openbldnet" class="hash-link" aria-label="Прямая ссылка на How to use OISD in OpenBLD.net?" title="Прямая ссылка на How to use OISD in OpenBLD.net?">​</a></h2>
-<p>You can use OISD without exclusions, without additional blocklist - just only OISD in OpenBLD.net as DoH
-link in <code>RIC</code> mode.</p>
-<p>See details in <a href="https://openbld.net/ru/docs/get-started/third-party-filters/oisd/">Docs</a>. Happy Internet surfing! ✌️</p>]]></content:encoded>
             <category>openbld</category>
             <category>oisd</category>
             <category>2024</category>
