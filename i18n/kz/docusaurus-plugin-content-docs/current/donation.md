@@ -36,7 +36,7 @@ Simon.W (testing) 💪, Anatoly (testing) 💪⚡, Thatskriptkid (contribute), G
 
 ### 2024
 Alexandr Bespoyasko (contribute) ⚡, Клён 🌳 (ArtloopTeam) 🚜 ☀️, Alexander G ☀️, El (testing) 💪⚡, 
-Roman G. ☀️, TeaqariaWTF 🚴‍, Green Duck 🚴‍, Bessmertnyi_poni ⚡☀️ 🚴 
+Roman G. ☀️, TeaqariaWTF 🚴‍, Green Duck 🚴‍, Bessmertnyi_poni ⚡☀️ 🚴, LexterS999 🚴‍, Timur Shaikhin 🚴‍⚡
 
 ### Кім әрқашан байланыста
 Елизавета.К (design) ☀️, Ruzmat (contribute) ⚡, VadimML24 (contribute) ⚡, Greg (contribute, testing), Egor.Y (testing) 🚴, Stanislav (aka clevergod) Istyagin 💪 ⚡, 

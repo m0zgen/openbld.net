@@ -4,57 +4,12 @@ import Translate from "@docusaurus/Translate";
 
 const thanks = [
         {
-            "name": "Greg (testing) 🚴",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Slava.V (testing)",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Simon.W (testing) \ud83d\udcaa",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Sergey.M (testing)",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Anatoly (testing) \ud83d\udcaa\u26a1",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "V B (testing)",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Alibek.B (testing)",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Dmitry (testing)",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Egor.Y (testing) 🚴",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Stanislav (aka clevergod) Istyagin \ud83d\udcaa \u26a1 🚴",
+            "name": "Stanislav (aka clevergod) Istyagin \ud83d\udcaa \u26a1 🚴⭐",
             "url": "https://www.linkedin.com/in/stanislav-istyagin/",
             "style": ""
         },
         {
-            "name": "Not Saint (testing, hosting) \ud83d\udcaa 🚴",
+            "name": "Not Saint (testing, hosting) \ud83d\udcaa 🚴⭐🚀",
             "url": "",
             "style": ""
         },
@@ -69,17 +24,7 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Elizaveta M (contribute)",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Gregory Z (contribute) \ud83d\udcaa\u26a1",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Ruzmat (contribute) \u26a1",
+            "name": "Ruzmat (contribute) \u26a1🚀",
             "url": "https://unihost.kz",
             "style": ""
         },
@@ -89,13 +34,8 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Alexandr Bespoyasko (contribute) \u26a1 🚴",
+            "name": "Alexandr Bespoyasko (contribute) \u26a1 🚴☀️",
             "url": "https://alexandr.bespoyasko.kz/",
-            "style": ""
-        },
-        {
-            "name": "VadimML24 (contribute) \u26a1",
-            "url": "",
             "style": ""
         },
         {
@@ -109,7 +49,7 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Andrei (werlock) \u2600\ufe0f 🚴",
+            "name": "Andrei (werlock) \u2600\ufe0f 🚴☀️",
             "url": "",
             "style": ""
         },
@@ -119,32 +59,7 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Alexander G ☀\uFE0F",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Dmitry Tolkachev 🚴‍",
-            "url": "https://www.linkedin.com/in/dmitry-tolkachev",
-            "style": ""
-        },
-        {
-            "name": "TeaqariaWTF 🚴‍",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Green Duck 🚴‍",
-            "url": "",
-            "style": ""
-        },
-        {
             "name": "Bessmertnyi_poni \u26a1\u2600\ufe0f 🚴",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "LexterS999 🚴‍",
             "url": "",
             "style": ""
         },
@@ -154,17 +69,17 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Manas Kumar 🚴‍",
+            "name": "Manas Kumar 🚴‍⭐",
             "url": "",
             "style": ""
         },
         {
-            "name": "Alexander Kolnik 🚴‍",
+            "name": "Alexander Kolnik ⭐‍",
             "url": "",
             "style": ""
         },
         {
-            "name": "Almaz Elemanov ☀\uFE0F🚴‍",
+            "name": "Almaz Elemanov ☀\uFE0F⭐‍",
             "url": "https://edk-it.com/",
             "style": ""
         }
@@ -181,7 +96,7 @@ export default function HomepageThanks() {
                     <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
                         <Translate
                             id="homepage.Thanks.Title">
-                        + who contributed 🌟
+                        + contribution 2025 🐍
                             </Translate>
                     </h2>
                     <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">~~~</h2>
@@ -210,11 +125,11 @@ export default function HomepageThanks() {
                 </div>
 
                 <div className="flex flex-col items-center justify-center w-full">
-                    <p>2021-2022>
+                    <p>2021-2024>
                         <strong> See <a href="/docs/donation/#contribute-log" className="justify-center font-medium text-blue-600 dark:text-blue-500 hover:underline">Contribute Log</a>
                     </strong><br/>
-                        2023-2024> <strong className="has-text-warning">
-                        Test. Feedback. Help: 🚴
+                        2024-2025> <strong className="has-text-warning">
+                        Test. Feedback. Help: ⭐. <br/> Contribute: ☀️. Hosting: ️🚀
                             {/*Rank: ⭐️🚀*/}
                     </strong>.
                     </p>
