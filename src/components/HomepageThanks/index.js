@@ -82,6 +82,11 @@ const thanks = [
             "name": "Almaz Elemanov ☀\uFE0F⭐‍",
             "url": "https://edk-it.com/",
             "style": ""
+        },
+        {
+            "name": "Bakhtiyar Ibrayev \u26a1🚀",
+            "url": "https://t.me/bibrayev",
+            "style": ""
         }
     ];
 
