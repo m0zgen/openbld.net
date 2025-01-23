@@ -79,7 +79,7 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Almaz Elemanov ☀\uFE0F⭐‍",
+            "name": "Almaz Elemanov ☀\uFE0F ⭐",
             "url": "https://edk-it.com/",
             "style": ""
         },
@@ -89,7 +89,7 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Alexander Kruglikov ☀\uFE0F⭐‍",
+            "name": "Alexander Kruglikov ☀\uFE0F ⭐",
             "url": "https://kruglikov.info/",
             "style": ""
         }
