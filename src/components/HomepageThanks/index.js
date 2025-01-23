@@ -87,6 +87,11 @@ const thanks = [
             "name": "Bakhtiyar Ibrayev \u26a1🚀",
             "url": "https://t.me/bibrayev",
             "style": ""
+        },
+        {
+            "name": "Alexander Kruglikov ☀\uFE0F⭐‍",
+            "url": "https://kruglikov.info/",
+            "style": ""
         }
     ];
 
