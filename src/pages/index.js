@@ -43,7 +43,7 @@ function HomepageHeader() {
             {/*Header buttons*/}
             <Link
                 className="inline-flex px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 hover:text-green-200 focus:ring-blue-200 rounded-full"
-                to="/docs/intro"
+                to="/docs/overwiew/how-it-works"
             >
                 <Translate
                     id="homepage.Header.Button1">
