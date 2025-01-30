@@ -4,10 +4,33 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/ru/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 21 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[🤝 Alphavps.com Supports OpenBLD.net in 2025! 🚀]]></title>
+            <link>https://openbld.net/ru/blog/openbld-alphavps-2025/</link>
+            <guid>https://openbld.net/ru/blog/openbld-alphavps-2025/</guid>
+            <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Alphavps.com Supports OpenBLD.net in 2025! 🚀]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 openbld and alphavps cooperation in 2025" src="https://openbld.net/ru/assets/images/openbld-alphavps-2025-2238ab4044b64c5ff37e4f89c939eae9.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p>This marks the <strong>second year of collaboration</strong> between <strong>OpenBLD.net</strong> and <strong>Alphavps.com</strong>. Over this time, there hasn't been a single outage on their <strong>EPYC-powered servers</strong> in Germany and Bulgaria.</p>
+<!-- -->
+<p>I'm truly glad to see hosting providers that seamlessly combine <strong>quality, speed, and affordability</strong>—all while fully complying with <strong>GDPR</strong>.</p>
+<p>🔗 Learn more: <a href="https://alphavps.com/index.html" target="_blank" rel="noopener noreferrer">Alphavps.com</a><br>
+<!-- -->⚡ Start fast with OpenBLD in <a href="https://openbld.net/ru/docs/category/get-started/">get started</a> section.</p>
+<p>Big thanks to <strong>Alphavps.com</strong> for their continued support! 🙌</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/ru/blog/openbld-alphavps-2025/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Прямая ссылка на Feedback and Updates ✌️" title="Прямая ссылка на Feedback and Updates ✌️">​</a></h3>
+<ul>
+<li>Feedback <a href="https://openbld.net/ru/docs/contacts/">here</a>.</li>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>alphavps</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🟩 OpenBLD.net v8 is here – Cache Warming, UNIX Sockets, and More! 🚀]]></title>
             <link>https://openbld.net/ru/blog/openbld-new-release-dns-v8/</link>
@@ -493,34 +516,6 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
             <category>openbld</category>
             <category>updates</category>
             <category>performance</category>
-            <category>2024</category>
-        </item>
-        <item>
-            <title><![CDATA[↘  OpenBLD.net - Caring for Children]]></title>
-            <link>https://openbld.net/ru/blog/openbld-kid-protection-testing-mode/</link>
-            <guid>https://openbld.net/ru/blog/openbld-kid-protection-testing-mode/</guid>
-            <pubDate>Fri, 31 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Advertisements and adult content are junk information for a child's brain this needs to be blocked. OpenBLD.net provides a special mode for children's protection.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Kid Protection Test Mode" src="https://openbld.net/ru/assets/images/openbld-kid-protection-testing-mode-f75331614d5fede5a5bcde3e063e5734.png" width="1250" height="680" class="img_ev3q"></p>
-<p>👨‍👩‍👧‍👦 OpenBLD.net - Caring for Children</p>
-<p>Understanding that advertisements are junk information for a child's brain, I also recognize that "adult content" is even more unacceptable for minors.</p>
-<p>This includes:</p>
-<ul>
-<li>Pornography</li>
-<li>Escort services</li>
-<li>Gambling</li>
-</ul>
-<p>Starting today, I'm launching a new server in test mode with filtering for this type of content.</p>
-<!-- -->
-<ul>
-<li>DoT settings: <code>kid.openbld.net</code></li>
-<li>DoH settings: <code>https://kid.openbld.net/dns-query</code></li>
-</ul>
-<p>If the testing is successful, the service will be integrated into the overall OpenBLD.net ecosystem.</p>
-<p>Protect your younger generation. And of course, stay <a href="https://openbld.net/ru/docs/contacts/">connected</a>.</p>
-<p>Peace to everyone ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>oisd</category>
             <category>2024</category>
         </item>
     </channel>
