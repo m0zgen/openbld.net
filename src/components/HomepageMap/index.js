@@ -50,8 +50,8 @@ const servers = [
         "name": "GoHost.kz (Kazakhstan)",
         "url": "https://gohost.kz/",
         "id": "kazakhstan_karagandy_1",
-        "top": "160",
-        "left": "650"
+        "top": "156",
+        "left": "647"
     },
     {
         "name": "SmartApps.kz (Kazakhstan)",
@@ -59,6 +59,13 @@ const servers = [
         "id": "kazakhstan_karagandy_2",
         "top": "150",
         "left": "640"
+    },
+    {
+        "name": "NOVA Cloud (Kazakhstan)",
+        "url": "https://novacloud.kz/",
+        "id": "kazakhstan_astana_2",
+        "top": "140",
+        "left": "630"
     },
     {
         "name": "Veesp.com (Latvia)",
