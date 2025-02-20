@@ -8,7 +8,7 @@ tags: [openbld, updates, 2025]
 
 ![🔼 OpenBLD.net - New Server in Almaty from Nova Cloud](images/openbld-new-server-nova-cloud-almaty.jpeg)
 
-🧠 **OpenBLD.net** introduces a new server in Almaty, powered by [**NOVA Cloud**](https://novacloud.kz/). Truly **fast**. Truly **reliable**. Truly **stable**.
+**OpenBLD.net** introduces a new server in Almaty, powered by [**NOVA Cloud**](https://novacloud.kz/). Truly **fast**. Truly **reliable**. Truly **stable**.
 
 As of today, it handles traffic from CIS countries, with a special focus on users in Kazakhstan 🇰🇿
 {/* truncate */}
