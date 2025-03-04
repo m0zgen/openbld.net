@@ -1,7 +1,7 @@
 ---
 slug: openbld-new-server-nova-cloud-almaty-2025
 title: 🤝 OpenBLD.net - New Server in Almaty from Nova Cloud
-description: ?? OpenBLD.net - New Server in Almaty from Nova Cloud,  it handles traffic from CIS countries, with a special focus on users in Kazakhstan.
+description: OpenBLD.net - New Server in Almaty from Nova Cloud,  it handles traffic from CIS countries, with a special focus on users in Kazakhstan.
 authors: [sysadminkz]
 tags: [openbld, updates, 2025]
 ---
