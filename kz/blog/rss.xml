@@ -4,10 +4,36 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/kz/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 11 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>kz</language>
+        <item>
+            <title><![CDATA[🇰🇿 OpenBLD.net – Kazakhstan Server by Onehost.kz with NVMe SSD, AMD EPYC]]></title>
+            <link>https://openbld.net/kz/blog/openbld-onehost-kazakhstan-2025/</link>
+            <guid>https://openbld.net/kz/blog/openbld-onehost-kazakhstan-2025/</guid>
+            <pubDate>Tue, 18 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net now has an official presence in Kazakhstan 🇰🇿 with a new server by Onehost.kz located in Almaty.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🇰🇿 OpenBLD.net – Kazakhstan Server by Onehost.kz with NVMe SSD, AMD EPYC" src="https://openbld.net/kz/assets/images/openbld-onehost-almaty-03c80271b3a5a501d990f7c581628be9.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p>In our pursuit of improving quality, expanding the number of PoPs, and fostering national solidarity, Onehost.kz has provided a high-speed server in the Almaty region for the OpenBLD.net project.</p>
+<!-- -->
+<p>Previously, based on friends’ recommendations, I purchased a VPS from Onehost.kz to test compatibility with OpenBLD.net. Speed, reliability, and support—everything delivered excellent results.</p>
+<p>Recently, I had to pause the use of the server, and without hesitation, the Onehost team offered a new server for the OpenBLD.net project. This level of support is truly commendable!</p>
+<p>💡 Why does this matter?</p>
+<p>Kazakhstan, Almaty, and our neighboring countries deserve high-quality internet services, fast speeds, and affordable hosting prices. This collaboration is a step toward that goal—huge thanks to everyone involved!</p>
+<ul>
+<li>Learn more about Onehost services: <a href="https://onehost.kz/" target="_blank" rel="noopener noreferrer">Onehost.kz</a></li>
+<li><a href="https://openbld.net/kz/docs/category/get-started/">Get started</a> with OpenBLD.net today!</li>
+</ul>
+<p>Join us, don’t hesitate! Peace to all! ✌️</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-onehost-kazakhstan-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🇮🇳 OpenBLD.net Expands – New Point of Presence in India (Mumbai)]]></title>
             <link>https://openbld.net/kz/blog/openbld-in-india-2025/</link>
@@ -186,7 +212,7 @@
 <p>It is important to remember – only together, and each individually, can we secure ourselves and our loved ones.</p>
 <p>How to set up OpenBLD.net - <a href="https://openbld.net/kz/docs/category/get-started/">Get Started</a></p>
 <p>Take care. Peace! ✌️</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/eopenbld-in-poland-2025/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тіке�лей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/eopenbld-in-poland-2025/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікелей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
 <ul>
 <li>Feedback <a href="https://openbld.net/kz/docs/contacts/">here</a>.</li>
 <li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
@@ -496,35 +522,6 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
 <p>This model can includes unnotified maintenance window ~3 minutes or 3 iteration maximum in a day, this does not mean that the service will be unavailable at this time, you just need to keep in mind that if suddenly something goes wrong for you, you immediately let me know about it, that's all)</p>
 <p>Be patient while running, only forward!</p>
 <p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> is always with you ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>performance</category>
-            <category>2024</category>
-        </item>
-        <item>
-            <title><![CDATA[🟢️️️️️️ OpenBLD.net New server from 3hcloud in Almaty]]></title>
-            <link>https://openbld.net/kz/blog/openbld-new-server-from-3hcloud-in-almaty-2024-09-24/</link>
-            <guid>https://openbld.net/kz/blog/openbld-new-server-from-3hcloud-in-almaty-2024-09-24/</guid>
-            <pubDate>Wed, 25 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net - New server in 3hcloud.kz, 3hcloud.com Almaty Kazakhstan]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New Server in 3hcloud.kz Almaty Kazakhstan" src="https://openbld.net/kz/assets/images/openbld-net-new-server-almaty-3hcloud-ec4c1fe731a0f0aad9f04434d58ad826.jpg" width="1250" height="680" class="img_ev3q"></p>
-<p>🚀 OpenBLD.net new DNS server in Kazakhstan 🇰🇿 Almaty</p>
-<p>Recently learned about <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3hcloud.kz</a>. Went, tried it and was pleasantly surprised:</p>
-<ul>
-<li>speed (connectivity and instances are super)</li>
-<li>liked the firewall</li>
-<li>prices were pleasantly surprising<!-- -->
-<!-- -->
-</li>
-</ul>
-<p>After several weeks of testing, I can firmly say - compatibility with OpenBLD.net is present.</p>
-<p>Configure Chrome as described here:</p>
-<ul>
-<li>How-to set up your favorite <a href="https://openbld.net/kz/docs/get-started/setup-browsers/chrome/">Browser</a></li>
-</ul>
-<p>And then open the site that got you with ads and be surprised yourself.</p>
-<p>P.S. There is a case or something does not work - welcome at any time (contacts)</p>
-<p>P.P.S. Yandex Cloud unfortunately turned out to be incompatible with OpenBLD.net quality requirements, all servers based on this cloud will be abolished in the near future ⚰️</p>]]></content:encoded>
             <category>openbld</category>
             <category>updates</category>
             <category>performance</category>
