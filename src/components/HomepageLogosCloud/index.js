@@ -21,6 +21,7 @@ const logos = [
         { name: "SmartApps Almaty", url: "https://smartapps.kz/", src: 'img/logos/smartapps-kz-logo.png', style: "logo-bg-white"},
         { name: "AlphaVPS Hosting Service", url: "https://alphavps.com/clients/aff.php?aff=657", src: 'img/logos/alpha-vps-logo.png', style: "logo-bg-white"},
         { name: "NOVA Cloud", url: "https://novacloud.kz/", src: 'img/logos/nova_cloud_kazakhstan_logo.png', style: "logo-bg-white"},
+        { name: "Onehost.kz", url: "https://onehost.kz/", src: 'img/logos/onehost_logo.png', style: "logo-bg-white"},
         // { name: "REGXA.com", url: "https://regxa.com/", src: 'img/logos/regxa.com-logo.png', style: "logo-bg-white"},
         { name: "Help to growth to OpenBLD.net", url: "#", src: 'img/logos/splash-logo.jpg', style: ""},
     ];
