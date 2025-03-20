@@ -4,6 +4,11 @@ import Translate from "@docusaurus/Translate";
 
 const thanks = [
         {
+            "name": "Серик Туребек \u26a1 \uD83D\uDE9C ☀\uFE0F 🚴🔥",
+            "url": "https://www.linkedin.com/in/serik-turebek-enterprise-storage",
+            "style": ""
+        },
+        {
             "name": "Stanislav (aka clevergod) Istyagin \ud83d\udcaa \u26a1 🚴⭐",
             "url": "https://www.linkedin.com/in/stanislav-istyagin/",
             "style": ""
@@ -14,7 +19,7 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "\u0415\u043b\u0438\u0437\u0430\u0432\u0435\u0442\u0430.\u041a (design) \u2600\ufe0f",
+            "name": "\u0415\u043b\u0438\u0437\u0430\u0432\u0435\u0442\u0430.\u041a (design) \u2600\ufe0f 🎨",
             "url": "https://uadd.me/artkirlisa",
             "style": ""
         },
@@ -50,11 +55,6 @@ const thanks = [
         },
         {
             "name": "Andrei (werlock) \u2600\ufe0f 🚴☀️",
-            "url": "",
-            "style": ""
-        },
-        {
-            "name": "Seke t.me/asbisKZ \u26a1 \uD83D\uDE9C ☀\uFE0F 🚴",
             "url": "",
             "style": ""
         },
@@ -139,9 +139,9 @@ export default function HomepageThanks() {
                         <strong> See <a href="/docs/donation/#contribute-log" className="justify-center font-medium text-blue-600 dark:text-blue-500 hover:underline">Contribute Log</a>
                     </strong><br/>
                         2024-2025> <strong className="has-text-warning">
-                        Test. Feedback. Help: ⭐. <br/> Contribute: ☀️. Hosting: ️🚀
+                        Test. Feedback. Help: ⭐. <br/> Contribute: ☀️. Hosting: ️🚀. Design: 🎨. Boost: 🔥. <br/>
                             {/*Rank: ⭐️🚀*/}
-                    </strong>.
+                    </strong>
                     </p>
 
                 </div>
