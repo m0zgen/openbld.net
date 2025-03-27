@@ -145,6 +145,13 @@ const servers = [
         "left": "455"
     },
     {
+        "name": "Sys-Adm.in Lab (Mumbai)",
+        "url": "https://lab.sys-adm.in/",
+        "id": "mumbai",
+        "top": "260",
+        "left": "650"
+    },
+    {
         "name": "Sys-Adm.in Lab (Singapore)",
         "url": "https://lab.sys-adm.in/",
         "id": "singapore",
