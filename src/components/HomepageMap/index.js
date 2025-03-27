@@ -68,6 +68,13 @@ const servers = [
         "left": "630"
     },
     {
+        "name": "NOVA Cloud (Kazakhstan)",
+        "url": "https://novacloud.kz/",
+        "id": "kazakhstan_almaty_5",
+        "top": "188",
+        "left": "661"
+    },
+    {
         "name": "Veesp.com (Latvia)",
         "url": "https://veesp.com/",
         "id": "latvia",
