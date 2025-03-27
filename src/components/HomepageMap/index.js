@@ -75,6 +75,13 @@ const servers = [
         "left": "500"
     },
     {
+        "name": "Veesp.com (Sweden)",
+        "url": "https://veesp.com/",
+        "id": "sweden",
+        "top": "128",
+        "left": "488"
+    },
+    {
         "name": "Veesp.com (Netherlands)",
         "url": "https://veesp.com/",
         "id": "veesp_netherlands_1",
