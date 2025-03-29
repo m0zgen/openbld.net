@@ -4,10 +4,40 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 18 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🚀 OpenBLD.net — DNS over HTTPS is now ~10% faster]]></title>
+            <link>https://openbld.net/blog/openbld-doh-made-faster-2025/</link>
+            <guid>https://openbld.net/blog/openbld-doh-made-faster-2025/</guid>
+            <pubDate>Sat, 29 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net now has DNS over HTTPS (DoH) servers - making it ~10% faster than before.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net — DNS over HTTPS is now ~10% faster" src="https://openbld.net/assets/images/openbld-doh-made-faster-d72e4f5eb6c68ddcef5a78f101d50bea.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p>Sometimes, to get better — you have to risk stability.</p>
+<p>I revisited RFC1035 and… rewrote critical parts of the DNS processing logic in OpenBLD DoH.</p>
+<!-- -->
+<p>Why? Because speed matters. Especially when millions of DNS queries are at stake every day.</p>
+<p>What’s changed under the hood:</p>
+<ul>
+<li>⚙️ Updated TLS ciphers and security processes</li>
+<li>⚡ HTTP/2 support — now enforced everywhere</li>
+<li>🧠 Reworked the entire request handling pipeline</li>
+</ul>
+<p>All changes were battle-tested — no crashes, no chaos. Just a solid ~10% performance boost.</p>
+<p>This week, the update rolls out across the entire ADA infrastructure.</p>
+<p>If you want to stay ahead — be faster, be agile, and don’t be afraid to break things.</p>
+<p>OpenBLD.net - No trackers. No compromises. Just a cleaner internet.</p>
+<p>✌️ Latency kills. Speed saves.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/blog/openbld-doh-made-faster-2025/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🇰🇿 OpenBLD.net – Kazakhstan Server by Onehost.kz with NVMe SSD, AMD EPYC]]></title>
             <link>https://openbld.net/blog/openbld-onehost-kazakhstan-2025/</link>
@@ -501,31 +531,6 @@ You can disable Systemd-resolved using your own settings in the <code>resolved.c
             <category>system</category>
             <category>notes</category>
             <category>openbld</category>
-        </item>
-        <item>
-            <title><![CDATA[🚀 OpenBLD.net - Switched to in-touch release model]]></title>
-            <link>https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/</link>
-            <guid>https://openbld.net/blog/openbld-switched-to-in-touch-release-model-2024/</guid>
-            <pubDate>Fri, 27 Sep 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net in-touch release model - trunk-based model, rolling release, canary > production deployment]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - In-Touch Release Model" src="https://openbld.net/assets/images/openbld-in-touch-release-model-2024-f808f430eacc57cb4eb7c9cc89c82dd3.png" width="1250" height="680" class="img_ev3q"></p>
-<p>🚀 OpenBLD.net - Switched to in-touch release model</p>
-<p>A few weeks ago I announced Canary release, now I decided switch to "in-touch" deployment stages.</p>
-<p>To start with, I'm using my "<a href="https://flex-doc.pages.dev/" target="_blank" rel="noopener noreferrer">Flex App Additions Methodology</a>" in my projects. Often some bugs have to be fixed quickly, we all want these bugs to be fixed quickly..)</p>
-<!-- -->
-<p>My "in-touch" release model includes:</p>
-<ol>
-<li>Trunk-based development model</li>
-<li>Rolling release</li>
-<li>Canary &gt; Production deployment</li>
-</ol>
-<p>This model can includes unnotified maintenance window ~3 minutes or 3 iteration maximum in a day, this does not mean that the service will be unavailable at this time, you just need to keep in mind that if suddenly something goes wrong for you, you immediately let me know about it, that's all)</p>
-<p>Be patient while running, only forward!</p>
-<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer">OpenBLD.net</a> is always with you ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>performance</category>
-            <category>2024</category>
         </item>
     </channel>
 </rss>
