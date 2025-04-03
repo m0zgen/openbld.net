@@ -96,15 +96,15 @@ const servers = [
         "left": "447"
     },
     {
-        "name": "Aalphavps.com (Bulgaria)",
-        "url": "https://aalphavps.com/",
+        "name": "Alphavps.com (Bulgaria)",
+        "url": "https://alphavps.com/",
         "id": "bulgaria",
         "top": "180",
         "left": "500"
     },
     {
-        "name": "Aalphavps.com (Germany)",
-        "url": "https://aalphavps.com/",
+        "name": "Alphavps.com (Germany)",
+        "url": "https://alphavps.com/",
         "id": "germany_1",
         "top": "140",
         "left": "476"
