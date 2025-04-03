@@ -97,6 +97,11 @@ const thanks = [
             "name": "Doskhat Abdrassilov 🚀",
             "url": "https://www.linkedin.com/in/doskhat-abdrassilov-616887321",
             "style": ""
+        },
+        {
+            "name": "Alex Spin ☀️",
+            "url": "",
+            "style": ""
         }
     ];
 
