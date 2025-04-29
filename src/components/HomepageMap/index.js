@@ -26,7 +26,7 @@ const servers = [
         "left": "673"
     },
     {
-        "name": "3hcloud.kz (Kazakhstan)",
+        "name": "3HCLOUD.kz (Kazakhstan)",
         "url": "https://3hcloud.kz/",
         "id": "kazakhstan_almaty_3",
         "top": "192",
@@ -40,7 +40,7 @@ const servers = [
         "left": "662"
     },
     {
-        "name": "3hcloud.kz (Warsaw)",
+        "name": "3HCLOUD.kz (Warsaw)",
         "url": "https://3hcloud.kz/",
         "id": "poland_1",
         "top": "148",
@@ -178,6 +178,20 @@ const servers = [
         "id": "usa_1",
         "top": "241",
         "left": "170"
+    },
+    {
+        "name": "3HCLOUD (Dallas)",
+        "url": "https://3hcloud.kz/",
+        "id": "usa_2",
+        "top": "212",
+        "left": "183"
+    },
+    {
+        "name": "3HCLOUD (Miami)",
+        "url": "https://3hcloud.kz/",
+        "id": "usa_3",
+        "top": "232",
+        "left": "225"
     },
     {
         "name": "Sys-Adm.in Lab (Toronto)",
