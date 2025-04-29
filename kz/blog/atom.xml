@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2025-04-23T00:00:00.000Z</updated>
+    <updated>2025-04-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 🇺🇸 OpenBLD.net is expanding USA (Miami and Dallas)!]]></title>
+        <id>https://openbld.net/kz/blog/openbld-in-usa-2025/</id>
+        <link href="https://openbld.net/kz/blog/openbld-in-usa-2025/"/>
+        <updated>2025-04-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - New DNS servers are now live in Miami and Dallas, USA. Thanks to 3HCLOUD.kz.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🇮🇳 OpenBLD.net is expanding USA (Miami and Dallas)!" src="https://openbld.net/kz/assets/images/openbld-in-usa-375d01f26999151f223c054aff0f5903.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p>New DNS servers are now live in Miami and Dallas, USA.</p>
+<p>Thanks to 3HCLOUD.kz, OpenBLD.net strengthens its global presence and pushes forward an independent, secure DNS ecosystem.</p>
+<!-- -->
+<p>✅ Faster
+✅ Safer
+✅ Closer to you</p>
+<p>We believe that only together can we build a truly independent security ecosystem — including protection from DNS leaks into the hands of large corporations.</p>
+<p>Who knows — maybe OpenBLD.net is already near you?</p>
+<p>Connect today: <a href="https://openbld.net/kz/docs/category/get-started/">Get started</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-in-usa-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2025" term="2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[✅️️️️️️️ OpenBLD.net – End-to-End TCP in DNS? Yes!.]]></title>
         <id>https://openbld.net/kz/blog/openbld-tcp-sock-passthrough-2025/</id>
@@ -440,7 +468,7 @@ however please pay attention to how everything will work - faster/slower, will t
         <updated>2024-12-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net – Engine for a Faster Internet now in Silicon Valley]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – in in Silicon Valley" src="https://openbld.net/kz/assets/images/openbld-in-silicon-valley-9187b7f3afc229c7cecaaff79fa2b032.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--new-pop-in-silicon-valley-">OpenBLD.net – new PoP in Silicon Valley 🇺🇸<a href="https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/#openbldnet--new-pop-in-silicon-valley-" class="hash-link" aria-label="OpenBLD.net – new PoP in Silicon Valley 🇺���🇸-ға тікелей сілтеме" title="OpenBLD.net – new PoP in Silicon Valley 🇺🇸-ға тікелей сілтеме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--new-pop-in-silicon-valley-">OpenBLD.net – new PoP in Silicon Valley 🇺🇸<a href="https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/#openbldnet--new-pop-in-silicon-valley-" class="hash-link" aria-label="OpenBLD.net – new PoP in Silicon Valley 🇺🇸-ға тікелей сілтеме" title="OpenBLD.net – new PoP in Silicon Valley 🇺🇸-ға тікелей сілтеме">​</a></h3>
 <p>This is the new and first standalone OpenBLD server in the US, right in Silicon Valley 👽</p>
 <!-- -->
 <p>10 GBPS allows to use the full bandwidth potential of the OpenBLD service 🚀</p>
@@ -589,31 +617,6 @@ however please pay attention to how everything will work - faster/slower, will t
         </author>
         <category label="openbld" term="openbld"/>
         <category label="updates" term="updates"/>
-        <category label="2024" term="2024"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🤝 Growth of OpenBLD.net with REGXA in Canada]]></title>
-        <id>https://openbld.net/kz/blog/openbld-growth-to-canada-with-regxa-2024/</id>
-        <link href="https://openbld.net/kz/blog/openbld-growth-to-canada-with-regxa-2024/"/>
-        <updated>2024-10-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net - New PoP in Canada with REGXA Hosting]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Growth to Canada with REGXA" src="https://openbld.net/kz/assets/images/openbld-growth-to-canada-with-regxa-1-2024-fdade652172325357118e0b55ebbc01f.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p>We're excited to announce that OpenBLD.net has launched a new Point of Presence (PoP) in Canada, hosted by
-<a href="https://regxa.com/" target="_blank" rel="noopener noreferrer">REGXA</a>!</p>
-<!-- -->
-<p>In collaboration with <a href="https://regxa.com/" target="_blank" rel="noopener noreferrer">REGXA</a>, we also plan to establish
-two more PoPs in France and India in the next six months. I truly believe this partnership will bring
-significant benefits to everyone—enhancing the security of OpenBLD.net for our users and expanding our reach. REGXA has proven to be a reliable hosting provider, successfully handling the current load of OpenBLD.net.</p>
-<p>Moreover, our tests indicate that the new server in Canada responds significantly faster than others.
-So, we're moving forward!</p>
-<p>Take care, everyone! ✌️</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="REGXA" term="REGXA"/>
         <category label="2024" term="2024"/>
     </entry>
 </feed>
