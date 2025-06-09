@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2025-04-29T00:00:00.000Z</updated>
+    <updated>2025-06-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net — A New Release Achieving Speed and Dynamics]]></title>
+        <id>https://openbld.net/kz/blog/openbld-achieving-speed-and-dynamics-2025/</id>
+        <link href="https://openbld.net/kz/blog/openbld-achieving-speed-and-dynamics-2025/"/>
+        <updated>2025-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net - New 2025 update release to the OpenBLD.net ecosystem, focused on performance dynamics, resilience, and predictable DNS request handling]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net — A New 2025 Release Achieving Speed and Dynamics" src="https://openbld.net/kz/assets/images/openbld-achieving-speed-and-dynamics-bfc5eb479450783f8b5e910cfdfc1f2a.jpeg" width="1250" height="680" class="img_ev3q"></p>
+<p>The art of speed and stability in action.</p>
+<p>Introducing the latest update to the OpenBLD.net ecosystem, focused on performance dynamics, resilience, and predictable DNS request handling 🔄.</p>
+<!-- -->
+<p>🔧 What’s new:</p>
+<p>• Optimized filters — faster than ever
+• Smarter memory handling — smooth and spike-free
+• Automatic CDN detection + Lua-based forwarding — intelligent routing</p>
+<p>🚀 The result:</p>
+<p>• Rapid warm-up
+• High QPS performance — without fluctuations or drops
+• Minimal latency even under heavy load 💪</p>
+<p>💡 All of this — to make the internet cleaner, faster, and safer for all of us.</p>
+<p>🫶 Thank you for being with OpenBLD.net</p>
+<p>Connect today: <a href="https://openbld.net/kz/docs/category/get-started/">Get started</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-achieving-speed-and-dynamics-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2025" term="2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🚀 🇺🇸 OpenBLD.net is expanding USA (Miami and Dallas)!]]></title>
         <id>https://openbld.net/kz/blog/openbld-in-usa-2025/</id>
@@ -312,7 +345,7 @@ No downgrading, no losses, no “simplifications.”</p>
 </ul>
 <p>New mechanisms unlock new possibilities—helping you maintain cyber hygiene, save time, and protect your privacy.</p>
 <p>•  Easy setup OpenBLD.net - <a href="https://openbld.net/kz/docs/category/get-started/">Get Started</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/openbld-new-release-dns-v8/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікелей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/openbld-new-release-dns-v8/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікел�ей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
 <ul>
 <li>Feedback <a href="https://openbld.net/kz/docs/contacts/">here</a>.</li>
 <li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
@@ -591,32 +624,6 @@ however please pay attention to how everything will work - faster/slower, will t
         <category label="openbld" term="openbld"/>
         <category label="cooperation" term="cooperation"/>
         <category label="3hcloud" term="3hcloud"/>
-        <category label="2024" term="2024"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[↘  OpenBLD.net - Updated Response System]]></title>
-        <id>https://openbld.net/kz/blog/openbld-updated-response-system-2024/</id>
-        <link href="https://openbld.net/kz/blog/openbld-updated-response-system-2024/"/>
-        <updated>2024-10-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net - New PoP in Canada with REGXA Hosting]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net presents: New Guaranteed Response System" src="https://openbld.net/kz/assets/images/openbld-updated-response-system-2fad50295d7ef7f974a761860def7d2b.png" width="1250" height="680" class="img_ev3q"></p>
-<p>Have you ever faced issues with receiving responses from servers? Timeouts, errors, or empty replies can significantly disrupt some workflows. But I tried, and I think I found a solution!</p>
-<!-- -->
-<p>🟩 The new OpenBLD.net feature includes a guaranteed response system that activates in cases where the standard resolution process fails. If you receive a Servfail status or other errors, we employ additional logic, and the service takes a:</p>
-<ul>
-<li>Internal pool of servers.</li>
-<li>External pool of servers.</li>
-</ul>
-<p>By mixing  both, we ensure unique servers without upstreams that returned a fail status or are busy.</p>
-<p>This means that even if the initial response was unsuccessful, we continue the search for the correct answer, ensuring reliability and accuracy for you.</p>
-<p>Don’t let response issues slow down your life or business!</p>
-<p>Be yourself, be focused! ✌️</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
         <category label="2024" term="2024"/>
     </entry>
 </feed>
