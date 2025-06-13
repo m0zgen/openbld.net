@@ -8,7 +8,7 @@ To block ads and tracking in the Vivaldi browser, you need to configure a secure
 
 Setup OpenBLD.net on Vivaldi Browser
 
-1. Open Settings
+1. Type in address bar `chrome://settings/security` (this automatically redirect to `vivaldi://settings/security`)
 2. Select the Privacy and Security tab
 3. Scroll down and enable **Use secure DNS** server option
 4. Select from the dropdown menu "Select custom DNS service provider"
