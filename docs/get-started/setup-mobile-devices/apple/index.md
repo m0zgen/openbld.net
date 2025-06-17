@@ -10,13 +10,13 @@ Setup OpenBLD.net on iOS, iPadOS
 
 1. Open `Safari` and **Allow** download ADA iOS/macOS [profile](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v5-21.mobileconfig)
 
-![Download OpenBLD Network iOS, iPad, macOS profile](./figure1-download-openbld-profile.jpg)
+![Download OpenBLD Network iOS, iPad, macOS profile](./figure1-download-openbld-profile.webp)
 
 :::note
 
 In some ceases profile can be opened as **plain text** file in `xml` format:
 
-![Open OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile-as-text.jpg)
+![Open OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile-as-text.webp)
 
 Don't worry, just **download** it:
 
@@ -24,7 +24,7 @@ Don't worry, just **download** it:
 - Hold your finger on the screen to display the context menu
 - Select **Download**:
 
-![Download OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile.jpg)
+![Download OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile.webp)
 
 and then **open** from _Files_ app or _Downloads_ folder.
 
@@ -33,19 +33,19 @@ and then **open** from _Files_ app or _Downloads_ folder.
 2. After profile was downloaded you'll see a message: 
 _**Profile Downloaded. Review the profile in the Settings app if you want to install it**_:
 
-![Profile downloaded](./figure2-downloaded-openbld-profile.jpg)
+![Profile downloaded](./figure2-downloaded-openbld-profile.webp)
 
 3. Open Settings > search new **Profile Downloaded** settings item
 
-![Profile downloaded](./figure3-open-downloaded-openbld-profile.jpeg)
+![Profile downloaded](./figure3-open-downloaded-openbld-profile.webp)
 
 4. **Install** profile:
 
-![Install OpenBLD profile](./figure4-install-downloaded-openbld-profile.jpg)
+![Install OpenBLD profile](./figure4-install-downloaded-openbld-profile.webp)
 
 5. **Install** DNS Settings:
 
-![Install OpenBLD DNS Settings](figure4-install2-downloaded-openbld-profile.jpg)
+![Install OpenBLD DNS Settings](figure4-install2-downloaded-openbld-profile.webp)
 
 6. Done
 
