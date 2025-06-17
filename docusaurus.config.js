@@ -129,7 +129,9 @@ const config = {
         title: 'OpenBLD.net DNS',
         logo: {
           alt: 'OpenBLD.net Logo',
-          src: 'img/openbld-navbar-logo.png',
+          src: 'img/openbld-navbar-logo.webp',
+          width: 32,
+          height: 32,
         },
         items: [
           {
