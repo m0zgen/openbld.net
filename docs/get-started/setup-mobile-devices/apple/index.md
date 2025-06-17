@@ -16,7 +16,11 @@ Setup OpenBLD.net on iOS, iPadOS
 
 In some ceases profile can be opened as **plain text** file in `xml` format:
 
-![Open OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile-as-text.webp)
+:::
+
+Example:
+
+<img alt="OpenBLD.net DNS iOS xml configuration profile" src={require("./openbld-download-linked-ios-apple-profile-as-text.webp").default} width="591"/>
 
 Don't worry, just **download** it:
 
@@ -24,11 +28,9 @@ Don't worry, just **download** it:
 - Hold your finger on the screen to display the context menu
 - Select **Download**:
 
-![Download OpenBLD Network iOS, iPad, macOS profile](./openbld-download-linked-ios-apple-profile.webp)
+<img alt="OpenBLD.net DNS download iOS configuration profile" src={require("./openbld-download-linked-ios-apple-profile.webp").default} width="591"/>
 
 and then **open** from _Files_ app or _Downloads_ folder.
-
-:::
 
 2. After profile was downloaded you'll see a message: 
 _**Profile Downloaded. Review the profile in the Settings app if you want to install it**_:
