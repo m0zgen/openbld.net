@@ -4,10 +4,34 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/ru/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Mon, 09 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[🚀 OpenBLD.net and ClouDNS.net Continue Their Partnership in 2025!]]></title>
+            <link>https://openbld.net/ru/blog/openbld-and-cloudns-2025/</link>
+            <guid>https://openbld.net/ru/blog/openbld-and-cloudns-2025/</guid>
+            <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD joined ClouDNS back in 2023 — and since then, the service has proven itself as a stable and trusted foundation for all of DNS and GeoDNS infrastructure.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and ClouDNS.net" src="https://openbld.net/ru/assets/images/openbld-cloudns-2025-3c4587ce5635310d66ace129c52853be.webp" width="1250" height="680" class="img_ev3q"></p>
+<p><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">ClouDNS</a> is a reliable, fast ⚡, and accessible platform for DNS hosting. With a global network of points of presence, instant DNS updates, and powerful <a href="https://www.cloudns.net/geodns/" target="_blank" rel="noopener noreferrer">GeoDNS</a> capabilities, it enables flexible and adaptive DNS management in today’s fast-paced Internet environment.</p>
+<!-- -->
+<p>OpenBLD joined ClouDNS back in 2023 — and since then, the service has proven itself as a stable and trusted foundation for all of DNS and GeoDNS infrastructure.</p>
+<p>I'm truly happy to continue this collaboration. Without ClouDNS, OpenBLD would not have become the service it is today — and I’m very grateful for that.</p>
+<ul>
+<li>Looking for high-quality DNS hosting? - <a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer">https://www.cloudns.net</a></li>
+<li>Looking for an Internet without ads and trackers? - <a href="https://openbld.net/ru/docs/category/get-started/">Connect today</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-and-cloudns-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>cloudns</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🚀 OpenBLD.net — A New Release Achieving Speed and Dynamics]]></title>
             <link>https://openbld.net/ru/blog/openbld-achieving-speed-and-dynamics-2025/</link>
@@ -143,7 +167,7 @@ No downgrading, no losses, no “simplifications.”</p>
 <li><a href="https://openbld.net/ru/docs/category/get-started/">Get started</a> with OpenBLD.net today!</li>
 </ul>
 <p>Join us, don’t hesitate! Peace to all! ✌️</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-onehost-kazakhstan-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-onehost-kazakhstan-2025/#updates" class="hash-link" aria-label="Пря�мая ссылка на Updates" title="Прямая ссылка на Updates">​</a></h3>
 <ul>
 <li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content:encoded>
@@ -477,7 +501,7 @@ however please pay attention to how everything will work - faster/slower, will t
 <li>Optimized parallel DNS request handling, delivering the fastest response</li>
 </ul>
 <p>I hope these features will help us save valuable time online while the OpenBLD.net system's gears run smoothly under the hood.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-gears">What's Gears?<a href="https://openbld.net/ru/blog/openbld-throughput-boosting-2024/#whats-gears" class="hash-link" aria-label="Прямая ссылка на What's Gears?" title="Прямая ссылка на What's Gears?">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-gears">What's Gears?<a href="https://openbld.net/ru/blog/openbld-throughput-boosting-2024/#whats-gears" class="hash-link" aria-label="Прямая ссылка на What's Gears?" title="П�рямая ссылка на What's Gears?">​</a></h3>
 <p>Gears are the components of the OpenBLD.net system that help to customize online experiences.</p>
 <ul>
 <li><a href="https://openbld.net/ru/docs/overview/gears/gears-intro/">About of Gears</a></li>
@@ -525,26 +549,6 @@ however please pay attention to how everything will work - faster/slower, will t
             <category>openbld</category>
             <category>cooperation</category>
             <category>veesp</category>
-            <category>2024</category>
-        </item>
-        <item>
-            <title><![CDATA[🤝 OpenBLD.net - 3HCLOUD Cooperation]]></title>
-            <link>https://openbld.net/ru/blog/openbld-3hcloud-cooperation-2024/</link>
-            <guid>https://openbld.net/ru/blog/openbld-3hcloud-cooperation-2024/</guid>
-            <pubDate>Wed, 23 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net - New DNS, Cache servers in Almaty, Kazakhstan]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net presents: New Guaranteed Response System" src="https://openbld.net/ru/assets/images/openbld-3h-cooperation-2024-6cb539d673c5633d7b360d2974e179c8.png" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3hcloudkz--supports-openbldnet"><a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3HCLOUD.kz</a>- Supports OpenBLD.net<a href="https://openbld.net/ru/blog/openbld-3hcloud-cooperation-2024/#3hcloudkz--supports-openbldnet" class="hash-link" aria-label="Прямая ссылка на 3hcloudkz--supports-openbldnet" title="Прямая ссылка на 3hcloudkz--supports-openbldnet">​</a></h3>
-<p>I’m happy to announce that thanks to <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3hcloud.kz</a>, new DNS and Cache servers have been launched in Almaty!</p>
-<!-- -->
-<p>The cloud impressed us with its speeds, hardware, and eagerness to meet the needs of clients and potential partners.</p>
-<p>Servers are currently being prepared in Europe (Poland), with plans for the Philippines and the USA to follow.</p>
-<p>These ambitious plans will be realized one way or another, but with <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer">3HCLOUD</a>, I’m confident they will happen faster 🚀</p>
-<p>Thank you to all the loyal cloud and hosting companies supporting the OpenBLD.net project. Together, we can make this world more cyber hygienic and secure. 🛡️</p>
-<p>Wishing everyone well! ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>cooperation</category>
-            <category>3hcloud</category>
             <category>2024</category>
         </item>
     </channel>
