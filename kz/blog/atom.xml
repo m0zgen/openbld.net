@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2025-06-18T00:00:00.000Z</updated>
+    <updated>2025-06-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🔸OpenBLD.net - Speed is invisible. Until you feel it.]]></title>
+        <id>https://openbld.net/kz/blog/openbld-speed-invisible-until-you-feel-it-2025/</id>
+        <link href="https://openbld.net/kz/blog/openbld-speed-invisible-until-you-feel-it-2025/"/>
+        <updated>2025-06-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD - We usually notice speed only when it’s gone.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Speed is invisible. Until you feel it" src="https://openbld.net/kz/assets/images/openbld-latency-kills-speed-saves-7ac75e3c53898e743d8f6eb18bedc35f.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>We usually notice speed only when it’s gone.</p>
+<!-- -->
+<p>OpenBLD.net just got even faster:</p>
+<ul>
+<li>⚡ Instant DoH on iOS</li>
+<li>⚡ Faster page loads in browsers</li>
+<li>⚡ Less latency = more freedom</li>
+</ul>
+<p>👉 Just set it and forget it.
+While others wait for a response — you’re already one step ahead.</p>
+<ul>
+<li>⚡ <a href="https://openbld.net/kz/docs/category/get-started/">Connect to OpenBLD.net</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-speed-invisible-until-you-feel-it-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="cloudns" term="cloudns"/>
+        <category label="2025" term="2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🚀 OpenBLD.net and ClouDNS.net Continue Their Partnership in 2025!]]></title>
         <id>https://openbld.net/kz/blog/openbld-and-cloudns-2025/</id>
@@ -273,7 +306,7 @@ No downgrading, no losses, no “simplifications.”</p>
 <li>🔗 <a href="https://novacloud.kz/" target="_blank" rel="noopener noreferrer">https://novacloud.kz/</a></li>
 </ul>
 <p>Wishing you all the best ✌️</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-new-server-nova-cloud-almaty-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-new-server-nova-cloud-almaty-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікеле�й сілтеме">​</a></h3>
 <ul>
 <li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -604,30 +637,6 @@ however please pay attention to how everything will work - faster/slower, will t
         <category label="openbld" term="openbld"/>
         <category label="submodule" term="submodule"/>
         <category label="hagezi" term="hagezi"/>
-        <category label="2024" term="2024"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 OpenBLD.net - New PoP from Veesp.com in Netherlands]]></title>
-        <id>https://openbld.net/kz/blog/openbld-new-veesp-pop-in-netherlands-2024/</id>
-        <link href="https://openbld.net/kz/blog/openbld-new-veesp-pop-in-netherlands-2024/"/>
-        <updated>2024-11-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net -A New Point of Presence from Veesp.com in the Netherlands]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New PoP from Veesp.com in Netherlands" src="https://openbld.net/kz/assets/images/openbld-veesp-nl-2024-4cdbc201b984c05100ee0c00ed1c7211.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet-and-veespcom---a-new-pop-in-the-netherlands">OpenBLD.net and Veesp.com - A New PoP in the Netherlands<a href="https://openbld.net/kz/blog/openbld-new-veesp-pop-in-netherlands-2024/#openbldnet-and-veespcom---a-new-pop-in-the-netherlands" class="hash-link" aria-label="OpenBLD.net and Veesp.com - A New PoP in the Netherlands-ға тікелей сілтеме" title="OpenBLD.net and Veesp.com - A New PoP in the Netherlands-ға тікелей сілтеме">​</a></h3>
-<p>The open service OpenBLD.net has been collaborating with Veesp.com for two years now. As a one-stop hosting provider, Veesp.com provided a server in Latvia with 100% uptime  and fast response times 💪, and now there’s an additional server in the Netherlands!</p>
-<!-- -->
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="making-the-world-a-better-place">Making the World a Better Place<a href="https://openbld.net/kz/blog/openbld-new-veesp-pop-in-netherlands-2024/#making-the-world-a-better-place" class="hash-link" aria-label="Making the World a Better Place-ға тікелей сілтеме" title="Making the World a Better Place-ға тікелей сілтеме">​</a></h3>
-<p>I'm truly grateful for the people and companies that are willing to support open services like OpenBLD.net. By helping each other, we make this world a better place — I firmly believe 💯 that</p>
-<p>Thank you, Veesp.com, for delivering quality service across Europe!</p>
-<p>Wishing everyone peace and good fortune.</p>
-<p>Peace ✌️</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="cooperation" term="cooperation"/>
-        <category label="veesp" term="veesp"/>
         <category label="2024" term="2024"/>
     </entry>
 </feed>
