@@ -27,10 +27,10 @@ Just copy and paste this link to your browser settings:
 https://ada.openbld.net/dns-query
 ```
 
-## OpenBLD.net Extension for Yandex Browser
+## OpenBLD.net Extension for Vivaldi Browser
 
-As an additional option, you can use a browser extension for Yandex Browser:
+As an additional option, you can use a browser extension:
 
-* Setup [OpenBLD.net Blocker](/docs/get-started/setup-browsers/extensions/) extension for Yandex Browser.
+* Setup [OpenBLD.net Blocker](/docs/get-started/setup-browsers/extensions/) extension.
 
 
