@@ -15,3 +15,10 @@ Setup OpenBLD.net on Microsoft Edge
 ```shell
 https://ada.openbld.net/dns-query
 ```
+
+Example:
+
+![Setup OpenBLD.net - Microsoft Edge](./setup-openbld-dns-microsoft-edge-browser.webp)
+
+
+[//]: # (<img alt="Setup OpenBLD.net - Microsoft Edge" src={require&#40;"./setup-openbld-dns-microsoft-edge-browser.webp"&#41;.default} width="591"/>)
