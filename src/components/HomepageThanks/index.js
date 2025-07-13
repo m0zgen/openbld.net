@@ -9,7 +9,7 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "Stanislav (aka clevergod) Istyagin \ud83d\udcaa \u26a1 🚴⭐",
+            "name": "Stanislav (aka clevergod) Istyagin \ud83d\udcaa \u26a1 🚴⭐🔥",
             "url": "https://www.linkedin.com/in/stanislav-istyagin/",
             "style": ""
         },
@@ -102,7 +102,13 @@ const thanks = [
             "name": "Alex Spin ☀️",
             "url": "",
             "style": ""
-        }
+        },
+        {
+            "name": "Matvey ⚡💪 🚴",
+            "url": "",
+            "style": ""
+        },
+
     ];
 
 export default function HomepageThanks() {

@@ -41,6 +41,6 @@ Roman G. ☀️, TeaqariaWTF 🚴‍, Green Duck 🚴‍, Bessmertnyi_poni ⚡�
 ### Кім әрқашан байланыста
 Елизавета.К (design) ☀️, Ruzmat (contribute) ⚡, VadimML24 (contribute) ⚡, Greg (contribute, testing), Egor.Y (testing) 🚴, Stanislav (aka clevergod) Istyagin 💪 ⚡, 
 Not Saint (testing, hosting) 💪 🚴, Aslan-Im (contribute, testing) 🚴, Andrei (werlock) ☀️ 🚴, Seke t.me/asbisKZ ⚡ 🚜 ☀️ 🚴,
-Bessmertnyi_poni ⚡☀️ 🚴
+Bessmertnyi_poni ⚡☀️ 🚴, Matvey ⚡💪 🚴
 
 Аңыз: 2021> Аты |2022> Тестілеу: 💪 Үлес: ⚡ |2023> Кері байланыс: 🚜 Үлес: ☀️ |2024> Тестілеу. Кері байланыс. Көмек: 🚴.
