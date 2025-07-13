@@ -6,7 +6,7 @@ sidebar_position: 91
 
 Вы можете поддержать проект OpenBLD DNS посредством различных активностей:
 - [x] Пожертвование
-- [x] Предоставление обратной связи
+- [x] Фидбек
 - [x] Волонтерство
 
 ## Пожертвование
@@ -16,12 +16,12 @@ sidebar_position: 91
 * YooMoney - `41001928837376`
 * Mir - `2204 1201 0804 5747`
 
-## Providing Feedback
+## Фидбек
 
 - [Setup](/docs/category/get-started) ADA or RIC ([ADA and RIC Differences](/docs/overwiew/how-it-works#ada-vs-ric)) in your environment and enjoy it and provide feedback:
 - Если у вас возникнут какие-либо проблемы, ложные срабатывания - свяжитесь через [Контакты](/docs/contacts) с автором проекта.
 
-## Volunteering
+## Волонтерство
 
 - Напишите статьи или руководства о проекте OpenBLD.net DNS и опубликуйте их здесь, в своем блоге или на своем сайте.
 - Просматривайте содержимое, находите орфографические ошибки и т. д. в [документации](/docs/intro), [блоге](/blog) и сообщайте о них.
@@ -39,8 +39,6 @@ Simon.W (testing) 💪, Anatoly (testing) 💪⚡, Thatskriptkid (contribute), G
 ### 2024
 Alexandr Bespoyasko (contribute) ⚡, Клён 🌳 (ArtloopTeam) 🚜 ☀️, Alexander G ☀️, El (testing) 💪⚡, 
 Roman G. ☀️, TeaqariaWTF 🚴‍, Green Duck 🚴‍, Bessmertnyi_poni ⚡☀️ 🚴, LexterS999 🚴‍, Timur Shaikhin 🚴‍⚡
-
-
 
 ### Кто всегда на связи
 Елизавета.К (design) ☀️, Ruzmat (contribute) ⚡, VadimML24 (contribute) ⚡, Greg (contribute, testing), Egor.Y (testing) 🚴, Stanislav (aka clevergod) Istyagin 💪 ⚡, 
