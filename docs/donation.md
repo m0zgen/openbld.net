@@ -44,7 +44,7 @@ Roman G. ☀️, TeaqariaWTF 🚴‍, Green Duck 🚴‍, Bessmertnyi_poni ⚡�
 
 ### Always on touch
 Елизавета.К (design) ☀️, Ruzmat (contribute) ⚡, VadimML24 (contribute) ⚡, Greg (contribute, testing), Egor.Y (testing) 🚴, Stanislav (aka clevergod) Istyagin 💪 ⚡, 
-Not Saint (testing, hosting) 💪 🚴, Aslan-Im (contribute, testing) 🚴, Andrei (werlock) ☀️ 🚴, Seke t.me/asbisKZ ⚡ 🚜 ☀️ 🚴,
-Bessmertnyi_poni ⚡☀️ 🚴, Matvey ⚡💪 🚴
+Not Saint (testing, hosting) 💪 🚴, Aslan-Im (contribute, testing) 🚴, Andrei (werlock) ☀️ 🚴, Seke t.me/asbisKZ ⚡ 🚜 ☀️ 🚴, SysRoman ⚡☀️ 🚴
+Bessmertnyi_poni ⚡☀️ 🚴, Alibek Bekenov \u26a1 \uD83D\uDE9C ☀\uFE0F 🚴🔥, Matvey ⚡💪 🚴
 
 Legend: 2021> Contributor Name |2022> Testing: 💪 Contribute: ⚡ |2023> Feedback: 🚜 Contribute: ☀️ |2024> Test. Feedback. Help: 🚴.

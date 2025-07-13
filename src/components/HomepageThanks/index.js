@@ -49,11 +49,6 @@ const thanks = [
             "style": ""
         },
         {
-            "name": "SysRoman \u2600\ufe0f",
-            "url": "",
-            "style": ""
-        },
-        {
             "name": "Andrei (werlock) \u2600\ufe0f 🚴☀️",
             "url": "",
             "style": ""
@@ -100,6 +95,16 @@ const thanks = [
         },
         {
             "name": "Alex Spin ☀️",
+            "url": "",
+            "style": ""
+        },
+        {
+            "name": "SysRoman ⚡☀️ 🚴",
+            "url": "",
+            "style": ""
+        },
+        {
+            "name": "Alibek Bekenov \u26a1 \uD83D\uDE9C ☀\uFE0F 🚴🔥",
             "url": "",
             "style": ""
         },
