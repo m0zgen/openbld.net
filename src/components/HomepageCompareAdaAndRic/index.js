@@ -34,15 +34,14 @@ export default function HomepageCompareAdaAndRic() {
                               <p className="mb-16 font-bold dark:text-gray-900">
                                   <Translate
                                       id="homepage.CompareAdaAndRic.HeaderSubTitle">
-                                  Break free from the "filter bubble", be yourself.
+                                      Break out of the “filter bubble” — take back control.
                                   </Translate>
                                   </p>
                               <div className="flex flex-wrap -m-2">
                                   <p>
                                       <Translate
                                           id="homepage.CompareAdaAndRic.Description">
-                                      Take control tracking and telemetry with OpenBLD.net service. Enjoy a smoother
-                                      online experience, minus the intrusive data collection.
+                                          Control what reaches your device. With OpenBLD.net DNS, you reduce ad load, tracking scripts, and data profiling — for a cleaner, faster, more private experience.
                                       </Translate>
                                       </p>
                               </div>

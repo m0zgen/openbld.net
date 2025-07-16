@@ -42,7 +42,8 @@ export default function HomepageCompareAdaAndRic() {
                               <p className="mb-8 text-xl">
                                   <Translate
                                       id="homepage.FeatureList.URLhaus.Subtitle4">
-                                      OpenBLD.net blocks malicious domains along side other services, trying to be always useful.
+                                      Security shouldn't be a checkbox — it should be measurable.
+                                      OpenBLD.net is focused on real threat prevention, not just ad filtering.
                                   </Translate>
                               </p>
                           </div>

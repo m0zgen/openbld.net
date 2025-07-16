@@ -47,7 +47,7 @@ function HomepageHeader() {
             >
                 <Translate
                     id="homepage.Header.Button1">
-                OpenBLD.net Intro
+                    🧩 How it Works
                 </Translate>
             </Link>
 
@@ -58,7 +58,7 @@ function HomepageHeader() {
                 <span>
                 <Translate
                     id="homepage.Header.Button2">
-                    Setup - 5min ⏱️
+                    Setup - 5min
                 </Translate>
                 </span>
                 <svg className="w-4 h-4 ml-3 fill-current" viewBox="0 0 20 20">
@@ -78,7 +78,7 @@ function HomepageHeader() {
                     <Translate
                         id="homepage.Header.Brief">
                     OpenBLD.net is a service designed to minimize Internet noise such as advertising 🦠, tracking 🕵️‍♂️, DNS leaks ✅ with
-                    allowing you to be yourself and stay focused while surfing the Internet.
+                    allowing you to be yourself and stay focused while online.
                     </Translate>
                     <br/>
 
@@ -183,13 +183,13 @@ function FeaturesListHeading() {
                                     <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
                                         <Translate
                                             id="homepage.FeatureList.Title">
-                                            Get in a better way to work online.
+                                            A better way to browse and work online
                                         </Translate>
                                     </h2>
                                     <p className="mb-8 text-xl font-bold">
                                         <Translate
                                             id="homepage.FeatureList.Subtitle">
-                                            Without agents and without software installs.
+                                            Without agents and without software installs
                                         </Translate>
                                     </p>
 
@@ -205,7 +205,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item1">
-                                                For personal usage, home, small business
+                                                For personal use, home, and small business
                                             </Translate>
                                         </li>
                                         <li className="flex items-center">
@@ -218,7 +218,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item2">
-                                                Works on mobile devices, browsers, computers
+                                                Works on phones, browsers, and desktops
                                             </Translate>
                                         </li>
                                         <li className="flex items-center">
@@ -231,7 +231,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item3">
-                                                Reduce browsers memory, CPU usage, battery usage
+                                                Saves memory, CPU, and battery life
                                             </Translate>
                                         </li>
                                         <li className="flex items-center">
@@ -244,7 +244,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item4">
-                                                Reduce potentially Information Security Risks
+                                                Blocks ads, tracking scripts, and malicious domains
                                             </Translate>
                                         </li>
                                         <li className="flex items-center">
@@ -257,7 +257,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item5">
-                                                Unlimited access with 100k+ queries per day
+                                                Scales up to 100k+ DNS queries/day for free
                                             </Translate>
                                         </li>
                                         <li class="flex items-center">
@@ -340,10 +340,11 @@ function FeaturesListHeading() {
                                         </span>
                                         </div> : null}
                                     </span>
-                                    <p className="m-0 xl:hidden">
+
+                                    <p className="m-0 xl:hidden text-sm text-center text-white dark:text-gray-400">
                                         <Translate
                                             id="homepage.FeatureList.GetStartedFor">
-                                            Get Started for:
+                                            Paste this into Secure DNS settings:
                                         </Translate>
                                         <Link href="/docs/category/setup-browsers"
                                            className="mt-5 font-medium text-blue-600 dark:text-blue-500 hover:underline">
@@ -416,8 +417,8 @@ function FeaturesListHeading() {
                                             <p className="text-sm text-gray-700 font-bold">
                                                 <Translate
                                                     id="homepage.ThreeColums.Column1Body">
-                                                    ADA - Adaptive DNS: Fast and Flexible Internet surfing with Social
-                                                    Networks, Google, Microsoft, Yandex and etc.
+                                                    ADA - Fast and flexible adaptive filtering for everyday browsing with Social
+                                                    Networks, Google, Microsoft, Yandex, etc.
                                                 </Translate>
                                             </p>
                                         </div>

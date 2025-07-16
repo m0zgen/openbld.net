@@ -36,7 +36,7 @@ export default function HomepageThanks() {
                   <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
                       <Translate
                           id="homepage.LogosCloud.Title">
-                      + who helps to the growth 🚀
+                          Supported by people and companies who care 🚀
                       </Translate>
                   </h2>
                   <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">~~~</h2>

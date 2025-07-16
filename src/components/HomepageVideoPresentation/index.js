@@ -56,7 +56,7 @@ export default function HomepageCompareAdaAndRic() {
                                       <span>
                                           <Translate
                                               id="homepage.VideoPresentation.LinkToSetup">
-                                          Setup any for your favorite browser
+                                          Get started on your favorite browser
                                           </Translate>
                                       </span>
                                     </Link>
