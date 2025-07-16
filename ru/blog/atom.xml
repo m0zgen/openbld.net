@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2025-06-26T00:00:00.000Z</updated>
+    <updated>2025-07-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🔸OpenBLD.net - DoH Now Sharper And Faster Than Ever.]]></title>
+        <id>https://openbld.net/ru/blog/openbld-doh-made-faster-secure-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-doh-made-faster-secure-2025/"/>
+        <updated>2025-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD - Smarter memory management, TLS session handling. Buffer operation optimization = fewer pauses.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - DoH Made Faster Secure" src="https://openbld.net/ru/assets/images/openbld-doh-made-faster-secure-c9ee39f00609d356eb5021d03d0a4c28.webp" width="1250" height="680" class="img_ev3q"></p>
+<p><strong>New version released</strong>: Not just faster DNS — every unnecessary millisecond is gone.</p>
+<!-- -->
+<p>What’s new under the hood:</p>
+<ul>
+<li>Improved protection against Slowloris attacks</li>
+<li>Tuned timeouts and smarter TLS session handling</li>
+<li>Smarter memory management (zero alloc 💥)</li>
+<li>Buffer operation optimization = fewer pauses</li>
+<li>Reduced UDP fragmentation across the OpenBLD.net ecosystem</li>
+</ul>
+<p>All for one thing: faster, cleaner, more reliable DNS 🥷</p>
+<p>Maybe it’s not your internet that’s slow — maybe it’s your DNS?</p>
+<p>Try OpenBLD on Android, iOS, browsers, Linux, and Windows:</p>
+<ul>
+<li>⚡ <a href="https://openbld.net/ru/docs/category/get-started/">Connect to OpenBLD.net</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-doh-made-faster-secure-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2025" term="2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🔸OpenBLD.net - Speed is invisible. Until you feel it.]]></title>
         <id>https://openbld.net/ru/blog/openbld-speed-invisible-until-you-feel-it-2025/</id>
@@ -306,7 +341,7 @@ No downgrading, no losses, no “simplifications.”</p>
 <li>🔗 <a href="https://novacloud.kz/" target="_blank" rel="noopener noreferrer">https://novacloud.kz/</a></li>
 </ul>
 <p>Wishing you all the best ✌️</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-new-server-nova-cloud-almaty-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая с�сылка на Updates">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-new-server-nova-cloud-almaty-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates">​</a></h3>
 <ul>
 <li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -609,27 +644,6 @@ however please pay attention to how everything will work - faster/slower, will t
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback">Feedback<a href="https://openbld.net/ru/blog/openbld-throughput-boosting-2024/#feedback" class="hash-link" aria-label="Прямая ссылка на Feedback" title="Прямая ссылка на Feedback">​</a></h3>
 <p>If you notice any “engine misfires,” please let me know. I’m always open to constructive <a href="https://openbld.net/ru/docs/contacts/">feedback</a>.</p>
 <p>Wishing everyone a safe journey across the internet! ✌️</p>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="submodule" term="submodule"/>
-        <category label="hagezi" term="hagezi"/>
-        <category label="2024" term="2024"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[↘ OpenBLD.net Submodule - Hagezi DNS Blocklists]]></title>
-        <id>https://openbld.net/ru/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/</id>
-        <link href="https://openbld.net/ru/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/"/>
-        <updated>2024-11-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net - use Hagezi without any additional blocklists — simply use Hagezi in OpenBLD.net as a DoH link in RIC mode]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - New PoP from Veesp.com in Netherlands" src="https://openbld.net/ru/assets/images/openbld-hagezi-dns-blocklists-as-separated-service-868b06b11b582d47bb69c62ec98ec4a9.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hagezi-dns-blocklists-as-a-separated-service-in-openbldnet">Hagezi DNS Blocklists as a Separated Service in OpenBLD.net<a href="https://openbld.net/ru/blog/openbld-hagezi-dns-blocklists-as-separated-service-2024/#hagezi-dns-blocklists-as-a-separated-service-in-openbldnet" class="hash-link" aria-label="Прямая ссылка на Hagezi DNS Blocklists as a Separated Service in OpenBLD.net" title="Прямая ссылка на Hagezi DNS Blocklists as a Separated Service in OpenBLD.net">​</a></h3>
-<p>Hagezi ⚡ DNS Blocklists - Made with 💓 for a safer and cleaner internet.  Privacy is not a crime. Privacy matters. Privacy is what allows us to determine who we are and who we want to be.</p>
-<p>You can use Hagezi without any additional blocklists — simply use Hagezi in OpenBLD.net as a DoH link in RIC mode.</p>
-<!-- -->
-<p>For additional information see <a href="https://openbld.net/ru/docs/get-started/third-party-filters/hagezi/">Documentation</a> section.</p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>
