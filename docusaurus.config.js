@@ -90,10 +90,10 @@ const config = {
 
   customFields: {
     serviceName: 'OpenBLD.net - ',
-    serviceDescription: 'free DNS with Anycast, GeoDNS, DoH, DoT',
-    siteDescription: 'OpenBLD.net - Focus on information with adblocking and implicit cybersecurity threat prevention.',
+    serviceDescription: 'fast, free DNS that blocks ads, trackers, malware — with DoH, DoT, GeoDNS',
+    siteDescription: 'OpenBLD.net — ultra-fast DNS with ad blocking and proactive cybersecurity. Be yourself, be focused.',
     // Hero, Header title
-    titleHomeHeader: 'Block advertising, tracking, telemetry, malicious domains and more...',
+    titleHomeHeader: 'Fast, clean, secure DNS: Block ads, telemetry, cybersecurity threats',
   },
 
   // scripts: [

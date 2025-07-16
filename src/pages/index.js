@@ -578,7 +578,7 @@ export default function Home() {
             title={translate({
                 id: 'index.layout.title',
                 description: 'The title displayed in the website head.',
-                message: 'Hello from {title}{subtitle}'
+                message: '{title}{subtitle}'
             }, {title: siteConfig.customFields.serviceName, subtitle: siteConfig.customFields.serviceDescription})}
             // description="OpenBLD.net DNS - Focus on information with adblocking and implicit cybersecurity threat prevention."
             description={translate({
