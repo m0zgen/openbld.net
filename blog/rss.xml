@@ -4,10 +4,36 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Wed, 16 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🐍OpenBLD.net DNS — Now Detecting Parasitic Traffic]]></title>
+            <link>https://openbld.net/blog/openbld-detecting-noise-delivering-speed-2025/</link>
+            <guid>https://openbld.net/blog/openbld-detecting-noise-delivering-speed-2025/</guid>
+            <pubDate>Tue, 29 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD - Detecting parasitic traffic, reducing noise, and delivering speed.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Now Detecting Parasitic Traffic" src="https://openbld.net/assets/images/openbld-detecting-noise-delivering-speed-3e4e174c5ef12ab1535e5a5469f05516.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>Parasitic traffic: suspicious patterns often linked to DNS tunneling 😈</p>
+<!-- -->
+<p>A new step toward a cleaner, faster Internet:</p>
+<ul>
+<li>fewer unnecessary queries</li>
+<li>faster DNS responses</li>
+<li>an extra layer of preventive protection</li>
+<li>less noise for SOC teams and network engineers</li>
+</ul>
+<p>Cyber hygiene starts with DNS — and OpenBLD DNS makes it simple 💪</p>
+<p>Stay connected: ⚡ <a href="https://openbld.net/docs/category/get-started/">OpenBLD.net</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/blog/openbld-detecting-noise-delivering-speed-2025/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🔸OpenBLD.net - DoH Now Sharper And Faster Than Ever.]]></title>
             <link>https://openbld.net/blog/openbld-doh-made-faster-secure-2025/</link>
@@ -539,39 +565,6 @@ however please pay attention to how everything will work - faster/slower, will t
 </ul>]]></content:encoded>
             <category>openbld</category>
             <category>updates</category>
-            <category>2024</category>
-        </item>
-        <item>
-            <title><![CDATA[🏎 OpenBLD.net – Increased Throughput]]></title>
-            <link>https://openbld.net/blog/openbld-throughput-boosting-2024/</link>
-            <guid>https://openbld.net/blog/openbld-throughput-boosting-2024/</guid>
-            <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net - These are the new "gears" in the racing engine of OpenBLD.net. Some have been rewritten or built from scratch, and some have been optimized for better performance.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – Increased Throughput" src="https://openbld.net/assets/images/openbld-throughput-boosting-2024-3c1158f8a30d0a4dd2174d9ca78c010a.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--engine-for-a-faster-internet">OpenBLD.net – Engine for a Faster Internet<a href="https://openbld.net/blog/openbld-throughput-boosting-2024/#openbldnet--engine-for-a-faster-internet" class="hash-link" aria-label="Direct link to OpenBLD.net – Engine for a Faster Internet" title="Direct link to OpenBLD.net – Engine for a Faster Internet">​</a></h3>
-<p>These are the new "gears" in the racing engine of OpenBLD.net. Some have been rewritten or built from scratch.</p>
-<!-- -->
-<ul>
-<li>Synchronous processing of block lists</li>
-<li>Caching of blocking events</li>
-<li>Updated caching system — the log enricher now has its own cache</li>
-<li>Enhanced request processing system</li>
-<li>New health-checking system for upstream servers, with response time detection</li>
-<li>Improved load balancing, routing requests to servers with the lowest response time</li>
-<li>Optimized parallel DNS request handling, delivering the fastest response</li>
-</ul>
-<p>I hope these features will help us save valuable time online while the OpenBLD.net system's gears run smoothly under the hood.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-gears">What's Gears?<a href="https://openbld.net/blog/openbld-throughput-boosting-2024/#whats-gears" class="hash-link" aria-label="Direct link to What's Gears?" title="Direct link to What's Gears?">​</a></h3>
-<p>Gears are the components of the OpenBLD.net system that help to customize online experiences.</p>
-<ul>
-<li><a href="https://openbld.net/docs/overview/gears/gears-intro/">About of Gears</a></li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback">Feedback<a href="https://openbld.net/blog/openbld-throughput-boosting-2024/#feedback" class="hash-link" aria-label="Direct link to Feedback" title="Direct link to Feedback">​</a></h3>
-<p>If you notice any “engine misfires,” please let me know. I’m always open to constructive <a href="https://openbld.net/docs/contacts/">feedback</a>.</p>
-<p>Wishing everyone a safe journey across the internet! ✌️</p>]]></content:encoded>
-            <category>openbld</category>
-            <category>submodule</category>
-            <category>hagezi</category>
             <category>2024</category>
         </item>
     </channel>
