@@ -23,9 +23,9 @@ https://ada.openbld.net/dns-query
 ## Метод 2: Настройка OpenBLD.net в Vivaldi Браущере
 
 1. В адресной строке набрать `chrome://settings/security` (произойдет редирект к `vivaldi://settings/security`)
-2. Выбрать раздел **Приватность и безопасность**
-3. Включить **Использовать безопасный DNS**
-4. Выбрать "Другой провайдер DNS"
+2. Выбрать раздел **Конфиденциальность и безопасность**
+3. Включить **Использовать безопасный DNS-сервер**
+4. Выбрать "Добавить своего постащика услуг DNS"
 5. Указать адрес:
 
 ```shell
@@ -34,7 +34,7 @@ https://ada.openbld.net/dns-query
 
 ## Пример
 
-![Setup OpenBLD.net - Vivaldi Browser](./setup-openbld-dns-vivaldi-browser.png)
+![Setup OpenBLD.net - Vivaldi Browser](./setup-openbld-dns-vivaldi-browser-3.webp)
 
 ## OpenBLD.net Extension for Vivaldi Browser
 
