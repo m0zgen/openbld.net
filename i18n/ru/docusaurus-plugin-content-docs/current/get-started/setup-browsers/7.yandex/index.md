@@ -20,7 +20,7 @@ https://ada.openbld.net/dns-query
 ```
 
 ## Пример
-![Setup OpenBLD.net - Google Chrome](./setup-openbld-dns-yandex-browser.jpg)
+![Настройка OpenBLD.net в Yandex Браузере](./setup-openbld-dns-yandex-browser.webp)
 
 Просто скопируйте и вставьте эту ссылку в настройки вашего браузера:
 

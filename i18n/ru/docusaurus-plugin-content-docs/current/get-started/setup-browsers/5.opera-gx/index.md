@@ -18,5 +18,5 @@ https://ada.openbld.net/dns-query
 
 Example:
 
-![Setup OpenBLD.net - Opera GX](./setup-openbld-dns-opera-gx-browser.webp)
+![Настройка OpenBLD.net в Opera GX](./setup-openbld-dns-opera-gx-browser.webp)
 
