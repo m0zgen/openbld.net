@@ -15,3 +15,7 @@ sidebar_position: 5
 ```shell
 https://ada.openbld.net/dns-query
 ```
+
+## Пример:
+
+![Настройка OpenBLD.net - Microsoft Edge](./setup-openbld-dns-microsoft-edge-browser.webp)
