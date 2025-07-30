@@ -20,7 +20,7 @@ https://ada.openbld.net/dns-query
 ![Setup OpenBLD.net - Vivaldi Browser](./setup-openbld-dns-vivaldi-browser-2.webp)
 
 
-## Метод 2: Настройка OpenBLD.net в Vivaldi Браущере
+## Метод 2: Настройка OpenBLD.net в Vivaldi Браузере
 
 1. В адресной строке набрать `chrome://settings/security` (произойдет редирект к `vivaldi://settings/security`)
 2. Выбрать раздел **Конфиденциальность и безопасность**
