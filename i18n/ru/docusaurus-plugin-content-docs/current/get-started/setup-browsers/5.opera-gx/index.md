@@ -6,11 +6,9 @@ sidebar_position: 5
 
 Настройка OpenBLD.net в Opera GX:
 
-1. Settings > Browser
-2. Scroll down to the SYSTEM section
-3. Enable `Use DNS-over-HTTPS instead of the system DNS settings`
-4. Select custom DNS provider option:
-5. Add address:
+1. Настройки > Браузер
+2. Включить `Использовать DNS поверх HTTPS вместо системных настроек DNS`
+3. Указать адрес:
 
 ```shell
 https://ada.openbld.net/dns-query
