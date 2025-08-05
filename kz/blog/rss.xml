@@ -4,10 +4,32 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/kz/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 29 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>kz</language>
+        <item>
+            <title><![CDATA[🔸 OpenBLD.net DNS — Abuse-aware protection for DoH]]></title>
+            <link>https://openbld.net/kz/blog/openbld-abuse-aware-protection-for-doh-2025/</link>
+            <guid>https://openbld.net/kz/blog/openbld-abuse-aware-protection-for-doh-2025/</guid>
+            <pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD - Automatic detection and blocking of anomalies without affecting legitimate traffic.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Abuse-aware protection for DoH" src="https://openbld.net/kz/assets/images/openbld-abuse-aware-protection-for-doh-edbe3b1697e50e246d889ace07d567d6.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>🔄 Next week we’re enabling smart rate limiting on all OpenBLD DoH servers</p>
+<!-- -->
+<p>Automatic detection and blocking of anomalies without affecting legitimate traffic.</p>
+<p>This won’t affect current users in any way (unless you’re an abuser).
+But if something goes wrong, please let me know: @sysadminkz</p>
+<p>Thanks to everyone using OpenBLD.net! ✌️</p>
+<p>Stay connected: ⚡ <a href="https://openbld.net/kz/docs/category/get-started/">OpenBLD.net</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-abuse-aware-protection-for-doh-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🐍OpenBLD.net DNS — Now Detecting Parasitic Traffic]]></title>
             <link>https://openbld.net/kz/blog/openbld-detecting-noise-delivering-speed-2025/</link>
@@ -537,28 +559,6 @@ however please pay attention to how everything will work - faster/slower, will t
 </ul>
 <p>Enjoy fast, reliable, and secure internet — now in Canada! ✌️</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates">Feedback and Updates<a href="https://openbld.net/kz/blog/openbld-new-pop-location-in-canada-2024/#feedback-and-updates" class="hash-link" aria-label="Feedback and Updates-ға тікелей сілтеме" title="Feedback and Updates-ға тікелей сілтеме">​</a></h3>
-<ul>
-<li>You can always send me feedback about the service from the contact page <a href="https://openbld.net/kz/docs/contacts/">feedback</a>.</li>
-<li>For updates, follow the <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net in Telegram</a>.</li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>2024</category>
-        </item>
-        <item>
-            <title><![CDATA[🚀 OpenBLD.net in Silicon Valley]]></title>
-            <link>https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/</link>
-            <guid>https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/</guid>
-            <pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net – Engine for a Faster Internet now in Silicon Valley]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – in in Silicon Valley" src="https://openbld.net/kz/assets/images/openbld-in-silicon-valley-9187b7f3afc229c7cecaaff79fa2b032.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--new-pop-in-silicon-valley-">OpenBLD.net – new PoP in Silicon Valley 🇺🇸<a href="https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/#openbldnet--new-pop-in-silicon-valley-" class="hash-link" aria-label="OpenBLD.net – new PoP in Silicon Valley 🇺🇸-ға тікелей сілтеме" title="OpenBLD.net – new PoP in Silicon Valley 🇺🇸-ға тікелей сілтеме">​</a></h3>
-<p>This is the new and first standalone OpenBLD server in the US, right in Silicon Valley 👽</p>
-<!-- -->
-<p>10 GBPS allows to use the full bandwidth potential of the OpenBLD service 🚀</p>
-<p>Thanks to everyone who supports and uses OpenBLD.net, let's move on!</p>
-<p>Next step - North America... 🌎</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates">Feedback and Updates<a href="https://openbld.net/kz/blog/openbld-in-silicon-valley-2024/#feedback-and-updates" class="hash-link" aria-label="Feedback and Updates-ға тікелей сілтеме" title="Feedback and Updates-ға тікелей сілтеме">​</a></h3>
 <ul>
 <li>You can always send me feedback about the service from the contact page <a href="https://openbld.net/kz/docs/contacts/">feedback</a>.</li>
 <li>For updates, follow the <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net in Telegram</a>.</li>
