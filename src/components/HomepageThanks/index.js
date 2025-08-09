@@ -113,6 +113,12 @@ const thanks = [
             "url": "",
             "style": ""
         },
+        {
+          "name": "Binali Rustamov 🔥",
+            "url": "",
+            "style": ""
+
+        },
 
     ];
 
