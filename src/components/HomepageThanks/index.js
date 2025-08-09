@@ -115,7 +115,7 @@ const thanks = [
         },
         {
           "name": "Binali Rustamov 🔥",
-            "url": "",
+            "url": "https://uz.linkedin.com/in/binalirustamov",
             "style": ""
 
         },
