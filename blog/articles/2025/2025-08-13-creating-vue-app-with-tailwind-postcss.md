@@ -97,9 +97,26 @@ module.exports = {
 }
 ```
 
-## Run the app
+### Attach tailwind to your app
 
-Run the app with the following command:
+Create a `src/assets/css/tailwind.css` file:
+
+```shell
+touch src/assets/tailwind.css
+```
+And add the following content:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+Then import this file in your main entry file, usually `src/main.js` or `src/main.ts`: 
+
+```javascript
+import './assets/tailwind.css'
+```
 
 ```shell
 npm run dev
