@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2025-08-13T00:00:00.000Z</updated>
+    <updated>2025-08-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🛡 OpenBLD.net — Boosting DNS Security & Performance]]></title>
+        <id>https://openbld.net/blog/openbld-boosting-rl-security-performance-2025/</id>
+        <link href="https://openbld.net/blog/openbld-boosting-rl-security-performance-2025/"/>
+        <updated>2025-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD - The latest release brings major improvements to traffic filtering mechanisms]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🛡 OpenBLD.net — Boosting DNS Security &amp;amp; Performance" src="https://openbld.net/assets/images/openbld-boosting-rl-security-performance-4bf19f9a25b69650969da88b4e144a53.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>🔄 The latest release brings major improvements to traffic filtering mechanisms:</p>
+<p>RateLimiter has been rewritten to be asynchronous, adaptive, and lock-free — eliminating bottlenecks and stalls under high pressure.</p>
+<!-- -->
+<ul>
+<li>Geographic scale-up and user base growth accounted for</li>
+<li>Enhanced sanitization of malicious traffic</li>
+<li>Improved handling of parasitic IPs (e.g., abused, noisy, or tunneling endpoints)</li>
+<li>⚡ Increased performance under high concurrency</li>
+</ul>
+<p>Noticeable performance gains across European servers — especially under thousands of DNS queries per second.</p>
+<p>🎯 Main goal isn’t just to block, but to filter effectively and on time, saving precious milliseconds.</p>
+<p>🔄 The update will be done quickly, within a few days, this should not affect anyone, but if suddenly - Welcome)</p>
+<p>Thanks to everyone who watches their cyber hygiene with OpenBLD.net.</p>
+<p>Peace ✌️</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/blog/openbld-boosting-rl-security-performance-2025/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2025" term="2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[↘  Few steps to create Vue app with Tailwind CSS and PostCSS]]></title>
         <id>https://openbld.net/blog/creating-vue-app-with-tailwind-postcss/</id>
@@ -626,45 +659,5 @@ No downgrading, no losses, no “simplifications.”</p>
         <category label="openbld" term="openbld"/>
         <category label="updates" term="updates"/>
         <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 ADA OpenBLD.net Ecosystem Updates]]></title>
-        <id>https://openbld.net/blog/openbld-major-doh-dot-updates-2024/</id>
-        <link href="https://openbld.net/blog/openbld-major-doh-dot-updates-2024/"/>
-        <updated>2024-12-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net – The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🏎 OpenBLD.net – Major ADA System Updates 2024" src="https://openbld.net/assets/images/openbld-major-doh-dot-updates-2024-0e0e4781243524808d659adce1433454.png" width="1250" height="680" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--major-ada-system-updates-2024">OpenBLD.net — Major ADA System Updates 2024<a href="https://openbld.net/blog/openbld-major-doh-dot-updates-2024/#openbldnet--major-ada-system-updates-2024" class="hash-link" aria-label="Direct link to OpenBLD.net — Major ADA System Updates 2024" title="Direct link to OpenBLD.net — Major ADA System Updates 2024">​</a></h3>
-<p>The part concerning the algorithms of front-end balancing of requests has been updated. This concerns all protocols - DoT, DoH, DNS in ADA mode only</p>
-<ul>
-<li>The mechanism for blocking abusers of the service has been updated</li>
-<li>The modes of balancing and parallelization of requests have been updated</li>
-<li>The parameters of TLS and its encryption would be updated<!-- -->
-<!-- -->
-</li>
-</ul>
-<p>All changes have been checked and tested in browsers (chrome, brave), smartphones (Apple, Android) and it works!</p>
-<p>The changes will be implemented gradually in:</p>
-<ol>
-<li>Asia</li>
-<li>Europe</li>
-<li>USA</li>
-</ol>
-<p>The migration will be so fast that no body will notice the time it takes to migrate,
-however please pay attention to how everything will work - faster/slower, will there be errors in the service, etc.</p>
-<p>I am always in touch if possible, if anything, write to me through the contacts in this chat or through the site contacts
-(see feedback section below).</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/blog/openbld-major-doh-dot-updates-2024/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Direct link to Feedback and Updates ✌️" title="Direct link to Feedback and Updates ✌️">​</a></h3>
-<ul>
-<li>You can always send me feedback about the service from the contact page <a href="https://openbld.net/docs/contacts/">feedback</a>.</li>
-<li>For updates, follow the <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net in Telegram</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2024" term="2024"/>
     </entry>
 </feed>
