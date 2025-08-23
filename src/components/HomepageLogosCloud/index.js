@@ -23,6 +23,7 @@ const logos = [
         { name: "NOVA Cloud", url: "https://novacloud.kz/", src: 'img/logos/nova_cloud_kazakhstan_logo.png', style: "logo-bg-white"},
         { name: "Onehost.kz", url: "https://onehost.kz/", src: 'img/logos/onehost_logo.png', style: "logo-bg-white"},
         { name: "EDK Group", url: "https://www.edk-it.com/", src: 'img/logos/edk-it-logo.png', style: "logo-bg-white"},
+        { name: "IP Geolocation by DB-IP", url: "https://db-ip.com/", src: 'img/logos/db-ip-logo.png', style: "logo-bg-white"},
         // { name: "REGXA.com", url: "https://regxa.com/", src: 'img/logos/regxa.com-logo.png', style: "logo-bg-white"},
         { name: "Help to growth to OpenBLD.net", url: "#", src: 'img/logos/splash-logo.jpg', style: ""},
     ];
