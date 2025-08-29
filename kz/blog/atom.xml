@@ -2,11 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2025-08-21T00:00:00.000Z</updated>
+    <updated>2025-08-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD - Release Wllr in Production!]]></title>
+        <id>https://openbld.net/kz/blog/openbld-stable-boosting-release-wllr-2025/</id>
+        <link href="https://openbld.net/kz/blog/openbld-stable-boosting-release-wllr-2025/"/>
+        <updated>2025-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD - The new release, codenamed Wllr, makes the DNS filter even faster and more reliable.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🛡 🚀 OpenBLD - Release Wllr in Production!" src="https://openbld.net/kz/assets/images/openbld-stable-boosting-release-wllr-0489e5d5660bc1c3f26cbe8099b02e33.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>🔄 The new release, codenamed Wllr, makes the DNS filter even faster and more reliable.</p>
+<!-- -->
+<ul>
+<li>New strict hostname validator (RFC 1035/1123): non-standard and suspicious names are blocked immediately.</li>
+<li>Optimized signature loading: updates are now faster and more stable.</li>
+<li>Fast troubleshooting logging in hot paths: higher QPS without extra overhead.</li>
+<li>Performance has caught up with Gram — which was the fastest release of the year thanks to fewer security checks.</li>
+</ul>
+<p>⚡ The combination of speed and security is what we put into every release.</p>
+<p>Keep evolving with OpenBLD.net 🚀</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-stable-boosting-release-wllr-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2025" term="2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🛡 OpenBLD.net — Boosting DNS Security & Performance]]></title>
         <id>https://openbld.net/kz/blog/openbld-boosting-rl-security-performance-2025/</id>
@@ -520,7 +549,7 @@ No downgrading, no losses, no “simplifications.”</p>
 </ul>
 <p>📢 This week, the updated balancers will be seamlessly integrated into ADA’s infrastructure—the only thing you might notice is the increased speed.</p>
 <p>✌️ Stay fast, stay optimized!</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-ml-balancing-coming/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сіл�теме">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-ml-balancing-coming/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме">​</a></h3>
 <ul>
 <li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -612,45 +641,6 @@ No downgrading, no losses, no “simplifications.”</p>
 <ul>
 <li>Feedback <a href="https://openbld.net/kz/docs/contacts/">here</a>.</li>
 <li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🔼 Enhanced Apple Profile for ADA]]></title>
-        <id>https://openbld.net/kz/blog/enhanced-apple-profile-for-ada-2025/</id>
-        <link href="https://openbld.net/kz/blog/enhanced-apple-profile-for-ada-2025/"/>
-        <updated>2025-01-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net – New Apple profile for ADA mode has been updated. The profile has been updated to work with the latest Apple devices and operating systems.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 Enhanced Apple Profile for ADA 2025" src="https://openbld.net/kz/assets/images/enhanced-apple-profile-for-ada-2025-6d3d812af506e5bee9b262defe62d53b.jpg" width="1280" height="978" class="img_ev3q"></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openbldnet--enhanced-apple-profile-for-ada">OpenBLD.net — Enhanced Apple Profile for ADA<a href="https://openbld.net/kz/blog/enhanced-apple-profile-for-ada-2025/#openbldnet--enhanced-apple-profile-for-ada" class="hash-link" aria-label="OpenBLD.net — Enhanced Apple Profile for ADA-ға тікелей сілтеме" title="OpenBLD.net — Enhanced Apple Profile for ADA-ға тікелей сілтеме">​</a></h3>
-<p>If you haven’t updated your profile in the last 6–12 months, do it now.</p>
-<!-- -->
-<p>Why you should update:</p>
-<ul>
-<li>
-<p>Route optimization</p>
-</li>
-<li>
-<p>Internet issues in Kazakhstan since late 2024, causing problems with Kaspi and Alfa (store orders)</p>
-</li>
-<li>
-<p>Updated IP address infrastructure</p>
-</li>
-<li>
-<p>How to update: <a href="https://openbld.net/kz/docs/get-started/setup-mobile-devices/apple/">Get Started</a></p>
-</li>
-</ul>
-<p>P.S. Thanks to everyone reporting troubleshooting signals ✊</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/enhanced-apple-profile-for-ada-2025/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікелей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
-<ul>
-<li>You can always leave your feedback <a href="https://openbld.net/kz/docs/contacts/">here</a>.</li>
-<li>Information about service updates is available in the official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
