@@ -4,10 +4,37 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/kz/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Fri, 29 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>kz</language>
+        <item>
+            <title><![CDATA[🛡 OpenBLD.net — Invisible DNS Protection for Everyday Security]]></title>
+            <link>https://openbld.net/kz/blog/openbld-update-security-mechanisms-2025/</link>
+            <guid>https://openbld.net/kz/blog/openbld-update-security-mechanisms-2025/</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD — DNS filtering continues to be strengthened, evolving into a reliable security layer rather than just a resolver.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🛡 OpenBLD.net — Invisible DNS Protection for Everyday Security" src="https://openbld.net/kz/assets/images/openbld-update-security-mechanisms-871318117f88519d5ee8ae1ebc7afad1.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>OpenBLD — DNS filtering continues to be strengthened, evolving into a reliable security layer rather than just a resolver.</p>
+<!-- -->
+<p>Over the past weeks several core mechanisms have been enhanced:</p>
+<ul>
+<li>Validator ASCII — strict domain validation based on RFC standards</li>
+<li>Abuse Module — fast blocking of suspicious sources</li>
+<li>RateIP — added sharding to protect against overload and DoS</li>
+<li>Unicode Detector — preparing basic protection against IDN homograph attacks and phishing</li>
+</ul>
+<p>DNS is not only about speed — it’s a Security Assistant, quietly protecting users every day.</p>
+<p>🚀 OpenBLD.net — the evolution of DNS security continues. Get started <a href="https://openbld.net/kz/docs/category/get-started/">here</a>.</p>
+<p>ℹ️ The update will be rolled out across all ADA instances within the upcoming weeks.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-update-security-mechanisms-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🚀 OpenBLD - Release Wllr in Production!]]></title>
             <link>https://openbld.net/kz/blog/openbld-stable-boosting-release-wllr-2025/</link>
@@ -540,29 +567,6 @@ No downgrading, no losses, no “simplifications.”</p>
 <p>New mechanisms unlock new possibilities—helping you maintain cyber hygiene, save time, and protect your privacy.</p>
 <p>•  Easy setup OpenBLD.net - <a href="https://openbld.net/kz/docs/category/get-started/">Get Started</a></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/openbld-new-release-dns-v8/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікелей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
-<ul>
-<li>Feedback <a href="https://openbld.net/kz/docs/contacts/">here</a>.</li>
-<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>2025</category>
-        </item>
-        <item>
-            <title><![CDATA[🇵🇱 OpenBLD.net - Now in Poland (Warsaw)]]></title>
-            <link>https://openbld.net/kz/blog/eopenbld-in-poland-2025/</link>
-            <guid>https://openbld.net/kz/blog/eopenbld-in-poland-2025/</guid>
-            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net – Now in Poland (Warsaw) - Continuing the great tradition of collaboration with cloud and hosting providers, the cloud provider 3hcloud.kz has provided a server in Poland.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 OpenBLD.net in Poland - Warshaw" src="https://openbld.net/kz/assets/images/openbld-in-poland-2025-29b1b5071510df6115b06811edc26082.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p>🇵🇱 OpenBLD.net - Now in Poland (Warsaw)</p>
-<p>Continuing the great tradition of collaboration with cloud and hosting providers, the cloud provider 3hcloud.kz has provided a server in Poland.</p>
-<!-- -->
-<p>Now, countries closest to Poland and Poland itself will be served by the new server, offering the shortest route and response time for that region.</p>
-<p>It is important to remember – only together, and each individually, can we secure ourselves and our loved ones.</p>
-<p>How to set up OpenBLD.net - <a href="https://openbld.net/kz/docs/category/get-started/">Get Started</a></p>
-<p>Take care. Peace! ✌️</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/kz/blog/eopenbld-in-poland-2025/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Feedback and Updates ✌️-ға тікелей сілтеме" title="Feedback and Updates ✌️-ға тікелей сілтеме">​</a></h3>
 <ul>
 <li>Feedback <a href="https://openbld.net/kz/docs/contacts/">here</a>.</li>
 <li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>

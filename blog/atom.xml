@@ -2,11 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2025-08-29T00:00:00.000Z</updated>
+    <updated>2025-09-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🛡 OpenBLD.net — Invisible DNS Protection for Everyday Security]]></title>
+        <id>https://openbld.net/blog/openbld-update-security-mechanisms-2025/</id>
+        <link href="https://openbld.net/blog/openbld-update-security-mechanisms-2025/"/>
+        <updated>2025-09-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD — DNS filtering continues to be strengthened, evolving into a reliable security layer rather than just a resolver.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🛡 OpenBLD.net — Invisible DNS Protection for Everyday Security" src="https://openbld.net/assets/images/openbld-update-security-mechanisms-871318117f88519d5ee8ae1ebc7afad1.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>OpenBLD — DNS filtering continues to be strengthened, evolving into a reliable security layer rather than just a resolver.</p>
+<!-- -->
+<p>Over the past weeks several core mechanisms have been enhanced:</p>
+<ul>
+<li>Validator ASCII — strict domain validation based on RFC standards</li>
+<li>Abuse Module — fast blocking of suspicious sources</li>
+<li>RateIP — added sharding to protect against overload and DoS</li>
+<li>Unicode Detector — preparing basic protection against IDN homograph attacks and phishing</li>
+</ul>
+<p>DNS is not only about speed — it’s a Security Assistant, quietly protecting users every day.</p>
+<p>🚀 OpenBLD.net — the evolution of DNS security continues. Get started <a href="https://openbld.net/docs/category/get-started/">here</a>.</p>
+<p>ℹ️ The update will be rolled out across all ADA instances within the upcoming weeks.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/blog/openbld-update-security-mechanisms-2025/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2025" term="2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🚀 OpenBLD - Release Wllr in Production!]]></title>
         <id>https://openbld.net/blog/openbld-stable-boosting-release-wllr-2025/</id>
@@ -611,33 +642,6 @@ No downgrading, no losses, no “simplifications.”</p>
 <p>New mechanisms unlock new possibilities—helping you maintain cyber hygiene, save time, and protect your privacy.</p>
 <p>•  Easy setup OpenBLD.net - <a href="https://openbld.net/docs/category/get-started/">Get Started</a></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/blog/openbld-new-release-dns-v8/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Direct link to Feedback and Updates ✌️" title="Direct link to Feedback and Updates ✌️">​</a></h3>
-<ul>
-<li>Feedback <a href="https://openbld.net/docs/contacts/">here</a>.</li>
-<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🇵🇱 OpenBLD.net - Now in Poland (Warsaw)]]></title>
-        <id>https://openbld.net/blog/eopenbld-in-poland-2025/</id>
-        <link href="https://openbld.net/blog/eopenbld-in-poland-2025/"/>
-        <updated>2025-01-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net – Now in Poland (Warsaw) - Continuing the great tradition of collaboration with cloud and hosting providers, the cloud provider 3hcloud.kz has provided a server in Poland.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 OpenBLD.net in Poland - Warshaw" src="https://openbld.net/assets/images/openbld-in-poland-2025-29b1b5071510df6115b06811edc26082.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p>🇵🇱 OpenBLD.net - Now in Poland (Warsaw)</p>
-<p>Continuing the great tradition of collaboration with cloud and hosting providers, the cloud provider 3hcloud.kz has provided a server in Poland.</p>
-<!-- -->
-<p>Now, countries closest to Poland and Poland itself will be served by the new server, offering the shortest route and response time for that region.</p>
-<p>It is important to remember – only together, and each individually, can we secure ourselves and our loved ones.</p>
-<p>How to set up OpenBLD.net - <a href="https://openbld.net/docs/category/get-started/">Get Started</a></p>
-<p>Take care. Peace! ✌️</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/blog/eopenbld-in-poland-2025/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Direct link to Feedback and Updates ✌️" title="Direct link to Feedback and Updates ✌️">​</a></h3>
 <ul>
 <li>Feedback <a href="https://openbld.net/docs/contacts/">here</a>.</li>
 <li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
