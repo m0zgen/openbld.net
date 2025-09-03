@@ -14,7 +14,7 @@ Over the past weeks several core mechanisms have been enhanced:
 
 - Validator ASCII — strict domain validation based on RFC standards
 - Abuse Module — fast blocking of suspicious sources
-- RateIP — added sharding to protect against overload and DoS
+- Rated Module — added sharding to protect against overload and DoS
 - Unicode Detector — preparing basic protection against IDN homograph attacks and phishing
 
 DNS is not only about speed — it’s a Security Assistant, quietly protecting users every day.
