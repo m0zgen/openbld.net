@@ -21,7 +21,7 @@
 <ul>
 <li>Validator ASCII — strict domain validation based on RFC standards</li>
 <li>Abuse Module — fast blocking of suspicious sources</li>
-<li>RateIP — added sharding to protect against overload and DoS</li>
+<li>Rated Module — added sharding to protect against overload and DoS</li>
 <li>Unicode Detector — preparing basic protection against IDN homograph attacks and phishing</li>
 </ul>
 <p>DNS is not only about speed — it’s a Security Assistant, quietly protecting users every day.</p>
