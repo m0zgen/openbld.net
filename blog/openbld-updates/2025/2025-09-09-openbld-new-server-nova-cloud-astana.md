@@ -30,7 +30,7 @@ This is a significant step for Kazakhstan’s digital ecosystem and the developm
 
 📌 Connect now [here](/docs/category/get-started/).
 
-Want to launch an OpenBLD node in your city or region? Let’s talk — I’ll show you how! ✌️
+Want to launch an OpenBLD node in your city or region? Let’s [talk](/docs/contacts/) — I’ll show you how! ✌️
 
 ### Updates
 
