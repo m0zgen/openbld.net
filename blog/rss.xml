@@ -4,10 +4,42 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 02 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🚀 OpenBLD.net Now Live in Astana!]]></title>
+            <link>https://openbld.net/blog/openbld-new-server-nova-cloud-astana-2025/</link>
+            <guid>https://openbld.net/blog/openbld-new-server-nova-cloud-astana-2025/</guid>
+            <pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD — The first DNS server in Kazakhstan’s capital has been launched in Astana]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🛡 OpenBLD.net Now Live in Astana!" src="https://openbld.net/assets/images/openbld-new-server-nova-cloud-astana-e1abe9224d52c36f5400f913c26a6576.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>The first DNS server in 🇰🇿 Kazakhstan’s capital has been launched with the support of <a href="https://novacloud.kz/" target="_blank" rel="noopener noreferrer">NOVA Cloud</a>.</p>
+<!-- -->
+<p>OpenBLD is now even closer to its users — both digitally and physically.</p>
+<p>Fast response, reliable filtering, phishing and tracker protection — now right next door.</p>
+<p>🔧 What’s new with the Astana node launch:</p>
+<ul>
+<li>Even faster response times in the capital and northern regions</li>
+<li>Available over secure protocols: DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT)</li>
+<li>Reduced latency and smarter traffic distribution</li>
+<li>DNS filtering is now even more stable under high load</li>
+<li>✅ Geo-distributed traffic between major cities: Astana, Almaty, Shymkent</li>
+</ul>
+<p>Huge thanks to NOVA Cloud Kazakhstan for their trust and technical support!</p>
+<p>This is a significant step for Kazakhstan’s digital ecosystem and the development of a safe internet — when the infrastructure is deployed here, in Kazakhstan 🇰🇿</p>
+<p>💡 An internet without noise, tracking, or cyber threats — it’s not magic, it’s OpenBLD.net</p>
+<p>📌 Connect now <a href="https://openbld.net/docs/category/get-started/">here</a>.</p>
+<p>Want to launch an OpenBLD node in your city or region? Let’s talk — I’ll show you how! ✌️</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="updates">Updates<a href="https://openbld.net/blog/openbld-new-server-nova-cloud-astana-2025/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates">​</a></h3>
+<ul>
+<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🛡 OpenBLD.net — Invisible DNS Protection for Everyday Security]]></title>
             <link>https://openbld.net/blog/openbld-update-security-mechanisms-2025/</link>
@@ -541,37 +573,6 @@ No downgrading, no losses, no “simplifications.”</p>
 </ul>]]></content:encoded>
             <category>openbld</category>
             <category>alphavps</category>
-            <category>updates</category>
-            <category>2025</category>
-        </item>
-        <item>
-            <title><![CDATA[🟩 OpenBLD.net v8 is here – Cache Warming, UNIX Sockets, and More! 🚀]]></title>
-            <link>https://openbld.net/blog/openbld-new-release-dns-v8/</link>
-            <guid>https://openbld.net/blog/openbld-new-release-dns-v8/</guid>
-            <pubDate>Tue, 21 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net – Now in Poland (Warsaw) - Continuing the great tradition of collaboration with cloud and hosting providers, the cloud provider 3hcloud.kz has provided a server in Poland.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 openbld-new-release-dns-v8" src="https://openbld.net/assets/images/openbld-new-release-dns-v8-ac4461d7935489c5956649b336b7c52a.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p>🟩 OpenBLD.net v8 is here – Cache Warming, UNIX Sockets, and More! 🚀</p>
-<p>Excited to introduce the next milestone in the evolution of the open DNS service OpenBLD.net!</p>
-<!-- -->
-<p>Here’s what’s new:</p>
-<ul>
-<li><strong>Speed</strong> – UNIX sockets + Caching + Load Balancing</li>
-<li><strong>Efficiency</strong> – Port reuse allows multiple instances to run on the same port</li>
-<li><strong>Load Balancing</strong> – Zero logs (except for errors) for maximum performance</li>
-<li><strong>Memory Optimization</strong> – The core binaries take up just 6MB, with the cache stored in binary form, totaling only 11MB</li>
-<li><strong>Buffered Disk Writes</strong> – When necessary, writes go through dedicated buffers (tested at 10 million entries in 3.3 seconds)</li>
-<li>🔥 <strong>Cache Warming</strong> – Thousands of domains are preloaded to keep the cache hot, ensuring ultra-fast DNS responses</li>
-<li>🔐 <strong>Security</strong> – Supports Prometheus, SIEM, and Syslog exports for advanced monitoring (for business usage needs)</li>
-</ul>
-<p>New mechanisms unlock new possibilities—helping you maintain cyber hygiene, save time, and protect your privacy.</p>
-<p>•  Easy setup OpenBLD.net - <a href="https://openbld.net/docs/category/get-started/">Get Started</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback-and-updates-️">Feedback and Updates ✌️<a href="https://openbld.net/blog/openbld-new-release-dns-v8/#feedback-and-updates-%EF%B8%8F" class="hash-link" aria-label="Direct link to Feedback and Updates ✌️" title="Direct link to Feedback and Updates ✌️">​</a></h3>
-<ul>
-<li>Feedback <a href="https://openbld.net/docs/contacts/">here</a>.</li>
-<li>Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
             <category>updates</category>
             <category>2025</category>
         </item>
