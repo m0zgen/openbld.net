@@ -119,6 +119,12 @@ const thanks = [
             "style": ""
 
         },
+        {
+            "name": "Amir Y. ⭐",
+            "url": "",
+            "style": ""
+
+        },
 
     ];
 
