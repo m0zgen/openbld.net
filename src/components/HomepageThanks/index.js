@@ -125,6 +125,12 @@ const thanks = [
             "style": ""
 
         },
+        {
+            "name": "Arman Saparov ⭐",
+            "url": "",
+            "style": ""
+
+        },
 
     ];
 
