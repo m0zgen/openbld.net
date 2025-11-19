@@ -18,14 +18,14 @@ You can support the OpenBLD DNS Project through various activities:
 
 ## Providing Feedback
 
-- [Setup](/docs/category/get-started) ADA or RIC ([ADA and RIC Differences](/docs/overwiew/how-it-works#ada-vs-ric)) in your environment and enjoy it and provide feedback:
+[Setup](/docs/category/get-started) ADA in your environment and provide feedback:
 - If you catch some issues, please contact me though [Contact](/docs/contacts.md) page.
 - If you have some false positive triggering, please contact me though [Contact](/docs/contacts.md) page
 - If you catch downtime, please contact me though [Contact](/docs/contacts.md) page
 
 ## Volunteering
 
-- Write articles or manuals about the OpenBLD.net DNS Project and publish them on this, your blog, or your site.
+- Write articles or manuals about the OpenBLD.net DNS Project and publish them on your blog, or your site.
 - Review content, find misspells, etc. in the [documentation](/docs/intro), [blog](/blog) and report them.
 - Translate content on this site into your language.
 - Assist with technical issues.
