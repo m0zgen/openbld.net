@@ -2,11 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2025-09-30T00:00:00.000Z</updated>
+    <updated>2025-12-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net is entering a new era of performance]]></title>
+        <id>https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025/"/>
+        <updated>2025-12-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net is launching a new release, codenamed RTL, focused on speed and reliability.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net is entering a new era of performance" src="https://openbld.net/ru/assets/images/openbld.net-new-rtl-release-coming-c5c6cdc4c32396135dcdbb7230745da0.webp" width="1280" height="640" class="img_ev3q"></p>
+<p>Over the past months, I’ve been working on a major upgrade of the zBLD core.</p>
+<p>The focus is clear — acceleration, resilience, and predictable performance under load.</p>
+<!-- -->
+<p>Key improvements:</p>
+<ul>
+<li class="">Multi-level Rate Limiter (RTL) to absorb traffic spikes</li>
+<li class="">Thread separation &amp; sharding — reducing pressure on the main processing path</li>
+<li class="">~30% of operations moved to async execution</li>
+<li class="">Stricter RFC-based DoH traffic validation — less “garbage,” lower latency</li>
+<li class="">Error sampling for unstable clients — reduced disk I/O load</li>
+<li class="">Reworked domain-filtering engine</li>
+<li class="">Improved detection of suspicious / DGA domains</li>
+<li class="">Optimized Linux networking stack and I/O behavior</li>
+</ul>
+<p>Result: overall throughput increased by roughly 2×, and priority domains now resolve even faster thanks to smarter deferred analysis.</p>
+<p>The update rollout is planned for mid–late December.</p>
+<p>Only forward! 💪 Be yourself, be focused!</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2025" term="2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🇫🇷 OpenBLD.net New PoP in Paris, France!]]></title>
         <id>https://openbld.net/ru/blog/openbld-new-server-france-paris-2025/</id>
@@ -605,45 +641,6 @@ No downgrading, no losses, no “simplifications.”</p>
 </ul>
 <p>Wishing you all the best ✌️</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-new-server-nova-cloud-almaty-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🧠 OpenBLD.net - ML Predictive Balancing Coming in 2025!]]></title>
-        <id>https://openbld.net/ru/blog/openbld-ml-balancing-coming/</id>
-        <link href="https://openbld.net/ru/blog/openbld-ml-balancing-coming/"/>
-        <updated>2025-02-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🧠 OpenBLD.net - ML Predictive Balancing Coming in 2025]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 OpenBLD.net - ML Predictive Balancing Coming in 2025" src="https://openbld.net/ru/assets/images/openbld-ml-balance-0bbae45f5ef853ea40474ad75ad089ae.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p>🧠 <strong>OpenBLD.net</strong> is excited to announce that <strong>Machine Learning (ML) Predictive Balancing</strong> is coming in 2025! This new feature will allow to <strong>predictively balance</strong> across <strong>multiple servers</strong>.</p>
-<p>This is undoubtedly an innovation. OpenBLD.net smart balancing service is now a separate project, introducing key features...</p>
-<!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-features">Key Features<a href="https://openbld.net/ru/blog/openbld-ml-balancing-coming/#key-features" class="hash-link" aria-label="Прямая ссылка на Key Features" title="Прямая ссылка на Key Features" translate="no">​</a></h2>
-<ul>
-<li class="">Detects slow servers before they start lagging</li>
-<li class="">If an upstream server shows an increase in timeouts or errors → ML predicts potential failures and automatically prepares backup routes before the infrastructure starts "firing"</li>
-<li class="">Based on historical data, ML knows when servers experience peak loads (e.g., during lunch hours or at the end of the workday)</li>
-<li class="">Instead of reacting to downtime, it distributes traffic efficiently in advance</li>
-<li class="">Reduces latency and timeouts by proactively optimizing traffic distribution</li>
-<li class="">And much more, including environmental factors such as server energy consumption optimization</li>
-</ul>
-<p>The balancer operates like a living organism, learning and adapting to conditions on its own)</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-does-this-benefit-users">How does this benefit users?<a href="https://openbld.net/ru/blog/openbld-ml-balancing-coming/#how-does-this-benefit-users" class="hash-link" aria-label="Прямая ссылка на How does this benefit users?" title="Прямая ссылка на How does this benefit users?" translate="no">​</a></h2>
-<ul>
-<li class="">🚀 More autonomy and focus on your own development.</li>
-<li class="">⚡ More speed.</li>
-</ul>
-<p>📢 This week, the updated balancers will be seamlessly integrated into ADA’s infrastructure—the only thing you might notice is the increased speed.</p>
-<p>✌️ Stay fast, stay optimized!</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-ml-balancing-coming/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
