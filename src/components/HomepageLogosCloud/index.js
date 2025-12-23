@@ -24,7 +24,9 @@ const logos = [
         { name: "Onehost.kz", url: "https://onehost.kz/", src: 'img/logos/onehost_logo.png', style: "logo-bg-white"},
         { name: "EDK Group", url: "https://www.edk-it.com/", src: 'img/logos/edk-it-logo.png', style: "logo-bg-white"},
         { name: "IP Geolocation by DB-IP", url: "https://db-ip.com/", src: 'img/logos/db-ip-logo.png', style: "logo-bg-white"},
-        { name: "QOSI.kz", url: "https://qosi.kz/", src: 'img/logos/logo-qosi.kz.png', style: ""},
+        { name: "QOSI.kz", url: "https://qosi.kz/", src: 'img/logos/qosi-logo.webp', style: ""},
+        { name: "RTEAM.kz", url: "https://rteam.kz/", src: 'img/logos/rteam-logo.webp', style: ""},
+
 
         // { name: "REGXA.com", url: "https://regxa.com/", src: 'img/logos/regxa.com-logo.png', style: "logo-bg-white"},
         { name: "Help to growth to OpenBLD.net", url: "#", src: 'img/logos/splash-logo.jpg', style: ""},
