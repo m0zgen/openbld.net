@@ -131,6 +131,12 @@ const thanks = [
             "style": ""
 
         },
+    {
+        "name": "Dauren Bazarbekov 💪☀️",
+        "url": "https://rteam.kz/",
+        "style": ""
+
+    },
 
     ];
 
