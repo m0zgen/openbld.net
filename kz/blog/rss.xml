@@ -4,10 +4,38 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/kz/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 09 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>kz</language>
+        <item>
+            <title><![CDATA[🔥 OpenBLD.net — Defensive Observation & Guard Module (DOGM)]]></title>
+            <link>https://openbld.net/kz/blog/openbld-dogm-protocol-implementation-2025/</link>
+            <guid>https://openbld.net/kz/blog/openbld-dogm-protocol-implementation-2025/</guid>
+            <pubDate>Tue, 23 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net is launching a new release, with Defensive Observation & Guard Module (DOGM) for enhanced DNS security.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🔥 OpenBLD.net — Defensive Observation &amp;amp; Guard Module (DOGM)" src="https://openbld.net/kz/assets/images/openbld.net-kill-random-dga-6930de34f8fe14cd3ac8927795b089f8.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>After six months of tuning the monitoring and DGA-domain blocking system,
+along with the rollout of the updated RTL release, it’s time to cut dynamic noise out of the main traffic flow.</p>
+<!-- -->
+<p>What this means in practice:</p>
+<ul>
+<li class="">Real-time blocking of suspicious domains</li>
+<li class="">Dropping junk DNS packets at the edge</li>
+<li class="">Reactive bans for aggressive IP addresses</li>
+</ul>
+<p>⚠️ Important: DOGM is being rolled out gradually. In rare cases, false positives may occur.
+For such situations, feedback is available <a class="" href="https://openbld.net/kz/docs/contacts/">here</a>.</p>
+<p>Take what you need — and cut off everything you don’t.</p>
+<p>Peace ✌️</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-dogm-protocol-implementation-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2025</category>
+        </item>
         <item>
             <title><![CDATA[🚀 OpenBLD.net is entering a new era of performance]]></title>
             <link>https://openbld.net/kz/blog/openbld.net-new-rtl-release-coming-2025/</link>
@@ -168,7 +196,7 @@
 <p>🔄 The update will be done quickly, within a few days, this should not affect anyone, but if suddenly - Welcome)</p>
 <p>Thanks to everyone who watches their cyber hygiene with OpenBLD.net.</p>
 <p>Peace ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-boosting-rl-security-performance-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-boosting-rl-security-performance-2025/#updates" class="hash-link" aria-label="Updates-ға т�ікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content:encoded>
@@ -546,31 +574,6 @@ No downgrading, no losses, no “simplifications.”</p>
             <category>openbld</category>
             <category>updates</category>
             <category>uptimerobot</category>
-            <category>2025</category>
-        </item>
-        <item>
-            <title><![CDATA[🤝 OpenBLD.net - New Server in Almaty from Nova Cloud]]></title>
-            <link>https://openbld.net/kz/blog/openbld-new-server-nova-cloud-almaty-2025/</link>
-            <guid>https://openbld.net/kz/blog/openbld-new-server-nova-cloud-almaty-2025/</guid>
-            <pubDate>Thu, 20 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net - New Server in Almaty from Nova Cloud,  it handles traffic from CIS countries, with a special focus on users in Kazakhstan.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 OpenBLD.net - New Server in Almaty from Nova Cloud" src="https://openbld.net/kz/assets/images/openbld-new-server-nova-cloud-almaty-29a8bb011c7bbdbf1bdc41f4a8c07822.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p><strong>OpenBLD.net</strong> introduces a new server in Almaty, powered by <a href="https://novacloud.kz/" target="_blank" rel="noopener noreferrer" class=""><strong>NOVA Cloud</strong></a>. Truly <strong>fast</strong>. Truly <strong>reliable</strong>. Truly <strong>stable</strong>.</p>
-<p>As of today, it handles traffic from CIS countries, with a special focus on users in Kazakhstan 🇰🇿</p>
-<!-- -->
-<p>I'm excited to announce the official launch of a new server in our vibrant, multi-million-strong city of Almaty, powered by <a href="https://novacloud.kz/" target="_blank" rel="noopener noreferrer" class="">NOVA Cloud</a>.</p>
-<p>Thank you for your trust, loyalty, and belief that together, we are making the world a better place.</p>
-<p>Learn more about NOVA Cloud:</p>
-<ul>
-<li class="">🔗 <a href="https://novacloud.kz/" target="_blank" rel="noopener noreferrer" class="">https://novacloud.kz/</a></li>
-</ul>
-<p>Wishing you all the best ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-new-server-nova-cloud-almaty-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
             <category>2025</category>
         </item>
     </channel>

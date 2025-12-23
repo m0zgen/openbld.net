@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2025-12-09T00:00:00.000Z</updated>
+    <updated>2025-12-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🔥 OpenBLD.net — Defensive Observation & Guard Module (DOGM)]]></title>
+        <id>https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025/"/>
+        <updated>2025-12-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net is launching a new release, with Defensive Observation & Guard Module (DOGM) for enhanced DNS security.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🔥 OpenBLD.net — Defensive Observation &amp;amp; Guard Module (DOGM)" src="https://openbld.net/ru/assets/images/openbld.net-kill-random-dga-6930de34f8fe14cd3ac8927795b089f8.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>After six months of tuning the monitoring and DGA-domain blocking system,
+along with the rollout of the updated RTL release, it’s time to cut dynamic noise out of the main traffic flow.</p>
+<!-- -->
+<p>What this means in practice:</p>
+<ul>
+<li class="">Real-time blocking of suspicious domains</li>
+<li class="">Dropping junk DNS packets at the edge</li>
+<li class="">Reactive bans for aggressive IP addresses</li>
+</ul>
+<p>⚠️ Important: DOGM is being rolled out gradually. In rare cases, false positives may occur.
+For such situations, feedback is available <a class="" href="https://openbld.net/ru/docs/contacts/">here</a>.</p>
+<p>Take what you need — and cut off everything you don’t.</p>
+<p>Peace ✌️</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2025" term="2025"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🚀 OpenBLD.net is entering a new era of performance]]></title>
         <id>https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025/</id>
@@ -621,35 +653,6 @@ No downgrading, no losses, no “simplifications.”</p>
         <category label="openbld" term="openbld"/>
         <category label="updates" term="updates"/>
         <category label="uptimerobot" term="uptimerobot"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🤝 OpenBLD.net - New Server in Almaty from Nova Cloud]]></title>
-        <id>https://openbld.net/ru/blog/openbld-new-server-nova-cloud-almaty-2025/</id>
-        <link href="https://openbld.net/ru/blog/openbld-new-server-nova-cloud-almaty-2025/"/>
-        <updated>2025-02-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net - New Server in Almaty from Nova Cloud,  it handles traffic from CIS countries, with a special focus on users in Kazakhstan.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🔼 OpenBLD.net - New Server in Almaty from Nova Cloud" src="https://openbld.net/ru/assets/images/openbld-new-server-nova-cloud-almaty-29a8bb011c7bbdbf1bdc41f4a8c07822.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p><strong>OpenBLD.net</strong> introduces a new server in Almaty, powered by <a href="https://novacloud.kz/" target="_blank" rel="noopener noreferrer" class=""><strong>NOVA Cloud</strong></a>. Truly <strong>fast</strong>. Truly <strong>reliable</strong>. Truly <strong>stable</strong>.</p>
-<p>As of today, it handles traffic from CIS countries, with a special focus on users in Kazakhstan 🇰🇿</p>
-<!-- -->
-<p>I'm excited to announce the official launch of a new server in our vibrant, multi-million-strong city of Almaty, powered by <a href="https://novacloud.kz/" target="_blank" rel="noopener noreferrer" class="">NOVA Cloud</a>.</p>
-<p>Thank you for your trust, loyalty, and belief that together, we are making the world a better place.</p>
-<p>Learn more about NOVA Cloud:</p>
-<ul>
-<li class="">🔗 <a href="https://novacloud.kz/" target="_blank" rel="noopener noreferrer" class="">https://novacloud.kz/</a></li>
-</ul>
-<p>Wishing you all the best ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-new-server-nova-cloud-almaty-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
         <category label="2025" term="2025"/>
     </entry>
 </feed>
