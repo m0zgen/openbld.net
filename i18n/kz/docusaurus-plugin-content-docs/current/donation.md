@@ -12,9 +12,7 @@ sidebar_position: 91
 ## Қайырымдылық
 
 * [PayPal](https://www.paypal.com/paypalme/m0zgen), [Donorbox](https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=30) (PayPal / Cards), [Ko-Fi.com](https://ko-fi.com/sysadminkz)
-* Қазақстан (Kaspi) - `4400430274737391`
-* YooMoney - `41001928837376`
-* Mir - `2204 1201 0804 5747`
+* Қазақстан (Kaspi) - `4400430301233919`
 
 ## Providing Feedback
 
