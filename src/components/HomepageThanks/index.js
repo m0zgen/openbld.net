@@ -151,7 +151,7 @@ export default function HomepageThanks() {
                     <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
                         <Translate
                             id="homepage.Thanks.Title">
-                        + contribution 2025 🐍
+                        + contribution 2026 🎠
                             </Translate>
                     </h2>
                     <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">~~~</h2>
