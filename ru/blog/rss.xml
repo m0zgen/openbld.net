@@ -4,10 +4,53 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/ru/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 23 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[🤝 Alphavps.com and OpenBLD.net — 3 Years of Stability in 2026]]></title>
+            <link>https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026/</link>
+            <guid>https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026/</guid>
+            <pubDate>Mon, 19 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net and Alphavps.com. Three years of stable operation. Three years of continuous support. Three years with zero failures.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="Alphavps.com and OpenBLD.net — 3 Years of Stability in 2026" src="https://openbld.net/ru/assets/images/openbld-alphavps-2026-b5ac0c8cbe67df12cbc2df1b55790dee.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>2026 is a great moment to look back and sum things up.
+Three years of stable operation. Three years of continuous support. Three years with zero failures.</p>
+<p><a href="https://alphavps.com/" target="_blank" rel="noopener noreferrer" class="">Alphavps</a> continues to support OpenBLD.net, and this is an important infrastructure milestone.</p>
+<p>Over the years, <a href="https://alphavps.com/" target="_blank" rel="noopener noreferrer" class="">Alphavps</a> has proven itself as a Fast &amp; Cheap VPS provider — exactly as stated on their official website.</p>
+<!-- -->
+<p>In production, OpenBLD relies on VPS instances powered by <a href="https://alphavps.com/high-performance-vps.html" target="_blank" rel="noopener noreferrer" class="">AMD EPYC</a>, deployed in Germany and Bulgaria. This infrastructure enables fast and reliable DNS services for:</p>
+<ul>
+<li class="">Germany</li>
+<li class="">Bulgaria</li>
+<li class="">Greece</li>
+<li class="">Romania</li>
+<li class="">Moldova</li>
+<li class="">Turkey</li>
+<li class="">and neighboring regions</li>
+</ul>
+<p>Throughout these years, the infrastructure has consistently demonstrated:</p>
+<ul>
+<li class="">stability under load</li>
+<li class="">predictable and low latency</li>
+<li class="">fair and reliable SLA</li>
+<li class="">no surprises or performance degradation</li>
+</ul>
+<p>For network services and DNS infrastructure, this is what truly matters.</p>
+<ul>
+<li class="">More details: <a href="https://alphavps.com/" target="_blank" rel="noopener noreferrer" class="">https://alphavps.com/</a></li>
+</ul>
+<p>Thank you, Alphavps, for stability, trust, and long-term partnership.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>alphavps</category>
+            <category>2026</category>
+        </item>
         <item>
             <title><![CDATA[🔥 OpenBLD.net — Defensive Observation & Guard Module (DOGM)]]></title>
             <link>https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025/</link>
@@ -539,41 +582,12 @@ No downgrading, no losses, no “simplifications.”</p>
 <p>India is a vast country, and one of OpenBLD.net’s key goals is availability and speed 🚀. This new PoP ensures even faster and more reliable DNS services for users in the region, reducing latency and improving overall connectivity.</p>
 <p>This is just the beginning! Stay tuned for more PoPs and exciting new features.</p>
 <p><a class="" href="https://openbld.net/ru/docs/category/get-started/">Get started</a> with OpenBLD.net today!</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-in-india-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-in-india-2025/#updates" class="hash-link" aria-label="Прямая ссылк�а на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content:encoded>
             <category>openbld</category>
             <category>updates</category>
-            <category>2025</category>
-        </item>
-        <item>
-            <title><![CDATA[🚀 OpenBLD.net + UptimeRobot Sponsoring Premium Monitoring 2025]]></title>
-            <link>https://openbld.net/ru/blog/openbld-and-uptimerobot-2025/</link>
-            <guid>https://openbld.net/ru/blog/openbld-and-uptimerobot-2025/</guid>
-            <pubDate>Tue, 04 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net + UptimeRobot sponsors premium monitoring for 200+ open-source projects in 2025. Arch Linux, Armbian, GlobalLeaks, and of course, OpenBLD.net!]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net + UptimeRobot Sponsoring Premium Monitoring 2025" src="https://openbld.net/ru/assets/images/openbld-uptimerobot-2025-2448c030a0939f16f32dc7b81d118f2d.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p>UptimeRobot.com is one of the best monitoring services: simple, stable, with global monitoring locations, and it has been supporting OpenBLD.net for several years now. 🔥</p>
-<p>UptimeRobot sponsors premium monitoring for 200+ open-source projects and non-profits, including Arch Linux, Armbian, GlobalLeaks, and of course, OpenBLD.net!</p>
-<!-- -->
-<ul>
-<li class="">If you have an open project, you can apply for sponsored monitoring from UptimeRobot.</li>
-<li class="">Or just use 50 free monitors – available to everyone!</li>
-</ul>
-<p>Huge thanks to UptimeRobot.com for supporting OpenBLD.net!</p>
-<p>Check out OpenBLD.net service status:</p>
-<ul>
-<li class=""><a href="https://bld-status.sys-adm.in/" target="_blank" rel="noopener noreferrer" class="">bld-status.sys-adm.in</a></li>
-</ul>
-<p>🤝 Helping each other makes the world a better place! Peace to all ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-and-uptimerobot-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>uptimerobot</category>
             <category>2025</category>
         </item>
     </channel>
