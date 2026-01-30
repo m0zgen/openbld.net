@@ -157,8 +157,7 @@ export default function HomepageThanks() {
                     <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
                         <Translate
                             id="homepage.Thanks.Title">
-                        + contribution 2026 🎠
-                            </Translate>
+                        + contribution 🎠 </Translate> {new Date().getFullYear()}
                     </h2>
                     <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">~~~</h2>
                 </div>
@@ -189,7 +188,7 @@ export default function HomepageThanks() {
                     <p>2021-2024>
                         <strong> See <a href="/docs/donation/#contribute-log" className="justify-center font-medium text-blue-600 dark:text-blue-500 hover:underline">Contribute Log</a>
                     </strong><br/>
-                        2024-2025> <strong className="has-text-warning">
+                        2024-{new Date().getFullYear()}> <strong className="has-text-warning">
                         Test. Feedback. Help: ⭐. <br/> Contribute: ☀️. Hosting: ️🚀. Design: 🎨. Boost: 🔥. <br/>
                             {/*Rank: ⭐️🚀*/}
                     </strong>
