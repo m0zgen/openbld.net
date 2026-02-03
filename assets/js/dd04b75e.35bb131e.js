@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkopenbld_net=globalThis.webpackChunkopenbld_net||[]).push([[1672],{33024(e){e.exports=JSON.parse('{"authors":[{"name":"Yevgeniy Goncharov","title":"Maintainer of OpenBLD.net","url":"https://github.com/m0zgen","imageURL":"https://github.com/m0zgen.png","key":"sysadminkz","page":null,"count":86}]}')}}]);

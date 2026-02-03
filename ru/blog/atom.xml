@@ -2,11 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2026-01-19T00:00:00.000Z</updated>
+    <updated>2026-02-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[⚡️ benZine - Full Throttle for OpenBLD.net!]]></title>
+        <id>https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026/</id>
+        <link href="https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026/"/>
+        <updated>2026-02-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meet benZine — the fuel that hunts malicious DNS signatures all over the world and pumps them straight into OpenBLD servers.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="⚡️ benZine: Full Throttle for OpenBLD.net!" src="https://openbld.net/ru/assets/images/openbld-upgrade-benzine-infra-d14a03b359895780b9be03fb438ef013.webp" width="1024" height="535" class="img_ev3q"></p>
+<p>While you were sleeping (or maybe not), I rebuilt the “engine” of our update system.
+Meet benZine — the fuel that hunts malicious DNS signatures all over the world and pumps them straight into OpenBLD servers.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="so-whats-changed">So, what’s changed?<a href="https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026/#so-whats-changed" class="hash-link" aria-label="Прямая ссылка на So, what’s changed?" title="Прямая ссылка на So, what’s changed?" translate="no">​</a></h4>
+<p>Over the past year, benZine has evolved from a simple script into a powerful ecosystem. The code has been rewritten and delivery fully optimized — now:</p>
+<ul>
+<li class="">Millions of domains are processed in just a couple of minutes</li>
+<li class="">Updates reach servers in seconds</li>
+</ul>
+<!-- -->
+<p>Why does this matter for you, me, and all of us?</p>
+<p>Before, after a server restart or a database update, there was a small “window” where fresh internet noise could slip through.
+That window is now closed. Security policies are applied almost instantly.</p>
+<p>OpenBLD.net is becoming not just cleaner — but faster.
+We remove digital junk before it even has a chance to think about our traffic) 🔥</p>
+<p>Thanks for riding along with OpenBLD.net.</p>
+<p>More to come. Peace! ✌️</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="alphavps" term="alphavps"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🤝 AlphaVPS.com and OpenBLD.net — 3 Years of Stability in 2026]]></title>
         <id>https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026/</id>
@@ -343,7 +379,7 @@ For such situations, feedback is available <a class="" href="https://openbld.net
 But if something goes wrong, please let me know: @sysadminkz</p>
 <p>Thanks to everyone using OpenBLD.net! ✌️</p>
 <p>Stay connected: ⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started/">OpenBLD.net</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка �на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -373,7 +409,7 @@ But if something goes wrong, please let me know: @sysadminkz</p>
 </ul>
 <p>Cyber hygiene starts with DNS — and OpenBLD DNS makes it simple 💪</p>
 <p>Stay connected: ⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started/">OpenBLD.net</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025/#updates" class="hash-link" aria-label="Прямая сс�ылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -633,31 +669,6 @@ No downgrading, no losses, no “simplifications.”</p>
 </ul>
 <p>Join us, don’t hesitate! Peace to all! ✌️</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-onehost-kazakhstan-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🇮🇳 OpenBLD.net Expands – New Point of Presence in India (Mumbai)]]></title>
-        <id>https://openbld.net/ru/blog/openbld-in-india-2025/</id>
-        <link href="https://openbld.net/ru/blog/openbld-in-india-2025/"/>
-        <updated>2025-03-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net now has an official presence in India 🇮🇳 with a new point of presence in Mumbai.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🇮🇳 OpenBLD.net Expands – New Point of Presence in India (Mumbai)" src="https://openbld.net/ru/assets/images/openbld-in-india-6a9f1727fb6780f6cbf89c10b44c3f04.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p>This has been in the works for a while, and after months of testing, it’s finally happening! OpenBLD.net now has an official presence in India 🇮🇳 with a new point of presence in Mumbai.</p>
-<!-- -->
-<p>📍 Why is this important?</p>
-<p>India is a vast country, and one of OpenBLD.net’s key goals is availability and speed 🚀. This new PoP ensures even faster and more reliable DNS services for users in the region, reducing latency and improving overall connectivity.</p>
-<p>This is just the beginning! Stay tuned for more PoPs and exciting new features.</p>
-<p><a class="" href="https://openbld.net/ru/docs/category/get-started/">Get started</a> with OpenBLD.net today!</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-in-india-2025/#updates" class="hash-link" aria-label="Прямая ссылк�а на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
