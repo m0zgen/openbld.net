@@ -216,7 +216,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© 2019-${new Date().getFullYear()} OpenBLD.net, Built with Docusaurus.`,
+        copyright: `© 2019-${new Date().getFullYear()} OpenBLD.net.`,
       },
       prism: {
         theme: lightTheme,

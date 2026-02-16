@@ -46,9 +46,5 @@
   "link.item.label.Laboratory": {
     "message": "Sys-Adm.in Lab",
     "description": "The label of footer link with label=Laboratory linking to https://lab.sys-adm.in/"
-  },
-  "copyright": {
-    "message": "© 2019-2025 OpenBLD.net.",
-    "description": "The footer copyright"
   }
 }
