@@ -4,10 +4,43 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/ru/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Tue, 03 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[🛡OpenBLD.net — Forced DNSSEC Under the Hood]]></title>
+            <link>https://openbld.net/ru/blog/openbld-force-dnssec-2026/</link>
+            <guid>https://openbld.net/ru/blog/openbld-force-dnssec-2026/</guid>
+            <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net - Forced domain digital signature verification (DNSSEC) at the deepest levels of the OpenBLD ecosystem.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net — Forced DNSSEC Under the Hood" src="https://openbld.net/ru/assets/images/openbld-dnssec-force-9c5d3b950989faa1dce02404a6587786.webp" width="1024" height="535" class="img_ev3q"></p>
+<p>A lot has been achieved over the years, but this past month we’ve rolled out a major update:
+forced domain digital signature verification (DNSSEC) at the deepest levels of the OpenBLD ecosystem.</p>
+<!-- -->
+<p>What does this give us?</p>
+<ul>
+<li class="">+1 Protection against domain spoofing.</li>
+<li class="">+1 Resilience to attacks.</li>
+<li class="">+1 Security Karma for the whole OpenBLD project.</li>
+</ul>
+<p>Security shouldn’t slow you down. That’s why these changes are implemented to ensure top-tier protection stays perfectly in sync with high-speed performance.</p>
+<p>This is one more step towards:</p>
+<ul>
+<li class="">Independence from public DNS monopolists.</li>
+<li class="">Enhanced privacy.</li>
+<li class="">Building our own secure, self-sustained infrastructure.</li>
+</ul>
+<p>It’s another big plus: +1 to Independence and Privacy 🥷</p>
+<p>Stay safe. Peace! ✌️</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-force-dnssec-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2026</category>
+        </item>
         <item>
             <title><![CDATA[⚡️ benZine - Full Throttle for OpenBLD.net!]]></title>
             <link>https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026/</link>
@@ -340,7 +373,7 @@ For such situations, feedback is available <a class="" href="https://openbld.net
 But if something goes wrong, please let me know: @sysadminkz</p>
 <p>Thanks to everyone using OpenBLD.net! ✌️</p>
 <p>Stay connected: ⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started/">OpenBLD.net</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка �на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content:encoded>
@@ -366,7 +399,7 @@ But if something goes wrong, please let me know: @sysadminkz</p>
 </ul>
 <p>Cyber hygiene starts with DNS — and OpenBLD DNS makes it simple 💪</p>
 <p>Stay connected: ⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started/">OpenBLD.net</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025/#updates" class="hash-link" aria-label="Прямая сс�ылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content:encoded>
@@ -568,32 +601,6 @@ No downgrading, no losses, no “simplifications.”</p>
 <p>OpenBLD.net - No trackers. No compromises. Just a cleaner internet.</p>
 <p>✌️ Latency kills. Speed saves.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-doh-made-faster-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>2025</category>
-        </item>
-        <item>
-            <title><![CDATA[🇰🇿 OpenBLD.net – Kazakhstan Server by Onehost.kz with NVMe SSD, AMD EPYC]]></title>
-            <link>https://openbld.net/ru/blog/openbld-onehost-kazakhstan-2025/</link>
-            <guid>https://openbld.net/ru/blog/openbld-onehost-kazakhstan-2025/</guid>
-            <pubDate>Tue, 18 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net now has an official presence in Kazakhstan 🇰🇿 with a new server by Onehost.kz located in Almaty.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🇰🇿 OpenBLD.net – Kazakhstan Server by Onehost.kz with NVMe SSD, AMD EPYC" src="https://openbld.net/ru/assets/images/openbld-onehost-almaty-03c80271b3a5a501d990f7c581628be9.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p>In our pursuit of improving quality, expanding the number of PoPs, and fostering national solidarity, Onehost.kz has provided a high-speed server in the Almaty region for the OpenBLD.net project.</p>
-<!-- -->
-<p>Previously, based on friends’ recommendations, I purchased a VPS from Onehost.kz to test compatibility with OpenBLD.net. Speed, reliability, and support—everything delivered excellent results.</p>
-<p>Recently, I had to pause the use of the server, and without hesitation, the Onehost team offered a new server for the OpenBLD.net project. This level of support is truly commendable!</p>
-<p>💡 Why does this matter?</p>
-<p>Kazakhstan, Almaty, and our neighboring countries deserve high-quality internet services, fast speeds, and affordable hosting prices. This collaboration is a step toward that goal—huge thanks to everyone involved!</p>
-<ul>
-<li class="">Learn more about Onehost services: <a href="https://onehost.kz/" target="_blank" rel="noopener noreferrer" class="">Onehost.kz</a></li>
-<li class=""><a class="" href="https://openbld.net/ru/docs/category/get-started/">Get started</a> with OpenBLD.net today!</li>
-</ul>
-<p>Join us, don’t hesitate! Peace to all! ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-onehost-kazakhstan-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content:encoded>
