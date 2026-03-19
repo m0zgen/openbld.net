@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2026-02-18T00:00:00.000Z</updated>
+    <updated>2026-03-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🤝 UptimeRobot supports OpenBLD.net]]></title>
+        <id>https://openbld.net/blog/openbld-uptimerobot-supports-2026/</id>
+        <link href="https://openbld.net/blog/openbld-uptimerobot-supports-2026/"/>
+        <updated>2026-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net uses UptimeRobot for reliable monitoring and improved uptime visibility.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="UptimeRobot supports OpenBLD.net" src="https://openbld.net/assets/images/openbld-uptimerobot-2026-efad4e865ced06432e5a1d8d58e73aaf.webp" width="1250" height="680" class="img_ev3q"></p>
+<p>This is one of those cases when a service truly becomes part of your infrastructure.</p>
+<p>Honestly, for me, it’s a clear choice.</p>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why">Why<a href="https://openbld.net/blog/openbld-uptimerobot-supports-2026/#why" class="hash-link" aria-label="Direct link to Why" title="Direct link to Why" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->50 free monitors</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->20+ integrations</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Real-time alerts (web, mobile, Telegram, and more)</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Public status pages</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->A new interface — clean, fast, and convenient</li>
+<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Most importantly — a responsive and friendly UptimeRobot team</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="openbldnet-uptime-status">OpenBLD.net uptime status<a href="https://openbld.net/blog/openbld-uptimerobot-supports-2026/#openbldnet-uptime-status" class="hash-link" aria-label="Direct link to OpenBLD.net uptime status" title="Direct link to OpenBLD.net uptime status" translate="no">​</a></h3>
+<p>According to the public status page, OpenBLD.net demonstrates the following availability:</p>
+<table><thead><tr><th>Period</th><th>Uptime</th></tr></thead><tbody><tr><td>Last 24 hours</td><td>100.000%</td></tr><tr><td>Last 7 days</td><td>99.971%</td></tr><tr><td>Last 30 days</td><td>99.984%</td></tr><tr><td>Last 90 days</td><td>99.983%</td></tr></tbody></table>
+<p>👉 OpenBLD Status:<br>
+<a href="https://bld-status.sys-adm.in/" target="_blank" rel="noopener noreferrer" class="">https://bld-status.sys-adm.in/</a></p>
+<hr>
+<p>Thank you to the UptimeRobot team for your trust and continued support 🤝</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/blog/openbld-uptimerobot-supports-2026/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h3>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="uptimerobot" term="uptimerobot"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🛡OpenBLD.net — Forced DNSSEC Under the Hood]]></title>
         <id>https://openbld.net/blog/openbld-force-dnssec-2026/</id>
@@ -642,40 +682,6 @@ No downgrading, no losses, no “simplifications.”</p>
 <p>With the new TCP Passthrough, requests travel from the client through OpenBLD filters and reach the backend — without cuts, without compromise.</p>
 <p>For regular users — it just works. For those who understand — WoW!).</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/blog/openbld-tcp-sock-passthrough-2025/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 OpenBLD.net — DNS over HTTPS is now ~10% faster]]></title>
-        <id>https://openbld.net/blog/openbld-doh-made-faster-2025/</id>
-        <link href="https://openbld.net/blog/openbld-doh-made-faster-2025/"/>
-        <updated>2025-03-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net now has DNS over HTTPS (DoH) servers - making it ~10% faster than before.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net — DNS over HTTPS is now ~10% faster" src="https://openbld.net/assets/images/openbld-doh-made-faster-d72e4f5eb6c68ddcef5a78f101d50bea.jpeg" width="1250" height="680" class="img_ev3q"></p>
-<p>Sometimes, to get better — you have to risk stability.</p>
-<p>I revisited RFC1035 and… rewrote critical parts of the DNS processing logic in OpenBLD DoH.</p>
-<!-- -->
-<p>Why? Because speed matters. Especially when millions of DNS queries are at stake every day.</p>
-<p>What’s changed under the hood:</p>
-<ul>
-<li class="">⚙️ Updated TLS ciphers and security processes</li>
-<li class="">⚡ HTTP/2 support — now enforced everywhere</li>
-<li class="">🧠 Reworked the entire request handling pipeline</li>
-</ul>
-<p>All changes were battle-tested — no crashes, no chaos. Just a solid ~10% performance boost.</p>
-<p>This week, the update rolls out across the entire ADA infrastructure.</p>
-<p>If you want to stay ahead — be faster, be agile, and don’t be afraid to break things.</p>
-<p>OpenBLD.net - No trackers. No compromises. Just a cleaner internet.</p>
-<p>✌️ Latency kills. Speed saves.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="updates">Updates<a href="https://openbld.net/blog/openbld-doh-made-faster-2025/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
