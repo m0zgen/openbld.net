@@ -31,7 +31,7 @@ jobs:
         run: yarn install
 
       - name: Build website
-        run: yarn build
+        run: yarn build --no-progress
 
       - name: Deploy to gh-pages
         if: github.ref == 'refs/heads/dev'
