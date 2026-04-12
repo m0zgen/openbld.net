@@ -22,8 +22,6 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
-          # Рекомендую сменить 20.x на 22.x или 24.x,
-          # если ваш проект это поддерживает
           node-version: '22.x'
           cache: yarn
 
@@ -31,7 +29,9 @@ jobs:
         run: yarn install
 
       - name: Build website
-        run: yarn build --no-progress
+        run: yarn build
+        env:
+          CI: true # silent CI warnings during build
 
       - name: Deploy to gh-pages
         if: github.ref == 'refs/heads/dev'
