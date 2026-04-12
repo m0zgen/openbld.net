@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - dev
+    # Review gh actions docs if you want to further define triggers, paths, etc
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 permissions:
   contents: write
@@ -12,30 +14,25 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
-    # Node 24 for all actions in this job
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
     steps:
-      - uses: actions/checkout@v6
-
-      - name: Setup Node
-        uses: actions/setup-node@v6
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20.x'
+          node-version: '22'
           cache: yarn
 
       - name: Install dependencies
-        run: yarn install
+        run: yarn install # --frozen-lockfile
 
       - name: Build website
         run: yarn build
-        env:
-          CI: true # silent CI warnings during build
 
+      # Popular action to deploy to GitHub Pages:
+      # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to gh-pages
         if: github.ref == 'refs/heads/dev'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: build
+
