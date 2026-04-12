@@ -13,6 +13,7 @@ You can support the OpenBLD DNS Project through various activities:
 
 * [PayPal](https://www.paypal.com/paypalme/m0zgen), [Donorbox](https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=30) (with PayPal / Cards), [Ko-Fi.com](https://ko-fi.com/sysadminkz)
 * KZ Card (Kaspi) - `4400430301233919`
+* YooMoney - `41001928837376`
 
 ## Providing Feedback
 
