@@ -5,8 +5,6 @@ on:
     branches:
       - dev
       - dev-up-3.9→3.10
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 permissions:
   contents: write
@@ -15,25 +13,37 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
       - uses: actions/checkout@v6
+
       - uses: actions/setup-node@v6
         with:
           node-version: 24
-          cache: yarn
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Activate package manager from package.json
+        run: corepack install
+
+      - name: Show versions
+        run: |
+          node --version
+          yarn --version
 
       - name: Install dependencies
-        run: yarn install # --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Build website
         run: yarn build
 
-      # Popular action to deploy to GitHub Pages:
-      # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to gh-pages
         if: github.ref == 'refs/heads/dev'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: build
-
