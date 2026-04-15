@@ -2,11 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2026-03-19T00:00:00.000Z</updated>
+    <updated>2026-04-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🥷 OpenBLD.net — IP Anonymization Implemented]]></title>
+        <id>https://openbld.net/kz/blog/openbld-ip-anonymization-feature/</id>
+        <link href="https://openbld.net/kz/blog/openbld-ip-anonymization-feature/"/>
+        <updated>2026-04-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net implemented IP anonymization feature, ensuring that no personally identifiable information is stored.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🥷 OpenBLD.net — IP Anonymization Implemented" src="https://openbld.net/kz/assets/images/openbld-ip-anonymization-feature-13c37ed9caa7f4db2fd63a6623025d8e.webp" width="1250" height="680" class="img_kQCM"></p>
+<p>DNS reveals more than you think:</p>
+<ul>
+<li class="">Every query</li>
+<li class="">Every domain</li>
+<li class="">Every query path pattern</li>
+<li class="">Location</li>
+</ul>
+<p>That’s your behavior, it's your live, it's you every day behavior pattern.</p>
+<!-- -->
+<p>That’s your behavior, it's your live, it's you every day behavior pattern.</p>
+<p>OpenBLD now supports IP anonymization in short-term troubleshooting logs and metrics:</p>
+<ul>
+<li class="">masking</li>
+<li class="">hashing</li>
+<li class="">flexible anonymization modes</li>
+</ul>
+<p>Your data stays yours! 🥷</p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-ip-anonymization-feature/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🤝 UptimeRobot supports OpenBLD.net]]></title>
         <id>https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/</id>
@@ -34,7 +71,7 @@
 <a href="https://bld-status.sys-adm.in/" target="_blank" rel="noopener noreferrer" class="">https://bld-status.sys-adm.in/</a></p>
 <hr>
 <p>Thank you to the UptimeRobot team for your trust and continued support 🤝</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтем�е" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
 </ul>]]></content>
@@ -644,44 +681,6 @@ While others wait for a response — you’re already one step ahead.</p>
 <p>Who knows — maybe OpenBLD.net is already near you?</p>
 <p>Connect today: <a class="" href="https://openbld.net/kz/docs/category/get-started/">Get started</a></p>
 <h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-in-usa-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[✅️️️️️️️ OpenBLD.net – End-to-End TCP in DNS? Yes!.]]></title>
-        <id>https://openbld.net/kz/blog/openbld-tcp-sock-passthrough-2025/</id>
-        <link href="https://openbld.net/kz/blog/openbld-tcp-sock-passthrough-2025/"/>
-        <updated>2025-04-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net With the new TCP Passthrough, requests travel from the client through OpenBLD filters and reach the backend — without cuts, without compromise.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 ✅️️️️️️️ OpenBLD.net – End-to-End TCP in DNS? Yes!." src="https://openbld.net/kz/assets/images/openbld-tcp-sock-passthrough-b520a00e05f41203b6565705b35a24d7.jpeg" width="1250" height="680" class="img_kQCM"></p>
-<p>Ever wondered what happens to your DNS request over TCP when it passes through a filtering proxy or a censorship system?</p>
-<p>Usually — it gets “downgraded” to UDP.
-Because “it’s faster”... but that breaks the point..</p>
-<p>TCP is a stream. And now, OpenBLD.net DNS is too.</p>
-<!-- -->
-<p>Now imagine this:</p>
-<ol>
-<li class="">The client makes a TCP DNS request (e.g. DNSSEC, DoH, or just a large response)</li>
-<li class="">It passes through the OpenBLD filter → through a UNIX socket</li>
-<li class="">And reaches the load balancer — still over TCP</li>
-</ol>
-<p>End-to-End TCP (TCP passthrough) now works across the entire path.
-No downgrading, no losses, no “simplifications.”</p>
-<p>Why is this awesome?</p>
-<p>• Proper handling of Truncated responses or retry in case of TC=1
-• Full support for large and secure DNS answers
-• Guaranteed delivery from client to backend and back</p>
-<p>With the new TCP Passthrough, requests travel from the client through OpenBLD filters and reach the backend — without cuts, without compromise.</p>
-<p>For regular users — it just works. For those who understand — WoW!).</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-tcp-sock-passthrough-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>

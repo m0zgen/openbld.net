@@ -2,11 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2026-03-19T00:00:00.000Z</updated>
+    <updated>2026-04-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🥷 OpenBLD.net — IP Anonymization Implemented]]></title>
+        <id>https://openbld.net/ru/blog/openbld-ip-anonymization-feature/</id>
+        <link href="https://openbld.net/ru/blog/openbld-ip-anonymization-feature/"/>
+        <updated>2026-04-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD.net implemented IP anonymization feature, ensuring that no personally identifiable information is stored.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🥷 OpenBLD.net — IP Anonymization Implemented" src="https://openbld.net/ru/assets/images/openbld-ip-anonymization-feature-13c37ed9caa7f4db2fd63a6623025d8e.webp" width="1250" height="680" class="img_kQCM"></p>
+<p>DNS reveals more than you think:</p>
+<ul>
+<li class="">Every query</li>
+<li class="">Every domain</li>
+<li class="">Every query path pattern</li>
+<li class="">Location</li>
+</ul>
+<p>That’s your behavior, it's your live, it's you every day behavior pattern.</p>
+<!-- -->
+<p>That’s your behavior, it's your live, it's you every day behavior pattern.</p>
+<p>OpenBLD now supports IP anonymization in short-term troubleshooting logs and metrics:</p>
+<ul>
+<li class="">masking</li>
+<li class="">hashing</li>
+<li class="">flexible anonymization modes</li>
+</ul>
+<p>Your data stays yours! 🥷</p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-ip-anonymization-feature/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🤝 UptimeRobot supports OpenBLD.net]]></title>
         <id>https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026/</id>
@@ -398,7 +435,7 @@ For such situations, feedback is available <a class="" href="https://openbld.net
         <updated>2025-08-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Creating a Vue 3 app with Tailwind CSS and PostCSS is easy with Vite. This guide will help you set up your development environment quickly.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Few steps to create Vite + Vue + Tailwind + PostCSS" src="https://openbld.net/ru/assets/images/creating-vue-app-with-tailwind-aacc774fbc8121bf996da2b97ffa990e.webp" width="872" height="559" class="img_kQCM"></p>
-<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="intro">Intro<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/#intro" class="hash-link" aria-label="Прямая ссылка на Intro" title="Прямая ссылка на Intro" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="intro">Intro<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/#intro" class="hash-link" aria-label="Прямая ссылка на Intro" title="Прямая �ссылка на Intro" translate="no">​</a></h2>
 <p>Vite + Vue 3 + Tailwind 4 CSS + PostCSS is a powerful combination for modern web development. This guide will help you set up your development environment quickly and efficiently.</p>
 <!-- -->
 <h2 class="anchor anchorTargetStickyNavbar_HBTz" id="easy-steps-to-create-vue-app-with-tailwind-css-and-postcss">Easy steps to create Vue app with Tailwind CSS and PostCSS<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/#easy-steps-to-create-vue-app-with-tailwind-css-and-postcss" class="hash-link" aria-label="Прямая ссылка на Easy steps to create Vue app with Tailwind CSS and PostCSS" title="Прямая ссылка на Easy steps to create Vue app with Tailwind CSS and PostCSS" translate="no">​</a></h2>
@@ -644,44 +681,6 @@ While others wait for a response — you’re already one step ahead.</p>
 <p>Who knows — maybe OpenBLD.net is already near you?</p>
 <p>Connect today: <a class="" href="https://openbld.net/ru/docs/category/get-started/">Get started</a></p>
 <h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-in-usa-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[✅️️️️️️️ OpenBLD.net – End-to-End TCP in DNS? Yes!.]]></title>
-        <id>https://openbld.net/ru/blog/openbld-tcp-sock-passthrough-2025/</id>
-        <link href="https://openbld.net/ru/blog/openbld-tcp-sock-passthrough-2025/"/>
-        <updated>2025-04-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net With the new TCP Passthrough, requests travel from the client through OpenBLD filters and reach the backend — without cuts, without compromise.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 ✅️️️️️️️ OpenBLD.net – End-to-End TCP in DNS? Yes!." src="https://openbld.net/ru/assets/images/openbld-tcp-sock-passthrough-b520a00e05f41203b6565705b35a24d7.jpeg" width="1250" height="680" class="img_kQCM"></p>
-<p>Ever wondered what happens to your DNS request over TCP when it passes through a filtering proxy or a censorship system?</p>
-<p>Usually — it gets “downgraded” to UDP.
-Because “it’s faster”... but that breaks the point..</p>
-<p>TCP is a stream. And now, OpenBLD.net DNS is too.</p>
-<!-- -->
-<p>Now imagine this:</p>
-<ol>
-<li class="">The client makes a TCP DNS request (e.g. DNSSEC, DoH, or just a large response)</li>
-<li class="">It passes through the OpenBLD filter → through a UNIX socket</li>
-<li class="">And reaches the load balancer — still over TCP</li>
-</ol>
-<p>End-to-End TCP (TCP passthrough) now works across the entire path.
-No downgrading, no losses, no “simplifications.”</p>
-<p>Why is this awesome?</p>
-<p>• Proper handling of Truncated responses or retry in case of TC=1
-• Full support for large and secure DNS answers
-• Guaranteed delivery from client to backend and back</p>
-<p>With the new TCP Passthrough, requests travel from the client through OpenBLD filters and reach the backend — without cuts, without compromise.</p>
-<p>For regular users — it just works. For those who understand — WoW!).</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-tcp-sock-passthrough-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
