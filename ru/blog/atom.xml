@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://openbld.net/ru/blog</id>
+    <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
     <updated>2026-04-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://openbld.net/ru/blog"/>
+    <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[🥷 OpenBLD.net — IP Anonymization]]></title>
-        <id>https://openbld.net/ru/blog/openbld-ip-anonymization-feature</id>
-        <link href="https://openbld.net/ru/blog/openbld-ip-anonymization-feature"/>
+        <id>https://openbld.net/ru/blog/openbld-ip-anonymization-feature/</id>
+        <link href="https://openbld.net/ru/blog/openbld-ip-anonymization-feature/"/>
         <updated>2026-04-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net implemented IP anonymization feature, ensuring that no personally identifiable information is stored.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🥷 OpenBLD.net — IP Anonymization Implemented" src="https://openbld.net/ru/assets/images/openbld-ip-anonymization-feature-13c37ed9caa7f4db2fd63a6623025d8e.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -30,7 +30,7 @@
 <p>Privacy starts with DNS! Peace ✌️</p>
 <p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">https://openbld.net/</a></p>
 <hr>
-<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-ip-anonymization-feature#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-ip-anonymization-feature/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h4>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
 </ul>]]></content>
@@ -44,15 +44,15 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[🤝 UptimeRobot supports OpenBLD.net]]></title>
-        <id>https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026</id>
-        <link href="https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026"/>
+        <id>https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026/</id>
+        <link href="https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026/"/>
         <updated>2026-03-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net uses UptimeRobot for reliable monitoring and improved uptime visibility.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="UptimeRobot supports OpenBLD.net" src="https://openbld.net/ru/assets/images/openbld-uptimerobot-2026-efad4e865ced06432e5a1d8d58e73aaf.webp" width="1250" height="680" class="img_kQCM"></p>
 <p>This is one of those cases when a service truly becomes part of your infrastructure.</p>
 <p>Honestly, for me, it’s a clear choice.</p>
 <!-- -->
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="why">Why<a href="https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026#why" class="hash-link" aria-label="Прямая ссылка на Why" title="Прямая ссылка на Why" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="why">Why<a href="https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026/#why" class="hash-link" aria-label="Прямая ссылка на Why" title="Прямая ссылка на Why" translate="no">​</a></h3>
 <ul class="contains-task-list containsTaskList_iysV">
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->50 free monitors</li>
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->20+ integrations</li>
@@ -62,14 +62,14 @@
 <li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Most importantly — a responsive and friendly UptimeRobot team</li>
 </ul>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="openbldnet-uptime-status">OpenBLD.net uptime status<a href="https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026#openbldnet-uptime-status" class="hash-link" aria-label="Прямая ссылка на OpenBLD.net uptime status" title="Прямая ссылка на OpenBLD.net uptime status" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="openbldnet-uptime-status">OpenBLD.net uptime status<a href="https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026/#openbldnet-uptime-status" class="hash-link" aria-label="Прямая ссылка на OpenBLD.net uptime status" title="Прямая ссылка на OpenBLD.net uptime status" translate="no">​</a></h3>
 <p>According to the public status page, OpenBLD.net demonstrates the following availability:</p>
 <table><thead><tr><th>Period</th><th>Uptime</th></tr></thead><tbody><tr><td>Last 24 hours</td><td>100.000%</td></tr><tr><td>Last 7 days</td><td>99.971%</td></tr><tr><td>Last 30 days</td><td>99.984%</td></tr><tr><td>Last 90 days</td><td>99.983%</td></tr></tbody></table>
 <p>👉 OpenBLD Status:<br>
 <a href="https://bld-status.sys-adm.in/" target="_blank" rel="noopener noreferrer" class="">https://bld-status.sys-adm.in/</a></p>
 <hr>
 <p>Thank you to the UptimeRobot team for your trust and continued support 🤝</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-uptimerobot-supports-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прям�ая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
 </ul>]]></content>
@@ -84,8 +84,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[🛡OpenBLD.net — Forced DNSSEC Under the Hood]]></title>
-        <id>https://openbld.net/ru/blog/openbld-force-dnssec-2026</id>
-        <link href="https://openbld.net/ru/blog/openbld-force-dnssec-2026"/>
+        <id>https://openbld.net/ru/blog/openbld-force-dnssec-2026/</id>
+        <link href="https://openbld.net/ru/blog/openbld-force-dnssec-2026/"/>
         <updated>2026-02-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net - Forced domain digital signature verification (DNSSEC) at the deepest levels of the OpenBLD ecosystem.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net — Forced DNSSEC Under the Hood" src="https://openbld.net/ru/assets/images/openbld-dnssec-force-9c5d3b950989faa1dce02404a6587786.webp" width="1024" height="535" class="img_kQCM"></p>
@@ -107,7 +107,7 @@ forced domain digital signature verification (DNSSEC) at the deepest levels of t
 </ul>
 <p>It’s another big plus: +1 to Independence and Privacy 🥷</p>
 <p>Stay safe. Peace! ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-force-dnssec-2026#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-force-dnssec-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
 </ul>]]></content>
@@ -121,14 +121,14 @@ forced domain digital signature verification (DNSSEC) at the deepest levels of t
     </entry>
     <entry>
         <title type="html"><![CDATA[⚡️ benZine - Full Throttle for OpenBLD.net!]]></title>
-        <id>https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026</id>
-        <link href="https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026"/>
+        <id>https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026/</id>
+        <link href="https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026/"/>
         <updated>2026-02-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Meet benZine — the fuel that hunts malicious DNS signatures all over the world and pumps them straight into OpenBLD servers.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="⚡️ benZine: Full Throttle for OpenBLD.net!" src="https://openbld.net/ru/assets/images/openbld-upgrade-benzine-infra-d14a03b359895780b9be03fb438ef013.webp" width="1024" height="535" class="img_kQCM"></p>
 <p>While you were sleeping (or maybe not), I rebuilt the “engine” of our update system.
 Meet benZine — the fuel that hunts malicious DNS signatures all over the world and pumps them straight into OpenBLD servers.</p>
-<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="so-whats-changed">So, what’s changed?<a href="https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026#so-whats-changed" class="hash-link" aria-label="Прямая ссылка на So, what’s changed?" title="Прямая ссылка на So, what’s changed?" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="so-whats-changed">So, what’s changed?<a href="https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026/#so-whats-changed" class="hash-link" aria-label="Прямая ссылка на So, what’s changed?" title="Прямая ссылка на So, what’s changed?" translate="no">​</a></h4>
 <p>Over the past year, benZine has evolved from a simple script into a powerful ecosystem. The code has been rewritten and delivery fully optimized — now:</p>
 <ul>
 <li class="">Millions of domains are processed in just a couple of minutes</li>
@@ -142,7 +142,7 @@ That window is now closed. Security policies are applied almost instantly.</p>
 We remove digital junk before it even has a chance to think about our traffic) 🔥</p>
 <p>Thanks for riding along with OpenBLD.net.</p>
 <p>More to come. Peace! ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-upgrade-benzine-infra-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
 </ul>]]></content>
@@ -157,8 +157,8 @@ We remove digital junk before it even has a chance to think about our traffic) �
     </entry>
     <entry>
         <title type="html"><![CDATA[🤝 AlphaVPS.com and OpenBLD.net — 3 Years of Stability in 2026]]></title>
-        <id>https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026</id>
-        <link href="https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026"/>
+        <id>https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026/</id>
+        <link href="https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026/"/>
         <updated>2026-01-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net and Alphavps.com. Three years of stable operation. Three years of continuous support. Three years with zero failures.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="AlphaVPS.com and OpenBLD.net — 3 Years of Stability in 2026" src="https://openbld.net/ru/assets/images/openbld-alphavps-2026-b5ac0c8cbe67df12cbc2df1b55790dee.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -189,7 +189,7 @@ Three years of stable operation. Three years of continuous support. Three years 
 <li class="">More details: <a href="https://alphavps.com/" target="_blank" rel="noopener noreferrer" class="">https://alphavps.com/</a></li>
 </ul>
 <p>Thank you, AlphaVPS, for stability, trust, and long-term partnership.</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-alphavps-3-years-of-stability-in-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
 </ul>]]></content>
@@ -204,8 +204,8 @@ Three years of stable operation. Three years of continuous support. Three years 
     </entry>
     <entry>
         <title type="html"><![CDATA[🔥 OpenBLD.net — Defensive Observation & Guard Module (DOGM)]]></title>
-        <id>https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025/"/>
         <updated>2025-12-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net is launching a new release, with Defensive Observation & Guard Module (DOGM) for enhanced DNS security.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🔥 OpenBLD.net — Defensive Observation &amp;amp; Guard Module (DOGM)" src="https://openbld.net/ru/assets/images/openbld.net-kill-random-dga-6930de34f8fe14cd3ac8927795b089f8.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -219,10 +219,10 @@ along with the rollout of the updated RTL release, it’s time to cut dynamic no
 <li class="">Reactive bans for aggressive IP addresses</li>
 </ul>
 <p>⚠️ Important: DOGM is being rolled out gradually. In rare cases, false positives may occur.
-For such situations, feedback is available <a class="" href="https://openbld.net/ru/docs/contacts">here</a>.</p>
+For such situations, feedback is available <a class="" href="https://openbld.net/ru/docs/contacts/">here</a>.</p>
 <p>Take what you need — and cut off everything you don’t.</p>
 <p>Peace ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-dogm-protocol-implementation-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
 </ul>]]></content>
@@ -236,8 +236,8 @@ For such situations, feedback is available <a class="" href="https://openbld.net
     </entry>
     <entry>
         <title type="html"><![CDATA[🚀 OpenBLD.net is entering a new era of performance]]></title>
-        <id>https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025"/>
+        <id>https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025/"/>
         <updated>2025-12-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net is launching a new release, codenamed RTL, focused on speed and reliability.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net is entering a new era of performance" src="https://openbld.net/ru/assets/images/openbld.net-new-rtl-release-coming-c5c6cdc4c32396135dcdbb7230745da0.webp" width="1280" height="640" class="img_kQCM"></p>
@@ -258,7 +258,7 @@ For such situations, feedback is available <a class="" href="https://openbld.net
 <p>Result: overall throughput increased by roughly 2×, and priority domains now resolve even faster thanks to smarter deferred analysis.</p>
 <p>The update rollout is planned for mid–late December.</p>
 <p>Only forward! 💪 Be yourself, be focused!</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld.net-new-rtl-release-coming-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
 </ul>]]></content>
@@ -272,8 +272,8 @@ For such situations, feedback is available <a class="" href="https://openbld.net
     </entry>
     <entry>
         <title type="html"><![CDATA[🇫🇷 OpenBLD.net New PoP in Paris, France!]]></title>
-        <id>https://openbld.net/ru/blog/openbld-new-server-france-paris-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-new-server-france-paris-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-new-server-france-paris-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-new-server-france-paris-2025/"/>
         <updated>2025-09-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD — New DNS server in Paris, France with the support of Sys-Adm.in Lab.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🇫🇷 OpenBLD.net New PoP in Paris, France!" src="https://openbld.net/ru/assets/images/openbld-new-server-france-paris-2f9dbee8c9aa0f90fd753ab0c14bed4e.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -285,7 +285,7 @@ For such situations, feedback is available <a class="" href="https://openbld.net
 <li class="">Another step toward the global OpenBLD network.</li>
 </ul>
 <p>🚀 Faster. Safer. Closer.</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-new-server-france-paris-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-new-server-france-paris-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
 </ul>]]></content>
@@ -299,8 +299,8 @@ For such situations, feedback is available <a class="" href="https://openbld.net
     </entry>
     <entry>
         <title type="html"><![CDATA[🚀 OpenBLD.net Now Live in Astana!]]></title>
-        <id>https://openbld.net/ru/blog/openbld-new-server-nova-cloud-astana-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-new-server-nova-cloud-astana-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-new-server-nova-cloud-astana-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-new-server-nova-cloud-astana-2025/"/>
         <updated>2025-09-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD — The first DNS server in Kazakhstan’s capital has been launched in Astana]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🛡 OpenBLD.net Now Live in Astana!" src="https://openbld.net/ru/assets/images/openbld-new-server-nova-cloud-astana-e1abe9224d52c36f5400f913c26a6576.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -319,9 +319,9 @@ For such situations, feedback is available <a class="" href="https://openbld.net
 <p>Huge thanks to NOVA Cloud Kazakhstan for their trust and technical support!</p>
 <p>This is a significant step for Kazakhstan’s digital ecosystem and the development of a safe internet — when the infrastructure is deployed here, in Kazakhstan 🇰🇿</p>
 <p>💡 An internet without noise, tracking, or cyber threats — it’s not magic, it’s OpenBLD.net</p>
-<p>📌 Connect now <a class="" href="https://openbld.net/ru/docs/category/get-started">here</a>.</p>
-<p>Want to launch an OpenBLD node in your city or region? Let’s <a class="" href="https://openbld.net/ru/docs/contacts">talk</a> — I’ll show you how! ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-new-server-nova-cloud-astana-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<p>📌 Connect now <a class="" href="https://openbld.net/ru/docs/category/get-started/">here</a>.</p>
+<p>Want to launch an OpenBLD node in your city or region? Let’s <a class="" href="https://openbld.net/ru/docs/contacts/">talk</a> — I’ll show you how! ✌️</p>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-new-server-nova-cloud-astana-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a>.</li>
 </ul>]]></content>
@@ -335,8 +335,8 @@ For such situations, feedback is available <a class="" href="https://openbld.net
     </entry>
     <entry>
         <title type="html"><![CDATA[🛡 OpenBLD.net — Invisible DNS Protection for Everyday Security]]></title>
-        <id>https://openbld.net/ru/blog/openbld-update-security-mechanisms-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-update-security-mechanisms-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-update-security-mechanisms-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-update-security-mechanisms-2025/"/>
         <updated>2025-09-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD — DNS filtering continues to be strengthened, evolving into a reliable security layer rather than just a resolver.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🛡 OpenBLD.net — Invisible DNS Protection for Everyday Security" src="https://openbld.net/ru/assets/images/openbld-update-security-mechanisms-871318117f88519d5ee8ae1ebc7afad1.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -350,9 +350,9 @@ For such situations, feedback is available <a class="" href="https://openbld.net
 <li class="">Unicode Detector — preparing basic protection against IDN homograph attacks and phishing</li>
 </ul>
 <p>DNS is not only about speed — it’s a Security Assistant, quietly protecting users every day.</p>
-<p>🚀 OpenBLD.net — the evolution of DNS security continues. Get started <a class="" href="https://openbld.net/ru/docs/category/get-started">here</a>.</p>
+<p>🚀 OpenBLD.net — the evolution of DNS security continues. Get started <a class="" href="https://openbld.net/ru/docs/category/get-started/">here</a>.</p>
 <p>ℹ️ The update will be rolled out across all ADA instances within the upcoming weeks.</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-update-security-mechanisms-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-update-security-mechanisms-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -366,8 +366,8 @@ For such situations, feedback is available <a class="" href="https://openbld.net
     </entry>
     <entry>
         <title type="html"><![CDATA[🚀 OpenBLD - Release Wllr in Production!]]></title>
-        <id>https://openbld.net/ru/blog/openbld-stable-boosting-release-wllr-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-stable-boosting-release-wllr-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-stable-boosting-release-wllr-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-stable-boosting-release-wllr-2025/"/>
         <updated>2025-08-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD - The new release, codenamed Wllr, makes the DNS filter even faster and more reliable.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🛡 🚀 OpenBLD - Release Wllr in Production!" src="https://openbld.net/ru/assets/images/openbld-stable-boosting-release-wllr-0489e5d5660bc1c3f26cbe8099b02e33.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -381,7 +381,7 @@ For such situations, feedback is available <a class="" href="https://openbld.net
 </ul>
 <p>⚡ The combination of speed and security is what we put into every release.</p>
 <p>Keep evolving with OpenBLD.net 🚀</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-stable-boosting-release-wllr-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-stable-boosting-release-wllr-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -395,8 +395,8 @@ For such situations, feedback is available <a class="" href="https://openbld.net
     </entry>
     <entry>
         <title type="html"><![CDATA[🛡 OpenBLD.net — Boosting DNS Security & Performance]]></title>
-        <id>https://openbld.net/ru/blog/openbld-boosting-rl-security-performance-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-boosting-rl-security-performance-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-boosting-rl-security-performance-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-boosting-rl-security-performance-2025/"/>
         <updated>2025-08-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD - The latest release brings major improvements to traffic filtering mechanisms]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🛡 OpenBLD.net — Boosting DNS Security &amp;amp; Performance" src="https://openbld.net/ru/assets/images/openbld-boosting-rl-security-performance-4bf19f9a25b69650969da88b4e144a53.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -414,7 +414,7 @@ For such situations, feedback is available <a class="" href="https://openbld.net
 <p>🔄 The update will be done quickly, within a few days, this should not affect anyone, but if suddenly - Welcome)</p>
 <p>Thanks to everyone who watches their cyber hygiene with OpenBLD.net.</p>
 <p>Peace ✌️</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-boosting-rl-security-performance-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-boosting-rl-security-performance-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -428,34 +428,34 @@ For such situations, feedback is available <a class="" href="https://openbld.net
     </entry>
     <entry>
         <title type="html"><![CDATA[↘  Few steps to create Vue app with Tailwind CSS and PostCSS]]></title>
-        <id>https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss</id>
-        <link href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss"/>
+        <id>https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/</id>
+        <link href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/"/>
         <updated>2025-08-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Creating a Vue 3 app with Tailwind CSS and PostCSS is easy with Vite. This guide will help you set up your development environment quickly.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Few steps to create Vite + Vue + Tailwind + PostCSS" src="https://openbld.net/ru/assets/images/creating-vue-app-with-tailwind-aacc774fbc8121bf996da2b97ffa990e.webp" width="872" height="559" class="img_kQCM"></p>
-<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="intro">Intro<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss#intro" class="hash-link" aria-label="Прямая ссылка на Intro" title="Прямая ссылка на Intro" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="intro">Intro<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/#intro" class="hash-link" aria-label="Прямая ссылка на Intro" title="Прямая ссылка на Intro" translate="no">​</a></h2>
 <p>Vite + Vue 3 + Tailwind 4 CSS + PostCSS is a powerful combination for modern web development. This guide will help you set up your development environment quickly and efficiently.</p>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="easy-steps-to-create-vue-app-with-tailwind-css-and-postcss">Easy steps to create Vue app with Tailwind CSS and PostCSS<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss#easy-steps-to-create-vue-app-with-tailwind-css-and-postcss" class="hash-link" aria-label="Прямая ссылка на Easy steps to create Vue app with Tailwind CSS and PostCSS" title="Прямая ссылка на Easy steps to create Vue app with Tailwind CSS and PostCSS" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="easy-steps-to-create-vue-app-with-tailwind-css-and-postcss">Easy steps to create Vue app with Tailwind CSS and PostCSS<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/#easy-steps-to-create-vue-app-with-tailwind-css-and-postcss" class="hash-link" aria-label="Прямая ссылка на Easy steps to create Vue app with Tailwind CSS and PostCSS" title="Прямая ссылка на Easy steps to create Vue app with Tailwind CSS and PostCSS" translate="no">​</a></h2>
 <p>Install Vite + Vue 3:</p>
 <div class="language-shell codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-shell codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">npm create vite@latest</span><br></div></code></pre></div></div>
 <p>Next, you can choose a project name and select the Vue engine (TS or JS), example:</p>
 <div class="language-shell codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-shell codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">$ npm create vite@latest</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">✔ Project name: … webui</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">✔ Select a framework: › Vue</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">✔ Select a variant: › JavaScript</span><br></div></code></pre></div></div>
 <p>Run app:</p>
 <div class="language-shell codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-shell codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">cd webui</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">npm install</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="install-tailwind-css-and-postcss">Install Tailwind CSS and PostCSS<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss#install-tailwind-css-and-postcss" class="hash-link" aria-label="Прямая ссылка на Install Tailwind CSS and PostCSS" title="Прямая ссылка на Install Tailwind CSS and PostCSS" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="install-tailwind-css-and-postcss">Install Tailwind CSS and PostCSS<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/#install-tailwind-css-and-postcss" class="hash-link" aria-label="Прямая ссылка на Install Tailwind CSS and PostCSS" title="Прямая ссылка на Install Tailwind CSS and PostCSS" translate="no">​</a></h2>
 <p>Current Tailwind CSS version is 4, so you can install it with the following command:</p>
 <div class="language-shell codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-shell codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">npm install tailwindcss @tailwindcss/vite</span><br></div></code></pre></div></div>
 <p>Add the <code>@tailwindcss/vite</code> plugin in to <code>vite.config.js</code>, my config example:</p>
 <div class="language-javascript codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-javascript codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">import</span><span class="token plain"> </span><span class="token imports punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token imports"> defineConfig </span><span class="token imports punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token plain"> </span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">from</span><span class="token plain"> </span><span class="token string" style="color:rgb(255, 121, 198)">'vite'</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">import</span><span class="token plain"> </span><span class="token imports">vue</span><span class="token plain"> </span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">from</span><span class="token plain"> </span><span class="token string" style="color:rgb(255, 121, 198)">'@vitejs/plugin-vue'</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">import</span><span class="token plain"> </span><span class="token imports">path</span><span class="token plain"> </span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">from</span><span class="token plain"> </span><span class="token string" style="color:rgb(255, 121, 198)">'path'</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">import</span><span class="token plain"> </span><span class="token imports">tailwindcss</span><span class="token plain"> </span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">from</span><span class="token plain"> </span><span class="token string" style="color:rgb(255, 121, 198)">'@tailwindcss/vite'</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">export</span><span class="token plain"> </span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">default</span><span class="token plain"> </span><span class="token function" style="color:rgb(80, 250, 123)">defineConfig</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token literal-property property">plugins</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">[</span><span class="token function" style="color:rgb(80, 250, 123)">vue</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"> </span><span class="token function" style="color:rgb(80, 250, 123)">tailwindcss</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">]</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token literal-property property">build</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    </span><span class="token literal-property property">outDir</span><span class="token operator">:</span><span class="token plain"> path</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token method function property-access" style="color:rgb(80, 250, 123)">resolve</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token plain">__dirname</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"> </span><span class="token string" style="color:rgb(255, 121, 198)">'../web/dist'</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    </span><span class="token literal-property property">emptyOutDir</span><span class="token operator">:</span><span class="token plain"> </span><span class="token boolean">true</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="postcss">PostCSS<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss#postcss" class="hash-link" aria-label="Прямая ссылка на PostCSS" title="Прямая ссылка на PostCSS" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="postcss">PostCSS<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/#postcss" class="hash-link" aria-label="Прямая ссылка на PostCSS" title="Прямая ссылка на PostCSS" translate="no">​</a></h3>
 <div class="language-shell codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-shell codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">npm install tailwindcss @tailwindcss/postcss postcss</span><br></div></code></pre></div></div>
 <p>Add <code>@tailwindcss/postcss</code> to your <code>postcss.config.mjs</code>:</p>
 <div class="language-javascript codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-javascript codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">export</span><span class="token plain"> </span><span class="token keyword module" style="color:rgb(189, 147, 249);font-style:italic">default</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token literal-property property">plugins</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    </span><span class="token string-property property">"@tailwindcss/postcss"</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="tailwind-css-config">Tailwind CSS config<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss#tailwind-css-config" class="hash-link" aria-label="Прямая ссылка на Tailwind CSS config" title="Прямая ссылка на Tailwind CSS config" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="tailwind-css-config">Tailwind CSS config<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/#tailwind-css-config" class="hash-link" aria-label="Прямая ссылка на Tailwind CSS config" title="Прямая ссылка на Tailwind CSS config" translate="no">​</a></h3>
 <p>Create a <code>tailwind.config.js</code> file in the root of your project (if it doesn't exist):</p>
 <div class="language-javascript codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-javascript codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">module</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token property-access">exports</span><span class="token plain"> </span><span class="token operator">=</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token literal-property property">content</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">[</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    </span><span class="token string" style="color:rgb(255, 121, 198)">"./index.html"</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    </span><span class="token string" style="color:rgb(255, 121, 198)">"./src/**/*.{js,ts,jsx,tsx}"</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token punctuation" style="color:rgb(248, 248, 242)">]</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token literal-property property">theme</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    </span><span class="token literal-property property">extend</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token literal-property property">plugins</span><span class="token operator">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">[</span><span class="token punctuation" style="color:rgb(248, 248, 242)">]</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="attach-tailwind-to-your-app">Attach tailwind to your app<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss#attach-tailwind-to-your-app" class="hash-link" aria-label="Прямая ссылка на Attach tailwind to your app" title="Прямая ссылка на Attach tailwind to your app" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="attach-tailwind-to-your-app">Attach tailwind to your app<a href="https://openbld.net/ru/blog/creating-vue-app-with-tailwind-postcss/#attach-tailwind-to-your-app" class="hash-link" aria-label="Прямая ссылка на Attach tailwind to your app" title="Прямая ссылка на Attach tailwind to your app" translate="no">​</a></h3>
 <p>Create a <code>src/assets/css/tailwind.css</code> file:</p>
 <div class="language-shell codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-shell codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">touch src/assets/tailwind.css</span><br></div></code></pre></div></div>
 <p>And add the following content:</p>
@@ -479,8 +479,8 @@ For such situations, feedback is available <a class="" href="https://openbld.net
     </entry>
     <entry>
         <title type="html"><![CDATA[🔸 OpenBLD.net DNS — Abuse-aware protection for DoH]]></title>
-        <id>https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025/"/>
         <updated>2025-08-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD - Automatic detection and blocking of anomalies without affecting legitimate traffic.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Abuse-aware protection for DoH" src="https://openbld.net/ru/assets/images/openbld-abuse-aware-protection-for-doh-edbe3b1697e50e246d889ace07d567d6.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -490,8 +490,8 @@ For such situations, feedback is available <a class="" href="https://openbld.net
 <p>This won’t affect current users in any way (unless you’re an abuser).
 But if something goes wrong, please let me know: @sysadminkz</p>
 <p>Thanks to everyone using OpenBLD.net! ✌️</p>
-<p>Stay connected: ⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started">OpenBLD.net</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<p>Stay connected: ⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started/">OpenBLD.net</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-abuse-aware-protection-for-doh-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -505,8 +505,8 @@ But if something goes wrong, please let me know: @sysadminkz</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[🐍OpenBLD.net DNS — Now Detecting Parasitic Traffic]]></title>
-        <id>https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025/"/>
         <updated>2025-07-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD - Detecting parasitic traffic, reducing noise, and delivering speed.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Now Detecting Parasitic Traffic" src="https://openbld.net/ru/assets/images/openbld-detecting-noise-delivering-speed-3e4e174c5ef12ab1535e5a5469f05516.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -520,8 +520,8 @@ But if something goes wrong, please let me know: @sysadminkz</p>
 <li class="">less noise for SOC teams and network engineers</li>
 </ul>
 <p>Cyber hygiene starts with DNS — and OpenBLD DNS makes it simple 💪</p>
-<p>Stay connected: ⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started">OpenBLD.net</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<p>Stay connected: ⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started/">OpenBLD.net</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-detecting-noise-delivering-speed-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -535,8 +535,8 @@ But if something goes wrong, please let me know: @sysadminkz</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[🔸OpenBLD.net - DoH Now Sharper And Faster Than Ever.]]></title>
-        <id>https://openbld.net/ru/blog/openbld-doh-made-faster-secure-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-doh-made-faster-secure-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-doh-made-faster-secure-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-doh-made-faster-secure-2025/"/>
         <updated>2025-07-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD - Smarter memory management, TLS session handling. Buffer operation optimization = fewer pauses.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - DoH Made Faster Secure" src="https://openbld.net/ru/assets/images/openbld-doh-made-faster-secure-c9ee39f00609d356eb5021d03d0a4c28.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -554,9 +554,9 @@ But if something goes wrong, please let me know: @sysadminkz</p>
 <p>Maybe it’s not your internet that’s slow — maybe it’s your DNS?</p>
 <p>Try OpenBLD on Android, iOS, browsers, Linux, and Windows:</p>
 <ul>
-<li class="">⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started">Connect to OpenBLD.net</a></li>
+<li class="">⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started/">Connect to OpenBLD.net</a></li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-doh-made-faster-secure-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-doh-made-faster-secure-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -570,8 +570,8 @@ But if something goes wrong, please let me know: @sysadminkz</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[🔸OpenBLD.net - Speed is invisible. Until you feel it.]]></title>
-        <id>https://openbld.net/ru/blog/openbld-speed-invisible-until-you-feel-it-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-speed-invisible-until-you-feel-it-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-speed-invisible-until-you-feel-it-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-speed-invisible-until-you-feel-it-2025/"/>
         <updated>2025-06-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD - We usually notice speed only when it’s gone.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net - Speed is invisible. Until you feel it" src="https://openbld.net/ru/assets/images/openbld-latency-kills-speed-saves-7ac75e3c53898e743d8f6eb18bedc35f.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -586,9 +586,9 @@ But if something goes wrong, please let me know: @sysadminkz</p>
 <p>👉 Just set it and forget it.
 While others wait for a response — you’re already one step ahead.</p>
 <ul>
-<li class="">⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started">Connect to OpenBLD.net</a></li>
+<li class="">⚡ <a class="" href="https://openbld.net/ru/docs/category/get-started/">Connect to OpenBLD.net</a></li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-speed-invisible-until-you-feel-it-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-speed-invisible-until-you-feel-it-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -603,8 +603,8 @@ While others wait for a response — you’re already one step ahead.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[🚀 OpenBLD.net and ClouDNS.net Continue Their Partnership in 2025!]]></title>
-        <id>https://openbld.net/ru/blog/openbld-and-cloudns-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-and-cloudns-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-and-cloudns-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-and-cloudns-2025/"/>
         <updated>2025-06-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD joined ClouDNS back in 2023 — and since then, the service has proven itself as a stable and trusted foundation for all of DNS and GeoDNS infrastructure.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and ClouDNS.net" src="https://openbld.net/ru/assets/images/openbld-cloudns-2025-3c4587ce5635310d66ace129c52853be.webp" width="1250" height="680" class="img_kQCM"></p>
@@ -614,9 +614,9 @@ While others wait for a response — you’re already one step ahead.</p>
 <p>I'm truly happy to continue this collaboration. Without ClouDNS, OpenBLD would not have become the service it is today — and I’m very grateful for that.</p>
 <ul>
 <li class="">Looking for high-quality DNS hosting? - <a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer" class="">https://www.cloudns.net</a></li>
-<li class="">Looking for an Internet without ads and trackers? - <a class="" href="https://openbld.net/ru/docs/category/get-started">Connect today</a></li>
+<li class="">Looking for an Internet without ads and trackers? - <a class="" href="https://openbld.net/ru/docs/category/get-started/">Connect today</a></li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-and-cloudns-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-and-cloudns-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -631,8 +631,8 @@ While others wait for a response — you’re already one step ahead.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[🚀 OpenBLD.net — A New Release Achieving Speed and Dynamics]]></title>
-        <id>https://openbld.net/ru/blog/openbld-achieving-speed-and-dynamics-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-achieving-speed-and-dynamics-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-achieving-speed-and-dynamics-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-achieving-speed-and-dynamics-2025/"/>
         <updated>2025-06-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net - New 2025 update release to the OpenBLD.net ecosystem, focused on performance dynamics, resilience, and predictable DNS request handling]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net — A New 2025 Release Achieving Speed and Dynamics" src="https://openbld.net/ru/assets/images/openbld-achieving-speed-and-dynamics-bfc5eb479450783f8b5e910cfdfc1f2a.jpeg" width="1250" height="680" class="img_kQCM"></p>
@@ -649,8 +649,8 @@ While others wait for a response — you’re already one step ahead.</p>
 • Minimal latency even under heavy load 💪</p>
 <p>💡 All of this — to make the internet cleaner, faster, and safer for all of us.</p>
 <p>🫶 Thank you for being with OpenBLD.net</p>
-<p>Connect today: <a class="" href="https://openbld.net/ru/docs/category/get-started">Get started</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-achieving-speed-and-dynamics-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<p>Connect today: <a class="" href="https://openbld.net/ru/docs/category/get-started/">Get started</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-achieving-speed-and-dynamics-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
@@ -664,8 +664,8 @@ While others wait for a response — you’re already one step ahead.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[🚀 🇺🇸 OpenBLD.net is expanding USA (Miami and Dallas)!]]></title>
-        <id>https://openbld.net/ru/blog/openbld-in-usa-2025</id>
-        <link href="https://openbld.net/ru/blog/openbld-in-usa-2025"/>
+        <id>https://openbld.net/ru/blog/openbld-in-usa-2025/</id>
+        <link href="https://openbld.net/ru/blog/openbld-in-usa-2025/"/>
         <updated>2025-04-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD.net - New DNS servers are now live in Miami and Dallas, USA. Thanks to 3HCLOUD.kz.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🇮🇳 OpenBLD.net is expanding USA (Miami and Dallas)!" src="https://openbld.net/ru/assets/images/openbld-in-usa-375d01f26999151f223c054aff0f5903.jpeg" width="1250" height="680" class="img_kQCM"></p>
@@ -677,8 +677,8 @@ While others wait for a response — you’re already one step ahead.</p>
 ✅ Closer to you</p>
 <p>We believe that only together can we build a truly independent security ecosystem — including protection from DNS leaks into the hands of large corporations.</p>
 <p>Who knows — maybe OpenBLD.net is already near you?</p>
-<p>Connect today: <a class="" href="https://openbld.net/ru/docs/category/get-started">Get started</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-in-usa-2025#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
+<p>Connect today: <a class="" href="https://openbld.net/ru/docs/category/get-started/">Get started</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-in-usa-2025/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
