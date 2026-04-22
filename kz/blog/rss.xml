@@ -4,10 +4,34 @@
         <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
         <link>https://openbld.net/kz/blog/</link>
         <description>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</description>
-        <lastBuildDate>Wed, 15 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>kz</language>
+        <item>
+            <title><![CDATA[🥷  OpenBLD.net - Dedup DNS Events]]></title>
+            <link>https://openbld.net/kz/blog/openbld-dedup-events-feature/</link>
+            <guid>https://openbld.net/kz/blog/openbld-dedup-events-feature/</guid>
+            <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net Anonymized IPs are cool, but now they’re deduplicated too! OpenBLD.net is rolling out an event deduplication mechanism.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🥷 OpenBLD.net — Dedup DNS Events" src="https://openbld.net/kz/assets/images/openbld-dedup-events-feature-3d69c07b258acd0469b0886279d79e6b.webp" width="1250" height="680" class="img_kQCM"></p>
+<p>The privacy march continues! 🚀</p>
+<p>Anonymized IPs are cool, but now they’re deduplicated too! OpenBLD.net is rolling out an event deduplication mechanism.
+Anonymization + Deduplication — what could be better?</p>
+<!-- -->
+<p>Sure, I might be shooting myself in the leg when it comes to incident analysis, but you never know until you try!</p>
+<p>An efficient system should be lean and clean, and for a public service — private!</p>
+<p>Moving forward!</p>
+<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">https://openbld.net/</a></p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-dedup-events-feature/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>updates</category>
+            <category>2026</category>
+        </item>
         <item>
             <title><![CDATA[🥷 OpenBLD.net — IP Anonymization]]></title>
             <link>https://openbld.net/kz/blog/openbld-ip-anonymization-feature/</link>
@@ -580,30 +604,6 @@ While others wait for a response — you’re already one step ahead.</p>
 <p>🫶 Thank you for being with OpenBLD.net</p>
 <p>Connect today: <a class="" href="https://openbld.net/kz/docs/category/get-started/">Get started</a></p>
 <h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-achieving-speed-and-dynamics-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>2025</category>
-        </item>
-        <item>
-            <title><![CDATA[🚀 🇺🇸 OpenBLD.net is expanding USA (Miami and Dallas)!]]></title>
-            <link>https://openbld.net/kz/blog/openbld-in-usa-2025/</link>
-            <guid>https://openbld.net/kz/blog/openbld-in-usa-2025/</guid>
-            <pubDate>Tue, 29 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD.net - New DNS servers are now live in Miami and Dallas, USA. Thanks to 3HCLOUD.kz.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🇮🇳 OpenBLD.net is expanding USA (Miami and Dallas)!" src="https://openbld.net/kz/assets/images/openbld-in-usa-375d01f26999151f223c054aff0f5903.jpeg" width="1250" height="680" class="img_kQCM"></p>
-<p>New DNS servers are now live in Miami and Dallas, USA.</p>
-<p>Thanks to 3HCLOUD.kz, OpenBLD.net strengthens its global presence and pushes forward an independent, secure DNS ecosystem.</p>
-<!-- -->
-<p>✅ Faster
-✅ Safer
-✅ Closer to you</p>
-<p>We believe that only together can we build a truly independent security ecosystem — including protection from DNS leaks into the hands of large corporations.</p>
-<p>Who knows — maybe OpenBLD.net is already near you?</p>
-<p>Connect today: <a class="" href="https://openbld.net/kz/docs/category/get-started/">Get started</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-in-usa-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content:encoded>
