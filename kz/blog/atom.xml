@@ -2,11 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2026-04-22T00:00:00.000Z</updated>
+    <updated>2026-05-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🤝 ClouDNS.net — quality proven over time]]></title>
+        <id>https://openbld.net/kz/blog/openbld-and-cloudns-2026/</id>
+        <link href="https://openbld.net/kz/blog/openbld-and-cloudns-2026/"/>
+        <updated>2026-05-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ClouDNS has been part of the OpenBLD.net infrastructure for many years.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD: ClouDNS.net — quality proven over time" src="https://openbld.net/kz/assets/images/openbld-and-cloudns-4d4624236413af442951c787d2885f2f.webp" width="1250" height="680" class="img_kQCM"></p>
+<p>ClouDNS has been part of the OpenBLD.net infrastructure for many years.
+It’s one of those rare cases where a service consistently proves its quality over time:</p>
+<ul>
+<li class="">Global network (Anycast + GeoDNS)</li>
+<li class="">Failover and fallback mechanisms</li>
+<li class="">Monitoring and health checks</li>
+<li class="">Stability and SLA</li>
+<li class="">Cost-effective</li>
+</ul>
+<!-- -->
+<p>OpenBLD.net builds a secure DNS infrastructure. ClouDNS → stable global distribution and availability
+(<a href="https://www.cloudns.net/geodns/" target="_blank" rel="noopener noreferrer" class="">GeoDNS</a>, <a href="https://www.cloudns.net/anycast-dns/" target="_blank" rel="noopener noreferrer" class="">Anycast</a> network with 60+ PoPs worldwide).</p>
+<ul>
+<li class="">More details: <a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer" class="">https://www.cloudns.net/</a></li>
+</ul>
+<p>Thank you, ClouDNS, for your trust and long-term partnership.</p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-and-cloudns-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🥷  OpenBLD.net - Dedup DNS Events]]></title>
         <id>https://openbld.net/kz/blog/openbld-dedup-events-feature/</id>
@@ -655,39 +691,6 @@ While others wait for a response — you’re already one step ahead.</p>
         <category label="openbld" term="openbld"/>
         <category label="updates" term="updates"/>
         <category label="cloudns" term="cloudns"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 OpenBLD.net — A New Release Achieving Speed and Dynamics]]></title>
-        <id>https://openbld.net/kz/blog/openbld-achieving-speed-and-dynamics-2025/</id>
-        <link href="https://openbld.net/kz/blog/openbld-achieving-speed-and-dynamics-2025/"/>
-        <updated>2025-06-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net - New 2025 update release to the OpenBLD.net ecosystem, focused on performance dynamics, resilience, and predictable DNS request handling]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net — A New 2025 Release Achieving Speed and Dynamics" src="https://openbld.net/kz/assets/images/openbld-achieving-speed-and-dynamics-bfc5eb479450783f8b5e910cfdfc1f2a.jpeg" width="1250" height="680" class="img_kQCM"></p>
-<p>The art of speed and stability in action.</p>
-<p>Introducing the latest update to the OpenBLD.net ecosystem, focused on performance dynamics, resilience, and predictable DNS request handling 🔄.</p>
-<!-- -->
-<p>🔧 What’s new:</p>
-<p>• Optimized filters — faster than ever
-• Smarter memory handling — smooth and spike-free
-• Automatic CDN detection + Lua-based forwarding — intelligent routing</p>
-<p>🚀 The result:</p>
-<p>• Rapid warm-up
-• High QPS performance — without fluctuations or drops
-• Minimal latency even under heavy load 💪</p>
-<p>💡 All of this — to make the internet cleaner, faster, and safer for all of us.</p>
-<p>🫶 Thank you for being with OpenBLD.net</p>
-<p>Connect today: <a class="" href="https://openbld.net/kz/docs/category/get-started/">Get started</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-achieving-speed-and-dynamics-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
         <category label="2025" term="2025"/>
     </entry>
 </feed>
