@@ -2,11 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</title>
-    <updated>2026-05-07T00:00:00.000Z</updated>
+    <updated>2026-05-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free Blog</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[⚡ DNS is not just about domains. It is about Trust.]]></title>
+        <id>https://openbld.net/kz/blog/openbld-supply-chain-attack-digest-2026/</id>
+        <link href="https://openbld.net/kz/blog/openbld-supply-chain-attack-digest-2026/"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recent supply chain incidents are a strong reminder that modern attacks often start through tools and workflows developers already trust]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD: DNS is not just about domains. It is about Trust." src="https://openbld.net/kz/assets/images/supply-chain-attack-digest-watch-yourself-d4844caff5bb711a72a9c2ed50d46330.webp" width="1672" height="941" class="img_kQCM"></p>
+<p>Recent supply chain incidents are a strong reminder that modern attacks often start through tools and workflows developers already trust:</p>
+<ul>
+<li class="">npm packages and dependency updates</li>
+<li class="">compromised maintainer accounts</li>
+<li class="">VSCode extensions</li>
+<li class="">GitHub Actions workflows</li>
+<li class="">developer tools</li>
+<li class="">fake installers and update mechanisms</li>
+</ul>
+<!-- -->
+<p>Several recent cases highlight this trend:</p>
+<ul>
+<li class="">Axios compromised on npm — malicious versions dropped a Remote Access Trojan <a href="https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
+<li class="">Compromised VSCode Nx Console <a href="https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
+<li class="">OpenAI response to the TanStack npm supply chain attack <a href="https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
+<li class="">OpenAI response to the Axios developer tool compromise <a href="https://openai.com/index/axios-developer-tool-compromise/" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
+<li class="">GitHub reported an investigation into unauthorized access to internal repositories <a href="https://x.com/github/status/2056884788179726685" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
+</ul>
+<p>The key takeaway: supply chain attacks are becoming more relevant to every developer, engineering team, and company.</p>
+<p><strong>DNS security should not be treated as an optional layer.</strong></p>
+<p>It can provide visibility and control when malicious code attempts to:</p>
+<ul>
+<li class="">connect to C2 infrastructure</li>
+<li class="">download additional payloads</li>
+<li class="">reach phishing domains</li>
+<li class="">communicate with fake update servers</li>
+<li class="">exfiltrate data through suspicious endpoints</li>
+</ul>
+<p>If malicious code has already entered the environment, visibility becomes critical...</p>
+<p>At this point, the key questions are simple:</p>
+<ul>
+<li class=""><strong>Can you see where it is trying to connect?</strong></li>
+<li class=""><strong>Can you understand whether that connection is expected?</strong></li>
+<li class=""><strong>Can you react before the incident becomes bigger?</strong></li>
+</ul>
+<p>OpenBLD.net — Security starts earlier than incident response.</p>
+<p>Watch yourself, your emails, your extensions, and your DNS.</p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-supply-chain-attack-digest-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="digest" term="digest"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🤝 ClouDNS.net — quality proven over time]]></title>
         <id>https://openbld.net/kz/blog/openbld-and-cloudns-2026/</id>
@@ -653,34 +710,6 @@ While others wait for a response — you’re already one step ahead.</p>
 <li class="">⚡ <a class="" href="https://openbld.net/kz/docs/category/get-started/">Connect to OpenBLD.net</a></li>
 </ul>
 <h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-speed-invisible-until-you-feel-it-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="cloudns" term="cloudns"/>
-        <category label="2025" term="2025"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 OpenBLD.net and ClouDNS.net Continue Their Partnership in 2025!]]></title>
-        <id>https://openbld.net/kz/blog/openbld-and-cloudns-2025/</id>
-        <link href="https://openbld.net/kz/blog/openbld-and-cloudns-2025/"/>
-        <updated>2025-06-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD joined ClouDNS back in 2023 — and since then, the service has proven itself as a stable and trusted foundation for all of DNS and GeoDNS infrastructure.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD.net and ClouDNS.net" src="https://openbld.net/kz/assets/images/openbld-cloudns-2025-3c4587ce5635310d66ace129c52853be.webp" width="1250" height="680" class="img_kQCM"></p>
-<p><a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer" class="">ClouDNS</a> is a reliable, fast ⚡, and accessible platform for DNS hosting. With a global network of points of presence, instant DNS updates, and powerful <a href="https://www.cloudns.net/geodns/" target="_blank" rel="noopener noreferrer" class="">GeoDNS</a> capabilities, it enables flexible and adaptive DNS management in today’s fast-paced Internet environment.</p>
-<!-- -->
-<p>OpenBLD joined ClouDNS back in 2023 — and since then, the service has proven itself as a stable and trusted foundation for all of DNS and GeoDNS infrastructure.</p>
-<p>I'm truly happy to continue this collaboration. Without ClouDNS, OpenBLD would not have become the service it is today — and I’m very grateful for that.</p>
-<ul>
-<li class="">Looking for high-quality DNS hosting? - <a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer" class="">https://www.cloudns.net</a></li>
-<li class="">Looking for an Internet without ads and trackers? - <a class="" href="https://openbld.net/kz/docs/category/get-started/">Connect today</a></li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-and-cloudns-2025/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram Channel</a>.</li>
 </ul>]]></content>
