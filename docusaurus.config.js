@@ -63,6 +63,15 @@ const config = {
           postsPerPage: 6,
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
+
+          feedOptions: {
+            type: ['rss', 'atom', 'json'],
+            title: 'OpenBLD.net Blog',
+            description: 'OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.',
+            language: 'en',
+            limit: 5,
+          },
+
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
