@@ -1,0 +1,94 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "OpenBLD.net Blog",
+    "home_page_url": "https://openbld.net/kz/blog/",
+    "description": "OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.",
+    "items": [
+        {
+            "id": "https://openbld.net/kz/blog/openbld-supply-chain-attack-digest-2026/",
+            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"OpenBLD: DNS is not just about domains. It is about Trust.\" src=\"https://openbld.net/kz/assets/images/supply-chain-attack-digest-watch-yourself-d4844caff5bb711a72a9c2ed50d46330.webp\" width=\"1672\" height=\"941\" class=\"img_kQCM\"></p>\n<p>Recent supply chain incidents are a strong reminder that modern attacks often start through tools and workflows developers already trust:</p>\n<ul>\n<li class=\"\">npm packages and dependency updates</li>\n<li class=\"\">compromised maintainer accounts</li>\n<li class=\"\">VSCode extensions</li>\n<li class=\"\">GitHub Actions workflows</li>\n<li class=\"\">developer tools</li>\n<li class=\"\">fake installers and update mechanisms</li>\n</ul>\n<!-- -->\n<p>Several recent cases highlight this trend:</p>\n<ul>\n<li class=\"\">Axios compromised on npm — malicious versions dropped a Remote Access Trojan <a href=\"https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">&gt;</a></li>\n<li class=\"\">Compromised VSCode Nx Console <a href=\"https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">&gt;</a></li>\n<li class=\"\">OpenAI response to the TanStack npm supply chain attack <a href=\"https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">&gt;</a></li>\n<li class=\"\">OpenAI response to the Axios developer tool compromise <a href=\"https://openai.com/index/axios-developer-tool-compromise/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">&gt;</a></li>\n<li class=\"\">GitHub reported an investigation into unauthorized access to internal repositories <a href=\"https://x.com/github/status/2056884788179726685\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">&gt;</a></li>\n<li class=\"\">Grafana supply chain ransomware incident <a href=\"https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">&gt;</a></li>\n</ul>\n<p>The key takeaway: supply chain attacks are becoming more relevant to every developer, engineering team, and company.</p>\n<p><strong>DNS security should not be treated as an optional layer.</strong></p>\n<p>It can provide visibility and control when malicious code attempts to:</p>\n<ul>\n<li class=\"\">connect to C2 infrastructure</li>\n<li class=\"\">download additional payloads</li>\n<li class=\"\">reach phishing domains</li>\n<li class=\"\">communicate with fake update servers</li>\n<li class=\"\">exfiltrate data through suspicious endpoints</li>\n</ul>\n<p>If malicious code has already entered the environment, visibility becomes critical...</p>\n<p>At this point, the key questions are simple:</p>\n<ul>\n<li class=\"\"><strong>Can you see where it is trying to connect?</strong></li>\n<li class=\"\"><strong>Can you understand whether that connection is expected?</strong></li>\n<li class=\"\"><strong>Can you react before the incident becomes bigger?</strong></li>\n</ul>\n<p>OpenBLD.net — Security starts earlier than incident response.</p>\n<p>Watch yourself, your emails, your extensions, and your DNS.</p>\n<hr>\n<h4 class=\"anchor anchorTargetStickyNavbar_HBTz\" id=\"updates\">Updates<a href=\"https://openbld.net/kz/blog/openbld-supply-chain-attack-digest-2026/#updates\" class=\"hash-link\" aria-label=\"Updates-ға тікелей сілтеме\" title=\"Updates-ға тікелей сілтеме\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">OpenBLD.net Telegram</a></li>\n</ul>",
+            "url": "https://openbld.net/kz/blog/openbld-supply-chain-attack-digest-2026/",
+            "title": "⚡ DNS is not just about domains. It is about Trust.",
+            "summary": "Recent supply chain incidents are a strong reminder that modern attacks often start through tools and workflows developers already trust",
+            "date_modified": "2026-05-20T00:00:00.000Z",
+            "author": {
+                "name": "Yevgeniy Goncharov",
+                "url": "https://github.com/m0zgen"
+            },
+            "tags": [
+                "openbld",
+                "digest",
+                "2026"
+            ]
+        },
+        {
+            "id": "https://openbld.net/kz/blog/openbld-and-cloudns-2026/",
+            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"OpenBLD: ClouDNS.net — quality proven over time\" src=\"https://openbld.net/kz/assets/images/openbld-and-cloudns-4d4624236413af442951c787d2885f2f.webp\" width=\"1250\" height=\"680\" class=\"img_kQCM\"></p>\n<p>ClouDNS has been part of the OpenBLD.net infrastructure for many years.\nIt’s one of those rare cases where a service consistently proves its quality over time:</p>\n<ul>\n<li class=\"\">Global network (Anycast + GeoDNS)</li>\n<li class=\"\">Failover and fallback mechanisms</li>\n<li class=\"\">Monitoring and health checks</li>\n<li class=\"\">Stability and SLA</li>\n<li class=\"\">Cost-effective</li>\n</ul>\n<!-- -->\n<p>OpenBLD.net builds a secure DNS infrastructure. ClouDNS → stable global distribution and availability\n(<a href=\"https://www.cloudns.net/geodns/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">GeoDNS</a>, <a href=\"https://www.cloudns.net/anycast-dns/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">Anycast</a> network with 60+ PoPs worldwide).</p>\n<ul>\n<li class=\"\">More details: <a href=\"https://www.cloudns.net/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">https://www.cloudns.net/</a></li>\n</ul>\n<p>Thank you, ClouDNS, for your trust and long-term partnership.</p>\n<hr>\n<h4 class=\"anchor anchorTargetStickyNavbar_HBTz\" id=\"updates\">Updates<a href=\"https://openbld.net/kz/blog/openbld-and-cloudns-2026/#updates\" class=\"hash-link\" aria-label=\"Updates-ға тікелей сілтеме\" title=\"Updates-ға тікелей сілтеме\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">OpenBLD.net Telegram</a></li>\n</ul>",
+            "url": "https://openbld.net/kz/blog/openbld-and-cloudns-2026/",
+            "title": "🤝 ClouDNS.net — quality proven over time",
+            "summary": "ClouDNS has been part of the OpenBLD.net infrastructure for many years.",
+            "date_modified": "2026-05-07T00:00:00.000Z",
+            "author": {
+                "name": "Yevgeniy Goncharov",
+                "url": "https://github.com/m0zgen"
+            },
+            "tags": [
+                "openbld",
+                "updates",
+                "2026"
+            ]
+        },
+        {
+            "id": "https://openbld.net/kz/blog/openbld-dedup-events-feature/",
+            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"🥷 OpenBLD.net — Dedup DNS Events\" src=\"https://openbld.net/kz/assets/images/openbld-dedup-events-feature-3d69c07b258acd0469b0886279d79e6b.webp\" width=\"1250\" height=\"680\" class=\"img_kQCM\"></p>\n<p>The privacy march continues! 🚀</p>\n<p>Anonymized IPs are cool, but now they’re deduplicated too! OpenBLD.net is rolling out an event deduplication mechanism.\nAnonymization + Deduplication — what could be better?</p>\n<!-- -->\n<p>Sure, I might be shooting myself in the leg when it comes to incident analysis, but you never know until you try!</p>\n<p>An efficient system should be lean and clean, and for a public service — private!</p>\n<p>Moving forward!</p>\n<p><a href=\"https://openbld.net/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">https://openbld.net/</a></p>\n<hr>\n<h4 class=\"anchor anchorTargetStickyNavbar_HBTz\" id=\"updates\">Updates<a href=\"https://openbld.net/kz/blog/openbld-dedup-events-feature/#updates\" class=\"hash-link\" aria-label=\"Updates-ға тікелей сілтеме\" title=\"Updates-ға тікелей сілтеме\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">OpenBLD.net Telegram</a></li>\n</ul>",
+            "url": "https://openbld.net/kz/blog/openbld-dedup-events-feature/",
+            "title": "🥷  OpenBLD.net - Dedup DNS Events",
+            "summary": "OpenBLD.net Anonymized IPs are cool, but now they’re deduplicated too! OpenBLD.net is rolling out an event deduplication mechanism.",
+            "date_modified": "2026-04-22T00:00:00.000Z",
+            "author": {
+                "name": "Yevgeniy Goncharov",
+                "url": "https://github.com/m0zgen"
+            },
+            "tags": [
+                "openbld",
+                "updates",
+                "2026"
+            ]
+        },
+        {
+            "id": "https://openbld.net/kz/blog/openbld-ip-anonymization-feature/",
+            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"🥷 OpenBLD.net — IP Anonymization Implemented\" src=\"https://openbld.net/kz/assets/images/openbld-ip-anonymization-feature-13c37ed9caa7f4db2fd63a6623025d8e.webp\" width=\"1250\" height=\"680\" class=\"img_kQCM\"></p>\n<p>OpenBLD is implementing an IP anonymization mode. Address data will be masked in logs and metrics—if any, and if they're not needed in their raw form.</p>\n<p>DNS reveals more than you think. Your behavior is your life, it's your daily pattern.</p>\n<!-- -->\n<p>Typical request path: Request &gt; Domain &gt; Time &gt; Location</p>\n<p>Your pattern, if you want a digital stamp)</p>\n<p>OpenBLD now features IP anonymization in logs and metrics:</p>\n<ul>\n<li class=\"\">masking</li>\n<li class=\"\">hashing</li>\n<li class=\"\">nothing at all or just the word \"hidden\"</li>\n</ul>\n<p>This mode will be gradually implemented and, if possible, universally.</p>\n<p>In case of diagnostics, well, let's try to troubleshoot the first octet and time. We'll see.</p>\n<p>Privacy starts with DNS! Peace ✌️</p>\n<p><a href=\"https://openbld.net/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">https://openbld.net/</a></p>\n<hr>\n<h4 class=\"anchor anchorTargetStickyNavbar_HBTz\" id=\"updates\">Updates<a href=\"https://openbld.net/kz/blog/openbld-ip-anonymization-feature/#updates\" class=\"hash-link\" aria-label=\"Updates-ға тікелей сілтеме\" title=\"Updates-ға тікелей сілтеме\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">OpenBLD.net Telegram</a></li>\n</ul>",
+            "url": "https://openbld.net/kz/blog/openbld-ip-anonymization-feature/",
+            "title": "🥷 OpenBLD.net — IP Anonymization",
+            "summary": "OpenBLD.net implemented IP anonymization feature, ensuring that no personally identifiable information is stored.",
+            "date_modified": "2026-04-15T00:00:00.000Z",
+            "author": {
+                "name": "Yevgeniy Goncharov",
+                "url": "https://github.com/m0zgen"
+            },
+            "tags": [
+                "openbld",
+                "updates",
+                "2026"
+            ]
+        },
+        {
+            "id": "https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/",
+            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"UptimeRobot supports OpenBLD.net\" src=\"https://openbld.net/kz/assets/images/openbld-uptimerobot-2026-efad4e865ced06432e5a1d8d58e73aaf.webp\" width=\"1250\" height=\"680\" class=\"img_kQCM\"></p>\n<p>This is one of those cases when a service truly becomes part of your infrastructure.</p>\n<p>Honestly, for me, it’s a clear choice.</p>\n<!-- -->\n<h3 class=\"anchor anchorTargetStickyNavbar_HBTz\" id=\"why\">Why<a href=\"https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/#why\" class=\"hash-link\" aria-label=\"Why-ға тікелей сілтеме\" title=\"Why-ға тікелей сілтеме\" translate=\"no\">​</a></h3>\n<ul class=\"contains-task-list containsTaskList_iysV\">\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\" checked=\"\"> <!-- -->50 free monitors</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\" checked=\"\"> <!-- -->20+ integrations</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\" checked=\"\"> <!-- -->Real-time alerts (web, mobile, Telegram, and more)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\" checked=\"\"> <!-- -->Public status pages</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\" checked=\"\"> <!-- -->A new interface — clean, fast, and convenient</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled=\"\" checked=\"\"> <!-- -->Most importantly — a responsive and friendly UptimeRobot team</li>\n</ul>\n<hr>\n<h3 class=\"anchor anchorTargetStickyNavbar_HBTz\" id=\"openbldnet-uptime-status\">OpenBLD.net uptime status<a href=\"https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/#openbldnet-uptime-status\" class=\"hash-link\" aria-label=\"OpenBLD.net uptime status-ға тікелей сілтеме\" title=\"OpenBLD.net uptime status-ға тікелей сілтеме\" translate=\"no\">​</a></h3>\n<p>According to the public status page, OpenBLD.net demonstrates the following availability:</p>\n<table><thead><tr><th>Period</th><th>Uptime</th></tr></thead><tbody><tr><td>Last 24 hours</td><td>100.000%</td></tr><tr><td>Last 7 days</td><td>99.971%</td></tr><tr><td>Last 30 days</td><td>99.984%</td></tr><tr><td>Last 90 days</td><td>99.983%</td></tr></tbody></table>\n<p>👉 OpenBLD Status:<br>\n<a href=\"https://bld-status.sys-adm.in/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">https://bld-status.sys-adm.in/</a></p>\n<hr>\n<p>Thank you to the UptimeRobot team for your trust and continued support 🤝</p>\n<h3 class=\"anchor anchorTargetStickyNavbar_HBTz\" id=\"updates\">Updates<a href=\"https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/#updates\" class=\"hash-link\" aria-label=\"Updates-ға тікелей сілтеме\" title=\"Updates-ға тікелей сілтеме\" translate=\"no\">​</a></h3>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">OpenBLD.net Telegram</a></li>\n</ul>",
+            "url": "https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/",
+            "title": "🤝 UptimeRobot supports OpenBLD.net",
+            "summary": "OpenBLD.net uses UptimeRobot for reliable monitoring and improved uptime visibility.",
+            "date_modified": "2026-03-19T00:00:00.000Z",
+            "author": {
+                "name": "Yevgeniy Goncharov",
+                "url": "https://github.com/m0zgen"
+            },
+            "tags": [
+                "openbld",
+                "updates",
+                "uptimerobot",
+                "2026"
+            ]
+        }
+    ]
+}
