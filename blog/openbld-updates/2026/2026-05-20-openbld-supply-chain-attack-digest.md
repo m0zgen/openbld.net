@@ -26,6 +26,7 @@ Several recent cases highlight this trend:
 - OpenAI response to the TanStack npm supply chain attack [>](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/)
 - OpenAI response to the Axios developer tool compromise [>](https://openai.com/index/axios-developer-tool-compromise/)
 - GitHub reported an investigation into unauthorized access to internal repositories [>](https://x.com/github/status/2056884788179726685)
+- Grafana supply chain ransomware incident [>](https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/)
 
 The key takeaway: supply chain attacks are becoming more relevant to every developer, engineering team, and company.
 
