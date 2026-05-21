@@ -37,7 +37,7 @@ PilgrimZero (testing), Pak_DV (testing), George.K (testing), Slava.V (testing),
 Sergey.M (testing), V B (testing), Alibek.B (testing), Dmitry (testing), Oleg (testing) ⚡
 Simon.W (testing) 💪, Anatoly (testing) 💪⚡, Thatskriptkid (contribute), Gregory Z (contribute) 💪⚡
 
-### 2024
+### 2024 - 2025
 Alexandr Bespoyasko (contribute) ⚡, Клён 🌳 (ArtloopTeam) 🚜 ☀️, Alexander G ☀️, El (testing) 💪⚡, 
 Roman G. ☀️, TeaqariaWTF 🚴‍, Green Duck 🚴‍, Bessmertnyi_poni ⚡☀️ 🚴, LexterS999 🚴‍, Timur Shaikhin 🚴‍⚡
 
