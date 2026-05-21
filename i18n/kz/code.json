@@ -194,6 +194,33 @@
   "homepage.Thanks.AssistLink": {
     "message": "Сен жобаға қалай қолдау көрсете аласың?"
   },
+  "homepage.LatestBlogPosts.PreHeader": {
+    "message": "OpenBLD.net блогы"
+  },
+  "homepage.LatestBlogPosts.Header": {
+    "message": "Соңғы блог жазбалары"
+  },
+  "homepage.LatestBlogPosts.PostHeader": {
+    "message": "DNS қауіпсіздігі, құпиялылық, инфрақұрылым және нақты әлемдегі қауіптер туралы қысқаша ескертпелер."
+  },
+  "homepage.LatestBlogPosts.ReadMore": {
+    "message": "Толығырақ оқу →"
+  },
+  "homepage.FinalCTA.PreHeader": {
+    "message": "OpenBLD-ті қолданып көруге дайынсыз ба?"
+  },
+  "homepage.FinalCTA.Header": {
+    "message": "DNS деңгейін бақылауға алыңыз."
+  },
+  "homepage.FinalCTA.PostHeader": {
+    "message": "Қауіпсіздікке бағытталған DNS сүзгілеуін пайдаланып OpenBLD жүйесін пайдалана бастаңыз."
+  },
+  "homepage.FinalCTA.QuickSetup": {
+    "message": "Қосылу"
+  },
+  "homepage.FinalCTA.CheckStatus": {
+    "message": "Күйді тексеру →"
+  },
   "theme.ErrorPageContent.title": {
     "message": "Парақшада жаңылысу орын алды.",
     "description": "The title of the fallback page when the page crashed"

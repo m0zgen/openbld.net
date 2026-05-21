@@ -194,6 +194,33 @@
   "homepage.Thanks.AssistLink": {
     "message": "Как ты можешь поддержать проект?"
   },
+  "homepage.LatestBlogPosts.PreHeader": {
+    "message": "OpenBLD.net Блог"
+  },
+  "homepage.LatestBlogPosts.Header": {
+    "message": "Последние записи блога"
+  },
+  "homepage.LatestBlogPosts.PostHeader": {
+    "message": "Краткие заметки о безопасности DNS, конфиденциальности, инфраструктуре и реальных угрозах."
+  },
+  "homepage.LatestBlogPosts.ReadMore": {
+    "message": "Подробнее →"
+  },
+  "homepage.FinalCTA.PreHeader": {
+    "message": "Готовы попробовать OpenBLD?"
+  },
+  "homepage.FinalCTA.Header": {
+    "message": "Возьмите под контроль DNS-уровень."
+  },
+  "homepage.FinalCTA.PostHeader": {
+    "message": "Начните использовать OpenBLD, используя DNS-фильтрацию, ориентированную на безопасность."
+  },
+  "homepage.FinalCTA.QuickSetup": {
+    "message": "Подключиться"
+  },
+  "homepage.FinalCTA.CheckStatus": {
+    "message": "Проверить статус →"
+  },
   "theme.ErrorPageContent.title": {
     "message": "На странице произошёл сбой.",
     "description": "The title of the fallback page when the page crashed"

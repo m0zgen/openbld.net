@@ -16,6 +16,8 @@ import CodeBlock from '@theme/CodeBlock';
 import styles from './index.module.css';
 import HomepageMap from "../components/HomepageMap";
 import Accordion from "../components/ComponentAccordeon";
+import LatestBlogPosts from '../components/LatestBlogPosts';
+import FinalCTA from '@site/src/components/FinalCTA';
 
 // Header Component
 function HomepageHeader() {
@@ -599,6 +601,8 @@ export default function Home() {
                 <HomepageMap/>
                 <HomepageLogosCloud/>
                 <HomepageThanks/>
+                <LatestBlogPosts />
+                <FinalCTA />
             </main>
         </Layout>
     );
