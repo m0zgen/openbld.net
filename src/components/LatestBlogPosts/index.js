@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
+import Translate from "@docusaurus/Translate";
 
 function stripHtml(input) {
     if (!input) {
@@ -71,11 +72,17 @@ export default function LatestBlogPosts() {
         <section className={styles.section}>
             <div className="container">
                 <div className={styles.header}>
-                    <p className={styles.eyebrow}>OpenBLD.net Blog</p>
-                    <h2>Latest Security Notes</h2>
+                    <p className={styles.eyebrow}>
+                        <Translate id="homepage.LatestBlogPosts.PreHeader">OpenBLD.net Blog</Translate>
+                    </p>
+                    <h2>
+                        <Translate id="homepage.LatestBlogPosts.Header">Latest Blog Notes</Translate>
+                    </h2>
                     <p>
+                        <Translate id="homepage.LatestBlogPosts.PostHeader">
                         Short notes about DNS security, privacy, infrastructure,
                         and real-world threats.
+                        </Translate>
                     </p>
                 </div>
 
@@ -113,7 +120,9 @@ export default function LatestBlogPosts() {
                 </div>
 
                 <div className={styles.more}>
-                    <Link to="/blog">Read more in the Blog →</Link>
+                    <Link to="/blog">
+                        <Translate id="homepage.LatestBlogPosts.ReadMore">Read more in the Blog →</Translate>
+                    </Link>
                 </div>
             </div>
         </section>

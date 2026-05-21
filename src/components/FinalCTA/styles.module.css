@@ -1,0 +1,125 @@
+.section {
+    padding: 3rem 0 4.5rem;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) auto;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 24px;
+    background:
+            radial-gradient(
+                    circle at top left,
+                    color-mix(in srgb, var(--ifm-color-primary) 22%, transparent),
+                    transparent 34%
+            ),
+            linear-gradient(
+                    135deg,
+                    rgb(255 255 255 / 5%),
+                    rgb(255 255 255 / 1%)
+            ),
+            var(--ifm-card-background-color);
+    box-shadow: 0 18px 55px rgb(0 0 0 / 14%);
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    inset: auto -80px -120px auto;
+    width: 260px;
+    height: 260px;
+    border-radius: 999px;
+    background: color-mix(
+            in srgb,
+            var(--ifm-color-primary) 18%,
+            transparent
+    );
+    filter: blur(18px);
+    pointer-events: none;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.eyebrow {
+    margin: 0 0 0.5rem;
+    color: var(--ifm-color-primary);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.content h2 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.05;
+}
+
+.description {
+    max-width: 680px;
+    margin: 1rem 0 0;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    opacity: 0.82;
+}
+
+.actions {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.75rem;
+}
+
+.statusLink {
+    display: inline-flex;
+    align-items: center;
+    min-height: 48px;
+    padding: 0 0.25rem;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.statusLink:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 996px) {
+    .box {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .actions {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 560px) {
+    .section {
+        padding: 2.5rem 0 3.5rem;
+    }
+
+    .actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .actions :global(.button) {
+        width: 100%;
+    }
+
+    .statusLink {
+        justify-content: center;
+    }
+}
