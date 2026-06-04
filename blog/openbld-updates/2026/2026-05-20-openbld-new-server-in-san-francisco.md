@@ -8,7 +8,7 @@ tags: [openbld, updates, 2026]
 
 ![🚀 OpenBLD.net in San Francisco](images/openbld-in-san-francisco.webp)
 
-Thanks to 3HCLOUD.kz, a new OpenBLD infrastructure server has been deployed in San Francisco.
+Thanks to [3HCLOUD.kz](https://3hcloud.kz/), a new OpenBLD infrastructure server has been deployed in San Francisco.
 
 Over the years of working together, 3HCLOUD has consistently demonstrated:
 
@@ -20,15 +20,15 @@ Over the years of working together, 3HCLOUD has consistently demonstrated:
 
 {/* truncate */}
 
-Throughout the development of OpenBLD.net, we have worked with many cloud providers. Not all of them are able to meet the demands of DNS infrastructure.
+Throughout the development of [OpenBLD.net](https://openbld.net/), we have worked with many cloud providers. Not all of them are able to meet the demands of DNS infrastructure.
 
 _You could say that OpenBLD.net has become a kind of stress test for cloud platforms._
 
-That is why it is especially rewarding to highlight that 3HCLOUD has been successfully passing this test for many years.
+That is why it is especially rewarding to highlight that [3HCLOUD](https://3hcloud.kz/) has been successfully passing this test for many years.
 
 Together, we are making the Internet faster, safer, and more reliable.
 
-Thank you to the 3HCLOUD team for supporting the project. 🤝
+Thank you to the [3HCLOUD.kz](https://3hcloud.kz/) team for supporting the project. 🤝
 
 ---
 
