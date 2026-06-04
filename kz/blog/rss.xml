@@ -4,18 +4,18 @@
         <title>OpenBLD.net Blog</title>
         <link>https://openbld.net/kz/blog/</link>
         <description>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</description>
-        <lastBuildDate>Wed, 20 May 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[🚀 OpenBLD.net in San Francisco]]></title>
-            <link>https://openbld.net/kz/blog/openbld-in san-francisco-2026/</link>
-            <guid>https://openbld.net/kz/blog/openbld-in san-francisco-2026/</guid>
-            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+            <link>https://openbld.net/kz/blog/openbld-in-san-francisco-2026/</link>
+            <guid>https://openbld.net/kz/blog/openbld-in-san-francisco-2026/</guid>
+            <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Thanks to 3HCLOUD.kz, a new OpenBLD infrastructure server has been deployed in San Francisco.]]></description>
             <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net in San Francisco" src="https://openbld.net/kz/assets/images/openbld-in-san-francisco-d995e74af774c7e17a1ef2d752579653.webp" width="1250" height="680" class="img_kQCM"></p>
-<p>Thanks to <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD.kz</a>, a new OpenBLD infrastructure server has been deployed in San Francisco.</p>
+<p>Thanks to <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a>, a new OpenBLD infrastructure server has been deployed in San Francisco.</p>
 <p>Over the years of working together, 3HCLOUD has consistently demonstrated:</p>
 <ul>
 <li class="">Stable and reliable services</li>
@@ -27,11 +27,11 @@
 <!-- -->
 <p>Throughout the development of <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net</a>, we have worked with many cloud providers. Not all of them are able to meet the demands of DNS infrastructure.</p>
 <p><em>You could say that OpenBLD.net has become a kind of stress test for cloud platforms.</em></p>
-<p>That is why it is especially rewarding to highlight that <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a> has been successfully passing this test for many years.</p>
+<p>That is why it is especially rewarding to highlight that <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a> has been successfully passing this test for many years.</p>
 <p>Together, we are making the Internet faster, safer, and more reliable.</p>
-<p>Thank you to the <a href="https://3hcloud.kz/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD.kz</a> team for supporting the project. 🤝</p>
+<p>Thank you to the <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a> team for supporting the project. 🤝</p>
 <hr>
-<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-in%20san-francisco-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-in-san-francisco-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
 </ul>]]></content:encoded>
