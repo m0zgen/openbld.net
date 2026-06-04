@@ -180,16 +180,23 @@ const servers = [
         "left": "170"
     },
     {
-        "name": "3HCLOUD (Dallas)",
+        "name": "3HCLOUD (San Francisco)",
         "url": "https://3hcloud.kz/",
         "id": "usa_2",
+        "top": "190",
+        "left": "120"
+    },
+    {
+        "name": "3HCLOUD (Dallas)",
+        "url": "https://3hcloud.kz/",
+        "id": "usa_3",
         "top": "212",
         "left": "183"
     },
     {
         "name": "3HCLOUD (Miami)",
         "url": "https://3hcloud.kz/",
-        "id": "usa_3",
+        "id": "usa_4",
         "top": "232",
         "left": "225"
     },
