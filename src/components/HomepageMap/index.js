@@ -26,22 +26,22 @@ const servers = [
         "left": "673"
     },
     {
-        "name": "3HCLOUD.kz (Kazakhstan)",
+        "name": "3hcloud.com (Kazakhstan)",
         "url": "https://3hcloud.kz/",
         "id": "kazakhstan_almaty_3",
         "top": "192",
         "left": "669"
     },
     {
-        "name": "3hcloud.kz (Kazakhstan)",
-        "url": "https://3hcloud.kz/",
+        "name": "3hcloud.com (Kazakhstan)",
+        "url": "https://3hcloud.com/",
         "id": "kazakhstan_almaty_4",
         "top": "192",
         "left": "662"
     },
     {
-        "name": "3HCLOUD.kz (Warsaw)",
-        "url": "https://3hcloud.kz/",
+        "name": "3hcloud.com (Warsaw)",
+        "url": "https://3hcloud.com/",
         "id": "poland_1",
         "top": "148",
         "left": "457"
@@ -181,21 +181,21 @@ const servers = [
     },
     {
         "name": "3HCLOUD (San Francisco)",
-        "url": "https://3hcloud.kz/",
+        "url": "https://3hcloud.com/",
         "id": "usa_2",
         "top": "190",
         "left": "120"
     },
     {
         "name": "3HCLOUD (Dallas)",
-        "url": "https://3hcloud.kz/",
+        "url": "https://3hcloud.com/",
         "id": "usa_3",
         "top": "212",
         "left": "183"
     },
     {
         "name": "3HCLOUD (Miami)",
-        "url": "https://3hcloud.kz/",
+        "url": "https://3hcloud.com/",
         "id": "usa_4",
         "top": "232",
         "left": "225"
