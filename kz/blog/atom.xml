@@ -8,6 +8,41 @@
     <subtitle>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[🚀 OpenBLD.net in San Francisco]]></title>
+        <id>https://openbld.net/kz/blog/openbld-in san-francisco-2026/</id>
+        <link href="https://openbld.net/kz/blog/openbld-in san-francisco-2026/"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Thanks to 3HCLOUD.kz, a new OpenBLD infrastructure server has been deployed in San Francisco.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net in San Francisco" src="https://openbld.net/kz/assets/images/openbld-in-san-francisco-d995e74af774c7e17a1ef2d752579653.webp" width="1250" height="680" class="img_kQCM"></p>
+<p>Thanks to 3HCLOUD.kz, a new OpenBLD infrastructure server has been deployed in San Francisco.</p>
+<p>Over the years of working together, 3HCLOUD has consistently demonstrated:</p>
+<ul>
+<li class="">Stable and reliable services</li>
+<li class="">Very competitive pricing</li>
+<li class="">Multiple locations worldwide, including Kazakhstan 🇰🇿</li>
+<li class="">Built-in firewall and additional security features</li>
+<li class="">Fast and high-quality network connectivity</li>
+</ul>
+<!-- -->
+<p>Throughout the development of OpenBLD.net, we have worked with many cloud providers. Not all of them are able to meet the demands of DNS infrastructure.</p>
+<p><em>You could say that OpenBLD.net has become a kind of stress test for cloud platforms.</em></p>
+<p>That is why it is especially rewarding to highlight that 3HCLOUD has been successfully passing this test for many years.</p>
+<p>Together, we are making the Internet faster, safer, and more reliable.</p>
+<p>Thank you to the 3HCLOUD team for supporting the project. 🤝</p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-in%20san-francisco-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="updates" term="updates"/>
+        <category label="2026" term="2026"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[⚡ DNS is not just about domains. It is about Trust.]]></title>
         <id>https://openbld.net/kz/blog/openbld-supply-chain-attack-digest-2026/</id>
         <link href="https://openbld.net/kz/blog/openbld-supply-chain-attack-digest-2026/"/>
@@ -162,46 +197,6 @@ Anonymization + Deduplication — what could be better?</p>
         </author>
         <category label="openbld" term="openbld"/>
         <category label="updates" term="updates"/>
-        <category label="2026" term="2026"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🤝 UptimeRobot supports OpenBLD.net]]></title>
-        <id>https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/</id>
-        <link href="https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/"/>
-        <updated>2026-03-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net uses UptimeRobot for reliable monitoring and improved uptime visibility.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="UptimeRobot supports OpenBLD.net" src="https://openbld.net/kz/assets/images/openbld-uptimerobot-2026-efad4e865ced06432e5a1d8d58e73aaf.webp" width="1250" height="680" class="img_kQCM"></p>
-<p>This is one of those cases when a service truly becomes part of your infrastructure.</p>
-<p>Honestly, for me, it’s a clear choice.</p>
-<!-- -->
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="why">Why<a href="https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/#why" class="hash-link" aria-label="Why-ға тікелей сілтеме" title="Why-ға тікелей сілтеме" translate="no">​</a></h3>
-<ul class="contains-task-list containsTaskList_iysV">
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->50 free monitors</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->20+ integrations</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Real-time alerts (web, mobile, Telegram, and more)</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Public status pages</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->A new interface — clean, fast, and convenient</li>
-<li class="task-list-item"><input type="checkbox" disabled="" checked=""> <!-- -->Most importantly — a responsive and friendly UptimeRobot team</li>
-</ul>
-<hr>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="openbldnet-uptime-status">OpenBLD.net uptime status<a href="https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/#openbldnet-uptime-status" class="hash-link" aria-label="OpenBLD.net uptime status-ға тікелей сілтеме" title="OpenBLD.net uptime status-ға тікелей сілтеме" translate="no">​</a></h3>
-<p>According to the public status page, OpenBLD.net demonstrates the following availability:</p>
-<table><thead><tr><th>Period</th><th>Uptime</th></tr></thead><tbody><tr><td>Last 24 hours</td><td>100.000%</td></tr><tr><td>Last 7 days</td><td>99.971%</td></tr><tr><td>Last 30 days</td><td>99.984%</td></tr><tr><td>Last 90 days</td><td>99.983%</td></tr></tbody></table>
-<p>👉 OpenBLD Status:<br>
-<a href="https://bld-status.sys-adm.in/" target="_blank" rel="noopener noreferrer" class="">https://bld-status.sys-adm.in/</a></p>
-<hr>
-<p>Thank you to the UptimeRobot team for your trust and continued support 🤝</p>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-uptimerobot-supports-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h3>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="uptimerobot" term="uptimerobot"/>
         <category label="2026" term="2026"/>
     </entry>
 </feed>
