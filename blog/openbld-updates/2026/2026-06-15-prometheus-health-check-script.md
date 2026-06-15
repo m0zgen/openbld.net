@@ -3,7 +3,7 @@ slug: prometheus-health-check-script
 title: ⚙️ Prometheus Health Check
 description: prom-health.sh - Small CLI health checker for a local Prometheus instance
 authors: [sysadminkz]
-tags: [openbld, updates, 2026]
+tags: [openbld, tools, 2026]
 ---
 
 ![Prometheus Health Check - prom-health.sh](images/prometheus-health-check-script.webp)
