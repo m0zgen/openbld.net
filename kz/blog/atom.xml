@@ -2,11 +2,165 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net Blog</title>
-    <updated>2026-06-15T00:00:00.000Z</updated>
+    <updated>2026-06-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[⚙️ Deckhouse Prom++ Installer]]></title>
+        <id>https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/</id>
+        <link href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/"/>
+        <updated>2026-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[promppctl.sh is a native Linux installer and lifecycle helper for Deckhouse Prom++ and Prometheus analog igrator.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Installer, Updater, Uninstaller - Deckhouse Prom++" src="https://openbld.net/kz/assets/images/prometheus-to-prompp-promppctl-c60e4958273bbbffc7eab3bffa9fe2d6.webp" width="1250" height="680" class="img_kQCM"></p>
+<p><a href="https://github.com/m0zgen/promppctl" target="_blank" rel="noopener noreferrer" class="">promppctl.sh</a> is a native Linux installer and lifecycle helper for <a href="https://github.com/deckhouse/prompp" target="_blank" rel="noopener noreferrer" class="">Deckhouse Prom++</a>.</p>
+<p>It installs Prom++ without Docker, creates a systemd service, can safely migrate an existing Prometheus TSDB copy, can perform release updates from GitHub Releases, and can roll back to the original prometheus.service.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="features">Features<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#features" class="hash-link" aria-label="Features-ға тікелей сілтеме" title="Features-ға тікелей сілтеме" translate="no">​</a></h2>
+<ul>
+<li class="">Native installation (no Docker).</li>
+<li class="">Automatic latest release detection from the official GitHub repository.</li>
+<li class="">Optional pinned release or custom release URL.</li>
+<li class=""><code>systemd</code> service generation.</li>
+<li class="">Safe Prometheus data migration:<!-- -->
+<ul>
+<li class="">old <code>/var/lib/prometheus</code> remains untouched;</li>
+<li class="">data is copied into <code>/var/lib/prompp</code>;</li>
+<li class="">WAL is converted with <code>prompptool walvanilla</code>.</li>
+</ul>
+</li>
+<li class="">Clean install mode for machines without Prometheus.</li>
+<li class="">Automatic config creation:<!-- -->
+<ul>
+<li class="">uses existing <code>/etc/prometheus/prometheus.yml</code> if present;</li>
+<li class="">otherwise tries to use an example config from the release archive;</li>
+<li class="">otherwise creates a minimal working config.</li>
+</ul>
+</li>
+<li class="">Release update command:<!-- -->
+<ul>
+<li class="">downloads the latest release;</li>
+<li class="">extracts and validates binaries;</li>
+<li class="">stops <code>prompp.service</code>;</li>
+<li class="">backs up current binaries;</li>
+<li class="">installs new binaries;</li>
+<li class="">starts <code>prompp.service</code>.</li>
+</ul>
+</li>
+<li class="">Rollback command:<!-- -->
+<ul>
+<li class="">stops Prom++;</li>
+<li class="">removes Prom++ service/binaries;</li>
+<li class="">starts original <code>prometheus.service</code> if it exists.</li>
+</ul>
+</li>
+<li class="">Flexible environment overrides for paths, ports, retention, migration behavior and release selection.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="default-paths">Default paths<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#default-paths" class="hash-link" aria-label="Default paths-ға тікелей сілтеме" title="Default paths-ға тікелей сілтеме" translate="no">​</a></h2>
+<table><thead><tr><th>Item</th><th>Default</th></tr></thead><tbody><tr><td>Prom++ binary</td><td><code>/usr/local/bin/prompp</code></td></tr><tr><td>Prom++ tool</td><td><code>/usr/local/bin/prompptool</code></td></tr><tr><td>Install dir</td><td><code>/opt/prompp</code></td></tr><tr><td>Config file</td><td><code>/etc/prometheus/prometheus.yml</code></td></tr><tr><td>Prom++ data dir</td><td><code>/var/lib/prompp</code></td></tr><tr><td>Old Prometheus data dir</td><td><code>/var/lib/prometheus</code></td></tr><tr><td>Systemd unit</td><td><code>/etc/systemd/system/prompp.service</code></td></tr><tr><td>Listen address</td><td><code>127.0.0.1:9090</code></td></tr><tr><td>Retention</td><td><code>15d</code></td></tr><tr><td>User/group</td><td><code>prometheus:prometheus</code></td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="requirements">Requirements<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#requirements" class="hash-link" aria-label="Requirements-ға тікелей сілтеме" title="Requirements-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>The script expects a Linux host with <code>systemd</code>.</p>
+<p>Required commands:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl tar install find cp date grep sed awk tr chmod chown getent id</span><br></div></code></pre></div></div>
+<p>Optional but recommended:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">rsync</span><br></div></code></pre></div></div>
+<p>If <code>rsync</code> is not installed, the script falls back to <code>cp -a</code> for TSDB migration.</p>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="installation">Installation<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#installation" class="hash-link" aria-label="Installation-ға тікелей сілтеме" title="Installation-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>Download or copy the script:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">chmod +x promppctl.sh</span><br></div></code></pre></div></div>
+<p>Install Prom++ using the latest release:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ./promppctl.sh install</span><br></div></code></pre></div></div>
+<p>By default the installer:</p>
+<ol>
+<li class="">detects the latest Prom++ release from GitHub;</li>
+<li class="">downloads the matching <code>amd64</code> or <code>arm64</code> archive;</li>
+<li class="">installs <code>prompp</code> and <code>prompptool</code>;</li>
+<li class="">creates or reuses <code>/etc/prometheus/prometheus.yml</code>;</li>
+<li class="">migrates existing Prometheus data if <code>/var/lib/prometheus</code> exists;</li>
+<li class="">creates <code>prompp.service</code>;</li>
+<li class="">starts Prom++ on <code>127.0.0.1:9090</code>.</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="migration-from-prometheus">Migration from Prometheus<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#migration-from-prometheus" class="hash-link" aria-label="Migration from Prometheus-ға тікелей сілтеме" title="Migration from Prometheus-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>Default migration mode is enabled:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">MIGRATE_DATA=1</span><br></div></code></pre></div></div>
+<p>During installation, if <code>/var/lib/prometheus</code> exists and contains data, the script performs a safe migration:</p>
+<div class="language-text codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-text codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">/var/lib/prometheus        old Prometheus data, left untouched</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">/var/lib/prompp            copied data converted for Prom++</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">/var/lib/prometheus.backup.&lt;date&gt;  backup copy</span><br></div></code></pre></div></div>
+<p>Migration flow:</p>
+<ol>
+<li class="">Stops <code>prometheus.service</code>, if running.</li>
+<li class="">Disables <code>prometheus.service</code>, if present.</li>
+<li class="">Creates a backup of <code>/var/lib/prometheus</code>.</li>
+<li class="">Copies <code>/var/lib/prometheus/</code> to <code>/var/lib/prompp/</code>.</li>
+<li class="">Runs:</li>
+</ol>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">prompptool walvanilla --working-dir /var/lib/prompp</span><br></div></code></pre></div></div>
+<ol start="6">
+<li class="">Starts <code>prompp.service</code>.</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="important">Important<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#important" class="hash-link" aria-label="Important-ға тікелей сілтеме" title="Important-ға тікелей сілтеме" translate="no">​</a></h3>
+<p>Prometheus and Prom++ must not use the same <code>storage.tsdb.path</code> at the same time.</p>
+<p>This script intentionally does <strong>not</strong> modify <code>/var/lib/prometheus</code>. It copies data into <code>/var/lib/prompp</code> and converts WAL only in the copied directory.</p>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="environment-variables">Environment variables<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#environment-variables" class="hash-link" aria-label="Environment variables-ға тікелей сілтеме" title="Environment variables-ға тікелей сілтеме" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="release-variables">Release variables<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#release-variables" class="hash-link" aria-label="Release variables-ға тікелей сілтеме" title="Release variables-ға тікелей сілтеме" translate="no">​</a></h3>
+<table><thead><tr><th>Variable</th><th style="text-align:right">Default</th><th>Description</th></tr></thead><tbody><tr><td><code>GITHUB_REPO</code></td><td style="text-align:right"><code>deckhouse/prompp</code></td><td>GitHub repository</td></tr><tr><td><code>PROMPP_VERSION</code></td><td style="text-align:right"><code>latest</code></td><td>Release tag or <code>latest</code></td></tr><tr><td><code>PROMPP_ARCH</code></td><td style="text-align:right"><code>auto</code></td><td><code>auto</code>, <code>amd64</code>, <code>arm64</code></td></tr><tr><td><code>PROMPP_URL</code></td><td style="text-align:right">empty</td><td>Direct asset URL; overrides GitHub API detection</td></tr></tbody></table>
+<p>Examples:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo PROMPP_VERSION="v0.8.0-rc3" ./promppctl.sh install</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo PROMPP_ARCH="amd64" ./promppctl.sh latest-url</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo PROMPP_URL="https://github.com/deckhouse/prompp/releases/download/v0.8.0-rc3/prompp-binaries-amd64.tar.gz" ./promppctl.sh install</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="service-and-path-variables">Service and path variables<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#service-and-path-variables" class="hash-link" aria-label="Service and path variables-ға тікелей сілтеме" title="Service and path variables-ға тікелей сілтеме" translate="no">​</a></h3>
+<table><thead><tr><th>Variable</th><th style="text-align:right">Default</th><th>Description</th></tr></thead><tbody><tr><td><code>PROMPP_USER</code></td><td style="text-align:right"><code>prometheus</code></td><td>Linux user for service</td></tr><tr><td><code>PROMPP_GROUP</code></td><td style="text-align:right"><code>prometheus</code></td><td>Linux group for service</td></tr><tr><td><code>INSTALL_DIR</code></td><td style="text-align:right"><code>/opt/prompp</code></td><td>Install and backup directory</td></tr><tr><td><code>BIN_PATH</code></td><td style="text-align:right"><code>/usr/local/bin/prompp</code></td><td>Prom++ binary path</td></tr><tr><td><code>TOOL_PATH</code></td><td style="text-align:right"><code>/usr/local/bin/prompptool</code></td><td>Prom++ tool path</td></tr><tr><td><code>CONFIG_DIR</code></td><td style="text-align:right"><code>/etc/prometheus</code></td><td>Config directory</td></tr><tr><td><code>CONFIG_FILE</code></td><td style="text-align:right"><code>/etc/prometheus/prometheus.yml</code></td><td>Prometheus-compatible config</td></tr><tr><td><code>DATA_DIR</code></td><td style="text-align:right"><code>/var/lib/prompp</code></td><td>Prom++ data dir</td></tr><tr><td><code>OLD_DATA_DIR</code></td><td style="text-align:right"><code>/var/lib/prometheus</code></td><td>Existing Prometheus data dir</td></tr><tr><td><code>BACKUP_ROOT</code></td><td style="text-align:right"><code>/var/lib</code></td><td>Backup root for Prometheus data</td></tr><tr><td><code>SERVICE_FILE</code></td><td style="text-align:right"><code>/etc/systemd/system/prompp.service</code></td><td>Systemd unit path</td></tr><tr><td><code>LISTEN_ADDRESS</code></td><td style="text-align:right"><code>127.0.0.1:9090</code></td><td>Prom++ web listen address</td></tr><tr><td><code>RETENTION_TIME</code></td><td style="text-align:right"><code>15d</code></td><td>TSDB retention time</td></tr></tbody></table>
+<p>Examples:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo LISTEN_ADDRESS="0.0.0.0:9090" ./promppctl.sh install</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo DATA_DIR="/data/prompp" RETENTION_TIME="30d" ./promppctl.sh install</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo CONFIG_FILE="/etc/prompp/prometheus.yml" ./promppctl.sh install</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="migration-variables">Migration variables<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#migration-variables" class="hash-link" aria-label="Migration variables-ға тікелей сілтеме" title="Migration variables-ға тікелей сілтеме" translate="no">​</a></h3>
+<table><thead><tr><th>Variable</th><th style="text-align:right">Default</th><th>Description</th></tr></thead><tbody><tr><td><code>MIGRATE_DATA</code></td><td style="text-align:right"><code>1</code></td><td>Migrate existing Prometheus data copy</td></tr><tr><td><code>FORCE_MIGRATE</code></td><td style="text-align:right"><code>0</code></td><td>Recreate <code>DATA_DIR</code> from <code>OLD_DATA_DIR</code></td></tr><tr><td><code>REPLACE_PROMETHEUS</code></td><td style="text-align:right"><code>1</code></td><td>Stop/disable <code>prometheus.service</code> during install</td></tr></tbody></table>
+<p>Examples:</p>
+<p>Clean install without migration:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo MIGRATE_DATA=0 ./promppctl.sh install</span><br></div></code></pre></div></div>
+<p>Test Prom++ next to Prometheus:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo MIGRATE_DATA=0 REPLACE_PROMETHEUS=0 LISTEN_ADDRESS="127.0.0.1:9091" ./promppctl.sh install</span><br></div></code></pre></div></div>
+<p>Force re-copy and re-convert old Prometheus data:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo FORCE_MIGRATE=1 ./promppctl.sh install</span><br></div></code></pre></div></div>
+<p>Install without stopping vanilla Prometheus:</p>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo REPLACE_PROMETHEUS=0 LISTEN_ADDRESS="127.0.0.1:9091" ./promppctl.sh install</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="typical-workflows">Typical workflows<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#typical-workflows" class="hash-link" aria-label="Typical workflows-ға тікелей сілтеме" title="Typical workflows-ға тікелей сілтеме" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="replace-existing-prometheus-on-the-same-port">Replace existing Prometheus on the same port<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#replace-existing-prometheus-on-the-same-port" class="hash-link" aria-label="Replace existing Prometheus on the same port-ға тікелей сілтеме" title="Replace existing Prometheus on the same port-ға тікелей сілтеме" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ./promppctl.sh install</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl http://127.0.0.1:9090/-/ready</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="run-prom-side-by-side-for-testing">Run Prom++ side by side for testing<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#run-prom-side-by-side-for-testing" class="hash-link" aria-label="Run Prom++ side by side for testing-ға тікелей сілтеме" title="Run Prom++ side by side for testing-ға тікелей сілтеме" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo MIGRATE_DATA=0 REPLACE_PROMETHEUS=0 LISTEN_ADDRESS="127.0.0.1:9091" ./promppctl.sh install</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl http://127.0.0.1:9091/-/ready</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="replace-prometheus-and-expose-to-remote-grafana">Replace Prometheus and expose to remote Grafana<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#replace-prometheus-and-expose-to-remote-grafana" class="hash-link" aria-label="Replace Prometheus and expose to remote Grafana-ға тікелей сілтеме" title="Replace Prometheus and expose to remote Grafana-ға тікелей сілтеме" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo LISTEN_ADDRESS="0.0.0.0:9090" ./promppctl.sh install</span><br></div></code></pre></div></div>
+<p>Make sure firewall rules allow only trusted hosts.</p>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="notes">Notes<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#notes" class="hash-link" aria-label="Notes-ға тікелей сілтеме" title="Notes-ға тікелей сілтеме" translate="no">​</a></h2>
+<ul>
+<li class="">Prom++ is intended to be Prometheus-compatible for configs, API and PromQL workflows.</li>
+<li class="">The script keeps vanilla Prometheus data untouched to make rollback simple.</li>
+<li class="">Never run Prometheus and Prom++ against the same TSDB directory simultaneously.</li>
+<li class="">For production exposure, prefer <code>127.0.0.1</code> plus reverse proxy/VPN/firewall rules over raw public access.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="repository">Repository<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#repository" class="hash-link" aria-label="Repository-ға тікелей сілтеме" title="Repository-ға тікелей сілтеме" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://github.com/m0zgen/promppctl" target="_blank" rel="noopener noreferrer" class="">https://github.com/m0zgen/promppctl</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="credits">Credits<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#credits" class="hash-link" aria-label="Credits-ға тікелей сілтеме" title="Credits-ға тікелей сілтеме" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://github.com/m0zgen/prom-health" target="_blank" rel="noopener noreferrer" class="">https://github.com/m0zgen/prom-health</a></li>
+</ul>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="tools" term="tools"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[⚙️ Prometheus Health Check]]></title>
         <id>https://openbld.net/kz/blog/prometheus-health-check-script/</id>
@@ -111,7 +265,7 @@
             <uri>https://github.com/m0zgen</uri>
         </author>
         <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
+        <category label="tools" term="tools"/>
         <category label="2026" term="2026"/>
     </entry>
     <entry>
@@ -232,34 +386,6 @@ It’s one of those rare cases where a service consistently proves its quality o
 <p>Thank you, ClouDNS, for your trust and long-term partnership.</p>
 <hr>
 <h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-and-cloudns-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2026" term="2026"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🥷  OpenBLD.net - Dedup DNS Events]]></title>
-        <id>https://openbld.net/kz/blog/openbld-dedup-events-feature/</id>
-        <link href="https://openbld.net/kz/blog/openbld-dedup-events-feature/"/>
-        <updated>2026-04-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net Anonymized IPs are cool, but now they’re deduplicated too! OpenBLD.net is rolling out an event deduplication mechanism.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🥷 OpenBLD.net — Dedup DNS Events" src="https://openbld.net/kz/assets/images/openbld-dedup-events-feature-3d69c07b258acd0469b0886279d79e6b.webp" width="1250" height="680" class="img_kQCM"></p>
-<p>The privacy march continues! 🚀</p>
-<p>Anonymized IPs are cool, but now they’re deduplicated too! OpenBLD.net is rolling out an event deduplication mechanism.
-Anonymization + Deduplication — what could be better?</p>
-<!-- -->
-<p>Sure, I might be shooting myself in the leg when it comes to incident analysis, but you never know until you try!</p>
-<p>An efficient system should be lean and clean, and for a public service — private!</p>
-<p>Moving forward!</p>
-<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">https://openbld.net/</a></p>
-<hr>
-<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-dedup-events-feature/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
 </ul>]]></content>
