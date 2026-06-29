@@ -4,10 +4,41 @@
         <title>OpenBLD.net Blog</title>
         <link>https://openbld.net/kz/blog/</link>
         <description>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</description>
-        <lastBuildDate>Tue, 16 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🚀 OpenBLD.net - Independent DNS Resolution]]></title>
+            <link>https://openbld.net/kz/blog/openbld-build-independent-dns-ecosystem/</link>
+            <guid>https://openbld.net/kz/blog/openbld-build-independent-dns-ecosystem/</guid>
+            <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net takes a main path — building its own independent DNS ecosystem.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net — Independent DNS Ecosystem" src="https://openbld.net/kz/assets/images/openbld-build-independent-dns-ecosystem-63eaf13edc1a72dfaaf822d05d6b494a.webp" width="1448" height="1086" class="img_kQCM"></p>
+<p>We’ve become used to relying on DNS from Google, Cloudflare, and other large public DNS providers.</p>
+<p>They are fast, convenient, and easy to use. But in the age of AI, large-scale data aggregation, and user profiling, convenience should not come at the cost of privacy.</p>
+<p><strong>OpenBLD.net takes a different path.</strong></p>
+<p>We are building an independent DNS ecosystem designed to reduce dependency on centralized DNS providers and give users more control over how their DNS traffic is resolved, filtered, and protected.</p>
+<!-- -->
+<p>Today, around 90% of OpenBLD.net DNS resolution runs on our own infrastructure, using our own filtering and DNS request processing mechanisms.</p>
+<p>⚡ At the same time, OpenBLD.net provides:</p>
+<ul>
+<li class="">speed on par with top DNS providers</li>
+<li class="">global geographic presence</li>
+<li class="">DNSSEC validation</li>
+<li class="">support for DNS / DoT / DoH</li>
+<li class="">our own filtering and protection logic</li>
+</ul>
+<p><strong>Independence is not a feature - it is the foundation of privacy.</strong></p>
+<p>Stay connected: ⚡ <a class="" href="https://openbld.net/kz/docs/category/get-started/">OpenBLD.net</a></p>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-build-independent-dns-ecosystem/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>tools</category>
+            <category>2026</category>
+        </item>
         <item>
             <title><![CDATA[⚙️ Deckhouse Prom++ Installer]]></title>
             <link>https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/</link>
@@ -344,38 +375,6 @@
 </ul>]]></content:encoded>
             <category>openbld</category>
             <category>digest</category>
-            <category>2026</category>
-        </item>
-        <item>
-            <title><![CDATA[🤝 ClouDNS.net — quality proven over time]]></title>
-            <link>https://openbld.net/kz/blog/openbld-and-cloudns-2026/</link>
-            <guid>https://openbld.net/kz/blog/openbld-and-cloudns-2026/</guid>
-            <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[ClouDNS has been part of the OpenBLD.net infrastructure for many years.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD: ClouDNS.net — quality proven over time" src="https://openbld.net/kz/assets/images/openbld-and-cloudns-4d4624236413af442951c787d2885f2f.webp" width="1250" height="680" class="img_kQCM"></p>
-<p>ClouDNS has been part of the OpenBLD.net infrastructure for many years.
-It’s one of those rare cases where a service consistently proves its quality over time:</p>
-<ul>
-<li class="">Global network (Anycast + GeoDNS)</li>
-<li class="">Failover and fallback mechanisms</li>
-<li class="">Monitoring and health checks</li>
-<li class="">Stability and SLA</li>
-<li class="">Cost-effective</li>
-</ul>
-<!-- -->
-<p>OpenBLD.net builds a secure DNS infrastructure. ClouDNS → stable global distribution and availability
-(<a href="https://www.cloudns.net/geodns/" target="_blank" rel="noopener noreferrer" class="">GeoDNS</a>, <a href="https://www.cloudns.net/anycast-dns/" target="_blank" rel="noopener noreferrer" class="">Anycast</a> network with 60+ PoPs worldwide).</p>
-<ul>
-<li class="">More details: <a href="https://www.cloudns.net/" target="_blank" rel="noopener noreferrer" class="">https://www.cloudns.net/</a></li>
-</ul>
-<p>Thank you, ClouDNS, for your trust and long-term partnership.</p>
-<hr>
-<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-and-cloudns-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
             <category>2026</category>
         </item>
     </channel>
