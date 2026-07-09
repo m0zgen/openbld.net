@@ -11,7 +11,6 @@ tags: [openbld, dga, 2026]
 Malware and botnets use **DGA** (Domain Generation Algorithm)—algorithms that generate hundreds of "trash" domains per second to communicate with C2 servers.
 
 An attack example from real OpenBLD logs:
-- `3e1c2d1d-9032...spellingpurge[.]top`
 - `s-dfgfd-sdfz...zdssragv[.]mom`
 - `96bccebb2f7e...wu7y6z[.]com`
 - `60r...60pg0131[.]cc`
