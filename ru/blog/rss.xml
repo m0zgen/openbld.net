@@ -4,10 +4,45 @@
         <title>OpenBLD.net Blog</title>
         <link>https://openbld.net/ru/blog/</link>
         <description>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</description>
-        <lastBuildDate>Mon, 29 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[⚔️ OpenBLD.net — Algorithm (zBLD) vs. Algorithm (DGA)]]></title>
+            <link>https://openbld.net/ru/blog/openbld-zbld-guard-dga-2026/</link>
+            <guid>https://openbld.net/ru/blog/openbld-zbld-guard-dga-2026/</guid>
+            <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD.net is rolling out a new zBLD algorithm to detect and block DGA domains in real-time, without affecting legitimate traffic.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🥷 OpenBLD.net — Algorithm (zBLD) vs. Algorithm (DGA)" src="https://openbld.net/ru/assets/images/openbld_zbld_guard_dga_2-e69f60c5e4af43fc69e425213ef30fba.webp" width="1024" height="557" class="img_kQCM"></p>
+<p>Malware and botnets use <strong>DGA</strong> (Domain Generation Algorithm)—algorithms that generate hundreds of "trash" domains per second to communicate with C2 servers.</p>
+<p>An attack example from real OpenBLD logs:</p>
+<ul>
+<li class=""><code>3e1c2d1d-9032...spellingpurge[.]top</code></li>
+<li class=""><code>s-dfgfd-sdfz...zdssragv[.]mom</code></li>
+<li class=""><code>96bccebb2f7e...wu7y6z[.]com</code></li>
+<li class=""><code>60r...60pg0131[.]cc</code></li>
+<li class=""><em>and billions of similar ones...</em></li>
+</ul>
+<p><strong>What's the harm?</strong></p>
+<p>Aside from the obvious malicious intent, this chaotic spam clogs the cache, hammers I/O, chews up CPU time, and generates gigabytes of junk logs. As a result—speed degradation and high resource utilization.</p>
+<!-- -->
+<p><strong>How to fight it?</strong></p>
+<p>Signatures and blacklists are useless—a total waste of resources, as these domains live for only a matter of minutes.</p>
+<p><strong>The Solution</strong> is proactive analysis: a detection algorithm against a generation algorithm.</p>
+<p>In OpenBLD, the smart DGA detection has been continuously improving and running since 2025 (before that, it spent a whole year being refined, tested, and running in read-only mode).</p>
+<p><strong>The Result:</strong></p>
+<p>Junk is blocked on the fly. The service preserves resources, while end users get maximum response speed.</p>
+<p>Engineering in details ☝️ Speed and protection at the intersection of algorithms:</p>
+<p>• <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">https://openbld.net/</a></p>
+<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-zbld-guard-dga-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>dga</category>
+            <category>2026</category>
+        </item>
         <item>
             <title><![CDATA[🚀 OpenBLD.net - Independent DNS Resolution]]></title>
             <link>https://openbld.net/ru/blog/openbld-build-independent-dns-ecosystem/</link>
@@ -98,7 +133,7 @@
 <p>Optional but recommended:</p>
 <div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">rsync</span><br></div></code></pre></div></div>
 <p>If <code>rsync</code> is not installed, the script falls back to <code>cp -a</code> for TSDB migration.</p>
-<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="installation">Installation<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#installation" class="hash-link" aria-label="Прямая ссылка на Installation" title="Прямая ссылка на Installation" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_HBTz" id="installation">Installation<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#installation" class="hash-link" aria-label="Прямая ссылк�а на Installation" title="Прямая ссылка на Installation" translate="no">​</a></h2>
 <p>Download or copy the script:</p>
 <div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">chmod +x promppctl.sh</span><br></div></code></pre></div></div>
 <p>Install Prom++ using the latest release:</p>
@@ -160,7 +195,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_HBTz" id="typical-workflows">Typical workflows<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#typical-workflows" class="hash-link" aria-label="Прямая ссылка на Typical workflows" title="Прямая ссылка на Typical workflows" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_HBTz" id="replace-existing-prometheus-on-the-same-port">Replace existing Prometheus on the same port<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#replace-existing-prometheus-on-the-same-port" class="hash-link" aria-label="Прямая ссылка на Replace existing Prometheus on the same port" title="Прямая ссылка на Replace existing Prometheus on the same port" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ./promppctl.sh install</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl http://127.0.0.1:9090/-/ready</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="run-prom-side-by-side-for-testing">Run Prom++ side by side for testing<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#run-prom-side-by-side-for-testing" class="hash-link" aria-label="Прямая ссылка на Run Prom++ side by side for testing" title="Прямая ссылка на Run Prom++ side by side for testing" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_HBTz" id="run-prom-side-by-side-for-testing">Run Prom++ side by side for testing<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#run-prom-side-by-side-for-testing" class="hash-link" aria-label="Прямая ссылка на Run Prom++ side by side for testing" title="Прямая ссыл�ка на Run Prom++ side by side for testing" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo MIGRATE_DATA=0 REPLACE_PROMETHEUS=0 LISTEN_ADDRESS="127.0.0.1:9091" ./promppctl.sh install</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl http://127.0.0.1:9091/-/ready</span><br></div></code></pre></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_HBTz" id="replace-prometheus-and-expose-to-remote-grafana">Replace Prometheus and expose to remote Grafana<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#replace-prometheus-and-expose-to-remote-grafana" class="hash-link" aria-label="Прямая ссылка на Replace Prometheus and expose to remote Grafana" title="Прямая ссылка на Replace Prometheus and expose to remote Grafana" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_pbCv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_yxFo"><pre tabindex="0" class="prism-code language-bash codeBlock_ZNW2 thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_k_W7"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo LISTEN_ADDRESS="0.0.0.0:9090" ./promppctl.sh install</span><br></div></code></pre></div></div>
@@ -321,60 +356,6 @@
 </ul>]]></content:encoded>
             <category>openbld</category>
             <category>updates</category>
-            <category>2026</category>
-        </item>
-        <item>
-            <title><![CDATA[⚡ DNS is not just about domains. It is about Trust.]]></title>
-            <link>https://openbld.net/ru/blog/openbld-supply-chain-attack-digest-2026/</link>
-            <guid>https://openbld.net/ru/blog/openbld-supply-chain-attack-digest-2026/</guid>
-            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Recent supply chain incidents are a strong reminder that modern attacks often start through tools and workflows developers already trust]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD: DNS is not just about domains. It is about Trust." src="https://openbld.net/ru/assets/images/supply-chain-attack-digest-watch-yourself-d4844caff5bb711a72a9c2ed50d46330.webp" width="1672" height="941" class="img_kQCM"></p>
-<p>Recent supply chain incidents are a strong reminder that modern attacks often start through tools and workflows developers already trust:</p>
-<ul>
-<li class="">npm packages and dependency updates</li>
-<li class="">compromised maintainer accounts</li>
-<li class="">VSCode extensions</li>
-<li class="">GitHub Actions workflows</li>
-<li class="">developer tools</li>
-<li class="">fake installers and update mechanisms</li>
-</ul>
-<!-- -->
-<p>Several recent cases highlight this trend:</p>
-<ul>
-<li class="">Axios compromised on npm — malicious versions dropped a Remote Access Trojan <a href="https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
-<li class="">Compromised VSCode Nx Console <a href="https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
-<li class="">OpenAI response to the TanStack npm supply chain attack <a href="https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
-<li class="">OpenAI response to the Axios developer tool compromise <a href="https://openai.com/index/axios-developer-tool-compromise/" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
-<li class="">GitHub reported an investigation into unauthorized access to internal repositories <a href="https://x.com/github/status/2056884788179726685" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
-<li class="">Grafana supply chain ransomware incident <a href="https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/" target="_blank" rel="noopener noreferrer" class="">&gt;</a></li>
-</ul>
-<p>The key takeaway: supply chain attacks are becoming more relevant to every developer, engineering team, and company.</p>
-<p><strong>DNS security should not be treated as an optional layer.</strong></p>
-<p>It can provide visibility and control when malicious code attempts to:</p>
-<ul>
-<li class="">connect to C2 infrastructure</li>
-<li class="">download additional payloads</li>
-<li class="">reach phishing domains</li>
-<li class="">communicate with fake update servers</li>
-<li class="">exfiltrate data through suspicious endpoints</li>
-</ul>
-<p>If malicious code has already entered the environment, visibility becomes critical...</p>
-<p>At this point, the key questions are simple:</p>
-<ul>
-<li class=""><strong>Can you see where it is trying to connect?</strong></li>
-<li class=""><strong>Can you understand whether that connection is expected?</strong></li>
-<li class=""><strong>Can you react before the incident becomes bigger?</strong></li>
-</ul>
-<p>OpenBLD.net — Security starts earlier than incident response.</p>
-<p>Watch yourself, your emails, your extensions, and your DNS.</p>
-<hr>
-<h4 class="anchor anchorTargetStickyNavbar_HBTz" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-supply-chain-attack-digest-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>digest</category>
             <category>2026</category>
         </item>
     </channel>
