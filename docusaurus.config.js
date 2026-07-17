@@ -10,7 +10,7 @@ const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'OpenBLD.net DNS - Block advertising, tracking, telemetry, malicious domains and more for free',
+  title: 'OpenBLD',
   tagline: 'Free DNS - with DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS',
   favicon: 'img/favicon.ico',
 
@@ -102,11 +102,11 @@ const config = {
   ],
 
   customFields: {
-    serviceName: 'OpenBLD.net - ',
-    serviceDescription: 'fast, free DNS that blocks ads, trackers, malware — with DoH, DoT, GeoDNS',
-    siteDescription: 'OpenBLD.net — ultra-fast DNS with ad blocking and proactive cybersecurity. Be yourself, be focused.',
+    serviceName: 'OpenBLD.net | ',
+    serviceDescription: 'Free DNS with Ad and Malware Blocking',
+    siteDescription: 'OpenBLD.net — Free DNS with block ads, malware and proactive cybersecurity. Be yourself, be focused.',
     // Hero, Header title
-    titleHomeHeader: 'Fast, clean, secure DNS: Block ads, telemetry, cybersecurity threats',
+    titleHomeHeader: 'Fast, clean, free, secure DNS: Block ads, telemetry, cybersecurity threats',
   },
 
   // scripts: [
