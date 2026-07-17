@@ -4,7 +4,7 @@ import Translate from '@docusaurus/Translate';
 const logos = [
         // { name: "JetBrains", url: "https://jb.gg/OpenSourceSupport", src: 'img/logos/jetbrains.png', style: ""},
         { name: "Sys-Admin Lab", url: "https://lab.sys-adm.in", src: 'img/logos/lab.sys-adm.in-logo.png', style: ""},
-        { name: "Unihost.kz", url: "https://unihost.kz/account/aff.php?aff=17", src: 'img/logos/unihost_kz.jpg', style: ""},
+        { name: "Unihost.kz", url: "https://unihost.kz/?from=25", src: 'img/logos/unihost_kz.jpg', style: ""},
         { name: "URLhaus - abuse.ch", url: "https://abuse.ch/", src: 'img/logos/abuse.ch-logo.jpeg', style: "logo-bg-white"},
         { name: "GoHost.kz", url: "https://gohost.kz/", src: 'img/logos/gohost_kz.jpg', style: ""},
         { name: "UptimeRobot", url: "https://uptimerobot.com/?rid=78534763f4713b", src: 'img/logos/uptimerobot.jpg', style: ""},
