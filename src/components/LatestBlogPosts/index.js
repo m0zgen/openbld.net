@@ -23,14 +23,12 @@ function truncate(input, maxLength = 170) {
 }
 
 function formatDate(date) {
-    if (!date) {
-        return '';
-    }
-
-    return new Intl.DateTimeFormat('en', {
+    if (!date) return '';
+    return new Intl.DateTimeFormat('en-US', {
         month: 'short',
         day: 'numeric',
         year: 'numeric',
+        timeZone: 'UTC' // exclude different time errors
     }).format(new Date(date));
 }
 
@@ -64,8 +62,26 @@ export default function LatestBlogPosts() {
         };
     }, []);
 
+    // 1. return bare bone
     if (!posts.length) {
-        return null;
+        return (
+            <section className={styles.section}>
+                <div className="container">
+                    <div className={styles.header}>
+                        <p className={styles.eyebrow}>
+                            <Translate id="homepage.LatestBlogPosts.PreHeader">OpenBLD.net Blog</Translate>
+                        </p>
+                        <h2>
+                            <Translate id="homepage.LatestBlogPosts.Header">Latest Blog Notes</Translate>
+                        </h2>
+                    </div>
+                    {/* Здесь можно добавить CSS-скелет, если нужно */}
+                    <div className={styles.grid}>
+                        {/* Оставляем пустым или добавляем "Loading..." */}
+                    </div>
+                </div>
+            </section>
+        );
     }
 
     return (

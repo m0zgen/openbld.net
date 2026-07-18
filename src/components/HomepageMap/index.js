@@ -210,97 +210,77 @@ const servers = [
 ];
 
 export default function HomepageMap() {
-
     const [isModalOpen, setModalOpen] = useState(false);
     const [contentModal, setContentModal] = useState("");
     const [urlModal, setUrlModal] = useState("");
 
+    return (
+        <section id="map-section" className="overflow-hidden py-10 px-10 dark:bg-[#070a11]">
+            <div className="container mx-auto px-4 mb-10">
+                <div className="flex flex-wrap -m-4">
 
-  return (
-
-    <section id="map-section" className="overflow-hidden py-10 px-10 dark:bg-[#070a11]">
-
-        <div className="container mx-auto px-4 mb-10">
-            <div className="flex flex-wrap -m-4">
-
-                <div className="flex flex-col items-center justify-center w-full mb-10">
-                    <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
-                        <Translate
-                            id="homepage.Map.Title">
-                            OpenBLD.net PoP Map
+                    <div className="flex flex-col items-center justify-center w-full mb-10">
+                        <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
+                            <Translate id="homepage.Map.Title">
+                                OpenBLD.net PoP Map
                             </Translate>
-                    </h2>
-                </div>
+                        </h2>
+                    </div>
 
-                <div className="flex flex-col items-center justify-center w-full">
+                    <div className="flex flex-col items-center justify-center w-full">
+                        {/* Исправлено: className вместо class */}
+                        <div className="map__image" style={{ position: 'relative' }}>
 
-                    <div class="map__image">
-
-                        {servers.map((server, i) => {
+                            {servers.map((server, i) => {
                                 return (
+                                    <button
+                                        key={server.id || i}
+                                        id={server.id}
+                                        // Исправлено: className вместо class
+                                        className="map__link dot text-white"
+                                        // Передаем имя для hover-эффекта через data-атрибут
+                                        data-name={server.name}
+                                        // Передаем координаты динамически через инлайн-стили
+                                        style={{
+                                            cursor: "pointer",
+                                            position: "absolute",
+                                            top: `${server.top}px`,
+                                            left: `${server.left}px`
+                                        }}
+                                        onClick={() => {
+                                            setModalOpen(true);
+                                            setContentModal(server.name);
+                                            setUrlModal(server.url);
+                                        }}
+                                    />
+                                );
+                            })}
 
-                                    <div key={i}>
+                        </div>
 
-                                        <style>
-                                            {`
-                                            #${server.id}:hover:before {
-                                                  content: "${server.name}";
-                                               }
-                                            #${server.id} {
-                                                top: ${server.top}px;
-                                                left: ${server.left}px;
-                                                }
-                                            `}
-                                        </style>
+                        <div className="flex flex-wrap -m-2 mt-4">
+                            <Link to="https://bld-status.sys-adm.in/">
+                                <Translate id="homepage.Map.DashboardHeader">
+                                    Statistics for 90 days on
+                                </Translate> UptimeRobot
+                            </Link>
+                        </div>
+                    </div>
 
-                                        <button id={server.id} class="map__link dot text-white" style={{cursor: "pointer"}}
-                                            onClick={() => {setModalOpen(true);
-                                                setContentModal(server.name);
-                                                setUrlModal(server.url)
-                                            }}
-                                        ></button>
-                                    </div>
-                                )
-                            }
+                    <div className="flex flex-col items-center justify-center w-full">
+                        {isModalOpen && (
+                            <Modal onClose={() => setModalOpen(false)} content={contentModal} url={urlModal}>
+                                <p>
+                                    <Translate id="homepage.Map.ModalHeader">
+                                        Platform Info
+                                    </Translate>
+                                </p>
+                            </Modal>
                         )}
-
-                    </div>
-
-                    <div className="flex flex-wrap -m-2">
-
-                        <Link to="https://bld-status.sys-adm.in/">
-
-                             <Translate
-                                id="homepage.Map.DashboardHeader">
-                                 Statistics for 90 days on
-                            </Translate> UptimeRobot
-
-                        </Link>
-
                     </div>
 
                 </div>
-
-                <div className="flex flex-col items-center justify-center w-full">
-
-                    {isModalOpen && (
-
-                        <Modal onClose={() => setModalOpen(false)} content={contentModal} url={urlModal}>
-                            <p>
-                                <Translate
-                                    id="homepage.Map.ModalHeader">
-                                    Platform Info
-                                </Translate>
-                            </p>
-                            {/*<p>This is modal content.</p>*/}
-
-                        </Modal>
-                    )}
-                </div>
-
             </div>
-        </div>
-    </section>
-
-  );
+        </section>
+    );
 }

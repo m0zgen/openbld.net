@@ -213,6 +213,26 @@ ul.cloud p {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+/*Map*/
+/* Один общий класс для всех точек вместо генерации кучи тегов <style> */
+.map__link {
+  position: absolute;
+}
+
+.map__link:hover:before {
+  content: attr(data-name); /* Берет имя прямо из атрибута кнопки! */
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 10;
+}
 /*!*Popup*!*/
 /*.overlay {*/
 /*  position: relative;*/

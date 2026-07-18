@@ -26,7 +26,7 @@ I hope these features will help us save valuable time online while the OpenBLD.n
 
 Gears are the components of the OpenBLD.net system that help to customize online experiences.
 
-- [About of Gears](/docs/overview/gears/gears-intro)
+- [About of Gears](/docs/overwiew/gears/gears-intro)
 
 ### Feedback
 
