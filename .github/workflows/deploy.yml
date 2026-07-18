@@ -43,7 +43,7 @@ jobs:
         run: yarn build
 
       - name: Deploy to gh-pages
-        if: github.ref == 'refs/heads/upgrade/deps-safe'
+        if: github.ref == 'refs/heads/dev' || github.ref == 'refs/heads/upgrade/deps-safe'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
