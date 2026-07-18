@@ -5,6 +5,7 @@ on:
     branches:
       - dev
       - dev-up-3.9→3.10
+      - upgrade/deps-safe
 
 permissions:
   contents: write
