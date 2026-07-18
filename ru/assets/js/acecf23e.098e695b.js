@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[1903],{79531:e=>{e.exports=JSON.parse('{"blogBasePath":"/ru/blog","blogTitle":"OpenBLD.net Blog","authorsListPath":"/ru/blog/authors"}')}}]);
