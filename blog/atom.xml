@@ -8,41 +8,52 @@
     <subtitle>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[⚔️ OpenBLD.net — Algorithm (zBLD) vs. Algorithm (DGA)]]></title>
+        <title type="html"><![CDATA[zBLD vs. DGA — Detecting Algorithmically Generated Domains]]></title>
         <id>https://openbld.net/blog/openbld-zbld-guard-dga-2026/</id>
         <link href="https://openbld.net/blog/openbld-zbld-guard-dga-2026/"/>
         <updated>2026-07-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net is rolling out a new zBLD algorithm to detect and block DGA domains in real-time, without affecting legitimate traffic.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🥷 OpenBLD.net — Algorithm (zBLD) vs. Algorithm (DGA)" src="https://openbld.net/assets/images/openbld_zbld_guard_dga_2-e69f60c5e4af43fc69e425213ef30fba.webp" width="1024" height="557" class="img_tFOa"></p>
-<p>Malware and botnets use <strong>DGA</strong> (Domain Generation Algorithm)—algorithms that generate hundreds of "trash" domains per second to communicate with C2 servers.</p>
+        <summary type="html"><![CDATA[Learn how OpenBLD uses the zBLD detection algorithm to identify and block DGA-generated domains in real time without affecting legitimate DNS traffic.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD zBLD detection algorithm blocking DGA-generated domains" src="https://openbld.net/assets/images/openbld_zbld_guard_dga_2-e69f60c5e4af43fc69e425213ef30fba.webp" width="1024" height="557" class="img_tFOa"></p>
+<p>Malware and botnets use <strong>Domain Generation Algorithms (DGA)</strong> to generate hundreds or thousands of short-lived domains for communication with command-and-control infrastructure.</p>
 <p>An attack example from real OpenBLD logs:</p>
 <ul>
 <li class=""><code>s-dfgfd-sdfz...zdssragv[.]mom</code></li>
 <li class=""><code>96bccebb2f7e...wu7y6z[.]com</code></li>
 <li class=""><code>60r...60pg0131[.]cc</code></li>
-<li class=""><em>and billions of similar ones...</em></li>
+<li class="">and billions of similar domains.</li>
 </ul>
-<p><strong>What's the harm?</strong></p>
-<p>Aside from the obvious malicious intent, this chaotic spam clogs the cache, hammers I/O, chews up CPU time, and generates gigabytes of junk logs. As a result—speed degradation and high resource utilization.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="why-are-dga-domains-harmful">Why are DGA domains harmful?<a href="https://openbld.net/blog/openbld-zbld-guard-dga-2026/#why-are-dga-domains-harmful" class="hash-link" aria-label="Direct link to Why are DGA domains harmful?" title="Direct link to Why are DGA domains harmful?" translate="no">​</a></h2>
+<p>Beyond their malicious purpose, this chaotic DNS traffic pollutes resolver caches, increases CPU and I/O usage, and generates large volumes of low-value logs. At scale, it can cause higher resource consumption and degraded DNS performance.</p>
 <!-- -->
-<p><strong>How to fight it?</strong></p>
-<p>Signatures and blacklists are useless—a total waste of resources, as these domains live for only a matter of minutes.</p>
-<p><strong>The Solution</strong> is proactive analysis: a detection algorithm against a generation algorithm.</p>
-<p>In OpenBLD, the smart DGA detection has been continuously improving and running since 2025 (before that, it spent a whole year being refined, tested, and running in read-only mode).</p>
-<p><strong>The Result:</strong></p>
-<p>Junk is blocked on the fly. The service preserves resources, while end users get maximum response speed.</p>
-<p>Engineering in details ☝️ Speed and protection at the intersection of algorithms:</p>
-<p>• <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">https://openbld.net/</a></p>
-<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/blog/openbld-zbld-guard-dga-2026/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h4>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="why-signatures-and-blacklists-are-not-enough">Why signatures and blacklists are not enough<a href="https://openbld.net/blog/openbld-zbld-guard-dga-2026/#why-signatures-and-blacklists-are-not-enough" class="hash-link" aria-label="Direct link to Why signatures and blacklists are not enough" title="Direct link to Why signatures and blacklists are not enough" translate="no">​</a></h2>
+<p>Traditional signatures and static blocklists are often ineffective against DGA traffic because generated domains may exist for only minutes and can change continuously.</p>
+<p>By the time a domain is added to a conventional threat feed, the malware may already be using another one.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="the-openbld-approach">The OpenBLD approach<a href="https://openbld.net/blog/openbld-zbld-guard-dga-2026/#the-openbld-approach" class="hash-link" aria-label="Direct link to The OpenBLD approach" title="Direct link to The OpenBLD approach" translate="no">​</a></h2>
+<p>OpenBLD uses proactive analysis: a detection algorithm operating against a generation algorithm.</p>
+<p>The zBLD detection system analyzes suspicious domain characteristics in real time and blocks domains that match DGA behavior without disrupting legitimate traffic.</p>
+<p>OpenBLD's DGA detection has been continuously improved and used in production since 2025. Before production deployment, it spent approximately one year in development, testing, and read-only observation mode.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="the-result">The result<a href="https://openbld.net/blog/openbld-zbld-guard-dga-2026/#the-result" class="hash-link" aria-label="Direct link to The result" title="Direct link to The result" translate="no">​</a></h2>
+<p>DGA-generated junk traffic is blocked before it consumes system resources.</p>
+<p>This helps OpenBLD:</p>
 <ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
-</ul>]]></content>
+<li class="">protect users from malware and botnet infrastructure;</li>
+<li class="">reduce DNS cache pollution;</li>
+<li class="">lower unnecessary CPU and I/O usage;</li>
+<li class="">limit junk log generation;</li>
+<li class="">maintain fast DNS response times.</li>
+</ul>
+<p>Engineering in detail: speed and protection at the intersection of algorithms.</p>
+<p>Learn more about <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">OpenBLD secure DNS</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/blog/openbld-zbld-guard-dga-2026/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h2>
+<p>Follow the official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD Telegram channel</a>.</p>]]></content>
         <author>
             <name>Yevgeniy Goncharov</name>
             <uri>https://github.com/m0zgen</uri>
         </author>
         <category label="openbld" term="openbld"/>
         <category label="dga" term="dga"/>
+        <category label="dns-security" term="dns-security"/>
+        <category label="malware" term="malware"/>
         <category label="2026" term="2026"/>
     </entry>
     <entry>
