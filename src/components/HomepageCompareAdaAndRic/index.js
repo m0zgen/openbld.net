@@ -10,7 +10,15 @@ export default function HomepageCompareAdaAndRic() {
               <div className="py-16 px-8 md:px-16 bg-white dark:bg-[#070a11] rounded-3xl">
                   <div className="flex flex-wrap -m-8">
                       <div className="w-full md:w-1/2 p-8 bg-gray-100">
-                          <img loading="lazy" className="mx-auto md:ml-0" src="img/openbld-ada-ric-adminforge-test.jpg" alt="OpenBLD.net ADA and RIC Deifferences"/>
+                          <img
+                              src="/img/openbld-ada-ric-adminforge-test.webp"
+                              alt="OpenBLD.net DNS comparison test"
+                              width="610"
+                              height="406"
+                              loading="lazy"
+                              decoding="async"
+                              className="mx-auto"
+                          />
                       </div>
                       <div className="w-full md:w-1/2 p-8">
                           <div className="md:max-w-md">

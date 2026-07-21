@@ -241,6 +241,12 @@ ul.cloud p {
   contain-intrinsic-size: auto 800px;
 }
 
+.responsive-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*!*Popup*!*/
 /*.overlay {*/
 /*  position: relative;*/

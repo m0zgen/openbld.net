@@ -9,7 +9,16 @@ export default function HomepageCompareAdaAndRic() {
               <div className="py-16 px-8 md:px-16 bg-white dark:bg-[#070a11] rounded-3xl">
                   <div className="flex flex-wrap -m-8">
                       <div className="w-full md:w-1/2 p-8 bg-gray-100">
-                          <img loading="lazy" className="mx-auto md:ml-0 border-solid border-2 border-sky-500" src="img/openbld--blocker-chrome-extension-v2.jpg" alt="OpenBLD.net Chrome Based Broewsers Extension"/></div>
+                          <img
+                              loading="lazy"
+                              decoding="async"
+                              width="610"
+                              height="325"
+                              className="mx-auto md:ml-0 border-solid border-2 border-sky-500"
+                              src="/img/openbld--blocker-chrome-extension-v2.webp"
+                              alt="OpenBLD.net Chrome Based Browsers Extension"
+                          />
+                      </div>
                       <div className="w-full md:w-1/2 p-8">
                           <div className="md:max-w-md">
                               <span
