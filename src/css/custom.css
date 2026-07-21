@@ -126,7 +126,7 @@ ul.cloud p {
 
 .map__image {
   /*background: url(https://lh5.ggpht.com/RPZEPRAtdW4lSTE0v1vXe8z9GEmgMSp84ZCEmdb8SJ5-acTtcnvgFjwjWsK7hiejzjQ=w300) no-repeat;*/
-  background: url("/img/openbld-world-map_o20.png") no-repeat;
+  background: url("/img/openbld-world-map_o20.webp") no-repeat;
   width: 947px;
   height: 475px;
   position: relative;
@@ -233,6 +233,14 @@ ul.cloud p {
   white-space: nowrap;
   z-index: 10;
 }
+
+/*fix render bottom sections*/
+
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px;
+}
+
 /*!*Popup*!*/
 /*.overlay {*/
 /*  position: relative;*/

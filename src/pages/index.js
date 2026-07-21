@@ -575,34 +575,62 @@ function FeaturesListHeading() {
 // Components construct for Homepage
 export default function Home() {
     const {siteConfig} = useDocusaurusContext();
+
     return (
         <Layout
-            // title={`Hello from ${siteConfig.customFields.titleHeader}`}
-            title={translate({
-                id: 'index.layout.title',
-                description: 'The title displayed in the website head.',
-                message: '{title}{subtitle}'
-            }, {title: siteConfig.customFields.serviceName, subtitle: siteConfig.customFields.serviceDescription})}
-            // description="OpenBLD.net DNS - Focus on information with adblocking and implicit cybersecurity threat prevention."
-            description={translate({
-                id: 'index.layout.description',
-                description: 'The description displayed in the website head.',
-                message: '{description}'
-            }, {description: siteConfig.customFields.siteDescription})}
+            title={translate(
+                {
+                    id: 'index.layout.title',
+                    description: 'The title displayed in the website head.',
+                    message: '{title}{subtitle}',
+                },
+                {
+                    title: siteConfig.customFields.serviceName,
+                    subtitle: siteConfig.customFields.serviceDescription,
+                },
+            )}
+            description={translate(
+                {
+                    id: 'index.layout.description',
+                    description: 'The description displayed in the website head.',
+                    message: '{description}',
+                },
+                {
+                    description: siteConfig.customFields.siteDescription,
+                },
+            )}
         >
             <HomepageHeader/>
+
             <main>
                 <FeaturesListHeading/>
                 <HomepageChromeExtension/>
                 <HomepageVideoPresentation/>
                 <HomepageCompareAdaAndRic/>
-                {/*<HomepageFeatures />*/}
-                <HomepageURLhaus/>
-                <HomepageMap/>
-                <HomepageLogosCloud/>
-                <HomepageThanks/>
-                <LatestBlogPosts />
-                <FinalCTA />
+
+                <section className="content-auto">
+                    <HomepageURLhaus/>
+                </section>
+
+                <section className="content-auto">
+                    <HomepageMap/>
+                </section>
+
+                <section className="content-auto">
+                    <HomepageLogosCloud/>
+                </section>
+
+                <section className="content-auto">
+                    <HomepageThanks/>
+                </section>
+
+                <section className="content-auto">
+                    <LatestBlogPosts/>
+                </section>
+
+                <section className="content-auto">
+                    <FinalCTA/>
+                </section>
             </main>
         </Layout>
     );
