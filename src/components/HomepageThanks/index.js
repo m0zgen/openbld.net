@@ -162,7 +162,6 @@ export default function HomepageThanks() {
                                 + contribution 🎠
                             </Translate> {year} {/* Заменено на year */}
                         </h2>
-                        <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">~~~</h2>
                     </div>
 
                     <div className="flex flex-col items-center justify-center w-full">

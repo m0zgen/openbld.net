@@ -33,60 +33,51 @@ const logos = [
     ];
 
 export default function HomepageThanks() {
-  return (
-      <section id="company-logos" className="py-10 bg-gray-50 overflow-hidden dark:bg-[#070a11]">
-          <div class="container mx-auto px-4">
+    return (
+        <section
+            id="company-logos"
+            className="py-10 bg-gray-50 overflow-hidden dark:bg-[#070a11]"
+        >
+            <div className="container mx-auto px-4">
 
-              <div className="flex flex-col items-center justify-center w-full mb-10">
-                  <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
-                      <Translate
-                          id="homepage.LogosCloud.Title">
-                          Supported by people and companies who care 🚀
-                      </Translate>
-                  </h2>
-                  <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">~~~</h2>
-              </div>
+                <div className="flex flex-col items-center justify-center w-full mb-10">
+                    <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
+                        <Translate id="homepage.LogosCloud.Title">
+                            Supported by people and companies who care 🚀
+                        </Translate>
+                    </h2>
 
-              <div class="bg-white dark:bg-[#070a11]">
+                    <div
+                        className="mb-2 text-lg font-semibold text-gray-900 dark:text-white"
+                        aria-hidden="true"
+                    >
+                    </div>
+                </div>
 
-                  <div id="clientlogosrow" className="logotypes">
-                      {/*For styling see custom.css stylesheet*/}
-                      {logos.map((logo, i) => {
-                              return (
+                <div className="bg-white dark:bg-[#070a11]">
+                    <div id="clientlogosrow" className="logotypes">
+                        {logos.map((logo) => (
+                            <div key={logo.name}>
+                                <a
+                                    href={logo.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    aria-label={logo.name}
+                                >
+                                    <img
+                                        loading="lazy"
+                                        decoding="async"
+                                        src={logo.src}
+                                        alt={logo.name}
+                                        className={`imagessmaller ${logo.style}`}
+                                    />
+                                </a>
+                            </div>
+                        ))}
+                    </div>
+                </div>
 
-                                  <div key={i}>
-                                      <a href={logo.url} target="_blank" rel="noreferrer">
-                                          {/*<img className={`mx-auto bg-gray-50 ${logo.style}`} src={logo.src} alt={logo.name}/>*/}
-                                          <img loading="lazy" src={logo.src} className={`imagessmaller ${logo.style}`}/>
-                                      </a>
-                                  </div>
-
-                              )
-                          }
-                      )}
-
-                  </div>
-
-
-                  {/*<div className="flex flex-wrap items-center">*/}
-
-                  {/*    {logos.map((logo, i) => {*/}
-                  {/*            return (*/}
-
-                  {/*                <div className="w-full sm:w-1/3 lg:w-1/5 p-2" key={i}>*/}
-                  {/*                    <a href={logo.url} target="_blank" rel="noreferrer">*/}
-                  {/*                        <img className={`mx-auto bg-gray-50 ${logo.style}`} src={logo.src} alt={logo.name}/>*/}
-                  {/*                    </a>*/}
-                  {/*                </div>*/}
-
-                  {/*            )*/}
-                  {/*        }*/}
-                  {/*    )}*/}
-
-                  {/*</div>*/}
-              </div>
-          </div>
-      </section>
-
-  );
+            </div>
+        </section>
+    );
 }
