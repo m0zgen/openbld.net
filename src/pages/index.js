@@ -287,8 +287,15 @@ function FeaturesListHeading() {
 
                             {/*OpenBLD logo*/}
                             <div className="w-full md:w-1/2 p-8">
-                                <img className="mx-auto md:mr-0" src="img/site-cover-openbld-net-dark.png"
-                                     alt="OpenBLD.net DNS Site Logo"/>
+
+                                <img
+                                    className="responsive-image mx-auto md:mr-0"
+                                    src="/img/site-cover-openbld-net-dark.webp"
+                                    alt="OpenBLD.net DNS Site Logo"
+                                    width="635"
+                                    height="258"
+                                    decoding="async"
+                                />
 
                                 {/*Quick setup*/}
                                 {/*<div className="mt-3 block max-w-xl pl-6 pr-6 p-2 bg-white border border-gray-200 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">*/}
