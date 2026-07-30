@@ -2,11 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/blog/</id>
     <title>OpenBLD.net Blog</title>
-    <updated>2026-07-09T00:00:00.000Z</updated>
+    <updated>2026-07-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/blog/"/>
     <subtitle>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</subtitle>
     <icon>https://openbld.net/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 zBLD Plus for Enterprise - DNS Big Data]]></title>
+        <id>https://openbld.net/blog/zbld-enterprise-and-clickhouse-big-data/</id>
+        <link href="https://openbld.net/blog/zbld-enterprise-and-clickhouse-big-data/"/>
+        <updated>2026-07-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD Plus for Enterprise - DNS Big Data with ClickHouse and zBLD.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="zBLD Plus for Enterprise - DNS Big Data" src="https://openbld.net/assets/images/zbld-enterprise-and-clickhouse-big-data-54ddf562dea31c610afa2d5224d84f30.webp" width="1250" height="680" class="img_tFOa"></p>
+<p>The solution is available for On-Premise deployments and is designed for organizations that require detailed DNS analytics,
+full control over their data, and event storage within their own infrastructure.</p>
+<p>Centralized DNS event collection with ClickHouse and VictoriaLogs integration.</p>
+<!-- -->
+<ul>
+<li class="">centralized collection of DNS events from all zBLD instances;</li>
+<li class="">streaming data delivery to ClickHouse or VictoriaLogs;</li>
+<li class="">analytics for queried and blocked domains;</li>
+<li class="">the option to disable IP address anonymization;</li>
+<li class="">data storage and processing entirely within the customer’s infrastructure.</li>
+</ul>
+<p>ClickHouse makes it possible to process large volumes of DNS events, run queries across any time range, and generate aggregated statistics by users, nodes, domains, query types, and processing results.</p>
+<p>This is the next step in the evolution of DNS cybersecurity.</p>
+<p><strong>zBLD Plus for Enterprise is offered as an On-Premise solution for organizations.</strong></p>
+<p>For individual users and the wider community, <strong>OpenBLD Public DNS is available free of charge:</strong></p>
+<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">https://openbld.net/</a></p>
+<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/blog/zbld-enterprise-and-clickhouse-big-data/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="zbld" term="zbld"/>
+        <category label="enterprise" term="enterprise"/>
+        <category label="plus" term="plus"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[⚔️ OpenBLD.net — Algorithm (zBLD) vs. Algorithm (DGA)]]></title>
         <id>https://openbld.net/blog/openbld-zbld-guard-dga-2026/</id>
@@ -339,41 +376,6 @@
         </author>
         <category label="openbld" term="openbld"/>
         <category label="tools" term="tools"/>
-        <category label="2026" term="2026"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 OpenBLD.net in San Francisco]]></title>
-        <id>https://openbld.net/blog/openbld-in-san-francisco-2026/</id>
-        <link href="https://openbld.net/blog/openbld-in-san-francisco-2026/"/>
-        <updated>2026-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Thanks to 3HCLOUD.kz, a new OpenBLD infrastructure server has been deployed in San Francisco.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net in San Francisco" src="https://openbld.net/assets/images/openbld-in-san-francisco-d995e74af774c7e17a1ef2d752579653.webp" width="1250" height="680" class="img_tFOa"></p>
-<p>Thanks to <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a>, a new OpenBLD infrastructure server has been deployed in San Francisco.</p>
-<p>Over the years of working together, 3HCLOUD has consistently demonstrated:</p>
-<ul>
-<li class="">Stable and reliable services</li>
-<li class="">Very competitive pricing</li>
-<li class="">Multiple locations worldwide, including Kazakhstan 🇰🇿</li>
-<li class="">Built-in firewall and additional security features</li>
-<li class="">Fast and high-quality network connectivity</li>
-</ul>
-<!-- -->
-<p>Throughout the development of <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net</a>, we have worked with many cloud providers. Not all of them are able to meet the demands of DNS infrastructure.</p>
-<p><em>You could say that OpenBLD.net has become a kind of stress test for cloud platforms.</em></p>
-<p>That is why it is especially rewarding to highlight that <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a> has been successfully passing this test for many years.</p>
-<p>Together, we are making the Internet faster, safer, and more reliable.</p>
-<p>Thank you to the <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a> team for supporting the project. 🤝</p>
-<hr>
-<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/blog/openbld-in-san-francisco-2026/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
         <category label="2026" term="2026"/>
     </entry>
 </feed>

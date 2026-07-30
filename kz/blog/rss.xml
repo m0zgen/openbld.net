@@ -4,10 +4,43 @@
         <title>OpenBLD.net Blog</title>
         <link>https://openbld.net/kz/blog/</link>
         <description>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</description>
-        <lastBuildDate>Thu, 09 Jul 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🚀 zBLD Plus for Enterprise - DNS Big Data]]></title>
+            <link>https://openbld.net/kz/blog/zbld-enterprise-and-clickhouse-big-data/</link>
+            <guid>https://openbld.net/kz/blog/zbld-enterprise-and-clickhouse-big-data/</guid>
+            <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD Plus for Enterprise - DNS Big Data with ClickHouse and zBLD.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="zBLD Plus for Enterprise - DNS Big Data" src="https://openbld.net/kz/assets/images/zbld-enterprise-and-clickhouse-big-data-54ddf562dea31c610afa2d5224d84f30.webp" width="1250" height="680" class="img_tFOa"></p>
+<p>The solution is available for On-Premise deployments and is designed for organizations that require detailed DNS analytics,
+full control over their data, and event storage within their own infrastructure.</p>
+<p>Centralized DNS event collection with ClickHouse and VictoriaLogs integration.</p>
+<!-- -->
+<ul>
+<li class="">centralized collection of DNS events from all zBLD instances;</li>
+<li class="">streaming data delivery to ClickHouse or VictoriaLogs;</li>
+<li class="">analytics for queried and blocked domains;</li>
+<li class="">the option to disable IP address anonymization;</li>
+<li class="">data storage and processing entirely within the customer’s infrastructure.</li>
+</ul>
+<p>ClickHouse makes it possible to process large volumes of DNS events, run queries across any time range, and generate aggregated statistics by users, nodes, domains, query types, and processing results.</p>
+<p>This is the next step in the evolution of DNS cybersecurity.</p>
+<p><strong>zBLD Plus for Enterprise is offered as an On-Premise solution for organizations.</strong></p>
+<p>For individual users and the wider community, <strong>OpenBLD Public DNS is available free of charge:</strong></p>
+<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">https://openbld.net/</a></p>
+<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/kz/blog/zbld-enterprise-and-clickhouse-big-data/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
+</ul>]]></content:encoded>
+            <category>openbld</category>
+            <category>zbld</category>
+            <category>enterprise</category>
+            <category>plus</category>
+            <category>2026</category>
+        </item>
         <item>
             <title><![CDATA[⚔️ OpenBLD.net — Algorithm (zBLD) vs. Algorithm (DGA)]]></title>
             <link>https://openbld.net/kz/blog/openbld-zbld-guard-dga-2026/</link>
@@ -199,7 +232,7 @@
 <h3 class="anchor anchorTargetStickyNavbar_m4Qy" id="replace-prometheus-and-expose-to-remote-grafana">Replace Prometheus and expose to remote Grafana<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#replace-prometheus-and-expose-to-remote-grafana" class="hash-link" aria-label="Replace Prometheus and expose to remote Grafana-ға тікелей сілтеме" title="Replace Prometheus and expose to remote Grafana-ға тікелей сілтеме" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo LISTEN_ADDRESS="0.0.0.0:9090" ./promppctl.sh install</span><br></div></code></pre></div></div>
 <p>Make sure firewall rules allow only trusted hosts.</p>
-<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="notes">Notes<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#notes" class="hash-link" aria-label="Notes-ға тікелей сілтеме" title="Notes-ға тікелей сілтем�е" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="notes">Notes<a href="https://openbld.net/kz/blog/prometheus-to-prompp-promppctl-tool/#notes" class="hash-link" aria-label="Notes-ға тікелей сілтеме" title="Notes-ға тікелей сілтеме" translate="no">​</a></h2>
 <ul>
 <li class="">Prom++ is intended to be Prometheus-compatible for configs, API and PromQL workflows.</li>
 <li class="">The script keeps vanilla Prometheus data untouched to make rollback simple.</li>
@@ -306,7 +339,7 @@
 <div class="language-text codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-text codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">./prom-health.sh --all</span><br></div></code></pre></div></div>
 <p>Use custom URL and service name:</p>
 <div class="language-text codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-text codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">./prom-health.sh -u http://127.0.0.1:9090 -s prometheus</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="example-output">Example Output<a href="https://openbld.net/kz/blog/prometheus-health-check-script/#example-output" class="hash-link" aria-label="Example Output-ға тікелей сілтеме" title="Example Output-ға тікелей сілтеме" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="example-output">Example Output<a href="https://openbld.net/kz/blog/prometheus-health-check-script/#example-output" class="hash-link" aria-label="Example Output-ға тікелей сілтеме" title="Example Output-ға тіке�лей сілтеме" translate="no">​</a></h2>
 <div class="language-text codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-text codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">=== Prometheus Health Check ===</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">URL:     http://127.0.0.1:9090</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Service: prometheus</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">READY:   ✅ ready</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">HEALTHY: ✅ healthy</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">=== Runtime ===</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Start time:     2026-05-29T10:12:01.000Z</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">CWD:            /var/lib/prometheus</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Goroutines:     123</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">GOMAXPROCS:     4</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">GOGC:           75</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">GODEBUG:</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">=== Process Memory ===</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">PID:            12345</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">RSS memory:     742.18 MiB</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Virtual memory: 2.13 GiB</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Threads:        18</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">=== Self Metrics ===</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">process RSS metric:     742.18 MiB</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Go alloc:               512.44 MiB</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Go sys:                 980.12 MiB</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">=== TSDB ===</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Series:          238412</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Label pairs:     18523</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Chunks:          991203</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Min time:        1760000000000</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Max time:        1760003600000</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">=== Targets Summary ===</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Total active targets: 12</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">UP:                   11</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">DOWN:                 1</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">UNKNOWN/OTHER:        0</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">=== Unhealthy Targets ===</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">JOB                      INSTANCE                         HEALTH     LAST_ERROR                               LAST_SCRAPE               SCRAPE_URL</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">---                      --------                         ------     ----------                               -----------               ----------</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">node                     10.10.10.5:9100                  down       context deadline exceeded                2026-05-29T10:20:00Z      http://10.10.10.5:9100/metrics</span><br></div></code></pre></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="repository">Repository<a href="https://openbld.net/kz/blog/prometheus-health-check-script/#repository" class="hash-link" aria-label="Repository-ға тікелей сілтеме" title="Repository-ға тікелей сілтеме" translate="no">​</a></h2>
 <ul>
@@ -324,37 +357,6 @@
 </ul>]]></content:encoded>
             <category>openbld</category>
             <category>tools</category>
-            <category>2026</category>
-        </item>
-        <item>
-            <title><![CDATA[🚀 OpenBLD.net in San Francisco]]></title>
-            <link>https://openbld.net/kz/blog/openbld-in-san-francisco-2026/</link>
-            <guid>https://openbld.net/kz/blog/openbld-in-san-francisco-2026/</guid>
-            <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Thanks to 3HCLOUD.kz, a new OpenBLD infrastructure server has been deployed in San Francisco.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net in San Francisco" src="https://openbld.net/kz/assets/images/openbld-in-san-francisco-d995e74af774c7e17a1ef2d752579653.webp" width="1250" height="680" class="img_tFOa"></p>
-<p>Thanks to <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a>, a new OpenBLD infrastructure server has been deployed in San Francisco.</p>
-<p>Over the years of working together, 3HCLOUD has consistently demonstrated:</p>
-<ul>
-<li class="">Stable and reliable services</li>
-<li class="">Very competitive pricing</li>
-<li class="">Multiple locations worldwide, including Kazakhstan 🇰🇿</li>
-<li class="">Built-in firewall and additional security features</li>
-<li class="">Fast and high-quality network connectivity</li>
-</ul>
-<!-- -->
-<p>Throughout the development of <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net</a>, we have worked with many cloud providers. Not all of them are able to meet the demands of DNS infrastructure.</p>
-<p><em>You could say that OpenBLD.net has become a kind of stress test for cloud platforms.</em></p>
-<p>That is why it is especially rewarding to highlight that <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a> has been successfully passing this test for many years.</p>
-<p>Together, we are making the Internet faster, safer, and more reliable.</p>
-<p>Thank you to the <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a> team for supporting the project. 🤝</p>
-<hr>
-<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-in-san-francisco-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
             <category>2026</category>
         </item>
     </channel>

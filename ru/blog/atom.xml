@@ -2,11 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net Blog</title>
-    <updated>2026-07-09T00:00:00.000Z</updated>
+    <updated>2026-07-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🚀 zBLD Plus for Enterprise - DNS Big Data]]></title>
+        <id>https://openbld.net/ru/blog/zbld-enterprise-and-clickhouse-big-data/</id>
+        <link href="https://openbld.net/ru/blog/zbld-enterprise-and-clickhouse-big-data/"/>
+        <updated>2026-07-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD Plus for Enterprise - DNS Big Data with ClickHouse and zBLD.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="zBLD Plus for Enterprise - DNS Big Data" src="https://openbld.net/ru/assets/images/zbld-enterprise-and-clickhouse-big-data-54ddf562dea31c610afa2d5224d84f30.webp" width="1250" height="680" class="img_tFOa"></p>
+<p>The solution is available for On-Premise deployments and is designed for organizations that require detailed DNS analytics,
+full control over their data, and event storage within their own infrastructure.</p>
+<p>Centralized DNS event collection with ClickHouse and VictoriaLogs integration.</p>
+<!-- -->
+<ul>
+<li class="">centralized collection of DNS events from all zBLD instances;</li>
+<li class="">streaming data delivery to ClickHouse or VictoriaLogs;</li>
+<li class="">analytics for queried and blocked domains;</li>
+<li class="">the option to disable IP address anonymization;</li>
+<li class="">data storage and processing entirely within the customer’s infrastructure.</li>
+</ul>
+<p>ClickHouse makes it possible to process large volumes of DNS events, run queries across any time range, and generate aggregated statistics by users, nodes, domains, query types, and processing results.</p>
+<p>This is the next step in the evolution of DNS cybersecurity.</p>
+<p><strong>zBLD Plus for Enterprise is offered as an On-Premise solution for organizations.</strong></p>
+<p>For individual users and the wider community, <strong>OpenBLD Public DNS is available free of charge:</strong></p>
+<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">https://openbld.net/</a></p>
+<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/ru/blog/zbld-enterprise-and-clickhouse-big-data/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="openbld" term="openbld"/>
+        <category label="zbld" term="zbld"/>
+        <category label="enterprise" term="enterprise"/>
+        <category label="plus" term="plus"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[⚔️ OpenBLD.net — Algorithm (zBLD) vs. Algorithm (DGA)]]></title>
         <id>https://openbld.net/ru/blog/openbld-zbld-guard-dga-2026/</id>
@@ -139,7 +176,7 @@
 <p>Optional but recommended:</p>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">rsync</span><br></div></code></pre></div></div>
 <p>If <code>rsync</code> is not installed, the script falls back to <code>cp -a</code> for TSDB migration.</p>
-<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="installation">Installation<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#installation" class="hash-link" aria-label="Прямая ссылк�а на Installation" title="Прямая ссылка на Installation" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="installation">Installation<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#installation" class="hash-link" aria-label="Прямая ссылка на Installation" title="Прямая ссылка на Installation" translate="no">​</a></h2>
 <p>Download or copy the script:</p>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">chmod +x promppctl.sh</span><br></div></code></pre></div></div>
 <p>Install Prom++ using the latest release:</p>
@@ -181,7 +218,7 @@
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo PROMPP_VERSION="v0.8.0-rc3" ./promppctl.sh install</span><br></div></code></pre></div></div>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo PROMPP_ARCH="amd64" ./promppctl.sh latest-url</span><br></div></code></pre></div></div>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo PROMPP_URL="https://github.com/deckhouse/prompp/releases/download/v0.8.0-rc3/prompp-binaries-amd64.tar.gz" ./promppctl.sh install</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_m4Qy" id="service-and-path-variables">Service and path variables<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#service-and-path-variables" class="hash-link" aria-label="Прямая ссылка на Service and path variables" title="Прямая ссылка на Service and path variables" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_m4Qy" id="service-and-path-variables">Service and path variables<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#service-and-path-variables" class="hash-link" aria-label="Прямая ссылка �на Service and path variables" title="Прямая ссылка на Service and path variables" translate="no">​</a></h3>
 <table><thead><tr><th>Variable</th><th style="text-align:right">Default</th><th>Description</th></tr></thead><tbody><tr><td><code>PROMPP_USER</code></td><td style="text-align:right"><code>prometheus</code></td><td>Linux user for service</td></tr><tr><td><code>PROMPP_GROUP</code></td><td style="text-align:right"><code>prometheus</code></td><td>Linux group for service</td></tr><tr><td><code>INSTALL_DIR</code></td><td style="text-align:right"><code>/opt/prompp</code></td><td>Install and backup directory</td></tr><tr><td><code>BIN_PATH</code></td><td style="text-align:right"><code>/usr/local/bin/prompp</code></td><td>Prom++ binary path</td></tr><tr><td><code>TOOL_PATH</code></td><td style="text-align:right"><code>/usr/local/bin/prompptool</code></td><td>Prom++ tool path</td></tr><tr><td><code>CONFIG_DIR</code></td><td style="text-align:right"><code>/etc/prometheus</code></td><td>Config directory</td></tr><tr><td><code>CONFIG_FILE</code></td><td style="text-align:right"><code>/etc/prometheus/prometheus.yml</code></td><td>Prometheus-compatible config</td></tr><tr><td><code>DATA_DIR</code></td><td style="text-align:right"><code>/var/lib/prompp</code></td><td>Prom++ data dir</td></tr><tr><td><code>OLD_DATA_DIR</code></td><td style="text-align:right"><code>/var/lib/prometheus</code></td><td>Existing Prometheus data dir</td></tr><tr><td><code>BACKUP_ROOT</code></td><td style="text-align:right"><code>/var/lib</code></td><td>Backup root for Prometheus data</td></tr><tr><td><code>SERVICE_FILE</code></td><td style="text-align:right"><code>/etc/systemd/system/prompp.service</code></td><td>Systemd unit path</td></tr><tr><td><code>LISTEN_ADDRESS</code></td><td style="text-align:right"><code>127.0.0.1:9090</code></td><td>Prom++ web listen address</td></tr><tr><td><code>RETENTION_TIME</code></td><td style="text-align:right"><code>15d</code></td><td>TSDB retention time</td></tr></tbody></table>
 <p>Examples:</p>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo LISTEN_ADDRESS="0.0.0.0:9090" ./promppctl.sh install</span><br></div></code></pre></div></div>
@@ -201,12 +238,12 @@
 <h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="typical-workflows">Typical workflows<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#typical-workflows" class="hash-link" aria-label="Прямая ссылка на Typical workflows" title="Прямая ссылка на Typical workflows" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_m4Qy" id="replace-existing-prometheus-on-the-same-port">Replace existing Prometheus on the same port<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#replace-existing-prometheus-on-the-same-port" class="hash-link" aria-label="Прямая ссылка на Replace existing Prometheus on the same port" title="Прямая ссылка на Replace existing Prometheus on the same port" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ./promppctl.sh install</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl http://127.0.0.1:9090/-/ready</span><br></div></code></pre></div></div>
-<h3 class="anchor anchorTargetStickyNavbar_m4Qy" id="run-prom-side-by-side-for-testing">Run Prom++ side by side for testing<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#run-prom-side-by-side-for-testing" class="hash-link" aria-label="Прямая ссылка на Run Prom++ side by side for testing" title="Прямая ссыл�ка на Run Prom++ side by side for testing" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_m4Qy" id="run-prom-side-by-side-for-testing">Run Prom++ side by side for testing<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#run-prom-side-by-side-for-testing" class="hash-link" aria-label="Прямая ссылка на Run Prom++ side by side for testing" title="Прямая ссылка на Run Prom++ side by side for testing" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo MIGRATE_DATA=0 REPLACE_PROMETHEUS=0 LISTEN_ADDRESS="127.0.0.1:9091" ./promppctl.sh install</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl http://127.0.0.1:9091/-/ready</span><br></div></code></pre></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_m4Qy" id="replace-prometheus-and-expose-to-remote-grafana">Replace Prometheus and expose to remote Grafana<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#replace-prometheus-and-expose-to-remote-grafana" class="hash-link" aria-label="Прямая ссылка на Replace Prometheus and expose to remote Grafana" title="Прямая ссылка на Replace Prometheus and expose to remote Grafana" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo LISTEN_ADDRESS="0.0.0.0:9090" ./promppctl.sh install</span><br></div></code></pre></div></div>
 <p>Make sure firewall rules allow only trusted hosts.</p>
-<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="notes">Notes<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#notes" class="hash-link" aria-label="Прямая ссылка на Notes" title="Прямая ссылка на Notes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="notes">Notes<a href="https://openbld.net/ru/blog/prometheus-to-prompp-promppctl-tool/#notes" class="hash-link" aria-label="Прямая с�сылка на Notes" title="Прямая ссылка на Notes" translate="no">​</a></h2>
 <ul>
 <li class="">Prom++ is intended to be Prometheus-compatible for configs, API and PromQL workflows.</li>
 <li class="">The script keeps vanilla Prometheus data untouched to make rollback simple.</li>
@@ -339,41 +376,6 @@
         </author>
         <category label="openbld" term="openbld"/>
         <category label="tools" term="tools"/>
-        <category label="2026" term="2026"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 OpenBLD.net in San Francisco]]></title>
-        <id>https://openbld.net/ru/blog/openbld-in-san-francisco-2026/</id>
-        <link href="https://openbld.net/ru/blog/openbld-in-san-francisco-2026/"/>
-        <updated>2026-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Thanks to 3HCLOUD.kz, a new OpenBLD infrastructure server has been deployed in San Francisco.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net in San Francisco" src="https://openbld.net/ru/assets/images/openbld-in-san-francisco-d995e74af774c7e17a1ef2d752579653.webp" width="1250" height="680" class="img_tFOa"></p>
-<p>Thanks to <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a>, a new OpenBLD infrastructure server has been deployed in San Francisco.</p>
-<p>Over the years of working together, 3HCLOUD has consistently demonstrated:</p>
-<ul>
-<li class="">Stable and reliable services</li>
-<li class="">Very competitive pricing</li>
-<li class="">Multiple locations worldwide, including Kazakhstan 🇰🇿</li>
-<li class="">Built-in firewall and additional security features</li>
-<li class="">Fast and high-quality network connectivity</li>
-</ul>
-<!-- -->
-<p>Throughout the development of <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net</a>, we have worked with many cloud providers. Not all of them are able to meet the demands of DNS infrastructure.</p>
-<p><em>You could say that OpenBLD.net has become a kind of stress test for cloud platforms.</em></p>
-<p>That is why it is especially rewarding to highlight that <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a> has been successfully passing this test for many years.</p>
-<p>Together, we are making the Internet faster, safer, and more reliable.</p>
-<p>Thank you to the <a href="https://3hcloud.com/" target="_blank" rel="noopener noreferrer" class="">3HCLOUD</a> team for supporting the project. 🤝</p>
-<hr>
-<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/ru/blog/openbld-in-san-francisco-2026/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
         <category label="2026" term="2026"/>
     </entry>
 </feed>

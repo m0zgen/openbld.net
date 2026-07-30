@@ -5,6 +5,25 @@
     "description": "OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.",
     "items": [
         {
+            "id": "https://openbld.net/blog/zbld-enterprise-and-clickhouse-big-data/",
+            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"zBLD Plus for Enterprise - DNS Big Data\" src=\"https://openbld.net/assets/images/zbld-enterprise-and-clickhouse-big-data-54ddf562dea31c610afa2d5224d84f30.webp\" width=\"1250\" height=\"680\" class=\"img_tFOa\"></p>\n<p>The solution is available for On-Premise deployments and is designed for organizations that require detailed DNS analytics,\nfull control over their data, and event storage within their own infrastructure.</p>\n<p>Centralized DNS event collection with ClickHouse and VictoriaLogs integration.</p>\n<!-- -->\n<ul>\n<li class=\"\">centralized collection of DNS events from all zBLD instances;</li>\n<li class=\"\">streaming data delivery to ClickHouse or VictoriaLogs;</li>\n<li class=\"\">analytics for queried and blocked domains;</li>\n<li class=\"\">the option to disable IP address anonymization;</li>\n<li class=\"\">data storage and processing entirely within the customer’s infrastructure.</li>\n</ul>\n<p>ClickHouse makes it possible to process large volumes of DNS events, run queries across any time range, and generate aggregated statistics by users, nodes, domains, query types, and processing results.</p>\n<p>This is the next step in the evolution of DNS cybersecurity.</p>\n<p><strong>zBLD Plus for Enterprise is offered as an On-Premise solution for organizations.</strong></p>\n<p>For individual users and the wider community, <strong>OpenBLD Public DNS is available free of charge:</strong></p>\n<p><a href=\"https://openbld.net/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">https://openbld.net/</a></p>\n<h4 class=\"anchor anchorTargetStickyNavbar_m4Qy\" id=\"updates\">Updates<a href=\"https://openbld.net/blog/zbld-enterprise-and-clickhouse-big-data/#updates\" class=\"hash-link\" aria-label=\"Direct link to Updates\" title=\"Direct link to Updates\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">Telegram</a></li>\n</ul>",
+            "url": "https://openbld.net/blog/zbld-enterprise-and-clickhouse-big-data/",
+            "title": "🚀 zBLD Plus for Enterprise - DNS Big Data",
+            "summary": "OpenBLD Plus for Enterprise - DNS Big Data with ClickHouse and zBLD.",
+            "date_modified": "2026-07-30T00:00:00.000Z",
+            "author": {
+                "name": "Yevgeniy Goncharov",
+                "url": "https://github.com/m0zgen"
+            },
+            "tags": [
+                "openbld",
+                "zbld",
+                "enterprise",
+                "plus",
+                "2026"
+            ]
+        },
+        {
             "id": "https://openbld.net/blog/openbld-zbld-guard-dga-2026/",
             "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"🥷 OpenBLD.net — Algorithm (zBLD) vs. Algorithm (DGA)\" src=\"https://openbld.net/assets/images/openbld_zbld_guard_dga_2-e69f60c5e4af43fc69e425213ef30fba.webp\" width=\"1024\" height=\"557\" class=\"img_tFOa\"></p>\n<p>Malware and botnets use <strong>DGA</strong> (Domain Generation Algorithm)—algorithms that generate hundreds of \"trash\" domains per second to communicate with C2 servers.</p>\n<p>An attack example from real OpenBLD logs:</p>\n<ul>\n<li class=\"\"><code>s-dfgfd-sdfz...zdssragv[.]mom</code></li>\n<li class=\"\"><code>96bccebb2f7e...wu7y6z[.]com</code></li>\n<li class=\"\"><code>60r...60pg0131[.]cc</code></li>\n<li class=\"\"><em>and billions of similar ones...</em></li>\n</ul>\n<p><strong>What's the harm?</strong></p>\n<p>Aside from the obvious malicious intent, this chaotic spam clogs the cache, hammers I/O, chews up CPU time, and generates gigabytes of junk logs. As a result—speed degradation and high resource utilization.</p>\n<!-- -->\n<p><strong>How to fight it?</strong></p>\n<p>Signatures and blacklists are useless—a total waste of resources, as these domains live for only a matter of minutes.</p>\n<p><strong>The Solution</strong> is proactive analysis: a detection algorithm against a generation algorithm.</p>\n<p>In OpenBLD, the smart DGA detection has been continuously improving and running since 2025 (before that, it spent a whole year being refined, tested, and running in read-only mode).</p>\n<p><strong>The Result:</strong></p>\n<p>Junk is blocked on the fly. The service preserves resources, while end users get maximum response speed.</p>\n<p>Engineering in details ☝️ Speed and protection at the intersection of algorithms:</p>\n<p>• <a href=\"https://openbld.net/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">https://openbld.net/</a></p>\n<h4 class=\"anchor anchorTargetStickyNavbar_m4Qy\" id=\"updates\">Updates<a href=\"https://openbld.net/blog/openbld-zbld-guard-dga-2026/#updates\" class=\"hash-link\" aria-label=\"Direct link to Updates\" title=\"Direct link to Updates\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">Telegram</a></li>\n</ul>",
             "url": "https://openbld.net/blog/openbld-zbld-guard-dga-2026/",
@@ -69,23 +88,6 @@
             "tags": [
                 "openbld",
                 "tools",
-                "2026"
-            ]
-        },
-        {
-            "id": "https://openbld.net/blog/openbld-in-san-francisco-2026/",
-            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"🚀 OpenBLD.net in San Francisco\" src=\"https://openbld.net/assets/images/openbld-in-san-francisco-d995e74af774c7e17a1ef2d752579653.webp\" width=\"1250\" height=\"680\" class=\"img_tFOa\"></p>\n<p>Thanks to <a href=\"https://3hcloud.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">3HCLOUD</a>, a new OpenBLD infrastructure server has been deployed in San Francisco.</p>\n<p>Over the years of working together, 3HCLOUD has consistently demonstrated:</p>\n<ul>\n<li class=\"\">Stable and reliable services</li>\n<li class=\"\">Very competitive pricing</li>\n<li class=\"\">Multiple locations worldwide, including Kazakhstan 🇰🇿</li>\n<li class=\"\">Built-in firewall and additional security features</li>\n<li class=\"\">Fast and high-quality network connectivity</li>\n</ul>\n<!-- -->\n<p>Throughout the development of <a href=\"https://openbld.net/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">OpenBLD.net</a>, we have worked with many cloud providers. Not all of them are able to meet the demands of DNS infrastructure.</p>\n<p><em>You could say that OpenBLD.net has become a kind of stress test for cloud platforms.</em></p>\n<p>That is why it is especially rewarding to highlight that <a href=\"https://3hcloud.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">3HCLOUD</a> has been successfully passing this test for many years.</p>\n<p>Together, we are making the Internet faster, safer, and more reliable.</p>\n<p>Thank you to the <a href=\"https://3hcloud.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">3HCLOUD</a> team for supporting the project. 🤝</p>\n<hr>\n<h4 class=\"anchor anchorTargetStickyNavbar_m4Qy\" id=\"updates\">Updates<a href=\"https://openbld.net/blog/openbld-in-san-francisco-2026/#updates\" class=\"hash-link\" aria-label=\"Direct link to Updates\" title=\"Direct link to Updates\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">OpenBLD.net Telegram</a></li>\n</ul>",
-            "url": "https://openbld.net/blog/openbld-in-san-francisco-2026/",
-            "title": "🚀 OpenBLD.net in San Francisco",
-            "summary": "Thanks to 3HCLOUD.kz, a new OpenBLD infrastructure server has been deployed in San Francisco.",
-            "date_modified": "2026-06-04T00:00:00.000Z",
-            "author": {
-                "name": "Yevgeniy Goncharov",
-                "url": "https://github.com/m0zgen"
-            },
-            "tags": [
-                "openbld",
-                "updates",
                 "2026"
             ]
         }
