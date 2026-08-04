@@ -10,10 +10,10 @@ export default function HomepageCompareAdaAndRic() {
                   <div className="flex flex-wrap -m-8">
                       <div className="w-full md:w-1/2 p-8 bg-gray-100">
                           <img
-                              loading="lazy"
+                              loading="eager"
                               decoding="async"
-                              width="610"
-                              height="325"
+                              // width="610"
+                              // height="325"
                               className="mx-auto md:ml-0 border-solid border-2 border-sky-500"
                               src="/img/openbld--blocker-chrome-extension-v2.webp"
                               alt="OpenBLD.net Chrome Based Browsers Extension"

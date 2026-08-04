@@ -251,7 +251,7 @@ ul.cloud p {
 /*index modules*/
 .content-auto {
   content-visibility: auto;
-  contain-intrinsic-size: auto 800px;
+  contain-intrinsic-size: auto 600px;
 }
 
 /*abuse cover on home*/

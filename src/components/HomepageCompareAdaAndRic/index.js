@@ -13,8 +13,8 @@ export default function HomepageCompareAdaAndRic() {
                           <img
                               src="/img/openbld-ada-ric-adminforge-test.webp"
                               alt="OpenBLD.net DNS comparison test"
-                              width="610"
-                              height="406"
+                              // width="610"
+                              // height="406"
                               loading="lazy"
                               decoding="async"
                               className="mx-auto"
