@@ -232,6 +232,10 @@ const config = {
                 href: 'https://www.paypal.com/paypalme/m0zgen',
               },
               {
+                label: 'Ko-fi',
+                href: 'https://ko-fi.com/sysadminkz/goal?g=14',
+              },
+              {
                 label: 'DonorBox',
                 href: 'https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=10',
               },

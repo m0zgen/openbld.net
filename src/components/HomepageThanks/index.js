@@ -140,16 +140,45 @@ const thanks = [
     },
 ];
 
+const donationMethods = [
+    {
+        name: 'Ko-fi',
+        description: 'Support OpenBLD with a coffee',
+        url: 'https://ko-fi.com/D1D85Y7SO',
+        icon: '☕',
+        iconClass: 'from-[#ff5e5b] to-[#ff8a80]',
+        hoverClass:
+            'hover:border-[#ff5e5b]/50 hover:shadow-[#ff5e5b]/10',
+    },
+    {
+        name: 'YooMoney',
+        description: 'Support in tenge or rubles',
+        url: 'https://yoomoney.ru/to/41001928837376',
+        icon: '',
+        iconClass: 'from-[#7b2cff] to-[#ad63ff]',
+        hoverClass:
+            'hover:border-[#8b3dff]/50 hover:shadow-[#8b3dff]/10',
+    },
+    {
+        name: 'PayPal',
+        description: 'International contribution',
+        url: 'https://www.paypal.com/paypalme/m0zgen',
+        icon: '',
+        iconClass: 'from-[#0070ba] to-[#003087]',
+        hoverClass:
+            'hover:border-[#0070ba]/50 hover:shadow-[#0070ba]/10',
+    },
+];
+
 const currentYear = new Date().getFullYear();
 
 export default function HomepageThanks() {
     return (
         <section
             id="thanks-section"
-            className="overflow-hidden px-6 pb-10 pt-4 dark:bg-[#070a11]"
+            className="overflow-hidden px-6 pb-16 pt-4 dark:bg-[#070a11]"
         >
             <div className="container mx-auto px-4">
-
                 <div className="mb-6 flex w-full flex-col items-center justify-center">
                     <h3 className="font-heading text-xl font-bold tracking-tight text-gray-900 dark:text-gray-200 md:text-2xl">
                         <Translate id="homepage.Thanks.Title">
@@ -173,7 +202,7 @@ export default function HomepageThanks() {
                                         className={`underline ${user.style}`}
                                         href={user.url}
                                         target="_blank"
-                                        rel="noreferrer"
+                                        rel="noopener noreferrer"
                                     >
                                         {user.name}
                                     </a>
@@ -196,7 +225,6 @@ export default function HomepageThanks() {
                         >
                             Contribute Log
                         </Link>
-
                     </p>
 
                     <p className="mt-3 text-sm text-gray-600 dark:text-gray-400">
@@ -205,15 +233,195 @@ export default function HomepageThanks() {
                     </p>
                 </div>
 
-                <div className="mb-8 flex w-full flex-col items-center justify-center">
-                    <Link
-                        className="font-medium text-blue-600 hover:underline dark:text-blue-500"
-                        to="/docs/donation"
+                <div className="mx-auto mt-12 max-w-5xl">
+                    <div
+                        className="
+            relative overflow-hidden rounded-3xl
+            border border-gray-200/80
+            bg-gray-50/80 px-6 py-8
+            shadow-xl shadow-gray-200/30
+            dark:border-white/10
+            dark:bg-[#0d111b]
+            dark:shadow-black/30
+            md:px-10 md:py-10
+        "
                     >
-                        <Translate id="homepage.Thanks.AssistLink">
-                            How can you assist the project?
-                        </Translate>
-                    </Link>
+                        <div
+                            aria-hidden="true"
+                            className="
+                pointer-events-none absolute -right-20 -top-24
+                h-64 w-64 rounded-full
+                bg-blue-500/10 blur-3xl
+                dark:bg-blue-500/15
+            "
+                        />
+
+                        <div
+                            aria-hidden="true"
+                            className="
+                pointer-events-none absolute -bottom-32 -left-24
+                h-64 w-64 rounded-full
+                bg-green-500/10 blur-3xl
+                dark:bg-green-500/10
+            "
+                        />
+
+                        <div className="relative z-10">
+                            <div className="mx-auto max-w-3xl text-center">
+                <span
+                    className="
+                        inline-flex items-center rounded-full
+                        border border-blue-200
+                        bg-blue-50 px-3 py-1
+                        text-xs font-semibold uppercase
+                        tracking-[0.14em] text-blue-700
+                        dark:border-blue-500/20
+                        dark:bg-blue-500/10
+                        dark:text-blue-300
+                    "
+                >
+                    <Translate id="homepage.Support.Label">
+                        Support the project
+                    </Translate>
+                </span>
+
+                                <h3
+                                    className="
+                        mt-4 font-heading text-2xl font-bold
+                        tracking-tight text-gray-900
+                        dark:text-white md:text-3xl
+                    "
+                                >
+                                    <Translate id="homepage.Support.Title">
+                                        Help OpenBLD remain free and independent
+                                    </Translate>
+                                </h3>
+
+                                <p
+                                    className="
+                        mx-auto mt-4 max-w-2xl
+                        text-base leading-7 text-gray-600
+                        dark:text-gray-400
+                    "
+                                >
+                                    <Translate id="homepage.Support.Description">
+                                        Your support helps us maintain OpenBLD servers,
+                                        expand the network of filtering nodes and develop
+                                        new security features.
+                                    </Translate>
+                                </p>
+                            </div>
+
+                            <div className="mt-8 flex flex-wrap justify-center gap-4">
+                                {donationMethods.map((method) => (
+                                    <a
+                                        key={method.name}
+                                        href={method.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label={`Support OpenBLD via ${method.name}`}
+                                        className={`
+                                            group flex min-h-[92px] min-w-0
+                                            basis-full items-center gap-4
+                                            rounded-2xl border px-5 py-4
+                                            text-left no-underline
+                                            shadow-lg shadow-transparent
+                                            transition duration-200
+                            
+                                            border-gray-200
+                                            bg-white/80
+                                            dark:border-white/10
+                                            dark:bg-white/[0.05]
+                            
+                                            hover:-translate-y-1
+                                            hover:no-underline
+                                            hover:shadow-xl
+                            
+                                            sm:basis-[calc(50%-0.5rem)]
+                                            lg:basis-[calc(33.333%-0.75rem)]
+                            
+                                            ${method.hoverClass}
+                                        `}
+                                                                >
+                                        <span
+                                            className={`
+                                                flex h-12 w-12 shrink-0
+                                                items-center justify-center
+                                                rounded-xl bg-gradient-to-br
+                                                text-xl font-extrabold
+                                                !text-white shadow-md
+                                                transition-transform duration-200
+                                                group-hover:scale-105
+                                                ${method.iconClass}
+                                            `}
+                                            aria-hidden="true"
+                                        >
+                                            {method.icon}
+                                        </span>
+
+                                                                    <span className="min-w-0 flex-1">
+                                            <strong
+                                                className="
+                                                    block text-base font-semibold
+                                                    !text-gray-900
+                                                    group-hover:!text-gray-900
+                                                    dark:!text-white
+                                                    dark:group-hover:!text-white
+                                                "
+                                            >
+                                                {method.name}
+                                            </strong>
+
+                                            <span
+                                                className="
+                                                    mt-1 block text-xs leading-5
+                                                    !text-gray-500
+                                                    dark:!text-gray-300
+                                                "
+                                            >
+                                                {method.description}
+                                            </span>
+                                        </span>
+
+                                                                    <span
+                                                                        aria-hidden="true"
+                                                                        className="
+                                                shrink-0 text-lg
+                                                !text-gray-400
+                                                transition-transform duration-200
+                                                group-hover:translate-x-1
+                                                dark:!text-gray-500
+                                            "
+                                                                    >
+                                            →
+                                        </span>
+                                                                </a>
+                                                            ))}
+                                                        </div>
+
+                            <div className="mt-7 text-center">
+                                <p className="m-0 text-sm text-gray-500 dark:text-gray-400">
+                                    <Translate id="homepage.Support.Thanks">
+                                        Thank you for supporting a secure and independent
+                                        DNS service.
+                                    </Translate>
+                                </p>
+
+                                <Link
+                                    className="
+                        mt-4 inline-flex font-medium
+                        text-blue-600 hover:underline
+                        dark:text-blue-400
+                    "
+                                    to="/docs/donation"
+                                >
+                                    <Translate id="homepage.Thanks.AssistLink">
+                                        Other ways to assist the project
+                                    </Translate>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
