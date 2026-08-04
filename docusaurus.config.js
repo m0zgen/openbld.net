@@ -224,6 +224,23 @@ const config = {
               },
             ],
           },
+          {
+            title: 'Donation',
+            items: [
+              {
+                label: 'Paypal',
+                href: 'https://www.paypal.com/paypalme/m0zgen',
+              },
+              {
+                label: 'DonorBox',
+                href: 'https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=10',
+              },
+              {
+                label: 'YooMoney',
+                href: 'https://yoomoney.ru/to/41001928837376',
+              },
+            ],
+          },
         ],
         copyright: `© 2019-${new Date().getFullYear()} OpenBLD.net.`,
       },
