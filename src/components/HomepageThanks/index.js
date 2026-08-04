@@ -143,16 +143,16 @@ const thanks = [
 const donationMethods = [
     {
         name: 'Ko-fi',
-        description: 'Support OpenBLD with a coffee',
+        description: '',
         url: 'https://ko-fi.com/D1D85Y7SO',
-        icon: '☕',
+        icon: '',
         iconClass: 'from-[#ff5e5b] to-[#ff8a80]',
         hoverClass:
             'hover:border-[#ff5e5b]/50 hover:shadow-[#ff5e5b]/10',
     },
     {
         name: 'YooMoney',
-        description: 'Support in tenge or rubles',
+        description: '',
         url: 'https://yoomoney.ru/to/41001928837376',
         icon: '',
         iconClass: 'from-[#7b2cff] to-[#ad63ff]',
@@ -161,7 +161,7 @@ const donationMethods = [
     },
     {
         name: 'PayPal',
-        description: 'International contribution',
+        description: '',
         url: 'https://www.paypal.com/paypalme/m0zgen',
         icon: '',
         iconClass: 'from-[#0070ba] to-[#003087]',
@@ -174,9 +174,8 @@ const currentYear = new Date().getFullYear();
 
 export default function HomepageThanks() {
     return (
-        <section
-            id="thanks-section"
-            className="overflow-hidden px-6 pb-16 pt-4 dark:bg-[#070a11]"
+        <section id="thanks-section"
+                 className="py-10 overflow-hidden dark:bg-[#070a11]"
         >
             <div className="container mx-auto px-4">
                 <div className="mb-6 flex w-full flex-col items-center justify-center">
@@ -312,7 +311,7 @@ export default function HomepageThanks() {
                                 </p>
                             </div>
 
-                            <div className="mt-8 flex flex-wrap justify-center gap-4">
+                            <div className="mb-8 flex flex-wrap justify-center gap-4">
                                 {donationMethods.map((method) => (
                                     <a
                                         key={method.name}
@@ -322,30 +321,14 @@ export default function HomepageThanks() {
                                         aria-label={`Support OpenBLD via ${method.name}`}
                                         className={`
                                             group flex min-h-[92px] min-w-0
-                                            basis-full items-center gap-4
-                                            rounded-2xl border px-5 py-4
-                                            text-left no-underline
-                                            shadow-lg shadow-transparent
-                                            transition duration-200
-                            
-                                            border-gray-200
-                                            bg-white/80
-                                            dark:border-white/10
-                                            dark:bg-white/[0.05]
-                            
-                                            hover:-translate-y-1
-                                            hover:no-underline
-                                            hover:shadow-xl
-                            
-                                            sm:basis-[calc(50%-0.5rem)]
-                                            lg:basis-[calc(33.333%-0.75rem)]
-                            
+                                            basis-full flex-col items-center justify-center
+                                            gap-2 rounded-2xl border px-5 py-5
+                                            text-center no-underline
                                             ${method.hoverClass}
-                                        `}
-                                                                >
+                                        `}>
                                         <span
                                             className={`
-                                                flex h-12 w-12 shrink-0
+                                                flex h-6 w-12 shrink-0
                                                 items-center justify-center
                                                 rounded-xl bg-gradient-to-br
                                                 text-xl font-extrabold
@@ -364,12 +347,10 @@ export default function HomepageThanks() {
                                                 className="
                                                     block text-base font-semibold
                                                     !text-gray-900
-                                                    group-hover:!text-gray-900
                                                     dark:!text-white
-                                                    dark:group-hover:!text-white
                                                 "
                                             >
-                                                {method.name}
+                                              [  {method.name} ]
                                             </strong>
 
                                             <span
@@ -386,11 +367,14 @@ export default function HomepageThanks() {
                                                                     <span
                                                                         aria-hidden="true"
                                                                         className="
-                                                shrink-0 text-lg
+                                                mt-1 shrink-0 text-lg
                                                 !text-gray-400
                                                 transition-transform duration-200
                                                 group-hover:translate-x-1
                                                 dark:!text-gray-500
+
+                                                sm:ml-auto
+                                                sm:mt-0
                                             "
                                                                     >
                                             →
