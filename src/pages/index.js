@@ -17,7 +17,8 @@ import styles from './index.module.css';
 import HomepageMap from "../components/HomepageMap";
 import Accordion from "../components/ComponentAccordeon";
 import LatestBlogPosts from '../components/LatestBlogPosts';
-import FinalCTA from '@site/src/components/FinalCTA';
+import FinalCTA from '../components/FinalCTA';
+import LiveStats from '../components/LiveStats'
 
 // Header Component
 function HomepageHeader() {
@@ -637,6 +638,10 @@ export default function Home() {
 
                 <section className="content-auto">
                     <FinalCTA/>
+                </section>
+
+                <section className="content-auto">
+                    <LiveStats />
                 </section>
             </main>
         </Layout>

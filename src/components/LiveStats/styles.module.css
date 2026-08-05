@@ -1,0 +1,402 @@
+.section {
+    padding: 5rem 0;
+    overflow: hidden;
+    background:
+            radial-gradient(
+                    circle at 10% 0%,
+                    rgba(46, 133, 85, 0.14),
+                    transparent 34rem
+            ),
+            radial-gradient(
+                    circle at 90% 100%,
+                    rgba(56, 189, 248, 0.1),
+                    transparent 30rem
+            );
+}
+
+.header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+    gap: 3rem;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+
+.eyebrow {
+    display: flex;
+    gap: 0.65rem;
+    align-items: center;
+    margin: 0 0 0.75rem;
+    color: var(--ifm-color-primary);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.liveDot {
+    position: relative;
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 999px;
+    background: #22c55e;
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5);
+    animation: livePulse 2s infinite;
+}
+
+.title {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+}
+
+.description {
+    max-width: 650px;
+    margin: 1rem 0 0;
+    color: var(--ifm-color-emphasis-700);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.serverStatus {
+    padding: 1.25rem;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 1.25rem;
+    background: var(--ifm-background-surface-color);
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+.serverStatusHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: baseline;
+    margin-bottom: 0.85rem;
+    color: var(--ifm-color-emphasis-700);
+    font-size: 0.9rem;
+}
+
+.serverStatusHeader strong {
+    color: var(--ifm-font-color-base);
+    font-size: 1.2rem;
+}
+
+.serverSeparator {
+    padding: 0 0.2rem;
+    color: var(--ifm-color-emphasis-500);
+}
+
+.progressTrack {
+    width: 100%;
+    height: 0.55rem;
+    overflow: hidden;
+    border-radius: 999px;
+    background: var(--ifm-color-emphasis-200);
+}
+
+.progressBar {
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(
+            90deg,
+            var(--ifm-color-primary),
+            #22c55e
+    );
+    transition: width 800ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.primaryGrid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    gap: 1rem;
+    transition: opacity 200ms ease;
+}
+
+.loading {
+    opacity: 0.55;
+}
+
+.metricCard {
+    position: relative;
+    min-width: 0;
+    padding: 1.6rem;
+    overflow: hidden;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 1.5rem;
+    background: var(--ifm-background-surface-color);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.07);
+}
+
+.metricCard::after {
+    position: absolute;
+    right: -4rem;
+    bottom: -5rem;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 999px;
+    background: var(--ifm-color-primary);
+    content: '';
+    opacity: 0.05;
+    pointer-events: none;
+}
+
+.metricCardAccent {
+    border-color: rgba(46, 133, 85, 0.4);
+    background:
+            linear-gradient(
+                    135deg,
+                    rgba(46, 133, 85, 0.13),
+                    transparent 65%
+            ),
+            var(--ifm-background-surface-color);
+}
+
+.metricLabel {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0.85rem;
+    color: var(--ifm-color-emphasis-700);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.metricValue {
+    position: relative;
+    z-index: 1;
+    overflow-wrap: anywhere;
+    font-size: clamp(1.8rem, 3.2vw, 3rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    font-variant-numeric: tabular-nums;
+}
+
+.metricDescription {
+    position: relative;
+    z-index: 1;
+    margin-top: 0.9rem;
+    color: var(--ifm-color-emphasis-600);
+    font-size: 0.82rem;
+}
+
+.animatedValue {
+    font-variant-numeric: tabular-nums;
+}
+
+.valueSuffix {
+    margin-left: 0.3rem;
+    color: var(--ifm-color-emphasis-600);
+    font-size: 0.42em;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.hourPanel {
+    margin-top: 1rem;
+    padding: 1.6rem;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 1.5rem;
+    background: var(--ifm-background-surface-color);
+}
+
+.hourHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: end;
+    margin-bottom: 1.5rem;
+}
+
+.hourEyebrow {
+    color: var(--ifm-color-primary);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.hourHeader h3 {
+    margin: 0.25rem 0 0;
+    font-size: 1.25rem;
+}
+
+.updateStatus {
+    color: var(--ifm-color-emphasis-500);
+    font-size: 0.75rem;
+    text-align: right;
+}
+
+.errorStatus {
+    color: var(--ifm-color-warning-dark);
+}
+
+.hourGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.hourMetric {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    padding: 1.35rem 1.5rem 0.25rem;
+    border-right: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.hourMetric:first-child {
+    padding-left: 0;
+}
+
+.hourMetric:last-child {
+    border-right: 0;
+}
+
+.hourMetric > span {
+    margin-bottom: 0.45rem;
+    color: var(--ifm-color-emphasis-600);
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.hourMetric strong {
+    overflow-wrap: anywhere;
+    font-size: clamp(1.35rem, 2.2vw, 2rem);
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+    font-variant-numeric: tabular-nums;
+}
+
+.hourMetric small {
+    margin-top: 0.45rem;
+    color: var(--ifm-color-primary);
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+@keyframes livePulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5);
+    }
+
+    70% {
+        box-shadow: 0 0 0 0.65rem rgba(34, 197, 94, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+    }
+}
+
+@media (max-width: 996px) {
+    .section {
+        padding: 4rem 0;
+    }
+
+    .header {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .serverStatus {
+        max-width: 450px;
+    }
+
+    .primaryGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .metricCardAccent {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 640px) {
+    .section {
+        padding: 3.5rem 0;
+    }
+
+    .title {
+        font-size: 2.25rem;
+    }
+
+    .primaryGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .metricCardAccent {
+        grid-column: auto;
+    }
+
+    .metricCard {
+        padding: 1.35rem;
+        border-radius: 1.25rem;
+    }
+
+    .metricValue {
+        font-size: 2rem;
+    }
+
+    .hourPanel {
+        padding: 1.35rem;
+        border-radius: 1.25rem;
+    }
+
+    .hourHeader {
+        display: block;
+    }
+
+    .updateStatus {
+        margin-top: 0.75rem;
+        text-align: left;
+    }
+
+    .hourGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .hourMetric,
+    .hourMetric:first-child {
+        padding: 1rem 0;
+        border-right: 0;
+        border-bottom: 1px solid var(--ifm-color-emphasis-200);
+    }
+
+    .hourMetric:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .liveDot {
+        animation: none;
+    }
+
+    .progressBar {
+        transition: none;
+    }
+}
+
+[data-theme='dark'] .section {
+    background:
+            radial-gradient(
+                    circle at 10% 0%,
+                    rgba(46, 133, 85, 0.18),
+                    transparent 34rem
+            ),
+            radial-gradient(
+                    circle at 90% 100%,
+                    rgba(56, 189, 248, 0.08),
+                    transparent 30rem
+            );
+}
+
+[data-theme='dark'] .serverStatus,
+[data-theme='dark'] .metricCard,
+[data-theme='dark'] .hourPanel {
+    box-shadow: 0 20px 55px rgba(0, 0, 0, 0.22);
+}
