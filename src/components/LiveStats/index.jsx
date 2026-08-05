@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const STATS_URL =
     'https://morning-lake-1de8.g-yevgeniy-p.workers.dev/api/stats';
 
-const REFRESH_INTERVAL = 15_000;
+const REFRESH_INTERVAL = 30_000;
 const ANIMATION_DURATION = 900;
 
 const emptyStats = {
@@ -217,19 +217,45 @@ export default function LiveStats() {
     }, []);
 
     useEffect(() => {
-        loadStats();
+        let intervalId = null;
 
-        const intervalId = window.setInterval(() => {
-            if (!document.hidden) {
-                loadStats();
+        const startPolling = () => {
+            if (intervalId !== null) {
+                return;
             }
-        }, REFRESH_INTERVAL);
+
+            intervalId = window.setInterval(() => {
+                loadStats();
+            }, REFRESH_INTERVAL);
+        };
+
+        const stopPolling = () => {
+            if (intervalId === null) {
+                return;
+            }
+
+            window.clearInterval(intervalId);
+            intervalId = null;
+        };
 
         const handleVisibilityChange = () => {
-            if (!document.hidden) {
-                loadStats();
+            if (document.hidden) {
+                stopPolling();
+                return;
             }
+
+            // Сразу обновляем статистику после возвращения на вкладку.
+            loadStats();
+            startPolling();
         };
+
+        // Первый запрос при открытии страницы.
+        loadStats();
+
+        // Не запускаем polling, если страница сразу открылась в фоне.
+        if (!document.hidden) {
+            startPolling();
+        }
 
         document.addEventListener(
             'visibilitychange',
@@ -237,7 +263,8 @@ export default function LiveStats() {
         );
 
         return () => {
-            window.clearInterval(intervalId);
+            stopPolling();
+
             document.removeEventListener(
                 'visibilitychange',
                 handleVisibilityChange,
