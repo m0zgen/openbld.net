@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const STATS_URL =
     'https://morning-lake-1de8.g-yevgeniy-p.workers.dev/api/stats';
 
-const REFRESH_INTERVAL = 30_000;
+const REFRESH_INTERVAL = 15_000;
 const ANIMATION_DURATION = 900;
 
 const emptyStats = {

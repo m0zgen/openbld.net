@@ -625,6 +625,10 @@ export default function Home() {
                 </section>
 
                 <section className="content-auto">
+                    <LiveStats />
+                </section>
+
+                <section className="content-auto">
                     <HomepageLogosCloud/>
                 </section>
 
@@ -638,10 +642,6 @@ export default function Home() {
 
                 <section className="content-auto">
                     <FinalCTA/>
-                </section>
-
-                <section className="content-auto">
-                    <LiveStats />
                 </section>
             </main>
         </Layout>
