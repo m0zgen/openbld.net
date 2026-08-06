@@ -29,6 +29,8 @@ a svg {
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ul-cloud-p-border: 1px solid #ececec;
+  --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --ifm-heading-font-family: var(--ifm-font-family-base);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -43,6 +45,16 @@ a svg {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-navbar-background-color: #070a11;
   --ul-cloud-p-border: 1px solid #121724;
+}
+
+/* Гарантированный системный шрифт для элементов с классом .font-heading */
+/* Это заставит браузер всегда иметь фолбек и не "мигать" невидимым текстом */
+/*h1, h2, h3, h4, h5, h6 {*/
+/*  font-family: var(--ifm-font-family-base) !important;*/
+/*}*/
+
+.font-heading {
+  font-family: var(--ifm-font-family-base), sans-serif;
 }
 
 /*Logos cloud*/
@@ -126,7 +138,7 @@ ul.cloud p {
 
 .map__image {
   /*background: url(https://lh5.ggpht.com/RPZEPRAtdW4lSTE0v1vXe8z9GEmgMSp84ZCEmdb8SJ5-acTtcnvgFjwjWsK7hiejzjQ=w300) no-repeat;*/
-  background: url("/img/openbld-world-map_o20.png") no-repeat;
+  background: url("/img/openbld-world-map_o20.webp") no-repeat;
   width: 947px;
   height: 475px;
   position: relative;
@@ -233,6 +245,30 @@ ul.cloud p {
   white-space: nowrap;
   z-index: 10;
 }
+
+/*fix render bottom sections*/
+
+/*index modules*/
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}
+
+/*abuse cover on home*/
+.responsive-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*logo cloud*/
+.imagessmaller {
+  display: block;
+  width: 200px;
+  height: 82px;
+  object-fit: contain;
+}
+
 /*!*Popup*!*/
 /*.overlay {*/
 /*  position: relative;*/

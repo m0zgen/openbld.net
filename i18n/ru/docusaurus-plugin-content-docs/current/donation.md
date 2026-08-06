@@ -14,7 +14,7 @@ sidebar_position: 91
 
 * [PayPal](https://www.paypal.com/paypalme/m0zgen), [Donorbox](https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=30) (поддерживает PayPal / Cards), [Ko-Fi.com](https://ko-fi.com/sysadminkz)
 * Казахстан (Kaspi) - `4400430301233919`
-* YooMoney - `41001928837376`
+* * YooMoney - [41001928837376](https://yoomoney.ru/to/41001928837376)
 
 ## Фидбек
 

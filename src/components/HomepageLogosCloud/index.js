@@ -2,91 +2,83 @@ import React from 'react';
 import Translate from '@docusaurus/Translate';
 
 const logos = [
-        // { name: "JetBrains", url: "https://jb.gg/OpenSourceSupport", src: 'img/logos/jetbrains.png', style: ""},
-        { name: "Sys-Admin Lab", url: "https://lab.sys-adm.in", src: 'img/logos/lab.sys-adm.in-logo.png', style: ""},
-        { name: "Unihost.kz", url: "https://unihost.kz/?from=25", src: 'img/logos/unihost_kz.jpg', style: ""},
-        { name: "URLhaus - abuse.ch", url: "https://abuse.ch/", src: 'img/logos/abuse.ch-logo.jpeg', style: "logo-bg-white"},
-        { name: "GoHost.kz", url: "https://gohost.kz/", src: 'img/logos/gohost_kz.jpg', style: ""},
-        { name: "UptimeRobot", url: "https://uptimerobot.com/?rid=78534763f4713b", src: 'img/logos/uptimerobot.jpg', style: ""},
-        { name: "ClouDNS", url: "https://www.cloudns.net/", src: 'img/logos/cloudns-logo.png', style: ""},
-        { name: "Gcore", url: "https://gcore.com/", src: 'img/logos/g-core-labs.png', style: ""},
-        { name: "3hcloud", url: "https://3hcloud.kz/", src: 'img/logos/3hcloud-com-logo.png', style: "logo-bg-white"},
-        // { name: "PowerDMARC", url: "https://powerdmarc.com/", src: 'img/logos/powerdmarc-logo.png', style: "logo-bg-white"},
-        { name: "DigitalOcean", url: "https://m.do.co/c/42011b938fe6", src: 'img/logos/digitalocean-logo.png', style: ""},
-        // { name: "Netdata", url: "https://www.netdata.cloud/?utm_campaign=technical&utm_source=content&utm_medium=website&utm_content=openbld-dns", src: 'img/logos/netdata-logo.jpeg', style: ""},
-        { name: "Veesp Hosting Service", url: "https://secure.veesp.com/?affid=954", src: 'img/logos/veesp-logo.png', style: "logo-bg-white"},
-        { name: "Do-Tek", url: "https://do-tek.io/", src: 'img/logos/do-tek-logo.jpeg', style: ""},
-        { name: "AST Cyber Lab", url: "https://astlab.kz/", src: 'img/logos/ast-cyber-lab-logo.png', style: "logo-bg-white"},
-        { name: "AppSecFest Almaty", url: "https://appsecfest.kz/", src: 'img/logos/app-sec-fest-logo.png', style: ""},
-        { name: "SmartApps Almaty", url: "https://smartapps.kz/", src: 'img/logos/smartapps-kz-logo.png', style: "logo-bg-white"},
-        { name: "AlphaVPS Hosting Service", url: "https://alphavps.com/clients/aff.php?aff=657", src: 'img/logos/alpha-vps-logo.png', style: "logo-bg-white"},
-        { name: "NOVA Cloud", url: "https://novacloud.kz/", src: 'img/logos/nova_cloud_kazakhstan_logo.png', style: "logo-bg-white"},
-        { name: "Onehost.kz", url: "https://onehost.kz/", src: 'img/logos/onehost_logo.png', style: "logo-bg-white"},
-        { name: "EDK Group", url: "https://www.edk-it.com/", src: 'img/logos/edk-it-logo.png', style: "logo-bg-white"},
-        { name: "IP Geolocation by DB-IP", url: "https://db-ip.com/", src: 'img/logos/db-ip-logo.png', style: "logo-bg-white"},
-        { name: "QOSI.kz", url: "https://qosi.kz/", src: 'img/logos/qosi-logo.webp', style: ""},
-        { name: "RTEAM.kz", url: "https://rteam.kz/", src: 'img/logos/rteam-logo.webp', style: ""},
+        // { name: "JetBrains", url: "https://jb.gg/OpenSourceSupport", src: '/img/logos/jetbrains.png', style: ""},
+        { name: "Sys-Admin Lab", url: "https://lab.sys-adm.in", src: '/img/logos/lab.sys-adm.in-logo.png', style: ""},
+        { name: "Unihost.kz", url: "https://unihost.kz/?from=25", src: '/img/logos/unihost_kz.jpg', style: ""},
+        { name: "URLhaus - abuse.ch", url: "https://abuse.ch/", src: '/img/logos/abuse.ch-logo.jpeg', style: "logo-bg-white"},
+        { name: "GoHost.kz", url: "https://gohost.kz/", src: '/img/logos/gohost_kz.jpg', style: ""},
+        { name: "UptimeRobot", url: "https://uptimerobot.com/?rid=78534763f4713b", src: '/img/logos/uptimerobot.jpg', style: ""},
+        { name: "ClouDNS", url: "https://www.cloudns.net/", src: '/img/logos/cloudns-logo.png', style: ""},
+        { name: "Gcore", url: "https://gcore.com/", src: '/img/logos/g-core-labs.png', style: ""},
+        { name: "3hcloud", url: "https://3hcloud.kz/", src: '/img/logos/3hcloud-com-logo.png', style: "logo-bg-white"},
+        // { name: "PowerDMARC", url: "https://powerdmarc.com/", src: '/img/logos/powerdmarc-logo.png', style: "logo-bg-white"},
+        { name: "DigitalOcean", url: "https://m.do.co/c/42011b938fe6", src: '/img/logos/digitalocean-logo.png', style: ""},
+        // { name: "Netdata", url: "https://www.netdata.cloud/?utm_campaign=technical&utm_source=content&utm_medium=website&utm_content=openbld-dns", src: '/img/logos/netdata-logo.jpeg', style: ""},
+        { name: "Veesp Hosting Service", url: "https://secure.veesp.com/?affid=954", src: '/img/logos/veesp-logo.png', style: "logo-bg-white"},
+        { name: "Do-Tek", url: "https://do-tek.io/", src: '/img/logos/do-tek-logo.jpeg', style: ""},
+        { name: "AST Cyber Lab", url: "https://astlab.kz/", src: '/img/logos/ast-cyber-lab-logo.png', style: "logo-bg-white"},
+        { name: "AppSecFest Almaty", url: "https://appsecfest.kz/", src: '/img/logos/app-sec-fest-logo.png', style: ""},
+        { name: "SmartApps Almaty", url: "https://smartapps.kz/", src: '/img/logos/smartapps-kz-logo.png', style: "logo-bg-white"},
+        { name: "AlphaVPS Hosting Service", url: "https://alphavps.com/clients/aff.php?aff=657", src: '/img/logos/alpha-vps-logo.png', style: "logo-bg-white"},
+        { name: "NOVA Cloud", url: "https://novacloud.kz/", src: '/img/logos/nova_cloud_kazakhstan_logo.png', style: "logo-bg-white"},
+        { name: "Onehost.kz", url: "https://onehost.kz/", src: '/img/logos/onehost_logo.png', style: "logo-bg-white"},
+        { name: "EDK Group", url: "https://www.edk-it.com/", src: '/img/logos/edk-it-logo.png', style: "logo-bg-white"},
+        { name: "IP Geolocation by DB-IP", url: "https://db-ip.com/", src: '/img/logos/db-ip-logo.png', style: "logo-bg-white"},
+        { name: "QOSI.kz", url: "https://qosi.kz/", src: '/img/logos/qosi-logo.webp', style: ""},
+        { name: "RTEAM.kz", url: "https://rteam.kz/", src: '/img/logos/rteam-logo.webp', style: ""},
 
 
-        // { name: "REGXA.com", url: "https://regxa.com/", src: 'img/logos/regxa.com-logo.png', style: "logo-bg-white"},
-        { name: "Help to growth to OpenBLD.net", url: "#", src: 'img/logos/splash-logo.jpg', style: ""},
+        // { name: "REGXA.com", url: "https://regxa.com/", src: '/img/logos/regxa.com-logo.png', style: "logo-bg-white"},
+        { name: "Help to growth to OpenBLD.net", url: "#", src: '/img/logos/splash-logo.jpg', style: ""},
     ];
 
 export default function HomepageThanks() {
-  return (
-      <section id="company-logos" className="py-10 bg-gray-50 overflow-hidden dark:bg-[#070a11]">
-          <div class="container mx-auto px-4">
+    return (
+        <section
+            id="company-logos"
+            className="py-10 bg-gray-50 overflow-hidden dark:bg-[#070a11]"
+        >
+            <div className="container mx-auto px-4">
 
-              <div className="flex flex-col items-center justify-center w-full mb-10">
-                  <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
-                      <Translate
-                          id="homepage.LogosCloud.Title">
-                          Supported by people and companies who care 🚀
-                      </Translate>
-                  </h2>
-                  <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">~~~</h2>
-              </div>
+                <div className="flex flex-col items-center justify-center w-full mb-10">
+                    <h2 className="font-heading mb-6 text-4xl md:text-3xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
+                        <Translate id="homepage.LogosCloud.Title">
+                            Supported by people and companies who care 🚀
+                        </Translate>
+                    </h2>
 
-              <div class="bg-white dark:bg-[#070a11]">
+                    {/*<div*/}
+                    {/*    className="mb-2 text-lg font-semibold text-gray-900 dark:text-white"*/}
+                    {/*    aria-hidden="true"*/}
+                    {/*></div>*/}
+                </div>
 
-                  <div id="clientlogosrow" className="logotypes">
-                      {/*For styling see custom.css stylesheet*/}
-                      {logos.map((logo, i) => {
-                              return (
+                <div className="bg-white dark:bg-[#070a11]">
+                    <div id="clientlogosrow" className="logotypes">
+                        {logos.map((logo) => (
+                            <div key={logo.name}>
+                                <a
+                                    href={logo.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    aria-label={logo.name}
+                                >
+                                    <img
+                                        loading="lazy"
+                                        decoding="async"
+                                        src={`${logo.src}`}
+                                        alt={logo.name}
+                                        width="200"
+                                        height="82"
+                                        className={`imagessmaller ${logo.style}`}
+                                    />
+                                </a>
+                            </div>
+                        ))}
+                    </div>
+                </div>
 
-                                  <div key={i}>
-                                      <a href={logo.url} target="_blank" rel="noreferrer">
-                                          {/*<img className={`mx-auto bg-gray-50 ${logo.style}`} src={logo.src} alt={logo.name}/>*/}
-                                          <img loading="lazy" src={logo.src} className={`imagessmaller ${logo.style}`}/>
-                                      </a>
-                                  </div>
-
-                              )
-                          }
-                      )}
-
-                  </div>
-
-
-                  {/*<div className="flex flex-wrap items-center">*/}
-
-                  {/*    {logos.map((logo, i) => {*/}
-                  {/*            return (*/}
-
-                  {/*                <div className="w-full sm:w-1/3 lg:w-1/5 p-2" key={i}>*/}
-                  {/*                    <a href={logo.url} target="_blank" rel="noreferrer">*/}
-                  {/*                        <img className={`mx-auto bg-gray-50 ${logo.style}`} src={logo.src} alt={logo.name}/>*/}
-                  {/*                    </a>*/}
-                  {/*                </div>*/}
-
-                  {/*            )*/}
-                  {/*        }*/}
-                  {/*    )}*/}
-
-                  {/*</div>*/}
-              </div>
-          </div>
-      </section>
-
-  );
+            </div>
+        </section>
+    );
 }

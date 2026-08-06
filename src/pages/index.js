@@ -17,7 +17,8 @@ import styles from './index.module.css';
 import HomepageMap from "../components/HomepageMap";
 import Accordion from "../components/ComponentAccordeon";
 import LatestBlogPosts from '../components/LatestBlogPosts';
-import FinalCTA from '@site/src/components/FinalCTA';
+import FinalCTA from '../components/FinalCTA';
+import LiveStats from '../components/LiveStats'
 
 // Header Component
 function HomepageHeader() {
@@ -287,8 +288,15 @@ function FeaturesListHeading() {
 
                             {/*OpenBLD logo*/}
                             <div className="w-full md:w-1/2 p-8">
-                                <img className="mx-auto md:mr-0" src="img/site-cover-openbld-net-dark.png"
-                                     alt="OpenBLD.net DNS Site Logo"/>
+
+                                <img
+                                    className="responsive-image mx-auto md:mr-0"
+                                    src="/img/site-cover-openbld-net-dark.webp"
+                                    alt="OpenBLD.net DNS Site Logo"
+                                    width="635"
+                                    height="258"
+                                    decoding="async"
+                                />
 
                                 {/*Quick setup*/}
                                 {/*<div className="mt-3 block max-w-xl pl-6 pr-6 p-2 bg-white border border-gray-200 shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">*/}
@@ -575,34 +583,66 @@ function FeaturesListHeading() {
 // Components construct for Homepage
 export default function Home() {
     const {siteConfig} = useDocusaurusContext();
+
     return (
         <Layout
-            // title={`Hello from ${siteConfig.customFields.titleHeader}`}
-            title={translate({
-                id: 'index.layout.title',
-                description: 'The title displayed in the website head.',
-                message: '{title}{subtitle}'
-            }, {title: siteConfig.customFields.serviceName, subtitle: siteConfig.customFields.serviceDescription})}
-            // description="OpenBLD.net DNS - Focus on information with adblocking and implicit cybersecurity threat prevention."
-            description={translate({
-                id: 'index.layout.description',
-                description: 'The description displayed in the website head.',
-                message: '{description}'
-            }, {description: siteConfig.customFields.siteDescription})}
+            title={translate(
+                {
+                    id: 'index.layout.title',
+                    description: 'The title displayed in the website head.',
+                    message: '{title}{subtitle}',
+                },
+                {
+                    title: siteConfig.customFields.serviceName,
+                    subtitle: siteConfig.customFields.serviceDescription,
+                },
+            )}
+            description={translate(
+                {
+                    id: 'index.layout.description',
+                    description: 'The description displayed in the website head.',
+                    message: '{description}',
+                },
+                {
+                    description: siteConfig.customFields.siteDescription,
+                },
+            )}
         >
             <HomepageHeader/>
+
             <main>
                 <FeaturesListHeading/>
                 <HomepageChromeExtension/>
                 <HomepageVideoPresentation/>
                 <HomepageCompareAdaAndRic/>
-                {/*<HomepageFeatures />*/}
-                <HomepageURLhaus/>
-                <HomepageMap/>
-                <HomepageLogosCloud/>
-                <HomepageThanks/>
-                <LatestBlogPosts />
-                <FinalCTA />
+
+                <section className="content-auto">
+                    <HomepageURLhaus/>
+                </section>
+
+                <section className="content-auto">
+                    <HomepageMap/>
+                </section>
+
+                <section className="content-auto">
+                    <LiveStats />
+                </section>
+
+                <section className="content-auto">
+                    <HomepageLogosCloud/>
+                </section>
+
+                <section className="content-auto">
+                    <HomepageThanks/>
+                </section>
+
+                <section className="content-auto">
+                    <LatestBlogPosts/>
+                </section>
+
+                <section className="content-auto">
+                    <FinalCTA/>
+                </section>
             </main>
         </Layout>
     );

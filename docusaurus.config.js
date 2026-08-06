@@ -142,7 +142,7 @@ const config = {
         title: 'OpenBLD.net DNS',
         logo: {
           alt: 'OpenBLD.net Logo',
-          src: 'img/openbld-navbar-logo.webp',
+          src: 'img/openbld-navbar-logo-64.webp',
           width: 32,
           height: 32,
         },
@@ -221,6 +221,27 @@ const config = {
               {
                 label: 'Laboratory',
                 href: 'https://lab.sys-adm.in/',
+              },
+            ],
+          },
+          {
+            title: 'Donation',
+            items: [
+              {
+                label: 'Paypal',
+                href: 'https://www.paypal.com/paypalme/m0zgen',
+              },
+              {
+                label: 'Ko-fi',
+                href: 'https://ko-fi.com/sysadminkz/goal?g=14',
+              },
+              {
+                label: 'DonorBox',
+                href: 'https://donorbox.org/open-bld-dns-donation?default_interval=m&amount=10',
+              },
+              {
+                label: 'YooMoney',
+                href: 'https://yoomoney.ru/to/41001928837376',
               },
             ],
           },
