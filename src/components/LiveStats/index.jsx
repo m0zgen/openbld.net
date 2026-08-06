@@ -303,9 +303,10 @@ export default function LiveStats() {
 
                         <p className={styles.description}>
                             <Translate id="homepage.LiveStats.Description">
-                                Real-time statistics from the OpenBLD global DNS
+                                Real-time statistics from the ADA OpenBLD global DNS
                                 infrastructure.
                             </Translate>
+
                         </p>
                     </div>
 
@@ -423,6 +424,7 @@ export default function LiveStats() {
                                     : {updatedAt}
                                 </span>
                             ) : null}
+
                         </div>
                     </div>
 
