@@ -303,8 +303,7 @@ export default function LiveStats() {
 
                         <p className={styles.description}>
                             <Translate id="homepage.LiveStats.Description">
-                                Real-time statistics from the ADA OpenBLD global DNS
-                                infrastructure.
+                                Real-time statistics from the ADA OpenBLD global DNS infrastructure.
                             </Translate>
 
                         </p>
