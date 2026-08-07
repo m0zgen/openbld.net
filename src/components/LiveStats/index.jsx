@@ -283,7 +283,7 @@ export default function LiveStats() {
     const updatedAt = formatUpdatedAt(stats.updated_at);
 
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id={"live-stats"}>
             <div className="container">
                 <div className={styles.header}>
                     <div>
