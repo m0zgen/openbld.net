@@ -153,17 +153,31 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+
           {
-            href: '/docs/overwiew/how-it-works',
+            to: '/docs/overwiew/how-it-works',
             label: 'How it works',
+            position: 'left',
+          },
+
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+
+          {
+            to: '/#live-stats',
+            label: 'Live Stats',
             position: 'right',
           },
+
           {
             href: 'https://github.com/m0zgen',
-            label: 'My GitHub',
+            label: 'GitHub',
             position: 'right',
           },
+
           {
             type: 'localeDropdown',
             position: 'right',
