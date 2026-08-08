@@ -307,6 +307,7 @@ export default function LiveStats() {
                             </Translate>
 
                         </p>
+                        <small>Started at Aug 2006.</small>
                     </div>
 
                     <div className={styles.serverStatus}>
