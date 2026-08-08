@@ -117,6 +117,291 @@ function HomepageHeader() {
   );
 }
 
+// Header Component
+function HomepageHeaderNext() {
+    return (
+        <header
+            className={clsx(
+                'relative overflow-hidden bg-[#070a11]',
+                styles.heroBanner,
+            )}
+        >
+            <div className="container relative z-10 mx-auto px-4 py-16 md:py-20 lg:py-24">
+                {/* Main heading */}
+                <div className="mx-auto mb-12 max-w-4xl text-center">
+                    <p className="mb-3 text-sm font-bold uppercase tracking-[0.22em] text-blue-300">
+                        <Translate id="homepage.Header.Eyebrow">
+                            Protective DNS for everyone
+                        </Translate>
+                    </p>
+
+                    <h1 className="font-heading text-4xl font-black tracking-tight text-white md:text-5xl lg:text-6xl">
+                        <Translate id="homepage.Header.Title">
+                            One OpenBLD DNS. Two ways to protect.
+                        </Translate>
+                    </h1>
+
+                    <p className="mx-auto mt-5 max-w-3xl text-lg leading-relaxed text-gray-300 md:text-xl">
+                        <Translate id="homepage.Header.Subtitle">
+                            Free public DNS protection for everyone. Advanced DNS
+                            security, analytics and deployment options for organizations.
+                        </Translate>
+                    </p>
+                </div>
+
+                {/* Free / Plus */}
+                <div className="grid grid-cols-1 lg:grid-cols-2">
+                    {/* OpenBLD Free */}
+                    <section className="relative flex min-h-[440px] flex-col items-center px-6 py-10 text-center md:px-10 lg:min-h-[460px] lg:px-14 lg:py-12">
+                        <div className="flex h-full w-full max-w-xl flex-col items-center">
+                            <div className="mb-6">
+                                <span className="inline-flex rounded-full border border-blue-400/30 bg-blue-400/10 px-4 py-1.5 text-sm font-bold text-blue-200">
+                                    <Translate id="homepage.Header.FreeBadge">
+                                        Free Forever
+                                    </Translate>
+                                </span>
+                            </div>
+
+                            <h2 className="font-heading text-3xl font-black tracking-tight text-white md:text-4xl">
+                                OpenBLD Free
+                            </h2>
+
+                            <p className="mt-3 text-lg font-semibold text-blue-200">
+                                <Translate id="homepage.Header.FreeTitle">
+                                    Protective DNS for everyone
+                                </Translate>
+                            </p>
+
+                            <p className="mt-5 max-w-lg leading-relaxed text-gray-300">
+                                <Translate id="homepage.Header.FreeDescription">
+                                    Block malware, phishing, tracking and unwanted
+                                    domains using OpenBLD public DNS. No registration
+                                    or subscription required.
+                                </Translate>
+                            </p>
+
+                            <ul className="m-0 mt-7 inline-flex list-none flex-col items-start gap-3 p-0 text-left text-sm text-gray-300">
+                                <li className="flex items-start gap-3">
+                                    <span
+                                        className="mt-[1px] shrink-0 font-bold text-blue-400"
+                                        aria-hidden="true"
+                                    >
+                                        ✓
+                                    </span>
+
+                                    <span>
+                                        <Translate id="homepage.Header.FreeFeature1">
+                                            Malware and phishing protection
+                                        </Translate>
+                                    </span>
+                                </li>
+
+                                <li className="flex items-start gap-3">
+                                    <span
+                                        className="mt-[1px] shrink-0 font-bold text-blue-400"
+                                        aria-hidden="true"
+                                    >
+                                        ✓
+                                    </span>
+
+                                    <span>
+                                        <Translate id="homepage.Header.FreeFeature2">
+                                            DoH, DoT and classic DNS
+                                        </Translate>
+                                    </span>
+                                </li>
+
+                                <li className="flex items-start gap-3">
+                                    <span
+                                        className="mt-[1px] shrink-0 font-bold text-blue-400"
+                                        aria-hidden="true"
+                                    >
+                                        ✓
+                                    </span>
+
+                                    <span>
+                                        <Translate id="homepage.Header.FreeFeature3">
+                                            No registration required
+                                        </Translate>
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <div className="mt-auto flex w-full flex-col items-center justify-center gap-3 pt-10 sm:flex-row">
+                                <Link
+                                    className="inline-flex min-w-[210px] items-center justify-center rounded-full bg-blue-500 px-7 py-3.5 text-base font-bold text-white transition-colors hover:bg-blue-600 hover:text-white"
+                                    to="/docs/category/get-started"
+                                >
+                                    <Translate id="homepage.Header.FreeButton">
+                                        Use OpenBLD Free
+                                    </Translate>
+                                </Link>
+
+                                <Link
+                                    className="inline-flex min-w-[170px] items-center justify-center rounded-full border border-white/20 px-7 py-3.5 text-base font-bold text-gray-200 transition-colors hover:border-white/40 hover:bg-white/5 hover:text-white"
+                                    to="/docs/overwiew/how-it-works"
+                                >
+                                    <Translate id="homepage.Header.HowItWorks">
+                                        How it works
+                                    </Translate>
+                                </Link>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/* OpenBLD Plus */}
+                    <section className="relative flex min-h-[440px] flex-col items-center border-t border-white/10 px-6 py-10 text-center md:px-10 lg:min-h-[460px] lg:border-t-0 lg:px-14 lg:py-12">
+                        {/* Desktop vertical divider */}
+                        <div
+                            className="absolute left-0 top-[10%] hidden h-[80%] w-px bg-gradient-to-b from-transparent via-white/25 to-transparent lg:block"
+                            aria-hidden="true"
+                        />
+
+                        <div className="flex h-full w-full max-w-xl flex-col items-center">
+                            <div className="mb-6">
+                                <span className="inline-flex rounded-full border border-amber-400/30 bg-amber-400/10 px-4 py-1.5 text-sm font-bold text-amber-200">
+                                    <Translate id="homepage.Header.PlusBadge">
+                                        For Organizations
+                                    </Translate>
+                                </span>
+                            </div>
+
+                            <h2 className="font-heading text-3xl font-black tracking-tight text-white md:text-4xl">
+                                OpenBLD Plus
+                            </h2>
+
+                            <p className="mt-3 text-lg font-semibold text-amber-200">
+                                <Translate id="homepage.Header.PlusTitle">
+                                    DNS security for organizations
+                                </Translate>
+                            </p>
+
+                            <p className="mt-5 max-w-lg leading-relaxed text-gray-300">
+                                <Translate id="homepage.Header.PlusDescription">
+                                    Deploy protective DNS in your infrastructure or use
+                                    a managed cloud environment with corporate policies,
+                                    analytics and professional support.
+                                </Translate>
+                            </p>
+
+                            <ul className="m-0 mt-7 inline-flex list-none flex-col items-start gap-3 p-0 text-left text-sm text-gray-300">
+                                <li className="flex items-start gap-3">
+                                    <span
+                                        className="mt-[1px] shrink-0 font-bold text-amber-400"
+                                        aria-hidden="true"
+                                    >
+                                        ✓
+                                    </span>
+
+                                    <span>
+                                        <Translate id="homepage.Header.PlusFeature1">
+                                            Managed Cloud or On-Premise
+                                        </Translate>
+                                    </span>
+                                </li>
+
+                                <li className="flex items-start gap-3">
+                                    <span
+                                        className="mt-[1px] shrink-0 font-bold text-amber-400"
+                                        aria-hidden="true"
+                                    >
+                                        ✓
+                                    </span>
+
+                                    <span>
+                                        <Translate id="homepage.Header.PlusFeature2">
+                                            Corporate policies and analytics
+                                        </Translate>
+                                    </span>
+                                </li>
+
+                                <li className="flex items-start gap-3">
+                                    <span
+                                        className="mt-[1px] shrink-0 font-bold text-amber-400"
+                                        aria-hidden="true"
+                                    >
+                                        ✓
+                                    </span>
+
+                                    <span>
+                                        <Translate id="homepage.Header.PlusFeature3">
+                                            Active Directory and security integrations
+                                        </Translate>
+                                    </span>
+                                </li>
+                            </ul>
+
+                            <div className="mt-auto flex w-full flex-col items-center justify-center gap-3 pt-10 sm:flex-row">
+                                <Link
+                                    className="inline-flex min-w-[220px] items-center justify-center rounded-full bg-amber-500 px-7 py-3.5 text-base font-bold text-gray-950 transition-colors hover:bg-amber-400 hover:text-gray-950"
+                                    to="/plus"
+                                >
+                                    <Translate id="homepage.Header.PlusButton">
+                                        Explore OpenBLD Plus
+                                    </Translate>
+                                </Link>
+
+                                <Link
+                                    className="inline-flex min-w-[200px] items-center justify-center rounded-full border border-white/20 px-7 py-3.5 text-base font-bold text-gray-200 transition-colors hover:border-white/40 hover:bg-white/5 hover:text-white"
+                                    to="/docs/plus"
+                                >
+                                    <Translate id="homepage.Header.PlusDocsButton">
+                                        Plus Documentation
+                                    </Translate>
+                                </Link>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                {/* Subheader */}
+                <div className="mx-auto mt-12 max-w-3xl text-center">
+                    <h2 className="text-2xl font-bold tracking-tight text-white md:text-3xl">
+                        <Translate id="homepage.Header.Slogan">
+                            Be yourself, be focused. Stay protected.
+                        </Translate>
+                    </h2>
+
+                    <p className="mt-3 text-sm leading-relaxed text-gray-400">
+                        <Translate id="homepage.Header.Brief">
+                            OpenBLD is built and supported by its community,
+                            contributors and infrastructure partners.
+                        </Translate>{' '}
+                        <br/>
+                        <Link
+                            to="/docs/donation"
+                            className="font-medium text-blue-300 hover:text-blue-200 hover:underline"
+                        >
+                            <Translate id="homepage.Header.BriefLink1">
+                                Donations
+                            </Translate>
+                        </Link>
+
+                        <span className="mx-1">
+                            <Translate id="homepage.Header.BriefOr">
+                                or
+                            </Translate>
+                        </span>
+
+                        <Link
+                            to="/docs/sponsorship"
+                            className="font-medium text-blue-300 hover:text-blue-200 hover:underline"
+                        >
+                            <Translate id="homepage.Header.BriefLink2">
+                                Sponsorship
+                            </Translate>
+                        </Link>
+                        .
+                    </p>
+                </div>
+            </div>
+
+            <div className={styles.heroGlowBlue} />
+            <div className={styles.heroGlowAmber} />
+        </header>
+    );
+}
+
 // Get in a better way to work online
 function FeaturesListHeading() {
     const [bool, setBool] = useState(true);
