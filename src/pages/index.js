@@ -147,6 +147,9 @@ function HomepageHeaderNext() {
                             security, analytics and deployment options for organizations.
                         </Translate>
                     </p>
+                    <small className="mt-3 block text-sm text-gray-400">
+                        DNS, DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, DNSSEC, GeoDNS
+                    </small>
                 </div>
 
                 {/* Free / Plus */}
@@ -175,7 +178,7 @@ function HomepageHeaderNext() {
                             <p className="mt-5 max-w-lg leading-relaxed text-gray-300">
                                 <Translate id="homepage.Header.FreeDescription">
                                     Block malware, phishing, tracking and unwanted
-                                    domains using OpenBLD public DNS. No registration
+                                    domains using OpenBLD public DNS-service. No registration
                                     or subscription required.
                                 </Translate>
                             </p>
@@ -211,6 +214,21 @@ function HomepageHeaderNext() {
                                     </span>
                                 </li>
 
+                                {/*<li className="flex items-start gap-3">*/}
+                                {/*    <span*/}
+                                {/*        className="mt-[1px] shrink-0 font-bold text-blue-400"*/}
+                                {/*        aria-hidden="true"*/}
+                                {/*    >*/}
+                                {/*        ✓*/}
+                                {/*    </span>*/}
+
+                                {/*    <span>*/}
+                                {/*        <Translate id="homepage.Header.FreeFeature3">*/}
+                                {/*            Protect from DNS Leak*/}
+                                {/*        </Translate>*/}
+                                {/*    </span>*/}
+                                {/*</li>*/}
+
                                 <li className="flex items-start gap-3">
                                     <span
                                         className="mt-[1px] shrink-0 font-bold text-blue-400"
@@ -220,7 +238,7 @@ function HomepageHeaderNext() {
                                     </span>
 
                                     <span>
-                                        <Translate id="homepage.Header.FreeFeature3">
+                                        <Translate id="homepage.Header.FreeFeature4">
                                             No registration required
                                         </Translate>
                                     </span>
@@ -278,7 +296,7 @@ function HomepageHeaderNext() {
 
                             <p className="mt-5 max-w-lg leading-relaxed text-gray-300">
                                 <Translate id="homepage.Header.PlusDescription">
-                                    Deploy protective DNS in your infrastructure or use
+                                    Protective DNS in your infrastructure or use
                                     a managed cloud environment with corporate policies,
                                     analytics and professional support.
                                 </Translate>
