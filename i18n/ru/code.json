@@ -45,10 +45,13 @@
     "message": "Уменьшает потенциальные угрозы безопасности"
   },
   "homepage.FeatureList.Item5": {
-    "message": "Безлимитное количество запросов до 100к в день"
+    "message": "Поддерживает DNS, DoH, DoT"
   },
   "homepage.FeatureList.Item6": {
-    "message": "Пожертвование / Спонсорство"
+    "message": "~100k запросов/день"
+  },
+  "homepage.FeatureList.Item7": {
+    "message": "Бесплатно навсегда - регистрация не требуется"
   },
   "homepage.FeatureList.QuickSetup": {
     "message": "Быстрая настройка браузера"
@@ -69,16 +72,16 @@
     "message": " другое..."
   },
   "homepage.ThreeColums.Column1Title": {
-    "message": "Адаптивный DNS"
+    "message": "ADA DNS"
   },
   "homepage.ThreeColums.Column1Body": {
-    "message": "ADA - Быстрый и гибкий серфинг в Интернете с помощью социальных сетей, Google, Microsoft, Яндекс и т. д."
+    "message": "ADA - Быстрый серфинг в Интернете с поддержкой соц. сетей, Google, Microsoft, Яндекс и т. д."
   },
   "homepage.ThreeColums.Column2Title": {
     "message": "Строгий DNS"
   },
   "homepage.ThreeColums.Column2Body": {
-    "message": "RIC — Блокирует многие маркетинговые и отслеживающие ресурсы (соц. сайты могут не работать)"
+    "message": "RIC - Блокирует многие маркетинговые и отслеживающие ресурсы (некоторые сайты могут не работать)"
   },
   "homepage.ThreeColums.Column3Title": {
     "message": "Мобильные"
@@ -93,7 +96,7 @@
     "message": "\"Приватный DNS\" в Android или"
   },
   "homepage.ThreeColums.Column3BodyLink2": {
-    "message": " загрузите "
+    "message": " загрузите профиль для Apple"
   },
   "homepage.ThreeColums.Column3Body3": {
     "message": "профиль для Apple"

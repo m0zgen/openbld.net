@@ -45,10 +45,13 @@
     "message": "Қауіпсіздікке төнетін ықтимал қауіптерді азайтады"
   },
   "homepage.FeatureList.Item5": {
-    "message": "Күніне 100к дейінгі сұрау салулардың шектелмеген саны"
+    "message": "Классикалық DNS, DoH, DoT қолдайды"
   },
   "homepage.FeatureList.Item6": {
-    "message": "Қайырымдылық / Демеушілік"
+    "message": "~100k сұраныс/күніне"
+  },
+  "homepage.FeatureList.Item7": {
+    "message": "Мәңгілікке тегін - тіркелу қажет емес"
   },
   "homepage.FeatureList.QuickSetup": {
     "message": "Браузерді жылдам баптау"
@@ -69,7 +72,7 @@
     "message": " басқа..."
   },
   "homepage.ThreeColums.Column1Title": {
-    "message": "Бейімделген DNS"
+    "message": "ADA DNS"
   },
   "homepage.ThreeColums.Column1Body": {
     "message": "ADA - Әлеуметтік желілер, Google, Microsoft, Яндекс және т.б. көмегімен Интернетте жылдам әрі икемді серфинг"
@@ -93,7 +96,7 @@
     "message": "Android-та \"Жекеше DNS\""
   },
   "homepage.ThreeColums.Column3BodyLink2": {
-    "message": " немесе "
+    "message": " немесе Apple-ге арналған"
   },
   "homepage.ThreeColums.Column3Body3": {
     "message": "Apple-ге арналған"
