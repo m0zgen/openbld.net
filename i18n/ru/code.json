@@ -1,9 +1,60 @@
 {
+  "homepage.Header.Eyebrow": {
+    "message": "БЕЗОПАСНЫЙ DNS ДЛЯ КАЖДОГО"
+  },
   "homepage.Header.Title": {
-    "message": "Блокировка рекламы, телеметрии, вредоносных доменов"
+    "message": "Один OpenBLD DNS. Два уровня защиты."
   },
   "homepage.Header.Subtitle": {
-    "message": "Бесплатный DNS - с DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS"
+    "message": "Бесплатная публичная DNS-защита для каждого. Расширенная DNS-безопасность, аналитика и сценарии развертывания для организаций."
+  },
+  "homepage.Header.FreeBadge": {
+    "message": "Бесплатно навсегда"
+  },
+  "homepage.Header.FreeTitle": {
+    "message": "Protective DNS для каждого"
+  },
+  "homepage.Header.FreeDescription": {
+    "message": "Блокируйте вредоносное ПО, фишинг, отслеживание и нежелательные домены с помощью общедоступного DNS-сервиса OpenBLD. Регистрация или подписка не требуются."
+  },
+  "homepage.Header.FreeFeature1": {
+    "message": "Защита от вредоносного ПО и фишинга"
+  },
+  "homepage.Header.FreeFeature2": {
+    "message": "DoH, DoT и классический DNS"
+  },
+  "homepage.Header.FreeFeature3": {
+    "message": "Защита от DNS утечек"
+  },
+  "homepage.Header.FreeFeature4": {
+    "message": "Регистрация не требуется."
+  },
+  "homepage.Header.FreeButton": {
+    "message": "Подключиться"
+  },
+  "homepage.Header.HowItWorks": {
+    "message": "Как работает"
+  },
+  "homepage.Header.PlusBadge": {
+    "message": "Для организаций"
+  },
+  "homepage.Header.PlusTitle": {
+    "message": "Защита DNS для организаций"
+  },
+  "homepage.Header.PlusDescription": {
+    "message": "OpenBLD.net Plus предоставляет расширенные функции DNS-безопасности, поддержку MS Active Directory, маршрутизацию, включая аналитику, сценарии развертывания и поддержку организаций."
+  },
+  "homepage.Header.PlusFeature1": {
+    "message": "Облачно или локально"
+  },
+  "homepage.Header.PlusFeature2": {
+    "message": "Корпоративные политики и аналитика"
+  },
+  "homepage.Header.PlusFeature3": {
+      "message": "Интеграция с Active Directory и системами ИБ."
+  },
+  "homepage.Header.PlusDocsButton": {
+    "message": "Документация"
   },
   "homepage.Header.Button1": {
     "message": "О проекте OpenBLD.net"
@@ -12,13 +63,13 @@
     "message": "Настроить за 5 минут"
   },
   "homepage.Header.Slogan": {
-    "message": "Будь собой, будь в фокусе"
+    "message": "Будь собой, будь в фокусе. Будь защищён."
   },
   "homepage.Header.Brief": {
-    "message": "OpenBLD.net — это сервис, предназначенный для минимизации интернет-шума, такого как реклама \uD83E\uDDA0, трекинг \uD83D\uDD75\uFE0F\u200D♂\uFE0F, DNS утечки ✅ - позволяющий вам быть самим собой, оставаться сосредоточенным во время работы в Интернете. "
+    "message": "OpenBLD создается и поддерживается сообществом, участниками и партнерами по инфраструктуре. "
   },
   "homepage.Header.BriefLink1": {
-    "message": " Пожертвовать"
+    "message": " Поддержать"
   },
   "homepage.Header.BriefLink2": {
     "message": " Спонсировать проект"
@@ -81,7 +132,7 @@
     "message": "Строгий DNS"
   },
   "homepage.ThreeColums.Column2Body": {
-    "message": "RIC - Блокирует многие маркетинговые и отслеживающие ресурсы (некоторые сайты могут не работать)"
+    "message": "RIC - Блокирует многие маркетинговые и трекинг ресурсы (некоторые сайты могут не работать)"
   },
   "homepage.ThreeColums.Column3Title": {
     "message": "Мобильные"
@@ -103,6 +154,9 @@
   },
   "homepage.Submodules.Header": {
       "message": "Подмодули"
+  },
+  "homepage.Submodules.Description": {
+      "message": "Альтернативные профили фильтрации, основанные на списках блокировки DNS, поддерживаемых сообществами."
   },
   "homepage.ChromeExtension.TypeTile": {
     "message": "Расширение",

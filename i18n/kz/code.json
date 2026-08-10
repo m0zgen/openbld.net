@@ -1,9 +1,60 @@
 {
+  "homepage.Header.Eyebrow": {
+    "message": "БАРЛЫҒЫНА АРНАЛҒАН ҚАУІПСІЗ DNS"
+  },
   "homepage.Header.Title": {
-    "message": "Жарнамаларды, телеметрияны, зиянды домендерді бұғаттау"
+    "message": "Бір OpenBLD DNS. Қорғаныстың екі бағыты."
   },
   "homepage.Header.Subtitle": {
-    "message": "DoT, DoH - HTTP/2, TLSv1.2, TLSv1.3, GeoDNS бар тегін DNS"
+    "message": "Барлығына арналған тегін қоғамдық DNS қорғанысы. Ұйымдарға арналған кеңейтілген DNS қауіпсіздігі, аналитика және орналастыру нұсқалары."
+  },
+  "homepage.Header.FreeBadge": {
+    "message": "Әрқашан тегін"
+  },
+  "homepage.Header.FreeTitle": {
+    "message": "Каждоға арналған қорғаныс DNS"
+  },
+  "homepage.Header.FreeDescription": {
+    "message": "OpenBLD жалпыға қолжетімді DNS қызметінің көмегімен зиянды бағдарламаларды, фишингті, бақылауды және қажетсіз домендерді бұғаттаңыз. Тіркелу немесе жазылу қажет емес."
+  },
+  "homepage.Header.FreeFeature1": {
+    "message": "Зиянды бағдарламалар мен фишингтен қорғау"
+  },
+  "homepage.Header.FreeFeature2": {
+    "message": "DoH, DoT және классикалық DNS"
+  },
+  "homepage.Header.FreeFeature3": {
+    "message": "DNS ағып кетуінен қорғау"
+  },
+  "homepage.Header.FreeFeature4": {
+    "message": "Тіркелу қажет емес."
+  },
+  "homepage.Header.FreeButton": {
+    "message": "Қосылу"
+  },
+  "homepage.Header.HowItWorks": {
+    "message": "Қалай жұмыс істейді"
+  },
+  "homepage.Header.PlusBadge": {
+    "message": "Ұйымдарға арналған"
+  },
+  "homepage.Header.PlusTitle": {
+    "message": "Ұйымдарға арналған DNS қорғанысы"
+  },
+  "homepage.Header.PlusDescription": {
+    "message": "OpenBLD Plus DNS қауіпсіздігінің кеңейтілген функцияларын, маршруттауды, соның ішінде аналитиканы, орналастыру сценарийлерін және ұйымдарға қолдау көрсетуді ұсынады."
+  },
+  "homepage.Header.PlusFeature1": {
+    "message": "Бұлтта немесе жергілікті"
+  },
+  "homepage.Header.PlusFeature2": {
+    "message": "Корпоративтік саясат және аналитика"
+  },
+  "homepage.Header.PlusFeature3": {
+    "message": "Active Directory және АҚ жүйелерімен интеграция."
+  },
+  "homepage.Header.PlusDocsButton": {
+    "message": "Құжаттама"
   },
   "homepage.Header.Button1": {
     "message": "OpenBLD.net жобасы туралы"
@@ -12,16 +63,16 @@
     "message": "5 минутта баптаңыз"
   },
   "homepage.Header.Slogan": {
-    "message": "Өзіңмен өзің бол, назарда бол"
+    "message": "Өзің бол, назарда бол. Қорғауда бол."
   },
   "homepage.Header.Brief": {
-    "message": "OpenBLD.net — бұл интернеттегі жарнама \uD83E\uDDA0, трекинг \uD83D\uDD75\uFE0F\u200D♂\uFE0F, DNS ағып кетуі ✅ сияқты қажетсіз шуды азайтуға, Интернетте жұмыс істегенде өзіңмен өзің, зейінді болуға мүмкіндік беретін сервис"
+    "message": "OpenBLD қауымдастықпен, қатысушылармен және инфрақұрылым бойынша серіктестермен жасалады және қолдау табады. "
   },
   "homepage.Header.BriefLink1": {
-    "message": " Қайырымдылық жасау"
+    "message": " Қолдау көрсету"
   },
   "homepage.Header.BriefLink2": {
-    "message": " Жобаға демеушілік ету"
+    "message": " Жобаға демеушілік жасау"
   },
   "homepage.Header.BriefOr": {
     "message": " немесе"
@@ -103,6 +154,9 @@
   },
   "homepage.Submodules.Header": {
       "message": "Кіші модульдер"
+  },
+  "homepage.Submodules.Description": {
+    "message": "Қауымдастық қолдайтын DNS блоктау тізімдеріне негізделген балама сүзгілеу профильдері."
   },
   "homepage.ChromeExtension.TypeTile": {
     "message": "Кеңейту",
