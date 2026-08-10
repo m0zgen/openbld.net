@@ -8,7 +8,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Документация",
+    "message": "Док.",
     "description": "Navbar item with label Docs"
   },
   "item.label.Blog": {
