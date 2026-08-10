@@ -235,15 +235,15 @@ export default function HomepageThanks() {
                 <div className="mx-auto mt-12 max-w-5xl">
                     <div
                         className="
-            relative overflow-hidden rounded-3xl
-            border border-gray-200/80
-            bg-gray-50/80 px-6 py-8
-            shadow-xl shadow-gray-200/30
-            dark:border-white/10
-            dark:bg-[#0d111b]
-            dark:shadow-black/30
-            md:px-10 md:py-10
-        "
+                            relative overflow-hidden rounded-3xl
+                            border border-gray-200/80
+                             px-6 py-8
+                            shadow-xl shadow-gray-200/30
+                            dark:border-white/10
+                            dark:bg-[#0d111b]
+                            dark:shadow-black/30
+                            md:px-10 md:py-10
+                        "
                     >
                         <div
                             aria-hidden="true"
