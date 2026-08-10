@@ -1,18 +1,30 @@
 ---
 sidebar_position: 100
+title: Contacts
+description: Contact OpenBLD for support, feedback, partnerships, pilots, and business inquiries.
 ---
 
 # Contacts
 
+## Business Inquiries
+
+For OpenBLD Plus, pilot projects, partnerships, and commercial questions:
+
+- Email: [ev@do-tek.kz](mailto:ev@do-tek.kz)
+- Telegram: [@sysadminkz](https://t.me/sysadminkz)
+
+## Support, Feedback & Questions
+
+For technical questions, feedback, and general support:
+
+- Telegram: [@sysadminkz](https://t.me/sysadminkz)
+
 ## News & Updates
 
-* OpenBLD.net in [Telegram](https://t.me/openbld)
-* OpenBLD.net in [LinkedIn](https://www.linkedin.com/company/openbld)
+- [OpenBLD on Telegram](https://t.me/openbld)
+- [OpenBLD on LinkedIn](https://www.linkedin.com/company/openbld)
 
-## Support & Feedback & Questions
+## Community
 
-* You can contact to me with [Telegram](https://t.me/sysadminkz)
-
-## More
-* InfoSec Channel - [Sys-Admin & InfoSec](https://t.me/sysadm_in_channel) (InfoSec news, hacks and more from Sys-Admin Community)
-* Sys-Admin Up - [Sys-Admin Up](https://t.me/sysadm_in_up) (Courses, Exploits, Vulnerabilities news and more)
+- [Sys-Admin & InfoSec](https://t.me/sysadm_in_channel) — information security news, research, incidents, and community updates
+- [Sys-Admin Up](https://t.me/sysadm_in_up) — courses, exploits, vulnerabilities, and technical updates
