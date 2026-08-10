@@ -1,5 +1,6 @@
 .section {
     padding: 3rem 0 4.5rem;
+    background: var(--ifm-background-color);
 }
 
 .box {
@@ -11,36 +12,19 @@
     align-items: center;
     padding: 2rem;
     border: 1px solid var(--ifm-color-emphasis-200);
-    border-radius: 24px;
+    border-radius: 1rem;
     background:
             radial-gradient(
                     circle at top left,
-                    color-mix(in srgb, var(--ifm-color-primary) 22%, transparent),
-                    transparent 34%
+                    color-mix(
+                            in srgb,
+                            var(--ifm-color-primary) 12%,
+                            transparent
+                    ),
+                    transparent 38%
             ),
-            linear-gradient(
-                    135deg,
-                    rgb(255 255 255 / 5%),
-                    rgb(255 255 255 / 1%)
-            ),
-            var(--ifm-card-background-color);
-    box-shadow: 0 18px 55px rgb(0 0 0 / 14%);
-}
-
-.box::after {
-    content: '';
-    position: absolute;
-    inset: auto -80px -120px auto;
-    width: 260px;
-    height: 260px;
-    border-radius: 999px;
-    background: color-mix(
-            in srgb,
-            var(--ifm-color-primary) 18%,
-            transparent
-    );
-    filter: blur(18px);
-    pointer-events: none;
+            var(--ifm-background-surface-color);
+    box-shadow: 0 18px 55px rgb(0 0 0 / 10%);
 }
 
 .content {
@@ -92,6 +76,35 @@
 
 .statusLink:hover {
     text-decoration: underline;
+}
+
+[data-theme='dark'] .section {
+    background: #070a11;
+}
+
+[data-theme='dark'] .box {
+    border-color: rgb(255 255 255 / 10%);
+    background:
+            radial-gradient(
+                    circle at top left,
+                    color-mix(
+                            in srgb,
+                            var(--ifm-color-primary) 14%,
+                            transparent
+                    ),
+                    transparent 38%
+            ),
+            #0b0f17;
+    box-shadow: 0 18px 55px rgb(0 0 0 / 24%);
+}
+
+[data-theme='dark'] .description {
+    color: rgb(209 213 219);
+    opacity: 0.82;
+}
+
+[data-theme='dark'] .statusLink {
+    color: rgb(147 197 253);
 }
 
 @media (max-width: 996px) {
