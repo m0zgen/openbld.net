@@ -153,19 +153,21 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-
+          {
+            to: '/docs/overwiew/openbld-plus',
+            label: 'OpenBLD Plus',
+            position: 'left',
+          },
           {
             to: '/docs/overwiew/how-it-works',
             label: 'How it works',
             position: 'left',
           },
-
           {
             to: '/blog',
             label: 'Blog',
             position: 'left',
           },
-
           {
             to: '/#live-stats',
             label: 'Live Stats',
