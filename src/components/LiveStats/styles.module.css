@@ -64,7 +64,7 @@
 .serverStatus {
     padding: 1.25rem;
     border: 1px solid var(--ifm-color-emphasis-200);
-    border-radius: 1.25rem;
+    border-radius: 1rem;
     background: var(--ifm-background-surface-color);
     box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
 }
@@ -125,23 +125,24 @@
     padding: 1.6rem;
     overflow: hidden;
     border: 1px solid var(--ifm-color-emphasis-200);
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     background: var(--ifm-background-surface-color);
     box-shadow: 0 18px 45px rgba(15, 23, 42, 0.07);
 }
 
-.metricCard::after {
-    position: absolute;
-    right: -4rem;
-    bottom: -5rem;
-    width: 11rem;
-    height: 11rem;
-    border-radius: 999px;
-    background: var(--ifm-color-primary);
-    content: '';
-    opacity: 0.05;
-    pointer-events: none;
-}
+/*circle in card right bottom*/
+/*.metricCard::after {*/
+/*    position: absolute;*/
+/*    right: -4rem;*/
+/*    bottom: -5rem;*/
+/*    width: 11rem;*/
+/*    height: 11rem;*/
+/*    border-radius: 999px;*/
+/*    background: var(--ifm-color-primary);*/
+/*    content: '';*/
+/*    opacity: 0.05;*/
+/*    pointer-events: none;*/
+/*}*/
 
 .metricCardAccent {
     border-color: rgba(46, 133, 85, 0.4);
@@ -198,7 +199,7 @@
     margin-top: 1rem;
     padding: 1.6rem;
     border: 1px solid var(--ifm-color-emphasis-200);
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     background: var(--ifm-background-surface-color);
 }
 
@@ -385,14 +386,15 @@
     background:
             radial-gradient(
                     circle at 10% 0%,
-                    rgba(46, 133, 85, 0.18),
+                    rgba(46, 133, 85, 0.15),
                     transparent 34rem
             ),
             radial-gradient(
                     circle at 90% 100%,
-                    rgba(56, 189, 248, 0.08),
+                    rgba(56, 189, 248, 0.06),
                     transparent 30rem
-            );
+            ),
+            #070a11;
 }
 
 [data-theme='dark'] .serverStatus,
