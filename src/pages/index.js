@@ -334,19 +334,19 @@ function HomepageHeaderNext() {
                             <div className="mt-auto flex w-full flex-col items-center justify-center gap-3 pt-10 sm:flex-row">
                                 <Link
                                     className="inline-flex min-w-[220px] items-center justify-center rounded-full bg-amber-500 px-7 py-3.5 text-base font-bold text-gray-950 transition-colors hover:bg-amber-400 hover:text-gray-950"
-                                    to="/plus"
+                                    to="/docs/overwiew/openbld-plus"
                                 >
                                     <Translate id="homepage.Header.PlusButton">
-                                        Explore OpenBLD Plus
+                                        OpenBLD Plus
                                     </Translate>
                                 </Link>
 
                                 <Link
                                     className="inline-flex min-w-[200px] items-center justify-center rounded-full border border-white/20 px-7 py-3.5 text-base font-bold text-gray-200 transition-colors hover:border-white/40 hover:bg-white/5 hover:text-white"
-                                    to="/docs/plus"
+                                    to="/docs/overwiew/openbld-plus/#what-openbld-plus-provides"
                                 >
                                     <Translate id="homepage.Header.PlusDocsButton">
-                                        Plus Documentation
+                                        Documentation
                                     </Translate>
                                 </Link>
                             </div>
@@ -471,7 +471,7 @@ function FeaturesListHeading() {
                                     <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 dark:text-gray-200 font-black tracking-tight">
                                         <Translate
                                             id="homepage.FeatureList.Title">
-                                            A better way to browse and work online
+                                            Start using OpenBLD Free
                                         </Translate>
                                     </h2>
                                     <p className="mb-8 text-xl font-bold">
@@ -545,7 +545,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item5">
-                                                Scales up to 100k+ DNS queries/day for free
+                                                Scales up to ~100k queries/day for free
                                             </Translate>
                                         </li>
                                         <li class="flex items-center">
@@ -576,7 +576,7 @@ function FeaturesListHeading() {
 
                                 <img
                                     className="responsive-image mx-auto md:mr-0"
-                                    src="/img/site-cover-openbld-net-dark.webp"
+                                    src="img/site-cover-openbld-net-dark.webp"
                                     alt="OpenBLD.net DNS Site Logo"
                                     width="635"
                                     height="258"
@@ -837,17 +837,19 @@ function FeaturesListHeading() {
                                             id="homepage.Submodules.Header"> Submodules
                                         </Translate>
                                     </h3>
-                                    {accordions.map((accordion) => (
-                                        <Accordion
-                                            key={accordion.key}
-                                            title={accordion.title}
-                                            data={accordion.data}
-                                            setupUrl={accordion.setupUrl}
-                                            setupLink={accordion.setupLink}
-                                            isOpen={accordion.isOpen}
-                                            toggleAccordion={() => toggleAccordion(accordion.key)}
-                                        />
-                                    ))}
+                                    <div className="space-y-3">
+                                        {accordions.map((accordion) => (
+                                            <Accordion
+                                                key={accordion.key}
+                                                title={accordion.title}
+                                                data={accordion.data}
+                                                setupUrl={accordion.setupUrl}
+                                                setupLink={accordion.setupLink}
+                                                isOpen={accordion.isOpen}
+                                                toggleAccordion={() => toggleAccordion(accordion.key)}
+                                            />
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
 
@@ -863,6 +865,533 @@ function FeaturesListHeading() {
 
     );
 
+}
+
+function CheckIcon({className = 'text-green-500 dark:text-green-400'}) {
+    return (
+        <svg
+            className={`mt-1 h-4 w-4 shrink-0 ${className}`}
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+        >
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+        </svg>
+    );
+}
+
+function FeatureIcon() {
+    return (
+        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-blue-500/15 bg-blue-500/10 text-blue-500 dark:border-blue-400/20 dark:bg-blue-400/10 dark:text-blue-400">
+            <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+            >
+                <path
+                    d="M14 16C14 17.77 13.23 19.37 12 20.46C10.94 21.42 9.54 22 8 22C4.69 22 2 19.31 2 16C2 13.9753 3.01397 12.1814 4.5554 11.0973C4.80358 10.9228 5.1393 11.0422 5.27324 11.3145C6.21715 13.2332 7.95419 14.6699 10.02 15.23C10.65 15.41 11.31 15.5 12 15.5C12.4872 15.5 12.9539 15.4538 13.4074 15.3687C13.6958 15.3147 13.9828 15.4995 13.9955 15.7926C13.9985 15.8621 14 15.9314 14 16Z"
+                    fill="currentColor"
+                    opacity="0.7"
+                />
+
+                <path
+                    d="M18 8C18 8.78 17.85 9.53 17.58 10.21C16.89 11.95 15.41 13.29 13.58 13.79C13.08 13.93 12.55 14 12 14C11.45 14 10.92 13.93 10.42 13.79C8.59 13.29 7.11 11.95 6.42 10.21C6.15 9.53 6 8.78 6 8C6 4.69 8.69 2 12 2C15.31 2 18 4.69 18 8Z"
+                    fill="currentColor"
+                />
+
+                <path
+                    d="M22 16C22 19.31 19.31 22 16 22C15.2555 22 14.5393 21.8643 13.8811 21.6141C13.5624 21.4929 13.503 21.0851 13.7248 20.8262C14.8668 19.4938 15.5 17.786 15.5 16C15.5 15.66 15.47 15.32 15.42 15C15.3902 14.8155 15.4844 14.6342 15.6478 14.5437C16.9719 13.8107 18.0532 12.6876 18.727 11.3153C18.8609 11.0427 19.1968 10.923 19.4452 11.0978C20.9863 12.1818 22 13.9755 22 16Z"
+                    fill="currentColor"
+                    opacity="0.7"
+                />
+            </svg>
+        </div>
+    );
+}
+
+function ResolverSwitch({
+                            id,
+                            label,
+                            checked,
+                            onChange,
+                        }) {
+    return (
+        <label
+            htmlFor={id}
+            className="inline-flex cursor-pointer items-center"
+        >
+            <input
+                id={id}
+                type="checkbox"
+                role="switch"
+                checked={checked}
+                onChange={onChange}
+                className="sr-only"
+                aria-label={label}
+            />
+
+            <span
+                className={`relative inline-flex h-6 w-11 shrink-0 items-center rounded-full transition-colors duration-200 ${
+                    checked
+                        ? 'bg-blue-500'
+                        : 'bg-gray-300 dark:bg-gray-700'
+                }`}
+            >
+                <span
+                    className="h-5 w-5 rounded-full bg-white shadow-sm transition-transform duration-200 ease-in-out"
+                    style={{
+                        transform: checked
+                            ? 'translateX(22px)'
+                            : 'translateX(2px)',
+                    }}
+                />
+            </span>
+        </label>
+    );
+}
+
+function FeaturesListHeadingNext() {
+
+    const toggleResolver = () => {
+        setSelectedResolver((currentResolver) =>
+            currentResolver === 'ada' ? 'ric' : 'ada',
+        );
+    };
+
+    const [selectedResolver, setSelectedResolver] = useState('ada');
+
+    const [accordions, setAccordions] = useState([
+        {
+            key: 1,
+            title: 'Hagezi',
+            data: '',
+            setupUrl: '/docs/get-started/third-party-filters/hagezi',
+            setupLink: 'DNS over HTTPS (DoH) ⚙️',
+            isOpen: false,
+        },
+        {
+            key: 2,
+            title: 'OISD',
+            data: '',
+            setupUrl: '/docs/get-started/third-party-filters/oisd',
+            setupLink: 'DNS over HTTPS (DoH) ⚙️',
+            isOpen: false,
+        },
+    ]);
+
+    const resolverUrl =
+        selectedResolver === 'ric'
+            ? 'https://ric.openbld.net/dns-query'
+            : 'https://ada.openbld.net/dns-query';
+
+    const toggleAccordion = (accordionKey) => {
+        setAccordions((currentAccordions) =>
+            currentAccordions.map((accordion) => ({
+                ...accordion,
+                isOpen:
+                    accordion.key === accordionKey
+                        ? !accordion.isOpen
+                        : false,
+            })),
+        );
+    };
+
+    return (
+        <section className="relative overflow-hidden bg-white py-16 dark:bg-[#070a11] md:py-20">
+            {/* Background glow */}
+            <div
+                className="pointer-events-none absolute -left-40 top-20 h-[420px] w-[420px] rounded-full bg-blue-500/10 blur-[120px] dark:bg-blue-500/15"
+                aria-hidden="true"
+            />
+
+            <div
+                className="pointer-events-none absolute -right-40 bottom-20 h-[420px] w-[420px] rounded-full bg-green-500/10 blur-[120px] dark:bg-green-500/10"
+                aria-hidden="true"
+            />
+
+            <div className="container relative z-10 mx-auto px-4">
+                {/* Top block */}
+                <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+                    {/* Introduction */}
+                    <div className="mx-auto w-full max-w-xl lg:mx-0">
+                        <span className="mb-5 inline-flex rounded-full border border-blue-500/20 bg-blue-500/10 px-4 py-1.5 text-sm font-bold text-blue-600 dark:border-blue-400/20 dark:bg-blue-400/10 dark:text-blue-300">
+                            <Translate id="homepage.FeatureList.Badge">
+                                OpenBLD Free
+                            </Translate>
+                        </span>
+
+                        <h2 className="font-heading mb-5 text-4xl font-black tracking-tight text-gray-900 dark:text-gray-100 md:text-5xl">
+                            <Translate id="homepage.FeatureList.Title">
+                                Start using OpenBLD Free
+                            </Translate>
+                        </h2>
+
+                        <p className="mb-8 text-xl font-bold text-gray-700 dark:text-gray-300">
+                            <Translate id="homepage.FeatureList.Subtitle">
+                                Without agents and without software installs
+                            </Translate>
+                        </p>
+
+                        <ul className="m-0 list-none space-y-4 p-0 text-gray-600 dark:text-gray-400">
+                            <li className="flex items-start gap-3">
+                                <CheckIcon />
+
+                                <span>
+                                    <Translate id="homepage.FeatureList.Item1">
+                                        For personal use, home networks, and small offices
+                                    </Translate>
+                                </span>
+                            </li>
+
+                            <li className="flex items-start gap-3">
+                                <CheckIcon />
+
+                                <span>
+                                    <Translate id="homepage.FeatureList.Item2">
+                                        Works on phones, browsers and desktops
+                                    </Translate>
+                                </span>
+                            </li>
+
+                            <li className="flex items-start gap-3">
+                                <CheckIcon />
+
+                                <span>
+                                    <Translate id="homepage.FeatureList.Item3">
+                                        No agents or additional software required
+                                    </Translate>
+                                </span>
+                            </li>
+
+                            <li className="flex items-start gap-3">
+                                <CheckIcon />
+
+                                <span>
+                                    <Translate id="homepage.FeatureList.Item4">
+                                        Blocks malware, phishing, tracking, and unwanted domains
+                                    </Translate>
+                                </span>
+                            </li>
+
+                            <li className="flex items-start gap-3">
+                                <CheckIcon />
+
+                                <span>
+                                    <Translate id="homepage.FeatureList.Item5">
+                                        Supports classic DNS, DoH, and DoT
+                                    </Translate>
+                                </span>
+                            </li>
+
+                            <li className="flex items-start gap-3">
+                                <CheckIcon />
+
+                                <span>
+                                    <Translate id="homepage.FeatureList.Item6">
+                                        ~100k DNS queries/day for free
+                                    </Translate>
+                                </span>
+                            </li>
+
+                            <li className="flex items-start gap-3">
+                                <CheckIcon className="text-blue-500 dark:text-blue-400" />
+
+                                <span className="font-semibold text-gray-800 dark:text-gray-200">
+                                    <Translate id="homepage.FeatureList.Item7">
+                                        Free forever - no registration required
+                                    </Translate>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* Logo and quick setup */}
+                    <div className="mx-auto w-full max-w-xl">
+                        <img
+                            className="responsive-image mx-auto h-auto w-full max-w-[635px]"
+                            src="img/site-cover-openbld-net-dark.webp"
+                            alt="OpenBLD.net DNS"
+                            width="635"
+                            height="258"
+                            loading="lazy"
+                            decoding="async"
+                        />
+
+                        <div className="relative mt-6 overflow-hidden rounded-3xl border border-gray-200 bg-white/80 p-6 shadow-sm backdrop-blur-sm dark:border-white/10 dark:bg-white/[0.03] md:p-8">
+                            <div
+                                className="pointer-events-none absolute -right-20 -top-20 h-52 w-52 rounded-full bg-blue-500/10 blur-3xl"
+                                aria-hidden="true"
+                            />
+
+                            <div className="relative z-10">
+                                <div className="mb-5 flex flex-col items-center justify-between gap-4 sm:flex-row">
+                                    <div>
+                                        <p className="mb-1 text-center text-sm font-bold uppercase tracking-[0.16em] text-blue-600 dark:text-blue-300 sm:text-left">
+                                            <Translate id="homepage.FeatureList.QuickSetupBadge">
+                                                Connect
+                                            </Translate>
+                                        </p>
+
+                                        <h3 className="m-0 text-center text-xl font-black tracking-tight text-gray-900 dark:text-white sm:text-left">
+                                            <Translate id="homepage.FeatureList.QuickSetup">
+                                                Browser quick setup
+                                            </Translate>
+                                        </h3>
+                                    </div>
+
+                                    <div className="inline-flex rounded-full border border-gray-200 bg-gray-100 p-1 dark:border-white/10 dark:bg-white/[0.04]">
+                                        <button
+                                            type="button"
+                                            onClick={() => setSelectedResolver('ada')}
+                                            className={`rounded-full px-4 py-2 text-sm font-bold transition-colors ${
+                                                selectedResolver === 'ada'
+                                                    ? 'bg-blue-500 text-white shadow-sm'
+                                                    : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white'
+                                            }`}
+                                            aria-pressed={selectedResolver === 'ada'}
+                                        >
+                                            ADA
+                                        </button>
+
+                                        <button
+                                            type="button"
+                                            onClick={() => setSelectedResolver('ric')}
+                                            className={`rounded-full px-4 py-2 text-sm font-bold transition-colors ${
+                                                selectedResolver === 'ric'
+                                                    ? 'bg-blue-500 text-white shadow-sm'
+                                                    : 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white'
+                                            }`}
+                                            aria-pressed={selectedResolver === 'ric'}
+                                        >
+                                            RIC
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <CodeBlock>{resolverUrl}</CodeBlock>
+
+                                <p className="mb-0 mt-5 text-center text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+                                    <Translate id="homepage.FeatureList.GetStartedFor">
+                                        Paste this URL into Secure DNS settings for
+                                    </Translate>{' '}
+
+                                    <Link
+                                        to="/docs/category/setup-browsers"
+                                        className="font-medium text-blue-600 hover:underline dark:text-blue-400"
+                                    >
+                                        <Translate id="homepage.FeatureList.GetStartedForBrowsers">
+                                            browsers
+                                        </Translate>
+                                    </Link>
+                                    ,{' '}
+
+                                    <Link
+                                        to="/docs/category/setup-mobile-devices"
+                                        className="font-medium text-blue-600 hover:underline dark:text-blue-400"
+                                    >
+                                        <Translate id="homepage.FeatureList.GetStartedForMobile">
+                                            mobile devices
+                                        </Translate>
+                                    </Link>{' '}
+
+                                    <Translate id="homepage.FeatureList.GetStartedForOr">
+                                        or see
+                                    </Translate>{' '}
+
+                                    <Link
+                                        to="/docs/get-started/where-to-start"
+                                        className="font-medium text-blue-600 hover:underline dark:text-blue-400"
+                                    >
+                                        <Translate id="homepage.FeatureList.GetStartedForMore">
+                                            all setup options
+                                        </Translate>
+                                    </Link>
+                                    .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Resolver and device cards */}
+                <div className="mt-16 rounded-3xl border border-gray-200 bg-gray-50/80 p-5 dark:border-white/10 dark:bg-white/[0.025] md:p-8">
+                    <div className="grid gap-5 md:grid-cols-3">
+                        {/* ADA */}
+                        <article
+                            className={`rounded-2xl border p-6 transition-colors ${
+                                selectedResolver === 'ada'
+                                    ? 'border-blue-500/40 bg-blue-500/[0.06] dark:border-blue-400/30 dark:bg-blue-400/[0.06]'
+                                    : 'border-gray-200 bg-white dark:border-white/10 dark:bg-white/[0.02]'
+                            }`}
+                        >
+                            <div className="flex items-start gap-4">
+                                <FeatureIcon />
+
+                                <div className="min-w-0 flex-1">
+                                    <div className="mb-3 flex items-start justify-between gap-3">
+                                        <div className="flex flex-wrap items-center gap-2">
+                                            <h3 className="font-heading m-0 text-xl font-black text-gray-900 dark:text-white">
+                                                <Translate id="homepage.ThreeColums.Column1Title">
+                                                    ADA DNS
+                                                </Translate>
+                                            </h3>
+
+                                            <span className="inline-flex rounded-full border border-blue-500/20 bg-blue-500/10 px-2.5 py-1 text-xs font-bold text-blue-600 dark:border-blue-400/20 dark:bg-blue-400/10 dark:text-blue-300">
+                                                <Translate id="homepage.ThreeColums.Recommended">
+                                                    Recommended
+                                                </Translate>
+                                            </span>
+                                        </div>
+
+                                        <ResolverSwitch
+                                            id="checkerAda"
+                                            label="Use ADA DNS"
+                                            checked={selectedResolver === 'ada'}
+                                            onChange={toggleResolver}
+                                        />
+                                    </div>
+
+                                    <p className="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+                                        <Translate id="homepage.ThreeColums.Column1Body">
+                                            Recommended for most users. Fast and flexible adaptive filtering
+                                            for everyday browsing with social networks, Google, Microsoft,
+                                            Yandex, and other popular online services.
+                                        </Translate>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        {/* RIC */}
+                        <article
+                            className={`rounded-2xl border p-6 transition-colors ${
+                                selectedResolver === 'ric'
+                                    ? 'border-blue-500/40 bg-blue-500/[0.06] dark:border-blue-400/30 dark:bg-blue-400/[0.06]'
+                                    : 'border-gray-200 bg-white dark:border-white/10 dark:bg-white/[0.02]'
+                            }`}
+                        >
+                            <div className="flex items-start gap-4">
+                                <FeatureIcon />
+
+                                <div className="min-w-0 flex-1">
+                                    <div className="mb-3 flex items-center justify-between gap-3">
+                                        <h3 className="font-heading m-0 text-xl font-black text-gray-900 dark:text-white">
+                                            <Translate id="homepage.ThreeColums.Column2Title">
+                                                RIC DNS
+                                            </Translate>
+                                        </h3>
+
+                                        <ResolverSwitch
+                                            id="checkerRic"
+                                            label="Use RIC DNS"
+                                            checked={selectedResolver === 'ric'}
+                                            onChange={toggleResolver}
+                                        />
+                                    </div>
+
+                                    <p className="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+                                        <Translate id="homepage.ThreeColums.Column2Body">
+                                            Strict DNS filtering for experienced users. Blocks more marketing,
+                                            tracking, analytics, and embedded third-party resources, which may
+                                            affect websites, applications, redirects, and some internet content.
+                                        </Translate>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        {/* Mobile */}
+                        <article className="rounded-2xl border border-gray-200 bg-white p-6 dark:border-white/10 dark:bg-white/[0.02]">
+                            <div className="flex items-start gap-4">
+                                <FeatureIcon />
+
+                                <div className="min-w-0 flex-1">
+                                    <h3 className="font-heading mb-3 text-xl font-black text-gray-900 dark:text-white">
+                                        <Translate id="homepage.ThreeColums.Column3Title">
+                                            Mobile Devices
+                                        </Translate>
+                                    </h3>
+
+                                    <p className="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+                                        <Translate id="homepage.ThreeColums.Column3Body">
+                                            Configure OpenBLD without installing applications.
+                                            Use system-level encrypted DNS settings to protect browsing and supported apps.
+                                        </Translate>{' '}
+
+                                        <Link
+                                            to="/docs/get-started/setup-mobile-devices/android/"
+                                            className="font-medium text-blue-600 hover:underline dark:text-blue-400"
+                                        >
+                                            <Translate id="homepage.ThreeColums.Column3BodyLink1">
+                                                Set up Private DNS on Android
+                                            </Translate>
+                                        </Link>{' '}
+
+                                        <Translate id="homepage.ThreeColums.Column3Body2">
+                                            or
+                                        </Translate>{' '}
+
+                                        <Link
+                                            to="/docs/get-started/setup-mobile-devices/apple/"
+                                            className="font-medium text-blue-600 hover:underline dark:text-blue-400"
+                                        >
+                                            <Translate id="homepage.ThreeColums.Column3BodyLink2">
+                                                download an Apple profile
+                                            </Translate>
+                                        </Link>
+                                        .
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    {/* Third-party filters */}
+                    <div className="mt-8 border-t border-gray-200 pt-8 dark:border-white/10">
+                        <div className="mb-5">
+                            <p className="mb-2 text-sm font-bold uppercase tracking-[0.14em] text-blue-600 dark:text-blue-300">
+                                <Translate id="homepage.Submodules.Badge">
+                                    Optional
+                                </Translate>
+                            </p>
+
+                            <h3 className="font-heading m-0 text-2xl font-black text-gray-900 dark:text-white">
+                                <Translate id="homepage.Submodules.Header">
+                                    Third-party filter profiles
+                                </Translate>
+                            </h3>
+
+                            <p className="mb-0 mt-2 text-sm text-gray-600 dark:text-gray-400">
+                                <Translate id="homepage.Submodules.Description">
+                                    Use an alternative filtering profile based on popular community-maintained DNS blocklists.
+                                </Translate>
+                            </p>
+                        </div>
+
+                        <div className="space-y-3">
+                            {accordions.map((accordion) => (
+                                <Accordion
+                                    key={accordion.key}
+                                    title={accordion.title}
+                                    data={accordion.data}
+                                    setupUrl={accordion.setupUrl}
+                                    setupLink={accordion.setupLink}
+                                    isOpen={accordion.isOpen}
+                                    toggleAccordion={() =>
+                                        toggleAccordion(accordion.key)
+                                    }
+                                />
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
 }
 
 // Components construct for Homepage
@@ -893,10 +1422,10 @@ export default function Home() {
                 },
             )}
         >
-            <HomepageHeader/>
+            <HomepageHeaderNext/>
 
             <main>
-                <FeaturesListHeading/>
+                <FeaturesListHeadingNext/>
                 <HomepageChromeExtension/>
                 <HomepageVideoPresentation/>
                 <HomepageCompareAdaAndRic/>

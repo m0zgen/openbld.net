@@ -26,3 +26,66 @@
 .buttons a:hover {
   text-decoration: none;
 }
+
+/*next hero*/
+.heroBanner {
+  min-height: 680px;
+}
+
+.heroGlowBlue,
+.heroGlowAmber {
+  position: absolute;
+  width: 28rem;
+  height: 28rem;
+  border-radius: 9999px;
+  filter: blur(110px);
+  pointer-events: none;
+  opacity: 0.17;
+}
+
+.heroGlowBlue {
+  top: -12rem;
+  left: -10rem;
+  background: #2563eb;
+}
+
+.heroGlowAmber {
+  right: -10rem;
+  bottom: -14rem;
+  background: #f59e0b;
+}
+
+@media (min-width: 768px) {
+  .heroSide {
+    padding: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heroSplit {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .heroSide {
+    min-height: 460px;
+    padding: 3rem;
+  }
+
+  .heroFree {
+    padding-right: 4.5rem;
+    clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+  }
+
+  .heroPlus {
+    margin-left: -4.5rem;
+    padding-left: 7.5rem;
+    border-top: 0;
+    background:
+            linear-gradient(
+                    215deg,
+                    rgb(245 158 11 / 17%),
+                    rgb(7 10 17 / 20%) 65%
+            );
+    clip-path: polygon(9% 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
