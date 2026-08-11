@@ -169,7 +169,7 @@ const config = {
             position: 'left',
           },
           {
-            to: '/#live-stats',
+            href: '/#live-stats',
             label: 'Live Stats',
             position: 'right',
           },
