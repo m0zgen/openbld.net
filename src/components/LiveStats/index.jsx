@@ -1,6 +1,7 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import Translate from '@docusaurus/Translate';
 import styles from './styles.module.css';
+import Heading from '@theme/Heading';
 
 const STATS_URL =
     'https://morning-lake-1de8.g-yevgeniy-p.workers.dev/api/stats';
@@ -283,7 +284,7 @@ export default function LiveStats() {
     const updatedAt = formatUpdatedAt(stats.updated_at);
 
     return (
-        <section className={styles.section} id={"live-stats"}>
+        <section className={styles.section}>
             <div className="container">
                 <div className={styles.header}>
                     <div>
@@ -295,11 +296,11 @@ export default function LiveStats() {
                             </Translate>
                         </p>
 
-                        <h2 className={styles.title}>
+                        <Heading as="h2" id="live-stats" className={styles.title}>
                             <Translate id="homepage.LiveStats.Header">
                                 DNS protection at scale
                             </Translate>
-                        </h2>
+                        </Heading>
 
                         <p className={styles.description}>
                             <Translate id="homepage.LiveStats.Description">

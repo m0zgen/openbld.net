@@ -8,7 +8,9 @@ description: Contact OpenBLD for support, feedback, partnerships, pilots, and bu
 
 ## Business Inquiries
 
-For OpenBLD Plus, pilot projects, partnerships, and commercial questions:
+For OpenBLD Plus, pilot projects, partnerships, and commercial questions.
+
+> Tell me a bit about your infrastructure size and current DNS challenges.
 
 - Email: [ev@do-tek.kz](mailto:ev@do-tek.kz)
 - Telegram: [@sysadminkz](https://t.me/sysadminkz)

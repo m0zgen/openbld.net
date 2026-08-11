@@ -19,7 +19,7 @@ Malicious content surrounds Internet users, including:
 
 In OpenBLD.net notation, the term "malicious" means all traffic that carries at least some negative load to the Internet user, including sending metrics, tracking, collecting telemetry, viral activity, advertising, downloading ads and everything else negatively affecting the digital life of the Internet user. An implicit preventive measure, in the form of a OpenBLD.net service, can potentially reduce informational and other risks.
 
-* [Full Overview](/docs/category/overwiew)
+* [Full Overview](/docs/category/overview)
 
 ## Getting Started
 * [Get Started](/docs/category/get-started)

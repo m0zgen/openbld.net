@@ -26,7 +26,7 @@ sidebar_position: 91
 - Сайттың мазмұнын өз тіліңізге аударыңыз.
 - Техникалық мәселелерге көмектесіңіз.
 
-## Кім көмектеседі
+## Кім көмектеседі {/* #contribute-log */}
 
 ### 2021 - 2023
 PilgrimZero (testing), Pak_DV (testing), George.K (testing), Slava.V (testing),

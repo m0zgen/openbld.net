@@ -1,19 +1,32 @@
 ---
 sidebar_position: 100
+title: Байланыс
+description: Қолдау көрсету, кері байланыс, серіктестік, пилоттық жобалар және коммерциялық сұрақтар бойынша OpenBLD-мен байланысу.
 ---
 
-# Байланыс деректері
+# Байланыс
 
-## Жаңалықтар & Жаңартулар
+## Коммерциялық сұрақтар
 
-* OpenBLD.net [Telegram-да](https://t.me/openbld)
-* OpenBLD.net в [LinkedIn-да](https://www.linkedin.com/company/openbld)
+OpenBLD Plus, пилоттық жобалар, серіктестік және коммерциялық сұрақтар бойынша.
 
-## Қолдау көрсету, кері байланыс және сұрақтар
+> Инфрақұрылымыңыздың ауқымы және қазіргі DNS мәселелері туралы қысқаша айтып беріңіз.
 
-* Сіз маған [Telegram](https://t.me/sysadminkz) арқылы хабарласа аласыз
+- Email: [ev@do-tek.kz](mailto:ev@do-tek.kz)
+- Telegram: [@sysadminkz](https://t.me/sysadminkz)
 
-## Қосымша ресурстар
+## Қолдау, кері байланыс және сұрақтар
 
-* InfoSec Channel - [Sys-Admin & InfoSec](https://t.me/sysadm_in_channel) (CyberSec/InfoSec жаңалықтары)
-* Sys-Admin Up - [Sys-Admin Up](https://t.me/sysadm_in_up) (Курстар, эксплойттар, осалдықтар туралы жаңалықтар және көптеген басқалар)
+Техникалық сұрақтар, кері байланыс және жалпы қолдау бойынша:
+
+- Telegram: [@sysadminkz](https://t.me/sysadminkz)
+
+## Жаңалықтар мен жаңартулар
+
+- [Telegram-дағы OpenBLD](https://t.me/openbld)
+- [LinkedIn-дегі OpenBLD](https://www.linkedin.com/company/openbld)
+
+## Қауымдастық
+
+- [Sys-Admin & InfoSec](https://t.me/sysadm_in_channel) — ақпараттық қауіпсіздік жаңалықтары, зерттеулер, инциденттер және қауымдастық жаңартулары
+- [Sys-Admin Up](https://t.me/sysadm_in_up) — курстар, эксплойттар, осалдықтар және техникалық жаңартулар

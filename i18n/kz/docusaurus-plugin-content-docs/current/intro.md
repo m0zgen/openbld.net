@@ -26,7 +26,7 @@ OpenBLD.net шартты белгілерінде «зиянды» термин�
 OpenBLD.net сервисі түріндегі айқын емес алдын алу шарасы ақпараттық және басқа тәуекелдерді төмендетуі мүмкін.
 
 
-* [Full Overview](/docs/category/overwiew)
+* [Full Overview](/docs/category/overview)
 
 ## Пайдалануды бастау
 
