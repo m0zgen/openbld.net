@@ -119,6 +119,9 @@
   "homepage.FeatureList.GetStartedForMobile": {
     "message": "Мобильные"
   },
+  "homepage.FeatureList.GetStartedForOr": {
+    "message": " или "
+  },
   "homepage.FeatureList.GetStartedForMore": {
     "message": " другое..."
   },
@@ -250,6 +253,18 @@
   },
   "homepage.Thanks.AssistLink": {
     "message": "Как ты можешь поддержать проект?"
+  },
+  "homepage.Support.Label": {
+    "message": "Поддержка проекта"
+  },
+  "homepage.Support.Title": {
+    "message": "Помоги OpenBLD оставаться свободным и независимым."
+  },
+  "homepage.Support.Description": {
+    "message": "Ваша поддержка помогает поддерживать серверы OpenBLD, расширять сеть фильтрующих узлов и развивать новые функции безопасности."
+  },
+  "homepage.Support.Thanks": {
+    "message": "Благодарим вас за поддержку безопасного и независимого DNS-сервиса."
   },
   "homepage.LatestBlogPosts.PreHeader": {
     "message": "OpenBLD.net Блог"
