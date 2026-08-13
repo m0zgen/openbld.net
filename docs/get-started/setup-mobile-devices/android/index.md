@@ -20,8 +20,14 @@ ada.openbld.net
 
 ![Setup OpenBLD.net - Android](./setup-openbld-on-android-devices.jpeg)
 
-Just copy and paste this address to your DNS settings:
+Just copy and paste this address to your Private DNS Android settings:
 
 ```shell
 ada.openbld.net
+```
+
+Family Mode:
+
+```shell
+kid.openbld.net
 ```

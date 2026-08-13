@@ -21,3 +21,9 @@ OpenBLD.net-ті Android құрылғыларында баптау
 ```shell
 ada.openbld.net
 ```
+
+Отбасылық режим:
+
+```shell
+kid.openbld.net
+```
