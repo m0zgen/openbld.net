@@ -18,6 +18,12 @@ sidebar_position: 1
 https://ada.openbld.net/dns-query
 ```
 
+## Семейный режим:
+
+```shell
+https://kid.openbld.net/dns-query
+```
+
 ## Пример
 
 ![настройки OpenBLD.net в Google Chrome](./setup-openbld-dns-google-chrome.webp)

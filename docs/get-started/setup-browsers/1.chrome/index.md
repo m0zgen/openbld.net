@@ -28,6 +28,12 @@ Just copy and paste this link to your browser settings:
 https://ada.openbld.net/dns-query
 ```
 
+## Family Mode:
+
+```shell
+https://kid.openbld.net/dns-query
+```
+
 ## Chrome Extension
 
 As an additional option, you can use a browser extension for Google Chrome:

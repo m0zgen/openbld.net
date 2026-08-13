@@ -25,6 +25,12 @@ Google Chrome-да OpenBLD.net баптау
 https://ada.openbld.net/dns-query
 ```
 
+## Отбасылық режим:
+
+```shell
+https://kid.openbld.net/dns-query
+```
+
 ## Chrome үшін OpenBLD.net кеңейту
 
 Қосымша опция ретінде сіз Google Chrome браузері үшін кеңейтуді пайдалана аласыз:
