@@ -1110,7 +1110,7 @@ function FeaturesListHeadingNext() {
 
                                 <span>
                                     <Translate id="homepage.FeatureList.Item6">
-                                        ~100k DNS queries/day for free
+                                        ~100k DNS queries/day
                                     </Translate>
                                 </span>
                             </li>
