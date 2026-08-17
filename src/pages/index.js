@@ -563,7 +563,7 @@ function FeaturesListHeading() {
                                             </svg>
                                             <Translate
                                                 id="homepage.FeatureList.Item5">
-                                                Scales up to ~100k queries/day for free
+                                                Scales up to ~100k queries/day
                                             </Translate>
                                         </li>
                                         <li class="flex items-center">
