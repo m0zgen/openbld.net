@@ -2,11 +2,154 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net Blog</title>
-    <updated>2026-08-25T00:00:00.000Z</updated>
+    <updated>2026-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[↗ systemd-run in Practice - Scheduling, Sandboxing, cgroups, and Automation]]></title>
+        <id>https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/</id>
+        <link href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/"/>
+        <updated>2026-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A deep dive into using systemd-run for scheduling, sandboxing, cgroups, and automation in Linux.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="systemd-run in Practice" src="https://openbld.net/kz/assets/images/systemd-run-in-practice-7d9aa64135cc099fa3ab52ecb380830c.webp" width="1250" height="680" class="img_tFOa"></p>
+<p>When you need to run a one-off task in the background or schedule a maintenance script for later, the usual tools that come to mind are <code>nohup</code>, <code>screen</code>, <code>at</code>, or <code>cron</code>.</p>
+<p>But if your servers already use systemd, you also have access to a much more powerful tool: <code>systemd-run</code>.</p>
+<p>It creates <strong>transient units</strong> — temporary services and timers that do not require permanent <code>.service</code> or <code>.timer</code> files.</p>
+<p>With transient units, you can get proper process supervision, journald logging, cgroup resource limits, sandboxing, scheduling, and status tracking without adding permanent systemd configuration.</p>
+<p>Let’s look at a few practical use cases.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="1-one-off-scheduling-without-cron-or-at">1. One-off scheduling without cron or at<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#1-one-off-scheduling-without-cron-or-at" class="hash-link" aria-label="1. One-off scheduling without cron or at-ға тікелей сілтеме" title="1. One-off scheduling without cron or at-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>Suppose you need to restart a service at 4 AM, when traffic is low.</p>
+<p>Creating a permanent timer or adding a temporary cron entry for a one-time operation is unnecessary.</p>
+<p>You can schedule it directly:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --on-calendar="tomorrow 04:00" \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /bin/systemctl restart zbld</span><br></div></code></pre></div></div>
+<p>You can also use an exact date and time:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --on-calendar="2026-08-26 04:00:00" \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /bin/systemctl restart zbld</span><br></div></code></pre></div></div>
+<p>For relative scheduling, such as running something two hours from now:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --on-active="2h" \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /usr/local/bin/cleanup-script.sh</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_m4Qy" id="why-use-this-instead-of-cron">Why use this instead of cron?<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#why-use-this-instead-of-cron" class="hash-link" aria-label="Why use this instead of cron?-ға тікелей сілтеме" title="Why use this instead of cron?-ға тікелей сілтеме" translate="no">​</a></h3>
+<p>A few useful advantages:</p>
+<ul>
+<li class=""><strong>Centralized logging</strong> — stdout and stderr are available through <code>journalctl</code>.</li>
+<li class=""><strong>Process supervision</strong> — systemd tracks the process and its exit status.</li>
+<li class=""><strong>Visibility</strong> — scheduled transient timers can be inspected with:</li>
+</ul>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">systemctl list-timers</span><br></div></code></pre></div></div>
+<ul>
+<li class=""><strong>No permanent configuration files</strong> — useful for one-off maintenance tasks.</li>
+</ul>
+<p>One important detail: transient units created with <code>systemd-run</code> do <strong>not survive a reboot</strong>.</p>
+<p>If you need a timer that survives reboots and catches up on missed executions, use a persistent <code>.timer</code> unit with:</p>
+<div class="language-ini codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-ini codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">Persistent=true</span><br></div></code></pre></div></div>
+<p>That behavior belongs to persistent systemd timers, not transient timers created with <code>systemd-run</code>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="2-controlling-resource-heavy-tasks-with-cgroups">2. Controlling resource-heavy tasks with cgroups<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#2-controlling-resource-heavy-tasks-with-cgroups" class="hash-link" aria-label="2. Controlling resource-heavy tasks with cgroups-ға тікелей сілтеме" title="2. Controlling resource-heavy tasks with cgroups-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>A common operational problem is a maintenance or analytics script unexpectedly consuming too much CPU or memory.</p>
+<p>For example, a statistics aggregation job, log processor, database export, or domain-analysis script may interfere with production workloads.</p>
+<p><code>systemd-run</code> can place the process directly into a dedicated cgroup and apply resource controls:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=MemoryMax=500M \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=CPUWeight=20 \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=IOWeight=10 \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /opt/scripts/heavy_analytics.py</span><br></div></code></pre></div></div>
+<p>Here:</p>
+<ul>
+<li class=""><code>MemoryMax=500M</code> sets a hard memory limit for the unit.</li>
+<li class=""><code>CPUWeight=20</code> gives the process a relatively low CPU scheduling weight.</li>
+<li class=""><code>IOWeight=10</code> gives it a relatively low I/O scheduling weight.</li>
+</ul>
+<p>The CPU and I/O weights matter primarily when multiple workloads are competing for the same resources.</p>
+<p>The process is not limited to a fixed percentage of CPU. Instead, it receives a lower relative share compared with workloads that have higher weights.</p>
+<p>If the process and its child processes reach the <code>MemoryMax</code> limit, systemd may trigger an OOM event inside that unit.</p>
+<p>This is much safer than launching a potentially expensive script directly on a production host.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="3-sandboxing-untrusted-or-experimental-code">3. Sandboxing untrusted or experimental code<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#3-sandboxing-untrusted-or-experimental-code" class="hash-link" aria-label="3. Sandboxing untrusted or experimental code-ға тікелей сілтеме" title="3. Sandboxing untrusted or experimental code-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>Another useful feature is applying systemd security controls to a process without creating a permanent service definition.</p>
+<p>For example:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=PrivateTmp=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=ProtectSystem=strict \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=ProtectHome=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /tmp/test_binary</span><br></div></code></pre></div></div>
+<p>This gives the process a significantly more restricted environment.</p>
+<p><code>PrivateTmp=yes</code> provides isolated <code>/tmp</code> and <code>/var/tmp</code> directories.</p>
+<p><code>ProtectSystem=strict</code> makes most of the filesystem read-only from the process perspective.</p>
+<p><code>ProtectHome=yes</code> hides locations such as:</p>
+<div class="language-text codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-text codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">/home</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">/root</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">/run/user</span><br></div></code></pre></div></div>
+<p>from the process.</p>
+<p>You can continue hardening the unit with additional systemd properties.</p>
+<p>For example:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=PrivateTmp=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=ProtectSystem=strict \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=ProtectHome=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=NoNewPrivileges=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=PrivateDevices=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /tmp/test_binary</span><br></div></code></pre></div></div>
+<p>This is not a replacement for a container or VM when strong isolation is required, but it is extremely convenient for reducing the privileges and filesystem visibility of temporary processes.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="4-fire-and-forget-jobs-with-ansible">4. Fire-and-forget jobs with Ansible<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#4-fire-and-forget-jobs-with-ansible" class="hash-link" aria-label="4. Fire-and-forget jobs with Ansible-ға тікелей сілтеме" title="4. Fire-and-forget jobs with Ansible-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>When managing multiple servers with Ansible, sometimes you need to start a long-running operation across many nodes without making the playbook wait for every process to finish.</p>
+<p>For example:</p>
+<ul>
+<li class="">log processing</li>
+<li class="">report generation</li>
+<li class="">cache rebuilding</li>
+<li class="">maintenance jobs</li>
+<li class="">large cleanup operations</li>
+</ul>
+<p>Ansible has its own asynchronous execution mechanisms, but another approach is to delegate process management to systemd.</p>
+<p>Example:</p>
+<div class="language-yaml codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-yaml codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain"> </span><span class="token key atrule">name</span><span class="token punctuation" style="color:rgb(248, 248, 242)">:</span><span class="token plain"> Run heavy maintenance script in background via systemd</span><span class="token punctuation" style="color:rgb(248, 248, 242)">-</span><span class="token plain">run</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token key atrule">ansible.builtin.command</span><span class="token punctuation" style="color:rgb(248, 248, 242)">:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    </span><span class="token key atrule">cmd</span><span class="token punctuation" style="color:rgb(248, 248, 242)">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">&gt;</span><span class="token scalar string" style="color:rgb(255, 121, 198)"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token scalar string" style="color:rgb(255, 121, 198)">      systemd-run</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token scalar string" style="color:rgb(255, 121, 198)">      --unit=node-maintenance-{{ ansible_date_time.epoch }}</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token scalar string" style="color:rgb(255, 121, 198)">      --collect</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token scalar string" style="color:rgb(255, 121, 198)">      --property=CPUWeight=30</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token scalar string" style="color:rgb(255, 121, 198)">      /opt/maintenance/deep_clean.sh</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token key atrule">become</span><span class="token punctuation" style="color:rgb(248, 248, 242)">:</span><span class="token plain"> </span><span class="token boolean important">true</span><br></div></code></pre></div></div>
+<p>This provides several useful properties.</p>
+<p>The playbook only waits for <code>systemd-run</code> to create and start the transient service. It does not wait for <code>deep_clean.sh</code> itself to finish.</p>
+<p>Each execution receives a unique unit name:</p>
+<div class="language-text codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-text codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">node-maintenance-1756154220.service</span><br></div></code></pre></div></div>
+<p>The process gets its own cgroup and resource policy.</p>
+<p>The <code>--collect</code> option allows systemd to unload the transient unit after it has finished and no longer needs to be referenced.</p>
+<p>You can still inspect a running task using:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">systemctl status node-maintenance-1756154220.service</span><br></div></code></pre></div></div>
+<p>And view its logs with:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">journalctl -u node-maintenance-1756154220.service</span><br></div></code></pre></div></div>
+<p>This is often much easier to operate than a detached process started with:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">nohup /opt/maintenance/deep_clean.sh &gt; /tmp/deep-clean.log 2&gt;&amp;1 &amp;</span><br></div></code></pre></div></div>
+<p>With <code>systemd-run</code>, the task has a name, lifecycle, journal, exit status, cgroup, and resource controls.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="5-giving-background-jobs-meaningful-names">5. Giving background jobs meaningful names<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#5-giving-background-jobs-meaningful-names" class="hash-link" aria-label="5. Giving background jobs meaningful names-ға тікелей сілтеме" title="5. Giving background jobs meaningful names-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>By default, systemd will generate a transient unit name automatically.</p>
+<p>For operational tasks, explicitly naming the unit makes troubleshooting much easier:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --unit=database-cleanup \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /opt/scripts/database-cleanup.sh</span><br></div></code></pre></div></div>
+<p>Now you can immediately inspect it:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">systemctl status database-cleanup.service</span><br></div></code></pre></div></div>
+<p>or follow its logs:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">journalctl -fu database-cleanup.service</span><br></div></code></pre></div></div>
+<p>For recurring automation systems such as Ansible, adding a timestamp or another unique identifier prevents unit-name collisions:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">--unit=node-maintenance-$(date +%s)</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="6-running-a-command-with-an-automatic-runtime-limit">6. Running a command with an automatic runtime limit<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#6-running-a-command-with-an-automatic-runtime-limit" class="hash-link" aria-label="6. Running a command with an automatic runtime limit-ға тікелей сілтеме" title="6. Running a command with an automatic runtime limit-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>Another useful pattern is preventing maintenance jobs from running forever.</p>
+<p>For example:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --unit=stats-rebuild \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=RuntimeMaxSec=30m \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /opt/scripts/rebuild-stats.sh</span><br></div></code></pre></div></div>
+<p>If the process is still running after 30 minutes, systemd will stop the unit.</p>
+<p>This is useful for jobs that are expected to complete within a predictable amount of time.</p>
+<p>You can combine it with resource limits:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --unit=stats-rebuild \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --collect \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=RuntimeMaxSec=30m \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=MemoryMax=1G \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=CPUWeight=25 \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /opt/scripts/rebuild-stats.sh</span><br></div></code></pre></div></div>
+<p>Now the job has:</p>
+<ul>
+<li class="">a clear unit name</li>
+<li class="">a maximum runtime</li>
+<li class="">a memory limit</li>
+<li class="">reduced CPU priority</li>
+<li class="">journald logging</li>
+<li class="">automatic unit cleanup</li>
+</ul>
+<p>all without creating a permanent <code>.service</code> file.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="a-practical-one-liner">A practical one-liner<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#a-practical-one-liner" class="hash-link" aria-label="A practical one-liner-ға тікелей сілтеме" title="A practical one-liner-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>A useful general-purpose maintenance pattern looks like this:</p>
+<div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --unit=one-shot-maintenance \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --collect \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=MemoryMax=1G \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=CPUWeight=25 \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /opt/scripts/maintenance.sh</span><br></div></code></pre></div></div>
+<p>Instead of an anonymous background PID, you get a managed process with a name, logs, resource limits, status, exit code, and a clear lifecycle.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="final-thoughts">Final thoughts<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#final-thoughts" class="hash-link" aria-label="Final thoughts-ға тікелей сілтеме" title="Final thoughts-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>Transient systemd units are one of those tools that are easy to overlook.</p>
+<p>For permanent services and recurring schedules, normal <code>.service</code> and <code>.timer</code> units are still the right choice.</p>
+<p>But for one-off operations, background maintenance, resource-controlled scripts, temporary sandboxing, or automation from tools such as Ansible, <code>systemd-run</code> can be considerably cleaner than <code>nohup</code>, <code>screen</code>, temporary cron entries, or manually managed background processes.</p>
+<p>You already have a process supervisor, cgroups, journald, scheduling, and sandboxing on most modern Linux servers.</p>
+<p><code>systemd-run</code> simply makes all of them available from a single command.</p>
+<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="systemd" term="systemd"/>
+        <category label="Linux" term="Linux"/>
+        <category label="Tips & Tricks" term="Tips & Tricks"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[↗ OpenBLD in the Independent DNS Resolver Guide]]></title>
         <id>https://openbld.net/kz/blog/openbld-public-dns-resolver-guide/</id>
@@ -14,11 +157,10 @@
         <updated>2026-08-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[OpenBLD is now listed in the independent DNS Resolver Guide, a directory of public DNS providers with filtering, protocol, privacy, and resolver comparison details.]]></summary>
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD in the Independent DNS Resolver Guide" src="https://openbld.net/kz/assets/images/openbld-and-evilbit-2-8d14779df68629866b52f2e46ce740b0.webp" width="1250" height="703" class="img_tFOa"></p>
-<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="openbld-in-the-independent-dns-resolver-guide">OpenBLD in the Independent DNS Resolver Guide<a href="https://openbld.net/kz/blog/openbld-public-dns-resolver-guide/#openbld-in-the-independent-dns-resolver-guide" class="hash-link" aria-label="OpenBLD in the Independent DNS Resolver Guide-ға тікелей сілтеме" title="OpenBLD in the Independent DNS Resolver Guide-ға тікелей сілтеме" translate="no">​</a></h2>
 <p>Choosing a public DNS resolver today is about much more than picking between Google and Cloudflare.</p>
 <p>There are dozens of public DNS services: global and regional providers, commercial services, non-profits, and community-run projects.
 They differ in privacy policies, filtering capabilities, DNSSEC support, encrypted DNS protocols, infrastructure locations, and logging practices.</p>
-<p>Comparing all of them can be difficult.</p>
+<p><em>Comparing all of them can be difficult.</em></p>
 <!-- -->
 <p>This is where the <a href="https://evilbit.de/dns-resolver-guide.html" target="_blank" rel="noopener noreferrer" class="">EvilBit DNS Resolver Guide</a> comes in - an independent online guide for choosing a public DNS resolver.</p>
 <p>The guide brings together public DNS providers from different countries and jurisdictions and makes it easier to compare their features, supported protocols, filtering options, DNSSEC and IPv6 support, logging policies, and other characteristics.</p>
@@ -164,41 +306,6 @@ full control over their data, and event storage within their own infrastructure.
         <category label="dga" term="dga"/>
         <category label="dns-security" term="dns-security"/>
         <category label="malware" term="malware"/>
-        <category label="2026" term="2026"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 OpenBLD.net - Independent DNS Resolution]]></title>
-        <id>https://openbld.net/kz/blog/openbld-build-independent-dns-ecosystem/</id>
-        <link href="https://openbld.net/kz/blog/openbld-build-independent-dns-ecosystem/"/>
-        <updated>2026-06-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD.net takes a main path — building its own independent DNS ecosystem.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="🚀 OpenBLD.net — Independent DNS Ecosystem" src="https://openbld.net/kz/assets/images/openbld-build-independent-dns-ecosystem-63eaf13edc1a72dfaaf822d05d6b494a.webp" width="1448" height="1086" class="img_tFOa"></p>
-<p>We’ve become used to relying on DNS from Google, Cloudflare, and other large public DNS providers.</p>
-<p>They are fast, convenient, and easy to use. But in the age of AI, large-scale data aggregation, and user profiling, convenience should not come at the cost of privacy.</p>
-<p><strong>OpenBLD.net takes a different path.</strong></p>
-<p>We are building an independent DNS ecosystem designed to reduce dependency on centralized DNS providers and give users more control over how their DNS traffic is resolved, filtered, and protected.</p>
-<!-- -->
-<p>Today, around 90% of OpenBLD.net DNS resolution runs on our own infrastructure, using our own filtering and DNS request processing mechanisms.</p>
-<p>⚡ At the same time, OpenBLD.net provides:</p>
-<ul>
-<li class="">speed on par with top DNS providers</li>
-<li class="">global geographic presence</li>
-<li class="">DNSSEC validation</li>
-<li class="">support for DNS / DoT / DoH</li>
-<li class="">our own filtering and protection logic</li>
-</ul>
-<p><strong>Independence is not a feature - it is the foundation of privacy.</strong></p>
-<p>Stay connected: ⚡ <a class="" href="https://openbld.net/kz/docs/category/get-started/">OpenBLD.net</a></p>
-<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-build-independent-dns-ecosystem/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">OpenBLD.net Telegram</a></li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="tools" term="tools"/>
         <category label="2026" term="2026"/>
     </entry>
 </feed>
