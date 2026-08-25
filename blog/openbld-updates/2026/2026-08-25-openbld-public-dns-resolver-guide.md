@@ -8,14 +8,12 @@ tags: [openbld, updates, 2026]
 
 ![OpenBLD in the Independent DNS Resolver Guide](images/openbld-and-evilbit-2.webp)
 
-## OpenBLD in the Independent DNS Resolver Guide
-
 Choosing a public DNS resolver today is about much more than picking between Google and Cloudflare.
 
 There are dozens of public DNS services: global and regional providers, commercial services, non-profits, and community-run projects. 
 They differ in privacy policies, filtering capabilities, DNSSEC support, encrypted DNS protocols, infrastructure locations, and logging practices.
 
-Comparing all of them can be difficult.
+_Comparing all of them can be difficult._
 
 {/* truncate */}
 
