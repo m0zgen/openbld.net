@@ -30,25 +30,20 @@ Creating a permanent timer or adding a temporary cron entry for a one-time opera
 You can schedule it directly:
 
 ```bash
-sudo systemd-run \
-  --on-calendar="tomorrow 04:00" \
-  /bin/systemctl restart zbld
+sudo systemd-run --on-calendar="04:00:00" /bin/systemctl restart zbld
 ```
 
 You can also use an exact date and time:
 
 ```bash
 sudo systemd-run \
-  --on-calendar="2026-08-26 04:00:00" \
-  /bin/systemctl restart zbld
+--on-calendar="2026-08-27 04:00:00" /bin/systemctl restart zbld
 ```
 
 For relative scheduling, such as running something two hours from now:
 
 ```bash
-sudo systemd-run \
-  --on-active="2h" \
-  /usr/local/bin/cleanup-script.sh
+sudo systemd-run --on-active="2h" /usr/local/bin/cleanup-script.sh
 ```
 
 ### Why use this instead of cron?
