@@ -1506,6 +1506,12 @@ For generic XDP:
 ip link set dev eth0 xdpgeneric off
 ```
 
-#### Updates
+## GitHub Source Code
+
+On GitHub, you can find the complete source code for this guide at:
+
+- https://github.com/m0zgen/ebpf-xdp-demo
+
+#### Follow OpenBLD
 
 - Official [Telegram](https://t.me/openbld)
