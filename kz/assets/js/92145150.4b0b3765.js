@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopenbld_net=self.webpackChunkopenbld_net||[]).push([[5568],{83471:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/kz/blog/page/18","page":18,"postsPerPage":6,"totalPages":18,"totalCount":103,"previousPage":"/kz/blog/page/17","blogDescription":"OpenBLD.net news and updates","blogTitle":"OpenBLD.net Blog"}}')}}]);

@@ -2,11 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/ru/blog/</id>
     <title>OpenBLD.net Blog</title>
-    <updated>2026-08-27T00:00:00.000Z</updated>
+    <updated>2026-09-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/ru/blog/"/>
     <subtitle>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</subtitle>
     <icon>https://openbld.net/ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[↗ eBPF/XDP on macOS with Apple container]]></title>
+        <id>https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/</id>
+        <link href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/"/>
+        <updated>2026-09-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Building eBPF/XDP applications on macOS using container]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="Building Linux eBPF/XDP Applications on macOS via containers" src="https://openbld.net/ru/assets/images/build-xdp-ebpf-macos-guide-via-containers-1994384081ce254541ec84b5471c4b47.webp" width="1250" height="680" class="img_tFOa"></p>
+<p>Reproduction of <a class="" href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide/">eBPF/XDP Applications on macOS with Colima, Docker</a> blogpost,
+with Apple's native <code>container</code> CLI in place of Colima + Docker, plus a custom kernel
+that restores the features Apple's stock VM kernel leaves out.</p>
+<p>Host: Apple M4, macOS 27.0 (build 26A5406e), <code>container</code> 1.3.0, kernel 6.18.15 aarch64.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="verdict">Verdict<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/#verdict" class="hash-link" aria-label="Прямая ссылка на Verdict" title="Прямая ссылка на Verdict" translate="no">​</a></h2>
+<p><strong>1:1 parity with the blog, and then some.</strong> Build, load, attach and detach all
+happen inside Apple <code>container</code>. Everything is aarch64 — <code>[build] rosetta</code> is set
+to <code>false</code> in <code>~/.config/container/config.toml</code>, so Rosetta is not merely unused,
+it is unavailable to the builder VM.</p>
+<p>With the custom kernel in <code>kernel/</code> the environment additionally supports the
+things the blog never gets to: CO-RE, kprobes/tracepoints/fentry, BPF LSM,
+AF_XDP and the JIT.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="two-kernels">Two kernels<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/#two-kernels" class="hash-link" aria-label="Прямая ссылка на Two kernels" title="Прямая ссылка на Two kernels" translate="no">​</a></h2>
+<table><thead><tr><th></th><th>stock (<code>vmlinux-6.18.15-186</code>)</th><th>custom (<code>kernel/vmlinux-ebpf-6.18.15</code>)</th></tr></thead><tbody><tr><td>XDP generic on <code>eth0</code></td><td>yes</td><td>yes</td></tr><tr><td>XDP native + <code>bpf_link</code> on <code>veth</code></td><td>yes</td><td>yes</td></tr><tr><td>XDP native on <code>eth0</code></td><td><strong>no</strong> (see below)</td><td><strong>no</strong> (host-side, not fixable in the guest)</td></tr><tr><td>tc/cgroup/socket/sk_msg progs</td><td>yes</td><td>yes</td></tr><tr><td>kprobe / tracepoint / fentry / LSM</td><td>no</td><td><strong>yes</strong></td></tr><tr><td>BTF (<code>/sys/kernel/btf/vmlinux</code>) → CO-RE</td><td>no</td><td><strong>yes</strong> (4.5 MB, 110k-line <code>vmlinux.h</code>)</td></tr><tr><td>AF_XDP (<code>xskmap</code>, <code>XDP_SOCKETS</code>)</td><td>no</td><td><strong>yes</strong> (native mode on veth)</td></tr><tr><td>JIT</td><td>no (<code>xlated 16B not jited</code>)</td><td><strong>yes</strong> (<code>xlated 16B jited 56B</code>)</td></tr><tr><td>tracefs / <code>bpf_printk</code></td><td>no</td><td><strong>yes</strong></td></tr></tbody></table>
+<p>Native XDP on <code>eth0</code> is impossible in both: Apple's vmnet virtio-net advertises
+<code>rx-gro-hw: on [fixed]</code>, so the driver refuses with <em>"Can't set XDP while host is
+implementing GRO_HW/CSUM"</em>. <code>bpf_link</code> XDP attach also fails on that device. Use
+<code>xdpgeneric</code> on <code>eth0</code>, or a <code>veth</code> pair for native-mode work — <code>src/main.go</code>
+falls back automatically (bpf_link → netlink native → netlink generic).</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="layout">Layout<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/#layout" class="hash-link" aria-label="Прямая ссылка на Layout" title="Прямая ссылка на Layout" translate="no">​</a></h2>
+<div class="language-text codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-text codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">Containerfile arm64 builder/runner image (clang, llvm, libbpf, bpftool, Go 1.25)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">src/ the blog's XDP program + Go loader (bpf2go)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">tracing/ CO-RE kprobe on do_execveat_common -&gt; ring buffer</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">afxdp/ libxdp UMEM + xsk_socket__create bound to veth0</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">kernel/build-kernel.sh builds the eBPF-enabled arm64 kernel inside a container</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="usage">Usage<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/#usage" class="hash-link" aria-label="Прямая ссылка на Usage" title="Прямая ссылка на Usage" translate="no">​</a></h2>
+<div class="language-sh codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-sh codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">make image # arm64 builder image</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">make build # clang -target bpf + bpf2go + go build</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">make demo # XDP attach on veth0 (run `make build` first; stock kernel is enough)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">make kernel # build kernel/vmlinux-ebpf-6.18.15 (~5 min on M4, 8 cores)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">make tracing # CO-RE kprobe demo (requires custom kernel)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">make afxdp # AF_XDP socket demo (requires custom kernel)</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">make probe # capability dump; KERNEL=... to compare kernels</span><br></div></code></pre></div></div>
+<p><code>KERNEL=kernel/vmlinux-ebpf-6.18.15</code> is passed via <code>container run -k</code>, per
+container — the system default kernel is left untouched. To make it the default:
+<code>container system kernel set --arch arm64 --binary $PWD/kernel/vmlinux-ebpf-6.18.15 --force</code>
+(verified flag syntax; <code>--recommended</code> restores Apple's default). To exercise a
+target against the <em>stock</em> kernel instead, pass a non-existent path:
+<code>make probe KERNEL=none</code>.</p>
+<p><code>--cap-add ALL</code> is required; each container is root in its own micro-VM, so
+there is no privileged flag and none is needed.</p>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="kernel-build-notes">Kernel build notes<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/#kernel-build-notes" class="hash-link" aria-label="Прямая ссылка на Kernel build notes" title="Прямая ссылка на Kernel build notes" translate="no">​</a></h2>
+<ul>
+<li class="">Base config is the running kernel's own <code>/proc/config.gz</code>, so the build only
+adds features. Enabled: <code>DEBUG_INFO_BTF</code> (+DWARF5), <code>KPROBES</code>, <code>KPROBE_EVENTS</code>,
+<code>UPROBES</code>, <code>FTRACE</code>, <code>BPF_EVENTS</code>, <code>FPROBE</code>, <code>BPF_JIT</code> (+default-on), <code>BPF_LSM</code>,
+<code>XDP_SOCKETS</code> (+diag), <code>NET_CLS_BPF</code>, <code>NET_ACT_BPF</code>, <code>DEBUG_FS</code>.</li>
+<li class="">The build runs in a <code>container volume</code> (<code>kernelbuild</code>), <strong>not</strong> on a virtiofs
+mount of the host: macOS APFS is case-insensitive and the Linux source has
+case-colliding filenames, so extracting onto the host fails with
+<code>Permission denied</code>. Only <code>arch/arm64/boot/Image</code> is copied back.</li>
+<li class=""><code>scripts/config --enable</code> takes one symbol per invocation; passing a list
+silently prints usage and (under <code>set -e</code>) kills the build.</li>
+<li class="">Output must be <code>arch/arm64/boot/Image</code> (raw ARM64 boot Image) — that is the
+format <code>container</code> expects, matching Apple's own kernel file.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="differences-from-the-blogpost">Differences from the blogpost<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/#differences-from-the-blogpost" class="hash-link" aria-label="Прямая ссылка на Differences from the blogpost" title="Прямая ссылка на Differences from the blogpost" translate="no">​</a></h2>
+<ul>
+<li class="">Colima + Docker → <code>container build</code> / <code>container run</code>; each container is its
+own lightweight VM.</li>
+<li class="">The blog cross-compiles the loader to <code>linux/amd64</code> as a deploy artifact that
+cannot run on the host. Here the loader is built <code>arm64</code> and actually executed
+and attached locally; <code>GOARCH=amd64 go build</code> still produces the deploy binary.</li>
+<li class=""><code>bpf2go -type event</code> needs the struct referenced from a dummy global
+(<code>const struct event *unused_event</code>), otherwise clang drops it from BTF.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="host-config-changes-made">Host config changes made<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/#host-config-changes-made" class="hash-link" aria-label="Прямая ссылка на Host config changes made" title="Прямая ссылка на Host config changes made" translate="no">​</a></h2>
+<ul>
+<li class=""><code>~/.config/container/config.toml</code>: removed a stale <code>[kernel]</code> block pointing at
+a Kata tarball — <code>container</code> 1.3.0 rejects it with
+<code>kernel.digest is required when kernel.url is not the default URL</code> and refuses
+to start. Set <code>[build] rosetta = false</code>. Backups: <code>config.toml.bak.*</code>.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="reference">Reference<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/#reference" class="hash-link" aria-label="Прямая ссылка на Reference" title="Прямая ссылка на Reference" translate="no">​</a></h2>
+<ul>
+<li class="">Reproduction of <a class="" href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide/">eBPF/XDP Applications on macOS with Colima, Docker</a></li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="follow-openbld">Follow OpenBLD<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/#follow-openbld" class="hash-link" aria-label="Прямая ссылка на Follow OpenBLD" title="Прямая ссылка на Follow OpenBLD" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Viorel-Cosmin Miron</name>
+            <uri>https://www.linkedin.com/in/viorel-cosmin-miron/</uri>
+        </author>
+        <category label="eBPF" term="eBPF"/>
+        <category label="XDP" term="XDP"/>
+        <category label="macOS" term="macOS"/>
+        <category label="Apple" term="Apple"/>
+        <category label="container" term="container"/>
+        <category label="Go" term="Go"/>
+        <category label="Linux" term="Linux"/>
+        <category label="Tips & Tricks" term="Tips & Tricks"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[↗ Building Linux eBPF/XDP Applications on macOS with Colima, Docker, Clang, and Go]]></title>
         <id>https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide/</id>
@@ -470,7 +563,7 @@
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">docker build -t xdp-builder .</span><br></div></code></pre></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="verify-the-toolchain">Verify the Toolchain<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide/#verify-the-toolchain" class="hash-link" aria-label="Прямая ссылка на Verify the Toolchain" title="Прямая ссылка на Verify the Toolchain" translate="no">​</a></h2>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">docker run --rm xdp-builder bash -c '</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    uname -m</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    go version</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    clang --version | head -1</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    llvm-config --version</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    bpftool version</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    ls -l /usr/include/asm/types.h</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">'</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="build-and-inspect">Build and Inspect<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide/#build-and-inspect" class="hash-link" aria-label="Прямая ссылка на Build and Inspect" title="П�рямая ссылка на Build and Inspect" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="build-and-inspect">Build and Inspect<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide/#build-and-inspect" class="hash-link" aria-label="Прямая ссылка на Build and Inspect" title="Прямая ссылка на Build and Inspect" translate="no">​</a></h2>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">docker run --rm \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    -v "$PWD:/src" \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    -w /src \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    xdp-builder \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    bash -c '</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        set -e</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        go generate ./...</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        file bpf_bpfel.o</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        bpftool prog dump obj bpf_bpfel.o</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        CGO_ENABLED=0 \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        GOOS=linux \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        GOARCH=amd64 \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        go build -o xdp-demo .</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        file xdp-demo</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    '</span><br></div></code></pre></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="run-on-linux">Run on Linux<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide/#run-on-linux" class="hash-link" aria-label="Прямая ссылка на Run on Linux" title="Прямая ссылка на Run on Linux" translate="no">​</a></h2>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ./xdp-demo eth0</span><br></div></code></pre></div></div>
@@ -484,6 +577,10 @@
 <p>On GitHub, you can find the complete source code for this guide at:</p>
 <ul>
 <li class=""><a href="https://github.com/m0zgen/ebpf-xdp-demo" target="_blank" rel="noopener noreferrer" class="">https://github.com/m0zgen/ebpf-xdp-demo</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="builds-with-apple-containers">Builds with Apple containers<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide/#builds-with-apple-containers" class="hash-link" aria-label="Прямая ссылка на Builds with Apple containers" title="Прямая ссылка на Builds with Apple containers" translate="no">​</a></h2>
+<ul>
+<li class=""><a class="" href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide-via-container/">eBPF/XDP on macOS with Apple container</a></li>
 </ul>
 <h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="follow-openbld">Follow OpenBLD<a href="https://openbld.net/ru/blog/build-xdp-ebpf-macos-guide/#follow-openbld" class="hash-link" aria-label="Прямая ссылка на Follow OpenBLD" title="Прямая ссылка на Follow OpenBLD" translate="no">​</a></h4>
 <ul>
@@ -624,7 +721,7 @@
 <li class="">automatic unit cleanup</li>
 </ul>
 <p>all without creating a permanent <code>.service</code> file.</p>
-<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="a-practical-one-liner">A practical one-liner<a href="https://openbld.net/ru/blog/systemd-run-scheduling-sandboxing-cgroups/#a-practical-one-liner" class="hash-link" aria-label="Прямая ссылка на A practical one-liner" title="Прямая ссылка на A practical one-liner" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="a-practical-one-liner">A practical one-liner<a href="https://openbld.net/ru/blog/systemd-run-scheduling-sandboxing-cgroups/#a-practical-one-liner" class="hash-link" aria-label="Прямая ссылка на A practical one-liner" title="Прямая ссыл�ка на A practical one-liner" translate="no">​</a></h2>
 <p>A useful general-purpose maintenance pattern looks like this:</p>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --unit=one-shot-maintenance \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --collect \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=MemoryMax=1G \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=CPUWeight=25 \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /opt/scripts/maintenance.sh</span><br></div></code></pre></div></div>
 <p>Instead of an anonymous background PID, you get a managed process with a name, logs, resource limits, status, exit code, and a clear lifecycle.</p>
@@ -717,43 +814,6 @@ Since then, the infrastructure has demonstrated stable <strong>99.99% uptime</st
         </author>
         <category label="openbld" term="openbld"/>
         <category label="updates" term="updates"/>
-        <category label="2026" term="2026"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🚀 zBLD Plus for Enterprise - DNS Big Data]]></title>
-        <id>https://openbld.net/ru/blog/zbld-enterprise-and-clickhouse-big-data/</id>
-        <link href="https://openbld.net/ru/blog/zbld-enterprise-and-clickhouse-big-data/"/>
-        <updated>2026-07-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD Plus for Enterprise - DNS Big Data with ClickHouse and zBLD.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="zBLD Plus for Enterprise - DNS Big Data" src="https://openbld.net/ru/assets/images/zbld-enterprise-and-clickhouse-big-data-54ddf562dea31c610afa2d5224d84f30.webp" width="1250" height="680" class="img_tFOa"></p>
-<p>The solution is available for On-Premise deployments and is designed for organizations that require detailed DNS analytics,
-full control over their data, and event storage within their own infrastructure.</p>
-<p>Centralized DNS event collection with ClickHouse and VictoriaLogs integration.</p>
-<!-- -->
-<ul>
-<li class="">centralized collection of DNS events from all zBLD instances;</li>
-<li class="">streaming data delivery to ClickHouse or VictoriaLogs;</li>
-<li class="">analytics for queried and blocked domains;</li>
-<li class="">the option to disable IP address anonymization;</li>
-<li class="">data storage and processing entirely within the customer’s infrastructure.</li>
-</ul>
-<p>ClickHouse makes it possible to process large volumes of DNS events, run queries across any time range, and generate aggregated statistics by users, nodes, domains, query types, and processing results.</p>
-<p>This is the next step in the evolution of DNS cybersecurity.</p>
-<p><strong>zBLD Plus for Enterprise is offered as an On-Premise solution for organizations.</strong></p>
-<p>For individual users and the wider community, <strong>OpenBLD Public DNS is available free of charge:</strong></p>
-<p><a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">https://openbld.net/</a></p>
-<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/ru/blog/zbld-enterprise-and-clickhouse-big-data/#updates" class="hash-link" aria-label="Прямая ссылка на Updates" title="Прямая ссылка на Updates" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="zbld" term="zbld"/>
-        <category label="enterprise" term="enterprise"/>
-        <category label="plus" term="plus"/>
         <category label="2026" term="2026"/>
     </entry>
 </feed>
