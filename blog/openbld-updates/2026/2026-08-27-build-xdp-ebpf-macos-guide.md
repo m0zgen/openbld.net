@@ -1512,6 +1512,10 @@ On GitHub, you can find the complete source code for this guide at:
 
 - https://github.com/m0zgen/ebpf-xdp-demo
 
+## Builds with Apple containers
+
+- [eBPF/XDP on macOS with Apple container](2026-09-03-build-xdp-ebpf-macos-guide-via-container.md)
+
 #### Follow OpenBLD
 
 - Official [Telegram](https://t.me/openbld)
