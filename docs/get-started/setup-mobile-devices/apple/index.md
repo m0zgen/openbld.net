@@ -8,7 +8,7 @@ To block ads and tracking on Apple devices, you need to install a DNS profile.
 
 Setup OpenBLD.net on iOS, iPadOS
 
-1. Open `Safari` and **Allow** download ADA iOS/macOS [profile](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v5-21.mobileconfig)
+1. Open `Safari` and **Allow** download ADA iOS/macOS [OpenBLD-DoH-v15-3](profiles/OpenBLD-DoH-v15-3.mobileconfig) profile:
 
 ![Download OpenBLD Network iOS, iPad, macOS profile](./figure1-download-openbld-profile.webp)
 
@@ -53,5 +53,13 @@ _**Profile Downloaded. Review the profile in the Settings app if you want to ins
 
 :::tip
 ### RIC Profile
-If you want to use RIC, you need to download [RIC profile](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-RIC-v24-2.mobileconfig) and install it in the same way as the ADA profile.
+If you want to use RIC, you need to download [OpenBLD-RIC-DoH-v15-3](profiles/OpenBLD-RIC-DoH-v15-3.mobileconfig) and install it in the same way as the ADA profile.
 :::
+
+## Experiments
+
+DoH, DoT profiles for ADA with new Apple mobile config formats:
+
+- OpenBLD ADA DoH profile - Download [OpenBLD-DoH-v15-3](profiles/OpenBLD-DoH-v15-3.mobileconfig)
+- OpenBLD ADA DoT profile - Download [OpenBLD-DoT-v15-3](profiles/OpenBLD-DoT-v15-3.mobileconfig)
+- OpenBLD KID DoT profile - Download [OpenBLD-KID-DoT-v15-3](profiles/OpenBLD-KID-DoT-v15-3.mobileconfig)

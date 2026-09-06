@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>TLS</string>
+
+                <key>ServerName</key>
+                <string>ada.openbld.net</string>
+            </dict>
+
+            <key>PayloadDescription</key>
+            <string>Configures device to use OpenBLD.net ADA 15-3 Encrypted DNS over TLS</string>
+
+            <key>PayloadDisplayName</key>
+            <string>OpenBLD.net ADA 15-3 DNS over TLS</string>
+
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.openbld.ada.dot</string>
+
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+
+            <key>PayloadUUID</key>
+            <string>F218AB47-DFB4-4B4B-BE16-EB906E38BC42</string>
+
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+
+            <key>ProhibitDisablement</key>
+            <false/>
+        </dict>
+    </array>
+
+    <key>PayloadDescription</key>
+    <string>Configures OpenBLD.net ADA 15-3 encrypted DNS over TLS on Apple devices</string>
+
+    <key>PayloadDisplayName</key>
+    <string>OpenBLD.net ADA 15-3 DNS over TLS</string>
+
+    <key>PayloadIdentifier</key>
+    <string>net.openbld.ada.dot</string>
+
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+
+    <key>PayloadScope</key>
+    <string>System</string>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+
+    <key>PayloadUUID</key>
+    <string>1F893737-BB82-4B2F-A683-6DC4395A4CB2</string>
+
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
