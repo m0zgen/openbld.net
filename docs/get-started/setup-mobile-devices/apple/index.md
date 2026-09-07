@@ -8,7 +8,7 @@ To block ads and tracking on Apple devices, you need to install a DNS profile.
 
 Setup OpenBLD.net on iOS, iPadOS
 
-1. Open `Safari` and **Allow** download ADA iOS/macOS [OpenBLD-DoH-v15-3](pathname:///profiles/OpenBLD-DoH-v15-3.mobileconfig) profile:
+1. Open `Safari` and **Allow** download ADA iOS/macOS [profile](pathname:///profiles/OpenBLD-DoH-v15-3.mobileconfig):
 
 ![Download OpenBLD Network iOS, iPad, macOS profile](./figure1-download-openbld-profile.webp)
 
@@ -53,7 +53,7 @@ _**Profile Downloaded. Review the profile in the Settings app if you want to ins
 
 :::tip
 ### RIC Profile
-If you want to use RIC, you need to download [OpenBLD-RIC-DoH-v15-3](pathname:///profiles/OpenBLD-RIC-DoH-v15-3.mobileconfig) and install it in the same way as the ADA profile.
+If you want to use RIC, you need to download [profile](pathname:///profiles/OpenBLD-RIC-DoH-v15-3.mobileconfig) and install it in the same way as the ADA profile.
 :::
 
 ## Experiments

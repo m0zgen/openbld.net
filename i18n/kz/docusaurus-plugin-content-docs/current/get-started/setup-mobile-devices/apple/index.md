@@ -8,7 +8,7 @@ Apple құралдарында жарнаманы және бақылауды б
 
 iOS, iPadOS және macOS-та OpenBLD.net баптау
 
-1. `Safari` ашыңыз және ADA iOS/macOS [профиль](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v5-21.mobileconfig)
+1. `Safari` ашыңыз және ADA iOS/macOS [профиль](pathname:///profiles/OpenBLD-DoH-v15-3.mobileconfig)
 
 ![Download OpenBLD Network iOS, iPad, macOS profile](./figure1-download-openbld-profile.jpg)
 
@@ -47,5 +47,5 @@ _**Профиль көшірілді. Егер оны орнатуды қала�
 
 :::tip
 ### RIC Профиль
-Егер сіз RIC пайдалануды қалайтын болсаңыз, сіз [профиль RIC](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-RIC-v24-2.mobileconfig) жүктеп алуыңыз және оны ADA профиль секілді орнатуыңыз қажет.
+Егер сіз RIC пайдалануды қалайтын болсаңыз, сіз [профиль RIC](pathname:///profiles/OpenBLD-RIC-DoH-v15-3.mobileconfig) жүктеп алуыңыз және оны ADA профиль секілді орнатуыңыз қажет.
 :::

@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Настройка OpenBLD.net на iOS, iPadOS и macOS
 
-1. Откройте `Safari` и **Разрешите** скачать ADA iOS/macOS [профиль](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-ADA-v5-21.mobileconfig)
+1. Откройте `Safari` и **Разрешите** скачать ADA iOS/macOS [профиль](pathname:///profiles/OpenBLD-DoH-v15-3.mobileconfig)
 
 ![Download OpenBLD Network iOS, iPad, macOS profile](./figure1-download-openbld-profile.jpg)
 
@@ -51,5 +51,5 @@ _**Профиль скачан. Проверьте профиль в прило�
 
 :::tip
 ### RIC Профиль
-Если вы хотите использовать RIC, вам нужно скачать [профиль RIC](https://raw.githubusercontent.com/m0zgen/openbld.net/master/docs/get-started/setup-mobile-devices/apple/OpenBLD.net-RIC-v24-2.mobileconfig) и установить его так же, как и ADA профиль.
+Если вы хотите использовать RIC, вам нужно скачать [профиль RIC](pathname:///profiles/OpenBLD-RIC-DoH-v15-3.mobileconfig) и установить его так же, как и ADA профиль.
 :::
