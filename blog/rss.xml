@@ -4,10 +4,34 @@
         <title>OpenBLD.net Blog</title>
         <link>https://openbld.net/blog/</link>
         <description>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</description>
-        <lastBuildDate>Thu, 03 Sep 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[↗ OpenBLD Updated DNS DoH/DoT Apple Profiles]]></title>
+            <link>https://openbld.net/blog/openbld-up-dns-doh-dot-apple-profiles/</link>
+            <guid>https://openbld.net/blog/openbld-up-dns-doh-dot-apple-profiles/</guid>
+            <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OpenBLD upgraded ADA and RIC Apple configuration profiles to v15.3, improving DNS-over-HTTPS and DNS-over-TLS support for iOS, iPadOS, and macOS devices.]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD Up DNS DoH/DoT Apple Profiles" src="https://openbld.net/assets/images/openbld-up-dns-doh-dot-apple-profiles-d179a90d4c0246988ddb977751457ab4.webp" width="1250" height="680" class="img_tFOa"></p>
+<p>New ADA and RIC Apple configuration profiles have been released, version <code>15.3</code>, improving DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT) support for iOS, iPadOS, and macOS devices.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="how-to-install-apple-dns-profiles">How to install Apple DNS profiles<a href="https://openbld.net/blog/openbld-up-dns-doh-dot-apple-profiles/#how-to-install-apple-dns-profiles" class="hash-link" aria-label="Direct link to How to install Apple DNS profiles" title="Direct link to How to install Apple DNS profiles" translate="no">​</a></h2>
+<p>Profiles tested and compatible with latest iOS, iPadOS, and macOS releases (tested on macOS Tahoe 26.5.2 and iOS 26.6.1).</p>
+<p>Follow instructions in the <a class="" href="https://openbld.net/docs/get-started/setup-mobile-devices/apple/">Apple Devices Setup Guide</a> to install the new profiles.</p>
+<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/blog/openbld-up-dns-doh-dot-apple-profiles/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
+</ul>]]></content:encoded>
+            <category>updates</category>
+            <category>apple</category>
+            <category>doh</category>
+            <category>dot</category>
+            <category>dns</category>
+            <category>profiles</category>
+            <category>2026</category>
+        </item>
         <item>
             <title><![CDATA[↗ eBPF/XDP on macOS with Apple container]]></title>
             <link>https://openbld.net/blog/build-xdp-ebpf-macos-guide-via-container/</link>
@@ -767,29 +791,6 @@ They differ in privacy policies, filtering capabilities, DNSSEC support, encrypt
 <p>We are glad that OpenBLD is now one of those choices - representing an independent DNS project from 🇰🇿 Kazakhstan.</p>
 <p><strong>The internet starts with DNS. And it is good to have a choice.</strong></p>
 <h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/blog/openbld-public-dns-resolver-guide/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
-</ul>]]></content:encoded>
-            <category>openbld</category>
-            <category>updates</category>
-            <category>2026</category>
-        </item>
-        <item>
-            <title><![CDATA[🇰🇿 OpenBLD on Onehost.kz VPS NVMe SSD in Kazakhstan]]></title>
-            <link>https://openbld.net/blog/openbld-onehost-kazakhstan-2026/</link>
-            <guid>https://openbld.net/blog/openbld-onehost-kazakhstan-2026/</guid>
-            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[OpenBLD on Onehost.kz VPS with NVMe SSD in Kazakhstan.]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD, Onehost.kz 2026" src="https://openbld.net/assets/images/openbld-onehost-almaty-next2-99a247ed760aa8b6fd52eb82ff550197.webp" width="1250" height="680" class="img_tFOa"></p>
-<p>Under the hood: <strong>IPv6, AMD EPYC™, DDR4, NVMe SSD storage, and a high-speed network</strong>. A strong candidate for passing <strong>OpenBLD’s stress test</strong>.</p>
-<p>Last year, <a href="https://onehost.kz/" target="_blank" rel="noopener noreferrer" class="">Onehost.kz</a> supported the OpenBLD project by providing a VPS server in Almaty.
-Since then, the infrastructure has demonstrated stable <strong>99.99% uptime</strong>, with no noticeable overselling or system freezes.</p>
-<!-- -->
-<p>The server in Almaty is now part of the OpenBLD infrastructure, handling a portion of DNS traffic from <strong>Almaty, Kazakhstan, and the wider CIS region</strong>.</p>
-<p>Today, <strong><a href="https://onehost.kz/" target="_blank" rel="noopener noreferrer" class="">Onehost.kz</a> offers reliable service</strong>, reasonable pricing, and solid infrastructure quality.</p>
-<p><strong>OpenBLD <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">provides</a> secure DNS</strong> protection against malware and other unwanted resources.</p>
-<p>Enjoy the stability 🚀</p>
-<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/blog/openbld-onehost-kazakhstan-2026/#updates" class="hash-link" aria-label="Direct link to Updates" title="Direct link to Updates" translate="no">​</a></h4>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
 </ul>]]></content:encoded>

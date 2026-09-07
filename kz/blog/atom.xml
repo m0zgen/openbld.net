@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://openbld.net/kz/blog/</id>
     <title>OpenBLD.net Blog</title>
-    <updated>2026-09-03T00:00:00.000Z</updated>
+    <updated>2026-09-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://openbld.net/kz/blog/"/>
     <subtitle>OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.</subtitle>
     <icon>https://openbld.net/kz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[↗ OpenBLD Updated DNS DoH/DoT Apple Profiles]]></title>
+        <id>https://openbld.net/kz/blog/openbld-up-dns-doh-dot-apple-profiles/</id>
+        <link href="https://openbld.net/kz/blog/openbld-up-dns-doh-dot-apple-profiles/"/>
+        <updated>2026-09-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenBLD upgraded ADA and RIC Apple configuration profiles to v15.3, improving DNS-over-HTTPS and DNS-over-TLS support for iOS, iPadOS, and macOS devices.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD Up DNS DoH/DoT Apple Profiles" src="https://openbld.net/kz/assets/images/openbld-up-dns-doh-dot-apple-profiles-d179a90d4c0246988ddb977751457ab4.webp" width="1250" height="680" class="img_tFOa"></p>
+<p>New ADA and RIC Apple configuration profiles have been released, version <code>15.3</code>, improving DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT) support for iOS, iPadOS, and macOS devices.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="how-to-install-apple-dns-profiles">How to install Apple DNS profiles<a href="https://openbld.net/kz/blog/openbld-up-dns-doh-dot-apple-profiles/#how-to-install-apple-dns-profiles" class="hash-link" aria-label="How to install Apple DNS profiles-ға тікелей сілтеме" title="How to install Apple DNS profiles-ға тікелей сілтеме" translate="no">​</a></h2>
+<p>Profiles tested and compatible with latest iOS, iPadOS, and macOS releases (tested on macOS Tahoe 26.5.2 and iOS 26.6.1).</p>
+<p>Follow instructions in the <a class="" href="https://openbld.net/kz/docs/get-started/setup-mobile-devices/apple/">Apple Devices Setup Guide</a> to install the new profiles.</p>
+<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-up-dns-doh-dot-apple-profiles/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
+<ul>
+<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
+</ul>]]></content>
+        <author>
+            <name>Yevgeniy Goncharov</name>
+            <uri>https://github.com/m0zgen</uri>
+        </author>
+        <category label="updates" term="updates"/>
+        <category label="apple" term="apple"/>
+        <category label="doh" term="doh"/>
+        <category label="dot" term="dot"/>
+        <category label="dns" term="dns"/>
+        <category label="profiles" term="profiles"/>
+        <category label="2026" term="2026"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[↗ eBPF/XDP on macOS with Apple container]]></title>
         <id>https://openbld.net/kz/blog/build-xdp-ebpf-macos-guide-via-container/</id>
@@ -567,7 +595,7 @@ to start. Set <code>[build] rosetta = false</code>. Backups: <code>config.toml.b
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">docker run --rm \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    -v "$PWD:/src" \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    -w /src \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    xdp-builder \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    bash -c '</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        set -e</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        go generate ./...</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        file bpf_bpfel.o</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        bpftool prog dump obj bpf_bpfel.o</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        CGO_ENABLED=0 \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        GOOS=linux \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        GOARCH=amd64 \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        go build -o xdp-demo .</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">        file xdp-demo</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    '</span><br></div></code></pre></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="run-on-linux">Run on Linux<a href="https://openbld.net/kz/blog/build-xdp-ebpf-macos-guide/#run-on-linux" class="hash-link" aria-label="Run on Linux-ға тікелей сілтеме" title="Run on Linux-ға тікелей сілтеме" translate="no">​</a></h2>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ./xdp-demo eth0</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="inspect-the-attachment">Inspect the Attachment<a href="https://openbld.net/kz/blog/build-xdp-ebpf-macos-guide/#inspect-the-attachment" class="hash-link" aria-label="Inspect the Attachment-ға тікелей сілтеме" title="Inspect the Attachment-ға тікелей сілтеме" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="inspect-the-attachment">Inspect the Attachment<a href="https://openbld.net/kz/blog/build-xdp-ebpf-macos-guide/#inspect-the-attachment" class="hash-link" aria-label="Inspect the Attachment-ға тік�елей сілтеме" title="Inspect the Attachment-ға тікелей сілтеме" translate="no">​</a></h2>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">bpftool prog list</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">bpftool net</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">ip -details link show dev eth0</span><br></div></code></pre></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="emergency-detach">Emergency Detach<a href="https://openbld.net/kz/blog/build-xdp-ebpf-macos-guide/#emergency-detach" class="hash-link" aria-label="Emergency Detach-ға тікелей сілтеме" title="Emergency Detach-ға тікелей сілтеме" translate="no">​</a></h2>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">ip link set dev eth0 xdp off</span><br></div></code></pre></div></div>
@@ -667,7 +695,7 @@ to start. Set <code>[build] rosetta = false</code>. Backups: <code>config.toml.b
 <p>For example:</p>
 <div class="language-bash codeBlockContainer_hvY0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_g14S"><pre tabindex="0" class="prism-code language-bash codeBlock_EGYB thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_WNl5"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo systemd-run \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=PrivateTmp=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=ProtectSystem=strict \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=ProtectHome=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=NoNewPrivileges=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  --property=PrivateDevices=yes \</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  /tmp/test_binary</span><br></div></code></pre></div></div>
 <p>This is not a replacement for a container or VM when strong isolation is required, but it is extremely convenient for reducing the privileges and filesystem visibility of temporary processes.</p>
-<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="4-fire-and-forget-jobs-with-ansible">4. Fire-and-forget jobs with Ansible<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#4-fire-and-forget-jobs-with-ansible" class="hash-link" aria-label="4. Fire-and-forget jobs with Ansible-ға �тікелей сілтеме" title="4. Fire-and-forget jobs with Ansible-ға тікелей сілтеме" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_m4Qy" id="4-fire-and-forget-jobs-with-ansible">4. Fire-and-forget jobs with Ansible<a href="https://openbld.net/kz/blog/systemd-run-scheduling-sandboxing-cgroups/#4-fire-and-forget-jobs-with-ansible" class="hash-link" aria-label="4. Fire-and-forget jobs with Ansible-ға тікелей сілтеме" title="4. Fire-and-forget jobs with Ansible-ға тікелей сілтеме" translate="no">​</a></h2>
 <p>When managing multiple servers with Ansible, sometimes you need to start a long-running operation across many nodes without making the playbook wait for every process to finish.</p>
 <p>For example:</p>
 <ul>
@@ -778,33 +806,6 @@ They differ in privacy policies, filtering capabilities, DNSSEC support, encrypt
 <p>We are glad that OpenBLD is now one of those choices - representing an independent DNS project from 🇰🇿 Kazakhstan.</p>
 <p><strong>The internet starts with DNS. And it is good to have a choice.</strong></p>
 <h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-public-dns-resolver-guide/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
-<ul>
-<li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
-</ul>]]></content>
-        <author>
-            <name>Yevgeniy Goncharov</name>
-            <uri>https://github.com/m0zgen</uri>
-        </author>
-        <category label="openbld" term="openbld"/>
-        <category label="updates" term="updates"/>
-        <category label="2026" term="2026"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🇰🇿 OpenBLD on Onehost.kz VPS NVMe SSD in Kazakhstan]]></title>
-        <id>https://openbld.net/kz/blog/openbld-onehost-kazakhstan-2026/</id>
-        <link href="https://openbld.net/kz/blog/openbld-onehost-kazakhstan-2026/"/>
-        <updated>2026-08-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenBLD on Onehost.kz VPS with NVMe SSD in Kazakhstan.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="OpenBLD, Onehost.kz 2026" src="https://openbld.net/kz/assets/images/openbld-onehost-almaty-next2-99a247ed760aa8b6fd52eb82ff550197.webp" width="1250" height="680" class="img_tFOa"></p>
-<p>Under the hood: <strong>IPv6, AMD EPYC™, DDR4, NVMe SSD storage, and a high-speed network</strong>. A strong candidate for passing <strong>OpenBLD’s stress test</strong>.</p>
-<p>Last year, <a href="https://onehost.kz/" target="_blank" rel="noopener noreferrer" class="">Onehost.kz</a> supported the OpenBLD project by providing a VPS server in Almaty.
-Since then, the infrastructure has demonstrated stable <strong>99.99% uptime</strong>, with no noticeable overselling or system freezes.</p>
-<!-- -->
-<p>The server in Almaty is now part of the OpenBLD infrastructure, handling a portion of DNS traffic from <strong>Almaty, Kazakhstan, and the wider CIS region</strong>.</p>
-<p>Today, <strong><a href="https://onehost.kz/" target="_blank" rel="noopener noreferrer" class="">Onehost.kz</a> offers reliable service</strong>, reasonable pricing, and solid infrastructure quality.</p>
-<p><strong>OpenBLD <a href="https://openbld.net/" target="_blank" rel="noopener noreferrer" class="">provides</a> secure DNS</strong> protection against malware and other unwanted resources.</p>
-<p>Enjoy the stability 🚀</p>
-<h4 class="anchor anchorTargetStickyNavbar_m4Qy" id="updates">Updates<a href="https://openbld.net/kz/blog/openbld-onehost-kazakhstan-2026/#updates" class="hash-link" aria-label="Updates-ға тікелей сілтеме" title="Updates-ға тікелей сілтеме" translate="no">​</a></h4>
 <ul>
 <li class="">Official <a href="https://t.me/openbld" target="_blank" rel="noopener noreferrer" class="">Telegram</a></li>
 </ul>]]></content>
