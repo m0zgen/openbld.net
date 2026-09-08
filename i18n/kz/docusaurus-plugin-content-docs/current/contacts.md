@@ -12,13 +12,13 @@ OpenBLD Plus, пилоттық жобалар, серіктестік және �
 
 > Инфрақұрылымыңыздың ауқымы және қазіргі DNS мәселелері туралы қысқаша айтып беріңіз.
 
-- Email: [ev@do-tek.kz](mailto:ev@do-tek.kz)
-- Telegram: [@sysadminkz](https://t.me/sysadminkz)
+- Email: [ev@openbld.net](mailto:ev@openbld.net)
 
 ## Қолдау, кері байланыс және сұрақтар
 
 Техникалық сұрақтар, кері байланыс және жалпы қолдау бойынша:
 
+- Email: [support@openbld.net](mailto:support@openbld.net)
 - Telegram: [@sysadminkz](https://t.me/sysadminkz)
 
 ## Жаңалықтар мен жаңартулар

@@ -12,13 +12,13 @@ description: Свяжитесь с OpenBLD по вопросам поддерж�
 
 > Расскажите немного о масштабе вашей инфраструктуры и текущих задачах, связанных с DNS.
 
-- Email: [ev@do-tek.kz](mailto:ev@do-tek.kz)
-- Telegram: [@sysadminkz](https://t.me/sysadminkz)
+- Email: [ev@openbld.net](mailto:ev@openbld.net)
 
 ## Поддержка, отзывы и вопросы
 
 По техническим вопросам, для обратной связи и общей поддержки:
 
+- Email: [support@openbld.net](mailto:support@openbld.net)
 - Telegram: [@sysadminkz](https://t.me/sysadminkz)
 
 ## Новости и обновления

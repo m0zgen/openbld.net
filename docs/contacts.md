@@ -12,13 +12,13 @@ For OpenBLD Plus, pilot projects, partnerships, and commercial questions.
 
 > Tell me a bit about your infrastructure size and current DNS challenges.
 
-- Email: [ev@do-tek.kz](mailto:ev@do-tek.kz)
-- Telegram: [@sysadminkz](https://t.me/sysadminkz)
+- Email: [ev@openbld.net](mailto:ev@openbld.net)
 
 ## Support, Feedback & Questions
 
 For technical questions, feedback, and general support:
 
+- Email: [support@openbld.net](mailto:support@openbld.net)
 - Telegram: [@sysadminkz](https://t.me/sysadminkz)
 
 ## News & Updates
