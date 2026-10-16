@@ -5,6 +5,23 @@
     "description": "OpenBLD.net news, DNS security notes, infrastructure updates, and real-world threat insights.",
     "items": [
         {
+            "id": "https://openbld.net/blog/openbld-and-unihost-kz-2026/",
+            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"OpenBLD and Unihost.kz\" src=\"https://openbld.net/assets/images/openbld-and-unihost-kz-2026-2ba9d4d40563d17a264f4bd7a8df2efb.webp\" width=\"1250\" height=\"680\" class=\"img_tFOa\"></p>\n<p>For more than 10 years, OpenBLD and Sys-Adm.in have relied on infrastructure provided by Unihost.kz.</p>\n<!-- -->\n<p>This is the longest-running partnership in OpenBLD’s history. Reliable performance, high-quality network connectivity, and most importantly - the company’s generous, free-of-charge support helped make the launch of the public OpenBLD.net service possible.</p>\n<p>Several servers in Almaty have remained part of our infrastructure throughout this period, including a dedicated uptime monitoring node, supporting both our services and the wider OpenBLD ecosystem.</p>\n<p>More than a decade later, they are still doing their job.</p>\n<p>Thank you, Unihost.kz, for supporting OpenBLD and helping us keep the Internet a little safer 🚀</p>\n<h4 class=\"anchor anchorTargetStickyNavbar_m4Qy\" id=\"updates\">Updates<a href=\"https://openbld.net/blog/openbld-and-unihost-kz-2026/#updates\" class=\"hash-link\" aria-label=\"Direct link to Updates\" title=\"Direct link to Updates\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">Telegram</a></li>\n</ul>",
+            "url": "https://openbld.net/blog/openbld-and-unihost-kz-2026/",
+            "title": "🤝 OpenBLD and Unihost.kz 10y+ Stable Experience",
+            "summary": "OpenBLD and Sys-Adm.in have relied on infrastructure provided by Unihost.kz for over 10 years.",
+            "date_modified": "2026-10-16T00:00:00.000Z",
+            "author": {
+                "name": "Yevgeniy Goncharov",
+                "url": "https://github.com/m0zgen"
+            },
+            "tags": [
+                "openbld",
+                "unihost.kz",
+                "2026"
+            ]
+        },
+        {
             "id": "https://openbld.net/blog/openbld-up-dns-doh-dot-apple-profiles/",
             "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"OpenBLD Up DNS DoH/DoT Apple Profiles\" src=\"https://openbld.net/assets/images/openbld-up-dns-doh-dot-apple-profiles-d179a90d4c0246988ddb977751457ab4.webp\" width=\"1250\" height=\"680\" class=\"img_tFOa\"></p>\n<p>New ADA and RIC Apple configuration profiles have been released, version <code>15.3</code>, improving DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT) support for iOS, iPadOS, and macOS devices.</p>\n<!-- -->\n<h2 class=\"anchor anchorTargetStickyNavbar_m4Qy\" id=\"how-to-install-apple-dns-profiles\">How to install Apple DNS profiles<a href=\"https://openbld.net/blog/openbld-up-dns-doh-dot-apple-profiles/#how-to-install-apple-dns-profiles\" class=\"hash-link\" aria-label=\"Direct link to How to install Apple DNS profiles\" title=\"Direct link to How to install Apple DNS profiles\" translate=\"no\">​</a></h2>\n<p>Profiles tested and compatible with latest iOS, iPadOS, and macOS releases (tested on macOS Tahoe 26.5.2 and iOS 26.6.1).</p>\n<p>Follow instructions in the <a class=\"\" href=\"https://openbld.net/docs/get-started/setup-mobile-devices/apple/\">Apple Devices Setup Guide</a> to install the new profiles.</p>\n<h4 class=\"anchor anchorTargetStickyNavbar_m4Qy\" id=\"updates\">Updates<a href=\"https://openbld.net/blog/openbld-up-dns-doh-dot-apple-profiles/#updates\" class=\"hash-link\" aria-label=\"Direct link to Updates\" title=\"Direct link to Updates\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">Telegram</a></li>\n</ul>",
             "url": "https://openbld.net/blog/openbld-up-dns-doh-dot-apple-profiles/",
@@ -87,23 +104,6 @@
                 "systemd",
                 "Linux",
                 "Tips & Tricks",
-                "2026"
-            ]
-        },
-        {
-            "id": "https://openbld.net/blog/openbld-public-dns-resolver-guide/",
-            "content_html": "<p><img decoding=\"async\" loading=\"lazy\" alt=\"OpenBLD in the Independent DNS Resolver Guide\" src=\"https://openbld.net/assets/images/openbld-and-evilbit-2-8d14779df68629866b52f2e46ce740b0.webp\" width=\"1250\" height=\"703\" class=\"img_tFOa\"></p>\n<p>Choosing a public DNS resolver today is about much more than picking between Google and Cloudflare.</p>\n<p>There are dozens of public DNS services: global and regional providers, commercial services, non-profits, and community-run projects.\nThey differ in privacy policies, filtering capabilities, DNSSEC support, encrypted DNS protocols, infrastructure locations, and logging practices.</p>\n<p><em>Comparing all of them can be difficult.</em></p>\n<!-- -->\n<p>This is where the <a href=\"https://evilbit.de/dns-resolver-guide.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">EvilBit DNS Resolver Guide</a> comes in - an independent online guide for choosing a public DNS resolver.</p>\n<p>The guide brings together public DNS providers from different countries and jurisdictions and makes it easier to compare their features, supported protocols, filtering options, DNSSEC and IPv6 support, logging policies, and other characteristics.</p>\n<p>It also includes an interactive resolver selector and latency testing for supported DNS-over-HTTPS services.</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_m4Qy\" id=\"openbld-is-now-listed\">OpenBLD is now listed<a href=\"https://openbld.net/blog/openbld-public-dns-resolver-guide/#openbld-is-now-listed\" class=\"hash-link\" aria-label=\"Direct link to OpenBLD is now listed\" title=\"Direct link to OpenBLD is now listed\" translate=\"no\">​</a></h2>\n<p>OpenBLD has recently been added to the DNS Resolver Guide.</p>\n<p>The project is listed under <strong>Smaller, community-run, and regional resolvers</strong>, alongside other independent and regional DNS services.</p>\n<p>That feels like a natural place for OpenBLD.</p>\n<p>OpenBLD is an independent community-run project from 🇰🇿 Kazakhstan, providing a free protective public DNS service with several filtering profiles.</p>\n<p>The guide describes OpenBLD as offering ADA and RIC profiles, ad, tracker, and malware filtering, URLhaus threat intelligence, DoH, DoT, and DNSSEC support.</p>\n<p>Beyond external threat intelligence such as URLhaus, OpenBLD also uses its own zBLD detection mechanisms to identify suspicious DGA-generated domains in real time.</p>\n<p>The infrastructure also includes IP anonymization in DNS logs and statistics.</p>\n<p>The free public service is rate-limited to approximately 100,000 DNS queries per day per user.</p>\n<p>In August 2026 alone, the OpenBLD public DNS infrastructure has processed more than <strong>6 billion DNS queries</strong> — with live statistics <a class=\"\" href=\"https://openbld.net/#live-stats\">available</a> on the OpenBLD website.</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_m4Qy\" id=\"why-independent-dns-directories-matter\">Why independent DNS directories matter<a href=\"https://openbld.net/blog/openbld-public-dns-resolver-guide/#why-independent-dns-directories-matter\" class=\"hash-link\" aria-label=\"Direct link to Why independent DNS directories matter\" title=\"Direct link to Why independent DNS directories matter\" translate=\"no\">​</a></h2>\n<p>There is no single DNS resolver that is best for everyone.</p>\n<p>For one user, latency may be the most important factor. For another, it may be logging policy or jurisdiction.</p>\n<p>Others may care about malware and phishing protection, family filtering, DNSSEC, encrypted DNS, or how close the resolver infrastructure is to them.</p>\n<p>Independent directories and comparison projects are useful because they do not have to decide which DNS provider is “the right one” for you.</p>\n<p>They give you the information needed to make your own choice.</p>\n<p>We are glad that OpenBLD is now one of those choices - representing an independent DNS project from 🇰🇿 Kazakhstan.</p>\n<p><strong>The internet starts with DNS. And it is good to have a choice.</strong></p>\n<h4 class=\"anchor anchorTargetStickyNavbar_m4Qy\" id=\"updates\">Updates<a href=\"https://openbld.net/blog/openbld-public-dns-resolver-guide/#updates\" class=\"hash-link\" aria-label=\"Direct link to Updates\" title=\"Direct link to Updates\" translate=\"no\">​</a></h4>\n<ul>\n<li class=\"\">Official <a href=\"https://t.me/openbld\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">Telegram</a></li>\n</ul>",
-            "url": "https://openbld.net/blog/openbld-public-dns-resolver-guide/",
-            "title": "↗ OpenBLD in the Independent DNS Resolver Guide",
-            "summary": "OpenBLD is now listed in the independent DNS Resolver Guide, a directory of public DNS providers with filtering, protocol, privacy, and resolver comparison details.",
-            "date_modified": "2026-08-25T00:00:00.000Z",
-            "author": {
-                "name": "Yevgeniy Goncharov",
-                "url": "https://github.com/m0zgen"
-            },
-            "tags": [
-                "openbld",
-                "updates",
                 "2026"
             ]
         }
